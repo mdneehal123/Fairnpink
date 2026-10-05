@@ -399,7 +399,7 @@ POL = [
         <h2>Where we deliver</h2><p>We deliver across India.</p>
         <h2>Dispatch</h2><p>Orders are dispatched within 24 hours, except on Sundays and national holidays.</p>
         <h2>Delivery time</h2><p>Parcels are delivered in 3 to 7 working days from dispatch, depending on your pincode.</p>
-        <h2>Shipping charges</h2><p>Shipping is free on prepaid orders.</p>
+        <h2>Shipping charges</h2><p>Shipping is free on orders paid online. Cash on Delivery orders are charged the regular pack price shown on the site, with no extra delivery or handling fee. The total you see before you confirm is the total you pay.</p>
         <h2>Tracking</h2><p>Message us on WhatsApp with the name and mobile number on your order and we will send you the tracking details.</p>'''),
     ('/refund-policy/', 'Cancellation and refund policy', 'Cancellation and refunds', 'When you can cancel, and what happens if a parcel arrives damaged.', '''
         <h2>Cancellation</h2><p>You can cancel an order at any time before it is shipped. Message us on WhatsApp with the name and mobile number on the order.</p>
@@ -411,12 +411,14 @@ POL = [
         <h2>How we use it</h2><p>We use these details only to process and deliver your order and to reply to your messages.</p>
         <h2>Who we share it with</h2><p>We share your details only with the courier and payment partners needed to complete your order. We do not sell your information.</p>
         <h2>Payments</h2><p>Online payments are processed by Razorpay, a licensed payment gateway, and we do not see or store your card or bank details. UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
+        <h2>Cookies and advertising</h2><p>This site uses the Google tag to measure visits and to record when an order placed after clicking one of our Google ads is completed. Google may set cookies in your browser for this purpose. We do not send Google your name, phone number or address. You can control ad personalisation in your Google account at adssettings.google.com, and you can block cookies in your browser settings.</p>
         <h2>Your choices</h2><p>To have your details removed from our records, message us on WhatsApp.</p>'''),
     ('/terms/', 'Terms and conditions', 'Terms', 'The terms that apply when you order from fairnpink.in.', '''
         <h2>The product</h2><p>Fair N Pink Advance Radiance Cream is a cosmetic product, not a medicine. Results vary from person to person. Please patch test before use.</p>
         <h2>Prices</h2><p>Prices are in Indian rupees and include all taxes. The online payment saving shown on the site applies when the order is paid in full online at the time of ordering.</p>
         <h2>Orders</h2><p>An online order is confirmed when your payment succeeds and you see the payment ID. A Cash on Delivery order is confirmed when we reply to your WhatsApp message.</p>
         <h2>Cash on Delivery</h2><p>Cash on Delivery orders are payable in full to the courier at the time of delivery.</p>
+        <h2>Seller</h2><p>Orders on fairnpink.in are sold and shipped by ''' + OWNER + ''', ''' + ADDR + '''.</p>
         <h2>Other policies</h2><p>See the <a href="/shipping-policy/">shipping policy</a>, the <a href="/refund-policy/">cancellation and refund policy</a> and the <a href="/privacy-policy/">privacy policy</a>.</p>'''),
 ]
 for path, h1, crumb, lead, inner in POL:

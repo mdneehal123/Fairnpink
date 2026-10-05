@@ -1,10 +1,8 @@
 (function(){
   var WA_NUMBER='919980881230'; /* business WhatsApp number with country code, digits only, e.g. 9198XXXXXXXX */
   var ADS_SEND_TO='AW-18495856180/xokwCNXZgpIdELS8wfNE'; /* Google Ads conversion, e.g. AW-18495856180/AbCdEfGh. Empty = not tracked yet */
-  var UPI_ID='mdneehal-2@okaxis';
-  var UPI_NAME='mohammed nihal';
   var UPI_OFF={1:100,2:150,3:250};
-  var RZP=false; /* true once the server reports that online payment is switched on */
+  var RZP=true; /* online payment through Razorpay */
   var PACKS={1:{price:999,was:999},2:{price:1899,was:1998},3:{price:2699,was:2997}}, qty=1;
   var panel=document.getElementById('order-panel');
   var line=document.getElementById('order-line'), barTotal=document.getElementById('bar-total'), barQty=document.getElementById('bar-qty');
@@ -50,18 +48,8 @@
   function orderLink(){
     var p=PACKS[qty];
     var upi=document.getElementById('pay-upi').checked, total=upi?p.price-UPI_OFF[qty]:p.price;
-    var box=document.getElementById('upi-box'); box.hidden=!upi||RZP;
-    if(!sendBtn.dataset.busy){sendBtn.textContent=(upi&&RZP)?'Pay '+rupees(total)+' securely':'Send order on WhatsApp';}
-    if(upi){
-      document.getElementById('upi-amt').textContent=rupees(total);
-      var open=document.getElementById('upi-open'), idLine=document.getElementById('upi-id-line');
-      var link='upi://pay?pa='+encodeURIComponent(UPI_ID)+'&pn='+encodeURIComponent(UPI_NAME)+'&am='+total+'.00&cu=INR&tn='+encodeURIComponent('Fair N Pink Pack of '+qty);
-      open.href=link;
-      idLine.innerHTML='Scan with any UPI app and enter <b></b> as the amount. UPI ID: <code></code>';
-      idLine.querySelector('b').textContent=rupees(total);
-      idLine.querySelector('code').textContent=UPI_ID;
-    }
-    var msg='New order: Fair N Pink Advance Radiance Cream\nPack of '+qty+'\nPayment: '+(upi?'UPI or Google Pay (paid, screenshot attached)':'Cash on Delivery')+'\nTotal: '+rupees(total)+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
+    if(!sendBtn.dataset.busy){sendBtn.textContent=upi?'Pay '+rupees(total)+' securely':'Send order on WhatsApp';}
+    var msg='New order: Fair N Pink Advance Radiance Cream\nPack of '+qty+'\nPayment: Cash on Delivery'+'\nTotal: '+rupees(total)+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     sendBtn.href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
   }
   Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
@@ -124,14 +112,6 @@
   function show(){}
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
   render();
-  if(window.fetch){fetch('/api/config').then(function(r){return r.ok?r.json():{};}).then(function(c){
-    if(!c||!c.razorpay){return;}
-    RZP=true;
-    var lab=document.querySelector('label[for="pay-upi"] span');if(lab&&lab.firstChild){lab.firstChild.nodeValue='Pay online: UPI, cards, netbanking';}
-    var up=document.getElementById('upi-line');if(up&&up.firstChild){up.firstChild.nodeValue='Pay online and save ';}
-    var intro=panel.querySelectorAll('p')[1];if(intro){intro.textContent='Fill in your delivery details and choose how to pay. Online payments are processed securely by Razorpay.';}
-    orderLink();
-  }).catch(function(){});}
   var eta=document.getElementById('eta-line');
   function addWorkingDays(from,n){var d=new Date(from.getTime());while(n>0){d.setDate(d.getDate()+1);if(d.getDay()!==0){n=n-1;}}return d;}
   if(eta){var dispatch=addWorkingDays(new Date(),1),first=addWorkingDays(dispatch,3),last=addWorkingDays(dispatch,7),fmt={day:'numeric',month:'short'};

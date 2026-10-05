@@ -32,7 +32,7 @@
           </div>
           <div class="panel" id="order-panel" hidden>
             <p><b id="order-line">Pack of 1 · ₹999</b></p>
-            <p style="color:var(--muted);margin:4px 0 14px">Fill in your delivery details and choose how to pay. For UPI, scan the code, pay, and send us the payment screenshot with your order on WhatsApp.</p>
+            <p style="color:var(--muted);margin:4px 0 14px">Fill in your delivery details and choose how to pay. Online payments are processed securely by Razorpay.</p>
             <form id="order-form" class="oform" novalidate>
               <label for="of-name">Full name</label><input id="of-name" type="text" autocomplete="name" required>
               <label for="of-phone">Mobile number</label><input id="of-phone" type="tel" inputmode="numeric" autocomplete="tel" required>
@@ -43,18 +43,9 @@
                 <label for="pay-upi"><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>Pay online: UPI, cards, netbanking<small>You save <b id="pay-save">₹100</b></small></span><b id="pay-upi-amt">₹899</b></label>
                 <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small>Pay when it arrives</small></span><b id="pay-cod-amt">₹999</b></label>
               </fieldset>
-              <div id="upi-box" class="upibox">
-                <div id="upi-qr" class="upiqr"><img src="/assets/upi-qr.png" alt="UPI QR code for payment to mdneehal-2@okaxis" width="520" height="520"></div>
-                <div class="upitxt">
-                  <p><b>Scan and pay <span id="upi-amt">₹899</span></b></p>
-                  <p id="upi-id-line">Open any UPI app, scan this code and pay the amount shown.</p>
-                  <a id="upi-open" class="upiopen" href="#">Open UPI app on this phone</a>
-                  <p class="upistep">After paying, take a screenshot of the payment. Then tap the button below and attach the screenshot in WhatsApp.</p>
-                </div>
-              </div>
               <p class="oerr" id="order-error" role="alert" hidden></p>
               <a class="btn" id="order-send" href="https://wa.me/919980881230" target="_blank" rel="noopener">Send order on WhatsApp</a>
-              <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order. Nothing is charged on this page. See our <a href="#policies">privacy policy</a>.</p>
+              <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order. You are charged only after you approve the payment in the Razorpay window. See our <a href="#policies">privacy policy</a>.</p>
             </form>
           </div>
           <p id="eta-line" style="margin:0;font-weight:600;font-size:.95rem">Delivered in 3 to 7 working days.</p>

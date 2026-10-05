@@ -69,7 +69,7 @@ ARTICLES = [
      'Glutathione Cream for Face: Uses, Results and How to Use It',
      'What a glutathione face cream is, what it is used for, how long it takes, how to use it with sunscreen, and what to check before you buy one.',
      'Ingredients', 'What glutathione is, why it is in face creams and what to expect.', '''
-        <p>Glutathione is an antioxidant that the body makes on its own from three amino acids. In skincare it appears in creams made for brighter-looking skin, which is why it is one of the most searched ingredients in India.</p>
+        <p>Glutathione is an antioxidant that the body makes on its own from three amino acids. In skincare it appears in creams made for brighter-looking skin, and it is a common ingredient in face creams sold in India.</p>
         <h2>What a glutathione cream is used for</h2>
         <p>People use glutathione creams to help dull, tired-looking skin look brighter and more even. In most creams it is paired with other ingredients. In <a href="/">Fair N Pink Advance Radiance Cream</a> it sits alongside niacinamide and alpha arbutin.</p>
         <h2>What it cannot do</h2>
@@ -120,7 +120,7 @@ ARTICLES = [
         <h2>3. A cream with proven ingredients</h2>
         <p>Look for niacinamide and alpha arbutin, which are used to help skin look more even and to reduce the look of dark spots. <a href="/">Fair N Pink Advance Radiance Cream</a> contains both, with glutathione. Apply a pea-sized amount twice a day.</p>
         <h2>4. Hands off</h2>
-        <p>Do not pick or squeeze pimples. Most marks left after acne come from picking.</p>
+        <p>Do not pick or squeeze pimples. Picking is a common cause of the marks left after acne.</p>
         <h2>How long will it take?</h2>
         <p>Expect four to eight weeks before you can see a difference, and longer for older or deeper marks. Take a photo on day one in daylight and compare in the same light a month later. Some spots may not change with cosmetics at all.</p>
         <h2>What to avoid</h2>
