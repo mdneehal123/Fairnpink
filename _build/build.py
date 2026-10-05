@@ -17,6 +17,8 @@ WA = '919980881230'
 WA_SHOW = '+91 99808 81230'
 IG = 'https://www.instagram.com/fairnpinkprofessional/'
 NET = '10 g'
+OWNER = 'Beauty Mart Pvt Ltd'
+ADDR = 'Azad Nagar 4th Cross, near Anfa Park, Bhatkal, Uttara Kannada, Karnataka 581320, India'
 ACTIVES = [
     ('L-Glutathione', 'An antioxidant used in creams made for brighter-looking skin.'),
     ('Niacinamide', 'Vitamin B3. Helps skin look smoother and more even.'),
@@ -44,7 +46,8 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
     foot = ''.join('<a href="%s">%s</a>' % (h, t) for h, t in FOOT)
     graph = [{
         '@type': 'Organization', '@id': SITE + '/#org', 'name': 'Fair N Pink', 'url': SITE + '/',
-        'logo': SITE + '/assets/icon.svg', 'sameAs': [IG],
+        'logo': SITE + '/assets/icon.svg', 'sameAs': [IG], 'legalName': OWNER,
+        'address': {'@type': 'PostalAddress', 'streetAddress': 'Azad Nagar 4th Cross, near Anfa Park', 'addressLocality': 'Bhatkal', 'addressRegion': 'Karnataka', 'postalCode': '581320', 'addressCountry': 'IN'},
         'contactPoint': {'@type': 'ContactPoint', 'telephone': '+' + WA, 'contactType': 'customer service', 'areaServed': 'IN'}
     }, {
         '@type': 'WebSite', '@id': SITE + '/#site', 'url': SITE + '/', 'name': 'Fair N Pink', 'publisher': {'@id': SITE + '/#org'}
@@ -101,6 +104,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
   <footer>
     <nav class="foot-nav" aria-label="Footer">%(foot)s</nav>
     <p>WhatsApp: <a href="https://wa.me/%(wa)s">%(wa_show)s</a> · Instagram: <a href="%(ig)s" target="_blank" rel="noopener">@fairnpinkprofessional</a></p>
+    <p>Fair N Pink is a brand owned by %(owner)s, %(addr)s.</p>
     <p>© Fair N Pink. Results vary from person to person. This cream is a cosmetic and is not meant to treat any medical condition.</p>
   </footer>
 </div>
@@ -110,7 +114,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
 </body>
 </html>
 ''' % dict(title=title, desc=desc, url=url, site=SITE, ld=ld, nav=nav, foot=foot, body=body, wa=WA, wa_show=WA_SHOW,
-           ig=IG, svg=CHAT_SVG, bar=bar, script=script, ogtype='product' if home else 'website',
+           ig=IG, svg=CHAT_SVG, owner=OWNER, addr=ADDR, bar=bar, script=script, ogtype='product' if home else 'website',
            robots='' if index else '<meta name="robots" content="noindex">\n',
            chat=wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'))
     out = os.path.join(ROOT, path.strip('/'), 'index.html') if path != '/404' else os.path.join(ROOT, '404.html')
@@ -308,7 +312,7 @@ body = top('Our story', 'About Fair N Pink', 'One cream, made to be used every d
           <h2>Plain claims</h2>
           <p>We describe the cream the way it is. It is a cosmetic that helps skin look brighter and more even with regular use and daily sunscreen. It does not change your natural skin tone, and no honest cream does. You will not find before-and-after promises on this site.</p>
           <h2>Direct from us</h2>
-          <p>fairnpink.in is the brand's own store. Orders are packed and dispatched by us within 24 hours, and you can reach a real person on WhatsApp before and after you buy.</p>
+          <p>fairnpink.in is the brand's own store, run by ''' + OWNER + ''' from Bhatkal, Karnataka. Orders are packed and dispatched by us within 24 hours, and you can reach a real person on WhatsApp before and after you buy.</p>
         </div>
       </div>
     </section>
@@ -378,7 +382,11 @@ body = top('Contact', 'Contact Fair N Pink', 'The fastest way to reach us is Wha
         <div><h3>Instagram</h3><p>@fairnpinkprofessional</p><p style="margin-top:14px"><a class="btn wa inline" href="%s" target="_blank" rel="noopener">Open Instagram</a></p></div>
       </div>
     </section>
-''' % (WA_SHOW, wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'), IG) + sec('Orders', 'About an order you placed', '', '''      <div class="prose">
+''' % (WA_SHOW, wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'), IG) + sec('Business details', 'Who we are', '', '''      <div class="prose">
+        <p>Fair N Pink is a brand owned by %s.</p>
+        <p>Address: %s.</p>
+        <p>Phone and WhatsApp: %s</p>
+      </div>''' % (OWNER, ADDR, WA_SHOW)) + sec('Orders', 'About an order you placed', '', '''      <div class="prose">
         <p>Send us the name and mobile number you ordered with, and we will check the status for you. For a damaged parcel, include a video of the package being opened, within 24 hours of delivery. See the <a href="/refund-policy/">cancellation and refund policy</a>.</p>
       </div>''')
 page('/contact/', 'Contact Fair N Pink | WhatsApp and Instagram',
