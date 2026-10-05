@@ -104,6 +104,8 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
   <footer>
     <nav class="foot-nav" aria-label="Footer">%(foot)s</nav>
     <p>WhatsApp: <a href="https://wa.me/%(wa)s">%(wa_show)s</a> · Instagram: <a href="%(ig)s" target="_blank" rel="noopener">@fairnpinkprofessional</a></p>
+    <div class="accept" aria-label="Payment methods we accept"><span class="accept-h">We accept</span><span>UPI</span><span>Debit cards</span><span>Credit cards</span><span>Netbanking</span><span>Cash on Delivery</span></div>
+    <p>Online payments are processed securely by Razorpay.</p>
     <p>Fair N Pink is a brand owned by %(owner)s, %(addr)s.</p>
     <p>© Fair N Pink. Results vary from person to person. This cream is a cosmetic and is not meant to treat any medical condition.</p>
   </footer>
@@ -352,6 +354,7 @@ FAQ = [
     ('What is Fair N Pink Advance Radiance Cream?', 'It is a face cream with glutathione, niacinamide and alpha arbutin, made for daily use, morning and night. It comes in a %s silver jar.' % NET),
     ('What is the price of Fair N Pink cream?', 'One jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
     ('Is there a discount for paying online?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
+    ('Which payment methods do you accept?', 'UPI, debit cards, credit cards and netbanking, all processed securely by Razorpay, and Cash on Delivery. Prices are in Indian rupees.'),
     ('Is Cash on Delivery available?', 'Yes. Choose Cash on Delivery in the order form and pay when the parcel arrives.'),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night. In the morning, finish with sunscreen. <a href="/how-to-use/">See the full routine</a>.'),
     ('How long does it take to show results?', 'It differs from person to person. Skin usually feels softer in the first week. Give it at least four weeks of regular use before you judge it.'),
@@ -417,6 +420,7 @@ POL = [
         <h2>The product</h2><p>Fair N Pink Advance Radiance Cream is a cosmetic product, not a medicine. Results vary from person to person. Please patch test before use.</p>
         <h2>Prices</h2><p>Prices are in Indian rupees and include all taxes. The online payment saving shown on the site applies when the order is paid in full online at the time of ordering.</p>
         <h2>Orders</h2><p>An online order is confirmed when your payment succeeds and you see the payment ID. A Cash on Delivery order is confirmed when we reply to your WhatsApp message.</p>
+        <h2>Payment methods</h2><p>We accept UPI, debit cards, credit cards and netbanking through Razorpay, and Cash on Delivery. All prices are in Indian rupees.</p>
         <h2>Cash on Delivery</h2><p>Cash on Delivery orders are payable in full to the courier at the time of delivery.</p>
         <h2>Seller</h2><p>Orders on fairnpink.in are sold and shipped by ''' + OWNER + ''', ''' + ADDR + '''.</p>
         <h2>Other policies</h2><p>See the <a href="/shipping-policy/">shipping policy</a>, the <a href="/refund-policy/">cancellation and refund policy</a> and the <a href="/privacy-policy/">privacy policy</a>.</p>'''),

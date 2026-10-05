@@ -257,3 +257,7 @@ footer{padding-block:32px 28px}
 .byline{font-size:.78rem;letter-spacing:.06em;color:var(--muted);margin-top:14px}
 @media (max-width:820px){.jlist{grid-template-columns:1fr}}
 [hidden]{display:none!important}
+.accept{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.accept span{border:1px solid var(--line);background:var(--surface);padding:5px 9px;white-space:nowrap}
+.accept .accept-h{border:0;background:none;padding:0 4px 0 0;color:var(--ink);font-weight:500}
+footer .accept{margin-bottom:12px}
