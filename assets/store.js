@@ -1,5 +1,6 @@
 (function(){
   var WA_NUMBER='919980881230'; /* business WhatsApp number with country code, digits only, e.g. 9198XXXXXXXX */
+  var ADS_SEND_TO=''; /* Google Ads conversion, e.g. AW-18495856180/AbCdEfGh. Empty = not tracked yet */
   var UPI_ID='mdneehal-2@okaxis';
   var UPI_NAME='mohammed nihal';
   var UPI_OFF={1:100,2:150,3:250};
@@ -62,7 +63,7 @@
     sendBtn.href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
   }
   Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
-  sendBtn.addEventListener('click',function(e){var p=orderProblem();if(p){e.preventDefault();err.textContent=p;err.hidden=false;}else{orderLink();}});
+  sendBtn.addEventListener('click',function(e){var p=orderProblem();if(p){e.preventDefault();err.textContent=p;err.hidden=false;}else{orderLink();if(ADS_SEND_TO&&typeof gtag==='function'){var pk=PACKS[qty],up=document.getElementById('pay-upi').checked;gtag('event','conversion',{send_to:ADS_SEND_TO,value:up?pk.price-UPI_OFF[qty]:pk.price,currency:'INR'});}}});
   document.getElementById('pay-upi').addEventListener('change',orderLink);
   document.getElementById('pay-cod').addEventListener('change',orderLink);
   document.getElementById('order-form').addEventListener('submit',function(e){e.preventDefault();});
