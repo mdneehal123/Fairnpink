@@ -117,4 +117,37 @@ async function createOrder(order) {
   return { status: 'created', shiprocket_order_id: d.order_id || null };
 }
 
-module.exports = { createOrder, settings };
+// Tracking. kind: 'order' (our order id) or 'awb'. Returns a small, customer-safe summary.
+async function track(kind, value) {
+  const s = settings();
+  if (!s) return { found: false, reason: 'off' };
+  const token = await login(s);
+  const url = kind === 'awb'
+    ? BASE + '/courier/track/awb/' + encodeURIComponent(value)
+    : BASE + '/courier/track?order_id=' + encodeURIComponent(value);
+  const r = await fetch(url, { headers: { Authorization: 'Bearer ' + token } });
+  const raw = await r.json().catch(() => null);
+  if (!r.ok || !raw) return { found: false, reason: 'lookup_failed', http: r.status };
+  // The two endpoints wrap the same data differently.
+  let t = raw;
+  if (Array.isArray(t)) t = t[0];
+  if (t && !t.tracking_data) { const k = Object.keys(t)[0]; if (t[k] && t[k].tracking_data) t = t[k]; }
+  const d = t && t.tracking_data;
+  if (!d) return { found: false, reason: 'no_data' };
+  const sh = (Array.isArray(d.shipment_track) && d.shipment_track[0]) || {};
+  const acts = Array.isArray(d.shipment_track_activities) ? d.shipment_track_activities : [];
+  if (!sh.awb_code && !acts.length) return kind === 'awb' ? { found: false, reason: 'unknown_awb' } : { found: true, shipped: false };
+  return {
+    found: true,
+    shipped: true,
+    status: String(sh.current_status || '').trim(),
+    courier: String(sh.courier_name || '').trim(),
+    awb: String(sh.awb_code || '').trim(),
+    expected: String(d.etd || sh.edd || '').trim(),
+    delivered_on: String(sh.delivered_date || '').trim(),
+    track_url: /^https:\/\//.test(String(d.track_url || '')) ? d.track_url : '',
+    events: acts.slice(0, 12).map((a) => ({ date: String(a.date || ''), text: String(a.activity || a.status || ''), place: String(a.location || '') }))
+  };
+}
+
+module.exports = { createOrder, settings, track };

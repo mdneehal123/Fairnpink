@@ -3,16 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Page not found | Fair N Pink</title>
-<meta name="description" content="This page could not be found.">
-<meta name="robots" content="noindex">
-<link rel="canonical" href="https://fairnpink.in/404">
+<title>Track Your Order | Fair N Pink</title>
+<meta name="description" content="Track your Fair N Pink order. Enter your Payment ID or courier tracking number to see whether your parcel is packed, shipped or delivered.">
+<link rel="canonical" href="https://fairnpink.in/track/">
 <meta name="theme-color" content="#FAF7F5">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Fair N Pink">
-<meta property="og:title" content="Page not found | Fair N Pink">
-<meta property="og:description" content="This page could not be found.">
-<meta property="og:url" content="https://fairnpink.in/404">
+<meta property="og:title" content="Track Your Order | Fair N Pink">
+<meta property="og:description" content="Track your Fair N Pink order. Enter your Payment ID or courier tracking number to see whether your parcel is packed, shipped or delivered.">
+<meta property="og:url" content="https://fairnpink.in/track/">
 <meta property="og:image" content="https://fairnpink.in/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
@@ -22,7 +21,7 @@
 <link rel="stylesheet" href="/assets/site.css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18495856180"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-18495856180');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://fairnpink.in/#org", "name": "Fair N Pink", "url": "https://fairnpink.in/", "logo": "https://fairnpink.in/assets/icon.svg", "sameAs": ["https://www.instagram.com/fairnpinkprofessional/"], "legalName": "Beauty Mart Pvt Ltd", "address": {"@type": "PostalAddress", "streetAddress": "Azad Nagar 4th Cross, near Anfa Park", "addressLocality": "Bhatkal", "addressRegion": "Karnataka", "postalCode": "581320", "addressCountry": "IN"}, "contactPoint": {"@type": "ContactPoint", "telephone": "+919980881230", "contactType": "customer service", "areaServed": "IN"}}, {"@type": "WebSite", "@id": "https://fairnpink.in/#site", "url": "https://fairnpink.in/", "name": "Fair N Pink", "publisher": {"@id": "https://fairnpink.in/#org"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://fairnpink.in/#org", "name": "Fair N Pink", "url": "https://fairnpink.in/", "logo": "https://fairnpink.in/assets/icon.svg", "sameAs": ["https://www.instagram.com/fairnpinkprofessional/"], "legalName": "Beauty Mart Pvt Ltd", "address": {"@type": "PostalAddress", "streetAddress": "Azad Nagar 4th Cross, near Anfa Park", "addressLocality": "Bhatkal", "addressRegion": "Karnataka", "postalCode": "581320", "addressCountry": "IN"}, "contactPoint": {"@type": "ContactPoint", "telephone": "+919980881230", "contactType": "customer service", "areaServed": "IN"}}, {"@type": "WebSite", "@id": "https://fairnpink.in/#site", "url": "https://fairnpink.in/", "name": "Fair N Pink", "publisher": {"@id": "https://fairnpink.in/#org"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://fairnpink.in/"}, {"@type": "ListItem", "position": 2, "name": "Track order", "item": "https://fairnpink.in/track/"}]}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -30,15 +29,30 @@
 <div class="wrap">
   <header class="head">
     <a class="brand" href="/">Fair N Pink</a>
-    <nav class="nav" aria-label="Main"><a href="/">Shop</a><a href="/ingredients/">Ingredients</a><a href="/how-to-use/">How to use</a><a href="/about/">Our story</a><a href="/journal/">Journal</a><a href="/track/">Track order</a><a href="/faq/">Questions</a><a href="/contact/">Contact</a></nav>
+    <nav class="nav" aria-label="Main"><a href="/">Shop</a><a href="/ingredients/">Ingredients</a><a href="/how-to-use/">How to use</a><a href="/about/">Our story</a><a href="/journal/">Journal</a><a href="/track/" aria-current="page">Track order</a><a href="/faq/">Questions</a><a href="/contact/">Contact</a></nav>
   </header>
   <main id="main">
     <div class="page-top">
-      <span class="eyebrow">Not found</span>
-      <h1>This page is not here</h1>
-      <p class="sub">The link may be old or mistyped.</p>
+      <span class="eyebrow">Your order</span>
+      <h1>Track your Fair N Pink order</h1>
+      <p class="sub">Enter your Payment ID or the courier tracking number to see where your parcel is.</p>
     </div>
-    <section><p><a class="btn inline" href="/">Go to the store</a></p></section>
+    <section>
+      <form id="track-form" class="oform track" novalidate>
+        <label for="track-id">Payment ID or tracking number</label>
+        <input id="track-id" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pay_XXXXXXXXXXXXXX" required>
+        <button type="submit" class="btn" id="track-go">Track order</button>
+      </form>
+      <div id="track-out" class="track-out" role="status" aria-live="polite" hidden></div>
+    </section>
+    <section>
+      <div class="sec-h"><span class="eyebrow">Help</span><h2>Where to find your ID</h2></div>
+      <div class="use">
+        <div><h3>Paid online</h3><p>Your Payment ID starts with <b>pay_</b>. It is shown on the confirmation screen after you pay, and in the payment SMS you receive.</p></div>
+        <div><h3>Cash on Delivery</h3><p>Use the courier tracking number we send you on WhatsApp when your parcel is dispatched.</p></div>
+      </div>
+      <p class="more"><a href="/shipping-policy/">Delivery times and shipping policy</a></p>
+    </section>
 
   </main>
   <footer>
@@ -52,6 +66,6 @@
 </div>
 <a class="chat" id="wa-chat" href="https://wa.me/919980881230?text=Hello%2C%20I%20have%20a%20question%20about%20Fair%20N%20Pink%20Advance%20Radiance%20Cream." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H10l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg><span>WhatsApp us</span></a>
 <div class="bar"><div><b>From ₹999</b><span>Advance Radiance Cream · 10 g</span></div><a class="btn" href="/#buy">Shop now</a></div>
-
+<script src="/assets/track.js" defer></script>
 </body>
 </html>

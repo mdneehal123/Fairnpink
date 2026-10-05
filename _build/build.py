@@ -28,10 +28,10 @@ ACTIVES = [
 CHAT_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H10l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>'
 
 NAV = [('/', 'Shop'), ('/ingredients/', 'Ingredients'), ('/how-to-use/', 'How to use'),
-       ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/faq/', 'Questions'), ('/contact/', 'Contact')]
+       ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/track/', 'Track order'), ('/faq/', 'Questions'), ('/contact/', 'Contact')]
 FOOT = [('/', 'Shop the cream'), ('/ingredients/', 'Ingredients'), ('/how-to-use/', 'How to use'),
         ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/original/', 'Identify the original'), ('/faq/', 'Questions'),
-        ('/contact/', 'Contact'), ('/shipping-policy/', 'Shipping'), ('/refund-policy/', 'Cancellation and refunds'),
+        ('/track/', 'Track order'), ('/contact/', 'Contact'), ('/shipping-policy/', 'Shipping'), ('/refund-policy/', 'Cancellation and refunds'),
         ('/privacy-policy/', 'Privacy'), ('/terms/', 'Terms')]
 
 
@@ -40,7 +40,7 @@ def wa_link(text):
     return 'https://wa.me/%s?text=%s' % (WA, quote(text))
 
 
-def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=True):
+def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=True, js=''):
     url = SITE + path
     nav = ''.join('<a href="%s"%s>%s</a>' % (h, ' aria-current="page"' if h == path else '', t) for h, t in NAV)
     foot = ''.join('<a href="%s">%s</a>' % (h, t) for h, t in FOOT)
@@ -64,7 +64,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
         script = '<script src="/assets/store.js" defer></script>'
     else:
         bar = '<div class="bar"><div><b>From ₹999</b><span>Advance Radiance Cream · %s</span></div><a class="btn" href="/#buy">Shop now</a></div>' % NET
-        script = ''
+        script = '<script src="/assets/%s" defer></script>' % js if js else ''
     html = '''<!doctype html>
 <html lang="en-IN">
 <head>
@@ -365,6 +365,7 @@ FAQ = [
     ('Can I use it during pregnancy?', 'If you are pregnant or breastfeeding, ask your doctor before using any new cream.'),
     ('How long does one jar last?', 'It depends on how much you apply. A pea-sized amount twice a day is enough for the face and neck.'),
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
+    ('How do I track my order?', 'Open the <a href="/track/">Track order</a> page and enter your Payment ID, which starts with pay_ and is in your payment SMS, or the courier tracking number we send you.'),
     ('Can I cancel my order?', 'Yes, at any time before it is shipped. Message us on WhatsApp with your name and mobile number.'),
     ('What if my jar arrives damaged?', 'Contact us within 24 hours of delivery with a video of the package being opened. Approved refunds reach your bank account within 7 working days.'),
     ('How do I know my Fair N Pink cream is original?', 'Orders placed on fairnpink.in come directly from the brand. For a jar bought elsewhere, see <a href="/original/">how to identify original Fair N Pink</a>.'),
@@ -396,6 +397,24 @@ page('/contact/', 'Contact Fair N Pink | WhatsApp and Instagram',
      'Contact Fair N Pink on WhatsApp at +91 99808 81230 or on Instagram @fairnpinkprofessional for orders, delivery updates and product questions.',
      body, crumbs='Contact')
 
+# ---------------- Track order ----------------
+body = top('Your order', 'Track your Fair N Pink order', 'Enter your Payment ID or the courier tracking number to see where your parcel is.') + '''    <section>
+      <form id="track-form" class="oform track" novalidate>
+        <label for="track-id">Payment ID or tracking number</label>
+        <input id="track-id" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pay_XXXXXXXXXXXXXX" required>
+        <button type="submit" class="btn" id="track-go">Track order</button>
+      </form>
+      <div id="track-out" class="track-out" role="status" aria-live="polite" hidden></div>
+    </section>
+''' + sec('Help', 'Where to find your ID', '', '''      <div class="use">
+        <div><h3>Paid online</h3><p>Your Payment ID starts with <b>pay_</b>. It is shown on the confirmation screen after you pay, and in the payment SMS you receive.</p></div>
+        <div><h3>Cash on Delivery</h3><p>Use the courier tracking number we send you on WhatsApp when your parcel is dispatched.</p></div>
+      </div>
+      <p class="more"><a href="/shipping-policy/">Delivery times and shipping policy</a></p>''')
+page('/track/', 'Track Your Order | Fair N Pink',
+     'Track your Fair N Pink order. Enter your Payment ID or courier tracking number to see whether your parcel is packed, shipped or delivered.',
+     body, crumbs='Track order', js='track.js')
+
 # ---------------- Policies ----------------
 POL = [
     ('/shipping-policy/', 'Shipping policy', 'Shipping', 'Where we deliver, how fast we dispatch and what it costs.', '''
@@ -403,7 +422,7 @@ POL = [
         <h2>Dispatch</h2><p>Orders are dispatched within 24 hours, except on Sundays and national holidays.</p>
         <h2>Delivery time</h2><p>Parcels are delivered in 3 to 7 working days from dispatch, depending on your pincode.</p>
         <h2>Shipping charges</h2><p>Shipping is free on orders paid online. Cash on Delivery orders are charged the regular pack price shown on the site, with no extra delivery or handling fee. The total you see before you confirm is the total you pay.</p>
-        <h2>Tracking</h2><p>Message us on WhatsApp with the name and mobile number on your order and we will send you the tracking details.</p>'''),
+        <h2>Tracking</h2><p>Use the <a href="/track/">Track order</a> page with your Payment ID or courier tracking number. You can also message us on WhatsApp with the name and mobile number on your order.</p>'''),
     ('/refund-policy/', 'Cancellation and refund policy', 'Cancellation and refunds', 'When you can cancel, and what happens if a parcel arrives damaged.', '''
         <h2>Cancellation</h2><p>You can cancel an order at any time before it is shipped. Message us on WhatsApp with the name and mobile number on the order.</p>
         <h2>Damaged on arrival</h2><p>If your jar arrives damaged, message us within 24 hours of delivery with a video that clearly shows the package being opened and the damage.</p>
@@ -441,11 +460,12 @@ css = re.sub(r'\.todo[^{]*\{[^}]*\}\n', '', css)
 css += open(os.path.join(B, 'extra.css')).read()
 open(os.path.join(ROOT, 'assets', 'site.css'), 'w').write(css)
 open(os.path.join(ROOT, 'assets', 'store.js'), 'w').write(open(os.path.join(B, 'store.js')).read())
+open(os.path.join(ROOT, 'assets', 'track.js'), 'w').write(open(os.path.join(B, 'track.js')).read())
 open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#231B1E"/>'
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')
 
-urls = ['/', '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
+urls = ['/', '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
 open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')

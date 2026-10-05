@@ -63,14 +63,15 @@
   }
   function paid(paymentId,total,confirmed){
     track(total,paymentId);
-    var msg='Paid order: Fair N Pink Advance Radiance Cream\nPack of '+qty+'\nPaid online: '+rupees(total)+'\nPayment ID: '+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
+    var msg='Paid order: Fair N Pink Advance Radiance Cream\nPack of '+qty+'\nPaid online: '+rupees(total)+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     var form=document.getElementById('order-form'), box=document.createElement('div');
     box.setAttribute('role','status');
     var h=document.createElement('p'), b=document.createElement('b');b.textContent=confirmed?'Payment received. Thank you.':'Payment submitted. We are confirming it.';h.appendChild(b);
     var d=document.createElement('p');d.style.cssText='color:var(--muted);margin:6px 0 14px';d.textContent='Pack of '+qty+' · '+rupees(total)+' · Payment ID '+paymentId+'. We have your delivery details and will dispatch within 24 hours.';
     var a=document.createElement('a');a.className='btn';a.target='_blank';a.rel='noopener';a.href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);a.textContent='Get updates on WhatsApp';
     a.style.cssText='display:flex;align-items:center;justify-content:center;text-decoration:none';
-    box.appendChild(h);box.appendChild(d);box.appendChild(a);
+    var t=document.createElement('a');t.href='/track/?id='+encodeURIComponent(paymentId);t.textContent='Track this order';t.style.cssText='display:block;text-align:center;margin-top:14px;color:var(--ink);text-underline-offset:3px';
+    box.appendChild(h);box.appendChild(d);box.appendChild(a);box.appendChild(t);
     form.hidden=true;form.parentNode.insertBefore(box,form);
     var intro=panel.querySelectorAll('p')[1];if(intro){intro.hidden=true;}
     box.scrollIntoView({block:'center',behavior:'smooth'});
