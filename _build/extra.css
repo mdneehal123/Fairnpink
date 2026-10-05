@@ -62,3 +62,8 @@ footer .accept{margin-bottom:12px}
 .tlog li{display:flex;flex-direction:column;gap:2px}
 .tlog b{font-weight:500}
 .tlog span{font-size:.84rem;color:var(--muted)}
+.reels{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:10px;-webkit-overflow-scrolling:touch}
+.reel{flex:0 0 328px;max-width:86vw;scroll-snap-align:start;min-height:480px;background:var(--surface);border:1px solid var(--line);display:flex;align-items:center;justify-content:center}
+.reel blockquote{margin:0;padding:20px;text-align:center;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase}
+.reel blockquote a{color:var(--ink);text-underline-offset:3px}
+.reel iframe{min-width:0!important;width:100%!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important}

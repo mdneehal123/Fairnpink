@@ -191,6 +191,13 @@ PRICE_TBL = '''      <div class="tbl"><table>
 
 exec(open(os.path.join(B, 'journal_data.py')).read())
 
+# Reels from the brand's own Instagram account, shown on the home page.
+REELS = ['DPD4bkqks99', 'DQ9ZhewEtNJ', 'DLmVkaRxTiT', 'DHeKHHyMqgn', 'DNdB7wniENX', 'DQ_wpetjXKN']
+REELS_HTML = '      <div class="reels" id="reels" tabindex="0" aria-label="Fair N Pink videos from Instagram">' + ''.join(
+    '<div class="reel"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/%s/" data-instgrm-version="14">'
+    '<a href="https://www.instagram.com/reel/%s/" target="_blank" rel="noopener">Watch this video on Instagram</a></blockquote></div>' % (r, r)
+    for r in REELS) + '</div>\n      <p class="more"><a href="' + IG + '" target="_blank" rel="noopener">Follow @fairnpinkprofessional on Instagram</a></p>'
+
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
 
@@ -234,7 +241,7 @@ home = hero + '''
           <li>Moisturises and leaves skin feeling soft</li>
           <li>One cream for morning and night</li>
         </ul>
-      </div>''' % (NET, NET), id='about') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
+      </div>''' % (NET, NET), id='about') + sec('On Instagram', 'See the cream in use', 'Videos from our Instagram, @fairnpinkprofessional. Swipe to see more.', REELS_HTML, id='videos') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
     ACT_GRID + '\n      <p class="more"><a href="/ingredients/">More about the ingredients</a></p>') + sec('The ritual', 'How to use it', 'Morning and night, in under a minute.',
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
@@ -434,6 +441,7 @@ POL = [
         <h2>Who we share it with</h2><p>We share your details only with the courier and payment partners needed to complete your order. We do not sell your information.</p>
         <h2>Payments</h2><p>Online payments are processed by Razorpay, a licensed payment gateway, and we do not see or store your card or bank details. UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
         <h2>Cookies and advertising</h2><p>This site uses the Google tag to measure visits and to record when an order placed after clicking one of our Google ads is completed. Google may set cookies in your browser for this purpose. We do not send Google your name, phone number or address. You can control ad personalisation in your Google account at adssettings.google.com, and you can block cookies in your browser settings.</p>
+        <h2>Instagram videos</h2><p>The home page shows videos from our Instagram account. They are loaded from Instagram when you scroll to them, and Instagram may set its own cookies when they load.</p>
         <h2>Your choices</h2><p>To have your details removed from our records, message us on WhatsApp.</p>'''),
     ('/terms/', 'Terms and conditions', 'Terms', 'The terms that apply when you order from fairnpink.in.', '''
         <h2>The product</h2><p>Fair N Pink Advance Radiance Cream is a cosmetic product, not a medicine. Results vary from person to person. Please patch test before use.</p>
