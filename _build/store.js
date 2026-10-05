@@ -113,21 +113,23 @@
   function show(){}
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
   render();
-  /* Instagram films: one at a time on a dark stage. Instagram's script loads only when the stage is about to be seen. */
+  /* Instagram films: one at a time on a dark stage, in Instagram's own player frame. Loaded only when the stage is about to be seen. */
   var reels=document.getElementById('reels');
   if(reels){
     var ids=reels.getAttribute('data-reels').split(','), at=0, slot=document.getElementById('reel-slot'), count=document.getElementById('reel-count'), ready=false;
     var showReel=function(){
       count.textContent=(at+1)+' / '+ids.length;
       if(!ready){return;}
-      var q=document.createElement('blockquote');q.className='instagram-media';q.setAttribute('data-instgrm-permalink','https://www.instagram.com/reel/'+ids[at]+'/');q.setAttribute('data-instgrm-version','14');
-      var l=document.createElement('a');l.className='film-fallback';l.href='https://www.instagram.com/reel/'+ids[at]+'/';l.target='_blank';l.rel='noopener';l.textContent='Watch on Instagram';q.appendChild(l);
-      slot.textContent='';slot.appendChild(q);
-      if(window.instgrm&&window.instgrm.Embeds){window.instgrm.Embeds.process();}
+      var f=document.createElement('iframe');
+      f.src='https://www.instagram.com/reel/'+ids[at]+'/embed/';
+      f.title='Fair N Pink film '+(at+1)+' of '+ids.length+', from Instagram';
+      f.setAttribute('allow','autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share');
+      f.setAttribute('allowfullscreen','');f.setAttribute('scrolling','no');f.setAttribute('frameborder','0');
+      slot.textContent='';slot.appendChild(f);
     };
-    var loadReels=function(){if(ready){return;}ready=true;showReel();var s=document.createElement('script');s.async=true;s.src='https://www.instagram.com/embed.js';document.body.appendChild(s);};
-    document.getElementById('reel-prev').addEventListener('click',function(){at=(at+ids.length-1)%ids.length;loadReels();showReel();});
-    document.getElementById('reel-next').addEventListener('click',function(){at=(at+1)%ids.length;loadReels();showReel();});
+    var loadReels=function(){if(ready){return;}ready=true;showReel();};
+    document.getElementById('reel-prev').addEventListener('click',function(){at=(at+ids.length-1)%ids.length;ready=true;showReel();});
+    document.getElementById('reel-next').addEventListener('click',function(){at=(at+1)%ids.length;ready=true;showReel();});
     if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){if(en.some(function(e){return e.isIntersecting;})){io.disconnect();loadReels();}},{rootMargin:'600px'});io.observe(reels);}
     else{loadReels();}
   }
