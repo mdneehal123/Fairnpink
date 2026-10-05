@@ -243,6 +243,20 @@ SPOTS_HTML = '      <div class="spots" tabindex="0" aria-label="Key ingredients"
     '<div><span class="spot-k">%s</span><h3>%s</h3><p>%s</p></div></article>' % (tone, n, art, k, name, text)
     for n, k, name, text, tone, art in SPOTS) + '</div>'
 
+# Moving ribbon of short phrases, and a row of four assurance tiles, both on the home page.
+RIBBON_WORDS = ['Glutathione', 'Niacinamide', 'Alpha arbutin', NET + ' jar', 'Morning and night', 'Free shipping on prepaid', 'Cash on Delivery', 'Dispatched in 24 hours']
+_run = ''.join('<span>%s</span>' % w for w in RIBBON_WORDS)
+RIBBON_HTML = '    <div class="ribbon" aria-hidden="true"><div class="ribbon-track">%s%s</div></div>\n' % (_run, _run)
+_ico = '<svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
+BADGES = [
+    ('<circle cx="24" cy="24" r="17"/><path d="M24 14v10l7 4"/>', 'Ships in 24 hours', 'Except Sundays and national holidays.'),
+    ('<rect x="6" y="13" width="36" height="22" rx="3"/><circle cx="24" cy="24" r="5"/><path d="M12 19v10M36 19v10"/>', 'Cash on Delivery', 'Pay when the parcel reaches you.'),
+    ('<rect x="10" y="21" width="28" height="19" rx="3"/><path d="M16 21v-5a8 8 0 0 1 16 0v5M24 28v5"/>', 'Secure payment', 'UPI, cards and netbanking through Razorpay.'),
+    ('<path d="M24 6l15 6v10c0 10-6 17-15 20-9-3-15-10-15-20V12l15-6Z"/><path d="M17 24l5 5 9-10"/>', 'Sealed, from the brand', 'Packed and sent by Fair N Pink.'),
+]
+BADGES_HTML = '    <section>\n      <ul class="badges">' + ''.join(
+    '<li>%s<b>%s</b><span>%s</span></li>' % (_ico % art, t, d) for art, t, d in BADGES) + '</ul>\n    </section>\n'
+
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
 
@@ -268,7 +282,7 @@ HOME_FAQ = [
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
 ]
 
-home = hero + '''
+home = hero + RIBBON_HTML + BADGES_HTML + '''
     <section>
       <p class="creed">A quiet daily ritual for skin that looks luminous, morning and night.</p>
       <span class="creed-by">Fair N Pink</span>
