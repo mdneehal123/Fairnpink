@@ -402,7 +402,7 @@ POL = [
         <h2>What we collect</h2><p>To deliver your order we collect your name, mobile number and delivery address. The order form on this site does not store them: it prepares a WhatsApp message that you send to us yourself.</p>
         <h2>How we use it</h2><p>We use these details only to process and deliver your order and to reply to your messages.</p>
         <h2>Who we share it with</h2><p>We share your details only with the courier and payment partners needed to complete your order. We do not sell your information.</p>
-        <h2>Payments</h2><p>UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
+        <h2>Payments</h2><p>Online payments are processed by Razorpay, a licensed payment gateway, and we do not see or store your card or bank details. UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
         <h2>Your choices</h2><p>To have your details removed from our records, message us on WhatsApp.</p>'''),
     ('/terms/', 'Terms and conditions', 'Terms', 'The terms that apply when you order from fairnpink.in.', '''
         <h2>The product</h2><p>Fair N Pink Advance Radiance Cream is a cosmetic product, not a medicine. Results vary from person to person. Please patch test before use.</p>
@@ -436,6 +436,6 @@ open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')
 open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % SITE)
-open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'trailingSlash': True}, indent=2) + '\n')
+open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'cleanUrls': False}, indent=2) + '\n')
 open(os.path.join(ROOT, '.vercelignore'), 'w').write('_build\nREADME.md\n')
 print('built', len(urls), 'pages')
