@@ -471,6 +471,20 @@ for path, h1, crumb, lead, inner in POL:
 
 exec(open(os.path.join(B, 'journal.py')).read())
 
+# ---------------- Reorder reminders (owner only, not linked, not indexed) ----------------
+page('/reorder/', 'Reorder reminders | Fair N Pink', 'Owner page.',
+     top('Owner only', 'Reorder reminders', 'Customers who paid online about a month ago, with a ready WhatsApp message for each.') + '''    <section>
+      <form id="ro-form" class="oform track" novalidate>
+        <label for="ro-key">Admin key</label>
+        <input id="ro-key" type="password" autocomplete="off" required>
+        <label for="ro-range">Ordered</label>
+        <select id="ro-range"><option value="22-35">22 to 35 days ago (due now)</option><option value="36-60">36 to 60 days ago (missed)</option><option value="0-21">0 to 21 days ago (not due yet)</option></select>
+        <button type="submit" class="btn" id="ro-go">Show customers</button>
+      </form>
+      <div id="ro-out" class="track-out" hidden></div>
+    </section>
+''', index=False, js='reorder.js')
+
 # ---------------- 404 ----------------
 page('/404', 'Page not found | Fair N Pink', 'This page could not be found.',
      top('Not found', 'This page is not here', 'The link may be old or mistyped.') + '    <section><p><a class="btn inline" href="/">Go to the store</a></p></section>\n', index=False)
@@ -482,6 +496,7 @@ css += open(os.path.join(B, 'extra.css')).read()
 open(os.path.join(ROOT, 'assets', 'site.css'), 'w').write(css)
 open(os.path.join(ROOT, 'assets', 'store.js'), 'w').write(open(os.path.join(B, 'store.js')).read())
 open(os.path.join(ROOT, 'assets', 'track.js'), 'w').write(open(os.path.join(B, 'track.js')).read())
+open(os.path.join(ROOT, 'assets', 'reorder.js'), 'w').write(open(os.path.join(B, 'reorder.js')).read())
 open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#231B1E"/>'
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')

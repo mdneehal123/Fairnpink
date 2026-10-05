@@ -78,3 +78,9 @@ footer .accept{margin-bottom:12px}
 .film-fallback{color:#231B1E;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;text-underline-offset:5px}
 .film-slot iframe{width:100%;height:100%;border:0;display:block}
 @media (max-width:820px){.film{grid-template-columns:1fr;gap:28px;padding:40px 20px;margin-inline:-20px}.film-copy{align-items:center;text-align:center}.film-follow{align-self:center}.film-stage{max-width:360px;width:100%;margin:0 auto}.film-nav{order:5}}
+.oform select{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:2px;padding:11px 12px;width:100%}
+.ro-row{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:14px}
+.ro-row div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.ro-row b{font-weight:500}
+.ro-row span{font-size:.86rem;color:var(--muted)}
+.ro-row.is-sent{opacity:.55}
