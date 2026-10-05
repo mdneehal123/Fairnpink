@@ -130,6 +130,132 @@ ARTICLES = [
           <li>Home remedies such as lemon juice, which can irritate skin and make marks darker</li>
         </ul>
         <p>If spots are spreading, changing shape or appeared suddenly, see a dermatologist.</p>'''),
+    ('fair-and-pink-cream', 'Fair and Pink cream: the name, the spellings and the real product',
+     'Fair and Pink Cream (Fair N Pink) | Price, Uses and Official Store',
+     'Looking for Fair and Pink cream, Fair & Pink or Fairnpink? The product is Fair N Pink Advance Radiance Cream. Price, pack size, uses and where to order.',
+     'The brand', 'Fair and Pink, Fair & Pink, Fairnpink: one cream, several spellings.', '''
+        <p>If you searched for <b>Fair and Pink cream</b>, <b>Fair &amp; Pink cream</b>, <b>Fairnpink</b> or <b>Fair n Pink glutathione cream</b>, you are looking for the same product. Its name on the pack is <b>Fair N Pink Advance Radiance Cream</b>, and this is the brand's own website.</p>
+        <h2>Why there are so many spellings</h2>
+        <p>The brand name is written Fair N Pink, with a capital N standing in for "and". People say it aloud as "fair and pink", so that is how many type it. Whatever the spelling, there is one cream.</p>
+        <h2>The product at a glance</h2>
+        <ul>
+          <li>Name on the pack: Fair N Pink Advance Radiance Cream</li>
+          <li>Type: daily face cream with glutathione, niacinamide and alpha arbutin</li>
+          <li>Net weight: %(net)s</li>
+          <li>Pack: silver jar with a clear faceted lid, in a white box with a red leaf mark</li>
+          <li>Price: ₹999 for one jar on this store</li>
+        </ul>
+        <h2>What it is used for</h2>
+        <p>It is a cosmetic cream used morning and night to help skin look brighter, more even and moisturised. It does not change your natural skin tone. Read more on <a href="/journal/fair-n-pink-cream-benefits/">what the cream does and does not do</a>.</p>
+        <h2>Where to order</h2>
+        <p>You can order on this website with UPI or Cash on Delivery. Orders are packed and sent by the brand within 24 hours. See the <a href="/journal/fair-n-pink-cream-price/">price of each pack</a>, or go straight to the <a href="/">store</a>.</p>
+        <h2>Make sure it is the real one</h2>
+        <p>Check that the pack says Fair N Pink Advance Radiance Cream and shows a net weight of %(net)s. Our guide to <a href="/original/">identifying original Fair N Pink</a> has a photo of the box and jar.</p>'''),
+    ('who-can-use-fair-n-pink-cream', 'Who can use Fair N Pink cream? Men, oily skin, dry skin and sensitive skin',
+     'Fair N Pink Cream for Men, Oily Skin and Dry Skin | Who Can Use It',
+     'Can men use Fair N Pink cream? Is it suitable for oily, dry or sensitive skin? How to adjust the routine for your skin type, and who should ask a doctor first.',
+     'Skin type', 'How to adjust the routine for your skin, and who should check with a doctor.', '''
+        <p>Fair N Pink Advance Radiance Cream is made for all skin types, and it is not a product for women only. What changes from person to person is how much to apply and when.</p>
+        <h2>Can men use it?</h2>
+        <p>Yes. Skin is skin. Use the same pea-sized amount, morning and night. If you shave, wait a few minutes after shaving before you apply it, because freshly shaved skin stings more easily.</p>
+        <h2>Oily skin</h2>
+        <p>Use a very thin layer. If your face feels heavy or shiny by midday, keep the cream for night and use only sunscreen in the morning. Wash your face with a mild cleanser first so the cream goes on clean skin.</p>
+        <h2>Dry skin</h2>
+        <p>Apply it while your skin is still slightly damp after washing, which helps hold moisture in. In winter or in air conditioning you can add a plain moisturiser on top at night.</p>
+        <h2>Combination skin</h2>
+        <p>Use a normal amount on the cheeks and a lighter touch on the forehead and nose.</p>
+        <h2>Sensitive skin</h2>
+        <p>The cream contains fragrance, so a patch test matters more for you. Try it on your inner arm for 24 hours. Then start with once a day at night for the first week before moving to twice a day.</p>
+        <h2>Who should ask a doctor first</h2>
+        <ul>
+          <li>Anyone pregnant or breastfeeding</li>
+          <li>Anyone under 18</li>
+          <li>Anyone with active acne, eczema, melasma or another skin condition under treatment</li>
+        </ul>
+        <p>For reactions and precautions, see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>'''),
+    ('how-long-does-glutathione-cream-take-to-work', 'How long does glutathione cream take to work?',
+     'How Long Does Glutathione Cream Take to Work? Week-by-Week Guide',
+     'How long a glutathione face cream takes to show results: what to expect in week 1, week 4 and week 8, and the habits that slow results down.',
+     'Results', 'A realistic week-by-week guide, and what slows results down.', '''
+        <p>Give a glutathione cream <b>four to eight weeks</b> of regular use before you judge it. Skin renews itself roughly once a month, so nothing applied to the surface can show a real change in a few days.</p>
+        <h2>Week by week</h2>
+        <ul>
+          <li><b>Week 1:</b> skin usually feels softer and better moisturised. That is the cream base at work, not a change in tone.</li>
+          <li><b>Weeks 2 to 3:</b> skin may start to look fresher, especially if you are also using sunscreen daily.</li>
+          <li><b>Week 4:</b> the first fair check. Compare with a photo from day one, taken in the same daylight.</li>
+          <li><b>Week 8:</b> dark spots and marks take the longest. Some fade, some do not.</li>
+        </ul>
+        <h2>What slows results down</h2>
+        <ul>
+          <li>Skipping sunscreen. This is the most common reason people see nothing.</li>
+          <li>Using the cream only now and then.</li>
+          <li>Scrubbing, bleaching or picking at the skin, which causes new marks.</li>
+        </ul>
+        <h2>Does using more make it faster?</h2>
+        <p>No. A pea-sized amount twice a day is enough. More cream only finishes the jar sooner.</p>
+        <h2>What if nothing changes?</h2>
+        <p>Results differ from person to person, and a cosmetic cannot change your natural skin tone. If dark patches have not changed after two to three months of careful use with sunscreen, see a dermatologist. See also <a href="/how-to-use/">how to use Fair N Pink cream</a>.</p>'''),
+    ('can-we-use-glutathione-cream-daily', 'Can we use glutathione cream daily? Morning or night?',
+     'Can We Use Glutathione Cream Daily? Morning or Night Explained',
+     'Yes, a glutathione face cream is made for daily use. When to apply it, whether morning or night is better, and when to cut back.',
+     'How to use', 'Daily use, the best time to apply it, and when to cut back.', '''
+        <p>Yes. A glutathione face cream is a cosmetic made for daily use, and regular use is what gives it a chance to work. Most people apply it twice a day.</p>
+        <h2>Morning or night?</h2>
+        <p>Both, if your skin is comfortable with it. If you want to use it only once a day, choose night. Your skin is clean, the cream stays on for hours and there is no sun, sweat or makeup in the way.</p>
+        <h2>If you use it in the morning</h2>
+        <p>Always put sunscreen on top. A brightening cream without sunscreen is undone by the sun the same day.</p>
+        <h2>A simple daily routine</h2>
+        <ol>
+          <li>Morning: cleanser, cream, sunscreen.</li>
+          <li>Night: cleanser, cream.</li>
+        </ol>
+        <h2>When to cut back</h2>
+        <p>If your skin feels tight, warm or looks red, drop to once a day at night for a week. If that does not settle it, stop and read <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>
+        <h2>Can you use it for months?</h2>
+        <p>A cosmetic cream can be used as part of your routine for as long as it suits your skin. If you are using any prescription cream, ask your doctor how to combine them.</p>'''),
+    ('glutathione-cream-with-sunscreen', 'Can I use glutathione cream with sunscreen?',
+     'Glutathione Cream With Sunscreen: Which Goes First and Why',
+     'You should use sunscreen with a glutathione cream. Which one goes first, how long to wait between them, and what SPF to look for.',
+     'How to use', 'Which goes first, how long to wait and why sunscreen matters most.', '''
+        <p>Yes, and you should. Sunscreen is the most important partner for any cream used for brighter-looking skin, because sun exposure is the main cause of dullness, tanning and dark patches.</p>
+        <h2>Which goes first?</h2>
+        <p>The cream goes first, on clean skin. Sunscreen always goes last in the morning, so it sits on top and is not rubbed away.</p>
+        <h2>How long to wait</h2>
+        <p>Give the cream a minute or two to settle, then apply sunscreen. You do not need a long gap.</p>
+        <h2>What kind of sunscreen</h2>
+        <ul>
+          <li>Broad spectrum, which covers both UVA and UVB</li>
+          <li>SPF 30 or higher for daily use</li>
+          <li>A texture you like, because the best sunscreen is the one you actually wear every day</li>
+        </ul>
+        <h2>How much and how often</h2>
+        <p>Use about two finger-lengths for the face and neck. Reapply every two to three hours if you are outdoors, and after sweating or washing your face.</p>
+        <h2>Do you need sunscreen indoors?</h2>
+        <p>If you sit near a window or go out during the day, yes. At night you do not need it: use the cream alone. See the full <a href="/how-to-use/">morning and night routine</a>.</p>'''),
+    ('alpha-arbutin-cream-side-effects', 'Alpha arbutin cream side effects: what to know',
+     'Alpha Arbutin Cream Side Effects | Who Should Avoid It',
+     'Alpha arbutin is generally well tolerated in face creams. Possible side effects, how to patch test, who should ask a doctor first, and how to use it safely.',
+     'Ingredients', 'Usually well tolerated, with a few things worth checking first.', '''
+        <p>Alpha arbutin is used in creams that help reduce the look of dark spots. It is generally well tolerated in cosmetics, and most people use it without any problem. A small number notice irritation, usually in the first week.</p>
+        <h2>Possible side effects</h2>
+        <ul>
+          <li>Mild redness or warmth where the cream is applied</li>
+          <li>Itching or dryness, more often on sensitive skin</li>
+          <li>Rarely, an allergic reaction to the cream as a whole</li>
+        </ul>
+        <p>When a cream irritates, the cause is often another ingredient such as fragrance, not the alpha arbutin itself.</p>
+        <h2>How to lower the risk</h2>
+        <ol>
+          <li>Patch test on your inner arm for 24 hours.</li>
+          <li>Start once a day at night, then move to twice a day.</li>
+          <li>Use sunscreen every morning.</li>
+          <li>Do not combine it with strong peels or scrubs on the same day.</li>
+        </ol>
+        <h2>Who should ask a doctor first</h2>
+        <p>Anyone pregnant or breastfeeding, and anyone under treatment for melasma or another skin condition.</p>
+        <h2>If your skin reacts</h2>
+        <p>Wash it off, stop using it and let your skin rest. If it does not settle in a day or two, see a dermatologist.</p>
+        <p>Fair N Pink Advance Radiance Cream contains alpha arbutin with niacinamide and glutathione. Read about <a href="/journal/niacinamide-and-alpha-arbutin/">using niacinamide and alpha arbutin together</a>.</p>'''),
 ]
 ARTICLES = [a[:6] + (a[6] % {'net': NET} if '%(net)s' in a[6] else a[6],) for a in ARTICLES]
 
