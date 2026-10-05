@@ -113,10 +113,21 @@
   function show(){}
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
   render();
-  /* Instagram videos: load Instagram's script only when the row is about to be seen, to keep the page fast. */
+  /* Instagram films: one at a time on a dark stage. Instagram's script loads only when the stage is about to be seen. */
   var reels=document.getElementById('reels');
   if(reels){
-    var loadReels=function(){if(loadReels.done){return;}loadReels.done=true;var s=document.createElement('script');s.async=true;s.src='https://www.instagram.com/embed.js';document.body.appendChild(s);};
+    var ids=reels.getAttribute('data-reels').split(','), at=0, slot=document.getElementById('reel-slot'), count=document.getElementById('reel-count'), ready=false;
+    var showReel=function(){
+      count.textContent=(at+1)+' / '+ids.length;
+      if(!ready){return;}
+      var q=document.createElement('blockquote');q.className='instagram-media';q.setAttribute('data-instgrm-permalink','https://www.instagram.com/reel/'+ids[at]+'/');q.setAttribute('data-instgrm-version','14');
+      var l=document.createElement('a');l.className='film-fallback';l.href='https://www.instagram.com/reel/'+ids[at]+'/';l.target='_blank';l.rel='noopener';l.textContent='Watch on Instagram';q.appendChild(l);
+      slot.textContent='';slot.appendChild(q);
+      if(window.instgrm&&window.instgrm.Embeds){window.instgrm.Embeds.process();}
+    };
+    var loadReels=function(){if(ready){return;}ready=true;showReel();var s=document.createElement('script');s.async=true;s.src='https://www.instagram.com/embed.js';document.body.appendChild(s);};
+    document.getElementById('reel-prev').addEventListener('click',function(){at=(at+ids.length-1)%ids.length;loadReels();showReel();});
+    document.getElementById('reel-next').addEventListener('click',function(){at=(at+1)%ids.length;loadReels();showReel();});
     if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){if(en.some(function(e){return e.isIntersecting;})){io.disconnect();loadReels();}},{rootMargin:'600px'});io.observe(reels);}
     else{loadReels();}
   }

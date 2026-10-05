@@ -273,8 +273,19 @@ footer .accept{margin-bottom:12px}
 .tlog li{display:flex;flex-direction:column;gap:2px}
 .tlog b{font-weight:500}
 .tlog span{font-size:.84rem;color:var(--muted)}
-.reels{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:10px;-webkit-overflow-scrolling:touch}
-.reel{flex:0 0 328px;max-width:86vw;scroll-snap-align:start;min-height:480px;background:var(--surface);border:1px solid var(--line);display:flex;align-items:center;justify-content:center}
-.reel blockquote{margin:0;padding:20px;text-align:center;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase}
-.reel blockquote a{color:var(--ink);text-underline-offset:3px}
-.reel iframe{min-width:0!important;width:100%!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+.film{background:var(--label);color:var(--label-ink);display:grid;grid-template-columns:1fr minmax(0,380px);gap:56px;align-items:center;padding:64px 56px}
+.film-copy{display:flex;flex-direction:column;gap:16px;min-width:0}
+.film .eyebrow{color:var(--turmeric)}
+.film h2{color:var(--label-ink)}
+.film p{opacity:.78;max-width:34ch}
+.film-nav{display:flex;align-items:center;gap:18px;margin-top:10px}
+.film-nav button{width:48px;height:48px;border-radius:50%;border:1px solid rgba(241,230,228,.45);background:none;color:var(--label-ink);font-size:1.1rem;cursor:pointer;font-family:var(--body)}
+.film-nav button:hover{background:var(--label-ink);color:var(--label)}
+.film-nav span{font-family:var(--display);font-size:1.5rem;font-variant-numeric:tabular-nums;min-width:4ch;text-align:center}
+.film-follow{align-self:flex-start;margin-top:6px;color:var(--label-ink);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;text-underline-offset:5px}
+.film-stage{min-width:0}
+.film-slot{background:#FFFFFF;border-radius:22px;overflow:hidden;min-height:560px;display:flex;align-items:center;justify-content:center;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.film-slot blockquote{margin:0;padding:24px}
+.film-fallback{color:#231B1E;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;text-underline-offset:5px}
+.film-slot iframe{min-width:0!important;width:100%!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;display:block}
+@media (max-width:820px){.film{grid-template-columns:1fr;gap:28px;padding:40px 20px;margin-inline:-20px}.film-copy{align-items:center;text-align:center}.film-follow{align-self:center}.film-stage{max-width:360px;width:100%;margin:0 auto}.film-nav{order:5}}

@@ -193,10 +193,23 @@ exec(open(os.path.join(B, 'journal_data.py')).read())
 
 # Reels from the brand's own Instagram account, shown on the home page.
 REELS = ['DPD4bkqks99', 'DQ9ZhewEtNJ', 'DLmVkaRxTiT', 'DHeKHHyMqgn', 'DNdB7wniENX', 'DQ_wpetjXKN']
-REELS_HTML = '      <div class="reels" id="reels" tabindex="0" aria-label="Fair N Pink videos from Instagram">' + ''.join(
-    '<div class="reel"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/%s/" data-instgrm-version="14">'
-    '<a href="https://www.instagram.com/reel/%s/" target="_blank" rel="noopener">Watch this video on Instagram</a></blockquote></div>' % (r, r)
-    for r in REELS) + '</div>\n      <p class="more"><a href="' + IG + '" target="_blank" rel="noopener">Follow @fairnpinkprofessional on Instagram</a></p>'
+REELS_HTML = '''    <section id="videos">
+      <div class="film" id="reels" data-reels="%s">
+        <div class="film-copy">
+          <span class="eyebrow">On Instagram</span>
+          <h2>See the cream in use</h2>
+          <p>Short films from our Instagram, @fairnpinkprofessional. Tap a film to play it.</p>
+          <div class="film-nav">
+            <button type="button" id="reel-prev" aria-label="Previous film">&#8592;</button>
+            <span id="reel-count" aria-live="polite">1 / %d</span>
+            <button type="button" id="reel-next" aria-label="Next film">&#8594;</button>
+          </div>
+          <a class="film-follow" href="%s" target="_blank" rel="noopener">Follow us on Instagram</a>
+        </div>
+        <div class="film-stage"><div class="film-slot" id="reel-slot"><a class="film-fallback" href="https://www.instagram.com/reel/%s/" target="_blank" rel="noopener">Watch on Instagram</a></div></div>
+      </div>
+    </section>
+''' % (','.join(REELS), len(REELS), IG, REELS[0])
 
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
@@ -241,7 +254,7 @@ home = hero + '''
           <li>Moisturises and leaves skin feeling soft</li>
           <li>One cream for morning and night</li>
         </ul>
-      </div>''' % (NET, NET), id='about') + sec('On Instagram', 'See the cream in use', 'Videos from our Instagram, @fairnpinkprofessional. Swipe to see more.', REELS_HTML, id='videos') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
+      </div>''' % (NET, NET), id='about') + REELS_HTML + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
     ACT_GRID + '\n      <p class="more"><a href="/ingredients/">More about the ingredients</a></p>') + sec('The ritual', 'How to use it', 'Morning and night, in under a minute.',
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
