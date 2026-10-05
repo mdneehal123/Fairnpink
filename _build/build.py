@@ -212,6 +212,22 @@ REELS_HTML = '''    <section id="videos">
     </section>
 ''' % (','.join(REELS), len(REELS), IG, REELS[0])
 
+# Picture cards on the home page: a real product photo, a headline label and one small fact card each.
+LOOKS = [
+    ('jar-and-box.webp', 'Fair N Pink jar beside its box on satin', ['Your daily', 'radiance essential'], 'What is inside', 'Glutathione, niacinamide and alpha arbutin in one cream.'),
+    ('pack-1.webp', 'Fair N Pink jar in front of a swatch of pink cream', ['A soft', 'pink cream'], 'How to use', 'A pea-sized amount, morning and night. Sunscreen in the morning.'),
+    ('pack-2.webp', 'Two jars of Fair N Pink Advance Radiance Cream', ['Better', 'in pairs'], 'Pack of 2', '₹1,749 when you pay online. ₹875 a jar, with free shipping.'),
+    ('pack-3.webp', 'Three jars of Fair N Pink Advance Radiance Cream', ['Stock up', 'and save'], 'Pack of 3', '₹2,449 when you pay online. ₹816 a jar, our best value.'),
+]
+LOOKS_HTML = '''    <section id="looks">
+      <div class="sec-h"><span class="eyebrow">A closer look</span><h2>The cream, up close</h2></div>
+      <div class="looks" tabindex="0" aria-label="Product pictures">''' + ''.join(
+    '<article class="look"><div class="look-pic"><img src="/assets/%s" alt="%s" width="720" height="720" loading="lazy">'
+    '<h3 class="look-h">%s</h3></div><div class="look-card"><b>%s</b><p>%s</p></div></article>'
+    % (img, alt, ''.join('<span>%s</span>' % t for t in head), k, v) for img, alt, head, k, v in LOOKS) + '''</div>
+    </section>
+'''
+
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
 
@@ -255,7 +271,7 @@ home = hero + '''
           <li>Moisturises and leaves skin feeling soft</li>
           <li>One cream for morning and night</li>
         </ul>
-      </div>''' % (NET, NET), id='about') + (REELS_HTML if SHOW_REELS else '') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
+      </div>''' % (NET, NET), id='about') + LOOKS_HTML + (REELS_HTML if SHOW_REELS else '') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
     ACT_GRID + '\n      <p class="more"><a href="/ingredients/">More about the ingredients</a></p>') + sec('The ritual', 'How to use it', 'Morning and night, in under a minute.',
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
