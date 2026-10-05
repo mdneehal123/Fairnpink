@@ -1,8 +1,10 @@
 const crypto = require('crypto');
 const { keys } = require('./_shared');
+const shiprocket = require('./_shiprocket');
 
-// Confirms that a payment reported by the browser was really signed by Razorpay.
-module.exports = (req, res) => {
+// Confirms that a payment reported by the browser was really signed by Razorpay,
+// then hands the paid order to Shiprocket when that is switched on.
+module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
   if (req.method !== 'POST') return res.status(405).json({ error: 'method_not_allowed' });
   const k = keys();
@@ -19,5 +21,28 @@ module.exports = (req, res) => {
   const a = Buffer.from(expected);
   const b = Buffer.from(signature);
   const ok = a.length === b.length && crypto.timingSafeEqual(a, b);
-  return res.status(ok ? 200 : 400).json({ ok });
+  if (!ok) return res.status(400).json({ ok: false });
+
+  // A shipping problem must never turn a successful payment into an error for the customer.
+  let shipping = 'off';
+  if (shiprocket.settings()) {
+    try {
+      // Read the order back from Razorpay, so the address and amount cannot be altered by the browser.
+      const r = await fetch('https://api.razorpay.com/v1/orders/' + encodeURIComponent(orderId), {
+        headers: { Authorization: 'Basic ' + Buffer.from(k.id + ':' + k.secret).toString('base64') }
+      });
+      const o = await r.json();
+      const n = (o && o.notes) || {};
+      const packNumber = Number(String(n.pack || '').replace(/\D/g, ''));
+      if (!r.ok || !n.name || !packNumber) throw new Error('order_lookup_failed');
+      const out = await shiprocket.createOrder({
+        id: orderId, packNumber, amountRupees: Math.round(Number(o.amount) / 100),
+        name: n.name, phone: n.phone, address: n.address, city: n.city, pincode: n.pincode
+      });
+      shipping = out.status;
+    } catch (e) {
+      shipping = 'failed';
+    }
+  }
+  return res.status(200).json({ ok: true, shipping });
 };
