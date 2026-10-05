@@ -2,8 +2,8 @@
 ARTICLES = [
     ('fair-n-pink-cream-price', 'Fair N Pink cream price in India',
      'Fair N Pink Cream Price in India (2026) | Packs and Offers',
-     'Fair N Pink Advance Radiance Cream price in India: ₹999 for one 10 g jar, ₹1,899 for two, ₹2,699 for three, plus the saving when you pay by UPI.',
-     'Price', 'What one jar costs, what the packs save you, and how the UPI price works.', '''
+     'Fair N Pink Advance Radiance Cream price in India: ₹999 for one 10 g jar, ₹1,899 for two, ₹2,699 for three, plus the saving when you pay online.',
+     'Price', 'What one jar costs, what the packs save you, and how the online price works.', '''
         <p>Fair N Pink Advance Radiance Cream costs <b>₹999 for one %(net)s jar</b> on the brand's own store. The price includes all taxes, and shipping is free on prepaid orders.</p>
         <h2>Price of each pack</h2>
         <ul>
@@ -11,8 +11,8 @@ ARTICLES = [
           <li>Pack of 2: ₹1,899, which is ₹950 per jar</li>
           <li>Pack of 3: ₹2,699, which is ₹900 per jar</li>
         </ul>
-        <h2>The UPI price</h2>
-        <p>If you pay by UPI or Google Pay before dispatch, the total drops by ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. That makes the UPI totals ₹899, ₹1,749 and ₹2,449.</p>
+        <h2>The online price</h2>
+        <p>If you pay online by UPI, card or netbanking, the total drops by ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. That makes the online totals ₹899, ₹1,749 and ₹2,449.</p>
         <h2>Is Cash on Delivery available?</h2>
         <p>Yes. Cash on Delivery orders are charged at the regular pack price, paid to the courier when the parcel arrives.</p>
         <h2>Why prices differ on other websites</h2>
@@ -148,7 +148,7 @@ ARTICLES = [
         <h2>What it is used for</h2>
         <p>It is a cosmetic cream used morning and night to help skin look brighter, more even and moisturised. It does not change your natural skin tone. Read more on <a href="/journal/fair-n-pink-cream-benefits/">what the cream does and does not do</a>.</p>
         <h2>Where to order</h2>
-        <p>You can order on this website with UPI or Cash on Delivery. Orders are packed and sent by the brand within 24 hours. See the <a href="/journal/fair-n-pink-cream-price/">price of each pack</a>, or go straight to the <a href="/">store</a>.</p>
+        <p>You can order on this website with online payment or Cash on Delivery. Orders are packed and sent by the brand within 24 hours. See the <a href="/journal/fair-n-pink-cream-price/">price of each pack</a>, or go straight to the <a href="/">store</a>.</p>
         <h2>Make sure it is the real one</h2>
         <p>Check that the pack says Fair N Pink Advance Radiance Cream and shows a net weight of %(net)s. Our guide to <a href="/original/">identifying original Fair N Pink</a> has a photo of the box and jar.</p>'''),
     ('who-can-use-fair-n-pink-cream', 'Who can use Fair N Pink cream? Men, oily skin, dry skin and sensitive skin',
@@ -258,20 +258,20 @@ ARTICLES = [
         <p>Fair N Pink Advance Radiance Cream contains alpha arbutin with niacinamide and glutathione. Read about <a href="/journal/niacinamide-and-alpha-arbutin/">using niacinamide and alpha arbutin together</a>.</p>'''),
     ('buy-fair-n-pink-cream-online', 'How to buy Fair N Pink cream online',
      'Buy Fair N Pink Cream Online | Cash on Delivery and UPI',
-     'How to buy Fair N Pink Advance Radiance Cream online from the official store: steps to order, Cash on Delivery, the UPI saving, delivery time and returns.',
-     'Buying guide', 'Ordering, Cash on Delivery, the UPI saving and delivery time.', '''
-        <p>You can buy Fair N Pink Advance Radiance Cream online on this website, which is the brand's own store. Ordering takes about a minute and you can pay by UPI or with Cash on Delivery.</p>
+     'How to buy Fair N Pink Advance Radiance Cream online from the official store: steps to order, Cash on Delivery, the online payment saving, delivery time and returns.',
+     'Buying guide', 'Ordering, Cash on Delivery, the online saving and delivery time.', '''
+        <p>You can buy Fair N Pink Advance Radiance Cream online on this website, which is the brand's own store. Ordering takes about a minute and you can pay online or with Cash on Delivery.</p>
         <h2>How to order</h2>
         <ol>
           <li>Open the <a href="/">store page</a> and choose a pack of 1, 2 or 3.</li>
           <li>Tap Buy now and fill in your name, mobile number and address.</li>
-          <li>Choose UPI or Cash on Delivery.</li>
-          <li>Tap Send order on WhatsApp. We confirm your order by reply.</li>
+          <li>Choose to pay online or with Cash on Delivery.</li>
+          <li>To pay online, tap the Pay button and complete the payment. For Cash on Delivery, tap Send order on WhatsApp and we confirm by reply.</li>
         </ol>
         <h2>Cash on Delivery</h2>
         <p>Cash on Delivery is available. You pay the regular pack price to the courier when the parcel arrives.</p>
-        <h2>Paying by UPI</h2>
-        <p>Paying by UPI or Google Pay before dispatch saves ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. You pay in your own UPI app and send us the payment screenshot with your order. We never ask for your UPI PIN.</p>
+        <h2>Paying online</h2>
+        <p>Paying online saves ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. You can pay by UPI, card or netbanking in a secure Razorpay window, and you see a payment ID as soon as it succeeds. We never ask for your UPI PIN or card details.</p>
         <h2>Delivery</h2>
         <p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and reach most pincodes in 3 to 7 working days. Shipping is free on prepaid orders. See the <a href="/shipping-policy/">shipping policy</a>.</p>
         <h2>Cancellations and damaged parcels</h2>
@@ -317,7 +317,7 @@ ARTICLES = [
           <li>Be careful with very cheap creams that carry no ingredient list at all.</li>
         </ol>
         <h2>Glutathione creams under ₹1,000</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is ₹999 for a %(net)s jar, or ₹899 when you pay by UPI. It contains glutathione with niacinamide and alpha arbutin. A pea-sized amount is enough for the face and neck, so a small jar goes further than its size suggests.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is ₹999 for a %(net)s jar, or ₹899 when you pay online. It contains glutathione with niacinamide and alpha arbutin. A pea-sized amount is enough for the face and neck, so a small jar goes further than its size suggests.</p>
         <h2>Does a higher price mean a better cream?</h2>
         <p>Not on its own. What matters is whether the cream suits your skin and whether you use it regularly with sunscreen. See <a href="/journal/glutathione-cream-for-face/">what a glutathione cream can and cannot do</a>.</p>'''),
     ('fair-n-pink-cream-hindi', 'Fair N Pink क्रीम: कीमत, उपयोग और सावधानियां',
@@ -331,7 +331,7 @@ ARTICLES = [
           <li>2 जार का पैक: ₹1,899</li>
           <li>3 जार का पैक: ₹2,699</li>
         </ul>
-        <p>UPI या Google Pay से भुगतान करने पर ₹100, ₹150 या ₹250 की बचत होती है। कैश ऑन डिलीवरी भी उपलब्ध है।</p>
+        <p>ऑनलाइन भुगतान (UPI, कार्ड या नेटबैंकिंग) करने पर ₹100, ₹150 या ₹250 की बचत होती है। कैश ऑन डिलीवरी भी उपलब्ध है।</p>
         <h2>क्रीम कैसे लगाएं</h2>
         <ol>
           <li>चेहरा धोकर हल्के हाथ से सुखा लें।</li>

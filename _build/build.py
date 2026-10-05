@@ -175,7 +175,7 @@ WEEKS = '''      <ol class="weeks">
       </ol>'''
 
 PRICE_TBL = '''      <div class="tbl"><table>
-        <thead><tr><th>Pack</th><th>Price</th><th>Per jar</th><th>With UPI</th></tr></thead>
+        <thead><tr><th>Pack</th><th>Price</th><th>Per jar</th><th>Paid online</th></tr></thead>
         <tbody>
           <tr><td>Pack of 1</td><td>₹999</td><td>₹999</td><td>₹899</td></tr>
           <tr><td>Pack of 2</td><td>₹1,899</td><td>₹950</td><td>₹1,749</td></tr>
@@ -202,11 +202,11 @@ hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
 HOME_FAQ = [
-    ('What is the price of Fair N Pink Advance Radiance Cream?', 'One %s jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save ₹100, ₹150 or ₹250 when you pay by UPI.' % NET),
+    ('What is the price of Fair N Pink Advance Radiance Cream?', 'One %s jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save ₹100, ₹150 or ₹250 when you pay online.' % NET),
     ('What size is the Fair N Pink cream jar?', 'Each jar holds %s of cream. The net weight is printed on the box.' % NET),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
     ('How long does it take to show results?', 'It differs from person to person. Use it for a few weeks before you judge it.'),
-    ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Order on this page and choose Cash on Delivery, or pay by UPI and save up to ₹250.'),
+    ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Order on this page and choose Cash on Delivery, or pay online by UPI, card or netbanking and save up to ₹250.'),
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
 ]
 
@@ -233,7 +233,7 @@ home = hero + '''
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
     </section>
-''' + sec('Price', 'Fair N Pink cream price', 'One 10 g jar is ₹999, inclusive of all taxes. Each jar costs less in a pack of 2 or 3, and paying by UPI or Google Pay takes a little more off.', PRICE_TBL, id='price') + sec('Genuine product', 'Bought here, it comes from us', '', '''      <div class="split">
+''' + sec('Price', 'Fair N Pink cream price', 'One 10 g jar is ₹999, inclusive of all taxes. Each jar costs less in a pack of 2 or 3, and paying online takes a little more off.', PRICE_TBL, id='price') + sec('Genuine product', 'Bought here, it comes from us', '', '''      <div class="split">
         <img src="/assets/jar-and-box.webp" alt="Fair N Pink Advance Radiance Cream jar beside its white box" width="1000" height="1000" loading="lazy">
         <div>
           <p>Every order placed on fairnpink.in is packed and sent by Fair N Pink. The jar arrives sealed, in its white box with the red leaf logo.</p>
@@ -347,7 +347,7 @@ page('/original/', 'Original Fair N Pink Cream: How to Identify It',
 FAQ = [
     ('What is Fair N Pink Advance Radiance Cream?', 'It is a face cream with glutathione, niacinamide and alpha arbutin, made for daily use, morning and night. It comes in a %s silver jar.' % NET),
     ('What is the price of Fair N Pink cream?', 'One jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
-    ('Is there a discount for paying by UPI or Google Pay?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay by UPI.'),
+    ('Is there a discount for paying online?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
     ('Is Cash on Delivery available?', 'Yes. Choose Cash on Delivery in the order form and pay when the parcel arrives.'),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night. In the morning, finish with sunscreen. <a href="/how-to-use/">See the full routine</a>.'),
     ('How long does it take to show results?', 'It differs from person to person. Skin usually feels softer in the first week. Give it at least four weeks of regular use before you judge it.'),
@@ -399,15 +399,15 @@ POL = [
         <h2>Refunds</h2><p>Approved refunds are credited to your bank account or UPI within 7 working days.</p>
         <h2>Opened products</h2><p>For hygiene reasons we cannot take back a jar that has been opened or used.</p>'''),
     ('/privacy-policy/', 'Privacy policy', 'Privacy', 'What we collect when you order, and what we do with it.', '''
-        <h2>What we collect</h2><p>To deliver your order we collect your name, mobile number and delivery address. The order form on this site does not store them: it prepares a WhatsApp message that you send to us yourself.</p>
+        <h2>What we collect</h2><p>To deliver your order we collect your name, mobile number and delivery address. For online payments they are sent to Razorpay with your order so we can deliver it. For Cash on Delivery, the form prepares a WhatsApp message that you send to us yourself.</p>
         <h2>How we use it</h2><p>We use these details only to process and deliver your order and to reply to your messages.</p>
         <h2>Who we share it with</h2><p>We share your details only with the courier and payment partners needed to complete your order. We do not sell your information.</p>
         <h2>Payments</h2><p>Online payments are processed by Razorpay, a licensed payment gateway, and we do not see or store your card or bank details. UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
         <h2>Your choices</h2><p>To have your details removed from our records, message us on WhatsApp.</p>'''),
     ('/terms/', 'Terms and conditions', 'Terms', 'The terms that apply when you order from fairnpink.in.', '''
         <h2>The product</h2><p>Fair N Pink Advance Radiance Cream is a cosmetic product, not a medicine. Results vary from person to person. Please patch test before use.</p>
-        <h2>Prices</h2><p>Prices are in Indian rupees and include all taxes. The UPI saving shown on the site applies when the order is paid in full by UPI before dispatch.</p>
-        <h2>Orders</h2><p>An order is confirmed when we reply to your WhatsApp message. For UPI orders, we confirm after the payment is received.</p>
+        <h2>Prices</h2><p>Prices are in Indian rupees and include all taxes. The online payment saving shown on the site applies when the order is paid in full online at the time of ordering.</p>
+        <h2>Orders</h2><p>An online order is confirmed when your payment succeeds and you see the payment ID. A Cash on Delivery order is confirmed when we reply to your WhatsApp message.</p>
         <h2>Cash on Delivery</h2><p>Cash on Delivery orders are payable in full to the courier at the time of delivery.</p>
         <h2>Other policies</h2><p>See the <a href="/shipping-policy/">shipping policy</a>, the <a href="/refund-policy/">cancellation and refund policy</a> and the <a href="/privacy-policy/">privacy policy</a>.</p>'''),
 ]
