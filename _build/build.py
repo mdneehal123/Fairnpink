@@ -26,9 +26,9 @@ ACTIVES = [
 CHAT_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H10l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>'
 
 NAV = [('/', 'Shop'), ('/ingredients/', 'Ingredients'), ('/how-to-use/', 'How to use'),
-       ('/about/', 'Our story'), ('/faq/', 'Questions'), ('/contact/', 'Contact')]
+       ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/faq/', 'Questions'), ('/contact/', 'Contact')]
 FOOT = [('/', 'Shop the cream'), ('/ingredients/', 'Ingredients'), ('/how-to-use/', 'How to use'),
-        ('/about/', 'Our story'), ('/original/', 'Identify the original'), ('/faq/', 'Questions'),
+        ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/original/', 'Identify the original'), ('/faq/', 'Questions'),
         ('/contact/', 'Contact'), ('/shipping-policy/', 'Shipping'), ('/refund-policy/', 'Cancellation and refunds'),
         ('/privacy-policy/', 'Privacy'), ('/terms/', 'Terms')]
 
@@ -181,6 +181,8 @@ PRICE_TBL = '''      <div class="tbl"><table>
         </tbody>
       </table></div>'''
 
+exec(open(os.path.join(B, 'journal_data.py')).read())
+
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
 
@@ -234,11 +236,11 @@ home = hero + '''
           <p>If you are holding a jar and are not sure about it, our guide shows what to look for on the box and the jar.</p>
           <p class="more"><a href="/original/">How to identify original Fair N Pink</a></p>
         </div>
-      </div>''') + sec('Questions', 'Before you order', '', faq_html(HOME_FAQ) + '\n      <p class="more"><a href="/faq/">All questions and answers</a></p>')
+      </div>''') + '%%JOURNAL%%' + sec('Questions', 'Before you order', '', faq_html(HOME_FAQ) + '\n      <p class="more"><a href="/faq/">All questions and answers</a></p>')
 
 page('/', 'Fair N Pink Advance Radiance Cream | Official Store, ₹999',
      'Buy Fair N Pink Advance Radiance Cream from the official Fair N Pink store. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
-     home, home=True, schema=[{
+     home.replace('%%JOURNAL%%', sec('Journal', 'Read before you buy', '', jlist(ARTICLES[:3]) + '\n      <p class="more"><a href="/journal/">All articles</a></p>')), home=True, schema=[{
          '@type': 'Product', '@id': SITE + '/#product', 'name': 'Fair N Pink Advance Radiance Cream',
          'description': 'A face cream with glutathione, niacinamide and alpha arbutin, in a %s jar.' % NET,
          'image': [SITE + '/assets/pack-1.webp', SITE + '/assets/jar-and-box.webp'], 'category': 'Face cream',
@@ -409,6 +411,8 @@ for path, h1, crumb, lead, inner in POL:
     body = top('Store policies', h1, lead) + '    <section>\n      <div class="prose">%s\n        <p class="stamp">Last updated 5 October 2026. Questions: <a href="/contact/">contact us</a>.</p>\n      </div>\n    </section>\n' % inner
     page(path, '%s | Fair N Pink' % h1, '%s for orders placed on fairnpink.in, the official Fair N Pink store. %s' % (h1, lead), body, crumbs=crumb)
 
+exec(open(os.path.join(B, 'journal.py')).read())
+
 # ---------------- 404 ----------------
 page('/404', 'Page not found | Fair N Pink', 'This page could not be found.',
      top('Not found', 'This page is not here', 'The link may be old or mistyped.') + '    <section><p><a class="btn inline" href="/">Go to the store</a></p></section>\n', index=False)
@@ -423,7 +427,7 @@ open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#231B1E"/>'
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')
 
-urls = ['/', '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/'] + [p[0] for p in POL]
+urls = ['/', '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
 open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')
