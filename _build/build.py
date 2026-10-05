@@ -201,8 +201,10 @@ hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="m
 
 HOME_FAQ = [
     ('What is the price of Fair N Pink Advance Radiance Cream?', 'One %s jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save ₹100, ₹150 or ₹250 when you pay by UPI.' % NET),
+    ('What size is the Fair N Pink cream jar?', 'Each jar holds %s of cream. The net weight is printed on the box.' % NET),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
     ('How long does it take to show results?', 'It differs from person to person. Use it for a few weeks before you judge it.'),
+    ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Order on this page and choose Cash on Delivery, or pay by UPI and save up to ₹250.'),
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
 ]
 
@@ -214,7 +216,7 @@ home = hero + '''
 
 ''' + sec('The cream', 'Fair N Pink Advance Radiance Cream', '', '''      <div class="about">
         <div>
-          <p>Fair N Pink Advance Radiance Cream is a face cream with glutathione, niacinamide and alpha arbutin in a moisturising base. It comes in a silver jar with a clear faceted lid, and the cream itself is a soft pink.</p>
+          <p>Fair N Pink Advance Radiance Cream, often called Fair N Pink glutathione cream, is a face cream with glutathione, niacinamide and alpha arbutin in a moisturising base. It comes in a %s silver jar with a clear faceted lid, and the cream itself is a soft pink.</p>
           <p>It is meant for daily use. Apply a small amount after washing your face in the morning, under sunscreen, and again before bed. A pea-sized amount covers the face and neck.</p>
           <p>One %s jar costs ₹999, and each jar costs less when you buy a pack of 2 or 3. This is the brand's own store, so your order comes directly from Fair N Pink. <a href="/about/">Read our story</a>.</p>
         </div>
@@ -224,12 +226,12 @@ home = hero + '''
           <li>Moisturises and leaves skin feeling soft</li>
           <li>One cream for morning and night</li>
         </ul>
-      </div>''' % NET, id='about') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
+      </div>''' % (NET, NET), id='about') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
     ACT_GRID + '\n      <p class="more"><a href="/ingredients/">More about the ingredients</a></p>') + sec('The ritual', 'How to use it', 'Morning and night, in under a minute.',
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
     </section>
-''' + sec('Price', 'Fair N Pink cream price', 'One jar is ₹999, inclusive of all taxes. Each jar costs less in a pack of 2 or 3, and paying by UPI or Google Pay takes a little more off.', PRICE_TBL, id='price') + sec('Genuine product', 'Bought here, it comes from us', '', '''      <div class="split">
+''' + sec('Price', 'Fair N Pink cream price', 'One 10 g jar is ₹999, inclusive of all taxes. Each jar costs less in a pack of 2 or 3, and paying by UPI or Google Pay takes a little more off.', PRICE_TBL, id='price') + sec('Genuine product', 'Bought here, it comes from us', '', '''      <div class="split">
         <img src="/assets/jar-and-box.webp" alt="Fair N Pink Advance Radiance Cream jar beside its white box" width="1000" height="1000" loading="lazy">
         <div>
           <p>Every order placed on fairnpink.in is packed and sent by Fair N Pink. The jar arrives sealed, in its white box with the red leaf logo.</p>

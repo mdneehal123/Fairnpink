@@ -256,6 +256,102 @@ ARTICLES = [
         <h2>If your skin reacts</h2>
         <p>Wash it off, stop using it and let your skin rest. If it does not settle in a day or two, see a dermatologist.</p>
         <p>Fair N Pink Advance Radiance Cream contains alpha arbutin with niacinamide and glutathione. Read about <a href="/journal/niacinamide-and-alpha-arbutin/">using niacinamide and alpha arbutin together</a>.</p>'''),
+    ('buy-fair-n-pink-cream-online', 'How to buy Fair N Pink cream online',
+     'Buy Fair N Pink Cream Online | Cash on Delivery and UPI',
+     'How to buy Fair N Pink Advance Radiance Cream online from the official store: steps to order, Cash on Delivery, the UPI saving, delivery time and returns.',
+     'Buying guide', 'Ordering, Cash on Delivery, the UPI saving and delivery time.', '''
+        <p>You can buy Fair N Pink Advance Radiance Cream online on this website, which is the brand's own store. Ordering takes about a minute and you can pay by UPI or with Cash on Delivery.</p>
+        <h2>How to order</h2>
+        <ol>
+          <li>Open the <a href="/">store page</a> and choose a pack of 1, 2 or 3.</li>
+          <li>Tap Buy now and fill in your name, mobile number and address.</li>
+          <li>Choose UPI or Cash on Delivery.</li>
+          <li>Tap Send order on WhatsApp. We confirm your order by reply.</li>
+        </ol>
+        <h2>Cash on Delivery</h2>
+        <p>Cash on Delivery is available. You pay the regular pack price to the courier when the parcel arrives.</p>
+        <h2>Paying by UPI</h2>
+        <p>Paying by UPI or Google Pay before dispatch saves ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. You pay in your own UPI app and send us the payment screenshot with your order. We never ask for your UPI PIN.</p>
+        <h2>Delivery</h2>
+        <p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and reach most pincodes in 3 to 7 working days. Shipping is free on prepaid orders. See the <a href="/shipping-policy/">shipping policy</a>.</p>
+        <h2>Cancellations and damaged parcels</h2>
+        <p>You can cancel any time before dispatch. If a jar arrives damaged, message us within 24 hours with an opening video. Details are in the <a href="/refund-policy/">cancellation and refund policy</a>.</p>
+        <h2>Why buy from the brand</h2>
+        <p>Every order placed here is packed and sent by Fair N Pink, so you know the jar is genuine and sealed. See <a href="/original/">how to identify original Fair N Pink</a>.</p>'''),
+    ('fair-n-pink-night-cream', 'Can Fair N Pink be used as a night cream?',
+     'Fair N Pink Night Cream: Can You Use It at Night?',
+     'Fair N Pink Advance Radiance Cream can be used as a night cream. How to apply it at night, whether night-only use is enough, and what to do in the morning.',
+     'How to use', 'Yes. How to use it at night, and whether night alone is enough.', '''
+        <p>Yes. Fair N Pink Advance Radiance Cream is a day and night cream, and many people use it mainly as a night cream. Night is a good time for it: your skin is clean, and the cream stays on for hours without sun, sweat or makeup.</p>
+        <h2>How to use it at night</h2>
+        <ol>
+          <li>Wash off the day's dirt, sweat and sunscreen with a mild cleanser.</li>
+          <li>Pat your face dry.</li>
+          <li>Take a pea-sized amount and massage it gently over face and neck.</li>
+          <li>Leave it on overnight. Wash your face as usual in the morning.</li>
+        </ol>
+        <h2>Is night-only use enough?</h2>
+        <p>It can be. If your skin is oily, sensitive or new to the cream, using it only at night is a sensible way to start. If your skin is comfortable after a week, you can add a morning application under sunscreen.</p>
+        <h2>What to do in the morning</h2>
+        <p>Use sunscreen every morning, whether or not you apply the cream. Sun exposure during the day undoes what any brightening cream does at night.</p>
+        <h2>Can you layer it with other night products?</h2>
+        <p>Keep it simple. Use the cream as your last step. Avoid strong peels or scrubs on the same night, and if you use a prescription cream, ask your doctor how to combine them.</p>
+        <p>For the complete routine, see <a href="/how-to-use/">how to use Fair N Pink cream</a>.</p>'''),
+    ('glutathione-cream-price-in-india', 'Glutathione cream price in India: what you are paying for',
+     'Glutathione Cream Price in India | Creams Under ₹1,000',
+     'Glutathione cream prices in India vary widely. What decides the price, how to compare creams fairly, and where Fair N Pink at ₹999 fits.',
+     'Price', 'Why prices vary so much, and how to compare creams fairly.', '''
+        <p>Glutathione face creams in India are sold at very different prices, from a few hundred rupees to several thousand. The name on the front is the same, but what is in the jar and who stands behind it are not.</p>
+        <h2>What decides the price</h2>
+        <ul>
+          <li><b>Net weight.</b> Jars range from small to large. Always check the grams before you compare two prices.</li>
+          <li><b>The other ingredients.</b> A cream that also contains niacinamide and alpha arbutin costs more to make than one with glutathione alone.</li>
+          <li><b>Packaging.</b> Heavy jars and boxes add to the cost.</li>
+          <li><b>The seller.</b> Buying from the brand costs what the brand sets. Resellers add or cut margins.</li>
+        </ul>
+        <h2>How to compare fairly</h2>
+        <ol>
+          <li>Read the full ingredient list, not only the front of the box.</li>
+          <li>Check the net weight and how long a jar will last you.</li>
+          <li>Check that the brand owner is named on the pack and can be contacted.</li>
+          <li>Be careful with very cheap creams that carry no ingredient list at all.</li>
+        </ol>
+        <h2>Glutathione creams under ₹1,000</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is ₹999 for a %(net)s jar, or ₹899 when you pay by UPI. It contains glutathione with niacinamide and alpha arbutin. A pea-sized amount is enough for the face and neck, so a small jar goes further than its size suggests.</p>
+        <h2>Does a higher price mean a better cream?</h2>
+        <p>Not on its own. What matters is whether the cream suits your skin and whether you use it regularly with sunscreen. See <a href="/journal/glutathione-cream-for-face/">what a glutathione cream can and cannot do</a>.</p>'''),
+    ('fair-n-pink-cream-hindi', 'Fair N Pink क्रीम: कीमत, उपयोग और सावधानियां',
+     'Fair N Pink Cream in Hindi | कीमत, फायदे, उपयोग और साइड इफेक्ट',
+     'Fair N Pink Advance Radiance Cream की पूरी जानकारी हिंदी में: कीमत ₹999, लगाने का तरीका, फायदे, सावधानियां और ऑर्डर कैसे करें।',
+     'हिंदी', 'कीमत, लगाने का तरीका, फायदे और सावधानियां, हिंदी में।', '''
+        <p>Fair N Pink Advance Radiance Cream रोज़ इस्तेमाल करने वाली फेस क्रीम है। इसमें ग्लूटाथियोन, नियासिनामाइड और अल्फा अर्बुटिन हैं। यह %(net)s के सिल्वर जार में आती है।</p>
+        <h2>Fair N Pink क्रीम की कीमत</h2>
+        <ul>
+          <li>1 जार: ₹999</li>
+          <li>2 जार का पैक: ₹1,899</li>
+          <li>3 जार का पैक: ₹2,699</li>
+        </ul>
+        <p>UPI या Google Pay से भुगतान करने पर ₹100, ₹150 या ₹250 की बचत होती है। कैश ऑन डिलीवरी भी उपलब्ध है।</p>
+        <h2>क्रीम कैसे लगाएं</h2>
+        <ol>
+          <li>चेहरा धोकर हल्के हाथ से सुखा लें।</li>
+          <li>मटर के दाने जितनी क्रीम लें।</li>
+          <li>चेहरे और गर्दन पर पतली परत लगाकर हल्की मालिश करें।</li>
+          <li>सुबह क्रीम के बाद सनस्क्रीन ज़रूर लगाएं। रात को क्रीम लगाकर छोड़ दें।</li>
+        </ol>
+        <h2>क्रीम के फायदे</h2>
+        <p>नियमित इस्तेमाल से त्वचा ज़्यादा निखरी, एक समान और मुलायम दिखने में मदद मिलती है। यह एक कॉस्मेटिक क्रीम है। कोई भी क्रीम आपकी प्राकृतिक त्वचा का रंग नहीं बदलती। नतीजे हर व्यक्ति में अलग होते हैं।</p>
+        <h2>असर दिखने में कितना समय लगता है</h2>
+        <p>कम से कम चार से आठ हफ्ते तक रोज़ इस्तेमाल करें, और रोज़ सुबह सनस्क्रीन लगाएं।</p>
+        <h2>सावधानियां</h2>
+        <ul>
+          <li>पहली बार लगाने से पहले बांह के अंदर की तरफ 24 घंटे का पैच टेस्ट करें।</li>
+          <li>लालिमा, खुजली या जलन हो तो क्रीम धो दें और इस्तेमाल बंद कर दें।</li>
+          <li>आंखों और कटी-फटी त्वचा से दूर रखें।</li>
+          <li>गर्भावस्था या स्तनपान के दौरान, या त्वचा का इलाज चल रहा हो तो पहले डॉक्टर से पूछें।</li>
+        </ul>
+        <h2>ऑर्डर कैसे करें</h2>
+        <p><a href="/">स्टोर पेज</a> पर पैक चुनें, अपना नाम और पता भरें, और WhatsApp पर ऑर्डर भेजें। ऑर्डर 24 घंटे में भेज दिया जाता है और 3 से 7 कार्य दिवसों में पहुंचता है।</p>'''),
 ]
 ARTICLES = [a[:6] + (a[6] % {'net': NET} if '%(net)s' in a[6] else a[6],) for a in ARTICLES]
 

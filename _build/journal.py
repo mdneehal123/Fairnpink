@@ -8,16 +8,17 @@ for i, (slug, h1, seo, desc, tag, teaser, inner) in enumerate(ARTICLES):
     others = [a for a in ARTICLES if a[0] != slug]
     nxt = (others[i % len(others):] + others)[:3]
     path = '/journal/%s/' % slug
+    hi = ' lang="hi"' if slug.endswith('-hindi') else ''
     body = '''    <div class="page-top">
       <span class="eyebrow"><a href="/journal/" style="text-decoration:none">Journal</a> · %s</span>
-      <h1>%s</h1>
+      <h1%s>%s</h1>
       <p class="byline">By Fair N Pink · Updated 5 October 2026</p>
     </div>
     <section>
-      <div class="prose">%s
+      <div class="prose"%s>%s
       </div>
     </section>
-''' % (tag, h1, inner) + CTA + sec('Journal', 'Keep reading', '', jlist(nxt))
+''' % (tag, hi, h1, hi, inner) + CTA + sec('Journal', 'Keep reading', '', jlist(nxt))
     page(path, seo, desc, body, crumbs=h1, schema=[{
         '@type': 'Article', 'headline': h1, 'description': desc, 'image': SITE + '/assets/og.jpg',
         'datePublished': TODAY, 'dateModified': TODAY, 'mainEntityOfPage': SITE + path,
