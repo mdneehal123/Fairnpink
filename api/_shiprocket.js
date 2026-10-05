@@ -41,8 +41,12 @@ async function login(s) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email: s.email, password: s.password })
   });
-  const d = await r.json();
-  if (!r.ok || !d.token) throw new Error('shiprocket_login_failed');
+  const d = await r.json().catch(() => ({}));
+  if (!r.ok || !d.token) {
+    const e = new Error('shiprocket_login_failed');
+    e.detail = { step: 'login', http: r.status, message: String(d.message || '').slice(0, 200) };
+    throw e;
+  }
   cached = { token: d.token, until: Date.now() + 8 * 24 * 3600 * 1000 };
   return d.token;
 }
@@ -104,7 +108,13 @@ async function createOrder(order) {
     })
   });
   const d = await r.json().catch(() => ({}));
-  if (!r.ok || !(d.order_id || d.shipment_id)) return { status: 'failed', reason: 'shiprocket_rejected' };
+  if (!r.ok || !(d.order_id || d.shipment_id)) {
+    // Shiprocket names the valid pickup locations when the nickname is wrong.
+    const list = d && d.data && Array.isArray(d.data.data) ? d.data.data.map((x) => x.pickup_location).filter(Boolean) : undefined;
+    const detail = { step: 'create', http: r.status, message: String(d.message || '').slice(0, 300), errors: d.errors, pickup_sent: s.pickup, pickup_available: list, state_sent: state };
+    console.error('shiprocket create failed', JSON.stringify(detail));
+    return { status: 'failed', reason: 'shiprocket_rejected', detail };
+  }
   return { status: 'created', shiprocket_order_id: d.order_id || null };
 }
 

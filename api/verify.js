@@ -41,6 +41,7 @@ module.exports = async (req, res) => {
       });
       shipping = out.status;
     } catch (e) {
+      console.error('shipping hand-off failed', e && e.message, JSON.stringify((e && e.detail) || {}));
       shipping = 'failed';
     }
   }
