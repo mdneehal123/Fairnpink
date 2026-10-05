@@ -436,6 +436,6 @@ open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')
 open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % SITE)
-open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'cleanUrls': True, 'trailingSlash': True}, indent=2) + '\n')
+open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'trailingSlash': True}, indent=2) + '\n')
 open(os.path.join(ROOT, '.vercelignore'), 'w').write('_build\nREADME.md\n')
 print('built', len(urls), 'pages')
