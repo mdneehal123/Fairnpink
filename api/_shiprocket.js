@@ -6,12 +6,9 @@ const BASE = 'https://apiv2.shiprocket.in/v1/external';
 // Pickup address nickname in Shiprocket (Azad Nagar 4th Cross, Bhatkal 581320). Not a secret.
 const PICKUP = 'Primary';
 
-// Parcel sizes per pack. Weight in kg, sizes in cm. Change these to the real packed values.
-const PARCEL = {
-  1: { weight: 0.1, length: 10, breadth: 10, height: 8 },
-  2: { weight: 0.2, length: 14, breadth: 10, height: 8 },
-  3: { weight: 0.3, length: 18, breadth: 10, height: 8 }
-};
+// Parcel sent to Shiprocket: 100 g in a 10 x 10 x 8 cm box for every pack, as confirmed by the owner.
+const BOX = { weight: 0.1, length: 10, breadth: 10, height: 8 };
+const PARCEL = { 1: BOX, 2: BOX, 3: BOX };
 
 // Fallback when the pincode lookup is unavailable: first two digits of the pincode.
 const STATE_BY_PREFIX = {
