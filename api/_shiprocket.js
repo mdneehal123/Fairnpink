@@ -1,7 +1,10 @@
 // Sends a paid order to Shiprocket so it appears under New Orders, ready to ship.
-// Switched on by three environment variables: SHIPROCKET_EMAIL, SHIPROCKET_PASSWORD (an API user,
-// not the main login) and SHIPROCKET_PICKUP (the pickup location nickname).
+// Switched on by two environment variables: SHIPROCKET_EMAIL and SHIPROCKET_PASSWORD
+// (an API user, not the main login).
 const BASE = 'https://apiv2.shiprocket.in/v1/external';
+
+// Pickup address nickname in Shiprocket (Azad Nagar 4th Cross, Bhatkal 581320). Not a secret.
+const PICKUP = 'Primary';
 
 // Parcel sizes per pack. Weight in kg, sizes in cm. Change these to the real packed values.
 const PARCEL = {
@@ -28,8 +31,7 @@ const STATE_BY_PREFIX = {
 function settings() {
   const email = process.env.SHIPROCKET_EMAIL;
   const password = process.env.SHIPROCKET_PASSWORD;
-  const pickup = process.env.SHIPROCKET_PICKUP;
-  return email && password && pickup ? { email, password, pickup } : null;
+  return email && password ? { email, password, pickup: PICKUP } : null;
 }
 
 let cached = { token: '', until: 0 };
