@@ -1,7 +1,8 @@
 const { keys } = require('./_shared');
+const shiprocket = require('./_shiprocket');
 
-// Tells the store page whether online payment is switched on. Never returns the secret.
+// Tells the store page which services are switched on. Never returns any secret.
 module.exports = (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
-  res.status(200).json({ razorpay: !!keys() });
+  res.status(200).json({ razorpay: !!keys(), shiprocket: !!shiprocket.settings() });
 };
