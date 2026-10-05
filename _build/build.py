@@ -228,6 +228,21 @@ LOOKS_HTML = '''    <section id="looks">
     </section>
 '''
 
+# Ingredient spotlight cards for the home page. The small drawings are simple original line motifs.
+SPOTS = [
+    ('01', 'The antioxidant', 'L-Glutathione', 'Made of three amino acids. Used in creams made for brighter-looking skin.', 'blush',
+     '<circle cx="34" cy="62" r="15"/><circle cx="86" cy="62" r="15"/><circle cx="60" cy="26" r="15"/><path d="M45 52l8-14M75 52l-8-14M49 62h22"/>'),
+    ('02', 'Vitamin B3', 'Niacinamide', 'One of the most widely used skincare ingredients. Helps skin look smoother and more even.', 'sand',
+     '<path d="M60 14c17 21 26 35 26 47a26 26 0 0 1-52 0c0-12 9-26 26-47Z"/><path d="M47 62a13 13 0 0 0 10 12"/>'),
+    ('03', 'For uneven tone', 'Alpha arbutin', 'Used to help reduce the look of dark spots and uneven tone, gradually.', 'mist',
+     '<circle cx="22" cy="46" r="12" fill="currentColor" fill-opacity=".55"/><circle cx="54" cy="46" r="12" fill="currentColor" fill-opacity=".3"/><circle cx="86" cy="46" r="12" fill="currentColor" fill-opacity=".12"/><path d="M14 76h80M86 70l8 6-8 6"/>'),
+]
+SPOTS_HTML = '      <div class="spots" tabindex="0" aria-label="Key ingredients">' + ''.join(
+    '<article class="spot spot-%s"><span class="spot-n">%s</span>'
+    '<svg viewBox="0 0 120 92" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
+    '<div><span class="spot-k">%s</span><h3>%s</h3><p>%s</p></div></article>' % (tone, n, art, k, name, text)
+    for n, k, name, text, tone, art in SPOTS) + '</div>'
+
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
 
@@ -272,7 +287,7 @@ home = hero + '''
           <li>One cream for morning and night</li>
         </ul>
       </div>''' % (NET, NET), id='about') + LOOKS_HTML + (REELS_HTML if SHOW_REELS else '') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
-    ACT_GRID + '\n      <p class="more"><a href="/ingredients/">More about the ingredients</a></p>') + sec('The ritual', 'How to use it', 'Morning and night, in under a minute.',
+    SPOTS_HTML + '\n      <p class="more"><a href="/ingredients/">More about the ingredients</a></p>') + sec('The ritual', 'How to use it', 'Morning and night, in under a minute.',
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
     </section>
