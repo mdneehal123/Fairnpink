@@ -1,0 +1,70 @@
+<div class="hero">
+      <div class="media">
+        <div class="stage"><img id="media-photo" src="/assets/pack-1.webp" alt="Fair N Pink Advance Radiance Cream in a silver jar with a clear lid, in front of a swatch of pink cream" width="720" height="720"></div>
+      </div>
+      <div>
+        <span class="eyebrow">Fair N Pink · Official store</span>
+        <h1>Advance Radiance Cream <span class="h1-sub">With glutathione</span></h1>
+        <p class="sub">A face cream with glutathione, niacinamide, alpha arbutin and kojic acid, in a silver jar with a soft pink texture. Use a small amount morning and night for brighter-looking skin.</p>
+        <div class="chips"><span>Glutathione</span><span>Niacinamide</span><span>Alpha arbutin</span><span>Kojic acid</span></div>
+
+        <div class="buy">
+          <div class="packs" role="radiogroup" aria-label="Choose your pack">
+            <button type="button" class="pack on" role="radio" aria-checked="true" data-pack="1" id="pack-1">
+              <img src="/assets/pack-1.webp" alt="" width="56" height="56">
+              <span class="pk-name">Pack of 1</span><span class="pk-price">₹999</span><span class="pk-save">&nbsp;</span>
+            </button>
+            <button type="button" class="pack" role="radio" aria-checked="false" data-pack="2" id="pack-2">
+              <img src="/assets/pack-2.webp" alt="" width="56" height="56">
+              <span class="pk-name">Pack of 2</span><span class="pk-price">₹1,899</span><span class="pk-save">Save ₹99</span>
+            </button>
+            <button type="button" class="pack" role="radio" aria-checked="false" data-pack="3" id="pack-3">
+              <span class="pk-tag alt">Best value</span>
+              <img src="/assets/pack-3.webp" alt="" width="56" height="56">
+              <span class="pk-name">Pack of 3</span><span class="pk-price">₹2,699</span><span class="pk-save">Save ₹298</span>
+            </button>
+          </div>
+          <div class="price"><b id="price-now">₹999</b><s id="price-was" hidden>₹999</s><span id="price-note">inclusive of all taxes</span></div>
+          <p id="upi-line" class="upi">Pay by UPI or Google Pay and save <b id="upi-save">₹100</b></p>
+          <div class="row">
+            <button type="button" class="btn" id="buy-main">Buy now</button>
+            <a class="btn wa" id="wa-order" href="https://wa.me/919980881230?text=Hello%2C%20I%20want%20to%20order%20Fair%20N%20Pink%20Advance%20Radiance%20Cream." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H10l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>Order on WhatsApp</a>
+          </div>
+          <div class="panel" id="order-panel" hidden>
+            <p><b id="order-line">Pack of 1 · ₹999</b></p>
+            <p style="color:var(--muted);margin:4px 0 14px">Fill in your delivery details and choose how to pay. For UPI, scan the code, pay, and send us the payment screenshot with your order on WhatsApp.</p>
+            <form id="order-form" class="oform" novalidate>
+              <label for="of-name">Full name</label><input id="of-name" type="text" autocomplete="name" required>
+              <label for="of-phone">Mobile number</label><input id="of-phone" type="tel" inputmode="numeric" autocomplete="tel" required>
+              <label for="of-address">Full address</label><textarea id="of-address" rows="2" autocomplete="street-address" required></textarea>
+              <div class="two"><div><label for="of-city">City</label><input id="of-city" type="text" autocomplete="address-level2" required></div><div><label for="of-pin">Pincode</label><input id="of-pin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" required></div></div>
+              <fieldset class="pay">
+                <legend>How would you like to pay?</legend>
+                <label for="pay-upi"><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>UPI or Google Pay<small>You save <b id="pay-save">₹100</b></small></span><b id="pay-upi-amt">₹899</b></label>
+                <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small>Pay when it arrives</small></span><b id="pay-cod-amt">₹999</b></label>
+              </fieldset>
+              <div id="upi-box" class="upibox">
+                <div id="upi-qr" class="upiqr"><img src="/assets/upi-qr.png" alt="UPI QR code for payment to mdneehal-2@okaxis" width="520" height="520"></div>
+                <div class="upitxt">
+                  <p><b>Scan and pay <span id="upi-amt">₹899</span></b></p>
+                  <p id="upi-id-line">Open any UPI app, scan this code and pay the amount shown.</p>
+                  <a id="upi-open" class="upiopen" href="#">Open UPI app on this phone</a>
+                  <p class="upistep">After paying, take a screenshot of the payment. Then tap the button below and attach the screenshot in WhatsApp.</p>
+                </div>
+              </div>
+              <p class="oerr" id="order-error" role="alert" hidden></p>
+              <a class="btn" id="order-send" href="https://wa.me/919980881230" target="_blank" rel="noopener">Send order on WhatsApp</a>
+              <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order. Nothing is charged on this page. See our <a href="#policies">privacy policy</a>.</p>
+            </form>
+          </div>
+          <p id="eta-line" style="margin:0;font-weight:600;font-size:.95rem">Delivered in 3 to 7 working days.</p>
+          <ul class="facts">
+            <li><b>Free shipping</b>on prepaid orders</li>
+            <li><b>Ships in 24 hours</b>except Sundays and holidays</li>
+            <li><b>3 to 7 working days</b>delivery across India</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    
