@@ -106,7 +106,7 @@
     document.head.appendChild(s);
   }
   function paid(paymentId,total,confirmed,balance){
-    track(total,paymentId);remember();
+    track(total,paymentId);remember();clearPending();
     var cod=balance>0;
     var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'Advance paid: '+rupees(ADVANCE)+'\nTo pay on delivery: '+rupees(balance):'Paid online: '+rupees(total))+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     var form=document.getElementById('order-form'), box=document.createElement('div');
@@ -138,20 +138,23 @@
   }
   function payOnline(advance){
     var total=advance?PACKS[qty].price:PACKS[qty].price-UPI_OFF[qty];
+    lastMode=advance?'cod':'online';notYet.hidden=true;
     err.hidden=true;sendBtn.dataset.busy='1';sendBtn.textContent='Opening secure payment…';
     fetch('/api/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pack:qty,mode:advance?'advance':'full',name:F.name.value.trim(),phone:mobile(F.phone.value),address:F.address.value.trim(),city:F.city.value.trim(),pincode:F.pin.value.trim()})})
     .then(function(r){return r.ok?r.json():Promise.reject(r.status);})
     .then(function(o){
       var balance=Number(o.balance)||0;
       loadCheckout(function(){
+        var done=false;
         var rz=new window.Razorpay({key:o.key_id,order_id:o.order_id,amount:o.amount,currency:o.currency,name:'Fair N Pink',description:'Advance Radiance Cream, Pack of '+qty+(advance?' (advance for Cash on Delivery)':''),
           prefill:{name:F.name.value.trim(),contact:mobile(F.phone.value)},theme:{color:'#231B1E'},
           handler:function(resp){
+            done=true;
             fetch('/api/verify',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(resp)})
             .then(function(r){return r.json();}).then(function(v){paid(resp.razorpay_payment_id,total,!!v.ok,balance);})
             .catch(function(){paid(resp.razorpay_payment_id,total,false,balance);});
           },
-          modal:{ondismiss:function(){delete sendBtn.dataset.busy;orderLink();}}});
+          modal:{ondismiss:function(){delete sendBtn.dataset.busy;orderLink();if(!done){stopped();}}}});
         rz.on('payment.failed',function(){fail('The payment did not go through. Nothing was charged if your bank shows no debit. Please try again, or message us on WhatsApp.');});
         rz.open();
       });
@@ -163,6 +166,22 @@
   function remember(){try{var o={};Object.keys(F).forEach(function(k){o[k]=F[k].value.trim();});localStorage.setItem(KEY,JSON.stringify(o));}catch(e){}}
   function forget(){try{localStorage.removeItem(KEY);}catch(e){}Object.keys(F).forEach(function(k){F[k].value='';});savedLine.hidden=true;pinNote.hidden=true;orderLink();}
   document.getElementById('saved-clear').addEventListener('click',forget);
+  /* An order that was started but not paid: kept on this device only, to offer a way back. Nothing is sent anywhere. */
+  var PEND='fnp-pending', notYet=document.getElementById('not-yet'), strip=document.getElementById('resume-strip'), lastMode='online';
+  function setPending(){remember();try{localStorage.setItem(PEND,JSON.stringify({qty:qty,at:Date.now()}));}catch(e){}}
+  function clearPending(){try{localStorage.removeItem(PEND);}catch(e){}notYet.hidden=true;strip.hidden=true;}
+  function stopped(){
+    setPending();
+    var sw=document.getElementById('ny-switch');
+    sw.textContent=lastMode==='cod'?'Pay online and save '+rupees(UPI_OFF[qty]):'Switch to Cash on Delivery, pay '+rupees(ADVANCE)+' now';
+    notYet.hidden=false;notYet.scrollIntoView({block:'center',behavior:'smooth'});
+  }
+  function choose(id){document.getElementById(id).checked=true;orderLink();}
+  document.getElementById('ny-retry').addEventListener('click',function(){notYet.hidden=true;sendBtn.click();});
+  document.getElementById('ny-switch').addEventListener('click',function(){notYet.hidden=true;choose(lastMode==='cod'?'pay-upi':'pay-cod');sendBtn.click();});
+  document.getElementById('ny-wa').addEventListener('click',function(){notYet.hidden=true;choose('pay-wa');sendBtn.click();});
+  document.getElementById('resume-x').addEventListener('click',clearPending);
+  document.getElementById('resume-go').addEventListener('click',function(){strip.hidden=true;panel.hidden=false;render();window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});});
   /* Pincode: fill in the city and show the courier's estimated delivery date. Fails silently. */
   var pinNote=document.getElementById('pin-note'), cityAuto='', pinSeen='';
   function pinLookup(){
@@ -188,7 +207,7 @@
     if(sendBtn.dataset.busy){return;}
     if(p){showProblem(p);return;}
     mark();
-    if(m==='wa'){err.hidden=true;remember();window.open(waOrderUrl(),'_blank','noopener');return;}
+    if(m==='wa'){err.hidden=true;remember();clearPending();window.open(waOrderUrl(),'_blank','noopener');return;}
     payOnline(m==='cod');
   });
   document.getElementById('pay-wa').addEventListener('change',orderLink);
@@ -209,6 +228,9 @@
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
   document.getElementById('wa-help').href=document.getElementById('wa-chat').href;
   try{var saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved){Object.keys(F).forEach(function(k){if(typeof saved[k]==='string'){F[k].value=saved[k].slice(0,300);}});savedLine.hidden=false;}}catch(e){}
+  try{var pend=JSON.parse(localStorage.getItem(PEND)||'null');
+    if(pend&&PACKS[pend.qty]&&Date.now()-pend.at<7*86400000&&F.name.value){qty=pend.qty;document.getElementById('resume-text').textContent='Pack of '+qty+' · '+rupees(PACKS[qty].price)+' · your details are saved on this device.';strip.hidden=false;}
+    else if(pend){localStorage.removeItem(PEND);}}catch(e){}
   render();
   pinLookup();
   /* Instagram films: one at a time on a dark stage, in Instagram's own player frame. Loaded only when the stage is about to be seen. */

@@ -386,3 +386,15 @@ footer .accept{margin-bottom:12px}
 /* a field that needs correcting */
 .oform input.bad,.oform textarea.bad{border-color:var(--err);background:#FFF6F5}
 .fielderr{color:var(--err);font-size:.82rem;font-weight:500;margin:-2px 0 0}
+
+/* order started but not paid: on-page ways back */
+.notyet{border:1px solid var(--turmeric-ink);background:var(--turmeric-soft);padding:14px;margin:12px 0 0;display:flex;flex-direction:column;gap:8px}
+.notyet p{font-size:.92rem;margin:0 0 4px}
+.notyet .btn{width:100%;display:flex;align-items:center;justify-content:center;white-space:normal;text-align:center;line-height:1.3}
+.notyet .btn.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--ink)}
+.resume{display:flex;align-items:center;gap:12px;border:1px solid var(--turmeric-ink);background:var(--turmeric-soft);padding:12px 14px;margin:0 0 18px}
+.resume p{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;font-size:.86rem;line-height:1.35;margin:0}
+.resume p b{font-size:.95rem}
+.resume p span{color:var(--muted)}
+.resume .btn{flex:0 0 auto;padding:10px 16px;min-height:0;width:auto}
+.resume-x{flex:0 0 auto;background:none;border:0;font-size:1.4rem;line-height:1;color:var(--muted);cursor:pointer;padding:4px 6px}
