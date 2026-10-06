@@ -15,6 +15,7 @@
 <meta property="og:image" content="https://fairnpink.in/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="/assets/pack-1.webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap">
@@ -36,10 +37,10 @@
       <div class="media">
         <div class="stage"><img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high" alt="Fair N Pink Advance Radiance Cream in a silver jar with a clear lid, in front of a swatch of pink cream" width="720" height="720"></div>
         <div class="gthumbs" role="group" aria-label="Product pictures">
-          <button type="button" class="gthumb on" aria-pressed="true" data-src="" data-alt="Fair N Pink Advance Radiance Cream in a silver jar with a clear lid, in front of a swatch of pink cream"><img id="gthumb-pack" src="/assets/pack-1.webp" alt="Product photo" width="72" height="72"></button>
-          <button type="button" class="gthumb" aria-pressed="false" data-src="/assets/info-benefits.webp" data-alt="What it does: brighter-looking skin, more even-looking tone, a soft moisturised feel, for morning and night"><img src="/assets/info-benefits.webp" alt="Benefits" width="72" height="72" loading="lazy"></button>
-          <button type="button" class="gthumb" aria-pressed="false" data-src="/assets/info-inside.webp" data-alt="What is inside: L-glutathione, niacinamide and alpha arbutin"><img src="/assets/info-inside.webp" alt="Ingredients" width="72" height="72" loading="lazy"></button>
-          <button type="button" class="gthumb" aria-pressed="false" data-src="/assets/info-how-to-use.webp" data-alt="How to use it: morning with sunscreen, night left on, patch test first"><img src="/assets/info-how-to-use.webp" alt="How to use" width="72" height="72" loading="lazy"></button>
+          <button type="button" class="gthumb on" aria-pressed="true" data-src="" data-alt="Fair N Pink Advance Radiance Cream in a silver jar with a clear lid, in front of a swatch of pink cream"><img id="gthumb-pack" src="/assets/pack-1-s.webp" alt="Product photo" width="72" height="72"></button>
+          <button type="button" class="gthumb" aria-pressed="false" data-src="/assets/info-benefits.webp" data-alt="What it does: brighter-looking skin, more even-looking tone, a soft moisturised feel, for morning and night"><img src="/assets/info-benefits-s.webp" alt="Benefits" width="72" height="72"></button>
+          <button type="button" class="gthumb" aria-pressed="false" data-src="/assets/info-inside.webp" data-alt="What is inside: L-glutathione, niacinamide and alpha arbutin"><img src="/assets/info-inside-s.webp" alt="Ingredients" width="72" height="72"></button>
+          <button type="button" class="gthumb" aria-pressed="false" data-src="/assets/info-how-to-use.webp" data-alt="How to use it: morning with sunscreen, night left on, patch test first"><img src="/assets/info-how-to-use-s.webp" alt="How to use" width="72" height="72"></button>
         </div>
       </div>
       <div>
@@ -52,16 +53,16 @@
           <p class="packs-h">Choose your pack</p>
           <div class="packs" role="radiogroup" aria-label="Choose your pack">
             <button type="button" class="pack on" role="radio" aria-checked="true" data-pack="1" id="pack-1">
-              <img src="/assets/pack-1.webp" alt="" width="56" height="56">
+              <img src="/assets/pack-1-s.webp" alt="" width="56" height="56">
               <span class="pk-name">Pack of 1</span><span class="pk-price">₹999</span><span class="pk-each">&nbsp;</span><span class="pk-save">&nbsp;</span>
             </button>
             <button type="button" class="pack" role="radio" aria-checked="false" data-pack="2" id="pack-2">
-              <img src="/assets/pack-2.webp" alt="" width="56" height="56">
+              <img src="/assets/pack-2-s.webp" alt="" width="56" height="56">
               <span class="pk-name">Pack of 2</span><span class="pk-price">₹1,899</span><span class="pk-each">₹950 a jar</span><span class="pk-save">Save ₹99</span>
             </button>
             <button type="button" class="pack" role="radio" aria-checked="false" data-pack="3" id="pack-3">
               <span class="pk-tag alt">Best value</span>
-              <img src="/assets/pack-3.webp" alt="" width="56" height="56">
+              <img src="/assets/pack-3-s.webp" alt="" width="56" height="56">
               <span class="pk-name">Pack of 3</span><span class="pk-price">₹2,699</span><span class="pk-each">₹900 a jar</span><span class="pk-save">Save ₹298</span>
             </button>
           </div>
@@ -76,7 +77,7 @@
             <p style="color:var(--muted);margin:4px 0 14px">Fill in your delivery details and choose how to pay. Online payments are processed securely by Razorpay.</p>
             <form id="order-form" class="oform" novalidate>
               <label for="of-name">Full name</label><input id="of-name" type="text" autocomplete="name" required>
-              <label for="of-phone">Mobile number</label><input id="of-phone" type="tel" inputmode="numeric" autocomplete="tel" required>
+              <label for="of-phone">Mobile number</label><input id="of-phone" type="tel" inputmode="numeric" autocomplete="tel" maxlength="16" required>
               <label for="of-address">Full address</label><textarea id="of-address" rows="2" autocomplete="street-address" required></textarea>
               <div class="two"><div><label for="of-pin">Pincode</label><input id="of-pin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" required></div><div><label for="of-city">City</label><input id="of-city" type="text" autocomplete="address-level2" required></div></div>
               <p class="pinnote" id="pin-note" aria-live="polite" hidden></p>
@@ -134,7 +135,7 @@
     </section>
     <section id="looks">
       <div class="sec-h"><span class="eyebrow">A closer look</span><h2>The cream, up close</h2></div>
-      <div class="looks" tabindex="0" aria-label="Product pictures"><article class="look"><div class="look-pic"><img src="/assets/jar-and-box.webp" alt="Fair N Pink jar beside its box on satin" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Your daily</span><span>radiance essential</span></h3></div><div class="look-card"><b>What is inside</b><p>Glutathione, niacinamide and alpha arbutin in one cream.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-1.webp" alt="Fair N Pink jar in front of a swatch of pink cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>A soft</span><span>pink cream</span></h3></div><div class="look-card"><b>How to use</b><p>A pea-sized amount, morning and night. Sunscreen in the morning.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-2.webp" alt="Two jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Better</span><span>in pairs</span></h3></div><div class="look-card"><b>Pack of 2</b><p>₹1,749 when you pay online. ₹875 a jar, with free shipping.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-3.webp" alt="Three jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Stock up</span><span>and save</span></h3></div><div class="look-card"><b>Pack of 3</b><p>₹2,449 when you pay online. ₹816 a jar, our best value.</p></div></article></div>
+      <div class="looks" tabindex="0" aria-label="Product pictures"><article class="look"><div class="look-pic"><img src="/assets/jar-and-box-m.webp" alt="Fair N Pink jar beside its box on satin" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Your daily</span><span>radiance essential</span></h3></div><div class="look-card"><b>What is inside</b><p>Glutathione, niacinamide and alpha arbutin in one cream.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-1.webp" alt="Fair N Pink jar in front of a swatch of pink cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>A soft</span><span>pink cream</span></h3></div><div class="look-card"><b>How to use</b><p>A pea-sized amount, morning and night. Sunscreen in the morning.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-2.webp" alt="Two jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Better</span><span>in pairs</span></h3></div><div class="look-card"><b>Pack of 2</b><p>₹1,749 when you pay online. ₹875 a jar, with free shipping.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-3.webp" alt="Three jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Stock up</span><span>and save</span></h3></div><div class="look-card"><b>Pack of 3</b><p>₹2,449 when you pay online. ₹816 a jar, our best value.</p></div></article></div>
     </section>
     <section>
       <div class="sec-h"><span class="eyebrow">What is inside</span><h2>Three ingredients it is built around</h2><p>Each one has a clear job. The full list is printed on every box.</p></div>
@@ -170,7 +171,7 @@
     <section>
       <div class="sec-h"><span class="eyebrow">Genuine product</span><h2>Bought here, it comes from us</h2></div>
       <div class="split">
-        <img src="/assets/jar-and-box.webp" alt="Fair N Pink Advance Radiance Cream jar beside its white box" width="1000" height="1000" loading="lazy">
+        <img src="/assets/jar-and-box-m.webp" alt="Fair N Pink Advance Radiance Cream jar beside its white box" width="800" height="800" loading="lazy">
         <div>
           <p>Every order placed on fairnpink.in is packed and sent by Fair N Pink. The jar arrives sealed, in its white box with the red leaf logo.</p>
           <p>If you are holding a jar and are not sure about it, our guide shows what to look for on the box and the jar.</p>

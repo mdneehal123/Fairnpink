@@ -171,3 +171,7 @@ footer .accept{margin-bottom:12px}
 @keyframes packnudge{0%,100%{box-shadow:0 0 0 0 rgba(138,90,102,0)}35%{box-shadow:0 0 0 6px rgba(138,90,102,.28)}}
 .packs.nudge .pack{animation:packnudge 1s ease 2}
 @media (prefers-reduced-motion:reduce){.packs.nudge .pack{animation:none}}
+
+/* a field that needs correcting */
+.oform input.bad,.oform textarea.bad{border-color:var(--err);background:#FFF6F5}
+.fielderr{color:var(--err);font-size:.82rem;font-weight:500;margin:-2px 0 0}

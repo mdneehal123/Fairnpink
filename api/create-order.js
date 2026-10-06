@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
   const address = clean(body.address, 250);
   const city = clean(body.city, 60);
   const pincode = clean(body.pincode, 6);
-  if (!pack || name.length < 2 || phone.replace(/\D/g, '').length < 10 || address.length < 8 || city.length < 2 || !/^\d{6}$/.test(pincode)) {
+  if (!pack || name.length < 2 || !/^[6-9]\d{9}$/.test(phone.replace(/\D/g, '').slice(-10)) || address.length < 8 || city.length < 2 || !/^\d{6}$/.test(pincode)) {
     return res.status(400).json({ error: 'invalid_details' });
   }
 

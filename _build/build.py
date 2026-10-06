@@ -82,7 +82,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
 <meta property="og:image" content="%(site)s/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+%(preload)s<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap">
 <link rel="stylesheet" href="/assets/site.css">
@@ -118,6 +118,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
 ''' % dict(title=title, desc=desc, url=url, site=SITE, ld=ld, nav=nav, foot=foot, body=body, wa=WA, wa_show=WA_SHOW,
            ig=IG, svg=CHAT_SVG, owner=OWNER, addr=ADDR, bar=bar, script=script, ogtype='product' if home else 'website',
            robots='' if index else '<meta name="robots" content="noindex">\n',
+           preload='<link rel="preload" as="image" href="/assets/pack-1.webp" fetchpriority="high">\n' if home else '',
            chat=wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'))
     out = os.path.join(ROOT, path.strip('/'), 'index.html') if path != '/404' else os.path.join(ROOT, '404.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -214,7 +215,7 @@ REELS_HTML = '''    <section id="videos">
 
 # Picture cards on the home page: a real product photo, a headline label and one small fact card each.
 LOOKS = [
-    ('jar-and-box.webp', 'Fair N Pink jar beside its box on satin', ['Your daily', 'radiance essential'], 'What is inside', 'Glutathione, niacinamide and alpha arbutin in one cream.'),
+    ('jar-and-box-m.webp', 'Fair N Pink jar beside its box on satin', ['Your daily', 'radiance essential'], 'What is inside', 'Glutathione, niacinamide and alpha arbutin in one cream.'),
     ('pack-1.webp', 'Fair N Pink jar in front of a swatch of pink cream', ['A soft', 'pink cream'], 'How to use', 'A pea-sized amount, morning and night. Sunscreen in the morning.'),
     ('pack-2.webp', 'Two jars of Fair N Pink Advance Radiance Cream', ['Better', 'in pairs'], 'Pack of 2', '₹1,749 when you pay online. ₹875 a jar, with free shipping.'),
     ('pack-3.webp', 'Three jars of Fair N Pink Advance Radiance Cream', ['Stock up', 'and save'], 'Pack of 3', '₹2,449 when you pay online. ₹816 a jar, our best value.'),
@@ -306,7 +307,7 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
 ''' + NOTE + '''
     </section>
 ''' + sec('Price', 'Fair N Pink cream price', 'One 10 g jar is ₹999, inclusive of all taxes. Each jar costs less in a pack of 2 or 3, and paying online takes a little more off.', PRICE_TBL, id='price') + sec('Genuine product', 'Bought here, it comes from us', '', '''      <div class="split">
-        <img src="/assets/jar-and-box.webp" alt="Fair N Pink Advance Radiance Cream jar beside its white box" width="1000" height="1000" loading="lazy">
+        <img src="/assets/jar-and-box-m.webp" alt="Fair N Pink Advance Radiance Cream jar beside its white box" width="800" height="800" loading="lazy">
         <div>
           <p>Every order placed on fairnpink.in is packed and sent by Fair N Pink. The jar arrives sealed, in its white box with the red leaf logo.</p>
           <p>If you are holding a jar and are not sure about it, our guide shows what to look for on the box and the jar.</p>
@@ -555,6 +556,8 @@ open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')
 open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % SITE)
-open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'cleanUrls': False}, indent=2) + '\n')
+# Pictures may be kept by the browser for a day and reused while a fresh copy is fetched; pages, styles and scripts are always checked.
+open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'cleanUrls': False, 'headers': [
+    {'source': '/assets/(.*)\\.(webp|jpg|svg)', 'headers': [{'key': 'Cache-Control', 'value': 'public, max-age=86400, stale-while-revalidate=604800'}]}]}, indent=2) + '\n')
 open(os.path.join(ROOT, '.vercelignore'), 'w').write('_build\nREADME.md\n')
 print('built', len(urls), 'pages')

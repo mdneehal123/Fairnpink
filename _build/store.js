@@ -32,9 +32,8 @@
       var on=Number(b.dataset.pack)===qty;
       b.classList.toggle('on',on); b.setAttribute('aria-checked',String(on));
       if(on){
-        var src=b.querySelector('img').src;
-        var gp=document.getElementById('gthumb-pack');if(gp){gp.src=src;}
-        if(packPhotoShown){document.getElementById('media-photo').src=src;}
+        var gp=document.getElementById('gthumb-pack');if(gp){gp.src='/assets/pack-'+qty+'-s.webp';}
+        if(packPhotoShown){document.getElementById('media-photo').src='/assets/pack-'+qty+'.webp';}
       }
     });
   }
@@ -42,7 +41,7 @@
   function pick(t){
     var main=document.getElementById('media-photo'), src=t.getAttribute('data-src');
     packPhotoShown=!src;
-    main.src=src||document.getElementById('gthumb-pack').src;
+    main.src=src||'/assets/pack-'+qty+'.webp';
     main.alt=t.getAttribute('data-alt');
     gthumbs.forEach(function(x){var on=x===t;x.classList.toggle('on',on);x.setAttribute('aria-pressed',String(on));});
   }
@@ -52,14 +51,20 @@
     if(goToForm){goToForm=false;panel.hidden=false;window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});}});});
   var F={name:document.getElementById('of-name'),phone:document.getElementById('of-phone'),address:document.getElementById('of-address'),city:document.getElementById('of-city'),pin:document.getElementById('of-pin')};
   var sendBtn=document.getElementById('order-send'), err=document.getElementById('order-error');
+  /* An Indian mobile: 10 digits starting 6 to 9, with an optional 0 or 91 in front. Returns the 10 digits, or ''. */
+  function mobile(v){var d=String(v).replace(/\D/g,'');if(d.length===12&&d.slice(0,2)==='91'){d=d.slice(2);}else if(d.length===11&&d.charAt(0)==='0'){d=d.slice(1);}return /^[6-9]\d{9}$/.test(d)&&!/^(\d)\1{9}$/.test(d)?d:'';}
+  var badField=null;
   function orderProblem(){
-    if(F.name.value.trim().length<2) return 'Please enter your full name.';
-    if(F.phone.value.replace(/\D/g,'').length<10) return 'Please enter a 10-digit mobile number.';
-    if(F.address.value.trim().length<8) return 'Please enter your full address.';
-    if(F.city.value.trim().length<2) return 'Please enter your city.';
-    if(!/^\d{6}$/.test(F.pin.value.trim())) return 'Please enter a 6-digit pincode.';
+    badField=null;
+    if(F.name.value.trim().length<2){badField=F.name;return 'Please enter your full name.';}
+    if(!mobile(F.phone.value)){badField=F.phone;return 'Please check the mobile number. It should be a 10-digit Indian mobile number.';}
+    if(F.address.value.trim().length<8){badField=F.address;return 'Please enter your full address, with house number and street.';}
+    if(!/^[1-9]\d{5}$/.test(F.pin.value.trim())){badField=F.pin;return 'Please enter a 6-digit pincode.';}
+    if(F.city.value.trim().length<2){badField=F.city;return 'Please enter your city.';}
     return '';
   }
+  function mark(){[].slice.call(document.querySelectorAll('.fielderr')).forEach(function(x){x.remove();});Object.keys(F).forEach(function(k){var bad=F[k]===badField;F[k].classList.toggle('bad',bad);if(bad){F[k].setAttribute('aria-invalid','true');}else{F[k].removeAttribute('aria-invalid');}});}
+  function showProblem(text){err.textContent=text;err.hidden=false;mark();if(badField){var fe=document.createElement('p');fe.className='fielderr';fe.textContent=text;badField.insertAdjacentElement('afterend',fe);badField.focus({preventScroll:true});badField.scrollIntoView({block:'center',behavior:'smooth'});}}
   function payMode(){return document.getElementById('pay-upi').checked?'online':document.getElementById('pay-cod').checked?'cod':'wa';}
   function waOrderUrl(){
     var p=PACKS[qty];
@@ -90,7 +95,8 @@
     document.getElementById('cod-terms').hidden=m!=='cod';
     summary(m);
   }
-  Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
+  Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();F[k].classList.remove('bad');F[k].removeAttribute('aria-invalid');var fe=F[k].nextElementSibling;if(fe&&fe.className==='fielderr'){fe.remove();}if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
+  F.phone.addEventListener('blur',function(){if(F.phone.value.trim()&&!mobile(F.phone.value)){F.phone.classList.add('bad');}});
   function track(value,id){if(ADS_SEND_TO&&typeof gtag==='function'){gtag('event','conversion',{send_to:ADS_SEND_TO,value:value,currency:'INR',transaction_id:id});}}
   function fail(text){err.textContent=text;err.hidden=false;delete sendBtn.dataset.busy;orderLink();}
   function loadCheckout(done){
@@ -123,6 +129,9 @@
     var ol=el('ol','thanks-use');
     ['Wash your face and pat it dry.','Take a pea-sized amount of cream.','Spread a thin layer over face and neck, morning and night.','Finish with sunscreen every morning.'].forEach(function(x){var li=document.createElement('li');li.textContent=x;ol.appendChild(li);});
     var more=el('a','thanks-more','Read the full how-to-use guide');more.href='/how-to-use/';
+    el('h4','','Know someone who would like it?');
+    var sh=el('a','btn ghost','Share with a friend on WhatsApp');sh.target='_blank';sh.rel='noopener';
+    sh.href='https://wa.me/?text='+encodeURIComponent('I just ordered Fair N Pink Advance Radiance Cream from the brand\'s own store. Have a look: https://fairnpink.in/');
     form.hidden=true;form.parentNode.insertBefore(box,form);
     var intro=panel.querySelectorAll('p')[1];if(intro){intro.hidden=true;}
     box.scrollIntoView({block:'center',behavior:'smooth'});
@@ -130,13 +139,13 @@
   function payOnline(advance){
     var total=advance?PACKS[qty].price:PACKS[qty].price-UPI_OFF[qty];
     err.hidden=true;sendBtn.dataset.busy='1';sendBtn.textContent='Opening secure payment…';
-    fetch('/api/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pack:qty,mode:advance?'advance':'full',name:F.name.value.trim(),phone:F.phone.value.trim(),address:F.address.value.trim(),city:F.city.value.trim(),pincode:F.pin.value.trim()})})
+    fetch('/api/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pack:qty,mode:advance?'advance':'full',name:F.name.value.trim(),phone:mobile(F.phone.value),address:F.address.value.trim(),city:F.city.value.trim(),pincode:F.pin.value.trim()})})
     .then(function(r){return r.ok?r.json():Promise.reject(r.status);})
     .then(function(o){
       var balance=Number(o.balance)||0;
       loadCheckout(function(){
         var rz=new window.Razorpay({key:o.key_id,order_id:o.order_id,amount:o.amount,currency:o.currency,name:'Fair N Pink',description:'Advance Radiance Cream, Pack of '+qty+(advance?' (advance for Cash on Delivery)':''),
-          prefill:{name:F.name.value.trim(),contact:F.phone.value.replace(/\D/g,'').slice(-10)},theme:{color:'#231B1E'},
+          prefill:{name:F.name.value.trim(),contact:mobile(F.phone.value)},theme:{color:'#231B1E'},
           handler:function(resp){
             fetch('/api/verify',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(resp)})
             .then(function(r){return r.json();}).then(function(v){paid(resp.razorpay_payment_id,total,!!v.ok,balance);})
@@ -177,7 +186,8 @@
     e.preventDefault();
     var p=orderProblem(), m=payMode();
     if(sendBtn.dataset.busy){return;}
-    if(p){err.textContent=p;err.hidden=false;return;}
+    if(p){showProblem(p);return;}
+    mark();
     if(m==='wa'){err.hidden=true;remember();window.open(waOrderUrl(),'_blank','noopener');return;}
     payOnline(m==='cod');
   });
