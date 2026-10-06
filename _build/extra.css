@@ -187,3 +187,9 @@ footer .accept{margin-bottom:12px}
 .resume p span{color:var(--muted)}
 .resume .btn{flex:0 0 auto;padding:10px 16px;min-height:0;width:auto}
 .resume-x{flex:0 0 auto;background:none;border:0;font-size:1.4rem;line-height:1;color:var(--muted);cursor:pointer;padding:4px 6px}
+
+/* owner page: order totals */
+.ro-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:0 0 6px}
+.ro-tiles div{border:1px solid var(--line);background:var(--bg);padding:12px;display:flex;flex-direction:column;gap:2px}
+.ro-tiles b{font-family:var(--display);font-size:1.5rem;font-weight:600;font-variant-numeric:tabular-nums}
+.ro-tiles span{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}

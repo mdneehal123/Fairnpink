@@ -524,13 +524,13 @@ exec(open(os.path.join(B, 'journal.py')).read())
 
 # ---------------- Reorder reminders (owner only, not linked, not indexed) ----------------
 page('/reorder/', 'Reorder reminders | Fair N Pink', 'Owner page.',
-     top('Owner only', 'Customer follow-ups', 'People who started an order and did not pay, and customers due a reorder, each with a ready WhatsApp message.') + '''    <section>
+     top('Owner only', 'Orders and follow-ups', 'Paid orders, people who started an order and did not pay, and customers due a reorder.') + '''    <section>
       <form id="ro-form" class="oform track" novalidate>
         <label for="ro-key">Admin key</label>
         <input id="ro-key" type="password" autocomplete="off" required>
         <label for="ro-range">Show</label>
-        <select id="ro-range"><option value="left">Started an order, did not pay (last 3 days)</option><option value="22-35">Ordered 22 to 35 days ago (reorder due)</option><option value="36-60">Ordered 36 to 60 days ago (missed)</option><option value="0-21">Ordered 0 to 21 days ago (not due yet)</option></select>
-        <button type="submit" class="btn" id="ro-go">Show customers</button>
+        <select id="ro-range"><option value="today">Paid orders today</option><option value="week">Paid orders, last 7 days</option><option value="left">Started an order, did not pay (last 3 days)</option><option value="22-35">Ordered 22 to 35 days ago (reorder due)</option><option value="36-60">Ordered 36 to 60 days ago (missed)</option><option value="0-21">Ordered 0 to 21 days ago (not due yet)</option></select>
+        <button type="submit" class="btn" id="ro-go">Show</button>
       </form>
       <div id="ro-out" class="track-out" hidden></div>
     </section>
