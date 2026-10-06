@@ -23,6 +23,7 @@
     document.getElementById('pay-save').textContent=rupees(off);
     document.getElementById('pay-upi-amt').textContent=rupees(p.price-off);
     document.getElementById('pay-cod-amt').textContent=rupees(p.price);
+    document.getElementById('pay-wa-amt').textContent=rupees(p.price);
     document.getElementById('pay-cod-note').textContent='Pay '+rupees(ADVANCE)+' now, '+rupees(p.price-ADVANCE)+' on delivery';
     if(typeof orderLink==='function'){orderLink();}
     var msg='Hello, I want to order Fair N Pink Advance Radiance Cream.\n'+label+' - '+rupees(p.price)+'\nName: \nAddress and pincode: ';
@@ -57,11 +58,16 @@
     if(!/^\d{6}$/.test(F.pin.value.trim())) return 'Please enter a 6-digit pincode.';
     return '';
   }
-  function orderLink(){
+  function payMode(){return document.getElementById('pay-upi').checked?'online':document.getElementById('pay-cod').checked?'cod':'wa';}
+  function waOrderUrl(){
     var p=PACKS[qty];
-    var upi=document.getElementById('pay-upi').checked, total=upi?p.price-UPI_OFF[qty]:p.price;
-    if(!sendBtn.dataset.busy){sendBtn.textContent=upi?'Pay '+rupees(total)+' securely':'Pay '+rupees(ADVANCE)+' to confirm order';}
-    document.getElementById('cod-terms').hidden=upi;
+    var msg='New order: Fair N Pink Advance Radiance Cream\nPack of '+qty+'\nTotal: '+rupees(p.price)+'\nPayment: please confirm with me on WhatsApp\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
+    return 'https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
+  }
+  function orderLink(){
+    var p=PACKS[qty], m=payMode();
+    if(!sendBtn.dataset.busy){sendBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty])+' securely':m==='cod'?'Pay '+rupees(ADVANCE)+' to confirm order':'Send order on WhatsApp';}
+    document.getElementById('cod-terms').hidden=m!=='cod';
   }
   Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
   function track(value,id){if(ADS_SEND_TO&&typeof gtag==='function'){gtag('event','conversion',{send_to:ADS_SEND_TO,value:value,currency:'INR',transaction_id:id});}}
@@ -113,11 +119,13 @@
   }
   sendBtn.addEventListener('click',function(e){
     e.preventDefault();
-    var p=orderProblem(), upi=document.getElementById('pay-upi').checked;
+    var p=orderProblem(), m=payMode();
     if(sendBtn.dataset.busy){return;}
     if(p){err.textContent=p;err.hidden=false;return;}
-    payOnline(!upi);
+    if(m==='wa'){err.hidden=true;window.open(waOrderUrl(),'_blank','noopener');return;}
+    payOnline(m==='cod');
   });
+  document.getElementById('pay-wa').addEventListener('change',orderLink);
   document.getElementById('pay-upi').addEventListener('change',orderLink);
   document.getElementById('pay-cod').addEventListener('change',orderLink);
   document.getElementById('order-form').addEventListener('submit',function(e){e.preventDefault();});

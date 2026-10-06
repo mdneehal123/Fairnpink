@@ -421,6 +421,7 @@ FAQ = [
     ('What is the price of Fair N Pink cream?', 'One jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
     ('Is there a discount for paying online?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
     ('Which payment methods do you accept?', 'UPI, debit cards, credit cards and netbanking, all processed securely by Razorpay, and Cash on Delivery. Prices are in Indian rupees.'),
+    ('Can I order on WhatsApp?', 'Yes. Fill in the order form, choose Order on WhatsApp and send the message. We reply on chat to confirm the order and how you would like to pay.'),
     ('Is Cash on Delivery available?', 'Yes. Choose Cash on Delivery in the order form and pay a ₹99 advance online to confirm the order. You pay the rest of the pack price in cash when the parcel arrives. The ₹99 is part of the price, not an extra charge.'),
     ('Why is there a ₹99 advance on Cash on Delivery?', 'It confirms that the order is genuine, so we can dispatch it straight away. It is deducted from what you pay at the door. If the parcel is refused at delivery, the ₹99 is not refunded, because it covers the shipping both ways.'),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night. In the morning, finish with sunscreen. <a href="/how-to-use/">See the full routine</a>.'),
