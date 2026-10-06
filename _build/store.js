@@ -97,6 +97,9 @@
   }
   Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();F[k].classList.remove('bad');F[k].removeAttribute('aria-invalid');var fe=F[k].nextElementSibling;if(fe&&fe.className==='fielderr'){fe.remove();}if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
   F.phone.addEventListener('blur',function(){if(F.phone.value.trim()&&!mobile(F.phone.value)){F.phone.classList.add('bad');}});
+  /* Anonymous steps for Google Ads audiences (no name, number or address is sent). Each is sent once per page view. */
+  var stepSent={};
+  function step(name){var id=ADS_SEND_TO.split('/')[0];if(!id||stepSent[name]||typeof gtag!=='function'){return;}stepSent[name]=1;gtag('event',name,{send_to:id,currency:'INR',value:PACKS[qty].price});}
   function track(value,id){if(ADS_SEND_TO&&typeof gtag==='function'){gtag('event','conversion',{send_to:ADS_SEND_TO,value:value,currency:'INR',transaction_id:id});}}
   function fail(text){err.textContent=text;err.hidden=false;delete sendBtn.dataset.busy;orderLink();}
   function loadCheckout(done){
@@ -139,6 +142,7 @@
   function payOnline(advance){
     var total=advance?PACKS[qty].price:PACKS[qty].price-UPI_OFF[qty];
     lastMode=advance?'cod':'online';notYet.hidden=true;
+    step('begin_checkout');step('add_payment_info');
     err.hidden=true;sendBtn.dataset.busy='1';sendBtn.textContent='Opening secure payment…';
     fetch('/api/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pack:qty,mode:advance?'advance':'full',name:F.name.value.trim(),phone:mobile(F.phone.value),address:F.address.value.trim(),city:F.city.value.trim(),pincode:F.pin.value.trim()})})
     .then(function(r){return r.ok?r.json():Promise.reject(r.status);})
@@ -181,7 +185,7 @@
   document.getElementById('ny-switch').addEventListener('click',function(){notYet.hidden=true;choose(lastMode==='cod'?'pay-upi':'pay-cod');sendBtn.click();});
   document.getElementById('ny-wa').addEventListener('click',function(){notYet.hidden=true;choose('pay-wa');sendBtn.click();});
   document.getElementById('resume-x').addEventListener('click',clearPending);
-  document.getElementById('resume-go').addEventListener('click',function(){strip.hidden=true;panel.hidden=false;render();window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});});
+  document.getElementById('resume-go').addEventListener('click',function(){strip.hidden=true;panel.hidden=false;render();step('begin_checkout');window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});});
   /* Pincode: fill in the city and show the courier's estimated delivery date. Fails silently. */
   var pinNote=document.getElementById('pin-note'), cityAuto='', pinSeen='';
   function pinLookup(){
@@ -214,12 +218,12 @@
   document.getElementById('pay-upi').addEventListener('change',orderLink);
   document.getElementById('pay-cod').addEventListener('change',orderLink);
   document.getElementById('order-form').addEventListener('submit',function(e){e.preventDefault();});
-  function buy(){panel.hidden=false;render();panel.scrollIntoView({block:'center',behavior:'smooth'});}
+  function buy(){panel.hidden=false;render();step('begin_checkout');panel.scrollIntoView({block:'center',behavior:'smooth'});}
   document.getElementById('buy-main').addEventListener('click',buy);
   /* The floating button takes the customer to the pack choice first; the form opens just below it. */
   function buyFromBar(){
     var packs=document.querySelector('.packs');
-    panel.hidden=false;render();goToForm=true;
+    panel.hidden=false;render();goToForm=true;step('begin_checkout');
     packs.classList.remove('nudge');void packs.offsetWidth;packs.classList.add('nudge');
     window.scrollTo({top:Math.max(0,packs.getBoundingClientRect().top+window.pageYOffset-90),behavior:'smooth'});
   }
