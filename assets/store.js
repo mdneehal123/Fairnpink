@@ -64,10 +64,29 @@
     var msg='New order: Fair N Pink Advance Radiance Cream\nPack of '+qty+'\nTotal: '+rupees(p.price)+'\nPayment: please confirm with me on WhatsApp\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     return 'https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
   }
+  function sumRow(k,v,cls){var r=document.createElement('div');if(cls){r.className=cls;}var a=document.createElement('span'),b=document.createElement('b');a.textContent=k;b.textContent=v;r.appendChild(a);r.appendChild(b);return r;}
+  function summary(m){
+    var p=PACKS[qty], box=document.getElementById('order-sum'), h=document.createElement('p');
+    box.textContent='';h.className='osum-h';h.textContent='Your order';box.appendChild(h);
+    box.appendChild(sumRow('Fair N Pink Advance Radiance Cream, Pack of '+qty,rupees(p.price)));
+    if(m==='online'){
+      box.appendChild(sumRow('Online payment saving','− '+rupees(UPI_OFF[qty]),'osum-save'));
+      box.appendChild(sumRow('Shipping','Free'));
+      box.appendChild(sumRow('You pay now',rupees(p.price-UPI_OFF[qty]),'osum-total'));
+    }else if(m==='cod'){
+      box.appendChild(sumRow('Delivery or handling fee','None'));
+      box.appendChild(sumRow('You pay now (advance)',rupees(ADVANCE),'osum-total'));
+      box.appendChild(sumRow('You pay in cash on delivery',rupees(p.price-ADVANCE)));
+    }else{
+      box.appendChild(sumRow('Order total',rupees(p.price),'osum-total'));
+      box.appendChild(sumRow('Payment','Confirmed with you on WhatsApp'));
+    }
+  }
   function orderLink(){
     var p=PACKS[qty], m=payMode();
     if(!sendBtn.dataset.busy){sendBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty])+' securely':m==='cod'?'Pay '+rupees(ADVANCE)+' to confirm order':'Send order on WhatsApp';}
     document.getElementById('cod-terms').hidden=m!=='cod';
+    summary(m);
   }
   Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
   function track(value,id){if(ADS_SEND_TO&&typeof gtag==='function'){gtag('event','conversion',{send_to:ADS_SEND_TO,value:value,currency:'INR',transaction_id:id});}}
@@ -83,14 +102,25 @@
     var cod=balance>0;
     var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'Advance paid: '+rupees(ADVANCE)+'\nTo pay on delivery: '+rupees(balance):'Paid online: '+rupees(total))+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     var form=document.getElementById('order-form'), box=document.createElement('div');
-    box.setAttribute('role','status');
-    var h=document.createElement('p'), b=document.createElement('b');b.textContent=confirmed?(cod?'Order confirmed. Thank you.':'Payment received. Thank you.'):'Payment submitted. We are confirming it.';h.appendChild(b);
-    var d=document.createElement('p');d.style.cssText='color:var(--muted);margin:6px 0 14px';
-    d.textContent=cod?'Pack of '+qty+' · '+rupees(ADVANCE)+' received · '+rupees(balance)+' to pay in cash on delivery · Payment ID '+paymentId+'. We will dispatch within 24 hours.':'Pack of '+qty+' · '+rupees(total)+' · Payment ID '+paymentId+'. We have your delivery details and will dispatch within 24 hours.';
-    var a=document.createElement('a');a.className='btn';a.target='_blank';a.rel='noopener';a.href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);a.textContent='Get updates on WhatsApp';
-    a.style.cssText='display:flex;align-items:center;justify-content:center;text-decoration:none';
-    var t=document.createElement('a');t.href='/track/?id='+encodeURIComponent(paymentId);t.textContent='Track this order';t.style.cssText='display:block;text-align:center;margin-top:14px;color:var(--ink);text-underline-offset:3px';
-    box.appendChild(h);box.appendChild(d);box.appendChild(a);box.appendChild(t);
+    box.className='thanks';box.setAttribute('role','status');
+    function el(tag,cls,text){var x=document.createElement(tag);if(cls){x.className=cls;}if(text){x.textContent=text;}box.appendChild(x);return x;}
+    el('span','thanks-tick','✓').setAttribute('aria-hidden','true');
+    el('h3','',confirmed?(cod?'Order confirmed. Thank you.':'Payment received. Thank you.'):'Payment submitted. We are confirming it.');
+    el('p','thanks-sub','We have your delivery details and will dispatch within 24 hours, except on Sundays and national holidays.');
+    var list=el('div','osum');
+    list.appendChild(sumRow('Order','Pack of '+qty));
+    if(cod){list.appendChild(sumRow('Advance received',rupees(ADVANCE)));list.appendChild(sumRow('To pay in cash on delivery',rupees(balance),'osum-total'));}
+    else{list.appendChild(sumRow('Paid online',rupees(total),'osum-total'));}
+    list.appendChild(sumRow('Delivering to',F.city.value.trim()+' '+F.pin.value.trim()));
+    list.appendChild(sumRow('Order number',paymentId,'osum-id'));
+    el('p','thanks-note','Keep the order number. It is all you need to track this order.');
+    var t=el('a','btn','Track this order');t.href='/track/?id='+encodeURIComponent(paymentId);
+    var a=el('a','btn ghost','Get updates on WhatsApp');a.target='_blank';a.rel='noopener';a.href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
+    el('p','thanks-note','Save our WhatsApp number for any question about this order: +'+WA_NUMBER.slice(0,2)+' '+WA_NUMBER.slice(2,7)+' '+WA_NUMBER.slice(7)+'.');
+    el('h4','','When your jar arrives');
+    var ol=el('ol','thanks-use');
+    ['Wash your face and pat it dry.','Take a pea-sized amount of cream.','Spread a thin layer over face and neck, morning and night.','Finish with sunscreen every morning.'].forEach(function(x){var li=document.createElement('li');li.textContent=x;ol.appendChild(li);});
+    var more=el('a','thanks-more','Read the full how-to-use guide');more.href='/how-to-use/';
     form.hidden=true;form.parentNode.insertBefore(box,form);
     var intro=panel.querySelectorAll('p')[1];if(intro){intro.hidden=true;}
     box.scrollIntoView({block:'center',behavior:'smooth'});
