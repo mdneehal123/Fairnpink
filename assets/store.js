@@ -185,7 +185,14 @@
   document.getElementById('order-form').addEventListener('submit',function(e){e.preventDefault();});
   function buy(){panel.hidden=false;render();panel.scrollIntoView({block:'center',behavior:'smooth'});}
   document.getElementById('buy-main').addEventListener('click',buy);
-  document.getElementById('buy-bar').addEventListener('click',buy);
+  /* The floating button takes the customer to the pack choice first; the form opens just below it. */
+  function buyFromBar(){
+    var packs=document.querySelector('.packs');
+    panel.hidden=false;render();
+    packs.classList.remove('nudge');void packs.offsetWidth;packs.classList.add('nudge');
+    window.scrollTo({top:Math.max(0,packs.getBoundingClientRect().top+window.pageYOffset-90),behavior:'smooth'});
+  }
+  document.getElementById('buy-bar').addEventListener('click',buyFromBar);
   function show(){}
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
   document.getElementById('wa-help').href=document.getElementById('wa-chat').href;
