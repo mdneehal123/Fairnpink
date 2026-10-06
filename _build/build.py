@@ -220,6 +220,15 @@ LOOKS = [
     ('pack-2.webp', 'Two jars of Fair N Pink Advance Radiance Cream', ['Better', 'in pairs'], 'Pack of 2', '₹1,749 when you pay online. ₹875 a jar, with free shipping.'),
     ('pack-3.webp', 'Three jars of Fair N Pink Advance Radiance Cream', ['Stock up', 'and save'], 'Pack of 3', '₹2,449 when you pay online. ₹816 a jar, our best value.'),
 ]
+FILMS = [('film-1', 'The cream on film', 'A short film of the jar, the cream and how it sits on skin.'),
+         ('film-2', 'From jar to skin', 'Open the jar, take a little, and smooth it over the face.')]
+FILM_CARD = '''        <figure class="filmcard">
+          <video class="filmv" src="/assets/%s.mp4" poster="/assets/%s.webp" muted loop playsinline preload="none" width="720" height="1280" aria-label="%s"></video>
+          <figcaption><b>%s</b><span>Illustrative film made for the brand</span></figcaption>
+        </figure>'''
+FILMS_HTML = sec('On film', 'See it in motion', 'Two short films. They play without sound as you scroll.',
+    '      <div class="films">\n' + '\n'.join(FILM_CARD % (f, f, d, t) for f, t, d in FILMS) + '\n      </div>', id='films')
+
 LOOKS_HTML = '''    <section id="looks">
       <div class="sec-h"><span class="eyebrow">A closer look</span><h2>The cream, up close</h2></div>
       <div class="looks" tabindex="0" aria-label="Product pictures">''' + ''.join(
@@ -301,7 +310,7 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
           <li>Moisturises and leaves skin feeling soft</li>
           <li>One cream for morning and night</li>
         </ul>
-      </div>''' % (NET, NET), id='about') + LOOKS_HTML + (REELS_HTML if SHOW_REELS else '') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
+      </div>''' % (NET, NET), id='about') + LOOKS_HTML + FILMS_HTML + (REELS_HTML if SHOW_REELS else '') + sec('What is inside', 'Three ingredients it is built around', 'Each one has a clear job. The full list is printed on every box.',
     SPOTS_HTML + '\n      <p class="more"><a href="/ingredients/">More about the ingredients</a></p>') + sec('The ritual', 'How to use it', 'Morning and night, in under a minute.',
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
@@ -560,6 +569,6 @@ open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
 open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % SITE)
 # Pictures may be kept by the browser for a day and reused while a fresh copy is fetched; pages, styles and scripts are always checked.
 open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'cleanUrls': False, 'headers': [
-    {'source': '/assets/(.*)\\.(webp|jpg|svg)', 'headers': [{'key': 'Cache-Control', 'value': 'public, max-age=86400, stale-while-revalidate=604800'}]}]}, indent=2) + '\n')
+    {'source': '/assets/(.*)\\.(webp|jpg|svg|mp4)', 'headers': [{'key': 'Cache-Control', 'value': 'public, max-age=86400, stale-while-revalidate=604800'}]}]}, indent=2) + '\n')
 open(os.path.join(ROOT, '.vercelignore'), 'w').write('_build\nREADME.md\n')
 print('built', len(urls), 'pages')

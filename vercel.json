@@ -2,7 +2,7 @@
   "cleanUrls": false,
   "headers": [
     {
-      "source": "/assets/(.*)\\.(webp|jpg|svg)",
+      "source": "/assets/(.*)\\.(webp|jpg|svg|mp4)",
       "headers": [
         {
           "key": "Cache-Control",

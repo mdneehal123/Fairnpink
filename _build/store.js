@@ -257,6 +257,15 @@
     if('IntersectionObserver' in window){var io=new IntersectionObserver(function(en){if(en.some(function(e){return e.isIntersecting;})){io.disconnect();loadReels();}},{rootMargin:'600px'});io.observe(reels);}
     else{loadReels();}
   }
+  /* Films: play silently only while on screen, pause when scrolled away. A tap pauses or resumes. */
+  var films=[].slice.call(document.querySelectorAll('.filmv'));
+  if(films.length){
+    var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    films.forEach(function(v){v.muted=true;v.addEventListener('click',function(){if(v.paused){delete v.dataset.held;v.play().catch(function(){});}else{v.pause();v.dataset.held='1';}});});
+    if(still||!('IntersectionObserver' in window)){films.forEach(function(v){v.controls=true;});}
+    else{var fio=new IntersectionObserver(function(en){en.forEach(function(e){var v=e.target;if(e.isIntersecting&&e.intersectionRatio>=0.5){if(!v.dataset.held){v.play().catch(function(){v.controls=true;});}}else{v.pause();delete v.dataset.held;}});},{threshold:[0,0.5]});
+      films.forEach(function(v){fio.observe(v);});}
+  }
   var eta=document.getElementById('eta-line');
   function addWorkingDays(from,n){var d=new Date(from.getTime());while(n>0){d.setDate(d.getDate()+1);if(d.getDay()!==0){n=n-1;}}return d;}
   if(eta){var dispatch=addWorkingDays(new Date(),1),first=addWorkingDays(dispatch,3),last=addWorkingDays(dispatch,7),fmt={day:'numeric',month:'short'};
