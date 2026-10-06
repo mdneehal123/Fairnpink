@@ -122,6 +122,7 @@
   }
   function paid(paymentId,total,confirmed,balance){
     track(total,paymentId);remember();clearPending();
+    ordered=true;
     var cod=balance>0;
     var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'Advance paid: '+rupees(ADVANCE)+'\nTo pay on delivery: '+rupees(balance):'Paid online: '+rupees(total))+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     var form=document.getElementById('order-form'), box=document.createElement('div');
@@ -183,6 +184,7 @@
   function forget(){try{localStorage.removeItem(KEY);}catch(e){}Object.keys(F).forEach(function(k){F[k].value='';});savedLine.hidden=true;pinNote.hidden=true;orderLink();}
   document.getElementById('saved-clear').addEventListener('click',forget);
   /* An order that was started but not paid: kept on this device only, to offer a way back. Nothing is sent anywhere. */
+  var ordered=false;
   var PEND='fnp-pending', notYet=document.getElementById('not-yet'), strip=document.getElementById('resume-strip'), lastMode='online';
   function setPending(){remember();try{localStorage.setItem(PEND,JSON.stringify({qty:qty,at:Date.now()}));}catch(e){}}
   function clearPending(){try{localStorage.removeItem(PEND);}catch(e){}notYet.hidden=true;strip.hidden=true;}
@@ -223,7 +225,7 @@
     if(sendBtn.dataset.busy){return;}
     if(p){showProblem(p);return;}
     mark();
-    if(m==='wa'){err.hidden=true;remember();clearPending();window.open(waOrderUrl(),'_blank','noopener');return;}
+    if(m==='wa'){err.hidden=true;remember();clearPending();ordered=true;window.open(waOrderUrl(),'_blank','noopener');return;}
     payOnline(m==='cod');
   });
   document.getElementById('pay-wa').addEventListener('change',orderLink);
@@ -279,6 +281,45 @@
     if(still||!('IntersectionObserver' in window)){films.forEach(function(v){v.controls=true;});}
     else{var fio=new IntersectionObserver(function(en){en.forEach(function(e){var v=e.target;if(e.isIntersecting&&e.intersectionRatio>=0.5){if(!v.dataset.held){v.play().catch(function(){v.controls=true;});}}else{v.pause();delete v.dataset.held;if(!v.muted){v.muted=true;var sb=v.parentNode.querySelector('.filmsound');if(sb){sb.textContent='Tap for sound';sb.setAttribute('aria-pressed','false');}}}});},{threshold:[0,0.5]});
       films.forEach(function(v){fio.observe(v);});}
+  }
+  /* A friendly nudge for someone who has been browsing for a while without ordering.
+     Shown once, easy to close, never while they are typing or paying, and not again for 3 days. */
+  var NUDGE_AFTER=210, NUDGE_KEY='fnp-nudge', nudge=document.getElementById('nudge'), nudgeSeen=0, nudgeDone=false, lastTyped=0, nudgeFrom=null;
+  var NUDGE_LINES=[
+    ['Psst. The jar noticed you looking.','You have scrolled past it a few times now. It is trying to play it cool, but it would love to come home with you.'],
+    ['Still here? The jar is flattered.','It has been sitting in that photo looking its best for you. One small jar, morning and night, and it is yours.'],
+    ['The jar would like a word.','It says you two have been making eye contact for minutes now, and somebody should make the first move.']];
+  function nudgeBlocked(){
+    if(nudgeDone||ordered||sendBtn.dataset.busy||!notYet.hidden){return true;}
+    try{if(Date.now()-Number(localStorage.getItem(NUDGE_KEY)||0)<3*86400000){nudgeDone=true;return true;}}catch(e){}
+    var a=document.activeElement;
+    return (a&&/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName))||Date.now()-lastTyped<45000;
+  }
+  function nudgeClose(){nudge.hidden=true;document.removeEventListener('keydown',nudgeKey);if(nudgeFrom&&nudgeFrom.focus){nudgeFrom.focus({preventScroll:true});}}
+  function nudgeKey(e){if(e.key==='Escape'){nudgeClose();}
+    else if(e.key==='Tab'){var f=nudge.querySelectorAll('button,a[href]'),first=f[0],last=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}}
+  function nudgeShow(){
+    nudgeDone=true;try{localStorage.setItem(NUDGE_KEY,String(Date.now()));}catch(e){}
+    var line=NUDGE_LINES[Math.floor(Math.random()*NUDGE_LINES.length)];
+    document.getElementById('nudge-h').textContent=line[0];document.getElementById('nudge-p').textContent=line[1];
+    document.getElementById('nudge-img').src='/assets/pack-1.webp';
+    document.getElementById('nudge-wa').href=document.getElementById('wa-chat').href;
+    nudgeFrom=document.activeElement;nudge.hidden=false;document.addEventListener('keydown',nudgeKey);
+    document.getElementById('nudge-go').focus({preventScroll:true});
+  }
+  if(nudge){
+    Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){lastTyped=Date.now();});});
+    document.getElementById('nudge-x').addEventListener('click',nudgeClose);
+    document.getElementById('nudge-no').addEventListener('click',nudgeClose);
+    nudge.addEventListener('click',function(e){if(e.target===nudge){nudgeClose();}});
+    document.getElementById('nudge-go').addEventListener('click',function(){nudgeFrom=null;nudgeClose();buyFromBar();});
+    document.getElementById('nudge-wa').addEventListener('click',function(){nudgeFrom=null;nudgeClose();});
+    var nudgeTick=setInterval(function(){
+      if(nudgeDone){clearInterval(nudgeTick);return;}
+      if(document.visibilityState==='hidden'){return;}
+      nudgeSeen+=1;
+      if(nudgeSeen>=NUDGE_AFTER&&!nudgeBlocked()){clearInterval(nudgeTick);nudgeShow();}
+    },1000);
   }
   var eta=document.getElementById('eta-line');
   function addWorkingDays(from,n){var d=new Date(from.getTime());while(n>0){d.setDate(d.getDate()+1);if(d.getDay()!==0){n=n-1;}}return d;}
