@@ -51,8 +51,12 @@
       main.alt=t.getAttribute('data-alt');
     }
     gthumbs.forEach(function(x){var on=x===t;x.classList.toggle('on',on);x.setAttribute('aria-pressed',String(on));});
+    mSoundSet();
   }
   document.getElementById('media-video').addEventListener('click',function(){if(this.paused){this.play().catch(function(){});}else{this.pause();}});
+  var mSound=document.getElementById('media-sound');
+  function mSoundSet(){var f=document.getElementById('media-video');mSound.hidden=f.hidden;mSound.textContent=f.muted?'Tap for sound':'Sound on · tap to mute';mSound.setAttribute('aria-pressed',String(!f.muted));}
+  /* the tap itself is handled with the other film sound buttons further down */
   gthumbs.forEach(function(t){t.addEventListener('click',function(){pick(t);});});
   var goToForm=false; /* set by the floating button: the next pack tap carries on down to the form */
   packBtns.forEach(function(b){b.addEventListener('click',function(){qty=Number(b.dataset.pack);if(gthumbs.length){pick(gthumbs[0]);}render();
