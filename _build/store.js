@@ -173,7 +173,7 @@
   function stopped(){
     setPending();
     var sw=document.getElementById('ny-switch');
-    sw.textContent=lastMode==='cod'?'Pay online and save '+rupees(UPI_OFF[qty]):'Switch to Cash on Delivery, pay '+rupees(ADVANCE)+' now';
+    sw.textContent=lastMode==='cod'?'Pay online instead and save '+rupees(UPI_OFF[qty]):'Pay just '+rupees(ADVANCE)+' now, the rest on delivery';
     notYet.hidden=false;notYet.scrollIntoView({block:'center',behavior:'smooth'});
   }
   function choose(id){document.getElementById(id).checked=true;orderLink();}
@@ -229,7 +229,7 @@
   document.getElementById('wa-help').href=document.getElementById('wa-chat').href;
   try{var saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved){Object.keys(F).forEach(function(k){if(typeof saved[k]==='string'){F[k].value=saved[k].slice(0,300);}});savedLine.hidden=false;}}catch(e){}
   try{var pend=JSON.parse(localStorage.getItem(PEND)||'null');
-    if(pend&&PACKS[pend.qty]&&Date.now()-pend.at<7*86400000&&F.name.value){qty=pend.qty;document.getElementById('resume-text').textContent='Pack of '+qty+' · '+rupees(PACKS[qty].price)+' · your details are saved on this device.';strip.hidden=false;}
+    if(pend&&PACKS[pend.qty]&&Date.now()-pend.at<7*86400000&&F.name.value){qty=pend.qty;document.getElementById('resume-text').textContent='Pack of '+qty+' · '+rupees(PACKS[qty].price)+' · your details are saved, so no typing this time.';strip.hidden=false;}
     else if(pend){localStorage.removeItem(PEND);}}catch(e){}
   render();
   pinLookup();
