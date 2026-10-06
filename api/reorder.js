@@ -16,6 +16,7 @@ module.exports = async (req, res) => {
   if (!k) return res.status(503).json({ error: 'not_configured' });
 
   const q = req.query || {};
+  if (q.kind === 'abandoned') return abandoned(k, res);
   const minDays = Math.max(0, Math.min(365, Number(q.from) || 22));
   const maxDays = Math.max(minDays, Math.min(365, Number(q.to) || 35));
   const now = Math.floor(Date.now() / 1000);
@@ -44,3 +45,36 @@ module.exports = async (req, res) => {
     return res.status(502).json({ error: 'lookup_failed' });
   }
 };
+
+// Customers who filled in the order form and opened the payment window in the last 3 days but did not pay.
+// Anyone who went on to pay (same phone number) is left out.
+async function abandoned(k, res) {
+  const now = Math.floor(Date.now() / 1000);
+  const auth = { Authorization: 'Basic ' + Buffer.from(k.id + ':' + k.secret).toString('base64') };
+  try {
+    const all = [];
+    for (let skip = 0; skip < 500; skip += 100) {
+      const r = await fetch('https://api.razorpay.com/v1/orders?count=100&skip=' + skip + '&from=' + (now - 3 * 86400), { headers: auth });
+      const d = await r.json();
+      if (!r.ok) return res.status(502).json({ error: 'razorpay_list_failed' });
+      const items = d.items || [];
+      items.forEach((o) => { if (/Fair N Pink/i.test(String((o.notes || {}).product || ''))) all.push(o); });
+      if (items.length < 100) break;
+    }
+    const phone = (o) => String((o.notes || {}).phone || '').replace(/\D/g, '').slice(-10);
+    const paid = new Set(all.filter((o) => o.status === 'paid').map(phone));
+    const seen = new Set();
+    const out = [];
+    all.sort((a, b) => b.created_at - a.created_at).forEach((o) => {
+      const p = phone(o);
+      if (o.status === 'paid' || p.length !== 10 || paid.has(p) || seen.has(p)) return;
+      seen.add(p);
+      const n = o.notes || {};
+      out.push({ id: o.id, name: String(n.name || ''), phone: p, pack: String(n.pack || ''), city: String(n.city || ''),
+        amount: Math.round(Number(o.amount) / 100), hours: Math.floor((now - o.created_at) / 3600) });
+    });
+    return res.status(200).json({ kind: 'abandoned', customers: out });
+  } catch (e) {
+    return res.status(502).json({ error: 'lookup_failed' });
+  }
+}

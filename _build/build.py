@@ -497,6 +497,7 @@ POL = [
     ('/privacy-policy/', 'Privacy policy', 'Privacy', 'What we collect when you order, and what we do with it.', '''
         <h2>What we collect</h2><p>To deliver your order we collect your name, mobile number and delivery address. For online payments they are sent to Razorpay with your order so we can deliver it. For Cash on Delivery, the form prepares a WhatsApp message that you send to us yourself.</p>
         <h2>How we use it</h2><p>We use these details only to process and deliver your order and to reply to your messages.</p>
+        <h2>If you start an order and do not finish it</h2><p>When you fill in the order form and open the payment window, your name, mobile number and address are saved with that order. If the payment is not completed, we may message you once on that number to ask whether you need help. Tell us if you would rather not be contacted and we will not message you again.</p>
         <h2>Who we share it with</h2><p>We share your details only with the courier and payment partners needed to complete your order. We do not sell your information.</p>
         <h2>Payments</h2><p>Online payments are processed by Razorpay, a licensed payment gateway, and we do not see or store your card or bank details. UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
         <h2>Cookies and advertising</h2><p>This site uses the Google tag to measure visits and to record when an order placed after clicking one of our Google ads is completed. Google may set cookies in your browser for this purpose. We do not send Google your name, phone number or address. You can control ad personalisation in your Google account at adssettings.google.com, and you can block cookies in your browser settings.</p>
@@ -518,12 +519,12 @@ exec(open(os.path.join(B, 'journal.py')).read())
 
 # ---------------- Reorder reminders (owner only, not linked, not indexed) ----------------
 page('/reorder/', 'Reorder reminders | Fair N Pink', 'Owner page.',
-     top('Owner only', 'Reorder reminders', 'Customers who paid online about a month ago, with a ready WhatsApp message for each.') + '''    <section>
+     top('Owner only', 'Customer follow-ups', 'People who started an order and did not pay, and customers due a reorder, each with a ready WhatsApp message.') + '''    <section>
       <form id="ro-form" class="oform track" novalidate>
         <label for="ro-key">Admin key</label>
         <input id="ro-key" type="password" autocomplete="off" required>
-        <label for="ro-range">Ordered</label>
-        <select id="ro-range"><option value="22-35">22 to 35 days ago (due now)</option><option value="36-60">36 to 60 days ago (missed)</option><option value="0-21">0 to 21 days ago (not due yet)</option></select>
+        <label for="ro-range">Show</label>
+        <select id="ro-range"><option value="left">Started an order, did not pay (last 3 days)</option><option value="22-35">Ordered 22 to 35 days ago (reorder due)</option><option value="36-60">Ordered 36 to 60 days ago (missed)</option><option value="0-21">Ordered 0 to 21 days ago (not due yet)</option></select>
         <button type="submit" class="btn" id="ro-go">Show customers</button>
       </form>
       <div id="ro-out" class="track-out" hidden></div>
