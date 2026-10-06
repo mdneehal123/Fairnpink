@@ -47,7 +47,9 @@
     gthumbs.forEach(function(x){var on=x===t;x.classList.toggle('on',on);x.setAttribute('aria-pressed',String(on));});
   }
   gthumbs.forEach(function(t){t.addEventListener('click',function(){pick(t);});});
-  packBtns.forEach(function(b){b.addEventListener('click',function(){qty=Number(b.dataset.pack);if(gthumbs.length){pick(gthumbs[0]);}render();});});
+  var goToForm=false; /* set by the floating button: the next pack tap carries on down to the form */
+  packBtns.forEach(function(b){b.addEventListener('click',function(){qty=Number(b.dataset.pack);if(gthumbs.length){pick(gthumbs[0]);}render();
+    if(goToForm){goToForm=false;panel.hidden=false;window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});}});});
   var F={name:document.getElementById('of-name'),phone:document.getElementById('of-phone'),address:document.getElementById('of-address'),city:document.getElementById('of-city'),pin:document.getElementById('of-pin')};
   var sendBtn=document.getElementById('order-send'), err=document.getElementById('order-error');
   function orderProblem(){
@@ -188,7 +190,7 @@
   /* The floating button takes the customer to the pack choice first; the form opens just below it. */
   function buyFromBar(){
     var packs=document.querySelector('.packs');
-    panel.hidden=false;render();
+    panel.hidden=false;render();goToForm=true;
     packs.classList.remove('nudge');void packs.offsetWidth;packs.classList.add('nudge');
     window.scrollTo({top:Math.max(0,packs.getBoundingClientRect().top+window.pageYOffset-90),behavior:'smooth'});
   }
