@@ -221,13 +221,15 @@ LOOKS = [
     ('pack-3.webp', 'Three jars of Fair N Pink Advance Radiance Cream', ['Stock up', 'and save'], 'Pack of 3', '₹2,449 when you pay online. ₹816 a jar, our best value.'),
 ]
 FILMS = [('film-1', 'The cream on film', 'A short film of the jar, the cream and how it sits on skin.'),
-         ('film-2', 'From jar to skin', 'Open the jar, take a little, and smooth it over the face.')]
+         ('film-2', 'From jar to skin', 'Open the jar, take a little, and smooth it over the face.'),
+         ('film-3', 'A pea-sized amount', 'The jar, the cream inside, and a small amount applied to the cheek.'),
+         ('film-4', 'The texture', 'A close look at the soft pink cream in the jar.')]
 FILMS_WITH_SOUND = ('film-1',)  # film-2 is a silent cut
 FILM_CARD = '''        <figure class="filmcard">
           <div class="filmwrap"><video class="filmv" src="/assets/%s.mp4" poster="/assets/%s.webp" muted loop playsinline preload="none" width="720" height="1280" aria-label="%s"></video>%s</div>
           <figcaption><b>%s</b><span>Illustrative film made for the brand</span></figcaption>
         </figure>'''
-FILMS_HTML = sec('On film', 'See it in motion', 'Two short films. They start without sound as you scroll; tap for sound.',
+FILMS_HTML = sec('On film', 'See it in motion', 'Four short films. They start without sound as you scroll.',
     '      <div class="films">\n' + '\n'.join(FILM_CARD % (f, f, d, '<button type="button" class="filmsound" aria-pressed="false">Tap for sound</button>' if f in FILMS_WITH_SOUND else '', t) for f, t, d in FILMS) + '\n      </div>', id='films')
 
 LOOKS_HTML = '''    <section id="looks">
