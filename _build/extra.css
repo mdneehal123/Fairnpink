@@ -202,3 +202,5 @@ footer .accept{margin-bottom:12px}
 .filmcard figcaption b{font-family:var(--display);font-size:1.25rem;font-weight:500}
 .filmcard figcaption span{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 @media (max-width:640px){.films{justify-content:flex-start;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:-20px;padding-inline:20px;scrollbar-width:none;-webkit-overflow-scrolling:touch}.films::-webkit-scrollbar{display:none}.filmcard{flex:0 0 72%;scroll-snap-align:center}}
+.filmwrap{position:relative}
+.filmsound{position:absolute;left:10px;bottom:10px;background:rgba(35,27,30,.82);color:#F6E3C1;border:0;font:inherit;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;padding:9px 12px;border-radius:2px;cursor:pointer}

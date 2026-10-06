@@ -222,12 +222,13 @@ LOOKS = [
 ]
 FILMS = [('film-1', 'The cream on film', 'A short film of the jar, the cream and how it sits on skin.'),
          ('film-2', 'From jar to skin', 'Open the jar, take a little, and smooth it over the face.')]
+FILMS_WITH_SOUND = ('film-1',)  # film-2 is a silent cut
 FILM_CARD = '''        <figure class="filmcard">
-          <video class="filmv" src="/assets/%s.mp4" poster="/assets/%s.webp" muted loop playsinline preload="none" width="720" height="1280" aria-label="%s"></video>
+          <div class="filmwrap"><video class="filmv" src="/assets/%s.mp4" poster="/assets/%s.webp" muted loop playsinline preload="none" width="720" height="1280" aria-label="%s"></video>%s</div>
           <figcaption><b>%s</b><span>Illustrative film made for the brand</span></figcaption>
         </figure>'''
-FILMS_HTML = sec('On film', 'See it in motion', 'Two short films. They play without sound as you scroll.',
-    '      <div class="films">\n' + '\n'.join(FILM_CARD % (f, f, d, t) for f, t, d in FILMS) + '\n      </div>', id='films')
+FILMS_HTML = sec('On film', 'See it in motion', 'Two short films. They start without sound as you scroll; tap for sound.',
+    '      <div class="films">\n' + '\n'.join(FILM_CARD % (f, f, d, '<button type="button" class="filmsound" aria-pressed="false">Tap for sound</button>' if f in FILMS_WITH_SOUND else '', t) for f, t, d in FILMS) + '\n      </div>', id='films')
 
 LOOKS_HTML = '''    <section id="looks">
       <div class="sec-h"><span class="eyebrow">A closer look</span><h2>The cream, up close</h2></div>
