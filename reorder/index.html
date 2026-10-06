@@ -35,15 +35,15 @@
   <main id="main">
     <div class="page-top">
       <span class="eyebrow">Owner only</span>
-      <h1>Customer follow-ups</h1>
-      <p class="sub">People who started an order and did not pay, and customers due a reorder, each with a ready WhatsApp message.</p>
+      <h1>Reorder reminders</h1>
+      <p class="sub">Customers who paid online about a month ago, with a ready WhatsApp message for each.</p>
     </div>
     <section>
       <form id="ro-form" class="oform track" novalidate>
         <label for="ro-key">Admin key</label>
         <input id="ro-key" type="password" autocomplete="off" required>
-        <label for="ro-range">Show</label>
-        <select id="ro-range"><option value="left">Started an order, did not pay (last 3 days)</option><option value="22-35">Ordered 22 to 35 days ago (reorder due)</option><option value="36-60">Ordered 36 to 60 days ago (missed)</option><option value="0-21">Ordered 0 to 21 days ago (not due yet)</option></select>
+        <label for="ro-range">Ordered</label>
+        <select id="ro-range"><option value="22-35">22 to 35 days ago (due now)</option><option value="36-60">36 to 60 days ago (missed)</option><option value="0-21">0 to 21 days ago (not due yet)</option></select>
         <button type="submit" class="btn" id="ro-go">Show customers</button>
       </form>
       <div id="ro-out" class="track-out" hidden></div>
