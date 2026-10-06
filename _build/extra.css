@@ -157,3 +157,11 @@ footer .accept{margin-bottom:12px}
 .thanks-use{margin:0;padding-left:20px;font-size:.93rem}
 .thanks-use li{padding:2px 0}
 .thanks-more{display:inline-block;margin-top:10px;font-size:.88rem;color:var(--ink);text-underline-offset:3px}
+
+/* pincode note, help line, saved details, per-jar price */
+.pinnote{font-size:.84rem;color:var(--turmeric-ink);font-weight:500;margin:8px 0 0}
+.ohelp{font-size:.88rem;text-align:center;margin:12px 0 0;color:var(--muted)}
+.ohelp a{color:var(--ink);font-weight:500;text-underline-offset:3px}
+.osaved{font-size:.8rem;color:var(--muted);margin:8px 0 0}
+.osaved button{background:none;border:0;padding:0;font:inherit;color:var(--ink);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.pk-each{font-size:.74rem;color:var(--muted)}

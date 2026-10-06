@@ -153,4 +153,32 @@ async function track(kind, value) {
   };
 }
 
-module.exports = { createOrder, settings, track };
+
+// City, state and estimated delivery days for a pincode. Never throws for an unknown pincode.
+const ORIGIN = '581320';
+async function pincode(pin) {
+  const s = settings();
+  if (!s) return { ok: false };
+  const token = await login(s);
+  const head = { headers: { Authorization: 'Bearer ' + token } };
+  const [a, b] = await Promise.all([
+    fetch(BASE + '/open/postcode/details?postcode=' + encodeURIComponent(pin), head).then((r) => r.json()).catch(() => null),
+    fetch(BASE + '/courier/serviceability/?pickup_postcode=' + ORIGIN + '&delivery_postcode=' + encodeURIComponent(pin) + '&weight=' + BOX.weight + '&cod=0', head).then((r) => r.json()).catch(() => null)
+  ]);
+  const pd = (a && a.postcode_details) || {};
+  const name = (v) => String(v || '').trim().toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase()).slice(0, 60);
+  const city = name(pd.city), state = name(pd.state) || STATE_BY_PREFIX[Number(pin.slice(0, 2))] || '';
+  let days = 0;
+  const data = b && b.data;
+  const list = data && Array.isArray(data.available_courier_companies) ? data.available_courier_companies : [];
+  if (list.length) {
+    const pickId = data.shiprocket_recommended_courier_id || data.recommended_courier_company_id;
+    const pick = list.find((c) => c.courier_company_id === pickId) || list[0];
+    const n = Math.round(Number(pick.estimated_delivery_days));
+    if (n >= 1 && n <= 12) days = n;
+  }
+  if (!city && !days) return { ok: false };
+  return { ok: true, city, state, days };
+}
+
+module.exports = { createOrder, settings, track, pincode };

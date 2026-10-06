@@ -98,7 +98,7 @@
     document.head.appendChild(s);
   }
   function paid(paymentId,total,confirmed,balance){
-    track(total,paymentId);
+    track(total,paymentId);remember();
     var cod=balance>0;
     var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'Advance paid: '+rupees(ADVANCE)+'\nTo pay on delivery: '+rupees(balance):'Paid online: '+rupees(total))+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     var form=document.getElementById('order-form'), box=document.createElement('div');
@@ -147,12 +147,36 @@
     })
     .catch(function(){fail('Online payment is not available right now. Please try again in a few minutes, or message us on WhatsApp.');});
   }
+  /* Remember delivery details on this device only, after an order, so a repeat order needs no typing. */
+  var KEY='fnp-details', savedLine=document.getElementById('saved-line');
+  function remember(){try{var o={};Object.keys(F).forEach(function(k){o[k]=F[k].value.trim();});localStorage.setItem(KEY,JSON.stringify(o));}catch(e){}}
+  function forget(){try{localStorage.removeItem(KEY);}catch(e){}Object.keys(F).forEach(function(k){F[k].value='';});savedLine.hidden=true;pinNote.hidden=true;orderLink();}
+  document.getElementById('saved-clear').addEventListener('click',forget);
+  /* Pincode: fill in the city and show the courier's estimated delivery date. Fails silently. */
+  var pinNote=document.getElementById('pin-note'), cityAuto='', pinSeen='';
+  function pinLookup(){
+    var pin=F.pin.value.trim();
+    if(!/^[1-9]\d{5}$/.test(pin)){pinSeen='';pinNote.hidden=true;return;}
+    if(pin===pinSeen){return;}
+    pinSeen=pin;
+    fetch('/api/pincode?pin='+pin).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d||!d.ok||F.pin.value.trim()!==pin){return;}
+      if(d.city&&(!F.city.value.trim()||F.city.value===cityAuto)){F.city.value=d.city;cityAuto=d.city;}
+      var parts=[];
+      if(d.city||d.state){parts.push([d.city,d.state].filter(Boolean).join(', '));}
+      if(d.days){var by=new Date(addWorkingDays(new Date(),1).getTime());by.setDate(by.getDate()+d.days);if(by.getDay()===0){by.setDate(by.getDate()+1);}
+        parts.push('estimated delivery by '+by.toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'}));}
+      if(parts.length){pinNote.textContent=parts.join(' · ');pinNote.hidden=false;}
+      if(!err.hidden&&!orderProblem()){err.hidden=true;}
+    }).catch(function(){});
+  }
+  F.pin.addEventListener('input',pinLookup);
   sendBtn.addEventListener('click',function(e){
     e.preventDefault();
     var p=orderProblem(), m=payMode();
     if(sendBtn.dataset.busy){return;}
     if(p){err.textContent=p;err.hidden=false;return;}
-    if(m==='wa'){err.hidden=true;window.open(waOrderUrl(),'_blank','noopener');return;}
+    if(m==='wa'){err.hidden=true;remember();window.open(waOrderUrl(),'_blank','noopener');return;}
     payOnline(m==='cod');
   });
   document.getElementById('pay-wa').addEventListener('change',orderLink);
@@ -164,7 +188,10 @@
   document.getElementById('buy-bar').addEventListener('click',buy);
   function show(){}
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
+  document.getElementById('wa-help').href=document.getElementById('wa-chat').href;
+  try{var saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved){Object.keys(F).forEach(function(k){if(typeof saved[k]==='string'){F[k].value=saved[k].slice(0,300);}});savedLine.hidden=false;}}catch(e){}
   render();
+  pinLookup();
   /* Instagram films: one at a time on a dark stage, in Instagram's own player frame. Loaded only when the stage is about to be seen. */
   var reels=document.getElementById('reels');
   if(reels){

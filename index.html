@@ -52,16 +52,16 @@
           <div class="packs" role="radiogroup" aria-label="Choose your pack">
             <button type="button" class="pack on" role="radio" aria-checked="true" data-pack="1" id="pack-1">
               <img src="/assets/pack-1.webp" alt="" width="56" height="56">
-              <span class="pk-name">Pack of 1</span><span class="pk-price">₹999</span><span class="pk-save">&nbsp;</span>
+              <span class="pk-name">Pack of 1</span><span class="pk-price">₹999</span><span class="pk-each">&nbsp;</span><span class="pk-save">&nbsp;</span>
             </button>
             <button type="button" class="pack" role="radio" aria-checked="false" data-pack="2" id="pack-2">
               <img src="/assets/pack-2.webp" alt="" width="56" height="56">
-              <span class="pk-name">Pack of 2</span><span class="pk-price">₹1,899</span><span class="pk-save">Save ₹99</span>
+              <span class="pk-name">Pack of 2</span><span class="pk-price">₹1,899</span><span class="pk-each">₹950 a jar</span><span class="pk-save">Save ₹99</span>
             </button>
             <button type="button" class="pack" role="radio" aria-checked="false" data-pack="3" id="pack-3">
               <span class="pk-tag alt">Best value</span>
               <img src="/assets/pack-3.webp" alt="" width="56" height="56">
-              <span class="pk-name">Pack of 3</span><span class="pk-price">₹2,699</span><span class="pk-save">Save ₹298</span>
+              <span class="pk-name">Pack of 3</span><span class="pk-price">₹2,699</span><span class="pk-each">₹900 a jar</span><span class="pk-save">Save ₹298</span>
             </button>
           </div>
           <div class="price"><b id="price-now">₹999</b><s id="price-was" hidden>₹999</s><span id="price-note">inclusive of all taxes</span></div>
@@ -77,7 +77,8 @@
               <label for="of-name">Full name</label><input id="of-name" type="text" autocomplete="name" required>
               <label for="of-phone">Mobile number</label><input id="of-phone" type="tel" inputmode="numeric" autocomplete="tel" required>
               <label for="of-address">Full address</label><textarea id="of-address" rows="2" autocomplete="street-address" required></textarea>
-              <div class="two"><div><label for="of-city">City</label><input id="of-city" type="text" autocomplete="address-level2" required></div><div><label for="of-pin">Pincode</label><input id="of-pin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" required></div></div>
+              <div class="two"><div><label for="of-pin">Pincode</label><input id="of-pin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" required></div><div><label for="of-city">City</label><input id="of-city" type="text" autocomplete="address-level2" required></div></div>
+              <p class="pinnote" id="pin-note" aria-live="polite" hidden></p>
               <fieldset class="pay">
                 <legend>How would you like to pay?</legend>
                 <label for="pay-upi" class="rec"><em class="rec-tag">★ Recommended</em><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>Pay online: UPI, cards, netbanking<small class="rec-save">You save <b id="pay-save">₹100</b> · nothing to pay at the door</small></span><b id="pay-upi-amt">₹899</b></label>
@@ -88,6 +89,8 @@
               <div class="osum" id="order-sum" aria-live="polite"></div>
               <p class="oerr" id="order-error" role="alert" hidden></p>
               <button type="button" class="btn" id="order-send">Pay securely</button>
+              <p class="ohelp">A question before you order? <a id="wa-help" href="https://wa.me/919980881230" target="_blank" rel="noopener">Chat with us on WhatsApp</a></p>
+              <p class="osaved" id="saved-line" hidden>Details filled in from your last order on this device. <button type="button" id="saved-clear">Clear</button></p>
               <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order. You are charged only after you approve the payment in the Razorpay window. See our <a href="/privacy-policy/">privacy policy</a>.</p>
             </form>
           </div>
