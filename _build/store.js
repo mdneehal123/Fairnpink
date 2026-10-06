@@ -30,11 +30,21 @@
       b.classList.toggle('on',on); b.setAttribute('aria-checked',String(on));
       if(on){
         var src=b.querySelector('img').src;
-        document.getElementById('media-photo').src=src;
+        var gp=document.getElementById('gthumb-pack');if(gp){gp.src=src;}
+        if(packPhotoShown){document.getElementById('media-photo').src=src;}
       }
     });
   }
-  packBtns.forEach(function(b){b.addEventListener('click',function(){qty=Number(b.dataset.pack);show('photo');render();});});
+  var packPhotoShown=true, gthumbs=[].slice.call(document.querySelectorAll('.gthumb'));
+  function pick(t){
+    var main=document.getElementById('media-photo'), src=t.getAttribute('data-src');
+    packPhotoShown=!src;
+    main.src=src||document.getElementById('gthumb-pack').src;
+    main.alt=t.getAttribute('data-alt');
+    gthumbs.forEach(function(x){var on=x===t;x.classList.toggle('on',on);x.setAttribute('aria-pressed',String(on));});
+  }
+  gthumbs.forEach(function(t){t.addEventListener('click',function(){pick(t);});});
+  packBtns.forEach(function(b){b.addEventListener('click',function(){qty=Number(b.dataset.pack);if(gthumbs.length){pick(gthumbs[0]);}render();});});
   var F={name:document.getElementById('of-name'),phone:document.getElementById('of-phone'),address:document.getElementById('of-address'),city:document.getElementById('of-city'),pin:document.getElementById('of-pin')};
   var sendBtn=document.getElementById('order-send'), err=document.getElementById('order-error');
   function orderProblem(){
