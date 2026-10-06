@@ -14,7 +14,7 @@ ARTICLES = [
         <h2>The online price</h2>
         <p>If you pay online by UPI, card or netbanking, the total drops by ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. That makes the online totals ₹899, ₹1,749 and ₹2,449.</p>
         <h2>Is Cash on Delivery available?</h2>
-        <p>Yes. Cash on Delivery orders are charged at the regular pack price, paid to the courier when the parcel arrives.</p>
+        <p>Yes. Cash on Delivery orders are charged at the regular pack price. You pay a ₹99 advance online to confirm, and the rest in cash when the parcel arrives.</p>
         <h2>Why prices differ on other websites</h2>
         <p>You may see the cream listed at other prices elsewhere. The prices on this page are the ones we charge on fairnpink.in, where every order is packed and sent by the brand. If you are comparing, check the net weight and the seller before you check the price. Our guide to <a href="/original/">identifying original Fair N Pink</a> shows what the box and jar look like.</p>
         <h2>Which pack should you buy?</h2>
@@ -266,10 +266,10 @@ ARTICLES = [
           <li>Open the <a href="/">store page</a> and choose a pack of 1, 2 or 3.</li>
           <li>Tap Buy now and fill in your name, mobile number and address.</li>
           <li>Choose to pay online or with Cash on Delivery.</li>
-          <li>To pay online, tap the Pay button and complete the payment. For Cash on Delivery, tap Send order on WhatsApp and we confirm by reply.</li>
+          <li>To pay online, tap the Pay button and complete the payment. For Cash on Delivery, pay the ₹99 advance to confirm, and pay the rest at your door.</li>
         </ol>
         <h2>Cash on Delivery</h2>
-        <p>Cash on Delivery is available. You pay the regular pack price to the courier when the parcel arrives.</p>
+        <p>Cash on Delivery is available with a ₹99 advance, paid online when you order. The advance is part of the pack price, so on a ₹999 jar you pay ₹900 in cash at delivery. If the parcel is refused, the advance is not refunded.</p>
         <h2>Paying online</h2>
         <p>Paying online saves ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. You can pay by UPI, card or netbanking in a secure Razorpay window, and you see a payment ID as soon as it succeeds. We never ask for your UPI PIN or card details.</p>
         <h2>Delivery</h2>
@@ -331,7 +331,7 @@ ARTICLES = [
           <li>2 जार का पैक: ₹1,899</li>
           <li>3 जार का पैक: ₹2,699</li>
         </ul>
-        <p>ऑनलाइन भुगतान (UPI, कार्ड या नेटबैंकिंग) करने पर ₹100, ₹150 या ₹250 की बचत होती है। कैश ऑन डिलीवरी भी उपलब्ध है।</p>
+        <p>ऑनलाइन भुगतान (UPI, कार्ड या नेटबैंकिंग) करने पर ₹100, ₹150 या ₹250 की बचत होती है। कैश ऑन डिलीवरी भी उपलब्ध है: ₹99 अभी ऑनलाइन, बाकी रकम डिलीवरी पर।</p>
         <h2>क्रीम कैसे लगाएं</h2>
         <ol>
           <li>चेहरा धोकर हल्के हाथ से सुखा लें।</li>

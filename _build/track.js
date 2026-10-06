@@ -7,10 +7,11 @@
   function steps(n){var names=['Order placed','Packed','Shipped','Delivered'], ol=el('ol',null,'tsteps');names.forEach(function(t,i){ol.appendChild(el('li',t,i<n?'done':''));});return ol;}
   function render(d){
     if(d.paid===false){return show([el('h2','Payment not completed'),el('p','We found this order, but the payment was not completed, so it has not been dispatched. If money left your account, message us with the ID.'),help()]);}
-    if(!d.shipped){var a=[el('h2','Order received'),steps(1),el('p',(d.pack?d.pack+'. ':'')+'Your order is confirmed and is being packed. Orders are dispatched within 24 hours, except Sundays and national holidays. Tracking details appear here once the courier collects the parcel.')];if(d.placed){a.splice(1,0,el('p','Placed on '+day(d.placed),'byline'));}a.push(help());return show(a);}
+    if(!d.shipped){var a=[el('h2','Order received'),steps(1),el('p',(d.pack?d.pack+'. ':'')+(d.due?'Rs '+d.due+' to pay in cash on delivery. ':'')+'Your order is confirmed and is being packed. Orders are dispatched within 24 hours, except Sundays and national holidays. Tracking details appear here once the courier collects the parcel.')];if(d.placed){a.splice(1,0,el('p','Placed on '+day(d.placed),'byline'));}a.push(help());return show(a);}
     var delivered=/deliver/i.test(d.status||'')&&!/out for|undeliver|not deliver/i.test(d.status||'');
     var nodes=[el('h2',d.status||'Shipped'),steps(delivered?4:3)];
     var facts=el('p'),bits=[];if(d.courier){bits.push('Courier: '+d.courier);}if(d.awb){bits.push('Tracking number: '+d.awb);}
+    if(d.due&&!delivered){bits.push('Rs '+d.due+' to pay on delivery');}
     if(delivered&&d.delivered_on){bits.push('Delivered on '+day(d.delivered_on));}else if(d.expected){bits.push('Expected by '+day(d.expected));}
     facts.textContent=bits.join(' · ');nodes.push(facts);
     if(d.events&&d.events.length){var ul=el('ul',null,'tlog');d.events.forEach(function(e){var li=el('li');li.appendChild(el('b',e.text));li.appendChild(el('span',[day(e.date),e.place].filter(Boolean).join(' · ')));ul.appendChild(li);});nodes.push(ul);}

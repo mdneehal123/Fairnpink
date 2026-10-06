@@ -11,4 +11,24 @@ function clean(value, max) {
   return String(value == null ? '' : value).replace(/\s+/g, ' ').trim().slice(0, max);
 }
 
-module.exports = { PACKS, keys, clean };
+// Cash on Delivery needs this much paid online in advance. The rest is collected at the door.
+const ADVANCE = 99;
+
+// Turns a paid Razorpay order into what the courier system needs. Amounts come from the price table
+// above, never from the browser. For an advance order the courier collects the pack price minus the advance.
+function shipArgs(o) {
+  const n = (o && o.notes) || {};
+  const packNumber = Number(String(n.pack || '').replace(/\D/g, ''));
+  const pack = PACKS[packNumber];
+  if (!pack || !n.name) return null;
+  const advance = n.mode === 'advance';
+  return {
+    id: o.id, packNumber, name: n.name, phone: n.phone, address: n.address, city: n.city, pincode: n.pincode,
+    cod: advance,
+    itemPrice: advance ? pack.price : Math.round(Number(o.amount) / 100),
+    discount: advance ? ADVANCE : 0,
+    collect: advance ? pack.price - ADVANCE : 0
+  };
+}
+
+module.exports = { PACKS, ADVANCE, keys, clean, shipArgs };

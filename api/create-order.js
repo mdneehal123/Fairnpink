@@ -1,4 +1,4 @@
-const { PACKS, keys, clean } = require('./_shared');
+const { PACKS, ADVANCE, keys, clean } = require('./_shared');
 
 module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
@@ -17,7 +17,10 @@ module.exports = async (req, res) => {
     return res.status(400).json({ error: 'invalid_details' });
   }
 
-  const amount = (pack.price - pack.off) * 100;
+  // mode 'advance' = Cash on Delivery with a small advance paid now. Anything else = full payment online.
+  const advance = body.mode === 'advance';
+  const amount = (advance ? ADVANCE : pack.price - pack.off) * 100;
+  const balance = advance ? pack.price - ADVANCE : 0;
   try {
     const r = await fetch('https://api.razorpay.com/v1/orders', {
       method: 'POST',
@@ -29,12 +32,13 @@ module.exports = async (req, res) => {
         amount,
         currency: 'INR',
         receipt: 'fnp_' + Date.now(),
-        notes: { product: 'Fair N Pink Advance Radiance Cream', pack: 'Pack of ' + Number(body.pack), name, phone, address, city, pincode }
+        notes: { product: 'Fair N Pink Advance Radiance Cream', pack: 'Pack of ' + Number(body.pack), name, phone, address, city, pincode,
+          mode: advance ? 'advance' : 'full', payment: advance ? 'Advance Rs ' + ADVANCE + ' paid, Rs ' + balance + ' cash on delivery' : 'Paid in full online' }
       })
     });
     const data = await r.json();
     if (!r.ok || !data.id) return res.status(502).json({ error: 'gateway_error' });
-    return res.status(200).json({ order_id: data.id, amount: data.amount, currency: data.currency, key_id: k.id });
+    return res.status(200).json({ order_id: data.id, amount: data.amount, currency: data.currency, key_id: k.id, balance });
   } catch (e) {
     return res.status(502).json({ error: 'gateway_unreachable' });
   }

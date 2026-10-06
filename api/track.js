@@ -1,4 +1,4 @@
-const { keys } = require('./_shared');
+const { keys, PACKS, ADVANCE } = require('./_shared');
 const shiprocket = require('./_shiprocket');
 
 // Order tracking for customers. Accepts a Payment ID (pay_...), an Order ID (order_...) or a courier AWB.
@@ -32,10 +32,12 @@ module.exports = async (req, res) => {
     if (!r.ok) return res.status(404).json({ error: 'not_found' });
     paid = o.status === 'paid';
     const pack = String((o.notes && o.notes.pack) || '');
+    const pk = PACKS[Number(pack.replace(/\D/g, ''))];
+    const due = o.notes && o.notes.mode === 'advance' && pk ? pk.price - ADVANCE : 0;
     const placed = o.created_at ? new Date(o.created_at * 1000).toISOString() : '';
-    if (!paid) return res.status(200).json({ found: true, paid: false, pack, placed });
+    if (!paid) return res.status(200).json({ found: true, paid: false, pack, placed, due });
     const t = await shiprocket.track('order', orderId);
-    return res.status(200).json(Object.assign({ paid: true, pack, placed }, t.found ? t : { found: true, shipped: false }));
+    return res.status(200).json(Object.assign({ paid: true, pack, placed, due }, t.found ? t : { found: true, shipped: false }));
   } catch (e) {
     return res.status(502).json({ error: 'lookup_failed' });
   }

@@ -67,7 +67,9 @@ function stamp(date) {
   return ist.toISOString().slice(0, 16).replace('T', ' ');
 }
 
-// order: { id, packNumber, amountRupees, name, phone, address, city, pincode }
+// order: { id, packNumber, name, phone, address, city, pincode, cod, itemPrice, discount, collect }
+// Prepaid: itemPrice is what was paid. Cash on Delivery with advance: itemPrice is the pack price,
+// discount is the advance already paid, and the courier collects the difference.
 async function createOrder(order) {
   const s = settings();
   if (!s) return { status: 'off' };
@@ -96,10 +98,11 @@ async function createOrder(order) {
         name: 'Fair N Pink Advance Radiance Cream, Pack of ' + order.packNumber,
         sku: 'FNP-ARC-P' + order.packNumber,
         units: 1,
-        selling_price: order.amountRupees
+        selling_price: order.itemPrice
       }],
-      payment_method: 'Prepaid',
-      sub_total: order.amountRupees,
+      payment_method: order.cod ? 'COD' : 'Prepaid',
+      total_discount: order.discount || 0,
+      sub_total: order.cod ? order.collect : order.itemPrice,
       length: parcel.length,
       breadth: parcel.breadth,
       height: parcel.height,

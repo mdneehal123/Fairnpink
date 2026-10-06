@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { keys } = require('./_shared');
+const { keys, shipArgs } = require('./_shared');
 const shiprocket = require('./_shiprocket');
 
 // Confirms that a payment reported by the browser was really signed by Razorpay,
@@ -32,13 +32,9 @@ module.exports = async (req, res) => {
         headers: { Authorization: 'Basic ' + Buffer.from(k.id + ':' + k.secret).toString('base64') }
       });
       const o = await r.json();
-      const n = (o && o.notes) || {};
-      const packNumber = Number(String(n.pack || '').replace(/\D/g, ''));
-      if (!r.ok || !n.name || !packNumber) throw new Error('order_lookup_failed');
-      const out = await shiprocket.createOrder({
-        id: orderId, packNumber, amountRupees: Math.round(Number(o.amount) / 100),
-        name: n.name, phone: n.phone, address: n.address, city: n.city, pincode: n.pincode
-      });
+      const args = r.ok ? shipArgs(o) : null;
+      if (!args) throw new Error('order_lookup_failed');
+      const out = await shiprocket.createOrder(args);
       shipping = out.status;
     } catch (e) {
       console.error('shipping hand-off failed', e && e.message, JSON.stringify((e && e.detail) || {}));

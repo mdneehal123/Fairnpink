@@ -1,4 +1,4 @@
-const { keys } = require('./_shared');
+const { keys, shipArgs } = require('./_shared');
 const shiprocket = require('./_shiprocket');
 
 // Troubleshooting. Re-sends one PAID Razorpay order to Shiprocket and shows Shiprocket's answer.
@@ -25,11 +25,9 @@ module.exports = async (req, res) => {
       if (!o) return res.status(404).json({ error: 'no_paid_fair_n_pink_order_found_in_last_25' });
     }
     if (o.status !== 'paid') return res.status(400).json({ error: 'order_not_paid', razorpay_status: o.status, order: o.id });
-    const n = o.notes || {};
-    const out = await shiprocket.createOrder({
-      id: o.id, packNumber: Number(String(n.pack || '').replace(/\D/g, '')), amountRupees: Math.round(Number(o.amount) / 100),
-      name: n.name, phone: n.phone, address: n.address, city: n.city, pincode: n.pincode
-    });
+    const args = shipArgs(o);
+    if (!args) return res.status(400).json({ error: 'order_has_no_delivery_details', order: o.id });
+    const out = await shiprocket.createOrder(args);
     return res.status(200).json(Object.assign({ order: o.id }, out));
   } catch (e) {
     return res.status(200).json({ status: 'failed', reason: e.message, detail: e.detail });

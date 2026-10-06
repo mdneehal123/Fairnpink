@@ -154,7 +154,7 @@ def strip_tags(t):
 
 CTA = '''    <section>
       <div class="cta">
-        <div><h2>Advance Radiance Cream</h2><p>From ₹999 for a %s jar. Complimentary shipping on prepaid orders, and Cash on Delivery is available.</p></div>
+        <div><h2>Advance Radiance Cream</h2><p>From ₹999 for a %s jar. Complimentary shipping on prepaid orders. Cash on Delivery is available with a ₹99 advance.</p></div>
         <a class="btn" href="/#buy">Shop the cream</a>
       </div>
     </section>
@@ -250,7 +250,7 @@ RIBBON_HTML = '    <div class="ribbon" aria-hidden="true"><div class="ribbon-tra
 _ico = '<svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
 BADGES = [
     ('<circle cx="24" cy="24" r="17"/><path d="M24 14v10l7 4"/>', 'Ships in 24 hours', 'Except Sundays and national holidays.'),
-    ('<rect x="6" y="13" width="36" height="22" rx="3"/><circle cx="24" cy="24" r="5"/><path d="M12 19v10M36 19v10"/>', 'Cash on Delivery', 'Pay when the parcel reaches you.'),
+    ('<rect x="6" y="13" width="36" height="22" rx="3"/><circle cx="24" cy="24" r="5"/><path d="M12 19v10M36 19v10"/>', 'Cash on Delivery', 'Pay ₹99 now and the rest when it arrives.'),
     ('<rect x="10" y="21" width="28" height="19" rx="3"/><path d="M16 21v-5a8 8 0 0 1 16 0v5M24 28v5"/>', 'Secure payment', 'UPI, cards and netbanking through Razorpay.'),
     ('<path d="M24 6l15 6v10c0 10-6 17-15 20-9-3-15-10-15-20V12l15-6Z"/><path d="M17 24l5 5 9-10"/>', 'Sealed, from the brand', 'Packed and sent by Fair N Pink.'),
 ]
@@ -278,7 +278,7 @@ HOME_FAQ = [
     ('What size is the Fair N Pink cream jar?', 'Each jar holds %s of cream. The net weight is printed on the box.' % NET),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
     ('How long does it take to show results?', 'It differs from person to person. Use it for a few weeks before you judge it.'),
-    ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Order on this page and choose Cash on Delivery, or pay online by UPI, card or netbanking and save up to ₹250.'),
+    ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Choose Cash on Delivery, pay a ₹99 advance online to confirm, and pay the rest in cash when the parcel arrives. Or pay in full online and save up to ₹250.'),
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
 ]
 
@@ -421,7 +421,8 @@ FAQ = [
     ('What is the price of Fair N Pink cream?', 'One jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
     ('Is there a discount for paying online?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
     ('Which payment methods do you accept?', 'UPI, debit cards, credit cards and netbanking, all processed securely by Razorpay, and Cash on Delivery. Prices are in Indian rupees.'),
-    ('Is Cash on Delivery available?', 'Yes. Choose Cash on Delivery in the order form and pay when the parcel arrives.'),
+    ('Is Cash on Delivery available?', 'Yes. Choose Cash on Delivery in the order form and pay a ₹99 advance online to confirm the order. You pay the rest of the pack price in cash when the parcel arrives. The ₹99 is part of the price, not an extra charge.'),
+    ('Why is there a ₹99 advance on Cash on Delivery?', 'It confirms that the order is genuine, so we can dispatch it straight away. It is deducted from what you pay at the door. If the parcel is refused at delivery, the ₹99 is not refunded, because it covers the shipping both ways.'),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night. In the morning, finish with sunscreen. <a href="/how-to-use/">See the full routine</a>.'),
     ('How long does it take to show results?', 'It differs from person to person. Skin usually feels softer in the first week. Give it at least four weeks of regular use before you judge it.'),
     ('Does Fair N Pink cream whiten skin?', 'No cream changes your natural skin tone. Advance Radiance Cream is a cosmetic made to help skin look brighter and more even with regular use and daily sunscreen.'),
@@ -474,7 +475,7 @@ body = top('Your order', 'Track your Fair N Pink order', 'Enter your Payment ID 
     </section>
 ''' + sec('Help', 'Where to find your ID', '', '''      <div class="use">
         <div><h3>Paid online</h3><p>Your Payment ID starts with <b>pay_</b>. It is shown on the confirmation screen after you pay, and in the payment SMS you receive.</p></div>
-        <div><h3>Cash on Delivery</h3><p>Use the courier tracking number we send you on WhatsApp when your parcel is dispatched.</p></div>
+        <div><h3>Cash on Delivery</h3><p>You paid a ₹99 advance online, so you also have a Payment ID starting with <b>pay_</b>. Use it here, or use the courier tracking number.</p></div>
       </div>
       <p class="more"><a href="/shipping-policy/">Delivery times and shipping policy</a></p>''')
 page('/track/', 'Track Your Order | Fair N Pink',
@@ -487,15 +488,16 @@ POL = [
         <h2>Where we deliver</h2><p>We deliver across India.</p>
         <h2>Dispatch</h2><p>Orders are dispatched within 24 hours, except on Sundays and national holidays.</p>
         <h2>Delivery time</h2><p>Parcels are delivered in 3 to 7 working days from dispatch, depending on your pincode.</p>
-        <h2>Shipping charges</h2><p>Shipping is free on orders paid online. Cash on Delivery orders are charged the regular pack price shown on the site, with no extra delivery or handling fee. The total you see before you confirm is the total you pay.</p>
+        <h2>Shipping charges</h2><p>Shipping is free on orders paid online. Cash on Delivery orders are charged the regular pack price shown on the site, with no extra delivery or handling fee: ₹99 is paid online as an advance and the rest in cash at delivery. The total you see before you confirm is the total you pay.</p>
         <h2>Tracking</h2><p>Use the <a href="/track/">Track order</a> page with your Payment ID or courier tracking number. You can also message us on WhatsApp with the name and mobile number on your order.</p>'''),
     ('/refund-policy/', 'Cancellation and refund policy', 'Cancellation and refunds', 'When you can cancel, and what happens if a parcel arrives damaged.', '''
         <h2>Cancellation</h2><p>You can cancel an order at any time before it is shipped. Message us on WhatsApp with the name and mobile number on the order.</p>
         <h2>Damaged on arrival</h2><p>If your jar arrives damaged, message us within 24 hours of delivery with a video that clearly shows the package being opened and the damage.</p>
+        <h2>Cash on Delivery advance</h2><p>The ₹99 advance on a Cash on Delivery order is refunded in full if you cancel before the order is shipped, if we are unable to deliver, or if the jar arrives damaged and you report it as described above. It is not refunded if the parcel is refused at delivery or cannot be delivered because nobody is available to receive it.</p>
         <h2>Refunds</h2><p>Approved refunds are credited to your bank account or UPI within 7 working days.</p>
         <h2>Opened products</h2><p>For hygiene reasons we cannot take back a jar that has been opened or used.</p>'''),
     ('/privacy-policy/', 'Privacy policy', 'Privacy', 'What we collect when you order, and what we do with it.', '''
-        <h2>What we collect</h2><p>To deliver your order we collect your name, mobile number and delivery address. For online payments they are sent to Razorpay with your order so we can deliver it. For Cash on Delivery, the form prepares a WhatsApp message that you send to us yourself.</p>
+        <h2>What we collect</h2><p>To deliver your order we collect your name, mobile number and delivery address. For online payments they are sent to Razorpay with your order so we can deliver it. This applies to Cash on Delivery orders too, since the advance is paid through Razorpay.</p>
         <h2>How we use it</h2><p>We use these details only to process and deliver your order and to reply to your messages.</p>
         <h2>Who we share it with</h2><p>We share your details only with the courier and payment partners needed to complete your order. We do not sell your information.</p>
         <h2>Payments</h2><p>Online payments are processed by Razorpay, a licensed payment gateway, and we do not see or store your card or bank details. UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
@@ -504,9 +506,9 @@ POL = [
     ('/terms/', 'Terms and conditions', 'Terms', 'The terms that apply when you order from fairnpink.in.', '''
         <h2>The product</h2><p>Fair N Pink Advance Radiance Cream is a cosmetic product, not a medicine. Results vary from person to person. Please patch test before use.</p>
         <h2>Prices</h2><p>Prices are in Indian rupees and include all taxes. The online payment saving shown on the site applies when the order is paid in full online at the time of ordering.</p>
-        <h2>Orders</h2><p>An online order is confirmed when your payment succeeds and you see the payment ID. A Cash on Delivery order is confirmed when we reply to your WhatsApp message.</p>
+        <h2>Orders</h2><p>An online order is confirmed when your payment succeeds and you see the payment ID. A Cash on Delivery order is confirmed when your ₹99 advance succeeds.</p>
         <h2>Payment methods</h2><p>We accept UPI, debit cards, credit cards and netbanking through Razorpay, and Cash on Delivery. All prices are in Indian rupees.</p>
-        <h2>Cash on Delivery</h2><p>Cash on Delivery orders are payable in full to the courier at the time of delivery.</p>
+        <h2>Cash on Delivery</h2><p>Cash on Delivery orders need a ₹99 advance, paid online when you order. The advance is part of the pack price. The balance is payable in cash to the courier at the time of delivery. If you refuse the parcel at delivery, the advance is not refunded.</p>
         <h2>Seller</h2><p>Orders on fairnpink.in are sold and shipped by ''' + OWNER + ''', ''' + ADDR + '''.</p>
         <h2>Other policies</h2><p>See the <a href="/shipping-policy/">shipping policy</a>, the <a href="/refund-policy/">cancellation and refund policy</a> and the <a href="/privacy-policy/">privacy policy</a>.</p>'''),
 ]

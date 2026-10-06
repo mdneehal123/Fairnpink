@@ -81,10 +81,11 @@
               <fieldset class="pay">
                 <legend>How would you like to pay?</legend>
                 <label for="pay-upi"><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>Pay online: UPI, cards, netbanking<small>You save <b id="pay-save">₹100</b></small></span><b id="pay-upi-amt">₹899</b></label>
-                <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small>Pay when it arrives</small></span><b id="pay-cod-amt">₹999</b></label>
+                <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small id="pay-cod-note">Pay ₹99 now, ₹900 on delivery</small></span><b id="pay-cod-amt">₹999</b></label>
               </fieldset>
+              <p id="cod-terms" class="codterms" hidden>Cash on Delivery orders are confirmed with a ₹99 advance, paid online now. It is part of the price, not an extra charge. If the parcel is refused at delivery, the ₹99 is not refunded.</p>
               <p class="oerr" id="order-error" role="alert" hidden></p>
-              <a class="btn" id="order-send" href="https://wa.me/919980881230" target="_blank" rel="noopener">Send order on WhatsApp</a>
+              <button type="button" class="btn" id="order-send">Pay securely</button>
               <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order. You are charged only after you approve the payment in the Razorpay window. See our <a href="/privacy-policy/">privacy policy</a>.</p>
             </form>
           </div>
@@ -101,7 +102,7 @@
 
         <div class="ribbon" aria-hidden="true"><div class="ribbon-track"><span>Glutathione</span><span>Niacinamide</span><span>Alpha arbutin</span><span>10 g jar</span><span>Morning and night</span><span>Free shipping on prepaid</span><span>Cash on Delivery</span><span>Dispatched in 24 hours</span><span>Glutathione</span><span>Niacinamide</span><span>Alpha arbutin</span><span>10 g jar</span><span>Morning and night</span><span>Free shipping on prepaid</span><span>Cash on Delivery</span><span>Dispatched in 24 hours</span></div></div>
     <section>
-      <ul class="badges"><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="17"/><path d="M24 14v10l7 4"/></svg><b>Ships in 24 hours</b><span>Except Sundays and national holidays.</span></li><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="13" width="36" height="22" rx="3"/><circle cx="24" cy="24" r="5"/><path d="M12 19v10M36 19v10"/></svg><b>Cash on Delivery</b><span>Pay when the parcel reaches you.</span></li><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="21" width="28" height="19" rx="3"/><path d="M16 21v-5a8 8 0 0 1 16 0v5M24 28v5"/></svg><b>Secure payment</b><span>UPI, cards and netbanking through Razorpay.</span></li><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6l15 6v10c0 10-6 17-15 20-9-3-15-10-15-20V12l15-6Z"/><path d="M17 24l5 5 9-10"/></svg><b>Sealed, from the brand</b><span>Packed and sent by Fair N Pink.</span></li></ul>
+      <ul class="badges"><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="17"/><path d="M24 14v10l7 4"/></svg><b>Ships in 24 hours</b><span>Except Sundays and national holidays.</span></li><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="13" width="36" height="22" rx="3"/><circle cx="24" cy="24" r="5"/><path d="M12 19v10M36 19v10"/></svg><b>Cash on Delivery</b><span>Pay ₹99 now and the rest when it arrives.</span></li><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="21" width="28" height="19" rx="3"/><path d="M16 21v-5a8 8 0 0 1 16 0v5M24 28v5"/></svg><b>Secure payment</b><span>UPI, cards and netbanking through Razorpay.</span></li><li><svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6l15 6v10c0 10-6 17-15 20-9-3-15-10-15-20V12l15-6Z"/><path d="M17 24l5 5 9-10"/></svg><b>Sealed, from the brand</b><span>Packed and sent by Fair N Pink.</span></li></ul>
     </section>
 
     <section>
@@ -182,7 +183,7 @@
       <details><summary>What size is the Fair N Pink cream jar?</summary><p>Each jar holds 10 g of cream. The net weight is printed on the box.</p></details>
       <details><summary>How do I use it?</summary><p>Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.</p></details>
       <details><summary>How long does it take to show results?</summary><p>It differs from person to person. Use it for a few weeks before you judge it.</p></details>
-      <details><summary>Can I buy Fair N Pink cream online with Cash on Delivery?</summary><p>Yes. Order on this page and choose Cash on Delivery, or pay online by UPI, card or netbanking and save up to ₹250.</p></details>
+      <details><summary>Can I buy Fair N Pink cream online with Cash on Delivery?</summary><p>Yes. Choose Cash on Delivery, pay a ₹99 advance online to confirm, and pay the rest in cash when the parcel arrives. Or pay in full online and save up to ₹250.</p></details>
       <details><summary>When will my order arrive?</summary><p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.</p></details>
       <p class="more"><a href="/faq/">All questions and answers</a></p>
     </section>

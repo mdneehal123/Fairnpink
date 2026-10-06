@@ -47,10 +47,11 @@
               <fieldset class="pay">
                 <legend>How would you like to pay?</legend>
                 <label for="pay-upi"><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>Pay online: UPI, cards, netbanking<small>You save <b id="pay-save">₹100</b></small></span><b id="pay-upi-amt">₹899</b></label>
-                <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small>Pay when it arrives</small></span><b id="pay-cod-amt">₹999</b></label>
+                <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small id="pay-cod-note">Pay ₹99 now, ₹900 on delivery</small></span><b id="pay-cod-amt">₹999</b></label>
               </fieldset>
+              <p id="cod-terms" class="codterms" hidden>Cash on Delivery orders are confirmed with a ₹99 advance, paid online now. It is part of the price, not an extra charge. If the parcel is refused at delivery, the ₹99 is not refunded.</p>
               <p class="oerr" id="order-error" role="alert" hidden></p>
-              <a class="btn" id="order-send" href="https://wa.me/919980881230" target="_blank" rel="noopener">Send order on WhatsApp</a>
+              <button type="button" class="btn" id="order-send">Pay securely</button>
               <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order. You are charged only after you approve the payment in the Razorpay window. See our <a href="#policies">privacy policy</a>.</p>
             </form>
           </div>
