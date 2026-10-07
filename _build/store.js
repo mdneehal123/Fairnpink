@@ -4,7 +4,9 @@
   var UPI_OFF={1:100,2:150,3:250};
   var ADVANCE=99; /* paid online to confirm a Cash on Delivery order; the rest is paid at the door */
   var RZP=true; /* online payment through Razorpay */
-  var PACKS={1:{price:999,was:999},2:{price:1899,was:1998},3:{price:2699,was:2997}}, qty=1;
+  var MRP=3000; /* maximum retail price printed on the box, per jar */
+  var PACKS={1:{price:999,was:MRP},2:{price:1899,was:2*MRP},3:{price:2699,was:3*MRP}}, qty=1;
+  function pct(was,price){return Math.round((was-price)/was*100);}
   var panel=document.getElementById('order-panel');
   var line=document.getElementById('order-line'), barTotal=document.getElementById('bar-total'), barQty=document.getElementById('bar-qty');
   var now=document.getElementById('price-now'), was=document.getElementById('price-was'), note=document.getElementById('price-note');
@@ -13,10 +15,11 @@
   function render(){
     var p=PACKS[qty], label='Pack of '+qty;
     now.textContent=rupees(p.price);
-    was.textContent=rupees(p.was); was.hidden=p.was===p.price;
+    was.textContent='MRP '+rupees(p.was); was.hidden=p.was===p.price;
+    var offEl=document.getElementById('price-off');offEl.textContent=pct(p.was,p.price)+'% off';offEl.hidden=p.was===p.price;
     note.textContent=(qty===1?'':rupees(Math.round(p.price/qty))+' per jar, ')+'inclusive of all taxes';
     line.textContent=label+' · '+rupees(p.price);
-    barTotal.textContent=rupees(p.price);
+    barTotal.textContent=rupees(p.price)+' ';var bs=document.createElement('s');bs.textContent=rupees(p.was);barTotal.appendChild(bs);
     barQty.textContent=label+' · Fair N Pink';
     var off=UPI_OFF[qty];
     document.getElementById('upi-save').textContent=rupees(off);
@@ -87,12 +90,14 @@
   function summary(m){
     var p=PACKS[qty], box=document.getElementById('order-sum'), h=document.createElement('p');
     box.textContent='';h.className='osum-h';h.textContent='Your order';box.appendChild(h);
-    box.appendChild(sumRow('Fair N Pink Advance Radiance Cream, Pack of '+qty,rupees(p.price)));
+    box.appendChild(sumRow('Fair N Pink Advance Radiance Cream, Pack of '+qty+' (MRP)',rupees(p.was)));
+    box.appendChild(sumRow('Discount, '+pct(p.was,p.price)+'% off','− '+rupees(p.was-p.price),'osum-save'));
     if(m==='online'){
       box.appendChild(sumRow('Online payment saving','− '+rupees(UPI_OFF[qty]),'osum-save'));
       box.appendChild(sumRow('Shipping','Free'));
       box.appendChild(sumRow('You pay now',rupees(p.price-UPI_OFF[qty]),'osum-total'));
     }else if(m==='cod'){
+      box.appendChild(sumRow('Your price',rupees(p.price)));
       box.appendChild(sumRow('Delivery or handling fee','None'));
       box.appendChild(sumRow('You pay now (advance)',rupees(ADVANCE),'osum-total'));
       box.appendChild(sumRow('You pay in cash on delivery',rupees(p.price-ADVANCE)));

@@ -230,3 +230,12 @@ footer .accept{margin-bottom:12px}
 @keyframes nudgeup{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
 @media (max-width:640px){.nudge{align-items:flex-end;padding:0}.nudge-card{grid-template-columns:1fr;max-height:92vh;border-radius:14px 14px 0 0}.nudge-card img{aspect-ratio:16/10;object-position:center 62%}.nudge-body{padding:20px 20px calc(18px + env(safe-area-inset-bottom,0px));gap:8px}.nudge-body h2{font-size:1.55rem}}
 @media (prefers-reduced-motion:reduce){.nudge,.nudge-card{animation:none}}
+
+/* MRP and discount */
+.pk-mrp{font-size:.74rem;color:var(--muted);font-variant-numeric:tabular-nums;margin-bottom:-3px}
+.price s{font-size:1.05rem}
+.price-off{font-style:normal;background:var(--turmeric-ink);color:#fff;font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:5px 9px;border-radius:2px;align-self:center}
+.price #price-note{flex-basis:100%}
+.bar b s{font-weight:400;color:var(--muted);font-size:.86em}
+.tbl small{display:block;color:var(--turmeric-ink);font-size:.74rem;font-weight:500}
+.tbl s{color:var(--muted)}

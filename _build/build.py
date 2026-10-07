@@ -182,11 +182,11 @@ WEEKS = '''      <ol class="weeks">
       </ol>'''
 
 PRICE_TBL = '''      <div class="tbl"><table>
-        <thead><tr><th>Pack</th><th>Price</th><th>Per jar</th><th>Paid online</th></tr></thead>
+        <thead><tr><th>Pack</th><th>MRP</th><th>Our price</th><th>Per jar</th><th>Paid online</th></tr></thead>
         <tbody>
-          <tr><td>Pack of 1</td><td>₹999</td><td>₹999</td><td>₹899</td></tr>
-          <tr><td>Pack of 2</td><td>₹1,899</td><td>₹950</td><td>₹1,749</td></tr>
-          <tr><td>Pack of 3</td><td>₹2,699</td><td>₹900</td><td>₹2,449</td></tr>
+          <tr><td>Pack of 1</td><td><s>₹3,000</s></td><td>₹999 <small>67% off</small></td><td>₹999</td><td>₹899</td></tr>
+          <tr><td>Pack of 2</td><td><s>₹6,000</s></td><td>₹1,899 <small>68% off</small></td><td>₹950</td><td>₹1,749</td></tr>
+          <tr><td>Pack of 3</td><td><s>₹9,000</s></td><td>₹2,699 <small>70% off</small></td><td>₹900</td><td>₹2,449</td></tr>
         </tbody>
       </table></div>'''
 
@@ -287,7 +287,7 @@ hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
 HOME_FAQ = [
-    ('What is the price of Fair N Pink Advance Radiance Cream?', 'One %s jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save ₹100, ₹150 or ₹250 when you pay online.' % NET),
+    ('What is the price of Fair N Pink Advance Radiance Cream?', 'The MRP printed on the box is ₹3,000 for one %s jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹100, ₹150 or ₹250 when you pay online.' % NET),
     ('What size is the Fair N Pink cream jar?', 'Each jar holds %s of cream. The net weight is printed on the box.' % NET),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
     ('How long does it take to show results?', 'It differs from person to person. Use it for a few weeks before you judge it.'),
@@ -431,7 +431,7 @@ page('/original/', 'Original Fair N Pink Cream: How to Identify It',
 # ---------------- FAQ ----------------
 FAQ = [
     ('What is Fair N Pink Advance Radiance Cream?', 'It is a face cream with glutathione, niacinamide and alpha arbutin, made for daily use, morning and night. It comes in a %s silver jar.' % NET),
-    ('What is the price of Fair N Pink cream?', 'One jar is ₹999. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
+    ('What is the price of Fair N Pink cream?', 'The MRP printed on the box is ₹3,000 a jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
     ('Is there a discount for paying online?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
     ('Which payment methods do you accept?', 'UPI, debit cards, credit cards and netbanking, all processed securely by Razorpay, and Cash on Delivery. Prices are in Indian rupees.'),
     ('Can I order on WhatsApp?', 'Yes. Fill in the order form, choose Order on WhatsApp and send the message. We reply on chat to confirm the order and how you would like to pay.'),
