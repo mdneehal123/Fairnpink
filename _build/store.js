@@ -116,8 +116,15 @@
   F.phone.addEventListener('blur',function(){if(F.phone.value.trim()&&!mobile(F.phone.value)){F.phone.classList.add('bad');}});
   /* Anonymous steps for Google Ads audiences (no name, number or address is sent). Each is sent once per page view. */
   var stepSent={};
-  function step(name){var id=ADS_SEND_TO.split('/')[0];if(!id||stepSent[name]||typeof gtag!=='function'){return;}stepSent[name]=1;gtag('event',name,{send_to:id,currency:'INR',value:PACKS[qty].price});}
+  var FB_STEP={begin_checkout:'InitiateCheckout',add_payment_info:'AddPaymentInfo'};
+  function step(name){
+    if(stepSent[name]){return;}stepSent[name]=1;
+    var id=ADS_SEND_TO.split('/')[0], v=PACKS[qty].price;
+    if(id&&typeof gtag==='function'){gtag('event',name,{send_to:id,currency:'INR',value:v});}
+    if(typeof fbq==='function'&&FB_STEP[name]){fbq('track',FB_STEP[name],{value:v,currency:'INR',content_name:'Fair N Pink Advance Radiance Cream',num_items:qty});}
+  }
   function track(value,id){if(ADS_SEND_TO&&typeof gtag==='function'){gtag('event','conversion',{send_to:ADS_SEND_TO,value:value,currency:'INR',transaction_id:id});}}
+  function trackMeta(value,id){if(typeof fbq==='function'){fbq('track','Purchase',{value:value,currency:'INR',content_name:'Fair N Pink Advance Radiance Cream',content_type:'product',num_items:qty},{eventID:id});}}
   function fail(text){err.textContent=text;err.hidden=false;delete sendBtn.dataset.busy;orderLink();}
   function loadCheckout(done){
     if(window.Razorpay){done();return;}
@@ -126,7 +133,7 @@
     document.head.appendChild(s);
   }
   function paid(paymentId,total,confirmed,balance){
-    track(total,paymentId);remember();clearPending();
+    track(total,paymentId);trackMeta(total,paymentId);remember();clearPending();
     ordered=true;
     var cod=balance>0;
     var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'Advance paid: '+rupees(ADVANCE)+'\nTo pay on delivery: '+rupees(balance):'Paid online: '+rupees(total))+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
