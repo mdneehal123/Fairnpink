@@ -25,7 +25,9 @@ ACTIVES = [
     ('Alpha arbutin', 'Used to help reduce the look of dark spots and uneven tone.'),
 ]
 
-CHAT_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H10l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>'
+# The official WhatsApp glyph, used unaltered from the WhatsApp Brand Resource Center pack supplied by the owner.
+WA_GLYPH = '<img class="wa-glyph" src="/assets/whatsapp-glyph-green.svg" alt="" width="%d" height="%d">'
+CHAT_SVG = WA_GLYPH % (52, 52)
 
 NAV = [('/', 'Shop'), ('/ingredients/', 'Ingredients'), ('/how-to-use/', 'How to use'),
        ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/track/', 'Track order'), ('/faq/', 'Questions'), ('/contact/', 'Contact')]

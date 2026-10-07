@@ -450,3 +450,8 @@ footer .accept{margin-bottom:12px}
 .bar b s{font-weight:400;color:var(--muted);font-size:.86em}
 .tbl small{display:block;color:var(--turmeric-ink);font-size:.74rem;font-weight:500}
 .tbl s{color:var(--muted)}
+
+/* official WhatsApp glyph: shown as supplied, on a white disc, with clear space around it */
+.wa-glyph{display:block;flex:0 0 auto;background:#fff;border-radius:50%}
+.chat{background:transparent;border:0;padding:0;border-radius:50%;box-shadow:0 6px 18px rgba(35,27,30,.22);line-height:0}
+.chat .wa-glyph{width:52px;height:52px}
