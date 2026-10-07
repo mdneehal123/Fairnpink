@@ -238,7 +238,7 @@
   function buyFromBar(){
     var packs=document.querySelector('.packs');
     panel.hidden=false;render();goToForm=true;step('begin_checkout');
-    packs.classList.remove('nudge');void packs.offsetWidth;packs.classList.add('nudge');
+    packs.classList.remove('pk-glow');void packs.offsetWidth;packs.classList.add('pk-glow');
     window.scrollTo({top:Math.max(0,packs.getBoundingClientRect().top+window.pageYOffset-90),behavior:'smooth'});
   }
   document.getElementById('buy-bar').addEventListener('click',buyFromBar);
