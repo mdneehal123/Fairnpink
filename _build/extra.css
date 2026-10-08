@@ -245,3 +245,6 @@ footer .accept{margin-bottom:12px}
 .chat{background:transparent;border:0;padding:0;border-radius:50%;box-shadow:0 6px 18px rgba(35,27,30,.22);line-height:0}
 .chat .wa-glyph{width:52px;height:52px}
 .nudge-facts s{color:var(--muted)}
+/* floating bar steps aside while the form's own pay button is visible */
+.bar{transition:transform .25s ease}
+.bar.bar-off{transform:translateY(110%)}

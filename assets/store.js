@@ -21,6 +21,7 @@
     line.textContent=label+' · '+rupees(p.price);
     barTotal.textContent=rupees(p.price)+' ';var bs=document.createElement('s');bs.textContent=rupees(p.was);barTotal.appendChild(bs);
     barQty.textContent=label+' · Fair N Pink';
+    if(typeof barSync==='function'){barSync();}
     var off=UPI_OFF[qty];
     document.getElementById('upi-save').textContent=rupees(off);
     document.getElementById('pay-save').textContent=rupees(off);
@@ -109,6 +110,7 @@
   function orderLink(){
     var p=PACKS[qty], m=payMode();
     if(!sendBtn.dataset.busy){sendBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty])+' securely':m==='cod'?'Pay '+rupees(ADVANCE)+' to confirm order':'Send order on WhatsApp';}
+    if(typeof barSync==='function'){barSync();}
     document.getElementById('cod-terms').hidden=m!=='cod';
     summary(m);
   }
@@ -162,6 +164,7 @@
     var sh=el('a','btn ghost','Share with a friend on WhatsApp');sh.target='_blank';sh.rel='noopener';
     sh.href='https://wa.me/?text='+encodeURIComponent('I just ordered Fair N Pink Advance Radiance Cream from the brand\'s own store. Have a look: https://fairnpink.in/');
     form.hidden=true;form.parentNode.insertBefore(box,form);
+    barSync();
     var intro=panel.querySelectorAll('p')[1];if(intro){intro.hidden=true;}
     box.scrollIntoView({block:'center',behavior:'smooth'});
   }
@@ -254,7 +257,28 @@
     packs.classList.remove('pk-glow');void packs.offsetWidth;packs.classList.add('pk-glow');
     window.scrollTo({top:Math.max(0,packs.getBoundingClientRect().top+window.pageYOffset-90),behavior:'smooth'});
   }
-  document.getElementById('buy-bar').addEventListener('click',buyFromBar);
+  /* Floating bar: once the order form is open it becomes the pay button for that form, so a tap never sends the
+     customer back to the packs. It hides while the form's own pay button is on screen, so there are never two. */
+  var barBtn=document.getElementById('buy-bar'), orderFormEl=document.getElementById('order-form'), payInView=false;
+  function inCheckout(){return !panel.hidden&&!orderFormEl.hidden;}
+  function barSync(){
+    if(!barBtn){return;}
+    var bar=barBtn.parentNode, p=PACKS[qty], m=payMode();
+    if(inCheckout()){
+      barBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty]):m==='cod'?'Pay '+rupees(ADVANCE)+' now':'Send on WhatsApp';
+      barQty.textContent='Pack of '+qty+' · '+(m==='online'?'paid online':m==='cod'?'Cash on Delivery':'order on WhatsApp');
+      bar.classList.toggle('bar-off',payInView);
+    }else{
+      barBtn.textContent='Buy now';barQty.textContent='Pack of '+qty+' · Fair N Pink';bar.classList.remove('bar-off');
+    }
+  }
+  barBtn.addEventListener('click',function(){
+    if(!inCheckout()){buyFromBar();return;}
+    var prob=orderProblem();
+    if(prob){showProblem(prob);return;}
+    sendBtn.click();
+  });
+  if('IntersectionObserver' in window){new IntersectionObserver(function(en){payInView=en[0].isIntersecting;barSync();},{threshold:0.6}).observe(sendBtn);}
   function show(){}
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
   document.getElementById('wa-help').href=document.getElementById('wa-chat').href;
