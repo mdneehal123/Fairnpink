@@ -488,10 +488,22 @@ page('/contact/', 'Contact Fair N Pink | WhatsApp and Instagram',
      body, crumbs='Contact')
 
 # ---------------- Track order ----------------
-body = top('Your order', 'Track your Fair N Pink order', 'Enter your Payment ID or the courier tracking number to see where your parcel is.') + '''    <section>
+body = top('Your order', 'Track your Fair N Pink order', 'Use the mobile number and pincode from your order, or your Payment ID, to see where your parcel is.') + '''    <section>
       <form id="track-form" class="oform track" novalidate>
-        <label for="track-id">Payment ID or tracking number</label>
-        <input id="track-id" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pay_XXXXXXXXXXXXXX" required>
+        <div class="track-by" role="tablist" aria-label="Track with">
+          <button type="button" role="tab" id="by-phone" aria-selected="true" class="on">Mobile number</button>
+          <button type="button" role="tab" id="by-id" aria-selected="false">Payment ID or tracking no.</button>
+        </div>
+        <div id="by-phone-box">
+          <label for="track-phone">Mobile number used on the order</label>
+          <input id="track-phone" type="tel" inputmode="numeric" maxlength="16" autocomplete="tel" placeholder="10-digit mobile number">
+          <label for="track-pin">Delivery pincode</label>
+          <input id="track-pin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" placeholder="6-digit pincode">
+        </div>
+        <div id="by-id-box" hidden>
+          <label for="track-id">Payment ID or tracking number</label>
+          <input id="track-id" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pay_XXXXXXXXXXXXXX">
+        </div>
         <button type="submit" class="btn" id="track-go">Track order</button>
       </form>
       <div id="track-out" class="track-out" role="status" aria-live="polite" hidden></div>
@@ -502,7 +514,7 @@ body = top('Your order', 'Track your Fair N Pink order', 'Enter your Payment ID 
       </div>
       <p class="more"><a href="/shipping-policy/">Delivery times and shipping policy</a></p>''')
 page('/track/', 'Track Your Order | Fair N Pink',
-     'Track your Fair N Pink order. Enter your Payment ID or courier tracking number to see whether your parcel is packed, shipped or delivered.',
+     'Track your Fair N Pink order with your mobile number and pincode, your Payment ID or the courier tracking number, and see whether your parcel is packed, shipped or delivered.',
      body, crumbs='Track order', js='track.js')
 
 # ---------------- Policies ----------------
@@ -512,7 +524,7 @@ POL = [
         <h2>Dispatch</h2><p>Orders are dispatched within 24 hours, except on Sundays and national holidays.</p>
         <h2>Delivery time</h2><p>Parcels are delivered in 3 to 7 working days from dispatch, depending on your pincode.</p>
         <h2>Shipping charges</h2><p>Shipping is free on orders paid online. Cash on Delivery orders are charged the regular pack price shown on the site, with no extra delivery or handling fee: ₹99 is paid online as an advance and the rest in cash at delivery. The total you see before you confirm is the total you pay.</p>
-        <h2>Tracking</h2><p>Use the <a href="/track/">Track order</a> page with your Payment ID or courier tracking number. You can also message us on WhatsApp with the name and mobile number on your order.</p>'''),
+        <h2>Tracking</h2><p>Use the <a href="/track/">Track order</a> page with the mobile number and pincode from your order, your Payment ID or the courier tracking number. You can also message us on WhatsApp with the name and mobile number on your order.</p>'''),
     ('/refund-policy/', 'Cancellation and refund policy', 'Cancellation and refunds', 'When you can cancel, and what happens if a parcel arrives damaged.', '''
         <h2>Cancellation</h2><p>You can cancel an order at any time before it is shipped. Message us on WhatsApp with the name and mobile number on the order.</p>
         <h2>Damaged on arrival</h2><p>If your jar arrives damaged, message us within 24 hours of delivery with a video that clearly shows the package being opened and the damage.</p>

@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Track Your Order | Fair N Pink</title>
-<meta name="description" content="Track your Fair N Pink order. Enter your Payment ID or courier tracking number to see whether your parcel is packed, shipped or delivered.">
+<meta name="description" content="Track your Fair N Pink order with your mobile number and pincode, your Payment ID or the courier tracking number, and see whether your parcel is packed, shipped or delivered.">
 <link rel="canonical" href="https://fairnpink.in/track/">
 <meta name="theme-color" content="#FAF7F5">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Fair N Pink">
 <meta property="og:title" content="Track Your Order | Fair N Pink">
-<meta property="og:description" content="Track your Fair N Pink order. Enter your Payment ID or courier tracking number to see whether your parcel is packed, shipped or delivered.">
+<meta property="og:description" content="Track your Fair N Pink order with your mobile number and pincode, your Payment ID or the courier tracking number, and see whether your parcel is packed, shipped or delivered.">
 <meta property="og:url" content="https://fairnpink.in/track/">
 <meta property="og:image" content="https://fairnpink.in/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -38,12 +38,24 @@
     <div class="page-top">
       <span class="eyebrow">Your order</span>
       <h1>Track your Fair N Pink order</h1>
-      <p class="sub">Enter your Payment ID or the courier tracking number to see where your parcel is.</p>
+      <p class="sub">Use the mobile number and pincode from your order, or your Payment ID, to see where your parcel is.</p>
     </div>
     <section>
       <form id="track-form" class="oform track" novalidate>
-        <label for="track-id">Payment ID or tracking number</label>
-        <input id="track-id" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pay_XXXXXXXXXXXXXX" required>
+        <div class="track-by" role="tablist" aria-label="Track with">
+          <button type="button" role="tab" id="by-phone" aria-selected="true" class="on">Mobile number</button>
+          <button type="button" role="tab" id="by-id" aria-selected="false">Payment ID or tracking no.</button>
+        </div>
+        <div id="by-phone-box">
+          <label for="track-phone">Mobile number used on the order</label>
+          <input id="track-phone" type="tel" inputmode="numeric" maxlength="16" autocomplete="tel" placeholder="10-digit mobile number">
+          <label for="track-pin">Delivery pincode</label>
+          <input id="track-pin" type="text" inputmode="numeric" maxlength="6" autocomplete="postal-code" placeholder="6-digit pincode">
+        </div>
+        <div id="by-id-box" hidden>
+          <label for="track-id">Payment ID or tracking number</label>
+          <input id="track-id" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pay_XXXXXXXXXXXXXX">
+        </div>
         <button type="submit" class="btn" id="track-go">Track order</button>
       </form>
       <div id="track-out" class="track-out" role="status" aria-live="polite" hidden></div>

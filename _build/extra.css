@@ -252,3 +252,9 @@ footer .accept{margin-bottom:12px}
 .track-mine{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 16px}
 .track-mine-h{flex-basis:100%;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0}
 .track-chip{font:inherit;font-size:.86rem;border:1px solid var(--ink);background:var(--surface);color:var(--ink);padding:8px 14px;border-radius:2px;cursor:pointer}
+/* track page: choose how to look up */
+.track-by{display:flex;gap:0;border:1px solid var(--ink);margin-bottom:6px}
+.track-by button{flex:1 1 0;font:inherit;font-size:.82rem;padding:10px 8px;border:0;background:var(--surface);color:var(--ink);cursor:pointer;line-height:1.25}
+.track-by button.on{background:var(--ink);color:var(--bg)}
+#by-phone-box,#by-id-box{display:flex;flex-direction:column;gap:6px}
+#by-phone-box[hidden],#by-id-box[hidden]{display:none}
