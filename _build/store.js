@@ -147,6 +147,7 @@
     list.appendChild(sumRow('Order','Pack of '+qty));
     if(cod){list.appendChild(sumRow('Advance received',rupees(ADVANCE)));list.appendChild(sumRow('To pay in cash on delivery',rupees(balance),'osum-total'));}
     else{list.appendChild(sumRow('Paid online',rupees(total),'osum-total'));}
+    var saved=PACKS[qty].was-(cod?PACKS[qty].price:total);if(saved>0){list.appendChild(sumRow('You saved on MRP','₹'+saved.toLocaleString('en-IN'),'osum-save'));}
     list.appendChild(sumRow('Delivering to',F.city.value.trim()+' '+F.pin.value.trim()));
     list.appendChild(sumRow('Order number',paymentId,'osum-id'));
     el('p','thanks-note','Keep the order number. It is all you need to track this order.');

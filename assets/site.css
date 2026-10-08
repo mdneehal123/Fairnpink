@@ -455,3 +455,4 @@ footer .accept{margin-bottom:12px}
 .wa-glyph{display:block;flex:0 0 auto;background:#fff;border-radius:50%}
 .chat{background:transparent;border:0;padding:0;border-radius:50%;box-shadow:0 6px 18px rgba(35,27,30,.22);line-height:0}
 .chat .wa-glyph{width:52px;height:52px}
+.nudge-facts s{color:var(--muted)}
