@@ -128,10 +128,10 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
     open(out, 'w').write(html)
 
 
-PIXEL_ID = '904249834967161'  # Meta Pixel. Left off the owner-only and not-found pages.
-PIXEL_HEAD = """<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','%s');fbq('track','PageView');</script>
-""" % PIXEL_ID
-PIXEL_IMG = '<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=%s&amp;ev=PageView&amp;noscript=1"></noscript>\n' % PIXEL_ID
+PIXEL_IDS = ['904249834967161', '1959679618035331']  # Meta Pixels; every event goes to both. Left off the owner-only and not-found pages.
+PIXEL_HEAD = """<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');%sfbq('track','PageView');</script>
+""" % ''.join("fbq('init','%s');" % i for i in PIXEL_IDS)
+PIXEL_IMG = ''.join('<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=%s&amp;ev=PageView&amp;noscript=1"></noscript>\n' % i for i in PIXEL_IDS)
 
 
 def sec(eyebrow, h, lead='', inner='', tag='h2', id=''):
