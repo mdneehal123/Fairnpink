@@ -136,6 +136,7 @@
   }
   function paid(paymentId,total,confirmed,balance){
     track(total,paymentId);trackMeta(total,paymentId);remember();clearPending();
+    try{var past=JSON.parse(localStorage.getItem('fnp-orders')||'[]').filter(function(o){return o&&o.id!==paymentId;});past.unshift({id:paymentId,pack:'Pack of '+qty,at:Date.now()});localStorage.setItem('fnp-orders',JSON.stringify(past.slice(0,5)));}catch(e){}
     ordered=true;
     var cod=balance>0;
     var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'Advance paid: '+rupees(ADVANCE)+'\nTo pay on delivery: '+rupees(balance):'Paid online: '+rupees(total))+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();

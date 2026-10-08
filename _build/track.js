@@ -31,5 +31,13 @@
     .then(function(){btn.disabled=false;btn.textContent='Track order';});
   }
   form.addEventListener('submit',function(e){e.preventDefault();go();});
-  var q=new URLSearchParams(location.search).get('id');if(q){input.value=q;go();}
+  /* Orders placed on this device are remembered here (on the device only), so the customer does not need to look up the ID. */
+  var mine=[];try{mine=JSON.parse(localStorage.getItem('fnp-orders')||'[]').filter(function(o){return o&&/^pay_/.test(o.id);});}catch(e){}
+  if(mine.length){
+    var box=el('div',null,'track-mine');box.appendChild(el('p','Your orders on this device','track-mine-h'));
+    mine.forEach(function(o){var b=el('button',(o.pack||'Order')+' · '+new Date(o.at).toLocaleDateString('en-IN',{day:'numeric',month:'short'}),'track-chip');b.type='button';b.addEventListener('click',function(){input.value=o.id;go();});box.appendChild(b);});
+    form.parentNode.insertBefore(box,form);
+  }
+  var q=new URLSearchParams(location.search).get('id');
+  if(q){input.value=q;go();}else if(mine.length){input.value=mine[0].id;go();}
 })();
