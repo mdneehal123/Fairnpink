@@ -82,7 +82,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
 <meta property="og:description" content="%(desc)s">
 <meta property="og:url" content="%(url)s">
 <meta property="og:image" content="%(site)s/assets/og.jpg">
-<meta name="twitter:card" content="summary_large_image">
+%(ogextra)s<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
 %(preload)s<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -121,6 +121,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
            ig=IG, svg=CHAT_SVG, owner=OWNER, addr=ADDR, bar=bar, script=script, ogtype='product' if home else 'website',
            robots='' if index else '<meta name="robots" content="noindex">\n',
            pixel=(PIXEL_HEAD if index else ''), pixelimg=(PIXEL_IMG if index else ''),
+           ogextra=(OG_PRODUCT if home else ''),
            preload='<link rel="preload" as="image" href="/assets/pack-1.webp" fetchpriority="high">\n' if home else '',
            chat=wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'))
     out = os.path.join(ROOT, path.strip('/'), 'index.html') if path != '/404' else os.path.join(ROOT, '404.html')
@@ -132,6 +133,19 @@ PIXEL_IDS = ['904249834967161', '1959679618035331']  # Meta Pixels; every event 
 PIXEL_HEAD = """<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');%sfbq('track','PageView');</script>
 """ % ''.join("fbq('init','%s');" % i for i in PIXEL_IDS)
 PIXEL_IMG = ''.join('<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=%s&amp;ev=PageView&amp;noscript=1"></noscript>\n' % i for i in PIXEL_IDS)
+
+
+# Product tags read by Instagram / Facebook shopping links and other link previews.
+OG_PRODUCT = '''<meta property="product:brand" content="Fair N Pink">
+<meta property="product:availability" content="in stock">
+<meta property="product:condition" content="new">
+<meta property="product:price:amount" content="999">
+<meta property="product:price:currency" content="INR">
+<meta property="product:retailer_item_id" content="FNP-ARC-P1">
+<meta property="og:price:amount" content="999">
+<meta property="og:price:currency" content="INR">
+'''
+PRODUCT_PATH = '/product/fair-n-pink-advance-radiance-cream/'
 
 
 def sec(eyebrow, h, lead='', inner='', tag='h2', id=''):
@@ -336,16 +350,24 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
         </div>
       </div>''') + '%%JOURNAL%%' + sec('Questions', 'Before you order', '', faq_html(HOME_FAQ) + '\n      <p class="more"><a href="/faq/">All questions and answers</a></p>')
 
-page('/', 'Fair N Pink Advance Radiance Cream | Official Store, ₹999',
-     'Buy Fair N Pink Advance Radiance Cream from the official Fair N Pink store. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
-     home.replace('%%JOURNAL%%', sec('Journal', 'Read before you buy', '', jlist(ARTICLES[:3]) + '\n      <p class="more"><a href="/journal/">All articles</a></p>')), home=True, schema=[{
-         '@type': 'Product', '@id': SITE + '/#product', 'name': 'Fair N Pink Advance Radiance Cream',
+HOME_BODY = home.replace('%%JOURNAL%%', sec('Journal', 'Read before you buy', '', jlist(ARTICLES[:3]) + '\n      <p class="more"><a href="/journal/">All articles</a></p>'))
+def product_schema(url):
+    return [{
+         '@type': 'Product', '@id': SITE + '/#product', 'name': 'Fair N Pink Advance Radiance Cream', 'sku': 'FNP-ARC-P1',
          'description': 'A face cream with glutathione, niacinamide and alpha arbutin, in a %s jar.' % NET,
          'image': [SITE + '/assets/pack-1.webp', SITE + '/assets/jar-and-box.webp'], 'category': 'Face cream',
          'brand': {'@type': 'Brand', 'name': 'Fair N Pink'},
-         'offers': {'@type': 'Offer', 'url': SITE + '/', 'price': '999', 'priceCurrency': 'INR',
+         'offers': {'@type': 'Offer', 'url': url, 'price': '999', 'priceCurrency': 'INR',
                     'availability': 'https://schema.org/InStock', 'itemCondition': 'https://schema.org/NewCondition',
-                    'seller': {'@id': SITE + '/#org'}}}])
+                    'seller': {'@id': SITE + '/#org'}}}]
+page('/', 'Fair N Pink Advance Radiance Cream | Official Store, ₹999',
+     'Buy Fair N Pink Advance Radiance Cream from the official Fair N Pink store. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
+     HOME_BODY, home=True, schema=product_schema(SITE + '/'))
+# The same store on a product address, for Instagram product tags and other places that need a product page link.
+# Kept out of Google (noindex) so it does not compete with the home page.
+page(PRODUCT_PATH, 'Fair N Pink Advance Radiance Cream, 10 g | ₹999',
+     'Fair N Pink Advance Radiance Cream, 10 g jar with glutathione, niacinamide and alpha arbutin. ₹999, MRP ₹3,000. Cash on Delivery available.',
+     HOME_BODY, home=True, index=False, schema=product_schema(SITE + PRODUCT_PATH))
 
 # ---------------- Ingredients ----------------
 body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance Cream is built around three ingredients: glutathione, niacinamide and alpha arbutin. Here is what each one is and why it is in the jar.') + '''    <section>
