@@ -81,7 +81,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
 <meta property="og:title" content="%(title)s">
 <meta property="og:description" content="%(desc)s">
 <meta property="og:url" content="%(url)s">
-<meta property="og:image" content="%(site)s/assets/og.jpg">
+<meta property="og:image" content="%(site)s/assets/%(ogimg)s">
 %(ogextra)s<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
 %(preload)s<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,7 +121,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
            ig=IG, svg=CHAT_SVG, owner=OWNER, addr=ADDR, bar=bar, script=script, ogtype='product' if home else 'website',
            robots='' if index else '<meta name="robots" content="noindex">\n',
            pixel=(PIXEL_HEAD if index else ''), pixelimg=(PIXEL_IMG if index else ''),
-           ogextra=(OG_PRODUCT if home else ''),
+           ogextra=(OG_PRODUCT if home else ''), ogimg=('product-1080.jpg' if home else 'og.jpg'),
            preload='<link rel="preload" as="image" href="/assets/pack-1.webp" fetchpriority="high">\n' if home else '',
            chat=wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'))
     out = os.path.join(ROOT, path.strip('/'), 'index.html') if path != '/404' else os.path.join(ROOT, '404.html')
@@ -142,6 +142,8 @@ OG_PRODUCT = '''<meta property="product:brand" content="Fair N Pink">
 <meta property="product:price:amount" content="999">
 <meta property="product:price:currency" content="INR">
 <meta property="product:retailer_item_id" content="FNP-ARC-P1">
+<meta property="og:image:width" content="1080">
+<meta property="og:image:height" content="1080">
 <meta property="og:price:amount" content="999">
 <meta property="og:price:currency" content="INR">
 '''
@@ -355,7 +357,7 @@ def product_schema(url):
     return [{
          '@type': 'Product', '@id': SITE + '/#product', 'name': 'Fair N Pink Advance Radiance Cream', 'sku': 'FNP-ARC-P1',
          'description': 'A face cream with glutathione, niacinamide and alpha arbutin, in a %s jar.' % NET,
-         'image': [SITE + '/assets/pack-1.webp', SITE + '/assets/jar-and-box.webp'], 'category': 'Face cream',
+         'image': [SITE + '/assets/product-1080.jpg', SITE + '/assets/jar-and-box.webp'], 'category': 'Face cream',
          'brand': {'@type': 'Brand', 'name': 'Fair N Pink'},
          'offers': {'@type': 'Offer', 'url': url, 'price': '999', 'priceCurrency': 'INR',
                     'availability': 'https://schema.org/InStock', 'itemCondition': 'https://schema.org/NewCondition',
@@ -364,10 +366,9 @@ page('/', 'Fair N Pink Advance Radiance Cream | Official Store, ₹999',
      'Buy Fair N Pink Advance Radiance Cream from the official Fair N Pink store. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
      HOME_BODY, home=True, schema=product_schema(SITE + '/'))
 # The same store on a product address, for Instagram product tags and other places that need a product page link.
-# Kept out of Google (noindex) so it does not compete with the home page.
 page(PRODUCT_PATH, 'Fair N Pink Advance Radiance Cream, 10 g | ₹999',
      'Fair N Pink Advance Radiance Cream, 10 g jar with glutathione, niacinamide and alpha arbutin. ₹999, MRP ₹3,000. Cash on Delivery available.',
-     HOME_BODY, home=True, index=False, schema=product_schema(SITE + PRODUCT_PATH))
+     HOME_BODY, home=True, schema=product_schema(SITE + PRODUCT_PATH))
 
 # ---------------- Ingredients ----------------
 body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance Cream is built around three ingredients: glutathione, niacinamide and alpha arbutin. Here is what each one is and why it is in the jar.') + '''    <section>
@@ -609,7 +610,7 @@ open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#231B1E"/>'
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')
 
-urls = ['/', '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
+urls = ['/', PRODUCT_PATH, '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
 open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')
