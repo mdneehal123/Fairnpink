@@ -6,6 +6,7 @@
   var RZP=true; /* online payment through Razorpay */
   var MRP=3000; /* maximum retail price printed on the box, per jar */
   var PACKS={1:{price:999,was:MRP},2:{price:1899,was:2*MRP},3:{price:2699,was:3*MRP}}, qty=1;
+  var startPack=document.getElementById('start-pack'); if(startPack&&PACKS[startPack.getAttribute('data-pack')]){qty=Number(startPack.getAttribute('data-pack'));} /* pack pages open on their own pack */
   function pct(was,price){return Math.round((was-price)/was*100);}
   var panel=document.getElementById('order-panel');
   var line=document.getElementById('order-line'), barTotal=document.getElementById('bar-total'), barQty=document.getElementById('bar-qty');

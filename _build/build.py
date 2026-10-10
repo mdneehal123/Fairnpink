@@ -42,7 +42,7 @@ def wa_link(text):
     return 'https://wa.me/%s?text=%s' % (WA, quote(text))
 
 
-def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=True, js=''):
+def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=True, js='', og=None, preimg='pack-1.webp'):
     url = SITE + path
     nav = ''.join('<a href="%s"%s>%s</a>' % (h, ' aria-current="page"' if h == path else '', t) for h, t in NAV)
     foot = ''.join('<a href="%s">%s</a>' % (h, t) for h, t in FOOT)
@@ -121,8 +121,8 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
            ig=IG, svg=CHAT_SVG, owner=OWNER, addr=ADDR, bar=bar, script=script, ogtype='product' if home else 'website',
            robots='' if index else '<meta name="robots" content="noindex">\n',
            pixel=(PIXEL_HEAD if index else ''), pixelimg=(PIXEL_IMG if index else ''),
-           ogextra=(OG_PRODUCT if home else ''), ogimg=('product-1080.jpg' if home else 'og.jpg'),
-           preload='<link rel="preload" as="image" href="/assets/pack-1.webp" fetchpriority="high">\n' if home else '',
+           ogextra=(og[0] if og else OG_PRODUCT if home else ''), ogimg=(og[1] if og else 'product-1080.jpg' if home else 'og.jpg'),
+           preload='<link rel="preload" as="image" href="/assets/%s" fetchpriority="high">\n' % preimg if home else '',
            chat=wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'))
     out = os.path.join(ROOT, path.strip('/'), 'index.html') if path != '/404' else os.path.join(ROOT, '404.html')
     os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -353,13 +353,18 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
       </div>''') + '%%JOURNAL%%' + sec('Questions', 'Before you order', '', faq_html(HOME_FAQ) + '\n      <p class="more"><a href="/faq/">All questions and answers</a></p>')
 
 HOME_BODY = home.replace('%%JOURNAL%%', sec('Journal', 'Read before you buy', '', jlist(ARTICLES[:3]) + '\n      <p class="more"><a href="/journal/">All articles</a></p>'))
-def product_schema(url):
+PACK_PRICE = {1: 999, 2: 1899, 3: 2699}   # keep identical to PACKS in store.js and to the server price table
+PACK_PATH = {1: PRODUCT_PATH, 2: '/product/fair-n-pink-advance-radiance-cream-pack-of-2/', 3: '/product/fair-n-pink-advance-radiance-cream-pack-of-3/'}
+PACK_IMG = {1: ['jar-and-box.jpg', 'merchant-pack-1.jpg'], 2: ['merchant-pack-2.jpg', 'jar-and-box.jpg'], 3: ['merchant-pack-3.jpg', 'jar-and-box.jpg']}
+
+
+def product_schema(url, n=1):
     return [{
-         '@type': 'Product', '@id': SITE + '/#product', 'name': 'Fair N Pink Advance Radiance Cream', 'sku': 'FNP-ARC-P1',
-         'description': 'A face cream with glutathione, niacinamide and alpha arbutin, in a %s jar.' % NET,
-         'image': [SITE + '/assets/jar-and-box.jpg', SITE + '/assets/product-1080.jpg'], 'category': 'Face cream',
+         '@type': 'Product', '@id': url + '#product', 'name': 'Fair N Pink Advance Radiance Cream' + ('' if n == 1 else ', Pack of %d' % n), 'sku': 'FNP-ARC-P%d' % n,
+         'description': ('A face cream with glutathione, niacinamide and alpha arbutin, in a %s jar.' % NET) if n == 1 else ('%d jars of Fair N Pink Advance Radiance Cream (%d x %s), a face cream with glutathione, niacinamide and alpha arbutin.' % (n, n, NET)),
+         'image': [SITE + '/assets/' + i for i in PACK_IMG[n]], 'category': 'Face cream',
          'brand': {'@type': 'Brand', 'name': 'Fair N Pink'},
-         'offers': {'@type': 'Offer', 'url': url, 'price': '999', 'priceCurrency': 'INR',
+         'offers': {'@type': 'Offer', 'url': url, 'price': str(PACK_PRICE[n]), 'priceCurrency': 'INR',
                     'availability': 'https://schema.org/InStock', 'itemCondition': 'https://schema.org/NewCondition',
                     'shippingDetails': {'@type': 'OfferShippingDetails',
                         'shippingRate': {'@type': 'MonetaryAmount', 'value': '0', 'currency': 'INR'},
@@ -375,6 +380,32 @@ page('/', 'Fair N Pink Advance Radiance Cream | Official Store, ₹999',
 page(PRODUCT_PATH, 'Fair N Pink Advance Radiance Cream, 10 g | ₹999',
      'Fair N Pink Advance Radiance Cream, 10 g jar with glutathione, niacinamide and alpha arbutin. ₹999, MRP ₹3,000. Cash on Delivery available.',
      HOME_BODY, home=True, schema=product_schema(SITE + PRODUCT_PATH))
+
+# One page per pack, so Google Merchant Center can check each pack's price on its own page.
+def og_for(n):
+    return (OG_PRODUCT.replace('content="999"', 'content="%d"' % PACK_PRICE[n]).replace('content="FNP-ARC-P1"', 'content="FNP-ARC-P%d"' % n), PACK_IMG[n][0])
+
+
+for n in (2, 3):
+    body = HOME_BODY.replace('class="pack on" role="radio" aria-checked="true" data-pack="1"', 'class="pack" role="radio" aria-checked="false" data-pack="1"')
+    body = body.replace('class="pack" role="radio" aria-checked="false" data-pack="%d"' % n, 'class="pack on" role="radio" aria-checked="true" data-pack="%d"' % n)
+    body = '<span id="start-pack" data-pack="%d" hidden></span>\n' % n + body
+    # The price text is right before any script runs, so Google reads this pack's price straight from the page.
+    was_n = 3000 * n
+    for a, b2 in [('id="price-now">₹999<', 'id="price-now">₹%s<' % '{:,}'.format(PACK_PRICE[n])),
+                  ('id="price-was">MRP ₹3,000<', 'id="price-was">MRP ₹%s<' % '{:,}'.format(was_n)),
+                  ('id="price-off">67% off<', 'id="price-off">%d%% off<' % round((was_n - PACK_PRICE[n]) * 100 / was_n)),
+                  ('id="price-note">inclusive of all taxes<', 'id="price-note">₹%d per jar, inclusive of all taxes<' % round(PACK_PRICE[n] / n)),
+                  ('id="media-photo" src="/assets/pack-1.webp"', 'id="media-photo" src="/assets/pack-%d.webp"' % n)]:
+        assert a in body, a
+        body = body.replace(a, b2)
+    each = round(PACK_PRICE[n] / n)
+    page(PACK_PATH[n], 'Fair N Pink Advance Radiance Cream, Pack of %d (%d x 10 g) | ₹%s' % (n, n, '{:,}'.format(PACK_PRICE[n])),
+         'Fair N Pink Advance Radiance Cream, pack of %d jars (%d x 10 g) with glutathione, niacinamide and alpha arbutin. ₹%s (₹%d a jar), free shipping, Cash on Delivery available.' % (n, n, '{:,}'.format(PACK_PRICE[n]), each),
+         body, home=True, schema=product_schema(SITE + PACK_PATH[n], n), og=og_for(n), preimg='pack-%d.webp' % n)
+    _f = os.path.join(ROOT, PACK_PATH[n].strip('/'), 'index.html')   # the floating bar lives in the page frame, outside the body
+    _html = open(_f).read().replace('id="bar-total">₹999<', 'id="bar-total">₹%s<' % '{:,}'.format(PACK_PRICE[n]))
+    open(_f, 'w').write(_html)
 
 # ---------------- Ingredients ----------------
 body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance Cream is built around three ingredients: glutathione, niacinamide and alpha arbutin. Here is what each one is and why it is in the jar.') + '''    <section>
@@ -616,33 +647,42 @@ open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#231B1E"/>'
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')
 
-urls = ['/', PRODUCT_PATH, '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
+urls = ['/', PRODUCT_PATH, PACK_PATH[2], PACK_PATH[3], '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
 # Product feed for Google Merchant Center. Price is the regular ₹999 every customer pays
 # (the online-payment saving is payment-method specific, so it is not used here).
+FEED_ITEM = '''<item>
+  <g:id>FNP-ARC-P%(n)d</g:id>
+  <title>%(title)s</title>
+  <description>%(desc)s</description>
+  <link>%(site)s%(path)s</link>
+  <g:image_link>%(site)s/assets/%(img)s</g:image_link>
+  <g:additional_image_link>%(site)s/assets/%(img2)s</g:additional_image_link>
+  <g:availability>in_stock</g:availability>
+  <g:price>%(price)d.00 INR</g:price>
+  <g:brand>Fair N Pink</g:brand>
+  <g:condition>new</g:condition>
+  <g:identifier_exists>no</g:identifier_exists>%(multi)s
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Skin Care &gt; Lotion &amp; Moisturizer</g:google_product_category>
+  <g:product_type>Skin Care &gt; Face Cream</g:product_type>
+  <g:size>%(size)s</g:size>
+  <g:shipping><g:country>IN</g:country><g:service>Standard</g:service><g:price>0.00 INR</g:price></g:shipping>
+  <g:shipping_weight>%(grams)d g</g:shipping_weight>
+</item>'''
+_DESC = 'A face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin, used for brighter-looking, more even-looking skin. Apply a small amount to clean skin and use sunscreen in the daytime. Patch test before use. Cosmetic product; results vary. Free shipping across India, Cash on Delivery available.'
+_items = []
+for n in (1, 2, 3):
+    _items.append(FEED_ITEM % dict(n=n, site=SITE, path=PACK_PATH[n], img=PACK_IMG[n][0], img2=PACK_IMG[n][1], price=PACK_PRICE[n],
+        title=('Fair N Pink Advance Radiance Cream 10 g - Glutathione, Niacinamide, Alpha Arbutin' if n == 1 else 'Fair N Pink Advance Radiance Cream, Pack of %d (%d x 10 g) - Glutathione Face Cream' % (n, n)),
+        desc=('Fair N Pink Advance Radiance Cream in a %s jar. ' % NET if n == 1 else 'Pack of %d jars of Fair N Pink Advance Radiance Cream (%d x %s). ' % (n, n, NET)) + _DESC,
+        multi='' if n == 1 else '\n  <g:multipack>%d</g:multipack>' % n, size=NET, grams=60 * n))
 FEED = '''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
 <channel>
-<title>Fair N Pink</title><link>%(site)s/</link><description>Fair N Pink product feed</description>
-<item>
-  <g:id>FNP-ARC-P1</g:id>
-  <title>Fair N Pink Advance Radiance Cream 10 g - Glutathione, Niacinamide, Alpha Arbutin</title>
-  <description>Fair N Pink Advance Radiance Cream in a %(net)s jar. A face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin, used for brighter-looking, more even-looking skin. Apply a small amount to clean skin and use sunscreen in the daytime. Patch test before use. Cosmetic product; results vary. Free shipping across India, Cash on Delivery available.</description>
-  <link>%(site)s%(path)s</link>
-  <g:image_link>%(site)s/assets/jar-and-box.jpg</g:image_link>
-  <g:availability>in_stock</g:availability>
-  <g:price>999.00 INR</g:price>
-  <g:brand>Fair N Pink</g:brand>
-  <g:condition>new</g:condition>
-  <g:identifier_exists>no</g:identifier_exists>
-  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Skin Care &gt; Lotion &amp; Moisturizer</g:google_product_category>
-  <g:product_type>Skin Care &gt; Face Cream</g:product_type>
-  <g:size>%(net)s</g:size>
-  <g:shipping><g:country>IN</g:country><g:service>Standard</g:service><g:price>0.00 INR</g:price></g:shipping>
-  <g:shipping_weight>60 g</g:shipping_weight>
-</item>
+<title>Fair N Pink</title><link>%s/</link><description>Fair N Pink product feed</description>
+%s
 </channel>
 </rss>
-''' % dict(site=SITE, path=PRODUCT_PATH, net=NET)
+''' % (SITE, '\n'.join(_items))
 os.makedirs(os.path.join(ROOT, 'feeds'), exist_ok=True)
 open(os.path.join(ROOT, 'feeds', 'products.xml'), 'w').write(FEED)
 
