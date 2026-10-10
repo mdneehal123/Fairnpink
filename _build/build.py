@@ -690,8 +690,10 @@ os.makedirs(os.path.join(ROOT, 'feeds'), exist_ok=True)
 open(os.path.join(ROOT, 'feeds', 'products.xml'), 'w').write(FEED)
 
 open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
-    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' +
+    ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod>%s</url>\n' % (SITE, u, '2026-10-10' if u in PACK_PATH.values() else TODAY,
+            ''.join('<image:image><image:loc>%s/assets/%s</image:loc></image:image>' % (SITE, i) for i in PACK_IMG[[k for k, v in PACK_PATH.items() if v == u][0]]) if u in PACK_PATH.values() else '')
+            for u in urls) + '</urlset>\n')
 open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % SITE)
 # Pictures may be kept by the browser for a day and reused while a fresh copy is fetched; pages, styles and scripts are always checked.
 open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'cleanUrls': False, 'headers': [

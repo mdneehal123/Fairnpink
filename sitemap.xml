@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://fairnpink.in/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://fairnpink.in/product/fair-n-pink-advance-radiance-cream/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://fairnpink.in/product/fair-n-pink-advance-radiance-cream-pack-of-2/</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://fairnpink.in/product/fair-n-pink-advance-radiance-cream-pack-of-3/</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://fairnpink.in/product/fair-n-pink-advance-radiance-cream/</loc><lastmod>2026-10-10</lastmod><image:image><image:loc>https://fairnpink.in/assets/jar-and-box.jpg</image:loc></image:image><image:image><image:loc>https://fairnpink.in/assets/merchant-pack-1.jpg</image:loc></image:image></url>
+  <url><loc>https://fairnpink.in/product/fair-n-pink-advance-radiance-cream-pack-of-2/</loc><lastmod>2026-10-10</lastmod><image:image><image:loc>https://fairnpink.in/assets/merchant-pack-2.jpg</image:loc></image:image><image:image><image:loc>https://fairnpink.in/assets/jar-and-box.jpg</image:loc></image:image></url>
+  <url><loc>https://fairnpink.in/product/fair-n-pink-advance-radiance-cream-pack-of-3/</loc><lastmod>2026-10-10</lastmod><image:image><image:loc>https://fairnpink.in/assets/merchant-pack-3.jpg</image:loc></image:image><image:image><image:loc>https://fairnpink.in/assets/jar-and-box.jpg</image:loc></image:image></url>
   <url><loc>https://fairnpink.in/ingredients/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://fairnpink.in/how-to-use/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://fairnpink.in/about/</loc><lastmod>2026-10-05</lastmod></url>
