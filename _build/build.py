@@ -357,10 +357,16 @@ def product_schema(url):
     return [{
          '@type': 'Product', '@id': SITE + '/#product', 'name': 'Fair N Pink Advance Radiance Cream', 'sku': 'FNP-ARC-P1',
          'description': 'A face cream with glutathione, niacinamide and alpha arbutin, in a %s jar.' % NET,
-         'image': [SITE + '/assets/product-1080.jpg', SITE + '/assets/jar-and-box.webp'], 'category': 'Face cream',
+         'image': [SITE + '/assets/jar-and-box.jpg', SITE + '/assets/product-1080.jpg'], 'category': 'Face cream',
          'brand': {'@type': 'Brand', 'name': 'Fair N Pink'},
          'offers': {'@type': 'Offer', 'url': url, 'price': '999', 'priceCurrency': 'INR',
                     'availability': 'https://schema.org/InStock', 'itemCondition': 'https://schema.org/NewCondition',
+                    'shippingDetails': {'@type': 'OfferShippingDetails',
+                        'shippingRate': {'@type': 'MonetaryAmount', 'value': '0', 'currency': 'INR'},
+                        'shippingDestination': {'@type': 'DefinedRegion', 'addressCountry': 'IN'},
+                        'deliveryTime': {'@type': 'ShippingDeliveryTime',
+                            'handlingTime': {'@type': 'QuantitativeValue', 'minValue': 0, 'maxValue': 1, 'unitCode': 'DAY'},
+                            'transitTime': {'@type': 'QuantitativeValue', 'minValue': 3, 'maxValue': 7, 'unitCode': 'DAY'}}},
                     'seller': {'@id': SITE + '/#org'}}}]
 page('/', 'Fair N Pink Advance Radiance Cream | Official Store, ₹999',
      'Buy Fair N Pink Advance Radiance Cream from the official Fair N Pink store. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
@@ -611,6 +617,35 @@ open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')
 
 urls = ['/', PRODUCT_PATH, '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
+# Product feed for Google Merchant Center. Price is the regular ₹999 every customer pays
+# (the online-payment saving is payment-method specific, so it is not used here).
+FEED = '''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+<title>Fair N Pink</title><link>%(site)s/</link><description>Fair N Pink product feed</description>
+<item>
+  <g:id>FNP-ARC-P1</g:id>
+  <title>Fair N Pink Advance Radiance Cream 10 g - Glutathione, Niacinamide, Alpha Arbutin</title>
+  <description>Fair N Pink Advance Radiance Cream in a %(net)s jar. A face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin, used for brighter-looking, more even-looking skin. Apply a small amount to clean skin and use sunscreen in the daytime. Patch test before use. Cosmetic product; results vary. Free shipping across India, Cash on Delivery available.</description>
+  <link>%(site)s%(path)s</link>
+  <g:image_link>%(site)s/assets/jar-and-box.jpg</g:image_link>
+  <g:availability>in_stock</g:availability>
+  <g:price>999.00 INR</g:price>
+  <g:brand>Fair N Pink</g:brand>
+  <g:condition>new</g:condition>
+  <g:identifier_exists>no</g:identifier_exists>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Skin Care &gt; Lotion &amp; Moisturizer</g:google_product_category>
+  <g:product_type>Skin Care &gt; Face Cream</g:product_type>
+  <g:size>%(net)s</g:size>
+  <g:shipping><g:country>IN</g:country><g:service>Standard</g:service><g:price>0.00 INR</g:price></g:shipping>
+  <g:shipping_weight>60 g</g:shipping_weight>
+</item>
+</channel>
+</rss>
+''' % dict(site=SITE, path=PRODUCT_PATH, net=NET)
+os.makedirs(os.path.join(ROOT, 'feeds'), exist_ok=True)
+open(os.path.join(ROOT, 'feeds', 'products.xml'), 'w').write(FEED)
+
 open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>\n' % (SITE, u, TODAY) for u in urls) + '</urlset>\n')

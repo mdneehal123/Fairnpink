@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+<title>Fair N Pink</title><link>https://fairnpink.in/</link><description>Fair N Pink product feed</description>
+<item>
+  <g:id>FNP-ARC-P1</g:id>
+  <title>Fair N Pink Advance Radiance Cream 10 g - Glutathione, Niacinamide, Alpha Arbutin</title>
+  <description>Fair N Pink Advance Radiance Cream in a 10 g jar. A face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin, used for brighter-looking, more even-looking skin. Apply a small amount to clean skin and use sunscreen in the daytime. Patch test before use. Cosmetic product; results vary. Free shipping across India, Cash on Delivery available.</description>
+  <link>https://fairnpink.in/product/fair-n-pink-advance-radiance-cream/</link>
+  <g:image_link>https://fairnpink.in/assets/jar-and-box.jpg</g:image_link>
+  <g:availability>in_stock</g:availability>
+  <g:price>999.00 INR</g:price>
+  <g:brand>Fair N Pink</g:brand>
+  <g:condition>new</g:condition>
+  <g:identifier_exists>no</g:identifier_exists>
+  <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Skin Care &gt; Lotion &amp; Moisturizer</g:google_product_category>
+  <g:product_type>Skin Care &gt; Face Cream</g:product_type>
+  <g:size>10 g</g:size>
+  <g:shipping><g:country>IN</g:country><g:service>Standard</g:service><g:price>0.00 INR</g:price></g:shipping>
+  <g:shipping_weight>60 g</g:shipping_weight>
+</item>
+</channel>
+</rss>
