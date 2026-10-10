@@ -72,6 +72,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="TFbjFZw5dygwLLIfSzMkKCKl0iaAG4a8xLqHDha4gwM">
 <title>%(title)s</title>
 <meta name="description" content="%(desc)s">
 %(robots)s<link rel="canonical" href="%(url)s">
