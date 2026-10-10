@@ -4,7 +4,7 @@ ARTICLES = [
      'Fair N Pink Cream Price in India (2026) | Packs and Offers',
      'Fair N Pink Advance Radiance Cream price in India: ₹999 for one 10 g jar, ₹1,899 for two, ₹2,699 for three, plus the saving when you pay online.',
      'Price', 'What one jar costs, what the packs save you, and how the online price works.', '''
-        <p>Fair N Pink Advance Radiance Cream costs <b>₹999 for one %(net)s jar</b> on the brand's own store. The MRP printed on the box is ₹3,000 a jar. The price includes all taxes, and shipping is free on prepaid orders.</p>
+        <p>Fair N Pink Advance Radiance Cream costs <b>₹999 for one %(net)s jar</b> on fairnpink.in. The MRP printed on the box is ₹3,000 a jar. The price includes all taxes, and shipping is free on every order.</p>
         <h2>Price of each pack</h2>
         <ul>
           <li>Pack of 1: ₹999</li>
@@ -16,7 +16,7 @@ ARTICLES = [
         <h2>Is Cash on Delivery available?</h2>
         <p>Yes. Cash on Delivery orders are charged at the regular pack price. You pay a ₹99 advance online to confirm, and the rest in cash when the parcel arrives.</p>
         <h2>Why prices differ on other websites</h2>
-        <p>You may see the cream listed at other prices elsewhere. The prices on this page are the ones we charge on fairnpink.in, where every order is packed and sent by the brand. If you are comparing, check the net weight and the seller before you check the price. Our guide to <a href="/original/">identifying original Fair N Pink</a> shows what the box and jar look like.</p>
+        <p>You may see the cream listed at other prices elsewhere. The prices on this page are the ones we charge on fairnpink.in, where every order is packed and sent by the brand. If you are comparing, check the net weight and the seller before you check the price. Our guide to <a href="/original/">what a Fair N Pink jar looks like</a> shows what the box and jar look like.</p>
         <h2>Which pack should you buy?</h2>
         <p>If you have never used the cream, start with one jar and do a patch test. Skin needs several weeks of regular use before you can judge a cream, so people who already know it suits them usually choose a pack of 2 or 3 for the lower price per jar.</p>'''),
     ('fair-n-pink-cream-benefits', 'Fair N Pink cream benefits: what it does and what it does not',
@@ -131,10 +131,10 @@ ARTICLES = [
         </ul>
         <p>If spots are spreading, changing shape or appeared suddenly, see a dermatologist.</p>'''),
     ('fair-and-pink-cream', 'Fair and Pink cream: the name, the spellings and the real product',
-     'Fair and Pink Cream (Fair N Pink) | Price, Uses and Official Store',
+     'Fair and Pink Cream (Fair N Pink) | Price, Uses and Where to Buy',
      'Looking for Fair and Pink cream, Fair & Pink or Fairnpink? The product is Fair N Pink Advance Radiance Cream. Price, pack size, uses and where to order.',
      'The brand', 'Fair and Pink, Fair & Pink, Fairnpink: one cream, several spellings.', '''
-        <p>If you searched for <b>Fair and Pink cream</b>, <b>Fair &amp; Pink cream</b>, <b>Fairnpink</b> or <b>Fair n Pink glutathione cream</b>, you are looking for the same product. Its name on the pack is <b>Fair N Pink Advance Radiance Cream</b>, and this is the brand's own website.</p>
+        <p>If you searched for <b>Fair and Pink cream</b>, <b>Fair &amp; Pink cream</b>, <b>Fairnpink</b> or <b>Fair n Pink glutathione cream</b>, you are looking for the same product. Its name on the pack is <b>Fair N Pink Advance Radiance Cream</b>. You can order it on this website.</p>
         <h2>Why there are so many spellings</h2>
         <p>The brand name is written Fair N Pink, with a capital N standing in for "and". People say it aloud as "fair and pink", so that is how many type it. Whatever the spelling, there is one cream.</p>
         <h2>The product at a glance</h2>
@@ -150,7 +150,7 @@ ARTICLES = [
         <h2>Where to order</h2>
         <p>You can order on this website with online payment or Cash on Delivery. Orders are packed and sent by the brand within 24 hours. See the <a href="/journal/fair-n-pink-cream-price/">price of each pack</a>, or go straight to the <a href="/">store</a>.</p>
         <h2>Make sure it is the real one</h2>
-        <p>Check that the pack says Fair N Pink Advance Radiance Cream and shows a net weight of %(net)s. Our guide to <a href="/original/">identifying original Fair N Pink</a> has a photo of the box and jar.</p>'''),
+        <p>Check that the pack says Fair N Pink Advance Radiance Cream and shows a net weight of %(net)s. Our guide to <a href="/original/">what a Fair N Pink jar looks like</a> has a photo of the box and jar.</p>'''),
     ('who-can-use-fair-n-pink-cream', 'Who can use Fair N Pink cream? Men, oily skin, dry skin and sensitive skin',
      'Fair N Pink Cream for Men, Oily Skin and Dry Skin | Who Can Use It',
      'Can men use Fair N Pink cream? Is it suitable for oily, dry or sensitive skin? How to adjust the routine for your skin type, and who should ask a doctor first.',
@@ -258,9 +258,9 @@ ARTICLES = [
         <p>Fair N Pink Advance Radiance Cream contains alpha arbutin with niacinamide and glutathione. Read about <a href="/journal/niacinamide-and-alpha-arbutin/">using niacinamide and alpha arbutin together</a>.</p>'''),
     ('buy-fair-n-pink-cream-online', 'How to buy Fair N Pink cream online',
      'Buy Fair N Pink Cream Online | Cash on Delivery and UPI',
-     'How to buy Fair N Pink Advance Radiance Cream online from the official store: steps to order, Cash on Delivery, the online payment saving, delivery time and returns.',
+     'How to buy Fair N Pink Advance Radiance Cream online: steps to order, Cash on Delivery, the online payment saving, delivery time and returns.',
      'Buying guide', 'Ordering, Cash on Delivery, the online saving and delivery time.', '''
-        <p>You can buy Fair N Pink Advance Radiance Cream online on this website, which is the brand's own store. Ordering takes about a minute and you can pay online or with Cash on Delivery.</p>
+        <p>You can buy Fair N Pink Advance Radiance Cream online on this website, run by Beauty Mart in Bhatkal. Ordering takes about a minute and you can pay online or with Cash on Delivery.</p>
         <h2>How to order</h2>
         <ol>
           <li>Open the <a href="/">store page</a> and choose a pack of 1, 2 or 3.</li>
@@ -269,15 +269,15 @@ ARTICLES = [
           <li>To pay online, tap the Pay button and complete the payment. For Cash on Delivery, pay the ₹99 advance to confirm, and pay the rest at your door.</li>
         </ol>
         <h2>Cash on Delivery</h2>
-        <p>Cash on Delivery is available with a ₹99 advance, paid online when you order. The advance is part of the pack price, so on a ₹999 jar you pay ₹900 in cash at delivery. If the parcel is refused, the advance is not refunded.</p>
+        <p>Cash on Delivery is available with a ₹99 advance, paid online when you order. The advance is part of the pack price, so on a ₹999 jar you pay ₹900 in cash at delivery. If you cancel or refuse the parcel, the advance is refunded to you.</p>
         <h2>Paying online</h2>
         <p>Paying online saves ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. You can pay by UPI, card or netbanking in a secure Razorpay window, and you see a payment ID as soon as it succeeds. We never ask for your UPI PIN or card details.</p>
         <h2>Delivery</h2>
-        <p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and reach most pincodes in 3 to 7 working days. Shipping is free on prepaid orders. See the <a href="/shipping-policy/">shipping policy</a>.</p>
+        <p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and reach most pincodes in 3 to 7 working days. Shipping is free on every order. See the <a href="/shipping-policy/">shipping policy</a>.</p>
         <h2>Cancellations and damaged parcels</h2>
         <p>You can cancel any time before dispatch. If a jar arrives damaged, message us within 24 hours with an opening video. Details are in the <a href="/refund-policy/">cancellation and refund policy</a>.</p>
         <h2>Why buy from the brand</h2>
-        <p>Every order placed here is packed and sent by Fair N Pink, so you know the jar is genuine and sealed. See <a href="/original/">how to identify original Fair N Pink</a>.</p>'''),
+        <p>Every order placed here is packed and sent by Fair N Pink, so the jar arrives sealed. See <a href="/original/">what the box, jar and seal look like</a>.</p>'''),
     ('fair-n-pink-night-cream', 'Can Fair N Pink be used as a night cream?',
      'Fair N Pink Night Cream: Can You Use It at Night?',
      'Fair N Pink Advance Radiance Cream can be used as a night cream. How to apply it at night, whether night-only use is enough, and what to do in the morning.',

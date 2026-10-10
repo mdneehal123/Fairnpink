@@ -32,8 +32,8 @@ CHAT_SVG = WA_GLYPH % (52, 52)
 NAV = [('/', 'Shop'), ('/ingredients/', 'Ingredients'), ('/how-to-use/', 'How to use'),
        ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/track/', 'Track order'), ('/faq/', 'Questions'), ('/contact/', 'Contact')]
 FOOT = [('/', 'Shop the cream'), ('/ingredients/', 'Ingredients'), ('/how-to-use/', 'How to use'),
-        ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/original/', 'Identify the original'), ('/faq/', 'Questions'),
-        ('/track/', 'Track order'), ('/contact/', 'Contact'), ('/shipping-policy/', 'Shipping'), ('/refund-policy/', 'Cancellation and refunds'),
+        ('/about/', 'Our story'), ('/journal/', 'Journal'), ('/original/', 'Check your jar'), ('/faq/', 'Questions'),
+        ('/track/', 'Track order'), ('/contact/', 'Contact'), ('/shipping-policy/', 'Shipping'), ('/refund-policy/', 'Returns and refunds'),
         ('/privacy-policy/', 'Privacy'), ('/terms/', 'Terms')]
 
 
@@ -94,7 +94,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
 </head>
 <body>
 %(pixelimg)s<a class="skip" href="#main">Skip to content</a>
-<div class="strip">Complimentary shipping on prepaid orders · Dispatched within 24 hours</div>
+<div class="strip">Free shipping on every order · Dispatched within 24 hours</div>
 <div class="wrap">
   <header class="head">
     <a class="brand" href="/">Fair N Pink</a>
@@ -180,7 +180,7 @@ def strip_tags(t):
 
 CTA = '''    <section>
       <div class="cta">
-        <div><h2>Advance Radiance Cream</h2><p>From ₹999 for a %s jar. Complimentary shipping on prepaid orders. Cash on Delivery is available with a ₹99 advance.</p></div>
+        <div><h2>Advance Radiance Cream</h2><p>From ₹999 for a %s jar. Free shipping on every order. Cash on Delivery is available with a refundable ₹99 advance.</p></div>
         <a class="btn" href="/#buy">Shop the cream</a>
       </div>
     </section>
@@ -207,11 +207,11 @@ WEEKS = '''      <ol class="weeks">
       </ol>'''
 
 PRICE_TBL = '''      <div class="tbl"><table>
-        <thead><tr><th>Pack</th><th>MRP</th><th>Our price</th><th>Per jar</th><th>Paid online</th></tr></thead>
+        <thead><tr><th>Pack</th><th>MRP (printed)</th><th>Price</th><th>Per jar</th><th>Paid online</th></tr></thead>
         <tbody>
-          <tr><td>Pack of 1</td><td><s>₹3,000</s></td><td>₹999 <small>67% off</small></td><td>₹999</td><td>₹899</td></tr>
-          <tr><td>Pack of 2</td><td><s>₹6,000</s></td><td>₹1,899 <small>68% off</small></td><td>₹950</td><td>₹1,749</td></tr>
-          <tr><td>Pack of 3</td><td><s>₹9,000</s></td><td>₹2,699 <small>70% off</small></td><td>₹900</td><td>₹2,449</td></tr>
+          <tr><td>Pack of 1</td><td>₹3,000</td><td>₹999</td><td>₹999</td><td>₹899</td></tr>
+          <tr><td>Pack of 2</td><td>₹6,000</td><td>₹1,899</td><td>₹950</td><td>₹1,749</td></tr>
+          <tr><td>Pack of 3</td><td>₹9,000</td><td>₹2,699</td><td>₹900</td><td>₹2,449</td></tr>
         </tbody>
       </table></div>'''
 
@@ -282,7 +282,7 @@ SPOTS_HTML = '      <div class="spots" tabindex="0" aria-label="Key ingredients"
     for n, k, name, text, tone, art in SPOTS) + '</div>'
 
 # Moving ribbon of short phrases, and a row of four assurance tiles, both on the home page.
-RIBBON_WORDS = ['Glutathione', 'Niacinamide', 'Alpha arbutin', NET + ' jar', 'Morning and night', 'Free shipping on prepaid', 'Cash on Delivery', 'Dispatched in 24 hours']
+RIBBON_WORDS = ['Glutathione', 'Niacinamide', 'Alpha arbutin', NET + ' jar', 'Morning and night', 'Free shipping', 'Cash on Delivery', 'Dispatched in 24 hours']
 _run = ''.join('<span>%s</span>' % w for w in RIBBON_WORDS)
 RIBBON_HTML = '    <div class="ribbon" aria-hidden="true"><div class="ribbon-track">%s%s</div></div>\n' % (_run, _run)
 _ico = '<svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
@@ -330,7 +330,7 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
         <div>
           <p>Fair N Pink Advance Radiance Cream, often called Fair N Pink glutathione cream, is a face cream with glutathione, niacinamide and alpha arbutin in a moisturising base. It comes in a %s silver jar with a clear faceted lid, and the cream itself is a soft pink.</p>
           <p>It is meant for daily use. Apply a small amount after washing your face in the morning, under sunscreen, and again before bed. A pea-sized amount covers the face and neck.</p>
-          <p>One %s jar costs ₹999, and each jar costs less when you buy a pack of 2 or 3. This is the brand's own store, so your order comes directly from Fair N Pink. <a href="/about/">Read our story</a>.</p>
+          <p>One %s jar costs ₹999, and each jar costs less when you buy a pack of 2 or 3. Your order is packed and sent sealed by our team at Beauty Mart in Bhatkal. <a href="/about/">Read our story</a>.</p>
         </div>
         <ul aria-label="What it is used for">
           <li>Helps skin look brighter and fresher</li>
@@ -343,12 +343,12 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
     RITUAL + '\n      <p class="more"><a href="/how-to-use/">The full routine and what to expect</a></p>') + '''    <section>
 ''' + NOTE + '''
     </section>
-''' + sec('Price', 'Fair N Pink cream price', 'One 10 g jar is ₹999, inclusive of all taxes. Each jar costs less in a pack of 2 or 3, and paying online takes a little more off.', PRICE_TBL, id='price') + sec('Genuine product', 'Bought here, it comes from us', '', '''      <div class="split">
+''' + sec('Price', 'Fair N Pink cream price', 'One 10 g jar is ₹999, inclusive of all taxes. Each jar costs less in a pack of 2 or 3, and paying online takes a little more off.', PRICE_TBL, id='price') + sec('Packed by us', 'Sealed, and shipped from Bhatkal', '', '''      <div class="split">
         <img src="/assets/jar-and-box-m.webp" alt="Fair N Pink Advance Radiance Cream jar beside its white box" width="800" height="800" loading="lazy">
         <div>
-          <p>Every order placed on fairnpink.in is packed and sent by Fair N Pink. The jar arrives sealed, in its white box with the red leaf logo.</p>
-          <p>If you are holding a jar and are not sure about it, our guide shows what to look for on the box and the jar.</p>
-          <p class="more"><a href="/original/">How to identify original Fair N Pink</a></p>
+          <p>Every order placed on fairnpink.in is packed and sent by our team at Beauty Mart in Bhatkal. The jar arrives sealed, in its white box with the red leaf logo.</p>
+          <p>Our guide shows what the box, the jar and the seal look like, so you know what to expect when your parcel arrives.</p>
+          <p class="more"><a href="/original/">What your jar should look like</a></p>
         </div>
       </div>''') + '%%JOURNAL%%' + sec('Questions', 'Before you order', '', faq_html(HOME_FAQ) + '\n      <p class="more"><a href="/faq/">All questions and answers</a></p>')
 
@@ -373,8 +373,8 @@ def product_schema(url, n=1):
                             'handlingTime': {'@type': 'QuantitativeValue', 'minValue': 0, 'maxValue': 1, 'unitCode': 'DAY'},
                             'transitTime': {'@type': 'QuantitativeValue', 'minValue': 3, 'maxValue': 7, 'unitCode': 'DAY'}}},
                     'seller': {'@id': SITE + '/#org'}}}]
-page('/', 'Fair N Pink Advance Radiance Cream | Official Store, ₹999',
-     'Buy Fair N Pink Advance Radiance Cream from the official Fair N Pink store. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
+page('/', 'Fair N Pink Advance Radiance Cream | Online Store, ₹999',
+     'Buy Fair N Pink Advance Radiance Cream online from Beauty Mart, Bhatkal. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
      HOME_BODY, home=True, schema=product_schema(SITE + '/'))
 # The same store on a product address, for Instagram product tags and other places that need a product page link.
 page(PRODUCT_PATH, 'Fair N Pink Advance Radiance Cream, 10 g | ₹999',
@@ -393,8 +393,7 @@ for n in (2, 3):
     # The price text is right before any script runs, so Google reads this pack's price straight from the page.
     was_n = 3000 * n
     for a, b2 in [('id="price-now">₹999<', 'id="price-now">₹%s<' % '{:,}'.format(PACK_PRICE[n])),
-                  ('id="price-was">MRP ₹3,000<', 'id="price-was">MRP ₹%s<' % '{:,}'.format(was_n)),
-                  ('id="price-off">67% off<', 'id="price-off">%d%% off<' % round((was_n - PACK_PRICE[n]) * 100 / was_n)),
+                  ('id="price-was" class="mrp-plain">MRP ₹3,000<', 'id="price-was" class="mrp-plain">MRP ₹%s<' % '{:,}'.format(was_n)),
                   ('id="price-note">inclusive of all taxes<', 'id="price-note">₹%d per jar, inclusive of all taxes<' % round(PACK_PRICE[n] / n)),
                   ('id="media-photo" src="/assets/pack-1.webp"', 'id="media-photo" src="/assets/pack-%d.webp"' % n)]:
         assert a in body, a
@@ -462,7 +461,7 @@ body = top('Our story', 'About Fair N Pink', 'One cream, made to be used every d
           <h2>Plain claims</h2>
           <p>We describe the cream the way it is. It is a cosmetic that helps skin look brighter and more even with regular use and daily sunscreen. It does not change your natural skin tone, and no honest cream does. You will not find before-and-after promises on this site.</p>
           <h2>Direct from us</h2>
-          <p>fairnpink.in is the brand's own store, run by ''' + OWNER + ''' from Bhatkal, Karnataka. Orders are packed and dispatched by us within 24 hours, and you can reach a real person on WhatsApp before and after you buy.</p>
+          <p>fairnpink.in is run by ''' + OWNER + ''' from Bhatkal, Karnataka. Orders are packed and dispatched by us within 24 hours, and you can reach a real person on WhatsApp before and after you buy.</p>
         </div>
       </div>
     </section>
@@ -476,9 +475,9 @@ page('/about/', 'About Fair N Pink | The Brand Behind Advance Radiance Cream',
      body, crumbs='About')
 
 # ---------------- Original ----------------
-body = top('Genuine product', 'How to identify original Fair N Pink cream', 'What to look for on the box and the jar, and the simplest way to be sure.') + '''    <section>
+body = top('Your jar', 'What your Fair N Pink jar should look like', 'The box, the jar and the seal, so you know what to expect when your parcel arrives.') + '''    <section>
       <div class="split">
-        <img src="/assets/jar-and-box.webp" alt="Original Fair N Pink Advance Radiance Cream: silver jar with clear faceted lid beside its white box with the red leaf logo" width="1000" height="1000">
+        <img src="/assets/jar-and-box.webp" alt="Fair N Pink Advance Radiance Cream: silver jar with clear faceted lid beside its white box with the red leaf logo" width="1000" height="1000">
         <div class="prose">
           <h2>The box</h2>
           <p>The cream comes in a white box. The Fair N Pink name sits at the top with a red three-leaf mark beside it, above a picture of the jar. Below it are the words Advance Radiance Cream and a red band. The net weight, %s, and a barcode are printed on the box.</p>
@@ -489,13 +488,13 @@ body = top('Genuine product', 'How to identify original Fair N Pink cream', 'Wha
         </div>
       </div>
     </section>
-''' % NET + sec('The simplest check', 'Buy it from the brand', '', '''      <div class="prose">
-        <p>Every order placed on fairnpink.in is packed and sent by Fair N Pink, so there is nothing to verify. If you bought a jar elsewhere and something looks different from this page, send us clear photos of the box and jar on WhatsApp and we will tell you what we see.</p>
+''' % NET + sec('Not sure about a jar?', 'Send us photos', '', '''      <div class="prose">
+        <p>Every order placed on fairnpink.in is packed and sent sealed by our team in Bhatkal. If a jar looks different from this page or the seal is broken, do not use it: send us clear photos of the box and jar on WhatsApp and we will help.</p>
         <p><a class="btn inline" href="%s" target="_blank" rel="noopener">Send photos on WhatsApp</a></p>
-      </div>''' % wa_link('Hello, I want to check whether my Fair N Pink cream is original. Photos attached.')) + CTA
-page('/original/', 'Original Fair N Pink Cream: How to Identify It',
-     'How to identify original Fair N Pink Advance Radiance Cream: what the box, jar and seal look like, and how to check a jar with the brand on WhatsApp.',
-     body, crumbs='Identify the original')
+      </div>''' % wa_link('Hello, I want to check my Fair N Pink jar. Photos attached.')) + CTA
+page('/original/', 'Fair N Pink Cream Box, Jar and Seal: What to Expect',
+     'What a Fair N Pink Advance Radiance Cream box, jar and seal look like, and what to do if a jar looks different or the seal is broken.',
+     body, crumbs='Check your jar')
 
 # ---------------- FAQ ----------------
 FAQ = [
@@ -505,7 +504,7 @@ FAQ = [
     ('Which payment methods do you accept?', 'UPI, debit cards, credit cards and netbanking, all processed securely by Razorpay, and Cash on Delivery. Prices are in Indian rupees.'),
     ('Can I order on WhatsApp?', 'Yes. Fill in the order form, choose Order on WhatsApp and send the message. We reply on chat to confirm the order and how you would like to pay.'),
     ('Is Cash on Delivery available?', 'Yes. Choose Cash on Delivery in the order form and pay a ₹99 advance online to confirm the order. You pay the rest of the pack price in cash when the parcel arrives. The ₹99 is part of the price, not an extra charge.'),
-    ('Why is there a ₹99 advance on Cash on Delivery?', 'It confirms that the order is genuine, so we can dispatch it straight away. It is deducted from what you pay at the door. If the parcel is refused at delivery, the ₹99 is not refunded, because it covers the shipping both ways.'),
+    ('Why is there a ₹99 advance on Cash on Delivery?', 'It confirms the order before we dispatch it. It is deducted from what you pay at the door, so it is not an extra charge. If you cancel, refuse the parcel or it cannot be delivered, the ₹99 is refunded to your bank account or UPI within 7 working days.'),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night. In the morning, finish with sunscreen. <a href="/how-to-use/">See the full routine</a>.'),
     ('How long does it take to show results?', 'It differs from person to person. Skin usually feels softer in the first week. Give it at least four weeks of regular use before you judge it.'),
     ('Does Fair N Pink cream whiten skin?', 'No cream changes your natural skin tone. Advance Radiance Cream is a cosmetic made to help skin look brighter and more even with regular use and daily sunscreen.'),
@@ -517,8 +516,9 @@ FAQ = [
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
     ('How do I track my order?', 'Open the <a href="/track/">Track order</a> page and enter your Payment ID, which starts with pay_ and is in your payment SMS, or the courier tracking number we send you.'),
     ('Can I cancel my order?', 'Yes, at any time before it is shipped. Message us on WhatsApp with your name and mobile number.'),
-    ('What if my jar arrives damaged?', 'Contact us within 24 hours of delivery with a video of the package being opened. Approved refunds reach your bank account within 7 working days.'),
-    ('How do I know my Fair N Pink cream is original?', 'Orders placed on fairnpink.in come directly from the brand. For a jar bought elsewhere, see <a href="/original/">how to identify original Fair N Pink</a>.'),
+    ('What if my jar arrives damaged?', 'Contact us within 48 hours of delivery with photos or a short video of the package and the damage. We replace it or refund you in full. Refunds reach your bank account or UPI within 7 working days.'),
+    ('Can I return a jar?', 'Yes. Unopened, sealed jars can be returned within 7 days of delivery. Message us on WhatsApp first; once we receive the jar back, we refund the price within 7 working days. Opened jars cannot be returned for hygiene reasons, unless they arrived damaged or wrong.'),
+    ('How can I check my jar?', 'Orders placed on fairnpink.in are packed and sent sealed by our team in Bhatkal. See <a href="/original/">what the box, jar and seal look like</a>. If the seal is broken, do not use the jar and message us.'),
 ]
 body = top('Questions', 'Fair N Pink cream: questions and answers', 'Price, use, results, delivery and returns. If yours is not here, message us on WhatsApp.') + '''    <section>
 ''' + faq_html(FAQ) + '''
@@ -537,11 +537,11 @@ body = top('Contact', 'Contact Fair N Pink', 'The fastest way to reach us is Wha
       </div>
     </section>
 ''' % (WA_SHOW, wa_link('Hello, I have a question about Fair N Pink Advance Radiance Cream.'), IG) + sec('Business details', 'Who we are', '', '''      <div class="prose">
-        <p>Fair N Pink is a brand owned by %s.</p>
+        <p>fairnpink.in is run by %s.</p>
         <p>Address: %s.</p>
         <p>Phone and WhatsApp: %s</p>
       </div>''' % (OWNER, ADDR, WA_SHOW)) + sec('Orders', 'About an order you placed', '', '''      <div class="prose">
-        <p>Send us the name and mobile number you ordered with, and we will check the status for you. For a damaged parcel, include a video of the package being opened, within 24 hours of delivery. See the <a href="/refund-policy/">cancellation and refund policy</a>.</p>
+        <p>Send us the name and mobile number you ordered with, and we will check the status for you. For a damaged or wrong item, send photos or a short video within 48 hours of delivery. See the <a href="/refund-policy/">returns and refund policy</a>.</p>
       </div>''')
 page('/contact/', 'Contact Fair N Pink | WhatsApp and Instagram',
      'Contact Fair N Pink on WhatsApp at +91 99808 81230 or on Instagram @fairnpinkprofessional for orders, delivery updates and product questions.',
@@ -583,14 +583,16 @@ POL = [
         <h2>Where we deliver</h2><p>We deliver across India.</p>
         <h2>Dispatch</h2><p>Orders are dispatched within 24 hours, except on Sundays and national holidays.</p>
         <h2>Delivery time</h2><p>Parcels are delivered in 3 to 7 working days from dispatch, depending on your pincode.</p>
-        <h2>Shipping charges</h2><p>Shipping is free on orders paid online. Cash on Delivery orders are charged the regular pack price shown on the site, with no extra delivery or handling fee: ₹99 is paid online as an advance and the rest in cash at delivery. The total you see before you confirm is the total you pay.</p>
+        <h2>Shipping charges</h2><p>Shipping is <b>free on every order</b>, whether you pay online or by Cash on Delivery. There is no extra delivery, handling or Cash on Delivery fee. The total you see before you confirm is the total you pay.</p>
         <h2>Tracking</h2><p>Use the <a href="/track/">Track order</a> page with the mobile number and pincode from your order, your Payment ID or the courier tracking number. You can also message us on WhatsApp with the name and mobile number on your order.</p>'''),
-    ('/refund-policy/', 'Cancellation and refund policy', 'Cancellation and refunds', 'When you can cancel, and what happens if a parcel arrives damaged.', '''
-        <h2>Cancellation</h2><p>You can cancel an order at any time before it is shipped. Message us on WhatsApp with the name and mobile number on the order.</p>
-        <h2>Damaged on arrival</h2><p>If your jar arrives damaged, message us within 24 hours of delivery with a video that clearly shows the package being opened and the damage.</p>
-        <h2>Cash on Delivery advance</h2><p>The ₹99 advance on a Cash on Delivery order is refunded in full if you cancel before the order is shipped, if we are unable to deliver, or if the jar arrives damaged and you report it as described above. It is not refunded if the parcel is refused at delivery or cannot be delivered because nobody is available to receive it.</p>
-        <h2>Refunds</h2><p>Approved refunds are credited to your bank account or UPI within 7 working days.</p>
-        <h2>Opened products</h2><p>For hygiene reasons we cannot take back a jar that has been opened or used.</p>'''),
+    ('/refund-policy/', 'Returns, cancellation and refund policy', 'Returns and refunds', 'When you can return or cancel, how refunds work, and what happens if a parcel arrives damaged.', '''
+        <div class="pol-sum"><div><b>7 days</b><span>to return an unopened, sealed jar</span></div><div><b>48 hours</b><span>to report a damaged or wrong item, replaced or refunded in full</span></div><div><b>7 working days</b><span>for an approved refund to reach you</span></div></div>
+        <h2>Returns</h2><p>You can return <b>unopened, sealed jars within 7 days of delivery</b>. Message us on WhatsApp first with the name and mobile number on the order, and we will tell you where to send it. Return shipping for a change of mind is paid by you. Once we receive the jar and check that it is sealed, we refund the price you paid.</p>
+        <h2>Opened products</h2><p>For hygiene reasons we cannot take back a jar that has been opened or used, unless it arrived damaged, defective or wrong.</p>
+        <h2>Damaged or wrong items</h2><p>If your jar arrives damaged, leaking or is not what you ordered, message us within 48 hours of delivery with photos or a short video of the package and the problem. We send a replacement free of charge or refund you in full, including shipping.</p>
+        <h2>Cancellation</h2><p>You can cancel an order at any time before it is shipped. Message us on WhatsApp with the name and mobile number on the order. Anything you paid is refunded in full.</p>
+        <h2>Cash on Delivery advance</h2><p>The ₹99 advance on a Cash on Delivery order is part of the pack price, not an extra charge. It is refunded in full if the order is cancelled, refused at delivery or cannot be delivered.</p>
+        <h2>How refunds are paid</h2><p>Online payments are refunded to the original payment method through Razorpay. Cash on Delivery amounts are refunded to the bank account or UPI ID you share with us. Approved refunds are credited within 7 working days.</p>'''),
     ('/privacy-policy/', 'Privacy policy', 'Privacy', 'What we collect when you order, and what we do with it.', '''
         <h2>What we collect</h2><p>To deliver your order we collect your name, mobile number and delivery address. For online payments they are sent to Razorpay with your order so we can deliver it. This applies to Cash on Delivery orders too, since the advance is paid through Razorpay.</p>
         <h2>How we use it</h2><p>We use these details only to process and deliver your order and to reply to your messages.</p>
@@ -607,13 +609,13 @@ POL = [
         <h2>Prices</h2><p>Prices are in Indian rupees and include all taxes. The online payment saving shown on the site applies when the order is paid in full online at the time of ordering.</p>
         <h2>Orders</h2><p>An online order is confirmed when your payment succeeds and you see the payment ID. A Cash on Delivery order is confirmed when your ₹99 advance succeeds.</p>
         <h2>Payment methods</h2><p>We accept UPI, debit cards, credit cards and netbanking through Razorpay, and Cash on Delivery. All prices are in Indian rupees.</p>
-        <h2>Cash on Delivery</h2><p>Cash on Delivery orders need a ₹99 advance, paid online when you order. The advance is part of the pack price. The balance is payable in cash to the courier at the time of delivery. If you refuse the parcel at delivery, the advance is not refunded.</p>
+        <h2>Cash on Delivery</h2><p>Cash on Delivery orders need a ₹99 advance, paid online when you order. The advance is part of the pack price. The balance is payable in cash to the courier at the time of delivery. The advance is refunded in full if the order is cancelled, refused at delivery or cannot be delivered.</p>
         <h2>Seller</h2><p>Orders on fairnpink.in are sold and shipped by ''' + OWNER + ''', ''' + ADDR + '''.</p>
         <h2>Other policies</h2><p>See the <a href="/shipping-policy/">shipping policy</a>, the <a href="/refund-policy/">cancellation and refund policy</a> and the <a href="/privacy-policy/">privacy policy</a>.</p>'''),
 ]
 for path, h1, crumb, lead, inner in POL:
     body = top('Store policies', h1, lead) + '    <section>\n      <div class="prose">%s\n        <p class="stamp">Last updated 5 October 2026. Questions: <a href="/contact/">contact us</a>.</p>\n      </div>\n    </section>\n' % inner
-    page(path, '%s | Fair N Pink' % h1, '%s for orders placed on fairnpink.in, the official Fair N Pink store. %s' % (h1, lead), body, crumbs=crumb)
+    page(path, '%s | Fair N Pink' % h1, '%s for orders placed on fairnpink.in, the Fair N Pink online store run by Beauty Mart, Bhatkal. %s' % (h1, lead), body, crumbs=crumb)
 
 exec(open(os.path.join(B, 'journal.py')).read())
 

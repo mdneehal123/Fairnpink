@@ -469,3 +469,11 @@ footer .accept{margin-bottom:12px}
 .track-by button.on{background:var(--ink);color:var(--bg)}
 #by-phone-box,#by-id-box{display:flex;flex-direction:column;gap:6px}
 #by-phone-box[hidden],#by-id-box[hidden]{display:none}
+
+/* plain MRP (no strikethrough, no % off) and policy summary */
+.mrp-plain{color:var(--muted);font-size:.9rem;font-variant-numeric:tabular-nums}
+.pol-sum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:8px 0 22px}
+.pol-sum div{border:1px solid var(--line);background:var(--bg);padding:14px;display:flex;flex-direction:column;gap:2px}
+.pol-sum b{font-family:var(--display);font-size:1.35rem;font-weight:600}
+.pol-sum span{font-size:.85rem;color:var(--muted);line-height:1.4}
+@media (max-width:640px){.pol-sum{grid-template-columns:1fr}}

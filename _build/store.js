@@ -17,10 +17,9 @@
     var p=PACKS[qty], label='Pack of '+qty;
     now.textContent=rupees(p.price);
     was.textContent='MRP '+rupees(p.was); was.hidden=p.was===p.price;
-    var offEl=document.getElementById('price-off');offEl.textContent=pct(p.was,p.price)+'% off';offEl.hidden=p.was===p.price;
     note.textContent=(qty===1?'':rupees(Math.round(p.price/qty))+' per jar, ')+'inclusive of all taxes';
     line.textContent=label+' · '+rupees(p.price);
-    barTotal.textContent=rupees(p.price)+' ';var bs=document.createElement('s');bs.textContent=rupees(p.was);barTotal.appendChild(bs);
+    barTotal.textContent=rupees(p.price);
     barQty.textContent=label+' · Fair N Pink';
     if(typeof barSync==='function'){barSync();}
     var off=UPI_OFF[qty];
@@ -92,8 +91,7 @@
   function summary(m){
     var p=PACKS[qty], box=document.getElementById('order-sum'), h=document.createElement('p');
     box.textContent='';h.className='osum-h';h.textContent='Your order';box.appendChild(h);
-    box.appendChild(sumRow('Fair N Pink Advance Radiance Cream, Pack of '+qty+' (MRP)',rupees(p.was)));
-    box.appendChild(sumRow('Discount, '+pct(p.was,p.price)+'% off','− '+rupees(p.was-p.price),'osum-save'));
+    box.appendChild(sumRow('Fair N Pink Advance Radiance Cream, Pack of '+qty,rupees(p.price)));
     if(m==='online'){
       box.appendChild(sumRow('Online payment saving','− '+rupees(UPI_OFF[qty]),'osum-save'));
       box.appendChild(sumRow('Shipping','Free'));
@@ -151,7 +149,6 @@
     list.appendChild(sumRow('Order','Pack of '+qty));
     if(cod){list.appendChild(sumRow('Advance received',rupees(ADVANCE)));list.appendChild(sumRow('To pay in cash on delivery',rupees(balance),'osum-total'));}
     else{list.appendChild(sumRow('Paid online',rupees(total),'osum-total'));}
-    var saved=PACKS[qty].was-(cod?PACKS[qty].price:total);if(saved>0){list.appendChild(sumRow('You saved on MRP','₹'+saved.toLocaleString('en-IN'),'osum-save'));}
     list.appendChild(sumRow('Delivering to',F.city.value.trim()+' '+F.pin.value.trim()));
     list.appendChild(sumRow('Order number',paymentId,'osum-id'));
     el('p','thanks-note','Keep the order number. It is all you need to track this order.');
@@ -337,7 +334,9 @@
   function nudgeClose(){nudge.hidden=true;document.removeEventListener('keydown',nudgeKey);if(nudgeFrom&&nudgeFrom.focus){nudgeFrom.focus({preventScroll:true});}}
   function nudgeKey(e){if(e.key==='Escape'){nudgeClose();}
     else if(e.key==='Tab'){var f=nudge.querySelectorAll('button,a[href]'),first=f[0],last=f[f.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}}
+  var NUDGE_ON=false; /* timed pop-up switched off while Google Merchant Center and Ads review the site; true brings it back */
   function nudgeShow(){
+    if(!NUDGE_ON){return;}
     nudgeDone=true;try{localStorage.setItem(NUDGE_KEY,String(Date.now()));}catch(e){}
     var line=NUDGE_LINES[Math.floor(Math.random()*NUDGE_LINES.length)];
     document.getElementById('nudge-h').textContent=line[0];document.getElementById('nudge-p').textContent=line[1];
