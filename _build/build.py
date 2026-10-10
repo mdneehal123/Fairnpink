@@ -129,9 +129,9 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
     open(out, 'w').write(html)
 
 
-PIXEL_IDS = []  # Meta Pixel IDs. Removed on 9 Oct 2026 at the owner's request; add an ID back here to turn tracking on again. Left off the owner-only and not-found pages.
+PIXEL_IDS = ['904249834967161', '1959679618035331']  # Meta Pixels; every event goes to both. Left off the owner-only and not-found pages.
 PIXEL_HEAD = """<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');%sfbq('track','PageView');</script>
-""" % ''.join("fbq('init','%s');" % i for i in PIXEL_IDS) if PIXEL_IDS else ''
+""" % ''.join("fbq('init','%s');" % i for i in PIXEL_IDS)
 PIXEL_IMG = ''.join('<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=%s&amp;ev=PageView&amp;noscript=1"></noscript>\n' % i for i in PIXEL_IDS)
 
 
@@ -562,6 +562,7 @@ POL = [
         <h2>Payments</h2><p>Online payments are processed by Razorpay, a licensed payment gateway, and we do not see or store your card or bank details. UPI payments are made in your own UPI app. We never see or ask for your UPI PIN, card number or bank password.</p>
         <h2>Details saved on your device</h2><p>When you place an order, or start a payment and do not finish it, your name, mobile number, delivery address and chosen pack are saved in your own browser on that device, so that you can finish or repeat the order without typing again. The payment ID of orders placed on that device is also kept there, so the Track order page can show them without you typing it. They are not sent anywhere by this. You can remove them at any time with the Clear button in the order form, or by clearing your browser data.</p>
         <h2>Cookies and advertising</h2><p>This site uses the Google tag to measure visits and to record when an order placed after clicking one of our Google ads is completed. Google may set cookies in your browser for this purpose. We do not send Google your name, phone number or address.</p>
+        <p>This site also uses the Meta Pixel, from the company that runs Facebook and Instagram. It tells Meta that your browser visited this site, opened the order form, started a payment or completed an order, with the order value, so that we can measure our Facebook and Instagram ads and show them to people who have visited. We do not send Meta your name, phone number or address. You can manage this in your Facebook or Instagram ad preferences.</p>
         <p>We also use Google Ads remarketing. This means Google may use cookies to note that your browser visited this site, opened the order form or started a payment, and may later show you Fair N Pink ads on Google Search and on other websites. These notes are tied to your browser, not to your name or number. You can switch off personalised ads at adssettings.google.com, opt out of third-party advertising cookies at aboutads.info/choices, and block cookies in your browser settings.</p>
         <h2>Your choices</h2><p>To have your details removed from our records, message us on WhatsApp.</p>'''),
     ('/terms/', 'Terms and conditions', 'Terms', 'The terms that apply when you order from fairnpink.in.', '''
