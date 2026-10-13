@@ -724,16 +724,30 @@ FEED_ITEM = '''<item>
   <g:condition>new</g:condition>
   <g:identifier_exists>no</g:identifier_exists>%(multi)s
   <g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Skin Care &gt; Lotion &amp; Moisturizer</g:google_product_category>
-  <g:product_type>Skin Care &gt; Face Cream</g:product_type>
+  <g:product_type>Skin Care &gt; Face Cream &gt; Glutathione Face Cream</g:product_type>%(highlights)s
+  <g:custom_label_0>%(label)s</g:custom_label_0>
   <g:size>%(size)s</g:size>
   <g:shipping><g:country>IN</g:country><g:service>Standard</g:service><g:price>0.00 INR</g:price></g:shipping>
   <g:shipping_weight>%(grams)d g</g:shipping_weight>
 </item>'''
-_DESC = 'A face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin, used for brighter-looking, more even-looking skin. Apply a small amount to clean skin and use sunscreen in the daytime. Patch test before use. Cosmetic product; results vary. Free shipping across India, Cash on Delivery available.'
+_DESC = ('A premium glutathione face cream in a silver jar with a crystal lid. It combines L-glutathione, niacinamide (vitamin B3) and alpha arbutin '
+         'to help skin look brighter, more even and glowing, and to reduce the look of dark spots and dull skin. Use it as a day and night cream: '
+         'a pea-sized amount on clean skin, with sunscreen in the daytime. No steroids, mercury, hydroquinone or parabens. Patch test before use. '
+         'Cosmetic product; results vary.')
+_HIGHLIGHTS = ['Glutathione, niacinamide and alpha arbutin in one face cream',
+               'For a brighter, more even-looking, glowing complexion',
+               'Helps reduce the look of dark spots and dull skin',
+               'A day and night cream: use morning and night',
+               'No steroids, mercury, hydroquinone or parabens',
+               'Silver jar with a crystal lid, 10 g of cream per jar']
+_HL = ''.join('\n  <g:product_highlight>%s</g:product_highlight>' % h for h in _HIGHLIGHTS)
 _items = []
 for n in (1, 2, 3):
     _items.append(FEED_ITEM % dict(n=n, site=SITE, path=PACK_PATH[n], img=PACK_IMG[n][0], img2=PACK_IMG[n][1], price=PACK_PRICE[n],
-        title=('Fair N Pink Advance Radiance Cream 10 g - Glutathione, Niacinamide, Alpha Arbutin' if n == 1 else 'Fair N Pink Advance Radiance Cream, Pack of %d (%d x 10 g) - Glutathione Face Cream' % (n, n)),
+        # Search words first: Shopping ads are matched mostly from the title.
+        title=('Glutathione Face Cream for Glowing Skin, Day and Night Radiance Cream with Niacinamide and Alpha Arbutin - Fair N Pink, 10 g' if n == 1
+               else 'Glutathione Face Cream, Pack of %d (%d x 10 g) - Day and Night Radiance Cream with Niacinamide and Alpha Arbutin - Fair N Pink' % (n, n)),
+        highlights=_HL, label='Pack of %d' % n,
         desc=('Fair N Pink Advance Radiance Cream in a %s jar. ' % NET if n == 1 else 'Pack of %d jars of Fair N Pink Advance Radiance Cream (%d x %s). ' % (n, n, NET)) + _DESC,
         multi='' if n == 1 else '\n  <g:multipack>%d</g:multipack>' % n, size=NET, grams=60 * n))
 FEED = '''<?xml version="1.0" encoding="UTF-8"?>
