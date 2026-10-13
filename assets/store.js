@@ -247,7 +247,9 @@
   document.getElementById('pay-upi').addEventListener('change',orderLink);
   document.getElementById('pay-cod').addEventListener('change',orderLink);
   document.getElementById('order-form').addEventListener('submit',function(e){e.preventDefault();});
-  function buy(){panel.hidden=false;render();step('begin_checkout');panel.scrollIntoView({block:'center',behavior:'smooth'});}
+  /* Open the form at its top (name first), not centred: the form is taller than a phone screen. */
+  function toForm(){window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});}
+  function buy(){panel.hidden=false;render();step('begin_checkout');toForm();}
   document.getElementById('buy-main').addEventListener('click',buy);
   /* The floating button takes the customer to the pack choice first; the form opens just below it. */
   function buyFromBar(){
