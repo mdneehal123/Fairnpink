@@ -439,6 +439,27 @@ for n in (2, 3):
     _html = open(_f).read().replace('id="bar-total">₹999<', 'id="bar-total">₹%s<' % '{:,}'.format(PACK_PRICE[n]))
     open(_f, 'w').write(_html)
 
+# Landing page for Google Ads searches like "brightening cream for face": the same store, with the
+# headline and text matching that search, so the ad, the keyword and the page all say the same thing.
+BRIGHT_PATH = '/brightening-cream-for-face/'
+_h1 = '<h1>Advance Radiance Cream <span class="h1-sub">With glutathione</span></h1>'
+assert _h1 in HOME_BODY
+BRIGHT_INTRO = sec('Brightening cream for face', 'A brightening face cream for dull-looking skin', '', '''      <div class="prose">
+        <p>Fair N Pink Advance Radiance Cream is a brightening cream for the face, made for skin that looks dull, tired or uneven. It combines three well-known brightening ingredients in one light, moisturising cream:</p>
+        <ul>
+          <li><b>L-Glutathione</b>, an antioxidant used in brightening creams for a radiant-looking complexion</li>
+          <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
+          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and uneven tone</li>
+        </ul>
+        <p>Use it on the face and neck morning and night, with sunscreen every morning. Most people judge a brightening cream after a few weeks of daily use, and results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
+      </div>''')
+BRIGHT_BODY = HOME_BODY.replace(_h1, '<h1>Brightening Cream for Face <span class="h1-sub">Fair N Pink Advance Radiance Cream with glutathione</span></h1>')
+BRIGHT_BODY = BRIGHT_BODY.replace(WHY_HTML, BRIGHT_INTRO + WHY_HTML, 1)
+assert BRIGHT_INTRO in BRIGHT_BODY
+page(BRIGHT_PATH, 'Brightening Cream for Face with Glutathione | Fair N Pink, ₹999',
+     'Brightening cream for face with glutathione, niacinamide and alpha arbutin. For dull-looking skin and the look of dark spots. ₹999, free shipping, Cash on Delivery.',
+     BRIGHT_BODY, home=True, schema=product_schema(SITE + BRIGHT_PATH))
+
 # ---------------- Ingredients ----------------
 body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance Cream is built around three ingredients: glutathione, niacinamide and alpha arbutin. Here is what each one is and why it is in the jar.') + '''    <section>
       <div class="prose">
@@ -682,7 +703,7 @@ open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#231B1E"/>'
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')
 
-urls = ['/', PRODUCT_PATH, PACK_PATH[2], PACK_PATH[3], '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
+urls = ['/', PRODUCT_PATH, PACK_PATH[2], PACK_PATH[3], BRIGHT_PATH, '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
 # Product feed for Google Merchant Center. Price is the regular ₹999 every customer pays
 # (the online-payment saving is payment-method specific, so it is not used here).
 FEED_ITEM = '''<item>
