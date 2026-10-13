@@ -336,7 +336,11 @@ BENEFITS = [
 ]
 BENEFITS_HTML = '        <ul class="benefits" aria-label="What it does">' + ''.join(
     '<li><span class="bf-ico">%s</span>%s</li>' % (_bico % art, text) for art, text in BENEFITS) + '</ul>\n'
-hero = swap(hero, '</h1>\n', '</h1>\n' + BENEFITS_HTML)
+# "Free from" badges, as confirmed by the brand owner for the current formula.
+FREE_FROM = ['Steroids', 'Mercury', 'Hydroquinone', 'Parabens']
+_ban = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg>'
+FREE_HTML = '        <ul class="freefrom" aria-label="Free from">' + ''.join('<li>%sNo %s</li>' % (_ban, w.lower()) for w in FREE_FROM) + '</ul>\n'
+hero = swap(hero, '</h1>\n', '</h1>\n' + BENEFITS_HTML + FREE_HTML)
 hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
