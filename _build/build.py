@@ -310,14 +310,16 @@ WHY = [
 WHY_HTML = sec('Why Fair N Pink', 'What you can count on', '', '      <ul class="why">' + ''.join(
     '<li><span class="why-ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">%s</svg></span><b>%s</b><span>%s</span></li>' % (art, t, d) for art, t, d in WHY) + '</ul>')
 
-BRIGHT_INTRO = sec('Brightening cream for face', 'A brightening face cream for dull-looking skin', '', '''      <div class="prose">
-        <p>Fair N Pink Advance Radiance Cream is a brightening cream for the face, made for skin that looks dull, tired or uneven. It combines three well-known brightening ingredients in one light, moisturising cream:</p>
+BRIGHT_INTRO = sec('Glow cream for face', 'A glutathione face cream for glowing, even-looking skin', '', '''      <div class="prose">
+        <p>Fair N Pink Advance Radiance Cream is a brightening glutathione face cream for dull skin, uneven skin tone, dark spots and marks. It combines three well-known ingredients in one light, moisturising glow cream:</p>
         <ul>
-          <li><b>L-Glutathione</b>, an antioxidant used in brightening creams for a radiant-looking complexion</li>
+          <li><b>L-Glutathione</b>, an antioxidant used in brightening creams for a radiant-looking, glowing complexion</li>
           <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
-          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and uneven tone</li>
+          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots, dark patches and uneven tone</li>
         </ul>
-        <p>Use it on the face and neck morning and night, with sunscreen every morning. Most people judge a brightening cream after a few weeks of daily use, and results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
+        <p>Use it as a day and night cream: in the morning under sunscreen, and at night as your night cream, while skin rests.</p>
+        <p>It suits women and men, and every skin type. At ₹999 for a 10 g jar it is a face cream under ₹1,000, with free shipping and Cash on Delivery.</p>
+        <p>Most people judge a brightening cream after a few weeks of daily use, and results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
       </div>''')
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
@@ -360,6 +362,9 @@ HOME_FAQ = [
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
     ('How long does it take to show results?', 'It differs from person to person. Use it for a few weeks before you judge it.'),
     ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Choose Cash on Delivery, pay a ₹99 advance online to confirm, and pay the rest in cash when the parcel arrives. Or pay in full online and save up to ₹250.'),
+    ('Can I use Fair N Pink as a night cream?', 'Yes. It is a day and night cream. Use it in the morning under sunscreen, and at night as your night cream on clean skin.'),
+    ('Can men use Fair N Pink cream?', 'Yes. It suits women and men, and every skin type. Use a pea-sized amount on the face and neck.'),
+    ('Does it help with dark spots and uneven skin tone?', 'It contains alpha arbutin and niacinamide, which are used in creams to help reduce the look of dark spots, marks and uneven skin tone. Results differ from person to person. For deep or spreading patches, see a dermatologist.'),
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
 ]
 
