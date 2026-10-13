@@ -296,6 +296,20 @@ BADGES = [
 BADGES_HTML = '    <section>\n      <ul class="badges">' + ''.join(
     '<li>%s<b>%s</b><span>%s</span></li>' % (_ico % art, t, d) for art, t, d in BADGES) + '</ul>\n    </section>\n'
 
+# "Why Fair N Pink": four promises, each one a fact already stated elsewhere on the site.
+WHY = [
+    ('<path d="M9 3h6M10 3v5l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 14h9"/>', 'Ingredients you can read',
+     'Glutathione, niacinamide and alpha arbutin. The full ingredient list is printed on every box.'),
+    ('<path d="M12 3 4 6v6c0 5 3.4 8.4 8 9.5 4.6-1.1 8-4.5 8-9.5V6l-8-3Z"/><path d="m9 12 2 2 4-4"/>', 'Sealed and sent by the brand',
+     'Every order from this site is packed and sent sealed by our own team in Bhatkal.'),
+    ('<path d="M7 4h10M7 8h10M10 4c3 0 5 2 5 4s-2 4-5 4H7l7 8"/>', 'One honest price',
+     'Free shipping and no hidden charges. The ₹99 Cash on Delivery advance is part of the price, not an extra.'),
+    ('<path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9h8M8 12h5"/>', 'A real person on WhatsApp',
+     'Questions before or after you order are answered by our team on WhatsApp.'),
+]
+WHY_HTML = sec('Why Fair N Pink', 'What you can count on', '', '      <ul class="why">' + ''.join(
+    '<li><span class="why-ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">%s</svg></span><b>%s</b><span>%s</span></li>' % (art, t, d) for art, t, d in WHY) + '</ul>')
+
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
 
@@ -341,7 +355,7 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
       <span class="creed-by">Fair N Pink</span>
     </section>
 
-''' + sec('The cream', 'Fair N Pink Advance Radiance Cream', '', '''      <div class="about">
+''' + WHY_HTML + sec('The cream', 'Fair N Pink Advance Radiance Cream', '', '''      <div class="about">
         <div>
           <p>Fair N Pink Advance Radiance Cream, often called Fair N Pink glutathione cream, is a face cream with glutathione, niacinamide and alpha arbutin in a moisturising base. It comes in a %s silver jar with a clear faceted lid, and the cream itself is a soft pink.</p>
           <p>It is meant for daily use. Apply a small amount after washing your face in the morning, under sunscreen, and again before bed. A pea-sized amount covers the face and neck.</p>
