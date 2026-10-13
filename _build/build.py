@@ -305,8 +305,8 @@ def swap(text, old, new, count=1):
     return text.replace(old, new)
 
 
-hero = swap(hero, 'A face cream with glutathione, niacinamide, alpha arbutin and kojic acid, in a silver jar with a soft pink texture.',
-            'A face cream with glutathione, niacinamide and alpha arbutin, in a silver jar with a soft pink texture.')
+# The intro line under the title is left out: the benefit tiles below the title now say it.
+hero = swap(hero, '        <p class="sub">A face cream with glutathione, niacinamide, alpha arbutin and kojic acid, in a silver jar with a soft pink texture. Use a small amount morning and night for brighter-looking skin.</p>\n', '')
 hero = swap(hero, '<span>Alpha arbutin</span><span>Kojic acid</span>', '<span>Alpha arbutin</span><span>%s jar</span>' % NET)
 hero = swap(hero, '<div class="buy">', '<div class="buy" id="buy">')
 
