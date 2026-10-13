@@ -477,3 +477,9 @@ footer .accept{margin-bottom:12px}
 .pol-sum b{font-family:var(--display);font-size:1.35rem;font-weight:600}
 .pol-sum span{font-size:.85rem;color:var(--muted);line-height:1.4}
 @media (max-width:640px){.pol-sum{grid-template-columns:1fr}}
+/* Benefit tiles under the product title */
+.benefits{list-style:none;margin:18px 0 4px;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.benefits li{display:flex;align-items:center;gap:10px;background:var(--turmeric-soft);color:var(--ink);border-radius:12px;padding:8px 12px 8px 8px;font-size:.84rem;font-weight:500;line-height:1.25;min-width:0}
+.bf-ico{flex:none;width:32px;height:32px;border-radius:50%;background:var(--surface);color:var(--teal);display:grid;place-items:center}
+.bf-ico svg{width:18px;height:18px}
+@media (max-width:380px){.benefits li{font-size:.78rem;gap:8px;padding-right:8px}.bf-ico{width:28px;height:28px}}

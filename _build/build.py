@@ -309,6 +309,20 @@ hero = swap(hero, 'A face cream with glutathione, niacinamide, alpha arbutin and
             'A face cream with glutathione, niacinamide and alpha arbutin, in a silver jar with a soft pink texture.')
 hero = swap(hero, '<span>Alpha arbutin</span><span>Kojic acid</span>', '<span>Alpha arbutin</span><span>%s jar</span>' % NET)
 hero = swap(hero, '<div class="buy">', '<div class="buy" id="buy">')
+
+# Benefit tiles under the product title. Cosmetic wording only ("looking"), matching the ingredients above.
+_bico = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
+BENEFITS = [
+    ('<path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3.2"/>', 'Brighter-looking skin'),
+    ('<circle cx="12" cy="12" r="8"/><circle cx="9" cy="10" r="1.2"/><circle cx="14.5" cy="13.5" r="1.6"/><path d="M4 20 20 4"/>', 'Fades look of dark spots'),
+    ('<path d="M4 12h16M4 7h16M4 17h16"/>', 'More even-looking tone'),
+    ('<path d="M3 15c3-3 6 3 9 0s6 3 9 0"/><path d="M3 10c3-3 6 3 9 0s6 3 9 0"/>', 'Smoother, softer feel'),
+    ('<path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/>', 'Deep, lasting moisture'),
+    ('<circle cx="7.5" cy="12" r="3"/><path d="M7.5 5.5v1.5M7.5 17v1.5M2 12h1.5"/><path d="M18 7.5a4.8 4.8 0 1 0 3 8.4 5.6 5.6 0 0 1-3-8.4Z"/>', 'Morning and night use'),
+]
+BENEFITS_HTML = '        <ul class="benefits" aria-label="What it does">' + ''.join(
+    '<li><span class="bf-ico">%s</span>%s</li>' % (_bico % art, text) for art, text in BENEFITS) + '</ul>\n'
+hero = swap(hero, '</h1>\n', '</h1>\n' + BENEFITS_HTML)
 hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
