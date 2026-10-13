@@ -310,6 +310,15 @@ WHY = [
 WHY_HTML = sec('Why Fair N Pink', 'What you can count on', '', '      <ul class="why">' + ''.join(
     '<li><span class="why-ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">%s</svg></span><b>%s</b><span>%s</span></li>' % (art, t, d) for art, t, d in WHY) + '</ul>')
 
+BRIGHT_INTRO = sec('Brightening cream for face', 'A brightening face cream for dull-looking skin', '', '''      <div class="prose">
+        <p>Fair N Pink Advance Radiance Cream is a brightening cream for the face, made for skin that looks dull, tired or uneven. It combines three well-known brightening ingredients in one light, moisturising cream:</p>
+        <ul>
+          <li><b>L-Glutathione</b>, an antioxidant used in brightening creams for a radiant-looking complexion</li>
+          <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
+          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and uneven tone</li>
+        </ul>
+        <p>Use it on the face and neck morning and night, with sunscreen every morning. Most people judge a brightening cream after a few weeks of daily use, and results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
+      </div>''')
 # ---------------- Home ----------------
 hero = open(os.path.join(B, 'hero.html')).read()
 
@@ -323,6 +332,7 @@ def swap(text, old, new, count=1):
 hero = swap(hero, '        <p class="sub">A face cream with glutathione, niacinamide, alpha arbutin and kojic acid, in a silver jar with a soft pink texture. Use a small amount morning and night for brighter-looking skin.</p>\n', '')
 hero = swap(hero, '<span>Alpha arbutin</span><span>Kojic acid</span>', '<span>Alpha arbutin</span><span>%s jar</span>' % NET)
 hero = swap(hero, '<div class="buy">', '<div class="buy" id="buy">')
+hero = swap(hero, '<span class="h1-sub">With glutathione</span>', '<span class="h1-sub">Brightening face cream with glutathione</span>')
 
 # Benefit tiles under the product title. Cosmetic wording only ("looking"), matching the ingredients above.
 _bico = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">%s</svg>'
@@ -359,7 +369,7 @@ home = hero + RIBBON_HTML + BADGES_HTML + '''
       <span class="creed-by">Fair N Pink</span>
     </section>
 
-''' + WHY_HTML + sec('The cream', 'Fair N Pink Advance Radiance Cream', '', '''      <div class="about">
+''' + BRIGHT_INTRO + WHY_HTML + sec('The cream', 'Fair N Pink Advance Radiance Cream', '', '''      <div class="about">
         <div>
           <p>Fair N Pink Advance Radiance Cream, often called Fair N Pink glutathione cream, is a face cream with glutathione, niacinamide and alpha arbutin in a moisturising base. It comes in a %s silver jar with a clear faceted lid, and the cream itself is a soft pink.</p>
           <p>It is meant for daily use. Apply a small amount after washing your face in the morning, under sunscreen, and again before bed. A pea-sized amount covers the face and neck.</p>
@@ -406,8 +416,8 @@ def product_schema(url, n=1):
                             'handlingTime': {'@type': 'QuantitativeValue', 'minValue': 0, 'maxValue': 1, 'unitCode': 'DAY'},
                             'transitTime': {'@type': 'QuantitativeValue', 'minValue': 3, 'maxValue': 7, 'unitCode': 'DAY'}}},
                     'seller': {'@id': SITE + '/#org'}}}]
-page('/', 'Fair N Pink Advance Radiance Cream | Online Store, ₹999',
-     'Buy Fair N Pink Advance Radiance Cream online from Beauty Mart, Bhatkal. Glutathione, niacinamide and alpha arbutin in a 10 g jar. ₹999, Cash on Delivery available.',
+page('/', 'Fair N Pink Advance Radiance Cream | Brightening Cream for Face, ₹999',
+     'Fair N Pink Advance Radiance Cream, a brightening cream for face with glutathione, niacinamide and alpha arbutin. 10 g jar, ₹999, free shipping, Cash on Delivery available.',
      HOME_BODY, home=True, schema=product_schema(SITE + '/'))
 # The same store on a product address, for Instagram product tags and other places that need a product page link.
 page(PRODUCT_PATH, 'Fair N Pink Advance Radiance Cream, 10 g | ₹999',
@@ -442,19 +452,9 @@ for n in (2, 3):
 # Landing page for Google Ads searches like "brightening cream for face": the same store, with the
 # headline and text matching that search, so the ad, the keyword and the page all say the same thing.
 BRIGHT_PATH = '/brightening-cream-for-face/'
-_h1 = '<h1>Advance Radiance Cream <span class="h1-sub">With glutathione</span></h1>'
+_h1 = '<h1>Advance Radiance Cream <span class="h1-sub">Brightening face cream with glutathione</span></h1>'
 assert _h1 in HOME_BODY
-BRIGHT_INTRO = sec('Brightening cream for face', 'A brightening face cream for dull-looking skin', '', '''      <div class="prose">
-        <p>Fair N Pink Advance Radiance Cream is a brightening cream for the face, made for skin that looks dull, tired or uneven. It combines three well-known brightening ingredients in one light, moisturising cream:</p>
-        <ul>
-          <li><b>L-Glutathione</b>, an antioxidant used in brightening creams for a radiant-looking complexion</li>
-          <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
-          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and uneven tone</li>
-        </ul>
-        <p>Use it on the face and neck morning and night, with sunscreen every morning. Most people judge a brightening cream after a few weeks of daily use, and results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
-      </div>''')
 BRIGHT_BODY = HOME_BODY.replace(_h1, '<h1>Brightening Cream for Face <span class="h1-sub">Fair N Pink Advance Radiance Cream with glutathione</span></h1>')
-BRIGHT_BODY = BRIGHT_BODY.replace(WHY_HTML, BRIGHT_INTRO + WHY_HTML, 1)
 assert BRIGHT_INTRO in BRIGHT_BODY
 page(BRIGHT_PATH, 'Brightening Cream for Face with Glutathione | Fair N Pink, ₹999',
      'Brightening cream for face with glutathione, niacinamide and alpha arbutin. For dull-looking skin and the look of dark spots. ₹999, free shipping, Cash on Delivery.',
