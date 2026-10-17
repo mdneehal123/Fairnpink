@@ -310,6 +310,21 @@ WHY = [
 WHY_HTML = sec('Why Fair N Pink', 'What you can count on', '', '      <ul class="why">' + ''.join(
     '<li><span class="why-ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">%s</svg></span><b>%s</b><span>%s</span></li>' % (art, t, d) for art, t, d in WHY) + '</ul>')
 
+# Customer reviews: copied word for word from verified Flipkart purchases (confirmed genuine by the brand owner).
+# No aggregateRating schema for these: Google does not allow marking up reviews collected on another site.
+REVIEWS = [
+    ("Absolutely love this Glutathione Night Cream! I've been using it for a few weeks now and already notice a difference in the texture and brightness of my skin. The cream is light, absorbs quickly, and doesn't leave any greasy residue. Waking up with soft, glowing skin has become a daily pleasure. Highly recommend!", 'Flipkart customer', 'Indore'),
+    ('Nice product, using it a week getting good result.', 'Kushagra C.', 'Indore'),
+    ('Very nice cream. Gives good glow.', 'Flipkart customer', 'Indore'),
+    ('Leaves my skin feeling incredibly soft, highly recommended!', 'Flipkart customer', 'Indore'),
+    ('Highly recommend for anyone looking to enhance their skin glow.', 'Vinay B.', 'Indore'),
+]
+REVIEWS_HTML = sec('Reviews', 'Loved by our customers',
+    '<span class="rv-stars" aria-hidden="true">★★★★★</span> <b>4.6 out of 5</b> on Flipkart, from 21 ratings',
+    '      <ul class="rv">' + ''.join(
+        '<li><span class="rv-stars" aria-label="5 out of 5 stars">★★★★★</span><p>&ldquo;%s&rdquo;</p><span class="rv-who"><b>%s</b> · %s · Verified Flipkart purchase</span></li>' % (t, n, c)
+        for t, n, c in REVIEWS) + '</ul>\n      <p class="rv-note">Reviews shown word for word from verified Flipkart purchases. Results vary from person to person.</p>', id='reviews')
+
 BRIGHT_INTRO = sec('Glow cream for face', 'A glutathione face cream for glowing, even-looking skin', '', '''      <div class="prose">
         <p>Fair N Pink Advance Radiance Cream is a brightening glutathione face cream for dull skin, uneven skin tone, dark spots and marks. It combines three well-known ingredients in one light, moisturising glow cream:</p>
         <ul>
@@ -368,7 +383,7 @@ HOME_FAQ = [
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
 ]
 
-home = hero + RIBBON_HTML + BADGES_HTML + '''
+home = hero + RIBBON_HTML + BADGES_HTML + REVIEWS_HTML + '''
     <section>
       <p class="creed">A quiet daily ritual for skin that looks luminous, morning and night.</p>
       <span class="creed-by">Fair N Pink</span>

@@ -287,3 +287,12 @@ footer .accept{margin-bottom:12px}
 @media (max-width:560px){.freefrom{display:grid;grid-template-columns:1fr 1fr}.freefrom li{min-width:0}}
 /* safety net: nothing in the page may push it sideways on a phone */
 html,body{overflow-x:clip}
+/* Customer reviews (home page) */
+.rv-stars{color:#C2185B;letter-spacing:2px}
+.rv{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.rv li{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;display:grid;gap:8px;align-content:start}
+.rv p{margin:0;line-height:1.55}
+.rv-who{color:var(--muted);font-size:.86rem}
+.rv-who b{color:var(--ink);font-weight:500}
+.rv-note{color:var(--muted);font-size:.8rem;margin-top:14px}
+@media (max-width:560px){.rv{gap:10px}.rv li{padding:16px}}
