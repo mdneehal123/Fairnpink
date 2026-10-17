@@ -9,7 +9,7 @@ import json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B = os.path.join(ROOT, '_build')
-SITE = 'https://fairnpink.in'
+SITE = 'https://www.fairnpink.in'
 TODAY = '2026-10-05'
 
 # ---- Product facts: keep these identical to the printed pack ----
