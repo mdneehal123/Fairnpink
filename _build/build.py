@@ -369,7 +369,9 @@ _ban = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentC
 FREE_HTML = '        <ul class="freefrom" aria-label="Free from">' + ''.join('<li>%sNo %s</li>' % (_ban, w.lower()) for w in FREE_FROM) + '</ul>\n'
 # Flipkart-style rating chip under the title; links down to the reviews section.
 RATING_CHIP = '        <a class="rv-chip" href="#reviews" aria-label="Rated 4.6 out of 5 on Flipkart from 21 ratings. See reviews"><b>4.6</b><span class="rv-chip-star" aria-hidden="true">★</span><span class="rv-chip-sep" aria-hidden="true"></span><span>21 ratings on Flipkart</span></a>\n'
-hero = swap(hero, '</h1>\n', '</h1>\n' + RATING_CHIP + BENEFITS_HTML + FREE_HTML)
+hero = swap(hero, '</h1>\n', '</h1>\n' + BENEFITS_HTML + FREE_HTML)
+# Rating chip sits directly below the price line.
+hero = swap(hero, '<span id="price-note">inclusive of all taxes</span></div>\n', '<span id="price-note">inclusive of all taxes</span></div>\n' + RATING_CHIP)
 hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
