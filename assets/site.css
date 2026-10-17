@@ -507,3 +507,9 @@ html,body{overflow-x:clip}
 .rv-who b{color:var(--ink);font-weight:500}
 .rv-note{color:var(--muted);font-size:.8rem;margin-top:14px}
 @media (max-width:560px){.rv{gap:10px}.rv li{padding:16px}}
+.rv-chip{display:inline-flex;align-items:center;gap:6px;margin:4px 0 14px;padding:6px 12px;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--ink);text-decoration:none;font-size:.92rem;line-height:1}
+.rv-chip b{font-weight:600}
+.rv-chip-star{color:#1A8A3B}
+.rv-chip-sep{width:1px;height:14px;background:var(--line);margin:0 2px}
+.rv-chip span:last-child{color:var(--muted)}
+.rv-chip:hover span:last-child{text-decoration:underline}
