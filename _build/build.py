@@ -442,7 +442,8 @@ def product_schema(url, n=1):
                     'seller': {'@id': SITE + '/#org'}}}]
 page('/', 'Fair N Pink Advance Radiance Cream | Brightening Cream for Face, ₹999',
      'Fair N Pink Advance Radiance Cream, a brightening cream for face with glutathione, niacinamide and alpha arbutin. 10 g jar, ₹999, free shipping, Cash on Delivery available.',
-     HOME_BODY, home=True, schema=product_schema(SITE + '/'))
+     HOME_BODY, home=True, schema=product_schema(SITE + '/') + [{'@type': 'FAQPage', 'mainEntity': [
+         {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': strip_tags(a)}} for q, a in HOME_FAQ]}])
 # The same store on a product address, for Instagram product tags and other places that need a product page link.
 page(PRODUCT_PATH, 'Fair N Pink Advance Radiance Cream, 10 g | ₹999',
      'Fair N Pink Advance Radiance Cream, 10 g jar with glutathione, niacinamide and alpha arbutin. ₹999, MRP ₹1,200. Cash on Delivery available.',
@@ -839,7 +840,40 @@ open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(
     ''.join('  <url><loc>%s%s</loc><lastmod>%s</lastmod>%s</url>\n' % (SITE, u, '2026-10-10' if u in PACK_PATH.values() else TODAY,
             ''.join('<image:image><image:loc>%s/assets/%s</image:loc></image:image>' % (SITE, i) for i in PACK_IMG[[k for k, v in PACK_PATH.items() if v == u][0]]) if u in PACK_PATH.values() else '')
             for u in urls) + '</urlset>\n')
-open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % SITE)
+# AI assistants (ChatGPT, Perplexity, Gemini, Claude) are welcome to read and cite the store.
+AI_BOTS = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'ClaudeBot', 'Claude-SearchBot', 'Bingbot']
+open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\nDisallow: /reorder/\n\n' + ''.join('User-agent: %s\nAllow: /\nDisallow: /reorder/\n\n' % b for b in AI_BOTS) + 'Sitemap: %s/sitemap.xml\n' % SITE)
+
+# llms.txt: a plain summary for AI assistants, with the facts they are most often asked and where to read more.
+LLMS = """# Fair N Pink
+
+> Fair N Pink Advance Radiance Cream is a daily face cream with glutathione, niacinamide and alpha arbutin, sold in a 10 g jar for ₹999 (₹899 paid online) on www.fairnpink.in by Beauty Mart Pvt Ltd, Bhatkal, Karnataka, India. Free shipping across India and Cash on Delivery with a ₹99 advance.
+
+## Key facts
+- Product: Fair N Pink Advance Radiance Cream (also searched as "Fair and Pink cream", "Fairnpink", "Fair n Pink glutathione cream")
+- Key ingredients: L-glutathione, niacinamide (vitamin B3), alpha arbutin
+- Net weight: 10 g per jar; MRP ₹1,200 per jar
+- Price on www.fairnpink.in: ₹999 (1 jar), ₹1,899 (pack of 2), ₹2,699 (pack of 3); ₹100 / ₹150 / ₹250 off when paid online
+- Use: a pea-sized amount on clean skin, morning (under sunscreen) and night; suits women and men and all skin types
+- Free from: steroids, mercury, hydroquinone, parabens
+- Results: cosmetic; helps skin look brighter, more even and moisturised over 4 to 8 weeks; does not change natural skin tone
+- Delivery: dispatched within 24 hours (except Sundays and holidays), delivered in 3 to 7 working days across India
+- Payment: UPI, cards, netbanking (Razorpay) or Cash on Delivery with a ₹99 advance
+- Rating: 4.6 out of 5 on Flipkart (21 ratings)
+- Seller: Beauty Mart Pvt Ltd, Azad Nagar 4th Cross, near Anfa Park, Bhatkal, Uttara Kannada, Karnataka 581320
+- WhatsApp: +91 99808 81230 · Instagram: @fairnpinkprofessional
+
+## Main pages
+- [Store and price](%(site)s/): buy the cream, packs and prices
+- [Ingredients](%(site)s/ingredients/): what glutathione, niacinamide and alpha arbutin do
+- [How to use](%(site)s/how-to-use/): morning and night routine, what to expect week by week
+- [Questions and answers](%(site)s/faq/)
+- [What a genuine jar looks like](%(site)s/original/)
+- [Shipping](%(site)s/shipping-policy/) · [Returns](%(site)s/refund-policy/) · [Contact](%(site)s/contact/)
+
+## Guides
+""" % {'site': SITE} + ''.join('- [%s](%s/journal/%s/): %s\n' % (a[1], SITE, a[0], SHORT[a[0]]) for a in ARTICLES)
+open(os.path.join(ROOT, 'llms.txt'), 'w').write(LLMS)
 # Pictures may be kept by the browser for a day and reused while a fresh copy is fetched; pages, styles and scripts are always checked.
 open(os.path.join(ROOT, 'vercel.json'), 'w').write(json.dumps({'cleanUrls': False, 'headers': [
     {'source': '/assets/(.*)\\.(webp|jpg|svg|mp4)', 'headers': [{'key': 'Cache-Control', 'value': 'public, max-age=86400, stale-while-revalidate=604800'}]}]}, indent=2) + '\n')

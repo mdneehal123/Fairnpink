@@ -1,3 +1,4 @@
+exec(open(os.path.join(B, 'short_answers.py')).read())
 # ---------------- Journal ----------------
 body = top('Journal', 'The Fair N Pink journal', 'Plain guides to the cream, its ingredients and everyday skin care.') + '    <section>\n' + jlist(ARTICLES) + '\n    </section>\n' + CTA
 page('/journal/', 'Fair N Pink Journal | Guides to the Cream and Skin Care',
@@ -15,11 +16,12 @@ for i, (slug, h1, seo, desc, tag, teaser, inner) in enumerate(ARTICLES):
       <p class="byline">By Fair N Pink · Updated 5 October 2026</p>
     </div>
     <section>
+      <div class="tldr"%s><b>%s</b><p>%s</p></div>
       <div class="prose"%s>%s
       </div>
     </section>
-''' % (tag, hi, h1, hi, inner) + CTA + sec('Journal', 'Keep reading', '', jlist(nxt))
+''' % (tag, hi, h1, hi, 'संक्षिप्त जवाब' if hi else 'Short answer', SHORT[slug], hi, inner) + CTA + sec('Journal', 'Keep reading', '', jlist(nxt))
     page(path, seo, desc, body, crumbs=h1, schema=[{
         '@type': 'Article', 'headline': h1, 'description': desc, 'image': SITE + '/assets/og.jpg',
-        'datePublished': TODAY, 'dateModified': TODAY, 'mainEntityOfPage': SITE + path,
+        'abstract': SHORT[slug], 'datePublished': TODAY, 'dateModified': TODAY, 'mainEntityOfPage': SITE + path,
         'author': {'@id': SITE + '/#org'}, 'publisher': {'@id': SITE + '/#org'}}])

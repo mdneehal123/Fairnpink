@@ -1,4 +1,41 @@
 User-agent: *
 Allow: /
+Disallow: /reorder/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /reorder/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /reorder/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /reorder/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /reorder/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /reorder/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /reorder/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /reorder/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /reorder/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /reorder/
 
 Sitemap: https://www.fairnpink.in/sitemap.xml

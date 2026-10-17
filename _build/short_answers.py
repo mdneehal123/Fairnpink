@@ -1,0 +1,20 @@
+# One- or two-sentence answers shown at the top of each journal article, so readers and AI
+# assistants (ChatGPT, Perplexity, Gemini) get the answer first. Cosmetic wording only.
+SHORT = {
+ 'fair-n-pink-cream-price': 'One 10 g jar of Fair N Pink Advance Radiance Cream costs ₹999 on fairnpink.in, or ₹899 if you pay online, with free shipping. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699; the MRP printed on the box is ₹1,200 a jar.',
+ 'fair-n-pink-cream-benefits': 'Fair N Pink Advance Radiance Cream is a daily face cream with glutathione, niacinamide and alpha arbutin, used to help skin look brighter, more even and moisturised. It is a cosmetic: it does not change your natural skin tone or treat skin conditions.',
+ 'fair-n-pink-cream-side-effects': 'Most people use it without problems, but some feel mild tingling, warmth or redness in the first few days, and its fragrance can bother sensitive skin. Patch test for 24 hours first, and ask a doctor if you are pregnant, breastfeeding or under skin treatment.',
+ 'glutathione-cream-for-face': 'A glutathione face cream can help dull skin look brighter and more even with regular use, especially with niacinamide and daily sunscreen. It works on the surface of the skin and cannot change your natural skin tone.',
+ 'niacinamide-and-alpha-arbutin': 'Yes, niacinamide and alpha arbutin can be used together. They work in different ways and are often combined in one cream, as in Fair N Pink Advance Radiance Cream.',
+ 'how-to-reduce-dark-spots-on-face': 'Wear sunscreen every morning, wash with a gentle cleanser, use a cream with niacinamide and alpha arbutin twice a day, and avoid picking or scrubbing. Spots fade gradually over 4 to 8 weeks or more; see a dermatologist for patches that spread.',
+ 'fair-and-pink-cream': 'Fair and Pink cream, Fair & Pink, Fairnpink and Fair n Pink glutathione cream are all the same product: Fair N Pink Advance Radiance Cream, a 10 g glutathione face cream sold for ₹999 on fairnpink.in.',
+ 'who-can-use-fair-n-pink-cream': 'Fair N Pink Advance Radiance Cream suits men and women and all skin types. Oily skin should use a thin layer or use it at night only, dry skin can apply it on slightly damp skin, and sensitive skin should patch test first.',
+ 'how-long-does-glutathione-cream-take-to-work': 'Give a glutathione cream 4 to 8 weeks of twice-daily use, with sunscreen every morning, before you judge it. Skin usually feels softer in the first week; dark spots take the longest.',
+ 'can-we-use-glutathione-cream-daily': 'Yes. A glutathione face cream is made for daily use, usually twice a day. If you use it once a day, use it at night, and always wear sunscreen over it in the morning.',
+ 'glutathione-cream-with-sunscreen': 'Yes. Apply the glutathione cream first on clean skin, wait a minute or two, then put a broad-spectrum SPF 30 or higher sunscreen on top every morning.',
+ 'alpha-arbutin-cream-side-effects': 'Alpha arbutin is generally well tolerated. A few people get mild redness, itching or dryness in the first week, often from other ingredients such as fragrance; patch test first and start once a day at night.',
+ 'buy-fair-n-pink-cream-online': 'Buy Fair N Pink Advance Radiance Cream on fairnpink.in: choose a pack, fill in your address, then pay online to save ₹100 or choose Cash on Delivery with a ₹99 advance. Shipping is free and orders are dispatched within 24 hours.',
+ 'fair-n-pink-night-cream': 'Yes. Fair N Pink Advance Radiance Cream is a day and night cream. At night, apply a pea-sized amount to clean skin and leave it on, and use sunscreen every morning.',
+ 'glutathione-cream-price-in-india': 'Glutathione face creams in India cost from a few hundred to several thousand rupees; compare the net weight, the full ingredient list and who sells it. Fair N Pink Advance Radiance Cream, 10 g with niacinamide and alpha arbutin, costs ₹999.',
+ 'fair-n-pink-cream-hindi': 'Fair N Pink Advance Radiance Cream के 10 g जार की कीमत ₹999 है (ऑनलाइन भुगतान पर ₹899)। सुबह और रात मटर के दाने जितनी क्रीम लगाएं, सुबह सनस्क्रीन ज़रूर लगाएं, और 4 से 8 हफ्ते तक इस्तेमाल करें।',
+}
