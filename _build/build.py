@@ -484,6 +484,60 @@ page(BRIGHT_PATH, 'Brightening Cream for Face with Glutathione | Fair N Pink, �
      'Brightening cream for face with glutathione, niacinamide and alpha arbutin. For dull-looking skin and the look of dark spots. ₹999, free shipping, Cash on Delivery.',
      BRIGHT_BODY, home=True, schema=product_schema(SITE + BRIGHT_PATH))
 
+# More Google Ads landing pages, one per ad group, built the same way: the store page with the
+# title, headline and intro matching the searches that ad group buys. Cosmetic wording only.
+AD_LANDINGS = [
+    ('/glutathione-night-cream/',
+     'Glutathione Night Cream with Niacinamide | Fair N Pink, ₹999',
+     'Glutathione night cream with niacinamide and alpha arbutin for glowing-looking skin by morning. ₹999, ₹899 paid online, free shipping, Cash on Delivery.',
+     'Glutathione Night Cream', 'Fair N Pink Advance Radiance Cream for glowing-looking skin',
+     sec('Night cream', 'A glutathione night cream for glowing-looking skin by morning', '', '''      <div class="prose">
+        <p>Fair N Pink Advance Radiance Cream is a glutathione night cream that works while you sleep. Smooth a pea-sized amount over clean skin before bed, and wake up to skin that feels softer and looks fresher. It combines three well-known ingredients in one light, moisturising cream:</p>
+        <ul>
+          <li><b>L-Glutathione</b>, an antioxidant used in creams for a radiant-looking, glowing complexion</li>
+          <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
+          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and uneven tone, gradually</li>
+        </ul>
+        <p>Use it every night as your night cream. You can also use it in the morning under sunscreen.</p>
+        <p>A night cream under ₹1,000: ₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery.</p>
+        <p>Give it a few weeks of nightly use; results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
+      </div>''')),
+    ('/glutathione-cream-for-face/',
+     'Glutathione Cream for Face with Niacinamide | Fair N Pink, ₹999',
+     'Glutathione face cream with niacinamide and alpha arbutin for glowing, even-looking skin. ₹999, ₹899 paid online, free shipping, Cash on Delivery.',
+     'Glutathione Cream for Face', 'Fair N Pink Advance Radiance Cream with niacinamide &amp; alpha arbutin',
+     sec('Glutathione face cream', 'A glutathione cream for face, for glowing, even-looking skin', '', '''      <div class="prose">
+        <p>Fair N Pink Advance Radiance Cream is a glutathione cream for face, made for daily use on dull-looking skin and uneven tone. It combines three well-known ingredients in one light, moisturising cream:</p>
+        <ul>
+          <li><b>L-Glutathione</b>, an antioxidant made of three amino acids, used in creams for a radiant-looking complexion</li>
+          <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
+          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and marks, gradually</li>
+        </ul>
+        <p>Use a pea-sized amount morning and night: under sunscreen in the day, and as your night cream before bed.</p>
+        <p>Glutathione cream price: ₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery. Packs of 2 and 3 cost less per jar.</p>
+        <p>Results differ from person to person, so give it a few weeks of daily use. It contains no steroids, mercury, hydroquinone or parabens.</p>
+      </div>''')),
+    ('/niacinamide-alpha-arbutin-cream/',
+     'Niacinamide &amp; Alpha Arbutin Cream for Face | Fair N Pink, ₹999',
+     'Face cream with niacinamide, alpha arbutin and glutathione for the look of dark spots and uneven tone. ₹999, free shipping, Cash on Delivery.',
+     'Niacinamide &amp; Alpha Arbutin Cream', 'Fair N Pink Advance Radiance Cream, with glutathione',
+     sec('Ingredients', 'Niacinamide and alpha arbutin cream, with glutathione', '', '''      <div class="prose">
+        <p>Fair N Pink Advance Radiance Cream brings niacinamide and alpha arbutin together with glutathione in one light, moisturising face cream:</p>
+        <ul>
+          <li><b>Niacinamide</b> (vitamin B3), one of the most widely used skincare ingredients, helps skin look smoother and more even</li>
+          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots, marks and uneven tone, gradually</li>
+          <li><b>L-Glutathione</b>, an antioxidant used in creams for a radiant-looking complexion</li>
+        </ul>
+        <p>Use a pea-sized amount morning and night on clean skin, with sunscreen in the morning. The full ingredient list is printed on every box.</p>
+        <p>₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery.</p>
+        <p>Results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
+      </div>''')),
+]
+for _path, _title, _desc, _h, _sub, _intro in AD_LANDINGS:
+    _body = HOME_BODY.replace(_h1, '<h1>%s <span class="h1-sub">%s</span></h1>' % (_h, _sub)).replace(BRIGHT_INTRO, _intro)
+    assert _intro in _body and _h in _body
+    page(_path, _title, _desc, _body, home=True, schema=product_schema(SITE + _path))
+
 # ---------------- Ingredients ----------------
 body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance Cream is built around three ingredients: glutathione, niacinamide and alpha arbutin. Here is what each one is and why it is in the jar.') + '''    <section>
       <div class="prose">
@@ -727,7 +781,7 @@ open(os.path.join(ROOT, 'assets', 'icon.svg'), 'w').write(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#231B1E"/>'
     '<text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="30" fill="#FAF7F5">FP</text></svg>\n')
 
-urls = ['/', PRODUCT_PATH, PACK_PATH[2], PACK_PATH[3], BRIGHT_PATH, '/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
+urls = ['/', PRODUCT_PATH, PACK_PATH[2], PACK_PATH[3], BRIGHT_PATH] + [a[0] for a in AD_LANDINGS] + ['/ingredients/', '/how-to-use/', '/about/', '/original/', '/faq/', '/contact/', '/track/', '/journal/'] + ['/journal/%s/' % a[0] for a in ARTICLES] + [p[0] for p in POL]
 # Product feed for Google Merchant Center. Price is the regular ₹999 every customer pays
 # (the online-payment saving is payment-method specific, so it is not used here).
 FEED_ITEM = '''<item>
