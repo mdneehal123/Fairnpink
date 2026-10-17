@@ -4,7 +4,7 @@ ARTICLES = [
      'Fair N Pink Cream Price in India (2026) | Packs and Offers',
      'Fair N Pink Advance Radiance Cream price in India: ₹999 for one 10 g jar, ₹1,899 for two, ₹2,699 for three, plus the saving when you pay online.',
      'Price', 'What one jar costs, what the packs save you, and how the online price works.', '''
-        <p>Fair N Pink Advance Radiance Cream costs <b>₹999 for one %(net)s jar</b> on fairnpink.in. The MRP printed on the box is ₹3,000 a jar. The price includes all taxes, and shipping is free on every order.</p>
+        <p>Fair N Pink Advance Radiance Cream costs <b>₹999 for one %(net)s jar</b> on fairnpink.in. The MRP printed on the box is ₹1,200 a jar. The price includes all taxes, and shipping is free on every order.</p>
         <h2>Price of each pack</h2>
         <ul>
           <li>Pack of 1: ₹999</li>

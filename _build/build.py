@@ -210,9 +210,9 @@ WEEKS = '''      <ol class="weeks">
 PRICE_TBL = '''      <div class="tbl"><table>
         <thead><tr><th>Pack</th><th>MRP (printed)</th><th>Price</th><th>Per jar</th><th>Paid online</th></tr></thead>
         <tbody>
-          <tr><td>Pack of 1</td><td>₹3,000</td><td>₹999</td><td>₹999</td><td>₹899</td></tr>
-          <tr><td>Pack of 2</td><td>₹6,000</td><td>₹1,899</td><td>₹950</td><td>₹1,749</td></tr>
-          <tr><td>Pack of 3</td><td>₹9,000</td><td>₹2,699</td><td>₹900</td><td>₹2,449</td></tr>
+          <tr><td>Pack of 1</td><td>₹1,200</td><td>₹999</td><td>₹999</td><td>₹899</td></tr>
+          <tr><td>Pack of 2</td><td>₹2,400</td><td>₹1,899</td><td>₹950</td><td>₹1,749</td></tr>
+          <tr><td>Pack of 3</td><td>₹3,600</td><td>₹2,699</td><td>₹900</td><td>₹2,449</td></tr>
         </tbody>
       </table></div>'''
 
@@ -376,7 +376,7 @@ hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
 HOME_FAQ = [
-    ('What is the price of Fair N Pink Advance Radiance Cream?', 'The MRP printed on the box is ₹3,000 for one %s jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹100, ₹150 or ₹250 when you pay online.' % NET),
+    ('What is the price of Fair N Pink Advance Radiance Cream?', 'The MRP printed on the box is ₹1,200 for one %s jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹100, ₹150 or ₹250 when you pay online.' % NET),
     ('What size is the Fair N Pink cream jar?', 'Each jar holds %s of cream. The net weight is printed on the box.' % NET),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
     ('How long does it take to show results?', 'It differs from person to person. Use it for a few weeks before you judge it.'),
@@ -445,7 +445,7 @@ page('/', 'Fair N Pink Advance Radiance Cream | Brightening Cream for Face, ₹9
      HOME_BODY, home=True, schema=product_schema(SITE + '/'))
 # The same store on a product address, for Instagram product tags and other places that need a product page link.
 page(PRODUCT_PATH, 'Fair N Pink Advance Radiance Cream, 10 g | ₹999',
-     'Fair N Pink Advance Radiance Cream, 10 g jar with glutathione, niacinamide and alpha arbutin. ₹999, MRP ₹3,000. Cash on Delivery available.',
+     'Fair N Pink Advance Radiance Cream, 10 g jar with glutathione, niacinamide and alpha arbutin. ₹999, MRP ₹1,200. Cash on Delivery available.',
      HOME_BODY, home=True, schema=product_schema(SITE + PRODUCT_PATH))
 
 # One page per pack, so Google Merchant Center can check each pack's price on its own page.
@@ -458,9 +458,9 @@ for n in (2, 3):
     body = body.replace('class="pack" role="radio" aria-checked="false" data-pack="%d"' % n, 'class="pack on" role="radio" aria-checked="true" data-pack="%d"' % n)
     body = '<span id="start-pack" data-pack="%d" hidden></span>\n' % n + body
     # The price text is right before any script runs, so Google reads this pack's price straight from the page.
-    was_n = 3000 * n
+    was_n = 1200 * n
     for a, b2 in [('id="price-now">₹999<', 'id="price-now">₹%s<' % '{:,}'.format(PACK_PRICE[n])),
-                  ('id="price-was" class="mrp-plain">MRP ₹3,000<', 'id="price-was" class="mrp-plain">MRP ₹%s<' % '{:,}'.format(was_n)),
+                  ('id="price-was" class="mrp-plain">MRP ₹1,200<', 'id="price-was" class="mrp-plain">MRP ₹%s<' % '{:,}'.format(was_n)),
                   ('id="price-note">inclusive of all taxes<', 'id="price-note">₹%d per jar, inclusive of all taxes<' % round(PACK_PRICE[n] / n)),
                   ('id="media-photo" src="/assets/pack-1.webp"', 'id="media-photo" src="/assets/pack-%d.webp"' % n)]:
         assert a in body, a
@@ -577,7 +577,7 @@ page('/original/', 'Fair N Pink Cream Box, Jar and Seal: What to Expect',
 # ---------------- FAQ ----------------
 FAQ = [
     ('What is Fair N Pink Advance Radiance Cream?', 'It is a face cream with glutathione, niacinamide and alpha arbutin, made for daily use, morning and night. It comes in a %s silver jar.' % NET),
-    ('What is the price of Fair N Pink cream?', 'The MRP printed on the box is ₹3,000 a jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
+    ('What is the price of Fair N Pink cream?', 'The MRP printed on the box is ₹1,200 a jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
     ('Is there a discount for paying online?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
     ('Which payment methods do you accept?', 'UPI, debit cards, credit cards and netbanking, all processed securely by Razorpay, and Cash on Delivery. Prices are in Indian rupees.'),
     ('Can I order on WhatsApp?', 'Yes. Fill in the order form, choose Order on WhatsApp and send the message. We reply on chat to confirm the order and how you would like to pay.'),

@@ -4,7 +4,7 @@
   var UPI_OFF={1:100,2:150,3:250};
   var ADVANCE=99; /* paid online to confirm a Cash on Delivery order; the rest is paid at the door */
   var RZP=true; /* online payment through Razorpay */
-  var MRP=3000; /* maximum retail price printed on the box, per jar */
+  var MRP=1200; /* maximum retail price printed on the box, per jar */
   var PACKS={1:{price:999,was:MRP},2:{price:1899,was:2*MRP},3:{price:2699,was:3*MRP}}, qty=1;
   var startPack=document.getElementById('start-pack'); if(startPack&&PACKS[startPack.getAttribute('data-pack')]){qty=Number(startPack.getAttribute('data-pack'));} /* pack pages open on their own pack */
   function pct(was,price){return Math.round((was-price)/was*100);}
