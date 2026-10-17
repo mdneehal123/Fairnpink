@@ -217,6 +217,8 @@ PRICE_TBL = '''      <div class="tbl"><table>
       </table></div>'''
 
 exec(open(os.path.join(B, 'journal_data.py')).read())
+exec(open(os.path.join(B, 'short_answers.py')).read())
+exec(open(os.path.join(B, 'journal_more.py')).read())
 
 # Reels from the brand's own Instagram account, shown on the home page.
 SHOW_REELS = False  # Instagram answers 'link may be broken' for these reels when embedded, so the section stays off

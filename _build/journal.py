@@ -1,4 +1,3 @@
-exec(open(os.path.join(B, 'short_answers.py')).read())
 # ---------------- Journal ----------------
 body = top('Journal', 'The Fair N Pink journal', 'Plain guides to the cream, its ingredients and everyday skin care.') + '    <section>\n' + jlist(ARTICLES) + '\n    </section>\n' + CTA
 page('/journal/', 'Fair N Pink Journal | Guides to the Cream and Skin Care',
