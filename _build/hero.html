@@ -55,10 +55,10 @@
               <fieldset class="pay">
                 <legend>How would you like to pay?</legend>
                 <label for="pay-upi" class="rec"><em class="rec-tag">★ Recommended</em><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>Pay online: UPI, cards, netbanking<small class="rec-save">You save <b id="pay-save">₹100</b> · nothing to pay at the door</small></span><b id="pay-upi-amt">₹899</b></label>
-                <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small id="pay-cod-note">Pay ₹99 now, ₹900 on delivery</small></span><b id="pay-cod-amt">₹999</b></label>
+                <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small id="pay-cod-note">Nothing to pay now, ₹999 in cash on delivery</small></span><b id="pay-cod-amt">₹999</b></label>
                 <label for="pay-wa"><input type="radio" name="pay" id="pay-wa" value="wa"><span>Order on WhatsApp<small>Send your details and we confirm on chat</small></span><b id="pay-wa-amt">₹999</b></label>
               </fieldset>
-              <p id="cod-terms" class="codterms" hidden>Cash on Delivery orders are confirmed with a ₹99 advance, paid online now. It is part of the price, not an extra charge. If you cancel or refuse the parcel, the ₹99 is refunded to you.</p>
+              <p id="cod-terms" class="codterms" hidden>Nothing to pay now. Pay the pack price in cash when the parcel arrives. Free shipping and no Cash on Delivery fee.</p>
               <div class="osum" id="order-sum" aria-live="polite"></div>
               <div class="notyet" id="not-yet" role="status" hidden>
                 <p><b>So close! Your jar is still waiting.</b> The payment did not go through, so nothing is ordered yet. We kept your details, so you are one tap away.</p>
@@ -70,7 +70,7 @@
               <button type="button" class="btn" id="order-send">Pay securely</button>
               <p class="ohelp">A question before you order? <a id="wa-help" href="https://wa.me/919980881230" target="_blank" rel="noopener">Chat with us on WhatsApp</a></p>
               <p class="osaved" id="saved-line" hidden>Details filled in from your last visit on this device. <button type="button" id="saved-clear">Clear</button></p>
-              <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order, and we may message you on this number about it. You are charged only after you approve the payment in the Razorpay window. See our <a href="#policies">privacy policy</a>.</p>
+              <p style="font-size:.82rem;color:var(--muted);margin:8px 0 0">Your details are used only to confirm and deliver this order, and we may message you on this number about it. For online payment, you are charged only after you approve the payment in the Razorpay window. See our <a href="#policies">privacy policy</a>.</p>
             </form>
           </div>
           <div class="accept" aria-label="Payment methods we accept"><span class="accept-h">We accept</span><span>UPI</span><span>Debit cards</span><span>Credit cards</span><span>Netbanking</span><span>Cash on Delivery</span></div>

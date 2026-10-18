@@ -1,7 +1,9 @@
-const { keys, PACKS, ADVANCE } = require('./_shared');
+const { keys, PACKS } = require('./_shared');
 const shiprocket = require('./_shiprocket');
+const delhivery = require('./_delhivery');
 
-// Order tracking for customers. Accepts a Payment ID (pay_...), an Order ID (order_...) or a courier AWB.
+// Order tracking for customers. Accepts a Payment ID (pay_...), an Order ID (order_...) or a courier AWB
+// (Delhivery for Cash on Delivery orders, Shiprocket for older orders).
 // Returns status only: never a name, phone number or address.
 module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 'no-store');
@@ -12,8 +14,23 @@ module.exports = async (req, res) => {
   const byPhone = !id && (q.phone || q.pin);
   if (byPhone && (!/^[6-9]\d{9}$/.test(phone) || !/^[1-9]\d{5}$/.test(pin))) return res.status(400).json({ error: 'bad_phone' });
   if (!byPhone && (!id || id.length > 60)) return res.status(400).json({ error: 'missing_id' });
+  // A courier tracking number: Delhivery (Cash on Delivery orders) or an older Shiprocket shipment.
+  if (!byPhone && !/^(pay|order)_/.test(id) && /^[A-Za-z0-9]{8,30}$/.test(id)) {
+    try {
+      if (shiprocket.settings()) {
+        const t = await shiprocket.track('awb', id).catch(() => ({ found: false }));
+        if (t.found) return res.status(200).json(t);
+      }
+      if (!/^\d{10,16}$/.test(id)) return res.status(404).json({ error: 'not_found' });
+      const d = await delhivery.track(id);
+      if (!d.found) return res.status(404).json({ error: 'not_found' });
+      return res.status(200).json(d);
+    } catch (e) {
+      return res.status(502).json({ error: 'lookup_failed' });
+    }
+  }
   const k = keys();
-  if (!k || !shiprocket.settings()) return res.status(503).json({ error: 'not_configured' });
+  if (!k) return res.status(503).json({ error: 'not_configured' });
   const auth = { Authorization: 'Basic ' + Buffer.from(k.id + ':' + k.secret).toString('base64') };
   try {
     let orderId = '';
@@ -45,10 +62,6 @@ module.exports = async (req, res) => {
       orderId = p.order_id;
     } else if (/^order_[A-Za-z0-9]{6,40}$/.test(id)) {
       orderId = id;
-    } else if (/^[A-Za-z0-9]{8,30}$/.test(id)) {
-      const t = await shiprocket.track('awb', id);
-      if (!t.found) return res.status(404).json({ error: 'not_found' });
-      return res.status(200).json(t);
     } else {
       return res.status(400).json({ error: 'bad_id' });
     }
@@ -58,10 +71,11 @@ module.exports = async (req, res) => {
     paid = o.status === 'paid';
     const pack = String((o.notes && o.notes.pack) || '');
     const pk = PACKS[Number(pack.replace(/\D/g, ''))];
-    const due = o.notes && o.notes.mode === 'advance' && pk ? pk.price - ADVANCE : 0;
+    // Older Cash on Delivery orders had a small advance paid online; the rest is due at the door.
+    const due = o.notes && o.notes.mode === 'advance' && pk ? Math.max(0, pk.price - Math.round(Number(o.amount_paid || o.amount) / 100)) : 0;
     const placed = o.created_at ? new Date(o.created_at * 1000).toISOString() : '';
     if (!paid) return res.status(200).json({ found: true, paid: false, pack, placed, due });
-    const t = await shiprocket.track('order', orderId);
+    const t = shiprocket.settings() ? await shiprocket.track('order', orderId).catch(() => ({ found: false })) : { found: false };
     const others = Number(res.getHeader && res.getHeader('X-Other-Orders')) || 0;
     return res.status(200).json(Object.assign({ paid: true, pack, placed, due, others }, t.found ? t : { found: true, shipped: false }));
   } catch (e) {

@@ -6,3 +6,23 @@ Static website for Fair N Pink Advance Radiance Cream.
 - Product facts (pack size, key ingredients, WhatsApp number) are in the block at the top of `build.py`. Keep them identical to the printed pack.
 - Prices and the UPI details are in `_build/store.js`.
 - Hosting: any static host. `vercel.json` sets clean URLs with trailing slashes.
+
+## Orders: where they go
+
+- **Pay online (Razorpay, full amount)**: `/api/create-order` sets the amount from the server price table, `/api/verify` checks Razorpay's signature and the payment itself, then saves the order in the **Order Desk** as paid. No courier is booked automatically for paid orders.
+- **Cash on Delivery (nothing paid upfront)**: `/api/cod-order` prices the pack on the server, checks the pincode with **Delhivery** (Cash on Delivery not available there = the customer is asked to pay online), books a Delhivery COD shipment for the pack price, and always saves the order in the **Order Desk** (with the AWB when booked, or a warning to book it by hand when Delhivery failed). If neither Delhivery nor the Order Desk is set up, the page asks the customer to send the order on WhatsApp.
+- Shiprocket is no longer used for new orders. `api/_shiprocket.js` is kept only to track older Shiprocket shipments and estimate delivery days when its variables are still set.
+
+### Vercel environment variables
+
+| Name | Value |
+| --- | --- |
+| `RAZORPAY_KEY_ID`, `RAZORPAY_KEY_SECRET` | Razorpay API keys (already set) |
+| `WEB_ORDER_KEY` | the same key the Order Desk uses for website orders |
+| `ORDERDESK_URL` | optional, default `https://www.skinday.shop` |
+| `DELHIVERY_TOKEN` | Delhivery API token |
+| `DELHIVERY_PICKUP` | `mohammed nihal\|Beauty Mart` (pickup names, tried in order) |
+| `DELHIVERY_MODE`, `DELHIVERY_ENV` | optional: `Express`; `staging` for testing |
+| `SHIPROCKET_EMAIL`, `SHIPROCKET_PASSWORD` | optional, only for tracking older Shiprocket orders |
+
+`/api/ship-check` (troubleshooting) re-sends the latest paid order to the Order Desk (never a duplicate) and shows whether the Delhivery token works.
