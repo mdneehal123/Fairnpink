@@ -41,14 +41,14 @@
     fetch(url).then(function(r){return r.json().then(function(j){return {ok:r.ok,j:j};});})
     .then(function(x){
       if(x.ok&&x.j.found){render(x.j);}
-      else if(x.j&&(x.j.error==='not_found'||x.j.error==='bad_id'||x.j.error==='bad_phone')){show(byPhone?[el('h2','We could not find an order'),el('p','No paid order in the last 90 days matches this mobile number and pincode. Check both are exactly as you entered them when ordering, or track with your Payment ID instead.'),help()]:[el('h2','We could not find that ID'),el('p','Check it and try again. The Payment ID starts with pay_ and is in your payment SMS and on the confirmation screen.'),help()]);}
+      else if(x.j&&(x.j.error==='not_found'||x.j.error==='bad_id'||x.j.error==='bad_phone')){show(byPhone?[el('h2','We could not find an order'),el('p','No paid order in the last 90 days matches this mobile number and pincode. Check both are exactly as you entered them when ordering, or track with your Payment ID instead.'),help()]:[el('h2','We could not find that ID'),el('p','Check it and try again. The Payment ID starts with pay_ and is in your payment SMS. For Cash on Delivery, use the Delhivery tracking number shown on the confirmation screen.'),help()]);}
       else{show([el('h2','Tracking is not available right now'),el('p','Please try again in a few minutes, or message us and we will check for you.'),help()]);}
     }).catch(function(){show([el('h2','Tracking is not available right now'),el('p','Please check your connection and try again.'),help()]);})
     .then(function(){btn.disabled=false;btn.textContent='Track order';});
   }
   form.addEventListener('submit',function(e){e.preventDefault();go();});
   /* Orders placed on this device are remembered here (on the device only), so the customer does not need to look up the ID. */
-  var mine=[];try{mine=JSON.parse(localStorage.getItem('fnp-orders')||'[]').filter(function(o){return o&&/^pay_/.test(o.id);});}catch(e){}
+  var mine=[];try{mine=JSON.parse(localStorage.getItem('fnp-orders')||'[]').filter(function(o){return o&&/^(pay_\w+|\d{10,16})$/.test(o.id);});}catch(e){}
   if(mine.length){
     var box=el('div',null,'track-mine');box.appendChild(el('p','Your orders on this device','track-mine-h'));
     mine.forEach(function(o){var b=el('button',(o.pack||'Order')+' · '+new Date(o.at).toLocaleDateString('en-IN',{day:'numeric',month:'short'}),'track-chip');b.type='button';b.addEventListener('click',function(){setMode(false);input.value=o.id;go();});box.appendChild(b);});

@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { keys, PACKS, ADVANCE } = require('./_shared');
+const { keys, PACKS } = require('./_shared');
 
 // Owner-only list of customers who are due a reorder reminder.
 // Protected by the ADMIN_KEY environment variable. Returns names and phone numbers, so never open it to the public.
@@ -97,13 +97,14 @@ async function orders(k, res, days) {
       items.forEach((o) => {
         const n = o.notes || {};
         if (o.status !== 'paid' || !/Fair N Pink/i.test(String(n.product || ''))) return;
+        // Cash on Delivery orders are no longer paid through Razorpay; only older ones (with a small advance) show here.
         const cod = n.mode === 'advance';
         const pack = PACKS[Number(String(n.pack || '').replace(/\D/g, ''))];
         const t = new Date((o.created_at + IST) * 1000);
         out.push({
           id: o.id, at: o.created_at, name: String(n.name || ''), phone: String(n.phone || '').replace(/\D/g, '').slice(-10),
           pack: String(n.pack || ''), city: String(n.city || ''), pincode: String(n.pincode || ''), cod,
-          paid: Math.round(Number(o.amount) / 100), collect: cod && pack ? pack.price - ADVANCE : 0,
+          paid: Math.round(Number(o.amount) / 100), collect: cod && pack ? Math.max(0, pack.price - Math.round(Number(o.amount) / 100)) : 0,
           today: o.created_at >= todayStart,
           when: t.getUTCDate() + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][t.getUTCMonth()] + ', ' +
             ((t.getUTCHours() + 11) % 12 + 1) + ':' + String(t.getUTCMinutes()).padStart(2, '0') + (t.getUTCHours() < 12 ? ' am' : ' pm')

@@ -2,7 +2,6 @@
   var WA_NUMBER='919980881230'; /* business WhatsApp number with country code, digits only, e.g. 9198XXXXXXXX */
   var ADS_SEND_TO='AW-18495856180/xokwCNXZgpIdELS8wfNE'; /* Google Ads conversion, e.g. AW-18495856180/AbCdEfGh. Empty = not tracked yet */
   var UPI_OFF={1:100,2:150,3:250};
-  var ADVANCE=99; /* paid online to confirm a Cash on Delivery order; the rest is paid at the door */
   var RZP=true; /* online payment through Razorpay */
   var MRP=1200; /* maximum retail price printed on the box, per jar */
   var PACKS={1:{price:999,was:MRP},2:{price:1899,was:2*MRP},3:{price:2699,was:3*MRP}}, qty=1;
@@ -28,7 +27,7 @@
     document.getElementById('pay-upi-amt').textContent=rupees(p.price-off);
     document.getElementById('pay-cod-amt').textContent=rupees(p.price);
     document.getElementById('pay-wa-amt').textContent=rupees(p.price);
-    document.getElementById('pay-cod-note').textContent='Pay '+rupees(ADVANCE)+' now, '+rupees(p.price-ADVANCE)+' on delivery';
+    document.getElementById('pay-cod-note').textContent='Nothing to pay now, '+rupees(p.price)+' in cash on delivery';
     if(typeof orderLink==='function'){orderLink();}
     var msg='Hello, I want to order Fair N Pink Advance Radiance Cream.\n'+label+' - '+rupees(p.price)+'\nName: \nAddress and pincode: ';
     document.getElementById('wa-order').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
@@ -99,8 +98,8 @@
     }else if(m==='cod'){
       box.appendChild(sumRow('Your price',rupees(p.price)));
       box.appendChild(sumRow('Delivery or handling fee','None'));
-      box.appendChild(sumRow('You pay now (advance)',rupees(ADVANCE),'osum-total'));
-      box.appendChild(sumRow('You pay in cash on delivery',rupees(p.price-ADVANCE)));
+      box.appendChild(sumRow('You pay now','Nothing'));
+      box.appendChild(sumRow('You pay in cash on delivery',rupees(p.price),'osum-total'));
     }else{
       box.appendChild(sumRow('Order total',rupees(p.price),'osum-total'));
       box.appendChild(sumRow('Payment','Confirmed with you on WhatsApp'));
@@ -108,7 +107,7 @@
   }
   function orderLink(){
     var p=PACKS[qty], m=payMode();
-    if(!sendBtn.dataset.busy){sendBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty])+' securely':m==='cod'?'Pay '+rupees(ADVANCE)+' to confirm order':'Send order on WhatsApp';}
+    if(!sendBtn.dataset.busy){sendBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty])+' securely':m==='cod'?'Place order, pay '+rupees(p.price)+' on delivery':'Send order on WhatsApp';}
     if(typeof barSync==='function'){barSync();}
     document.getElementById('cod-terms').hidden=m!=='cod';
     summary(m);
@@ -133,26 +132,30 @@
     s.onload=done;s.onerror=function(){fail('The payment window could not load. Please check your connection and try again, or message us on WhatsApp.');};
     document.head.appendChild(s);
   }
-  function paid(paymentId,total,confirmed,balance){
-    track(total,paymentId);trackMeta(total,paymentId);remember();clearPending();
-    try{var past=JSON.parse(localStorage.getItem('fnp-orders')||'[]').filter(function(o){return o&&o.id!==paymentId;});past.unshift({id:paymentId,pack:'Pack of '+qty,at:Date.now()});localStorage.setItem('fnp-orders',JSON.stringify(past.slice(0,5)));}catch(e){}
+  function custPayload(){return {pack:qty,name:F.name.value.trim(),phone:mobile(F.phone.value),address:F.address.value.trim(),city:F.city.value.trim(),pincode:F.pin.value.trim()};}
+  /* The thank-you screen. o.cod: Cash on Delivery (o.ref order number, o.awb Delhivery tracking number when booked);
+     otherwise a full online payment (o.id payment ID, o.confirmed when the server has verified it). */
+  function finishOrder(o){
+    var cod=!!o.cod, total=o.total, trackId=cod?(o.awb||''):o.id, orderNo=cod?o.ref:o.id;
+    track(total,orderNo);trackMeta(total,orderNo);remember();clearPending();
+    if(trackId){try{var past=JSON.parse(localStorage.getItem('fnp-orders')||'[]').filter(function(x){return x&&x.id!==trackId;});past.unshift({id:trackId,pack:'Pack of '+qty,at:Date.now()});localStorage.setItem('fnp-orders',JSON.stringify(past.slice(0,5)));}catch(e){}}
     ordered=true;
-    var cod=balance>0;
-    var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'Advance paid: '+rupees(ADVANCE)+'\nTo pay on delivery: '+rupees(balance):'Paid online: '+rupees(total))+'\nPayment ID: '+paymentId+'\nTrack: https://fairnpink.in/track/?id='+paymentId+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
+    var msg=(cod?'Cash on Delivery order':'Paid order')+': Fair N Pink Advance Radiance Cream\nPack of '+qty+'\n'+(cod?'To pay on delivery: '+rupees(total)+'\nOrder number: '+o.ref+(o.awb?'\nDelhivery tracking number: '+o.awb+'\nTrack: https://fairnpink.in/track/?id='+o.awb:''):'Paid online: '+rupees(total)+'\nPayment ID: '+o.id+'\nTrack: https://fairnpink.in/track/?id='+o.id)+'\n\nName: '+F.name.value.trim()+'\nMobile: '+F.phone.value.trim()+'\nAddress: '+F.address.value.trim()+'\nCity: '+F.city.value.trim()+'\nPincode: '+F.pin.value.trim();
     var form=document.getElementById('order-form'), box=document.createElement('div');
     box.className='thanks';box.setAttribute('role','status');
     function el(tag,cls,text){var x=document.createElement(tag);if(cls){x.className=cls;}if(text){x.textContent=text;}box.appendChild(x);return x;}
     el('span','thanks-tick','✓').setAttribute('aria-hidden','true');
-    el('h3','',confirmed?(cod?'Order confirmed. Thank you.':'Payment received. Thank you.'):'Payment submitted. We are confirming it.');
-    el('p','thanks-sub','We have your delivery details and will dispatch within 24 hours, except on Sundays and national holidays.');
+    el('h3','',cod?'Order placed. Thank you.':o.confirmed?'Payment received. Thank you.':'Payment submitted. We are confirming it.');
+    el('p','thanks-sub',(cod?'Nothing to pay now. ':'')+'We have your delivery details and will dispatch within 24 hours, except on Sundays and national holidays.');
     var list=el('div','osum');
     list.appendChild(sumRow('Order','Pack of '+qty));
-    if(cod){list.appendChild(sumRow('Advance received',rupees(ADVANCE)));list.appendChild(sumRow('To pay in cash on delivery',rupees(balance),'osum-total'));}
+    if(cod){list.appendChild(sumRow('To pay in cash on delivery',rupees(total),'osum-total'));}
     else{list.appendChild(sumRow('Paid online',rupees(total),'osum-total'));}
     list.appendChild(sumRow('Delivering to',F.city.value.trim()+' '+F.pin.value.trim()));
-    list.appendChild(sumRow('Order number',paymentId,'osum-id'));
-    el('p','thanks-note','Keep the order number. It is all you need to track this order.');
-    var t=el('a','btn','Track this order');t.href='/track/?id='+encodeURIComponent(paymentId);
+    list.appendChild(sumRow('Order number',orderNo,'osum-id'));
+    if(cod&&o.awb){list.appendChild(sumRow('Delhivery tracking number',o.awb,'osum-id'));}
+    el('p','thanks-note',trackId?(cod?'Keep the tracking number. It is all you need to track this order.':'Keep the order number. It is all you need to track this order.'):'We will message you the courier tracking number on WhatsApp once the parcel is booked.');
+    if(trackId){var t=el('a','btn','Track this order');t.href='/track/?id='+encodeURIComponent(trackId);}
     var a=el('a','btn ghost','Get updates on WhatsApp');a.target='_blank';a.rel='noopener';a.href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(msg);
     el('p','thanks-note','Save our WhatsApp number for any question about this order: +'+WA_NUMBER.slice(0,2)+' '+WA_NUMBER.slice(2,7)+' '+WA_NUMBER.slice(7)+'.');
     el('h4','','When your jar arrives');
@@ -167,24 +170,25 @@
     var intro=panel.querySelectorAll('p')[1];if(intro){intro.hidden=true;}
     box.scrollIntoView({block:'center',behavior:'smooth'});
   }
-  function payOnline(advance){
-    var total=advance?PACKS[qty].price:PACKS[qty].price-UPI_OFF[qty];
-    lastMode=advance?'cod':'online';notYet.hidden=true;
+  /* Full online payment through Razorpay. The amount is set by the server. */
+  function payOnline(){
+    var total=PACKS[qty].price-UPI_OFF[qty];
+    lastMode='online';notYet.hidden=true;
     step('begin_checkout');step('add_payment_info');
     err.hidden=true;sendBtn.dataset.busy='1';sendBtn.textContent='Opening secure payment…';
-    fetch('/api/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pack:qty,mode:advance?'advance':'full',name:F.name.value.trim(),phone:mobile(F.phone.value),address:F.address.value.trim(),city:F.city.value.trim(),pincode:F.pin.value.trim()})})
+    fetch('/api/create-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(custPayload())})
     .then(function(r){return r.ok?r.json():Promise.reject(r.status);})
     .then(function(o){
-      var balance=Number(o.balance)||0;
+      if(o.total){total=Number(o.total);}
       loadCheckout(function(){
         var done=false;
-        var rz=new window.Razorpay({key:o.key_id,order_id:o.order_id,amount:o.amount,currency:o.currency,name:'Fair N Pink',description:'Advance Radiance Cream, Pack of '+qty+(advance?' (advance for Cash on Delivery)':''),
+        var rz=new window.Razorpay({key:o.key_id,order_id:o.order_id,amount:o.amount,currency:o.currency,name:'Fair N Pink',description:'Advance Radiance Cream, Pack of '+qty,
           prefill:{name:F.name.value.trim(),contact:mobile(F.phone.value)},theme:{color:'#231B1E'},
           handler:function(resp){
             done=true;
             fetch('/api/verify',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(resp)})
-            .then(function(r){return r.json();}).then(function(v){paid(resp.razorpay_payment_id,total,!!v.ok,balance);})
-            .catch(function(){paid(resp.razorpay_payment_id,total,false,balance);});
+            .then(function(r){return r.json();}).then(function(v){finishOrder({id:resp.razorpay_payment_id,total:total,confirmed:!!v.ok});})
+            .catch(function(){finishOrder({id:resp.razorpay_payment_id,total:total,confirmed:false});});
           },
           modal:{ondismiss:function(){delete sendBtn.dataset.busy;orderLink();if(!done){stopped();}}}});
         rz.on('payment.failed',function(){fail('The payment did not go through. Nothing was charged if your bank shows no debit. Please try again, or message us on WhatsApp.');});
@@ -192,6 +196,22 @@
       });
     })
     .catch(function(){fail('Online payment is not available right now. Please try again in a few minutes, or message us on WhatsApp.');});
+  }
+  /* Cash on Delivery: nothing is paid now. The server books the parcel with Delhivery and saves the order. */
+  function bookCod(){
+    lastMode='cod';notYet.hidden=true;
+    step('begin_checkout');step('add_payment_info');
+    err.hidden=true;sendBtn.dataset.busy='1';sendBtn.textContent='Placing your order…';
+    fetch('/api/cod-order',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(custPayload())})
+    .then(function(r){return r.json().catch(function(){return {};}).then(function(j){return {status:r.status,j:j};});})
+    .then(function(x){
+      var j=x.j||{};
+      if(x.status===200&&j.ok){delete sendBtn.dataset.busy;finishOrder({cod:true,ref:j.ref,awb:j.awb||'',total:Number(j.total)||PACKS[qty].price});return;}
+      if(x.status===409||j.codUnavailable){choose('pay-upi');fail('Cash on Delivery is not available for pincode '+F.pin.value.trim()+'. Please pay online instead (you also save '+rupees(UPI_OFF[qty])+'), or order on WhatsApp.');return;}
+      if(x.status===400){fail('Please check your delivery details and try again.');return;}
+      choose('pay-wa');fail('We could not place the Cash on Delivery order just now. Tap the button below to send it to us on WhatsApp instead, and we will confirm it there.');
+    })
+    .catch(function(){choose('pay-wa');fail('We could not place the order just now. Please check your connection, or tap the button below to send it on WhatsApp.');});
   }
   /* Remember delivery details on this device only, after an order, so a repeat order needs no typing. */
   var KEY='fnp-details', savedLine=document.getElementById('saved-line');
@@ -206,7 +226,7 @@
   function stopped(){
     setPending();
     var sw=document.getElementById('ny-switch');
-    sw.textContent=lastMode==='cod'?'Pay online instead and save '+rupees(UPI_OFF[qty]):'Pay just '+rupees(ADVANCE)+' now, the rest on delivery';
+    sw.textContent=lastMode==='cod'?'Pay online instead and save '+rupees(UPI_OFF[qty]):'Switch to Cash on Delivery, nothing to pay now';
     notYet.hidden=false;notYet.scrollIntoView({block:'center',behavior:'smooth'});
   }
   function choose(id){document.getElementById(id).checked=true;orderLink();}
@@ -229,6 +249,7 @@
       if(d.city||d.state){parts.push([d.city,d.state].filter(Boolean).join(', '));}
       if(d.days){var by=new Date(addWorkingDays(new Date(),1).getTime());by.setDate(by.getDate()+d.days);if(by.getDay()===0){by.setDate(by.getDate()+1);}
         parts.push('estimated delivery by '+by.toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'}));}
+      if(d.cod===false){parts.push('Cash on Delivery is not available here, please pay online');}
       if(parts.length){pinNote.textContent=parts.join(' · ');pinNote.hidden=false;}
       if(!err.hidden&&!orderProblem()){err.hidden=true;}
     }).catch(function(){});
@@ -241,7 +262,7 @@
     if(p){showProblem(p);return;}
     mark();
     if(m==='wa'){err.hidden=true;remember();clearPending();ordered=true;window.open(waOrderUrl(),'_blank','noopener');return;}
-    payOnline(m==='cod');
+    if(m==='cod'){bookCod();}else{payOnline();}
   });
   document.getElementById('pay-wa').addEventListener('change',orderLink);
   document.getElementById('pay-upi').addEventListener('change',orderLink);
@@ -266,7 +287,7 @@
     if(!barBtn){return;}
     var bar=barBtn.parentNode, p=PACKS[qty], m=payMode();
     if(inCheckout()){
-      barBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty]):m==='cod'?'Pay '+rupees(ADVANCE)+' now':'Send on WhatsApp';
+      barBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty]):m==='cod'?'Place COD order':'Send on WhatsApp';
       barQty.textContent='Pack of '+qty+' · '+(m==='online'?'paid online':m==='cod'?'Cash on Delivery':'order on WhatsApp');
       bar.classList.toggle('bar-off',payInView);
     }else{
