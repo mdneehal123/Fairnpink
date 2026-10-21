@@ -4,7 +4,7 @@
 MORE_ARTICLES = [
     ('best-night-cream-for-glowing-skin', 'Best night cream for glowing skin: how to choose one in India',
      'Best Night Cream for Glowing Skin in India: How to Choose (2026)',
-     'How to choose the best night cream for glowing skin in India: the ingredients to look for, the texture for your skin type, price per gram, and a simple night routine.',
+     'How to choose the best night cream for glowing skin in India: the ingredients to look for, the texture for your skin type, price per gram and a simple routine.',
      'Buying guide', 'The ingredients, texture and price checks that matter.', '''
         <p>The best night cream for glowing skin is one with proven ingredients such as <b>niacinamide</b>, <b>alpha arbutin</b> or an antioxidant like <b>glutathione</b>, a texture that suits your skin, and a price you can keep paying every month. A cream only works if you use it every night for several weeks.</p>
         <h2>1. Check the ingredients, not the front of the box</h2>
@@ -123,7 +123,7 @@ MORE_ARTICLES = [
         <p>Anyone pregnant or breastfeeding, anyone under treatment for a skin condition, and anyone with very sensitive or fragrance-allergic skin should ask a doctor first. See <a href="/journal/alpha-arbutin-cream-side-effects/">alpha arbutin side effects</a>.</p>'''),
 
     ('night-cream-for-dull-skin', 'Night cream for dull skin: a simple routine that works',
-     'Night Cream for Dull Skin: Simple Routine for Fresher-Looking Skin',
+     'Night Cream for Dull Skin: Simple Routine for a Fresher Look',
      'Why skin looks dull, which night cream ingredients help it look fresher, and a simple day and night routine.',
      'Routine', 'Why skin looks dull and the routine that helps.', '''
         <p>For dull skin, use a moisturising night cream with niacinamide and an antioxidant such as glutathione, cleanse gently, sleep enough and wear sunscreen every day. Most people see fresher-looking skin within two to four weeks of steady use.</p>

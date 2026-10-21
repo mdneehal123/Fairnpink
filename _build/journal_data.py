@@ -152,7 +152,7 @@ ARTICLES = [
         <h2>Make sure it is the real one</h2>
         <p>Check that the pack says Fair N Pink Advance Radiance Cream and shows a net weight of %(net)s. Our guide to <a href="/original/">what a Fair N Pink jar looks like</a> has a photo of the box and jar.</p>'''),
     ('who-can-use-fair-n-pink-cream', 'Who can use Fair N Pink cream? Men, oily skin, dry skin and sensitive skin',
-     'Fair N Pink Cream for Men, Oily Skin and Dry Skin | Who Can Use It',
+     'Fair N Pink Cream for Men, Oily and Dry Skin | Who Can Use It',
      'Can men use Fair N Pink cream? Is it suitable for oily, dry or sensitive skin? How to adjust the routine for your skin type, and who should ask a doctor first.',
      'Skin type', 'How to adjust the routine for your skin, and who should check with a doctor.', '''
         <p>Fair N Pink Advance Radiance Cream is made for all skin types, and it is not a product for women only. What changes from person to person is how much to apply and when.</p>

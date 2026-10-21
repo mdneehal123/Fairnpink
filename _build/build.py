@@ -442,8 +442,8 @@ def product_schema(url, n=1):
                             'handlingTime': {'@type': 'QuantitativeValue', 'minValue': 0, 'maxValue': 1, 'unitCode': 'DAY'},
                             'transitTime': {'@type': 'QuantitativeValue', 'minValue': 3, 'maxValue': 7, 'unitCode': 'DAY'}}},
                     'seller': {'@id': SITE + '/#org'}}}]
-page('/', 'Fair N Pink Advance Radiance Cream | Brightening Cream for Face, ₹999',
-     'Fair N Pink Advance Radiance Cream, a brightening cream for face with glutathione, niacinamide and alpha arbutin. 10 g jar, ₹999, free shipping, Cash on Delivery available.',
+page('/', 'Fair N Pink Advance Radiance Cream | Brightening Face Cream ₹999',
+     'Fair N Pink Advance Radiance Cream, a brightening cream for face with glutathione, niacinamide and alpha arbutin. 10 g jar, ₹999, free shipping and COD.',
      HOME_BODY, home=True, schema=product_schema(SITE + '/') + [{'@type': 'FAQPage', 'mainEntity': [
          {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': strip_tags(a)}} for q, a in HOME_FAQ]}])
 # The same store on a product address, for Instagram product tags and other places that need a product page link.
@@ -470,7 +470,7 @@ for n in (2, 3):
         body = body.replace(a, b2)
     each = round(PACK_PRICE[n] / n)
     page(PACK_PATH[n], 'Fair N Pink Advance Radiance Cream, Pack of %d (%d x 10 g) | ₹%s' % (n, n, '{:,}'.format(PACK_PRICE[n])),
-         'Fair N Pink Advance Radiance Cream, pack of %d jars (%d x 10 g) with glutathione, niacinamide and alpha arbutin. ₹%s (₹%d a jar), free shipping, Cash on Delivery available.' % (n, n, '{:,}'.format(PACK_PRICE[n]), each),
+         'Fair N Pink Advance Radiance Cream, pack of %d jars (%d x 10 g) with glutathione, niacinamide and alpha arbutin. ₹%s (₹%d a jar), free shipping and COD.' % (n, n, '{:,}'.format(PACK_PRICE[n]), each),
          body, home=True, schema=product_schema(SITE + PACK_PATH[n], n), og=og_for(n), preimg='pack-%d.webp' % n)
     _f = os.path.join(ROOT, PACK_PATH[n].strip('/'), 'index.html')   # the floating bar lives in the page frame, outside the body
     _html = open(_f).read().replace('id="bar-total">₹999<', 'id="bar-total">₹%s<' % '{:,}'.format(PACK_PRICE[n]))
@@ -484,7 +484,7 @@ assert _h1 in HOME_BODY
 BRIGHT_BODY = HOME_BODY.replace(_h1, '<h1>Brightening Cream for Face <span class="h1-sub">Fair N Pink Advance Radiance Cream with glutathione</span></h1>')
 assert BRIGHT_INTRO in BRIGHT_BODY
 page(BRIGHT_PATH, 'Brightening Cream for Face with Glutathione | Fair N Pink, ₹999',
-     'Brightening cream for face with glutathione, niacinamide and alpha arbutin. For dull-looking skin and the look of dark spots. ₹999, free shipping, Cash on Delivery.',
+     'Brightening cream for face with glutathione, niacinamide and alpha arbutin. For dull-looking skin and the look of dark spots. ₹999, free shipping and COD.',
      BRIGHT_BODY, home=True, schema=product_schema(SITE + BRIGHT_PATH))
 
 # More Google Ads landing pages, one per ad group, built the same way: the store page with the
@@ -558,7 +558,7 @@ body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance 
       </div>
     </section>
 ''' % wa_link('Hello, please send me the full ingredient list of Fair N Pink Advance Radiance Cream.') + sec('At a glance', 'The three ingredients', '', ACT_GRID) + CTA
-page('/ingredients/', 'Fair N Pink Cream Ingredients | Glutathione, Niacinamide, Alpha Arbutin',
+page('/ingredients/', 'Fair N Pink Ingredients: Glutathione, Niacinamide, Alpha Arbutin',
      'What is in Fair N Pink Advance Radiance Cream: glutathione, niacinamide and alpha arbutin, what each one does, and who should patch test first.',
      body, crumbs='Ingredients')
 
@@ -708,7 +708,7 @@ body = top('Your order', 'Track your Fair N Pink order', 'Use the mobile number 
       </div>
       <p class="more"><a href="/shipping-policy/">Delivery times and shipping policy</a></p>''')
 page('/track/', 'Track Your Order | Fair N Pink',
-     'Track your Fair N Pink order with your mobile number and pincode, your Payment ID or the courier tracking number, and see whether your parcel is packed, shipped or delivered.',
+     'Track your Fair N Pink order with your mobile number and pincode, your Payment ID or courier tracking number, and see if it is packed, shipped or delivered.',
      body, crumbs='Track order', js='track.js')
 
 # ---------------- Policies ----------------
@@ -748,7 +748,10 @@ POL = [
 ]
 for path, h1, crumb, lead, inner in POL:
     body = top('Store policies', h1, lead) + '    <section>\n      <div class="prose">%s\n        <p class="stamp">Last updated 5 October 2026. Questions: <a href="/contact/">contact us</a>.</p>\n      </div>\n    </section>\n' % inner
-    page(path, '%s | Fair N Pink' % h1, '%s for orders placed on fairnpink.in, the Fair N Pink online store run by Beauty Mart, Bhatkal. %s' % (h1, lead), body, crumbs=crumb)
+    _desc = '%s for orders placed on fairnpink.in, the Fair N Pink online store run by Beauty Mart, Bhatkal. %s' % (h1, lead)
+    if len(_desc) > 160: _desc = '%s for orders on fairnpink.in (Beauty Mart, Bhatkal). %s' % (h1, lead)
+    if len(_desc) > 160: _desc = '%s for fairnpink.in orders. %s' % (h1, lead)
+    page(path, '%s | Fair N Pink' % h1, _desc, body, crumbs=crumb)
 
 exec(open(os.path.join(B, 'journal.py')).read())
 
