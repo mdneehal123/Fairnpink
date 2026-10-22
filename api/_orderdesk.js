@@ -21,4 +21,17 @@ async function pushToDesk({ ref, c, q, pay, paid, payId, courier, awb, note }) {
   } catch (e) { return { ok: false, error: String((e && e.message) || e) }; }
 }
 
-module.exports = { pushToDesk, deskOn };
+// A checkout lead: the shopper ticked the WhatsApp consent box. Order Desk keeps one entry per phone.
+async function pushLead({ phone, name, product }) {
+  if (!deskOn()) return { ok: false, error: 'WEB_ORDER_KEY not set' };
+  try {
+    const r = await fetch(deskUrl() + '/api/web-order', {
+      method: 'POST', headers: { 'Content-Type': 'application/json', 'x-web-order-key': process.env.WEB_ORDER_KEY },
+      body: JSON.stringify({ lead: true, consent: true, phone, name: name || '', product: product || '', site: 'fairnpink.in' })
+    });
+    const j = await r.json().catch(() => ({}));
+    return r.ok && j.ok ? { ok: true } : { ok: false, error: j.error || 'Order Desk HTTP ' + r.status };
+  } catch (e) { return { ok: false, error: String((e && e.message) || e) }; }
+}
+
+module.exports = { pushToDesk, pushLead, deskOn };

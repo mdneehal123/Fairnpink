@@ -114,6 +114,18 @@
   }
   Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();F[k].classList.remove('bad');F[k].removeAttribute('aria-invalid');var fe=F[k].nextElementSibling;if(fe&&fe.className==='fielderr'){fe.remove();}if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
   F.phone.addEventListener('blur',function(){if(F.phone.value.trim()&&!mobile(F.phone.value)){F.phone.classList.add('bad');}});
+  /* Checkout lead: only when the shopper ticks the WhatsApp box and the number is valid. Once per number per page load, fire and forget. */
+  var leadSent={}, consent=document.getElementById('of-consent');
+  function sendLead(){
+    try{
+      var ph=mobile(F.phone.value);
+      if(!consent||!consent.checked||!ph||leadSent[ph]){return;}
+      leadSent[ph]=1;
+      fetch('/api/lead',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({name:F.name.value.trim(),phone:ph,product:'Fair N Pink Advance Radiance Cream - Pack of '+qty,consent:true})}).catch(function(){});
+    }catch(e){}
+  }
+  F.phone.addEventListener('blur',sendLead);
+  if(consent){consent.addEventListener('change',sendLead);}
   /* Anonymous steps for Google Ads audiences (no name, number or address is sent). Each is sent once per page view. */
   var stepSent={};
   var FB_STEP={begin_checkout:'InitiateCheckout',add_payment_info:'AddPaymentInfo'};

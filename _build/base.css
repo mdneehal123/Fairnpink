@@ -81,6 +81,8 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 .oform input:focus,.oform textarea:focus{outline:3px solid var(--turmeric);outline-offset:1px;border-color:var(--ink)}
 .oform .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .oform .two>div{display:flex;flex-direction:column;gap:6px;min-width:0}
+.oform label.consent{display:flex;align-items:flex-start;gap:10px;font-size:.82rem;font-weight:400;line-height:1.4;color:var(--muted);cursor:pointer}
+.oform label.consent input{width:18px;height:18px;margin:1px 0 0;padding:0;flex:0 0 auto;accent-color:var(--ink)}
 .oform .btn{margin-top:12px;flex:0 0 auto}
 .oerr{color:var(--err);font-size:.88rem;font-weight:600}
 .policies details p+p{margin-top:8px}
