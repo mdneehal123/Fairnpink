@@ -271,6 +271,123 @@ MORE_ARTICLES = [
         <p>After about 24 hours, once the area no longer stings, yes. Use a very small amount.</p>
         <h3>Does a facial make a cream work faster?</h3>
         <p>No. A facial can make skin look fresh for a day or two, but steady daily use of a cream with sunscreen over four to eight weeks matters more. Results differ from person to person.</p>'''),
+
+    ('alpha-arbutin-and-vitamin-c', 'Can you use alpha arbutin and vitamin C together?',
+     'Alpha Arbutin and Vitamin C Together: How to Use Both',
+     'Can you use alpha arbutin and vitamin C together? Yes. Which goes first, morning or night, who should be careful, and a simple routine for Indian weather.',
+     'Ingredients', 'Which goes first, morning or night, and mistakes to avoid.', '''
+        <p>Yes, alpha arbutin and vitamin C can be used together, and many people use them in the same routine for more even-looking skin. The simplest way is a vitamin C serum in the morning under sunscreen and an alpha arbutin cream at night, or both in the morning with the thinner product first.</p>
+        <h2>Why the pair is popular</h2>
+        <p>Both ingredients are used for the look of dark spots, marks and dullness, but they do different jobs. Alpha arbutin is used to help reduce the look of dark spots and uneven tone and is generally gentle. Vitamin C is an antioxidant that helps skin look fresher and supports your sunscreen against daily sun and pollution. Neither one changes your natural skin colour; together they simply help the skin you have look brighter and more even over weeks.</p>
+        <table>
+          <thead><tr><th></th><th>Alpha arbutin</th><th>Vitamin C</th></tr></thead>
+          <tbody>
+            <tr><td>Main cosmetic job</td><td>Helps dark spots and uneven tone look lighter over time</td><td>Antioxidant; fresher, brighter-looking skin</td></tr>
+            <tr><td>Feel on skin</td><td>Usually gentle</td><td>Can tingle, especially strong serums</td></tr>
+            <tr><td>Best time</td><td>Morning or night</td><td>Usually morning, under sunscreen</td></tr>
+            <tr><td>Common form</td><td>Creams and serums</td><td>Serums, often in dark or airless bottles</td></tr>
+            <tr><td>Main care point</td><td>Patience: eight weeks or more</td><td>Can irritate sensitive skin; goes off with air and light</td></tr>
+          </tbody>
+        </table>
+        <h2>Which goes first?</h2>
+        <p>Layer from thinnest to thickest. A watery vitamin C serum goes on first, then a cream with alpha arbutin, then sunscreen in the morning. Let each layer settle for a minute or two. You do not need to wait longer, and there is no need to mix them in your palm.</p>
+        <h2>A simple routine using both</h2>
+        <ol>
+          <li><b>Patch test</b> each product on your inner arm for 24 hours before using it on your face.</li>
+          <li><b>Morning:</b> wash with a mild face wash, pat dry, apply a few drops of vitamin C serum, let it settle, then a pea-sized amount of your alpha arbutin cream, and finish with sunscreen.</li>
+          <li><b>Night:</b> wash off sunscreen and sweat, then apply only the alpha arbutin cream. This keeps nights gentle.</li>
+          <li><b>Start slowly</b> with vitamin C if you are new to it: every other morning for the first two weeks.</li>
+          <li><b>Check at four weeks,</b> and judge dark spots at eight weeks or more.</li>
+        </ol>
+        <p><a href="/niacinamide-alpha-arbutin-cream/">Fair N Pink Advance Radiance Cream</a> contains alpha arbutin with niacinamide and L-glutathione, so it can sit in the cream step of this routine. It does not list vitamin C, so a separate serum is optional, not required. Our <a href="/how-to-use/">morning and night routine</a> shows the basic steps.</p>
+        <h2>Who should be careful</h2>
+        <ul>
+          <li><b>Sensitive skin or rosacea:</b> strong vitamin C serums can sting. Try a gentler one, use it on alternate days, or skip it.</li>
+          <li><b>Using retinol or exfoliating acids:</b> keep vitamin C for the morning and those for the night, not stacked together. See <a href="/journal/glutathione-cream-with-retinol/">using a glutathione cream with retinol</a>.</li>
+          <li><b>Pregnant or breastfeeding, or under care for a skin condition:</b> ask your doctor before adding new actives.</li>
+          <li><b>Allergic to perfumed products:</b> check labels; our cream contains fragrance.</li>
+        </ul>
+        <h2>Mistakes that hold back results</h2>
+        <ul>
+          <li><b>Skipping sunscreen.</b> Daily sun keeps creating new tan and marks, which undoes the work of both ingredients. Read <a href="/journal/glutathione-cream-with-sunscreen/">why sunscreen matters</a>.</li>
+          <li><b>Using an old, darkened vitamin C serum.</b> If it has turned dark orange or brown, it has likely oxidised; replace it.</li>
+          <li><b>Adding lemon, toothpaste or baking soda.</b> These home hacks can irritate skin and leave marks looking worse.</li>
+          <li><b>Changing products every week.</b> Give one routine at least eight weeks before you decide.</li>
+          <li><b>Keeping serums in a hot bathroom.</b> In Indian summers, store skincare in a cool, shaded spot with lids closed.</li>
+        </ul>
+        <h2>What to expect</h2>
+        <p>Over the first few weeks, skin may look fresher and feel smoother. Dark spots, if they respond, fade slowly over two to three months; some marks change little. Melasma and patches that spread or itch need a dermatologist, not just a cosmetic routine. For more on spots, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Can I mix alpha arbutin and vitamin C in my palm?</h3>
+        <p>It is better to layer them, serum first and cream second. Mixing can dilute both unevenly.</p>
+        <h3>Can I use alpha arbutin and vitamin C at night?</h3>
+        <p>You can, but vitamin C is usually more useful in the morning under sunscreen. A gentle night routine with only your alpha arbutin cream is easier on skin.</p>
+        <h3>Is alpha arbutin better than vitamin C for dark spots?</h3>
+        <p>They are not competitors. Alpha arbutin is aimed at the look of dark spots; vitamin C is mainly an antioxidant. Many routines use both. Read more in our <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream guide</a>.</p>
+        <h3>Can I use niacinamide too?</h3>
+        <p>Yes. Niacinamide, alpha arbutin and vitamin C are commonly used in the same routine. See <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin together</a>.</p>'''),
+
+    ('face-cream-for-uneven-skin-tone', 'Face cream for uneven skin tone: what helps and how to choose',
+     'Face Cream for Uneven Skin Tone: What Helps and How to Choose',
+     'Which face cream helps uneven skin tone? Common causes in Indian skin, ingredients to look for, a simple routine, red flags to avoid and when to see a doctor.',
+     'Skin concerns', 'Causes, ingredients to look for and a simple routine.', '''
+        <p>A good face cream for uneven skin tone contains ingredients such as niacinamide, alpha arbutin or glutathione, is free from steroids and mercury, and is used every day with sunscreen for at least eight weeks. It can help patchy, tanned or marked areas look more even; it does not change your natural skin colour.</p>
+        <h2>What uneven skin tone usually means</h2>
+        <p>Uneven tone is when some parts of the face look darker, duller or blotchier than others. In Indian skin, the common patterns are:</p>
+        <ul>
+          <li><b>Tan on the forehead, nose and cheekbones,</b> the areas that catch the most sun on a commute or two-wheeler ride.</li>
+          <li><b>Darker areas around the mouth and chin,</b> often linked to dryness, licking lips or hair removal.</li>
+          <li><b>Marks left after pimples,</b> which can stay for weeks or months after the pimple has gone.</li>
+          <li><b>Patchy darkening after threading, waxing or bleach</b> on irritated skin.</li>
+          <li><b>Dullness from dryness,</b> which makes the whole face look uneven, especially in winter.</li>
+        </ul>
+        <p>Brown or grey-brown patches on both cheeks, the forehead or upper lip may be melasma, which is a medical condition. Patches that spread, itch, scale or change shape also need a dermatologist, not a cosmetic cream.</p>
+        <h2>Ingredients to look for</h2>
+        <table>
+          <thead><tr><th>Ingredient</th><th>What it does in a cream</th><th>Good for</th></tr></thead>
+          <tbody>
+            <tr><td>Niacinamide (vitamin B3)</td><td>Helps skin look smoother and more even; supports the moisture barrier</td><td>Most skin types, including oily</td></tr>
+            <tr><td>Alpha arbutin</td><td>Used to help reduce the look of dark spots and uneven tone</td><td>Marks and patchy areas</td></tr>
+            <tr><td>Glutathione</td><td>An antioxidant used in creams made for brighter-looking skin</td><td>Dullness and tan</td></tr>
+            <tr><td>Sunscreen (separate product)</td><td>Stops new tan and darkening</td><td>Everyone, every morning</td></tr>
+          </tbody>
+        </table>
+        <p>A cream that combines a few gentle ingredients is easier to stick with than a shelf of separate products. <a href="/">Fair N Pink Advance Radiance Cream</a>, for example, combines L-glutathione, niacinamide and alpha arbutin in one 10 g jar. More on each ingredient: <a href="/ingredients/">ingredients explained</a>.</p>
+        <h2>Red flags to avoid</h2>
+        <ul>
+          <li>Creams that promise to change your skin colour, make you "gora" or work in a fixed number of days.</li>
+          <li>Unlabelled or loose creams sold without a full ingredient list, maker's name and address.</li>
+          <li>Any cream containing a steroid unless a doctor prescribed it for you. Steroid misuse on the face can cause thinning, redness and acne.</li>
+          <li>Products that make skin look suddenly very light, then darker when stopped.</li>
+        </ul>
+        <h2>A simple routine for more even-looking skin</h2>
+        <ol>
+          <li><b>Patch test</b> any new cream on your inner arm for 24 hours.</li>
+          <li><b>Morning:</b> wash with a mild cleanser, apply a pea-sized amount of cream to face and neck, then sunscreen. Reapply sunscreen if you are outdoors for long.</li>
+          <li><b>Night:</b> wash off sunscreen, sweat and dust, then apply the cream again.</li>
+          <li><b>Once a week:</b> check your skin in the same daylight spot; photos help you judge slow change honestly.</li>
+          <li><b>Be patient:</b> fresher-looking skin may show in a few weeks; tan and marks usually take eight weeks or more.</li>
+        </ol>
+        <p>Our <a href="/how-to-use/">how to use page</a> has the full morning and night steps.</p>
+        <h2>Habits that matter as much as the cream</h2>
+        <ul>
+          <li><b>Sunscreen and shade:</b> a cap, dupatta or umbrella helps on long commutes.</li>
+          <li><b>Hands off pimples:</b> picking leaves darker, longer-lasting marks.</li>
+          <li><b>Moisturise:</b> dry, flaky skin looks patchier, especially in winter and AC rooms.</li>
+          <li><b>Skip harsh home remedies:</b> lemon, baking soda and toothpaste can irritate and darken skin.</li>
+          <li><b>Gentle hair removal:</b> keep active creams off freshly waxed or threaded skin. See <a href="/journal/face-cream-after-facial-threading-waxing/">when to apply face cream after threading or waxing</a>.</li>
+        </ul>
+        <h2>What to expect, honestly</h2>
+        <p>With steady use and sunscreen, many people see skin that looks fresher and a little more even over two to three months. Tan usually responds better than old, deep marks, and results differ from person to person. A cream will not make naturally darker areas, such as around the eyes, match the rest of your face. For spot-specific tips, read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a> and <a href="/journal/night-cream-for-pigmentation/">night cream for pigmentation</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Which ingredient is best for uneven skin tone?</h3>
+        <p>There is no single best one. Niacinamide and alpha arbutin are common, gentle choices, and glutathione is used for brighter-looking skin. Daily sunscreen matters more than any one ingredient.</p>
+        <h3>Do the results last if I stop the cream?</h3>
+        <p>Not on their own. Sun, hormones and irritation keep affecting skin, so a more even look lasts only as long as you keep up sunscreen and good habits.</p>
+        <h3>Is uneven skin tone the same as pigmentation?</h3>
+        <p>They overlap. Uneven tone is a broad description; pigmentation usually means distinct darker spots or patches. Melasma is a specific condition that needs a dermatologist.</p>
+        <h3>Can men use a cream for uneven skin tone?</h3>
+        <p>Yes. The same routine works; apply the cream after shaving has settled, not on freshly shaved, stinging skin. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -282,5 +399,7 @@ SHORT.update({
  'face-cream-for-glowing-skin-under-1000': 'Under ₹1,000 you can get a good cream for glowing-looking skin if it lists proven ingredients like niacinamide, alpha arbutin or glutathione and is free from steroids and mercury. Judge value by ingredients and grams, not price alone.',
  'glutathione-cream-with-retinol': 'Yes, glutathione cream and retinol can share one routine: use retinol at night (start twice a week) and the glutathione cream in the morning under sunscreen or on non-retinol nights. Skip retinol if pregnant or breastfeeding.',
  'face-cream-after-facial-threading-waxing': 'Wait about 24 hours after threading or waxing, until the next night after a facial, and 2 to 3 days after bleach before using an active or fragranced face cream. Until then use cool water, a plain moisturiser and sunscreen.',
+ 'alpha-arbutin-and-vitamin-c': 'Yes, alpha arbutin and vitamin C can be used together: a vitamin C serum in the morning under sunscreen and an alpha arbutin cream after it or at night. Layer thinnest first, patch test, and judge dark spots after eight weeks or more.',
+ 'face-cream-for-uneven-skin-tone': 'A good face cream for uneven skin tone has niacinamide, alpha arbutin or glutathione, no steroids or mercury, and is used daily with sunscreen for eight weeks or more. It helps skin look more even; it does not change natural skin colour.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES

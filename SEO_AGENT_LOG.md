@@ -4,3 +4,5 @@
 |---|---|---|---|
 | 2026-10-21 | glutathione cream with retinol | /journal/glutathione-cream-with-retinol/ | Top results were spam/irrelevant pages and foreign product listings; common routine question; honest how-to-combine guide. |
 | 2026-10-21 | face cream after facial / threading / waxing | /journal/face-cream-after-facial-threading-waxing/ | Results were IndiaMART listings, old Boldsky and foreign pages; very common Indian parlour question; safe-use guide. |
+| 2026-10-22 | alpha arbutin and vitamin C together | /journal/alpha-arbutin-and-vitamin-c/ | Results were thin blogs, foreign/spam pages and supplier sites; the cream contains alpha arbutin, so an honest layering guide fits. |
+| 2026-10-22 | face cream for uneven skin tone | /journal/face-cream-for-uneven-skin-tone/ | Results were pharmacy product listings and brand blogs; core cosmetic query for this cream, written with no fairness claims. |
