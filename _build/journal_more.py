@@ -388,6 +388,132 @@ MORE_ARTICLES = [
         <p>They overlap. Uneven tone is a broad description; pigmentation usually means distinct darker spots or patches. Melasma is a specific condition that needs a dermatologist.</p>
         <h3>Can men use a cream for uneven skin tone?</h3>
         <p>Yes. The same routine works; apply the cream after shaving has settled, not on freshly shaved, stinging skin. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>'''),
+    ('glutathione-cream-for-men', 'Glutathione cream for men: a simple routine for shaving, sweat and sun',
+     'Glutathione Cream for Men: Simple Routine for Indian Skin',
+     'Can men use glutathione cream? How to fit it around shaving, beard, sweat and bike or commute sun in India, how much to use, and what to expect honestly.',
+     'Skin type', 'How to fit it around shaving, beard, sweat and daily sun.', '''
+        <p>Yes, men can use a glutathione face cream; skin does not care about gender, and the cream works the same way. What changes for most men is the routine around it: apply it after shaving has settled, use a thin layer if your skin is oily, and wear sunscreen every morning, because daily sun on a bike or commute is what darkens most men's skin.</p>
+        <p>One thing to clear up first: searches for "fairness cream for men" promise a change in skin colour. No cream can do that safely. A glutathione cream with niacinamide and alpha arbutin is used for brighter-looking, more even-looking skin and to help tan and dark spots look lighter over weeks, alongside sunscreen.</p>
+        <h2>1. Why men's skin needs a slightly different routine</h2>
+        <ul>
+          <li><b>Shaving:</b> a razor scrapes off a thin layer of surface skin, so actives can sting on freshly shaved skin.</li>
+          <li><b>Oil and sweat:</b> many men have oilier skin, and Indian heat adds sweat, so heavy creams feel greasy fast.</li>
+          <li><b>Sun on the road:</b> riding a bike, standing at bus stops or working outdoors means hours of sun, which builds tan on the forehead, nose and cheeks.</li>
+          <li><b>Beard area:</b> cream can sit in stubble, so it needs to be rubbed in properly or used on the cheeks and forehead only.</li>
+        </ul>
+        <h2>2. A simple daily routine for men</h2>
+        <ol>
+          <li><b>Morning:</b> wash with a mild face wash and lukewarm water. Pat dry.</li>
+          <li><b>Shave if you need to,</b> then rinse with cool water and wait 10 to 15 minutes, or skip the cream that morning.</li>
+          <li><b>Apply a pea-sized amount</b> of the cream to the forehead, cheeks, nose and chin. Use a thinner layer on an oily T-zone.</li>
+          <li><b>Sunscreen,</b> SPF 30 or more, on top. Use a gel sunscreen if creams feel heavy. Reapply if you are outdoors for long.</li>
+          <li><b>Night:</b> wash off sweat, dust and sunscreen, then apply the cream again. Night is the easiest time for men who dislike any feel of cream during the day.</li>
+        </ol>
+        <p>If you only want one step, use the cream at night and sunscreen in the morning. That alone is better than a full routine you stop after a week. For timing questions, see <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a> and <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Adjust for your skin and lifestyle</h2>
+        <table>
+          <thead><tr><th>Situation</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Oily skin, sweaty days</td><td>Thin layer at night only; gel sunscreen in the morning</td></tr>
+            <tr><td>Dry skin, AC office</td><td>Apply on slightly damp skin, morning and night</td></tr>
+            <tr><td>Daily shaving</td><td>Apply the cream at night, or wait 10 to 15 minutes after shaving</td></tr>
+            <tr><td>Full beard</td><td>Use on cheeks above the beard, forehead and nose; rub in well</td></tr>
+            <tr><td>Bike riding or outdoor work</td><td>Sunscreen before leaving, a cap or helmet visor, reapply at lunch</td></tr>
+            <tr><td>Gym or sports</td><td>Wash your face after, then apply; do not leave sweat on skin for hours</td></tr>
+          </tbody>
+        </table>
+        <h2>4. Mistakes that slow men down</h2>
+        <ul>
+          <li><b>Using bathing soap on the face.</b> It can leave skin tight and make it oilier later. A mild face wash is better.</li>
+          <li><b>Applying on razor burn or cuts.</b> Wait until they settle; use a plain moisturiser instead.</li>
+          <li><b>Skipping sunscreen.</b> Without it, daily sun keeps adding tan faster than any cream can help it fade.</li>
+          <li><b>Mixing many new products.</b> Start one new product at a time, so you know what suits you.</li>
+          <li><b>Expecting change in a week.</b> Give it four to eight weeks; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
+        </ul>
+        <h2>5. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is a 10 g face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is made for all skin types, men included. A pea-sized amount is enough for the face. It contains fragrance, so patch test it on your inner arm for 24 hours first. It is ₹999 for one jar, with Cash on Delivery where available; see <a href="/journal/fair-n-pink-cream-price/">price and packs</a>. For skin type tips, read <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>
+        <h2>6. Realistic results</h2>
+        <p>With steady use and daily sunscreen, many men notice skin that feels smoother and looks fresher in a few weeks. Tan on the forehead and nose usually responds better than old acne marks. Results differ from person to person, and the cream does not change your natural skin colour. For dark spots, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist for painful or cystic acne, razor bumps that keep getting infected, patches that spread, or any rash. They can suggest options a cosmetic cream cannot give.</p>
+        <h2>FAQ</h2>
+        <h3>Is glutathione cream only for women?</h3>
+        <p>No. It is a face cream for any skin. Men use the same amount, with small changes around shaving and oily skin.</p>
+        <h3>Should I apply it before or after shaving?</h3>
+        <p>After. Wait 10 to 15 minutes after shaving, or simply use it at night, so freshly shaved skin does not sting.</p>
+        <h3>Can I use it on my beard area?</h3>
+        <p>You can on short stubble if you rub it in well. With a full beard, use it on the cheeks above the beard, forehead and nose.</p>
+        <h3>Does glutathione cream help with tan for men?</h3>
+        <p>It can help tan look lighter over weeks, together with daily sunscreen. It will not change your natural skin colour, and sunscreen does most of the work.</p>
+        <h3>Will it make my oily skin greasy?</h3>
+        <p>Use a thin layer and keep it for night if your skin gets shiny by midday. A gel sunscreen in the morning helps too.</p>'''),
+    ('glutathione-cream-in-winter', 'Glutathione cream in winter: how to use it without dry, tight skin',
+     'Glutathione Cream in Winter: Use It Without Dry Skin',
+     'How to use glutathione cream in winter in India: apply on damp skin, layer a plain moisturiser, keep sunscreen on, and avoid dry, flaky, tight skin.',
+     'Routine', 'Damp skin, a plain moisturiser on top, and sunscreen still.', '''
+        <p>Yes, you can keep using glutathione cream in winter; just apply it on slightly damp skin and add a plain moisturiser on top at night if your face feels tight. Keep wearing sunscreen too, because winter sun in India still builds tan, especially in the north on clear, bright days.</p>
+        <p>Cold air, low humidity, hot baths and room heaters all pull water out of the skin. When skin is dry, even gentle actives can sting a little more. A few changes keep your routine comfortable through November to February.</p>
+        <h2>1. Why winter changes how a cream feels</h2>
+        <ul>
+          <li><b>Dry air:</b> lower humidity means skin loses water faster through the day and night.</li>
+          <li><b>Hot water baths:</b> very hot water strips the skin's natural oils.</li>
+          <li><b>Heaters and blowers:</b> room heaters and car heaters dry the air even more.</li>
+          <li><b>Less sweating:</b> skin that felt oily in summer may now feel normal or dry, so the amount you need changes.</li>
+        </ul>
+        <h2>2. A winter routine with glutathione cream</h2>
+        <ol>
+          <li><b>Wash with lukewarm water</b> and a mild, creamy face wash. Skip foaming soaps that leave skin squeaky.</li>
+          <li><b>Pat dry and leave the skin slightly damp.</b> Damp skin holds moisture better.</li>
+          <li><b>Apply a pea-sized amount</b> of the glutathione cream within a minute.</li>
+          <li><b>Night: a plain moisturiser on top</b> if your skin feels tight, focusing on cheeks and around the nose and mouth.</li>
+          <li><b>Morning: sunscreen</b> SPF 30 or more on top of the cream, even on cool days.</li>
+          <li><b>Lip balm</b> morning and night; lips crack first in winter.</li>
+        </ol>
+        <p>For more on the daily habit, see <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a> and <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>3. Adjust by skin type</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Winter change</th></tr></thead>
+          <tbody>
+            <tr><td>Dry</td><td>Cream on damp skin, plain moisturiser on top every night</td></tr>
+            <tr><td>Normal</td><td>Same routine; add moisturiser only on very dry days</td></tr>
+            <tr><td>Combination</td><td>Moisturiser on cheeks only, not on the T-zone</td></tr>
+            <tr><td>Oily</td><td>Usually no change; a light gel moisturiser if cheeks feel tight</td></tr>
+            <tr><td>Sensitive</td><td>Use the cream once a day at night if it stings; moisturiser first, cream on top</td></tr>
+          </tbody>
+        </table>
+        <h2>4. If your skin stings or flakes</h2>
+        <ul>
+          <li>Pause the cream for two or three nights and use only a plain moisturiser.</li>
+          <li>Restart once a day at night, on fully moisturised skin.</li>
+          <li>Do not scrub off flakes; that makes dryness worse. Moisturise and let them settle.</li>
+          <li>Stop if there is redness, itching or burning that lasts, and see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</li>
+        </ul>
+        <h2>5. Winter sun still counts</h2>
+        <p>Winter mornings can be hazy, but on clear days UV still reaches your skin, and many people spend more time in the sun because it feels pleasant. Sitting on a terrace, a winter wedding outdoors or a long bike ride all add tan. Sunscreen every morning is what lets a cream help dark spots and tan look lighter over weeks. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar. Niacinamide is known for supporting the skin's moisture barrier, which is useful in dry weather, but in harsh cold you may still want a plain moisturiser on top. The cream contains fragrance, so patch test first if your skin is sensitive. For using it at night, read <a href="/journal/fair-n-pink-night-cream/">Fair N Pink as a night cream</a>.</p>
+        <h2>7. Winter weddings and festivals</h2>
+        <p>November to February is wedding and festival season, and many people want their skin to look its best for a date on the calendar. Be realistic: two or three weeks of good moisturising and sunscreen gives smoother, more comfortable, rested-looking skin, while dark spots and tan take eight weeks or more to look lighter. So start your routine early, and do not try a new product, facial or bleach in the last few days before the event.</p>
+        <ul>
+          <li><b>Four weeks or more before:</b> settle into the cream, moisturiser and sunscreen routine.</li>
+          <li><b>One week before:</b> keep the same routine; no new products.</li>
+          <li><b>The night before:</b> a plain moisturiser, a good night's sleep and plenty of water.</li>
+          <li><b>On the day:</b> moisturiser and sunscreen under makeup, and remove makeup gently at night.</li>
+        </ul>
+        <p>For parlour visits in this season, read <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if you have cracked, bleeding or very itchy patches, eczema that flares in winter, or a rash that does not settle with a plain moisturiser. These need proper care, not just a face cream.</p>
+        <h2>FAQ</h2>
+        <h3>Can I use glutathione cream in winter?</h3>
+        <p>Yes. Apply it on slightly damp skin and add a plain moisturiser on top at night if your skin feels tight.</p>
+        <h3>Should I apply moisturiser before or after glutathione cream?</h3>
+        <p>Usually after, on top. If your skin is sensitive and stings, apply the moisturiser first and the cream on top.</p>
+        <h3>Do I need sunscreen in winter?</h3>
+        <p>Yes. Winter sun still causes tan, and without sunscreen any brightening-focused cream struggles to show results.</p>
+        <h3>Why does my face sting after the cream in winter?</h3>
+        <p>Dry skin feels actives more. Moisturise well, use the cream once a day at night, and stop if stinging or redness lasts.</p>
+        <h3>Can I use it after a hot bath?</h3>
+        <p>Yes, but keep baths lukewarm rather than very hot, and apply the cream while your skin is still slightly damp.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -401,5 +527,7 @@ SHORT.update({
  'face-cream-after-facial-threading-waxing': 'Wait about 24 hours after threading or waxing, until the next night after a facial, and 2 to 3 days after bleach before using an active or fragranced face cream. Until then use cool water, a plain moisturiser and sunscreen.',
  'alpha-arbutin-and-vitamin-c': 'Yes, alpha arbutin and vitamin C can be used together: a vitamin C serum in the morning under sunscreen and an alpha arbutin cream after it or at night. Layer thinnest first, patch test, and judge dark spots after eight weeks or more.',
  'face-cream-for-uneven-skin-tone': 'A good face cream for uneven skin tone has niacinamide, alpha arbutin or glutathione, no steroids or mercury, and is used daily with sunscreen for eight weeks or more. It helps skin look more even; it does not change natural skin colour.',
+ 'glutathione-cream-for-men': 'Yes, men can use glutathione cream. Apply a pea-sized amount after shaving has settled (or at night), use a thin layer on oily skin, and wear sunscreen every morning. It helps skin look brighter and tan look lighter over weeks; it does not change natural skin colour.',
+ 'glutathione-cream-in-winter': 'Yes, keep using glutathione cream in winter: apply it on slightly damp skin after a lukewarm wash, add a plain moisturiser on top at night if skin feels tight, and wear sunscreen every morning. Pause for a few nights if it stings.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
