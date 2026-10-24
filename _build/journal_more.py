@@ -514,6 +514,151 @@ MORE_ARTICLES = [
         <p>Dry skin feels actives more. Moisturise well, use the cream once a day at night, and stop if stinging or redness lasts.</p>
         <h3>Can I use it after a hot bath?</h3>
         <p>Yes, but keep baths lukewarm rather than very hot, and apply the cream while your skin is still slightly damp.</p>'''),
+    ('glutathione-cream-for-pimple-marks', 'Glutathione cream for pimple marks: what helps, what does not, and how long it takes',
+     'Glutathione Cream for Pimple Marks: What Helps and How Long',
+     'Can glutathione cream help pimple marks? How to tell dark marks from red marks and scars, a simple routine with sunscreen, and how long they take to fade.',
+     'Dark spots', 'Dark marks, red marks and scars need different care.', '''
+        <p>A glutathione cream with niacinamide and alpha arbutin can help the brown or dark marks left after pimples look lighter, gradually, over eight to twelve weeks or more, as long as you wear sunscreen every morning. It will not help pitted scars, and it is not a treatment for active acne.</p>
+        <p>Most "pimple marks" on Indian skin are not true scars at all. They are flat dark patches where the skin made extra pigment after a pimple healed. These fade with time and sun protection, and a good cream can help that along. Knowing which kind of mark you have saves you money and disappointment.</p>
+        <h2>1. First, check which kind of mark you have</h2>
+        <table>
+          <thead><tr><th>What you see</th><th>What it usually is</th><th>What helps</th></tr></thead>
+          <tbody>
+            <tr><td>Flat brown, dark or black patch</td><td>Dark mark (extra pigment after a pimple)</td><td>Sunscreen daily, a cream with niacinamide or alpha arbutin, time</td></tr>
+            <tr><td>Flat pink or red patch</td><td>Red mark (small blood vessels after inflammation)</td><td>Gentle care, sunscreen and patience; brightening creams do little for redness</td></tr>
+            <tr><td>Dip, hole or uneven surface</td><td>Pitted scar (lost tissue)</td><td>A dermatologist; no cream can fill a scar</td></tr>
+            <tr><td>Raised, firm bump</td><td>Raised scar</td><td>A dermatologist</td></tr>
+            <tr><td>New red, painful bumps</td><td>Active acne, not a mark</td><td>Calm the acne first; see a dermatologist if painful or frequent</td></tr>
+          </tbody>
+        </table>
+        <p>Run a finger over the mark. If it is perfectly flat and only the colour is different, it is a dark or red mark. If you feel a dip or a bump, it is a scar.</p>
+        <h2>2. Why dark marks are so common on Indian skin</h2>
+        <p>Brown and darker skin tones make pigment easily, so any inflammation, from a pimple to a scratch or a bad reaction to a product, can leave a dark patch behind. Then Indian sun keeps that patch dark. That is why the same mark can fade quickly for one person and stay for months for another who rides a scooter to work without sunscreen.</p>
+        <p>Picking and squeezing pimples makes marks darker and longer-lasting. So does scrubbing them hard, or putting lemon, toothpaste or baking soda on them.</p>
+        <h2>3. How the ingredients help</h2>
+        <ul>
+          <li><b>Alpha arbutin:</b> used in creams to help reduce the look of dark spots and uneven tone, gradually. Read more in <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream</a>.</li>
+          <li><b>Niacinamide (vitamin B3):</b> helps skin look more even and supports the moisture barrier, and suits oily, acne-prone skin well.</li>
+          <li><b>Glutathione:</b> an antioxidant used for a brighter, more radiant-looking complexion.</li>
+          <li><b>Sunscreen:</b> not an ingredient in the cream, but the single biggest factor. Without it, marks keep getting darker in the sun.</li>
+        </ul>
+        <p>Why these three work well together is explained in <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>.</p>
+        <h2>4. A simple routine for dark pimple marks</h2>
+        <ol>
+          <li><b>Morning:</b> wash with a mild face wash, pat dry, apply a pea-sized amount of cream over the whole face (not just on the marks).</li>
+          <li><b>Sunscreen:</b> SPF 30 or more on top, two finger-lengths for the face and neck. Reapply if you are outdoors for long.</li>
+          <li><b>Night:</b> wash off sunscreen and dirt, then a pea-sized amount of cream again.</li>
+          <li><b>Hands off:</b> do not pick new pimples; each one you squeeze can leave a new mark.</li>
+          <li><b>Take a photo</b> in the same light every two weeks. Marks fade too slowly to notice in the mirror day to day.</li>
+        </ol>
+        <p>Step-by-step pictures are on <a href="/how-to-use/">how to use the cream</a>, and sunscreen layering is covered in <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>5. How long pimple marks take to look lighter</h2>
+        <p>Skin renews itself roughly every four to six weeks, so be patient. A realistic guide:</p>
+        <ul>
+          <li><b>Weeks 1 to 4:</b> skin feels smoother and looks fresher; marks look about the same.</li>
+          <li><b>Weeks 4 to 8:</b> newer, lighter-brown marks may start to look softer.</li>
+          <li><b>Weeks 8 to 12 and beyond:</b> a more even look for many people. Older, darker marks can take several months and may only lighten partly.</li>
+        </ul>
+        <p>For the full timeline, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin in a 10 g jar, used twice a day on clean skin. It is a cosmetic cream for helping dark marks and uneven tone look lighter over weeks. It does not change your natural skin colour, it is not an acne treatment, and it contains fragrance, so patch test on the jawline for two days first, especially if your skin breaks out easily.</p>
+        <h2>7. Mistakes that keep marks dark</h2>
+        <ul>
+          <li>Skipping sunscreen on cloudy days or at home near windows.</li>
+          <li>Using several new products at once, which can irritate skin and create new marks.</li>
+          <li>Home bleach or harsh scrubs on acne-prone skin.</li>
+          <li>Creams that promise to remove marks in a few days or do not print an ingredient list; some contain steroids. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a> for what to avoid.</li>
+          <li>Stopping after two weeks because nothing seems to change.</li>
+        </ul>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if your acne is painful, cystic or leaves new marks every month, if you have pitted or raised scars, or if marks do not change at all after three months of sunscreen and gentle care. Dermatologists can treat active acne and scars in ways a face cream cannot.</p>
+        <h2>FAQ</h2>
+        <h3>Does glutathione cream remove pimple marks?</h3>
+        <p>No cream removes marks overnight. A cream with glutathione, niacinamide and alpha arbutin can help dark pimple marks look lighter over eight weeks or more, with daily sunscreen.</p>
+        <h3>Can I apply the cream only on the marks?</h3>
+        <p>Apply it over the whole face. Spot-only use often leaves a lighter ring around a darker spot and does nothing for the next mark.</p>
+        <h3>Can I use it while I still have pimples?</h3>
+        <p>Yes, on unbroken skin, but do not put it on open or bleeding pimples. If you get frequent or painful acne, see a dermatologist first.</p>
+        <h3>Why are my pimple marks getting darker?</h3>
+        <p>Usually sun exposure, picking, or irritation from harsh products. Daily sunscreen and leaving pimples alone make the biggest difference.</p>
+        <h3>Will it help acne scars?</h3>
+        <p>Not pitted or raised scars. A cream works on the colour of flat marks only; scars need a dermatologist.</p>'''),
+
+    ('glutathione-cream-for-sensitive-skin', 'Glutathione cream for sensitive skin: how to patch test, start slowly and spot a reaction',
+     'Glutathione Cream for Sensitive Skin: How to Use It Safely',
+     'Can you use glutathione cream on sensitive skin? How to patch test, a slow-start plan, normal tingling vs a reaction, and what to avoid in Indian weather.',
+     'Skin type', 'Patch test, start slowly and know the warning signs.', '''
+        <p>Many people with sensitive skin can use a glutathione cream, but they should patch test first, start once a day at night, and keep the rest of the routine very simple. Glutathione, niacinamide and alpha arbutin are generally gentle ingredients; reactions more often come from fragrance, from stacking several actives, or from using a cream on irritated skin.</p>
+        <p>"Sensitive skin" means different things to different people: skin that stings with new products, turns red in the sun, itches after a parlour facial, or flares with eczema or rosacea. The plan below suits the first three. Eczema and rosacea need a dermatologist's advice first.</p>
+        <h2>1. Signs your skin is sensitive</h2>
+        <ul>
+          <li>Stinging or burning when you apply new products, even gentle ones.</li>
+          <li>Redness or blotchiness after washing, sun, heat or spicy food.</li>
+          <li>Itching or small bumps after fragranced creams, soaps or hair dye.</li>
+          <li>Dry, tight patches that flake around the nose and mouth.</li>
+          <li>Reactions after threading, waxing or bleach that last more than a day.</li>
+        </ul>
+        <h2>2. How the ingredients usually behave on sensitive skin</h2>
+        <table>
+          <thead><tr><th>Ingredient</th><th>Usually</th><th>Watch for</th></tr></thead>
+          <tbody>
+            <tr><td>Glutathione</td><td>Gentle; an antioxidant</td><td>Rarely a problem on its own</td></tr>
+            <tr><td>Niacinamide (vitamin B3)</td><td>Well tolerated; supports the moisture barrier</td><td>Brief warmth or flushing in a few people</td></tr>
+            <tr><td>Alpha arbutin</td><td>Generally well tolerated</td><td>Mild stinging on very dry or broken skin</td></tr>
+            <tr><td>Fragrance</td><td>Fine for many people</td><td>The most common cause of itching and redness in sensitive skin</td></tr>
+            <tr><td>Strong acids or retinol (other products)</td><td>Not needed alongside</td><td>Stinging and peeling when combined</td></tr>
+          </tbody>
+        </table>
+        <p>For a fuller view of what each active does, see <a href="/ingredients/">ingredients</a> and <a href="/journal/alpha-arbutin-cream-side-effects/">alpha arbutin cream side effects</a>.</p>
+        <h2>3. How to patch test properly</h2>
+        <ol>
+          <li>Take a tiny amount and apply it on the side of the jaw or just below the ear, an area that reacts like the face.</li>
+          <li>Do this once a day for two to three days, on clean, unbroken skin.</li>
+          <li>Check in daylight for redness, itching, bumps or burning that lasts more than a few minutes.</li>
+          <li>No reaction? Move to the slow-start plan below. Any reaction? Wash it off and do not use the cream.</li>
+        </ol>
+        <p>A patch test lowers the risk but cannot rule out every reaction, so keep watching your skin in the first weeks.</p>
+        <h2>4. A slow-start plan for the first month</h2>
+        <table>
+          <thead><tr><th>When</th><th>How to use</th></tr></thead>
+          <tbody>
+            <tr><td>Week 1</td><td>Night only, every other night, a small pea-sized amount on dry skin</td></tr>
+            <tr><td>Week 2</td><td>Night only, every night if comfortable</td></tr>
+            <tr><td>Weeks 3 to 4</td><td>Add the morning, under sunscreen, if skin is still calm</td></tr>
+            <tr><td>Any time it stings</td><td>Go back one step; use a plain moisturiser first and the cream on top</td></tr>
+          </tbody>
+        </table>
+        <p>Apply on fully dry skin rather than damp skin if you sting easily; actives feel stronger on wet skin. Morning and night use is explained in <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a>.</p>
+        <h2>5. Normal tingling vs a reaction</h2>
+        <ul>
+          <li><b>Usually fine:</b> a light tingle or warmth for a minute or two in the first week that then fades completely.</li>
+          <li><b>Stop and wash off:</b> burning that lasts, redness that spreads, itching, swelling, small bumps or rash, or skin that feels hot.</li>
+          <li><b>Get help quickly:</b> swelling of the eyes or lips, or any trouble breathing, needs urgent medical care.</li>
+        </ul>
+        <p>What to do after a reaction is covered in <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>
+        <h2>6. Indian weather and habits that make sensitivity worse</h2>
+        <ul>
+          <li><b>Summer sweat and heat:</b> a thin layer only; heavy layers trap sweat and itch.</li>
+          <li><b>Winter and AC:</b> dry air leaves skin raw; add a plain, fragrance-free moisturiser.</li>
+          <li><b>Hot water and soap bars:</b> switch to lukewarm water and a mild face wash.</li>
+          <li><b>Parlour visits:</b> skip actives for a day or two after threading, waxing or bleach. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</li>
+          <li><b>Sun:</b> sensitive skin often reddens in the sun; a gentle sunscreen every morning helps.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin. It also contains fragrance, so if you know you react to perfumed products, it is not the right cream for you. If fragrance is usually fine for you, patch test and follow the slow start above. More on skin types in <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>. It helps skin look brighter and more even over weeks; it does not change natural skin colour.</p>
+        <h2>8. When to see a dermatologist first</h2>
+        <p>See a dermatologist before starting any new active cream if you have eczema, rosacea, psoriasis on the face, frequent allergic reactions, a current rash, or if you are pregnant or breastfeeding.</p>
+        <h2>FAQ</h2>
+        <h3>Is glutathione cream safe for sensitive skin?</h3>
+        <p>Glutathione itself is generally gentle, but every cream is a full formula. Patch test, start every other night, and stop if you get lasting redness, itching or burning.</p>
+        <h3>Should sensitive skin use it once or twice a day?</h3>
+        <p>Start once a day at night. Move to twice a day only after two to three weeks with no irritation.</p>
+        <h3>Can I use it with a moisturiser?</h3>
+        <p>Yes. If you sting easily, apply a plain moisturiser first and the cream on top; it softens how strong the cream feels.</p>
+        <h3>Can I use it on red or irritated skin?</h3>
+        <p>No. Let irritated, sunburnt or freshly waxed skin settle for a few days first, using only a plain moisturiser.</p>
+        <h3>What if I am allergic to fragrance?</h3>
+        <p>Then choose a fragrance-free product. Fair N Pink contains fragrance, so it is not suitable for you.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -529,5 +674,7 @@ SHORT.update({
  'face-cream-for-uneven-skin-tone': 'A good face cream for uneven skin tone has niacinamide, alpha arbutin or glutathione, no steroids or mercury, and is used daily with sunscreen for eight weeks or more. It helps skin look more even; it does not change natural skin colour.',
  'glutathione-cream-for-men': 'Yes, men can use glutathione cream. Apply a pea-sized amount after shaving has settled (or at night), use a thin layer on oily skin, and wear sunscreen every morning. It helps skin look brighter and tan look lighter over weeks; it does not change natural skin colour.',
  'glutathione-cream-in-winter': 'Yes, keep using glutathione cream in winter: apply it on slightly damp skin after a lukewarm wash, add a plain moisturiser on top at night if skin feels tight, and wear sunscreen every morning. Pause for a few nights if it stings.',
+ 'glutathione-cream-for-pimple-marks': 'A cream with glutathione, niacinamide and alpha arbutin can help flat dark pimple marks look lighter over 8 to 12 weeks or more with daily sunscreen. It does not help pitted or raised scars and is not an acne treatment; see a dermatologist for those.',
+ 'glutathione-cream-for-sensitive-skin': 'Many people with sensitive skin can use a glutathione cream: patch test for 2 to 3 days, start every other night, keep the routine simple and wear sunscreen. Stop if redness, itching or burning lasts. Avoid fragranced creams if fragrance bothers you.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES

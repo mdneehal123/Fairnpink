@@ -8,3 +8,5 @@
 | 2026-10-22 | face cream for uneven skin tone | /journal/face-cream-for-uneven-skin-tone/ | Results were pharmacy product listings and brand blogs; core cosmetic query for this cream, written with no fairness claims. |
 | 2026-10-23 | glutathione cream for men | /journal/glutathione-cream-for-men/ | Results were pharmacy listings and whitening-cream spam; men are a big untapped audience; honest shaving/sweat/sun routine with no fairness promise. |
 | 2026-10-23 | glutathione cream in winter | /journal/glutathione-cream-in-winter/ | Results were foreign product listings only; season is starting in India; practical routine for dry winter skin. |
+| 2026-10-24 | glutathione cream for pimple marks | /journal/glutathione-cream-for-pimple-marks/ | Results were IndiaMART, pharmacy listings and whitening-cream pages; very common Indian concern; honest guide separating dark marks, red marks and scars, with no removal promise. |
+| 2026-10-24 | glutathione cream for sensitive skin | /journal/glutathione-cream-for-sensitive-skin/ | Results were pharmacy product listings only; practical patch-test and slow-start plan; honest that the cream contains fragrance. |
