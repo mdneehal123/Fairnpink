@@ -35,9 +35,9 @@ MORE_ARTICLES = [
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines glutathione, niacinamide and alpha arbutin in one light, moisturising cream. It is a 10 g jar for ₹999 (₹899 paid online), with no steroids, mercury, hydroquinone or parabens, and it is used as both a day and <a href="/glutathione-night-cream/">night cream</a>. Results differ from person to person; give any night cream four to eight weeks.</p>'''),
 
     ('best-glutathione-cream-in-india', 'Best glutathione cream in India: what to look for before you buy',
-     'Best Glutathione Cream in India: What to Look For (2026 Guide)',
-     'How to pick a glutathione face cream in India: the supporting ingredients, safety checks, net weight, price and realistic results.',
-     'Buying guide', 'Five checks before you pay for a glutathione cream.', '''
+     'Best Glutathione Cream in India: 7 Checks Before You Buy',
+     'How to choose a glutathione cream in India: supporting ingredients, what must not be in it, texture, price per gram, cream vs serum, and realistic results.',
+     'Buying guide', 'Seven checks before you pay for a glutathione cream.', '''
         <p>A good glutathione cream pairs glutathione with well-studied ingredients such as niacinamide and alpha arbutin, lists everything it contains, is free from steroids and mercury, and is sold by a company you can contact. No glutathione cream changes your natural skin tone; a good one helps skin look brighter and more even over weeks.</p>
         <h2>1. What else is in the jar</h2>
         <p>Research on glutathione applied to skin is still limited, so the other ingredients matter. Niacinamide helps skin look more even, and alpha arbutin is used for the look of dark spots. A cream with all three covers more ground than glutathione alone.</p>
@@ -49,8 +49,31 @@ MORE_ARTICLES = [
         <p>Buy from the brand or a trusted store, where the company name, address and a contact number are given.</p>
         <h2>5. Realistic promises</h2>
         <p>Be wary of claims like "fair in 7 days". Skin renews itself roughly once a month, so a fair test takes four to eight weeks with daily sunscreen.</p>
+        <h2>6. A texture that suits your skin</h2>
+        <p>A glutathione cream you enjoy using every day beats a stronger-sounding one you skip. Oily skin usually prefers a light cream used in a thin layer; dry skin may want a richer cream or a plain moisturiser on top. If your skin reacts easily, start slowly. See our guides to <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a> and <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</p>
+        <h2>7. Cream, serum or tablets?</h2>
+        <p>Creams and serums are cosmetics that work on the surface of the skin; a serum is usually lighter and is worn under a moisturiser, while a cream does both jobs in one step. Glutathione tablets, drips and injections are a different matter: they are taken into the body, and you should only consider them with a doctor's advice. This guide is about creams only.</p>
+        <h2>Quick checklist</h2>
+        <ol>
+          <li>Glutathione plus supporting ingredients such as niacinamide or alpha arbutin</li>
+          <li>Says clearly: no steroids, no mercury, no hydroquinone</li>
+          <li>Full ingredient list printed on the box</li>
+          <li>Price compared per gram, not per jar</li>
+          <li>Brand owner, address and contact number on the pack</li>
+          <li>No promises of fairness, permanent results or results in days</li>
+          <li>A texture you will happily use every day, with sunscreen every morning</li>
+        </ol>
         <h2>An example that meets these checks</h2>
-        <p><a href="/glutathione-cream-for-face/">Fair N Pink Advance Radiance Cream</a> has glutathione, niacinamide and alpha arbutin, prints its ingredients on every box, contains no steroids, mercury, hydroquinone or parabens, and is sold by Beauty Mart Pvt Ltd, Bhatkal. A 10 g jar costs ₹999, or ₹899 paid online, with free shipping and Cash on Delivery.</p>'''),
+        <p><a href="/glutathione-cream-for-face/">Fair N Pink Advance Radiance Cream</a> has glutathione, niacinamide and alpha arbutin, prints its ingredients on every box, contains no steroids, mercury, hydroquinone or parabens, and is sold by Beauty Mart Pvt Ltd, Bhatkal. A 10 g jar costs ₹999, or ₹899 paid online, with free shipping and Cash on Delivery. See <a href="/journal/glutathione-cream-price-in-india/">how glutathione cream prices compare in India</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Which is the best glutathione cream for face in India?</h3>
+        <p>There is no single best cream for everyone. The best one for you lists all its ingredients, pairs glutathione with ingredients such as niacinamide, is free from steroids and mercury, suits your skin type and is sold by a company you can contact.</p>
+        <h3>Does glutathione cream make skin fair?</h3>
+        <p>No. A glutathione cream cannot change your natural skin colour. Used daily with sunscreen, a good one can help dull skin look brighter and dark spots look lighter over weeks.</p>
+        <h3>Can I use glutathione cream every day?</h3>
+        <p>Yes, most glutathione face creams are made for daily use, morning and night. Read <a href="/journal/can-we-use-glutathione-cream-daily/">daily use, morning or night</a>.</p>
+        <h3>Is glutathione cream safe?</h3>
+        <p>A cream from a named brand, with a full ingredient list and no steroids or mercury, is generally suitable for daily cosmetic use. Patch test first, and see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>'''),
 
     ('night-cream-for-pigmentation', 'Night cream for pigmentation and dark spots: what actually helps',
      'Night Cream for Pigmentation & Dark Spots: What Actually Helps',
@@ -100,7 +123,8 @@ MORE_ARTICLES = [
         <h2>Good partners</h2>
         <p>Niacinamide works well with <a href="/journal/niacinamide-and-alpha-arbutin/">alpha arbutin</a> for the look of dark spots, and with glutathione in creams for a brighter-looking complexion. Fair N Pink Advance Radiance Cream has all three in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a>.</p>
         <h2>Side effects</h2>
-        <p>Most people have none. A few notice mild tingling or redness in the first days. Patch test first.</p>'''),
+        <p>Most people have none. A few notice mild tingling or redness in the first days. Patch test first.</p>
+        <p>For a full morning and night plan, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>'''),
 
     ('alpha-arbutin-cream', 'Alpha arbutin cream: what it does and how to use it',
      'Alpha Arbutin Cream: Uses, Benefits & How to Apply',
@@ -120,7 +144,8 @@ MORE_ARTICLES = [
         <h2>What it pairs well with</h2>
         <p>Niacinamide and glutathione. <a href="/niacinamide-alpha-arbutin-cream/">Fair N Pink Advance Radiance Cream</a> contains all three in one cream.</p>
         <h2>Who should be careful</h2>
-        <p>Anyone pregnant or breastfeeding, anyone under treatment for a skin condition, and anyone with very sensitive or fragrance-allergic skin should ask a doctor first. See <a href="/journal/alpha-arbutin-cream-side-effects/">alpha arbutin side effects</a>.</p>'''),
+        <p>Anyone pregnant or breastfeeding, anyone under treatment for a skin condition, and anyone with very sensitive or fragrance-allergic skin should ask a doctor first. See <a href="/journal/alpha-arbutin-cream-side-effects/">alpha arbutin side effects</a>.</p>
+        <p>Alpha arbutin works best inside a simple routine; see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>'''),
 
     ('night-cream-for-dull-skin', 'Night cream for dull skin: a simple routine that works',
      'Night Cream for Dull Skin: Simple Routine for a Fresher Look',
@@ -164,7 +189,8 @@ MORE_ARTICLES = [
         </ol>
         <h2>How to get the best results</h2>
         <p>Use the cream morning and night on clean skin, wear sunscreen every morning, and give it four to eight weeks.</p>
-        <p>Fair N Pink Advance Radiance Cream costs ₹999 for a 10 g jar, or ₹899 paid online, with glutathione, niacinamide and alpha arbutin, free shipping and Cash on Delivery. <a href="/">See the cream</a>.</p>'''),
+        <p>Fair N Pink Advance Radiance Cream costs ₹999 for a 10 g jar, or ₹899 paid online, with glutathione, niacinamide and alpha arbutin, free shipping and Cash on Delivery. <a href="/">See the cream</a>.</p>
+        <p>Before you buy, run through our <a href="/journal/best-glutathione-cream-in-india/">seven checks for choosing a glutathione cream</a>.</p>'''),
 
     ('glutathione-cream-with-retinol', 'Can you use glutathione cream with retinol?',
      'Glutathione Cream With Retinol: Can You Use Them Together?',
@@ -703,6 +729,7 @@ MORE_ARTICLES = [
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin, and is meant to be used in a thin layer, so a 10 g jar suits oily skin that needs only a little product. Niacinamide is a common pick for oily skin because it helps skin look smoother and more even. The cream helps skin look brighter and tan or dark spots look lighter over weeks with sunscreen; it does not change your natural skin colour or stop oil production. It contains fragrance, so patch test first. More on all skin types in <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>, and the full ingredient notes are on the <a href="/ingredients/">ingredients</a> page.</p>
         <h2>8. When to see a dermatologist</h2>
         <p>See a dermatologist if you have many painful or deep pimples, pimples that leave pitted scars, sudden heavy oiliness with other changes such as hair growth or irregular periods, or if your skin reacts to every product you try. These need proper diagnosis, not a cosmetic cream.</p>
+        <p>New to the cream? Read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects</a> and do a patch test first.</p>
         <h2>FAQ</h2>
         <h3>Will glutathione cream make oily skin more oily?</h3>
         <p>A thin layer should not. If your face looks greasy, reduce the amount, use it only at night, and keep the morning to sunscreen.</p>

@@ -12,3 +12,13 @@
 | 2026-10-24 | glutathione cream for sensitive skin | /journal/glutathione-cream-for-sensitive-skin/ | Results were pharmacy product listings only; practical patch-test and slow-start plan; honest that the cream contains fragrance. |
 | 2026-10-25 | glutathione cream for oily skin | /journal/glutathione-cream-for-oily-skin/ | Results were pharmacy/marketplace product listings and whitening spam; oily skin and humid weather are very common in India; practical thin-layer, season-by-season routine with no fairness promise. |
 | 2026-10-25 | glutathione and niacinamide together | /journal/glutathione-and-niacinamide-together/ | Results were a Vietnamese pharmacy blog, product comparison pages and foreign shop listings; the cream contains both, so an honest layering guide fits. |
+
+## Boosts
+
+| date | page | keyword | what changed |
+|---|---|---|---|
+| 2026-10-25 | /journal/best-glutathione-cream-in-india/ | best glutathione cream in India | New title/description; added texture, cream vs serum vs tablets, 7-point checklist, 4 FAQs; linked from glutathione-cream-for-face and face-cream-for-glowing-skin-under-1000 guides. |
+| 2026-10-25 | /journal/glutathione-cream-price-in-india/ | glutathione cream price in India | New title/description; direct answer first; price-per-gram section, cream vs tablets/injections note, 3 FAQs; linked from Fair N Pink price and buy-online guides. |
+| 2026-10-25 | /journal/how-to-reduce-dark-spots-on-face/ | how to reduce dark spots on face | New title/description; direct answer first; causes on Indian skin, routine table, 4 FAQs (permanent removal, home remedies, melasma); linked from niacinamide night cream and alpha arbutin cream guides. |
+| 2026-10-25 | /journal/fair-n-pink-cream-side-effects/ | Fair N Pink cream side effects | New title/description; direct answer first; tingling-vs-reaction table, using with other actives, 4 FAQs; linked from alpha arbutin side effects and oily skin guides. |
+| 2026-10-25 | /journal/how-long-does-glutathione-cream-take-to-work/ | how long does glutathione cream take to work | Title shortened to 58 chars, new description; how to track progress, correction of "7 days/permanent" claims, 3 FAQs; linked from glutathione cream with sunscreen and daily-use guides. |
