@@ -659,6 +659,121 @@ MORE_ARTICLES = [
         <p>No. Let irritated, sunburnt or freshly waxed skin settle for a few days first, using only a plain moisturiser.</p>
         <h3>What if I am allergic to fragrance?</h3>
         <p>Then choose a fragrance-free product. Fair N Pink contains fragrance, so it is not suitable for you.</p>'''),
+    ('glutathione-cream-for-oily-skin', 'Glutathione cream for oily skin: how to use it without a greasy, shiny face',
+     'Glutathione Cream for Oily Skin: How to Use It Without Shine',
+     'Can you use glutathione cream on oily skin? How much to apply, morning vs night, a humid-weather routine, sunscreen tips and mistakes to avoid in India.',
+     'Skin type', 'Thin layers, the right timing and a routine for humid weather.', '''
+        <p>Yes, oily skin can use a glutathione cream: apply a very thin layer, mostly at night, on a freshly washed face, and keep the morning light with just the cream (or nothing) under sunscreen. Oily skin still needs moisture; the trick is using less product, not skipping it.</p>
+        <p>Most complaints from oily skin, such as a sticky feel, midday shine or small bumps, come from using too much cream, layering several heavy products, or applying it on a face that still has sweat and dirt on it. The steps below fix those three things first.</p>
+        <h2>1. Why oily skin still needs a cream</h2>
+        <p>Washing too often or skipping moisturiser can leave the skin feeling tight, and many people then wash even more. A thin layer of a light cream keeps the surface comfortable so you are not stuck in that cycle. Oily skin also tans and gets dark marks after pimples, which is where a cream made for brighter-looking, more even skin can fit, used together with daily sunscreen.</p>
+        <h2>2. How much to apply</h2>
+        <p>On oily skin, half of a pea-sized amount is usually enough for the whole face. Warm it between two fingertips, dot it on the cheeks, forehead and chin, and spread it thin. If your face still looks shiny after five minutes, you used too much; use less the next day rather than wiping it off.</p>
+        <p>Combination skin can use a little more on the cheeks and very little on the forehead and nose, where oil is usually highest.</p>
+        <h2>3. A simple routine for oily skin in Indian weather</h2>
+        <table>
+          <thead><tr><th>Season</th><th>Morning</th><th>Night</th></tr></thead>
+          <tbody>
+            <tr><td>Summer and monsoon (hot, humid)</td><td>Gentle face wash, sunscreen only, or a very thin layer of cream under it</td><td>Face wash, thin layer of cream</td></tr>
+            <tr><td>Winter in the north</td><td>Face wash, thin layer of cream, sunscreen</td><td>Face wash, normal thin layer of cream</td></tr>
+            <tr><td>AC office all day</td><td>Thin layer of cream, sunscreen</td><td>Face wash, thin layer of cream</td></tr>
+            <tr><td>After the gym or a sweaty commute</td><td>Rinse sweat off first, then reapply sunscreen</td><td>Wash properly before the cream</td></tr>
+          </tbody>
+        </table>
+        <p>Morning and night use is explained in more detail in <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a>.</p>
+        <h2>4. Step by step at night</h2>
+        <ol>
+          <li>Wash with a mild face wash and lukewarm water. If you wore sunscreen or makeup all day, wash twice.</li>
+          <li>Pat dry with a clean towel and wait a minute so the skin is not dripping.</li>
+          <li>Apply half a pea-sized amount of cream in a thin layer over the face and neck.</li>
+          <li>Leave it on overnight. Change your pillow cover often; old oil and sweat on it do not help.</li>
+        </ol>
+        <p>If you use a separate pimple treatment from a dermatologist, ask them where the cream should go in your routine.</p>
+        <h2>5. Sunscreen for oily skin</h2>
+        <p>Sun is a main reason tan and dark marks stay longer, so sunscreen every morning matters more than any cream. Oily skin usually prefers a gel or fluid sunscreen that sets without a heavy feel. Use enough to cover the whole face and neck, and reapply if you are outdoors for long. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a> for the right order.</p>
+        <h2>6. Mistakes that make oily skin worse</h2>
+        <ul>
+          <li><b>Washing four or five times a day:</b> twice is enough; on very sweaty days, rinse with plain water in between.</li>
+          <li><b>Thick layers:</b> more cream does not mean faster results; it only adds shine and can clog pores.</li>
+          <li><b>Stacking many actives:</b> a strong scrub, a toner and several serums plus a cream can irritate oily skin too.</li>
+          <li><b>Applying on a sweaty face:</b> wipe or rinse sweat first, especially after travel.</li>
+          <li><b>Picking pimples:</b> it leaves darker marks. Read <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a> for what a cream can and cannot do for them.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin, and is meant to be used in a thin layer, so a 10 g jar suits oily skin that needs only a little product. Niacinamide is a common pick for oily skin because it helps skin look smoother and more even. The cream helps skin look brighter and tan or dark spots look lighter over weeks with sunscreen; it does not change your natural skin colour or stop oil production. It contains fragrance, so patch test first. More on all skin types in <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>, and the full ingredient notes are on the <a href="/ingredients/">ingredients</a> page.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if you have many painful or deep pimples, pimples that leave pitted scars, sudden heavy oiliness with other changes such as hair growth or irregular periods, or if your skin reacts to every product you try. These need proper diagnosis, not a cosmetic cream.</p>
+        <h2>FAQ</h2>
+        <h3>Will glutathione cream make oily skin more oily?</h3>
+        <p>A thin layer should not. If your face looks greasy, reduce the amount, use it only at night, and keep the morning to sunscreen.</p>
+        <h3>Can I use it in summer if my skin is oily?</h3>
+        <p>Yes. In hot, humid months many people with oily skin use the cream only at night and wear sunscreen in the day.</p>
+        <h3>Can it cause pimples?</h3>
+        <p>Any cream can block pores if you apply too much on skin that is already congested. Use a thin layer on a clean face, and stop if you get new bumps where you apply it.</p>
+        <h3>Do I need a separate moisturiser?</h3>
+        <p>Usually not on oily skin. The cream is enough; add a plain moisturiser only if your skin feels tight, for example in winter or after a long day in AC.</p>
+        <h3>How long before I notice a difference?</h3>
+        <p>Skin changes slowly and results differ from person to person. Give it several weeks of daily use with sunscreen before you judge it.</p>'''),
+    ('glutathione-and-niacinamide-together', 'Glutathione and niacinamide together: can you use them, and how?',
+     'Glutathione and Niacinamide Together: How to Use Both',
+     'Can you use glutathione and niacinamide together? Yes. How to layer them, morning vs night, what not to mix, a simple routine table and safety tips for India.',
+     'Ingredients', 'Yes, they pair well. How to layer them and what to skip.', '''
+        <p>Yes, glutathione and niacinamide can be used together, and many creams already contain both in one formula. Apply them once or twice a day on clean skin, thinnest product first, and finish with sunscreen every morning.</p>
+        <p>Neither ingredient is known for clashing with the other, so the real questions are practical ones: in which order to apply separate products, whether you need both as separate products at all, and what else in your routine to keep apart. This guide covers those.</p>
+        <h2>1. What each ingredient does</h2>
+        <table>
+          <thead><tr><th>Ingredient</th><th>What it is</th><th>What it is used for in skincare</th></tr></thead>
+          <tbody>
+            <tr><td>Glutathione</td><td>An antioxidant</td><td>Used in creams made for brighter-looking skin</td></tr>
+            <tr><td>Niacinamide</td><td>Vitamin B3</td><td>Helps skin look smoother and more even; supports a comfortable, moisturised feel</td></tr>
+          </tbody>
+        </table>
+        <p>Together they suit people who want a brighter, more even look and less dullness, used with sunscreen. Neither changes your natural skin colour. For the third ingredient often paired with them, see <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>.</p>
+        <h2>2. One product or two?</h2>
+        <p>If you already use a cream that contains both, you do not need a separate niacinamide serum as well. Layering two niacinamide products adds cost and can make sensitive skin flush or sting. One well-made product used every day beats three products used now and then.</p>
+        <p>If you use separate products, a niacinamide serum and a glutathione cream for example, that is fine too. Follow the order below.</p>
+        <h2>3. How to layer them</h2>
+        <ol>
+          <li>Wash with a mild face wash and pat dry.</li>
+          <li>Apply the thinnest product first: a watery serum, then a lotion, then a cream.</li>
+          <li>Wait a minute between layers so each one settles.</li>
+          <li>In the morning, finish with sunscreen. At night, the cream is the last step.</li>
+        </ol>
+        <p>The full order with sunscreen is in <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>4. A simple routine</h2>
+        <table>
+          <thead><tr><th>Time</th><th>If you use one cream with both</th><th>If you use two separate products</th></tr></thead>
+          <tbody>
+            <tr><td>Morning</td><td>Face wash, pea-sized amount of cream, sunscreen</td><td>Face wash, niacinamide serum, glutathione cream, sunscreen</td></tr>
+            <tr><td>Night</td><td>Face wash, pea-sized amount of cream</td><td>Face wash, niacinamide serum, glutathione cream</td></tr>
+            <tr><td>Sensitive skin, first 2 weeks</td><td>Night only, every other night</td><td>Use one product at a time; add the second after two weeks</td></tr>
+          </tbody>
+        </table>
+        <h2>5. What about vitamin C, retinol and acids?</h2>
+        <ul>
+          <li><b>Vitamin C:</b> the old advice that niacinamide and vitamin C must never meet is outdated for most people. If the combination makes your skin flush, use vitamin C in the morning and niacinamide at night. More in <a href="/journal/alpha-arbutin-and-vitamin-c/">alpha arbutin and vitamin C</a>.</li>
+          <li><b>Retinol:</b> use retinol at night and the glutathione cream in the morning or on non-retinol nights. See <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a>.</li>
+          <li><b>Strong exfoliating acids and scrubs:</b> do not use them on the same night as several actives; once or twice a week is enough for most skin.</li>
+        </ul>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines L-glutathione, niacinamide and alpha arbutin in one cream, so a pea-sized amount morning and night covers both ingredients without extra serums. It helps skin look brighter and more even, and tan or dark spots look lighter over weeks with daily sunscreen; it is not a treatment for any skin condition. It contains fragrance, so patch test first. Ingredient details are on the <a href="/ingredients/">ingredients</a> page, and use steps on <a href="/how-to-use/">how to use</a>.</p>
+        <h2>7. Safety tips</h2>
+        <ul>
+          <li>Patch test any new product on the inner arm or jawline for a day or two.</li>
+          <li>A mild tingle that fades in a minute can happen; lasting burning, itching or redness means stop and wash it off.</li>
+          <li>Pregnant or breastfeeding, under treatment for a skin condition, or considering glutathione tablets or injections? Talk to your doctor or a dermatologist. This guide is only about creams applied to the skin.</li>
+        </ul>
+        <h2>FAQ</h2>
+        <h3>Can I use glutathione and niacinamide together every day?</h3>
+        <p>Yes, most people can use them once or twice a day. Start once a day at night if your skin is sensitive.</p>
+        <h3>Which should I apply first?</h3>
+        <p>Whichever product is thinner goes first. Usually that is the serum, then the cream.</p>
+        <h3>Do I need a niacinamide serum if my cream has niacinamide?</h3>
+        <p>No. It is usually not needed, and two niacinamide products can irritate sensitive skin.</p>
+        <h3>Will using both make me fair?</h3>
+        <p>No. These ingredients can help skin look brighter and more even over weeks; they do not change your natural skin colour, and no honest cream promises that.</p>
+        <h3>How long should I use them before judging?</h3>
+        <p>Give it at least several weeks of daily use with sunscreen. Skin changes slowly and results differ from person to person.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -676,5 +791,7 @@ SHORT.update({
  'glutathione-cream-in-winter': 'Yes, keep using glutathione cream in winter: apply it on slightly damp skin after a lukewarm wash, add a plain moisturiser on top at night if skin feels tight, and wear sunscreen every morning. Pause for a few nights if it stings.',
  'glutathione-cream-for-pimple-marks': 'A cream with glutathione, niacinamide and alpha arbutin can help flat dark pimple marks look lighter over 8 to 12 weeks or more with daily sunscreen. It does not help pitted or raised scars and is not an acne treatment; see a dermatologist for those.',
  'glutathione-cream-for-sensitive-skin': 'Many people with sensitive skin can use a glutathione cream: patch test for 2 to 3 days, start every other night, keep the routine simple and wear sunscreen. Stop if redness, itching or burning lasts. Avoid fragranced creams if fragrance bothers you.',
+ 'glutathione-cream-for-oily-skin': 'Yes, oily skin can use glutathione cream: apply a very thin layer (about half a pea) on a freshly washed face, mostly at night, and keep mornings to a light layer or just sunscreen. Use less product rather than skipping moisture.',
+ 'glutathione-and-niacinamide-together': 'Yes, glutathione and niacinamide can be used together, and many creams contain both. Apply on clean skin, thinnest product first, once or twice a day, and wear sunscreen every morning. You do not need a separate niacinamide serum if your cream already has it.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
