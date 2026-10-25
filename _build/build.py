@@ -110,6 +110,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
     <div class="accept" aria-label="Payment methods we accept"><span class="accept-h">We accept</span><span>UPI</span><span>Debit cards</span><span>Credit cards</span><span>Netbanking</span><span>Cash on Delivery</span></div>
     <p>Online payments are processed securely by Razorpay.</p>
     <p>Fair N Pink is a brand owned by %(owner)s, %(addr)s.</p>
+    <p>Also from the same team: <a href="https://mircglow.com/" target="_blank" rel="noopener">Mirc Glow avocado night creams</a>.</p>
     <p>© Fair N Pink. Results vary from person to person. This cream is a cosmetic and is not meant to treat any medical condition.</p>
   </footer>
 </div>
