@@ -12,6 +12,8 @@
 | 2026-10-24 | glutathione cream for sensitive skin | /journal/glutathione-cream-for-sensitive-skin/ | Results were pharmacy product listings only; practical patch-test and slow-start plan; honest that the cream contains fragrance. |
 | 2026-10-25 | glutathione cream for oily skin | /journal/glutathione-cream-for-oily-skin/ | Results were pharmacy/marketplace product listings and whitening spam; oily skin and humid weather are very common in India; practical thin-layer, season-by-season routine with no fairness promise. |
 | 2026-10-25 | glutathione and niacinamide together | /journal/glutathione-and-niacinamide-together/ | Results were a Vietnamese pharmacy blog, product comparison pages and foreign shop listings; the cream contains both, so an honest layering guide fits. |
+| 2026-10-26 | glutathione cream with salicylic acid | /journal/glutathione-cream-with-salicylic-acid/ | Results were spam pages, foreign brand/peptide shops and a medical journal review; salicylic acid is very common for oily Indian skin; honest wash/toner/serum layering guide with over-exfoliation warnings. |
+| 2026-10-26 | glutathione cream before makeup | /journal/glutathione-cream-before-makeup/ | Results were only foreign product listings; common daily and wedding-season question; step order, wait times and pilling/shine fixes, no fairness promise. |
 
 ## Boosts
 

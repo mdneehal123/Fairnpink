@@ -801,6 +801,115 @@ MORE_ARTICLES = [
         <p>No. These ingredients can help skin look brighter and more even over weeks; they do not change your natural skin colour, and no honest cream promises that.</p>
         <h3>How long should I use them before judging?</h3>
         <p>Give it at least several weeks of daily use with sunscreen. Skin changes slowly and results differ from person to person.</p>'''),
+    ('glutathione-cream-with-salicylic-acid', 'Can you use glutathione cream with salicylic acid?',
+     'Glutathione Cream With Salicylic Acid: Can You Use Both?',
+     'Yes, glutathione cream and salicylic acid can share a routine: a salicylic wash or night serum, the cream after or on other nights. Steps and who should skip.',
+     'How to use', 'Face wash, serum or toner: how to fit salicylic acid around the cream.', '''
+        <p>Yes, you can use a glutathione cream and salicylic acid in the same routine. The easiest way is a salicylic acid face wash followed by the cream, or a leave-on salicylic serum on two or three nights a week with the cream on the other nights, plus sunscreen every morning.</p>
+        <p>Salicylic acid is one of the most common ingredients in Indian skincare for oily skin, blackheads and pimple-prone skin. It is an exfoliating acid (a BHA) that works inside the pores. A glutathione cream with niacinamide and alpha arbutin does a different job: it is used for brighter, more even-looking skin and to help dark marks look lighter over weeks. They do not cancel each other out, but stacking too much exfoliation on top of other actives is the usual reason a routine starts to sting.</p>
+        <h2>1. Which salicylic acid product do you use?</h2>
+        <p>How you combine them depends mostly on the form your salicylic acid comes in, because a wash-off product is much milder than one you leave on.</p>
+        <table>
+          <thead><tr><th>Salicylic product</th><th>How strong it feels</th><th>How to use it with the cream</th></tr></thead>
+          <tbody>
+            <tr><td>Face wash or cleanser</td><td>Mild; it is rinsed off within a minute</td><td>Wash, pat dry, then apply the cream as usual, morning or night</td></tr>
+            <tr><td>Toner or pads</td><td>Medium; stays on the skin</td><td>Use at night, let it dry for a few minutes, then a thin layer of cream; start on alternate nights</td></tr>
+            <tr><td>Serum</td><td>Stronger; leave-on</td><td>Two or three nights a week on its own; the cream in the morning and on the other nights</td></tr>
+            <tr><td>Spot gel</td><td>Strong but only on small areas</td><td>Dab on the pimple only; apply the cream around it, not over it</td></tr>
+            <tr><td>Peel or mask</td><td>Strongest</td><td>Not on the same day as other actives; follow the label and keep it occasional</td></tr>
+          </tbody>
+        </table>
+        <h2>2. A simple routine that works for most people</h2>
+        <ol>
+          <li><b>Morning:</b> salicylic acid face wash (or a mild cleanser), pat dry, a pea-sized amount of glutathione cream, then sunscreen SPF 30 or more.</li>
+          <li><b>Salicylic nights (two or three a week):</b> mild cleanser, your salicylic serum or toner on dry skin, and a light plain moisturiser only if you feel tight.</li>
+          <li><b>Other nights:</b> mild cleanser and the glutathione cream as your <a href="/glutathione-night-cream/">night cream</a>.</li>
+          <li><b>Every morning:</b> sunscreen, without exception. Exfoliated skin burns and tans more easily, and that undoes the work of any cream. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>This split keeps each product easy to judge. If something stings, you will know which one caused it.</p>
+        <h2>3. Can you layer them on the same night?</h2>
+        <p>Many people with oily, non-sensitive skin do apply a salicylic serum first, wait a few minutes until it dries, and put a thin layer of cream on top. If you want to try this, do it only after two or three weeks of comfortable use of each product separately, keep the amounts small, and go back to alternate nights at the first sign of burning, tightness or flaking. If you also use retinol, do not stack all three; read <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a> for how to split the week.</p>
+        <h2>4. Signs you are over-exfoliating</h2>
+        <ul>
+          <li>Stinging when you apply a cream that never stung before.</li>
+          <li>Skin that looks shiny and tight at the same time, or feels rough and flaky.</li>
+          <li>New small red bumps or more breakouts than before.</li>
+          <li>Redness that lasts after washing.</li>
+        </ul>
+        <p>If you notice these, stop the salicylic product and the cream for a few days and use only a gentle cleanser, a plain moisturiser and sunscreen. Restart one product at a time, less often. If burning, swelling or a rash appears, stop and see a dermatologist. Also read <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>
+        <h2>5. Adjusting for Indian weather and skin types</h2>
+        <p>In humid summers and the monsoon, oily skin often handles a salicylic face wash once or twice a day quite well, and a very thin layer of cream is enough. In dry North Indian winters, the same routine can feel harsh, so cut leave-on salicylic acid to once or twice a week and add a plain moisturiser on top. Combination skin can use salicylic acid only on the T-zone (forehead, nose, chin). If your skin is easily irritated, start with the face wash only; our guide to <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> has a slow-start plan. For shiny, humid-weather skin, see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</p>
+        <h2>6. What about pimple marks?</h2>
+        <p>Salicylic acid helps keep pores clear, and fewer new pimples means fewer new marks. A cream with niacinamide and alpha arbutin can help existing flat dark marks look lighter gradually, with sunscreen. Used together, they cover both sides of the problem, but neither will fill pitted scars. Read <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a> to tell dark marks, red marks and scars apart.</p>
+        <h2>7. Who should ask a doctor first</h2>
+        <p>If you are pregnant, trying to conceive or breastfeeding, ask your doctor before using leave-on salicylic acid products. If you have painful, frequent or cystic acne, or you use prescription acne medicine (such as a retinoid gel, antibiotic or tablets), see a dermatologist before adding more active creams. People with eczema, rosacea or a known aspirin allergy should also check with a doctor.</p>
+        <h2>8. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> contains L-glutathione, niacinamide and alpha arbutin and no salicylic acid, so it slots in after a salicylic face wash or on the nights you skip a salicylic serum. Niacinamide is generally well tolerated in routines with exfoliating acids; read more in our <a href="/ingredients/">ingredients</a> guide. The cream contains fragrance, so patch test it on your inner arm or behind the ear for 24 hours first.</p>
+        <h2>FAQ</h2>
+        <h3>Which goes first, salicylic acid or glutathione cream?</h3>
+        <p>Salicylic acid goes first. Wash it off if it is a face wash, or let a serum or toner dry for a few minutes, then apply the cream.</p>
+        <h3>Can I use a salicylic acid face wash every day with the cream?</h3>
+        <p>Most oily and combination skin can, once or twice a day. If your face feels tight or stings after washing, use it once a day and a mild cleanser the other time.</p>
+        <h3>Will using both make results faster?</h3>
+        <p>Not necessarily. Irritation can make skin look duller and marks darker. Steady daily use and sunscreen for eight weeks or more matter more than adding products.</p>
+        <h3>Can I use glutathione cream with salicylic acid and niacinamide serum?</h3>
+        <p>If your cream already has niacinamide, a separate niacinamide serum is usually not needed. See <a href="/journal/glutathione-and-niacinamide-together/">glutathione and niacinamide together</a>.</p>
+        <h3>Will salicylic acid with the cream make me fair?</h3>
+        <p>No. These products can help skin look clearer and more even over weeks; they do not change your natural skin colour, and no honest product promises that.</p>'''),
+
+    ('glutathione-cream-before-makeup', 'Can you apply glutathione cream before makeup?',
+     'Glutathione Cream Before Makeup: Order, Wait Time and Tips',
+     'Yes, glutathione cream can go under makeup: a thin layer, a short wait, then sunscreen and makeup. Steps, wait times and fixes for pilling and shine.',
+     'How to use', 'Thin layer, short wait, sunscreen, then makeup.', '''
+        <p>Yes, you can apply a glutathione cream before makeup. Use a thin layer on clean skin, give it three to five minutes to settle, then apply sunscreen, and only then your primer, foundation or compact.</p>
+        <p>Most problems people have with cream under makeup come from using too much or not waiting, not from the cream itself. Too much product makes foundation slide, patch or roll into little balls (pilling), especially in humid Indian weather. A small amount and a short pause usually fix it.</p>
+        <h2>1. The right order, step by step</h2>
+        <table>
+          <thead><tr><th>Step</th><th>What to do</th><th>Wait before the next step</th></tr></thead>
+          <tbody>
+            <tr><td>1. Cleanse</td><td>Wash with a mild face wash and pat dry</td><td>About a minute</td></tr>
+            <tr><td>2. Glutathione cream</td><td>Half to one pea-sized amount for the whole face, spread thin</td><td>Three to five minutes</td></tr>
+            <tr><td>3. Sunscreen</td><td>SPF 30 or more, enough to cover face and neck</td><td>Three to five minutes, until it no longer feels wet</td></tr>
+            <tr><td>4. Primer (optional)</td><td>Only where you need it, such as the T-zone</td><td>About a minute</td></tr>
+            <tr><td>5. Makeup</td><td>Foundation, BB cream, concealer or compact, pressed on rather than rubbed</td><td>-</td></tr>
+          </tbody>
+        </table>
+        <p>The rule of thumb is thinnest to thickest, and sunscreen always last in skincare, just before makeup. Makeup with SPF is not a replacement for sunscreen, because people rarely apply enough foundation or compact to get the protection on the label. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>2. How much cream to use under makeup</h2>
+        <p>Use less than you would at night. For most people, half a pea-sized amount is enough on oily skin and one pea-sized amount on dry skin. Dot it on the forehead, cheeks, nose and chin, then spread outwards. If your face still looks shiny after five minutes, you used too much; gently press a clean tissue on it rather than wiping. The general <a href="/how-to-use/">how to use</a> page shows the basic morning and night steps.</p>
+        <h2>3. Fixing common problems</h2>
+        <ul>
+          <li><b>Pilling (little balls when you apply foundation):</b> use less cream, wait longer between layers, and pat products on instead of rubbing back and forth.</li>
+          <li><b>Makeup sliding by noon:</b> use a thinner layer of cream, choose a gel or matte sunscreen, and use a primer and compact on the T-zone only. Our guide to <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a> has more tips.</li>
+          <li><b>Patchy, dry-looking foundation:</b> skin may be dry; apply the cream on slightly damp skin and add a plain moisturiser before sunscreen. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a>.</li>
+          <li><b>Stinging under makeup:</b> stop using the cream in the morning, keep it for night only, and see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a> if it continues.</li>
+        </ul>
+        <h2>4. For long days, weddings and functions</h2>
+        <p>Indian weddings and festivals often mean ten or more hours of makeup in heat, crowds and lights. On such days:</p>
+        <ol>
+          <li>Keep the same cream you already use; never try a new cream, facial or bleach in the last few days before an event.</li>
+          <li>Use the thinnest layer of cream that feels comfortable, or skip it in the morning and rely on moisturiser and sunscreen if your makeup artist prefers a bare base.</li>
+          <li>Carry blotting paper and a compact for touch-ups instead of adding more cream.</li>
+          <li>If you are getting threading or a facial before the event, read <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a> for how long to wait.</li>
+        </ol>
+        <p>A cream helps skin feel comfortable and look smoother under makeup on the day. Changes in dark spots or tan take eight weeks or more of daily use with sunscreen, so start your routine well before the date.</p>
+        <h2>5. At night: take it all off first</h2>
+        <p>Makeup, sunscreen and sweat left on overnight can clog pores and make skin look dull. Remove makeup gently with a cleansing balm, oil or micellar water, then wash with a mild face wash. Once your face is clean and dry, apply a pea-sized amount of the cream as your night cream. Read <a href="/journal/fair-n-pink-night-cream/">Fair N Pink as a night cream</a> for the night routine.</p>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar. Used as a thin morning layer under sunscreen, it works as the moisturising step before makeup; used at night, it is your night cream. It is meant for daily use, so you can follow the same habit on makeup and no-makeup days. See <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a>. The cream contains fragrance, so patch test it for 24 hours first, especially if your skin reacts to perfumed products.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>If you get itching, swelling, burning or a rash after a cream or makeup product, stop all new products and see a dermatologist. The same applies to frequent breakouts under makeup, which may need proper acne care rather than a change of cream.</p>
+        <h2>FAQ</h2>
+        <h3>Should glutathione cream go before or after sunscreen?</h3>
+        <p>Before. The cream goes on clean skin first, then sunscreen on top, then makeup.</p>
+        <h3>How long should I wait after the cream before foundation?</h3>
+        <p>Three to five minutes after the cream, and a few more minutes after sunscreen, until your skin no longer feels wet.</p>
+        <h3>Can I mix the cream into my foundation?</h3>
+        <p>It is better not to. Mixing changes the foundation's coverage and how it wears, and the cream spreads unevenly. Apply them as separate thin layers.</p>
+        <h3>Can I use it as a primer?</h3>
+        <p>It works as the moisturising step, not as a primer. If you want a smoother, longer-lasting base, add a primer after sunscreen.</p>
+        <h3>Will the cream make my makeup look lighter or fairer?</h3>
+        <p>No. It does not change your skin colour or your foundation shade; choose a foundation that matches your natural skin tone.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -820,5 +929,7 @@ SHORT.update({
  'glutathione-cream-for-sensitive-skin': 'Many people with sensitive skin can use a glutathione cream: patch test for 2 to 3 days, start every other night, keep the routine simple and wear sunscreen. Stop if redness, itching or burning lasts. Avoid fragranced creams if fragrance bothers you.',
  'glutathione-cream-for-oily-skin': 'Yes, oily skin can use glutathione cream: apply a very thin layer (about half a pea) on a freshly washed face, mostly at night, and keep mornings to a light layer or just sunscreen. Use less product rather than skipping moisture.',
  'glutathione-and-niacinamide-together': 'Yes, glutathione and niacinamide can be used together, and many creams contain both. Apply on clean skin, thinnest product first, once or twice a day, and wear sunscreen every morning. You do not need a separate niacinamide serum if your cream already has it.',
+ 'glutathione-cream-with-salicylic-acid': 'Yes, glutathione cream and salicylic acid can share one routine: use a salicylic face wash before the cream, or a leave-on salicylic serum on 2 to 3 nights a week with the cream on other nights. Wear sunscreen daily and cut back if skin stings.',
+ 'glutathione-cream-before-makeup': 'Yes, glutathione cream can go under makeup: apply a thin layer on clean skin, wait 3 to 5 minutes, then sunscreen, then primer and foundation. Use less cream on oily skin to avoid pilling and shine, and remove makeup before your night routine.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
