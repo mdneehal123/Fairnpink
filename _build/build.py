@@ -442,6 +442,11 @@ def product_schema(url, n=1):
                         'deliveryTime': {'@type': 'ShippingDeliveryTime',
                             'handlingTime': {'@type': 'QuantitativeValue', 'minValue': 0, 'maxValue': 1, 'unitCode': 'DAY'},
                             'transitTime': {'@type': 'QuantitativeValue', 'minValue': 3, 'maxValue': 7, 'unitCode': 'DAY'}}},
+                    # Same terms as /refund-policy/: unopened, sealed jars within 7 days, by post, change-of-mind return shipping paid by the buyer.
+                    'hasMerchantReturnPolicy': {'@type': 'MerchantReturnPolicy', 'applicableCountry': 'IN',
+                        'returnPolicyCategory': 'https://schema.org/MerchantReturnFiniteReturnWindow', 'merchantReturnDays': 7,
+                        'returnMethod': 'https://schema.org/ReturnByMail', 'returnFees': 'https://schema.org/ReturnFeesCustomerResponsibility',
+                        'itemCondition': 'https://schema.org/NewCondition', 'merchantReturnLink': SITE + '/refund-policy/'},
                     'seller': {'@id': SITE + '/#org'}}}]
 page('/', 'Fair N Pink Advance Radiance Cream | Brightening Face Cream ₹999',
      'Fair N Pink Advance Radiance Cream, a brightening cream for face with glutathione, niacinamide and alpha arbutin. 10 g jar, ₹999, free shipping and COD.',
