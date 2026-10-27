@@ -910,6 +910,109 @@ MORE_ARTICLES = [
         <p>It works as the moisturising step, not as a primer. If you want a smoother, longer-lasting base, add a primer after sunscreen.</p>
         <h3>Will the cream make my makeup look lighter or fairer?</h3>
         <p>No. It does not change your skin colour or your foundation shade; choose a foundation that matches your natural skin tone.</p>'''),
+    ('glutathione-cream-for-dark-circles', 'Can glutathione cream help dark circles under the eyes?',
+     'Glutathione Cream for Dark Circles: What It Can and Cannot Do',
+     'Can glutathione cream help dark circles? Which types it may help, how to apply it safely near the eyes, and when shadows or puffiness need other care.',
+     'Skin concerns', 'Which dark circles a cream can help, and how to apply it safely near the eyes.', '''
+        <p>A glutathione cream can help some dark circles look a little lighter over weeks, mainly the brownish kind caused by pigmentation, if you apply it carefully on the under-eye bone and wear sunscreen every day. It does little for dark circles caused by hollows, shadows, thin skin or puffiness, which are very common and often run in families.</p>
+        <p>So the honest first step is to work out what kind of dark circles you have. This guide shows you how, how to use a face cream near the eyes without irritation, and what else actually helps.</p>
+        <h2>1. What kind of dark circles do you have?</h2>
+        <table>
+          <thead><tr><th>Type</th><th>How it looks</th><th>Can a glutathione cream help?</th></tr></thead>
+          <tbody>
+            <tr><td>Pigmented (brown)</td><td>Brownish colour under or around the eyes, darker after sun</td><td>It may help it look a little lighter over 8 to 12 weeks, with sunscreen</td></tr>
+            <tr><td>Vascular (blue or purple)</td><td>Bluish tint, worse when tired or after a late night</td><td>Very little; sleep and a moisturised under-eye matter more</td></tr>
+            <tr><td>Shadow or hollow</td><td>Looks dark under overhead light, less so when you look up into light</td><td>No; it is the shape of the area, not colour</td></tr>
+            <tr><td>Puffy</td><td>Swelling under the eye that casts a shadow, often worse in the morning</td><td>No; see below for simple habits</td></tr>
+            <tr><td>Mixed</td><td>A bit of everything, which is very common</td><td>It may help only the pigmented part</td></tr>
+          </tbody>
+        </table>
+        <p>A simple check: gently stretch the skin under your eye in daylight. If the colour fades a lot, it is mostly vascular or shadow. If the brown stays, pigment is part of it. On Indian skin, brown pigmented circles are common, which is why people ask about creams with glutathione, niacinamide and alpha arbutin.</p>
+        <h2>2. How to apply a face cream near the eyes</h2>
+        <ol>
+          <li><b>Patch test first.</b> Try a little on your inner arm for 24 hours, then on a small spot near the outer cheek for two nights. The under-eye skin is thinner and reacts more easily.</li>
+          <li><b>Use a tiny amount.</b> A rice-grain amount is enough for both eyes.</li>
+          <li><b>Stay on the bone.</b> Dab it along the under-eye bone, about a finger-width below the lash line. Do not put it on the eyelid, the lash line or inside the inner corner.</li>
+          <li><b>Use your ring finger and tap, do not rub.</b> Rubbing and pulling irritate the area and can make it look darker.</li>
+          <li><b>Night is easiest.</b> If you use it in the morning, wait a few minutes and then apply sunscreen right up to the under-eye area.</li>
+          <li><b>Stop if it stings or waters your eyes.</b> Rinse with cool water and use only a plain, fragrance-free moisturiser there.</li>
+        </ol>
+        <p>The cream contains fragrance, so if your eyes or eyelids react easily to perfumed products, keep it off the under-eye area completely. Read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> for a slow-start plan.</p>
+        <h2>3. Sunscreen matters more than the cream</h2>
+        <p>Brown circles get darker with sun, and the under-eye area is often missed with sunscreen. Apply SPF 30 or more gently up to the bone below the eyes every morning, and wear sunglasses outdoors. Without daily sun protection, no cream will make pigmented circles look lighter for long. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>4. Habits that make dark circles look worse</h2>
+        <ul>
+          <li><b>Rubbing your eyes</b>, especially with allergies, dust or after long screen time.</li>
+          <li><b>Late nights and little sleep</b>, which make vascular circles and puffiness more visible.</li>
+          <li><b>Salty dinners and lying flat</b>, which can make morning puffiness worse; a slightly raised pillow helps some people.</li>
+          <li><b>Harsh makeup removal</b>, such as scrubbing off kajal and eyeliner. Use a gentle remover on cotton and press, do not drag.</li>
+          <li><b>Home remedies like lemon or raw potato rubbed hard</b>, which can irritate thin under-eye skin.</li>
+        </ul>
+        <h2>5. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar. It is a face cream, not a dedicated eye cream, so use only a rice-grain amount on the under-eye bone if your skin tolerates it, and keep it away from the eyelids and lash line. For the rest of the face, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>. Any change in brown circles is slow and modest: give it 8 to 12 weeks of daily use with sunscreen. The cream does not change your natural skin colour.</p>
+        <h2>6. When to see a doctor</h2>
+        <p>See a doctor or dermatologist if dark circles appear suddenly, only on one side, or come with swelling, itching, flaking or watery eyes, which may be allergy or eczema. Constant tiredness with dark circles can be worth a general health check, for example for low iron. A dermatologist can also tell you if your circles are mainly hollows, which creams cannot change.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream under my eyes?</h3>
+        <p>You can apply a rice-grain amount on the under-eye bone after a patch test, keeping it off the eyelids and lash line. Stop if it stings or makes your eyes water.</p>
+        <h3>How long does it take for dark circles to look lighter?</h3>
+        <p>For brown, pigmented circles, give it 8 to 12 weeks of daily use with sunscreen. Hollows, shadows and blue-purple circles usually do not change with a cream.</p>
+        <h3>Is an eye cream better than a face cream for dark circles?</h3>
+        <p>An eye cream is made and tested for the eye area, which suits sensitive eyes better. A gentle face cream can work on the bone below the eye if your skin tolerates it.</p>
+        <h3>Can glutathione cream remove dark circles permanently?</h3>
+        <p>No. No cream removes dark circles permanently. Sun, sleep, allergies and genetics keep playing a part, so care has to be ongoing.</p>
+        <h3>Do home remedies like potato or cold tea bags help?</h3>
+        <p>A cool compress or chilled tea bags can make puffiness look less for a short time. Rubbing potato or lemon does not reliably help and can irritate the skin.</p>'''),
+    ('glutathione-cream-for-dark-neck', 'Glutathione cream for dark neck: what helps, what does not',
+     'Glutathione Cream for Dark Neck: Honest Guide and Routine',
+     'Can glutathione cream help a dark neck? Common causes, a simple daily routine, how much cream to use, and when a velvety dark neck needs a doctor first.',
+     'Skin concerns', 'Causes of a dark neck, a simple routine, and when to see a doctor first.', '''
+        <p>A glutathione cream can help a dark neck caused by sun, friction or uneven tone look a little more even over 8 to 12 weeks, if you use it daily with sunscreen and stop the habits that darken the area. But if the skin on your neck is dark, thick and velvety, especially in the folds, see a doctor first, because that can be linked to health conditions that a cream will not change.</p>
+        <p>The neck is one of the most common concerns in India: it gets sun, sweat, rubbing from collars, dupattas and chains, and is often skipped in skincare. Here is how to tell what kind of dark neck you have and what a cream can realistically do.</p>
+        <h2>1. Common causes of a dark neck</h2>
+        <table>
+          <thead><tr><th>Cause</th><th>Signs</th><th>What helps</th></tr></thead>
+          <tbody>
+            <tr><td>Sun and tan</td><td>Darker on the back and sides of the neck, the parts that face the sun</td><td>Sunscreen on the neck daily; a brightening cream over weeks</td></tr>
+            <tr><td>Friction</td><td>Darker where collars, chains, dupattas or helmet straps rub</td><td>Softer fabrics, loose chains, gentle washing; a moisturising cream</td></tr>
+            <tr><td>Product or perfume reaction</td><td>Patchy darkening where perfume or a new product was sprayed or applied</td><td>Stop the product; spray perfume on clothes, not skin</td></tr>
+            <tr><td>Dust and sweat build-up</td><td>Looks grey or dull, partly washes off with gentle cleansing</td><td>Wash the neck gently every day, especially in summer and monsoon</td></tr>
+            <tr><td>Velvety, thick dark skin in the folds</td><td>Soft, thick, darker skin on the back of the neck, sometimes also in underarms</td><td>See a doctor; it can be linked to weight, insulin resistance, PCOS or medicines</td></tr>
+          </tbody>
+        </table>
+        <h2>2. A simple dark neck routine</h2>
+        <ol>
+          <li><b>Morning:</b> rinse the neck, apply a thin layer of cream if you like, then sunscreen SPF 30 or more on the front, sides and back of the neck.</li>
+          <li><b>Daytime:</b> if you ride a two-wheeler or are outdoors a lot, cover the neck with a light cotton scarf.</li>
+          <li><b>Night:</b> wash the neck with a mild face wash or body wash and lukewarm water using your hand, not a loofah or scrubber. Pat dry.</li>
+          <li><b>Apply a pea-sized amount of cream</b> spread over the front and sides of the neck, using gentle upward strokes. Do not rub hard.</li>
+          <li><b>Exfoliate gently once a week at most.</b> Hard scrubbing makes friction darkening worse, not better.</li>
+        </ol>
+        <p>The same cream you use on the face works on the neck; you do not need a separate neck cream. See <a href="/how-to-use/">how to use</a> for the basic steps and <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a> for how often.</p>
+        <h2>3. How much cream and how long a jar lasts on the neck</h2>
+        <p>The neck needs about the same as the face, roughly one pea-sized amount. If you use the cream on both face and neck every night, a 10 g jar runs out faster, so plan for that. Many people use the cream on the face daily and on the neck every night or every other night. The <a href="/journal/fair-n-pink-cream-price/">Fair N Pink price</a> page lists the 1, 2 and 3 jar packs.</p>
+        <h2>4. What not to do</h2>
+        <ul>
+          <li><b>Do not scrub with lemon, baking soda, sugar or harsh soap.</b> They irritate the skin and can leave it darker.</li>
+          <li><b>Do not use bleach creams on the neck.</b> The neck skin is thin and reacts easily.</li>
+          <li><b>Do not buy creams that promise to make the neck fair in days.</b> No cosmetic does that, and quick-change creams can contain steroids or mercury.</li>
+          <li><b>Do not skip sunscreen on the neck.</b> Most people stop at the jawline.</li>
+        </ul>
+        <h2>5. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, ingredients widely used to help dark areas and tan look lighter and tone look more even over time. On the neck, use it as part of the routine above, with daily sunscreen. Expect a gradual, modest change after 8 to 12 weeks, not a new skin colour. Read <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a> for how these ingredients work, and patch test first because the cream contains fragrance.</p>
+        <h2>6. When a dark neck needs a doctor</h2>
+        <p>See a doctor or dermatologist if the darkening is thick, velvety or spreading, appears quickly, is also in the underarms or groin, or comes with weight gain, irregular periods or tiredness. This can be a sign called acanthosis nigricans, which is linked to insulin resistance, PCOS, some medicines and other conditions. The skin often improves when the cause is managed, which is why the doctor comes first and the cream second. For uneven tone elsewhere, see <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream on my neck?</h3>
+        <p>Yes. Use a pea-sized amount on clean skin at night, and sunscreen on the neck every morning. Patch test first.</p>
+        <h3>How long does it take for a dark neck to look lighter?</h3>
+        <p>For tan and friction darkening, give it 8 to 12 weeks of daily use with sunscreen and gentle habits. Velvety dark skin needs a doctor's advice.</p>
+        <h3>Will glutathione cream remove a dark neck permanently?</h3>
+        <p>No. It can help the area look more even over time, but sun and friction keep affecting it, so sunscreen and gentle care have to continue.</p>
+        <h3>Is a dark neck a sign of diabetes?</h3>
+        <p>Not always, but thick, velvety darkening can be linked to insulin resistance. A doctor can check with simple tests, so it is worth asking.</p>
+        <h3>Can I use the cream on my neck and face at the same time?</h3>
+        <p>Yes. Apply to the face first, then spread what is left plus a little more over the neck.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -931,5 +1034,7 @@ SHORT.update({
  'glutathione-and-niacinamide-together': 'Yes, glutathione and niacinamide can be used together, and many creams contain both. Apply on clean skin, thinnest product first, once or twice a day, and wear sunscreen every morning. You do not need a separate niacinamide serum if your cream already has it.',
  'glutathione-cream-with-salicylic-acid': 'Yes, glutathione cream and salicylic acid can share one routine: use a salicylic face wash before the cream, or a leave-on salicylic serum on 2 to 3 nights a week with the cream on other nights. Wear sunscreen daily and cut back if skin stings.',
  'glutathione-cream-before-makeup': 'Yes, glutathione cream can go under makeup: apply a thin layer on clean skin, wait 3 to 5 minutes, then sunscreen, then primer and foundation. Use less cream on oily skin to avoid pilling and shine, and remove makeup before your night routine.',
+ 'glutathione-cream-for-dark-circles': 'A glutathione cream may help brown, pigmented dark circles look a little lighter over 8 to 12 weeks with daily sunscreen, using a rice-grain amount on the under-eye bone. It does not change hollows, shadows, puffiness or blue-purple circles.',
+ 'glutathione-cream-for-dark-neck': 'A glutathione cream can help a dark neck from sun, tan or friction look more even over 8 to 12 weeks with daily sunscreen and gentle washing. Thick, velvety dark skin in the neck folds needs a doctor first, as it can be linked to health conditions.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
