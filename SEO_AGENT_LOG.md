@@ -14,6 +14,8 @@
 | 2026-10-25 | glutathione and niacinamide together | /journal/glutathione-and-niacinamide-together/ | Results were a Vietnamese pharmacy blog, product comparison pages and foreign shop listings; the cream contains both, so an honest layering guide fits. |
 | 2026-10-26 | glutathione cream with salicylic acid | /journal/glutathione-cream-with-salicylic-acid/ | Results were spam pages, foreign brand/peptide shops and a medical journal review; salicylic acid is very common for oily Indian skin; honest wash/toner/serum layering guide with over-exfoliation warnings. |
 | 2026-10-26 | glutathione cream before makeup | /journal/glutathione-cream-before-makeup/ | Results were only foreign product listings; common daily and wedding-season question; step order, wait times and pilling/shine fixes, no fairness promise. |
+| 2026-10-28 | glutathione cream for combination skin | /journal/glutathione-cream-for-combination-skin/ | Results were pharmacy and marketplace product listings and whitening-cream shops only; combination skin is very common in India; practical how-much-where table and season-by-season routine, no fairness promise. |
+| 2026-10-28 | at what age can we use glutathione cream | /journal/at-what-age-can-we-use-glutathione-cream/ | Results were foreign supplement blogs, foreign shop listings and spam; common question from teens and parents; honest age-by-age guide that discourages use by children and corrects "fair" pressure. |
 
 ## Boosts
 

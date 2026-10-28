@@ -1013,6 +1013,120 @@ MORE_ARTICLES = [
         <p>Not always, but thick, velvety darkening can be linked to insulin resistance. A doctor can check with simple tests, so it is worth asking.</p>
         <h3>Can I use the cream on my neck and face at the same time?</h3>
         <p>Yes. Apply to the face first, then spread what is left plus a little more over the neck.</p>'''),
+    ('glutathione-cream-for-combination-skin', 'Glutathione cream for combination skin: how to use it on an oily T-zone and dry cheeks',
+     'Glutathione Cream for Combination Skin: How to Apply It',
+     'Can you use glutathione cream on combination skin? Yes: a thin layer on the oily T-zone, a little more on dry cheeks. Routine, amounts and seasonal tips.',
+     'Skin type', 'How much cream goes where on combination skin, morning and night, through the Indian year.', '''
+        <p>Yes, combination skin can use a glutathione cream. The trick is to apply it unevenly on purpose: a very thin layer on the oily T-zone (forehead, nose and chin) and a little more on the cheeks, which are usually drier. Used this way, with sunscreen every morning, it can help skin look brighter and more even over 8 to 12 weeks without making the T-zone greasy.</p>
+        <p>Combination skin is very common in India, and it changes with the season: oilier in summer and the monsoon, drier and tighter on the cheeks in winter and in AC rooms. Here is how to fit a cream into that.</p>
+        <h2>1. How to tell if you have combination skin</h2>
+        <p>Wash your face with a mild face wash, pat dry and wait about an hour without applying anything. If the forehead and nose look shiny but the cheeks feel normal or a little tight, you have combination skin. If the whole face is shiny, read <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a> instead.</p>
+        <h2>2. How much cream goes where</h2>
+        <table>
+          <thead><tr><th>Area</th><th>How it usually feels</th><th>How much cream</th></tr></thead>
+          <tbody>
+            <tr><td>Forehead</td><td>Shiny by midday</td><td>A very thin layer, just what is left on your fingers</td></tr>
+            <tr><td>Nose and sides of the nose</td><td>Oiliest; open-looking pores</td><td>A trace only, or skip in humid weather</td></tr>
+            <tr><td>Chin</td><td>Oily, sometimes with breakouts</td><td>A thin layer</td></tr>
+            <tr><td>Cheeks</td><td>Normal to dry, tight after washing</td><td>Most of the pea-sized amount</td></tr>
+            <tr><td>Neck</td><td>Usually normal</td><td>A little extra if you use it there</td></tr>
+          </tbody>
+        </table>
+        <p>In total, a pea-sized amount is enough for the whole face. Start on the cheeks, then spread what is left on your fingers across the T-zone.</p>
+        <h2>3. A simple routine for combination skin</h2>
+        <ol>
+          <li><b>Night:</b> wash with a gentle face wash and lukewarm water, pat dry, and apply the cream as in the table above.</li>
+          <li><b>Morning:</b> rinse or wash, apply a thin layer of cream on the cheeks only (or skip it in humid weather), then sunscreen SPF 30 or more on the whole face.</li>
+          <li><b>Midday (summer):</b> blot the T-zone with tissue rather than washing again. Reapply sunscreen if you are outdoors.</li>
+          <li><b>Once a week, if you like:</b> a clay pack on the T-zone only, not on dry cheeks. Use a plain moisturiser that night.</li>
+        </ol>
+        <p>For the basic application steps, see <a href="/how-to-use/">how to use</a>, and for daily use questions read <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a>.</p>
+        <h2>4. Adjusting through the Indian year</h2>
+        <table>
+          <thead><tr><th>Season</th><th>What changes</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Summer (March to June)</td><td>T-zone gets very oily, cheeks feel normal</td><td>Cream mainly at night; mornings just sunscreen on the T-zone</td></tr>
+            <tr><td>Monsoon</td><td>Sticky, humid; breakouts on the chin</td><td>Thin layers, wash off sweat in the evening, change pillow covers often</td></tr>
+            <tr><td>Winter (November to February)</td><td>Cheeks get tight or flaky</td><td>Apply on slightly damp skin; add a plain moisturiser on the cheeks if needed. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a></td></tr>
+            <tr><td>AC office or long travel</td><td>Cheeks dry out during the day</td><td>A thin layer on the cheeks in the morning under sunscreen</td></tr>
+          </tbody>
+        </table>
+        <h2>5. Mistakes that make combination skin worse</h2>
+        <ul>
+          <li><b>Using the same thick layer everywhere.</b> It feels heavy on the nose and still not enough on the cheeks.</li>
+          <li><b>Washing the face many times a day.</b> It dries the cheeks and can make the T-zone look oilier later.</li>
+          <li><b>Strong scrubs or lemon on the nose.</b> They irritate the skin without making pores smaller.</li>
+          <li><b>Skipping sunscreen because the face feels oily.</b> Choose a gel or matte sunscreen instead of skipping it, because sun makes uneven tone look worse.</li>
+          <li><b>Adding many actives at once.</b> If you also use a salicylic acid face wash or serum, read <a href="/journal/glutathione-cream-with-salicylic-acid/">glutathione cream with salicylic acid</a> before layering.</li>
+        </ul>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Niacinamide is often chosen by people with combination skin because it is gentle and is commonly used to help skin look smoother and more balanced, and the cream comes in a small 10 g jar that suits thin-layer use. Read <a href="/journal/glutathione-and-niacinamide-together/">glutathione and niacinamide together</a> for how these ingredients work. It is a cosmetic cream: expect brighter-looking skin and a more even-looking tone slowly, with daily sunscreen, not a change in your natural skin colour. Patch test first, because the cream contains fragrance.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if you have painful or frequent breakouts on the chin or jawline, redness that does not settle, flaking with itching around the nose and eyebrows, or dark patches that spread. These need a proper diagnosis, and a cosmetic cream is not a treatment for them.</p>
+        <h2>FAQ</h2>
+        <h3>Is glutathione cream good for combination skin?</h3>
+        <p>Yes, if you use thin layers: less on the oily T-zone and a little more on dry cheeks, with sunscreen every morning. Patch test first.</p>
+        <h3>Should I apply glutathione cream on my nose if it is oily?</h3>
+        <p>Use only a trace on the nose, or skip it on humid days. Most of the pea-sized amount should go on the cheeks.</p>
+        <h3>Can I use glutathione cream in the morning on combination skin?</h3>
+        <p>Yes, a thin layer on the cheeks under sunscreen works for most people. In summer, many prefer using it only at night.</p>
+        <h3>Will glutathione cream make my T-zone more oily?</h3>
+        <p>Not if you use a thin layer. A heavy layer on any oily area can feel greasy, so use less there rather than skipping moisture on the whole face.</p>
+        <h3>How long before I see a difference?</h3>
+        <p>Skin can feel softer within days. A brighter, more even-looking tone usually takes 8 to 12 weeks of steady use with daily sunscreen.</p>'''),
+    ('at-what-age-can-we-use-glutathione-cream', 'At what age can you use glutathione cream?',
+     'At What Age Can We Use Glutathione Cream? Honest Guide',
+     'At what age can you use glutathione cream? Adults can; teens 16+ only for a real concern, with care. Age-by-age guide, what to avoid and when to ask a doctor.',
+     'How to use', 'An age-by-age guide to glutathione cream for teens, 20s, 30s, 40s and beyond.', '''
+        <p>Adults of any age can use a cosmetic glutathione cream if their skin tolerates it. For teenagers, there is no strict legal age, but most do not need one: a gentle face wash, moisturiser and sunscreen are enough, and a brightening cream makes sense only from around 16 for a specific concern such as tan or pimple marks, used gently and with a parent's knowledge. Children should not use it.</p>
+        <p>Age matters less than your skin type, your concern and how carefully you use it. Here is what changes from your teens to your 50s, and what to watch out for at each stage.</p>
+        <h2>1. Age-by-age guide</h2>
+        <table>
+          <thead><tr><th>Age</th><th>Is a glutathione cream useful?</th><th>What matters most</th></tr></thead>
+          <tbody>
+            <tr><td>Under 13</td><td>No</td><td>Gentle cleansing and sunscreen only. Children's skin does not need brightening creams.</td></tr>
+            <tr><td>13 to 15</td><td>Usually not needed</td><td>Face wash, light moisturiser, sunscreen. See a dermatologist for acne.</td></tr>
+            <tr><td>16 to 19</td><td>Only for a specific concern (tan, pimple marks), with care</td><td>Patch test, every other night at first, sunscreen daily, a parent in the loop</td></tr>
+            <tr><td>20s</td><td>Yes, for tan, dullness or dark spots</td><td>Sunscreen habit, not too many actives at once</td></tr>
+            <tr><td>30s</td><td>Yes; uneven tone and spots become more common</td><td>Consistency, sunscreen, gentle moisturising</td></tr>
+            <tr><td>40s and 50s</td><td>Yes, often alongside a richer moisturiser</td><td>Drier skin, so moisturise well; see a doctor for new or changing patches</td></tr>
+          </tbody>
+        </table>
+        <h2>2. Teenagers: what parents should know</h2>
+        <p>Many teenagers ask for a glutathione cream because of social media or pressure to look "fair". That pressure is worth talking about honestly: no cream changes the skin colour you were born with, and a teenager does not need one to look healthy. If a teen has a real concern, such as tan from sports or flat dark marks after pimples, a gentle cream can be used:</p>
+        <ol>
+          <li><b>Patch test</b> on the inner arm for 24 hours, then a small area of the jawline for two nights.</li>
+          <li><b>Start every other night</b>, a small pea-sized amount on clean, dry skin.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or more, especially before school sports or outdoor coaching.</li>
+          <li><b>Do not add other actives</b> like acid serums, retinol or scrubs at the same time.</li>
+          <li><b>Stop and ask a doctor</b> if there is burning, rash or itching, or if acne gets worse.</li>
+        </ol>
+        <p>Painful or frequent acne in teenagers needs a dermatologist, not a brightening cream. For marks left behind, read <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a>.</p>
+        <h2>3. In your 20s and 30s</h2>
+        <p>This is when most people start, often for tan from commuting, dullness after late nights, or dark spots from old pimples. A pea-sized amount once or twice a day on clean skin, with sunscreen every morning, is enough. Do not stack many brightening products together; one good cream used steadily for 8 to 12 weeks is better than switching every two weeks. Read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a> for realistic timelines.</p>
+        <h2>4. In your 40s, 50s and later</h2>
+        <p>Skin usually gets drier, and sun spots and uneven tone show more. A glutathione cream can still help skin look brighter and more even over time. Apply it on slightly damp skin, add a plain moisturiser on top if your face feels tight, and keep up sunscreen. Any new, growing, bleeding or changing dark spot should be checked by a doctor before you put a cosmetic cream on it.</p>
+        <h2>5. Who should not use it, at any age</h2>
+        <ul>
+          <li><b>Pregnant or breastfeeding women:</b> ask your doctor before using any new active cream.</li>
+          <li><b>People with a perfume allergy:</b> the cream contains fragrance.</li>
+          <li><b>Anyone with broken, sunburnt or freshly waxed skin</b> on that area, until it settles. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</li>
+          <li><b>Anyone under treatment for a skin condition</b> like melasma, eczema or severe acne: ask your dermatologist first.</li>
+        </ul>
+        <p>Glutathione tablets and injections are a different matter. They are not cosmetics, and their use, especially by young people, should only be discussed with a doctor.</p>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is a cosmetic face cream for adults with L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is meant to help dark spots and tan look lighter and skin look more even over weeks, with daily sunscreen. It does not change natural skin colour, and it does not work faster at a younger age. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a> for skin types and situations.</p>
+        <h2>FAQ</h2>
+        <h3>Can a 16-year-old use glutathione cream?</h3>
+        <p>Only if there is a real concern like tan or pimple marks, after a patch test, every other night at first, with sunscreen daily and a parent's knowledge. Most 16-year-olds do not need one.</p>
+        <h3>Can a 14-year-old use glutathione cream?</h3>
+        <p>It is better not to. At that age a gentle face wash, moisturiser and sunscreen are enough. See a dermatologist for acne or skin worries.</p>
+        <h3>Is glutathione cream safe after 40?</h3>
+        <p>Yes, for most people, with a patch test and daily sunscreen. Drier skin may need a plain moisturiser on top.</p>
+        <h3>Does glutathione cream work better at a younger age?</h3>
+        <p>No. It works slowly at every age. Daily sunscreen and steady use matter far more than age.</p>
+        <h3>Will starting young make my skin fair?</h3>
+        <p>No. No cream changes the skin colour you were born with. A cosmetic cream can only help skin look brighter and more even over time.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -1036,5 +1150,7 @@ SHORT.update({
  'glutathione-cream-before-makeup': 'Yes, glutathione cream can go under makeup: apply a thin layer on clean skin, wait 3 to 5 minutes, then sunscreen, then primer and foundation. Use less cream on oily skin to avoid pilling and shine, and remove makeup before your night routine.',
  'glutathione-cream-for-dark-circles': 'A glutathione cream may help brown, pigmented dark circles look a little lighter over 8 to 12 weeks with daily sunscreen, using a rice-grain amount on the under-eye bone. It does not change hollows, shadows, puffiness or blue-purple circles.',
  'glutathione-cream-for-dark-neck': 'A glutathione cream can help a dark neck from sun, tan or friction look more even over 8 to 12 weeks with daily sunscreen and gentle washing. Thick, velvety dark skin in the neck folds needs a doctor first, as it can be linked to health conditions.',
+ 'glutathione-cream-for-combination-skin': 'Yes, combination skin can use glutathione cream: put a very thin layer on the oily T-zone and a little more on drier cheeks, mostly at night, with sunscreen every morning. It can help skin look brighter and more even over 8 to 12 weeks.',
+ 'at-what-age-can-we-use-glutathione-cream': 'Adults of any age can use a cosmetic glutathione cream if their skin tolerates it. Most teenagers do not need one; from about 16, it can be used gently for a specific concern like tan, with a patch test and sunscreen. Children should not use it.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
