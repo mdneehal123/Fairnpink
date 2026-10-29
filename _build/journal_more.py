@@ -1127,6 +1127,137 @@ MORE_ARTICLES = [
         <p>No. It works slowly at every age. Daily sunscreen and steady use matter far more than age.</p>
         <h3>Will starting young make my skin fair?</h3>
         <p>No. No cream changes the skin colour you were born with. A cosmetic cream can only help skin look brighter and more even over time.</p>'''),
+    ('glutathione-cream-for-dry-skin', 'Glutathione cream for dry skin: how to use it without tightness or flaking',
+     'Glutathione Cream for Dry Skin: How to Use It Comfortably',
+     'Can you use glutathione cream on dry skin? Yes, on damp skin with a plain moisturiser on top. Routine, layering order, winter tips and mistakes to avoid.',
+     'Skin type', 'How to fit a glutathione cream into a dry-skin routine, with layering order and tips for Indian winters and AC rooms.', '''
+        <p>Yes, dry skin can use a glutathione cream. Apply it on slightly damp skin after a gentle wash, and if your face still feels tight, add a plain moisturiser on top; used this way with sunscreen every morning, it can help skin look brighter and more even over 8 to 12 weeks without making dryness worse.</p>
+        <p>Most glutathione creams are made for tone, not for deep moisture. Dry skin usually needs both: the cream for a more even look, and enough moisture so the skin stays comfortable. Here is how to get that balance in Indian weather.</p>
+        <h2>1. Is your skin dry, or just dehydrated?</h2>
+        <table>
+          <thead><tr><th></th><th>Dry skin</th><th>Dehydrated skin</th></tr></thead>
+          <tbody>
+            <tr><td>What it is</td><td>Skin that makes little oil, all year</td><td>Skin short of water for a while; any skin type can get it</td></tr>
+            <tr><td>How it feels</td><td>Tight, rough, flaky patches on cheeks</td><td>Tight but may still look shiny on the T-zone</td></tr>
+            <tr><td>When it is worse</td><td>Winter, hard water, hot showers</td><td>AC rooms, travel, too many actives, low water intake</td></tr>
+            <tr><td>What helps most</td><td>Richer moisturiser, gentle cleansing</td><td>Lighter layers, removing harsh products</td></tr>
+          </tbody>
+        </table>
+        <p>If your T-zone gets oily while your cheeks feel tight, read <a href="/journal/glutathione-cream-for-combination-skin/">glutathione cream for combination skin</a> instead.</p>
+        <h2>2. The right order for dry skin</h2>
+        <ol>
+          <li><b>Wash gently</b> with a mild, non-foaming or low-foam face wash and lukewarm water, not hot. Once a day at night is often enough; a plain water rinse can do in the morning.</li>
+          <li><b>Pat, do not rub,</b> and leave the skin slightly damp.</li>
+          <li><b>Apply a pea-sized amount of the glutathione cream</b> within a minute, so it goes on damp skin.</li>
+          <li><b>Wait 2 to 3 minutes,</b> then add a plain, fragrance-free moisturiser on dry areas if the skin still feels tight.</li>
+          <li><b>Morning:</b> a thin layer of cream or just moisturiser, then sunscreen SPF 30 or more. Read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a> for the order.</li>
+        </ol>
+        <p>For the basic steps with the jar itself, see <a href="/how-to-use/">how to use</a>.</p>
+        <h2>3. What dry skin should look for in a glutathione cream</h2>
+        <ul>
+          <li><b>Niacinamide:</b> commonly used to support the skin's moisture barrier and help skin look smoother.</li>
+          <li><b>A creamy, not gel, texture</b> if your skin is dry all year.</li>
+          <li><b>No alcohol-heavy or strongly perfumed base</b> if your skin stings easily.</li>
+          <li><b>A full ingredient list</b> and no steroids or mercury. See <a href="/journal/best-glutathione-cream-in-india/">how to choose a glutathione cream in India</a>.</li>
+        </ul>
+        <h2>4. Adjusting through the Indian year</h2>
+        <table>
+          <thead><tr><th>Season or place</th><th>What happens to dry skin</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>North Indian winter (November to February)</td><td>Cheeks flake, skin feels tight after every wash</td><td>Cream at night on damp skin plus moisturiser on top; see <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a></td></tr>
+            <tr><td>AC office or long flights</td><td>Tightness during the day</td><td>A thin layer of moisturiser under sunscreen in the morning; keep a small cream at your desk</td></tr>
+            <tr><td>Hard water areas</td><td>Skin feels squeaky and tight after washing</td><td>Use less face wash, rinse with lukewarm water, moisturise straight away</td></tr>
+            <tr><td>Summer and monsoon</td><td>Usually more comfortable</td><td>The cream alone may be enough; keep sunscreen daily</td></tr>
+          </tbody>
+        </table>
+        <h2>5. Mistakes that make dry skin worse</h2>
+        <ul>
+          <li><b>Hot water on the face.</b> It feels good in winter but strips oil. Keep it lukewarm.</li>
+          <li><b>Scrubs, lemon or many actives at once.</b> Dry skin gets irritated faster. Add one new product at a time; if you use retinol, read <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a> first.</li>
+          <li><b>Applying the cream on bone-dry skin hours after washing.</b> Damp skin spreads it better and feels less tight.</li>
+          <li><b>Using too much.</b> A thick layer does not work faster. Add moisture with a plain moisturiser instead of piling on more of the active cream.</li>
+          <li><b>Skipping sunscreen in winter.</b> Winter sun still darkens tan and spots, which undoes your effort.</li>
+        </ul>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over weeks, with daily sunscreen; it does not change your natural skin colour and it is not a replacement for a moisturiser on very dry skin. Use a pea-sized amount on damp skin and add a plain moisturiser on top when needed. Patch test first, because the cream contains fragrance. For what to expect over time, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if dry patches itch a lot, crack or bleed, look red and scaly, or keep coming back in the same places. These can be eczema, psoriasis or another condition that needs a proper diagnosis, and a cosmetic cream is not a treatment for them.</p>
+        <h2>FAQ</h2>
+        <h3>Is glutathione cream good for dry skin?</h3>
+        <p>It can be used on dry skin when applied on damp skin with a plain moisturiser on top if needed. Its job is a more even-looking tone, not deep moisture.</p>
+        <h3>Should I apply moisturiser before or after glutathione cream?</h3>
+        <p>Usually after. Apply the glutathione cream first on clean, damp skin, wait 2 to 3 minutes, then the moisturiser on dry areas.</p>
+        <h3>Can glutathione cream make dry skin flaky?</h3>
+        <p>Most people do not flake from it, but too many actives, hot water or a thick layer can cause tightness. Cut back to every other night and moisturise well.</p>
+        <h3>Can I use glutathione cream twice a day on dry skin?</h3>
+        <p>Yes, if your skin is comfortable. Many people with dry skin prefer it at night and only moisturiser plus sunscreen in the morning.</p>
+        <h3>Will it make my skin fair?</h3>
+        <p>No. No cream changes the skin colour you were born with. It can only help skin look brighter and more even over time, with daily sunscreen.</p>'''),
+    ('alpha-arbutin-and-kojic-acid-together', 'Can you use alpha arbutin and kojic acid together?',
+     'Alpha Arbutin and Kojic Acid Together: How to Use Both',
+     'Can you use alpha arbutin and kojic acid together? Yes, with care: how they differ, safe layering, who should avoid it and a simple routine for Indian skin.',
+     'Ingredients', 'How alpha arbutin and kojic acid compare, how to layer them safely, and when one is enough.', '''
+        <p>Yes, alpha arbutin and kojic acid can be used together, and some creams already contain both. The safest way is to start with one, add the other a few weeks later on alternate nights, and wear sunscreen every morning, because kojic acid is the more likely of the two to irritate.</p>
+        <p>Both are used to help dark spots, tan and uneven tone look lighter over time. Using two does not make results arrive twice as fast, and on sensitive skin it can backfire. Here is how they compare and how to combine them sensibly.</p>
+        <h2>1. Alpha arbutin vs kojic acid at a glance</h2>
+        <table>
+          <thead><tr><th></th><th>Alpha arbutin</th><th>Kojic acid</th></tr></thead>
+          <tbody>
+            <tr><td>Where it comes from</td><td>A form of arbutin, related to a compound found in bearberry</td><td>Made by certain fungi, including during rice fermentation</td></tr>
+            <tr><td>Cosmetic use</td><td>Helps dark spots and uneven tone look lighter over weeks</td><td>Helps dark spots and tan look lighter over weeks</td></tr>
+            <tr><td>How gentle</td><td>Usually well tolerated</td><td>More likely to sting, redden or cause a rash in some people</td></tr>
+            <tr><td>Stability</td><td>Fairly stable in creams</td><td>Can darken with light and air; store as the pack says</td></tr>
+            <tr><td>Typical forms</td><td>Creams and serums</td><td>Creams, soaps and serums (often around 1 to 2 percent in creams)</td></tr>
+          </tbody>
+        </table>
+        <p>For more on alpha arbutin itself, read <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream</a> and <a href="/journal/alpha-arbutin-cream-side-effects/">alpha arbutin cream side effects</a>.</p>
+        <h2>2. Do you need both?</h2>
+        <p>Often not. One well-made cream used every day for 8 to 12 weeks with sunscreen usually does more than switching between many products. Consider adding a second ingredient only if your skin is happy with the first one after about a month and you want to try a little more for stubborn tan or marks. If your skin is sensitive, staying with alpha arbutin alone is a reasonable choice.</p>
+        <h2>3. How to combine them safely</h2>
+        <ol>
+          <li><b>Start with one product</b> for 3 to 4 weeks. Patch test it on the inner arm or jawline for 24 to 48 hours first.</li>
+          <li><b>Patch test the second product</b> separately before adding it.</li>
+          <li><b>Use them on alternate nights at first:</b> kojic acid one night, alpha arbutin the next.</li>
+          <li><b>If both are comfortable after two weeks,</b> you can layer them on the same night: thinner product first, wait 2 to 3 minutes, then the cream.</li>
+          <li><b>Keep the rest of the routine plain:</b> gentle face wash, a simple moisturiser if needed, and no scrubs or peels on the same night.</li>
+          <li><b>Sunscreen every morning,</b> SPF 30 or more, reapplied if you are outdoors. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <h2>4. A simple weekly plan</h2>
+        <table>
+          <thead><tr><th>Week</th><th>Night routine</th></tr></thead>
+          <tbody>
+            <tr><td>Weeks 1 to 4</td><td>Alpha arbutin cream every night</td></tr>
+            <tr><td>Weeks 5 to 6</td><td>Kojic acid product 2 to 3 nights a week; alpha arbutin cream on the other nights</td></tr>
+            <tr><td>Week 7 onwards</td><td>If no stinging or redness: both on the same night, or keep alternating if you prefer</td></tr>
+            <tr><td>Every morning</td><td>Gentle wash, light moisturiser if needed, sunscreen</td></tr>
+          </tbody>
+        </table>
+        <h2>5. Signs to stop or slow down</h2>
+        <ul>
+          <li>Burning or stinging that lasts more than a few minutes.</li>
+          <li>Redness, itching, small bumps or peeling.</li>
+          <li>Patches that look darker after a few weeks, which can happen when skin is irritated.</li>
+        </ul>
+        <p>If any of these happen, stop the kojic acid product first, use only a gentle wash, a plain moisturiser and sunscreen for a week, and see a dermatologist if it does not settle.</p>
+        <h2>6. Who should be careful</h2>
+        <ul>
+          <li><b>Sensitive or reactive skin:</b> start with alpha arbutin alone. Read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> for a slow-start plan.</li>
+          <li><b>Freshly waxed, threaded or bleached skin:</b> wait at least a day before using either. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</li>
+          <li><b>Pregnancy, breastfeeding, melasma or patches that spread:</b> ask a dermatologist or doctor before starting.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has alpha arbutin with L-glutathione and niacinamide (vitamin B3); it does not contain kojic acid. If you want to add a kojic acid product, use it on separate nights at first as described above. For how alpha arbutin and niacinamide work together, read <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>. It is a cosmetic cream: expect dark spots and tan to look lighter slowly with daily sunscreen, not a change in your natural skin colour. Patch test first, because the cream contains fragrance.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply alpha arbutin and kojic acid at the same time?</h3>
+        <p>Yes, once your skin is used to each one separately. Start on alternate nights, then layer thinnest first if there is no irritation.</p>
+        <h3>Which is better, alpha arbutin or kojic acid?</h3>
+        <p>Neither is better for everyone. Alpha arbutin is usually gentler; kojic acid suits some people but irritates others more often. Pick the one your skin tolerates and use it steadily.</p>
+        <h3>Can I use kojic acid soap with an alpha arbutin cream?</h3>
+        <p>Yes, many people do. Use the soap briefly and rinse well, then apply the cream. Stop the soap if your face feels tight or stings.</p>
+        <h3>How long before I see a difference?</h3>
+        <p>Dark spots and tan usually need 8 to 12 weeks or more of steady use with daily sunscreen to look lighter. Using two ingredients does not shorten this much.</p>
+        <h3>Will alpha arbutin and kojic acid together make skin fair?</h3>
+        <p>No. They may help spots and tan look lighter, but they do not change the skin colour you were born with.</p>'''),
 ]
 SHORT.update({
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
@@ -1152,5 +1283,7 @@ SHORT.update({
  'glutathione-cream-for-dark-neck': 'A glutathione cream can help a dark neck from sun, tan or friction look more even over 8 to 12 weeks with daily sunscreen and gentle washing. Thick, velvety dark skin in the neck folds needs a doctor first, as it can be linked to health conditions.',
  'glutathione-cream-for-combination-skin': 'Yes, combination skin can use glutathione cream: put a very thin layer on the oily T-zone and a little more on drier cheeks, mostly at night, with sunscreen every morning. It can help skin look brighter and more even over 8 to 12 weeks.',
  'at-what-age-can-we-use-glutathione-cream': 'Adults of any age can use a cosmetic glutathione cream if their skin tolerates it. Most teenagers do not need one; from about 16, it can be used gently for a specific concern like tan, with a patch test and sunscreen. Children should not use it.',
+ 'glutathione-cream-for-dry-skin': 'Yes, dry skin can use glutathione cream: apply a pea-sized amount on slightly damp skin after a gentle wash, add a plain moisturiser on top if skin feels tight, and wear sunscreen every morning. It can help skin look brighter and more even over 8 to 12 weeks.',
+ 'alpha-arbutin-and-kojic-acid-together': 'Yes, alpha arbutin and kojic acid can be used together. Start with one, add the other on alternate nights after a few weeks, layer thinnest first once skin is comfortable, and wear sunscreen every morning. Kojic acid is the more likely of the two to irritate.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES

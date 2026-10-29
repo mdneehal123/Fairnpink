@@ -16,6 +16,8 @@
 | 2026-10-26 | glutathione cream before makeup | /journal/glutathione-cream-before-makeup/ | Results were only foreign product listings; common daily and wedding-season question; step order, wait times and pilling/shine fixes, no fairness promise. |
 | 2026-10-28 | glutathione cream for combination skin | /journal/glutathione-cream-for-combination-skin/ | Results were pharmacy and marketplace product listings and whitening-cream shops only; combination skin is very common in India; practical how-much-where table and season-by-season routine, no fairness promise. |
 | 2026-10-28 | at what age can we use glutathione cream | /journal/at-what-age-can-we-use-glutathione-cream/ | Results were foreign supplement blogs, foreign shop listings and spam; common question from teens and parents; honest age-by-age guide that discourages use by children and corrects "fair" pressure. |
+| 2026-10-29 | glutathione cream for dry skin | /journal/glutathione-cream-for-dry-skin/ | Results were pharmacy listings, IndiaMART and marketplace pages only; dry skin in North Indian winter, AC rooms and hard water is very common; dry vs dehydrated table, damp-skin layering order, season table, no fairness promise. |
+| 2026-10-29 | alpha arbutin and kojic acid together | /journal/alpha-arbutin-and-kojic-acid-together/ | Results were foreign brand pages, an ingredient-supplier blog and shop listings; the cream contains alpha arbutin and kojic soaps/creams are common in India; honest comparison and slow-start plan, says plainly the cream has no kojic acid. |
 
 ## Boosts
 
