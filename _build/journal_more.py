@@ -1258,8 +1258,156 @@ MORE_ARTICLES = [
         <p>Dark spots and tan usually need 8 to 12 weeks or more of steady use with daily sunscreen to look lighter. Using two ingredients does not shorten this much.</p>
         <h3>Will alpha arbutin and kojic acid together make skin fair?</h3>
         <p>No. They may help spots and tan look lighter, but they do not change the skin colour you were born with.</p>'''),
+    ('glutathione-cream-for-acne-prone-skin', 'Can you use glutathione cream on acne-prone skin?',
+     'Glutathione Cream for Acne-Prone Skin: How to Use It',
+     'Can you use glutathione cream on acne-prone skin? How to apply it around pimples, what to pair it with, signs it is not suiting you and when to see a doctor.',
+     'Skin type', 'How to use a glutathione cream on breakout-prone skin without making pimples worse, and what it can and cannot do.', '''
+        <p>Yes, most people with acne-prone skin can use a glutathione cream, as long as it is a light, non-greasy cream used in a thin layer and you introduce it slowly. It is not an acne treatment: it will not clear active pimples, but used with daily sunscreen it can help flat dark marks left behind look lighter over time.</p>
+        <p>Acne-prone skin is common in India, helped along by heat, humidity, sweat, pollution and hormones. The worry is simple: will a new cream cause more breakouts? Here is how to choose, apply and judge a glutathione cream if you break out easily.</p>
+        <h2>1. What a glutathione cream can and cannot do for acne-prone skin</h2>
+        <table>
+          <thead><tr><th>Concern</th><th>Can a glutathione cream help?</th><th>What to do instead or as well</th></tr></thead>
+          <tbody>
+            <tr><td>Active red or pus-filled pimples</td><td>No</td><td>A gentle routine; see a dermatologist if they are frequent, painful or deep</td></tr>
+            <tr><td>Flat brown or dark marks after pimples</td><td>Can help them look lighter over 8 to 12 weeks with sunscreen</td><td>Read <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a></td></tr>
+            <tr><td>Pitted or raised scars</td><td>No</td><td>Only a dermatologist can advise on procedures</td></tr>
+            <tr><td>Shiny, oily look</td><td>A light cream with niacinamide can help skin look smoother and less shiny</td><td>Thin layer, gentle wash, see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Dull, uneven-looking tone</td><td>Can help skin look brighter and more even over weeks</td><td>Daily sunscreen is essential</td></tr>
+          </tbody>
+        </table>
+        <h2>2. How to choose a cream if you break out easily</h2>
+        <ul>
+          <li><b>Light texture.</b> A cream that sinks in within a few minutes, not a heavy, oily base.</li>
+          <li><b>A full ingredient list.</b> Avoid jars with no list, and never use creams that may contain steroids or mercury: these can cause breakouts and serious skin problems.</li>
+          <li><b>Fewer fragrance-heavy products.</b> Fragrance can irritate some people. If you know perfumed products bother you, choose fragrance-free.</li>
+          <li><b>No overnight promises.</b> "Pimple-free in 7 days" or "fair in a week" claims are red flags. See <a href="/journal/best-glutathione-cream-in-india/">how to choose a glutathione cream in India</a>.</li>
+        </ul>
+        <h2>3. How to apply it on acne-prone skin</h2>
+        <ol>
+          <li><b>Patch test first.</b> Apply a little on one area of the jawline every night for 3 to 5 nights. Breakouts often show up on the face, not the inner arm, so a face patch test tells you more.</li>
+          <li><b>Wash gently</b> with a mild face wash and lukewarm water. Do not scrub.</li>
+          <li><b>Use half a pea-sized amount</b> for the whole face. More cream does not mean faster results.</li>
+          <li><b>Dot and spread thinly,</b> going lightly around active pimples. Do not rub over sore, open or crusted spots.</li>
+          <li><b>Start every other night</b> for two weeks, then nightly if your skin is fine.</li>
+          <li><b>Every morning:</b> gentle wash and an oil-free sunscreen. Sun makes post-pimple marks darker and longer-lasting. Read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <h2>4. Using it with acne products</h2>
+        <table>
+          <thead><tr><th>Product you use</th><th>How to combine</th></tr></thead>
+          <tbody>
+            <tr><td>Salicylic acid face wash</td><td>Fine before the cream; wash, pat dry, then apply. See <a href="/journal/glutathione-cream-with-salicylic-acid/">glutathione cream with salicylic acid</a></td></tr>
+            <tr><td>Salicylic or other leave-on acid serum</td><td>Use on alternate nights at first, not on top of each other</td></tr>
+            <tr><td>Retinol or adapalene (as advised)</td><td>Keep them on separate nights at first; see <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a></td></tr>
+            <tr><td>Prescription acne creams or tablets</td><td>Ask your dermatologist before adding any new cream</td></tr>
+          </tbody>
+        </table>
+        <p>The rule is one new product at a time, two to three weeks apart, so you can tell what is causing a problem.</p>
+        <h2>5. Signs it is not suiting you</h2>
+        <ul>
+          <li>Many new small bumps or whiteheads in the area where you apply it, within 2 to 3 weeks.</li>
+          <li>Burning, itching or redness that lasts.</li>
+          <li>Skin that feels greasy and congested even with a thin layer.</li>
+        </ul>
+        <p>If this happens, stop the cream, go back to a gentle wash, a plain light moisturiser and sunscreen, and let skin settle. Our guide to <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects</a> explains the difference between mild tingling and a reaction.</p>
+        <h2>6. Habits that matter more than any cream</h2>
+        <ul>
+          <li>Do not pick or squeeze pimples; it makes dark marks last longer.</li>
+          <li>Change pillow covers two or three times a week in humid months.</li>
+          <li>Wash your face after sweaty workouts or a long commute, then reapply a light layer if needed.</li>
+          <li>Keep phone screens and helmet pads clean.</li>
+          <li>Remove makeup and sunscreen fully at night.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. On acne-prone skin, use it as a thin layer at night, mainly for the look of dark marks and uneven tone, with sunscreen every morning. It is a cosmetic cream, not an acne treatment, and it does not change your natural skin colour. It contains fragrance, so patch test first. For the full method, see <a href="/how-to-use/">how to use</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if your acne is painful, deep or cystic, leaves scars, keeps coming back along the jaw with irregular periods, or does not improve after a few months of a gentle routine. These need proper treatment, and a cosmetic cream should not delay it.</p>
+        <h2>FAQ</h2>
+        <h3>Can glutathione cream cause pimples?</h3>
+        <p>Any cream can cause breakouts in some people, usually because of a heavy texture or using too much. Use a thin layer, patch test on the jawline and stop if new bumps keep appearing.</p>
+        <h3>Can I apply glutathione cream on active pimples?</h3>
+        <p>Spread it lightly around them, but avoid rubbing it into sore, open or crusted spots. It does not treat active pimples.</p>
+        <h3>Is glutathione cream good for pimple marks?</h3>
+        <p>It can help flat dark marks look lighter over 8 to 12 weeks or more with daily sunscreen. It does not change pitted or raised scars.</p>
+        <h3>Should I use it in the morning or at night if I have acne?</h3>
+        <p>Night is usually best for acne-prone skin, so mornings stay light with just a gentle wash and oil-free sunscreen.</p>
+        <h3>Will it make my skin fair?</h3>
+        <p>No. No cream changes the skin colour you were born with. It can only help marks and tan look lighter and skin look more even over time.</p>'''),
+    ('glutathione-cream-with-aloe-vera-gel', 'Can you use glutathione cream with aloe vera gel?',
+     'Glutathione Cream with Aloe Vera Gel: Order and Safe Use',
+     'Can you use glutathione cream with aloe vera gel? Which goes first, fresh plant gel vs packaged gel, and routines for oily, dry and sensitive Indian skin.',
+     'How to use', 'Which to apply first, fresh plant gel versus packaged gel, and how to pair aloe with your glutathione cream through the year.', '''
+        <p>Yes, you can use glutathione cream with aloe vera gel: apply the thinner aloe gel first on clean skin, let it sink in for a minute or two, then apply the cream. Do not mix them together in the jar, and keep sunscreen every morning.</p>
+        <p>Aloe vera is in many Indian homes, either as a plant on the balcony or a tube of gel in the bathroom cupboard. It feels cooling and light, which makes it a natural partner for a cream in hot weather. Here is how to pair them sensibly.</p>
+        <h2>1. Aloe vera gel vs glutathione cream at a glance</h2>
+        <table>
+          <thead><tr><th></th><th>Aloe vera gel</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Texture</td><td>Watery, light gel</td><td>Cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Feels cooling and soothing, gives light hydration</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best for</td><td>Hot, humid days, after sun, oily skin that dislikes heavy creams</td><td>Tan, dull-looking skin and dark marks, with sunscreen</td></tr>
+            <tr><td>Limits</td><td>Does not lighten spots or tan on its own; can sting some sensitive skin</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Apply a thin layer of aloe vera gel</b>, about the size of a coin for the whole face.</li>
+          <li><b>Wait 1 to 2 minutes</b> until it no longer feels wet or sticky.</li>
+          <li><b>Apply a pea-sized amount of the glutathione cream</b> and spread evenly.</li>
+          <li><b>Morning only:</b> finish with sunscreen, SPF 30 or higher. Read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Thin, watery products go first and creams after, the same rule as in our guide to <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>. If the two pill or roll into little balls, use less of each and wait a little longer between them.</p>
+        <h2>3. Fresh plant gel or packaged gel?</h2>
+        <table>
+          <thead><tr><th></th><th>Fresh gel from the plant</th><th>Packaged aloe gel</th></tr></thead>
+          <tbody>
+            <tr><td>Pros</td><td>Free, no added perfume</td><td>Consistent, preserved, easy to use</td></tr>
+            <tr><td>Cons</td><td>The yellow sap near the skin of the leaf can irritate; spoils within a day or two</td><td>Some contain fragrance, colour or alcohol; check the list</td></tr>
+            <tr><td>How to use</td><td>Cut a leaf, let the yellow sap drain for 10 minutes, scoop only the clear inner gel, keep any extra in the fridge and use it within a day</td><td>Pick a simple, fragrance-free gel if your skin is sensitive</td></tr>
+          </tbody>
+        </table>
+        <p>Whichever you use, patch test aloe on its own first. Some people are sensitive to aloe, especially the fresh sap.</p>
+        <h2>4. Routines by skin type</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Morning</th><th>Night</th></tr></thead>
+          <tbody>
+            <tr><td>Oily</td><td>Wash, aloe gel, sunscreen</td><td>Wash, aloe gel, thin layer of glutathione cream. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Combination</td><td>Wash, aloe on the T-zone, sunscreen</td><td>Aloe on the T-zone, cream all over (a little more on cheeks)</td></tr>
+            <tr><td>Dry</td><td>Wash, cream, sunscreen</td><td>Aloe gel, cream, then a plain moisturiser on dry areas. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Sensitive</td><td>Wash, sunscreen</td><td>Start with the cream alone; add aloe only after both pass a patch test. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Through the Indian year</h2>
+        <ul>
+          <li><b>Summer and monsoon:</b> aloe plus a thin cream layer feels lighter than a cream alone in sticky weather.</li>
+          <li><b>After a day in the sun:</b> cool aloe gel on its own that night is fine; go back to the cream once skin feels calm.</li>
+          <li><b>Winter:</b> aloe alone can feel drying as it evaporates; keep it thin and follow with the cream and a moisturiser. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a>.</li>
+          <li><b>After threading or waxing:</b> plain aloe can feel soothing, but wait about a day before the glutathione cream. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</li>
+        </ul>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Mixing aloe into the cream jar.</b> Water and fresh gel can spoil the cream. Mix a little in your palm if you like, but never in the jar.</li>
+          <li><b>Adding lemon, baking soda or toothpaste</b> to aloe. These irritate and can leave skin patchy.</li>
+          <li><b>Using aloe instead of sunscreen.</b> Aloe has no sun protection.</li>
+          <li><b>Expecting aloe to lighten spots.</b> It can make skin feel soothed and look fresher, but spots and tan need steady sunscreen and time.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and it does not contain aloe vera. A plain aloe gel underneath is fine for most people once both pass a patch test. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over 8 to 12 weeks with daily sunscreen; it does not change your natural skin colour. It contains fragrance, so patch test first. For timelines, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply aloe vera gel before or after glutathione cream?</h3>
+        <p>Before. Aloe gel is thinner, so it goes on first; wait a minute or two, then apply the cream.</p>
+        <h3>Can I mix aloe vera gel and glutathione cream?</h3>
+        <p>A little in your palm just before applying is fine, but never add aloe to the jar. Layering them separately usually works better.</p>
+        <h3>Can I use fresh aloe vera from the plant with glutathione cream?</h3>
+        <p>Yes, if you drain the yellow sap, use only the clear inner gel and patch test first. Keep fresh gel in the fridge and use it within a day.</p>
+        <h3>Can I use aloe vera gel and glutathione cream every day?</h3>
+        <p>Yes, if your skin is comfortable. Many people use aloe in the morning under sunscreen and the cream at night.</p>
+        <h3>Will aloe vera with glutathione make my skin fair?</h3>
+        <p>No. Neither changes the skin colour you were born with. Together they can help skin feel soothed and look brighter and more even over time.</p>'''),
 ]
 SHORT.update({
+ 'glutathione-cream-for-acne-prone-skin': 'Most acne-prone skin can use a light glutathione cream in a thin layer at night, introduced slowly after a jawline patch test, with oil-free sunscreen every morning. It does not treat active pimples, but can help flat dark marks look lighter over 8 to 12 weeks.',
+ 'glutathione-cream-with-aloe-vera-gel': 'Yes, glutathione cream and aloe vera gel can be used together: apply the thinner aloe gel first, wait a minute or two, then the cream, with sunscreen every morning. Do not mix aloe into the jar, and patch test fresh plant gel first.',
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
  'best-glutathione-cream-in-india': 'A good glutathione cream pairs glutathione with niacinamide and alpha arbutin, prints its full ingredient list, is free from steroids and mercury, and is sold by a company you can contact. It helps skin look brighter over weeks; it does not change natural skin tone.',
  'night-cream-for-pigmentation': 'For the look of pigmentation and dark spots, use a night cream with alpha arbutin and niacinamide every night for at least 8 weeks, with sunscreen every morning. See a dermatologist for melasma or patches that spread.',

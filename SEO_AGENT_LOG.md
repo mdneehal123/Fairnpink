@@ -18,6 +18,8 @@
 | 2026-10-28 | at what age can we use glutathione cream | /journal/at-what-age-can-we-use-glutathione-cream/ | Results were foreign supplement blogs, foreign shop listings and spam; common question from teens and parents; honest age-by-age guide that discourages use by children and corrects "fair" pressure. |
 | 2026-10-29 | glutathione cream for dry skin | /journal/glutathione-cream-for-dry-skin/ | Results were pharmacy listings, IndiaMART and marketplace pages only; dry skin in North Indian winter, AC rooms and hard water is very common; dry vs dehydrated table, damp-skin layering order, season table, no fairness promise. |
 | 2026-10-29 | alpha arbutin and kojic acid together | /journal/alpha-arbutin-and-kojic-acid-together/ | Results were foreign brand pages, an ingredient-supplier blog and shop listings; the cream contains alpha arbutin and kojic soaps/creams are common in India; honest comparison and slow-start plan, says plainly the cream has no kojic acid. |
+| 2026-10-30 | glutathione cream for acne prone skin | /journal/glutathione-cream-for-acne-prone-skin/ | Results were a news feature, foreign brand/supplement pages, pharmacy and IndiaMART listings; acne-prone skin is very common in Indian heat and humidity; honest can/cannot table, jawline patch test, pairing with acne products, no treatment or fairness claims. |
+| 2026-10-30 | glutathione cream with aloe vera gel | /journal/glutathione-cream-with-aloe-vera-gel/ | Results were only pharmacy/marketplace gel listings and a patent; aloe is in many Indian homes; order, fresh vs packaged gel, routines by skin type, says plainly the cream has no aloe, no fairness promise. |
 
 ## Boosts
 
