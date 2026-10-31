@@ -1404,6 +1404,143 @@ MORE_ARTICLES = [
         <p>Yes, if your skin is comfortable. Many people use aloe in the morning under sunscreen and the cream at night.</p>
         <h3>Will aloe vera with glutathione make my skin fair?</h3>
         <p>No. Neither changes the skin colour you were born with. Together they can help skin feel soothed and look brighter and more even over time.</p>'''),
+    ('glutathione-cream-with-vitamin-e-capsule', 'Can you use glutathione cream with a vitamin E capsule?',
+     'Glutathione Cream with Vitamin E Capsule: Safe Use Guide',
+     'Can you mix a vitamin E capsule with glutathione cream? Why not to add it to the jar, the right order, who should skip it and a winter plan for Indian skin.',
+     'How to use', 'Whether to prick a vitamin E capsule into your cream, the right order, who should skip the oil and how to use it on dry winter skin.', '''
+        <p>Yes, you can use a vitamin E capsule with glutathione cream, but not by squeezing it into the jar: apply the cream first, then press one or two drops of the capsule oil only on very dry areas. Vitamin E capsule oil is thick and greasy, so it suits dry winter skin, lips and cuticles better than oily or acne-prone faces.</p>
+        <p>Pricking a vitamin E capsule into a face cream is one of the most shared skincare hacks in India, and the capsules are cheap and easy to buy at any chemist. Here is how to use the oil sensibly with a glutathione cream, and when to leave it out.</p>
+        <h2>1. What is inside a vitamin E capsule</h2>
+        <p>A vitamin E capsule is a soft gelatin shell filled with an oily liquid. That liquid is vitamin E (a form of tocopherol) dissolved in a carrier oil. On the skin, it behaves like a rich, heavy oil: it sits on the surface, softens dry patches and slows water loss. It is not a brightening ingredient, and it does not lighten tan or spots by itself.</p>
+        <table>
+          <thead><tr><th></th><th>Vitamin E capsule oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Texture</td><td>Thick, sticky oil</td><td>Cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Softens very dry skin, lips and cuticles</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best for</td><td>Winter dryness, flaky patches, heater or AC rooms</td><td>Tan, dull-looking skin and dark marks, with sunscreen</td></tr>
+            <tr><td>Limits</td><td>Heavy; can clog pores; some people react to it</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. Why you should not mix it into the jar</h2>
+        <ul>
+          <li><b>It changes the cream.</b> A face cream is made to spread and absorb in a certain way. Adding oil makes it greasy and uneven.</li>
+          <li><b>It can spoil the jar.</b> Opening capsules over the jar and stirring with fingers brings in air, water and germs.</li>
+          <li><b>You cannot control the amount.</b> Some scoops get a lot of oil, others none.</li>
+        </ul>
+        <p>If you want to combine them, mix one drop with your pea-sized amount of cream in your palm, just before applying, on dry nights only. Layering is usually better.</p>
+        <h2>3. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry, leaving skin a little damp.</li>
+          <li><b>Apply a pea-sized amount of the glutathione cream</b> over the face and spread evenly.</li>
+          <li><b>Wait 3 to 5 minutes</b> so the cream settles.</li>
+          <li><b>Prick one capsule with a clean pin</b> and press one or two drops only on very dry spots: sides of the nose, chin, cheeks in winter. Do not rub hard.</li>
+          <li><b>Use the rest</b> on lips, cuticles or heels. Throw away an opened capsule the same day.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher. Read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Oil goes last because it sits on top. Putting it first leaves a slippery film that stops the cream spreading well. The same thin-to-thick rule is explained in <a href="/journal/glutathione-cream-with-aloe-vera-gel/">glutathione cream with aloe vera gel</a>.</p>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Vitamin E oil on top?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, North Indian winter</td><td>Yes, a drop or two on dry areas some nights. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Only on flaky spots, if needed</td></tr>
+            <tr><td>Combination skin</td><td>Only on dry cheeks, never on the T-zone</td></tr>
+            <tr><td>Oily or acne-prone skin</td><td>Skip on the face; it is heavy and can lead to bumps. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test the oil alone first; some people get itchy or red from vitamin E</td></tr>
+          </tbody>
+        </table>
+        <h2>5. Vitamin E around the eyes and lips</h2>
+        <ul>
+          <li><b>Under the eyes:</b> a tiny dab on the bone below the eye can soften dry skin in winter. Keep it out of the eyes and stop if it causes milia (tiny white bumps). For dark circles, see <a href="/journal/glutathione-cream-for-dark-circles/">glutathione cream for dark circles</a>.</li>
+          <li><b>Lips:</b> capsule oil works well as an overnight lip treatment. Keep the glutathione cream off the lips.</li>
+        </ul>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li>Using a whole capsule on the face every night.</li>
+          <li>Adding lemon, haldi or toothpaste to the oil.</li>
+          <li>Wearing the oil under makeup or sunscreen in the day; it can slide and pill. See <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.</li>
+          <li>Swallowing capsules for skin without asking a doctor. Vitamin E tablets are a supplement, and the dose question is for your doctor, not a skincare guide.</li>
+          <li>Expecting the oil to fade spots. It makes skin feel softer; spots and tan need daily sunscreen and time.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It does not list vitamin E as a key active, so a drop of capsule oil on top on dry winter nights is fine for most people once both pass a patch test. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over 8 to 12 weeks with daily sunscreen; it does not change your natural skin colour. It contains fragrance, so patch test first. More on daily use is on our <a href="/how-to-use/">how to use</a> page.</p>
+        <p>See a dermatologist if your skin is cracked, bleeding, very itchy or has red, scaly patches that do not settle with a simple moisturiser.</p>
+        <h2>FAQ</h2>
+        <h3>Can I mix a vitamin E capsule in my glutathione cream?</h3>
+        <p>Not in the jar. A drop mixed with your daily amount in your palm is fine on dry nights, but layering the oil on top after the cream usually works better.</p>
+        <h3>Should I apply vitamin E before or after glutathione cream?</h3>
+        <p>After. Apply the cream first, wait a few minutes, then press a drop or two of the oil on dry areas only.</p>
+        <h3>Can I use a vitamin E capsule on my face daily?</h3>
+        <p>Dry skin may use a drop or two most nights in winter. Oily and acne-prone skin should skip it on the face.</p>
+        <h3>Does vitamin E with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes the skin colour you were born with. Vitamin E oil can make dry skin feel softer and look less dull; the cream helps skin look brighter and more even over weeks with sunscreen.</p>
+        <h3>Can I use vitamin E oil in the morning?</h3>
+        <p>It is better at night. In the day, the oil feels greasy in Indian heat and can make sunscreen and makeup slide.</p>'''),
+    ('glutathione-cream-with-hyaluronic-acid-serum', 'Can you use glutathione cream with a hyaluronic acid serum?',
+     'Glutathione Cream with Hyaluronic Acid Serum: How to Layer',
+     'Can you use glutathione cream with hyaluronic acid serum? Which goes first, why damp skin matters, morning and night routines and tips for Indian weather.',
+     'How to use', 'Which goes first, why hyaluronic acid needs damp skin and a cream on top, and simple routines for every season.', '''
+        <p>Yes, glutathione cream and a hyaluronic acid serum work well together: apply the serum first on slightly damp skin, then the cream on top to hold that water in. Hyaluronic acid adds hydration and the cream helps skin look brighter and more even over weeks, so they do different jobs and rarely clash.</p>
+        <p>Hyaluronic acid serums are now one of the most common serums in Indian bathrooms. Used the wrong way, especially in dry winter air or an AC room, they can leave skin feeling tighter, not softer. Here is the simple way to pair one with a glutathione cream.</p>
+        <h2>1. What each product does</h2>
+        <table>
+          <thead><tr><th></th><th>Hyaluronic acid serum</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Watery humectant serum</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Draws water into the top layer so skin looks plumper and feels softer</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Needs</td><td>Damp skin and a cream on top</td><td>Sunscreen every morning</td></tr>
+            <tr><td>Irritation risk</td><td>Low for most people</td><td>Low to moderate; patch test first</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash. Pat dry lightly so the face is still a little damp.</li>
+          <li><b>Apply 2 to 3 drops of hyaluronic acid serum</b> and press it in with your fingertips.</li>
+          <li><b>Wait about a minute</b>, until it no longer feels wet.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> over the face and neck.</li>
+          <li><b>Morning only:</b> finish with sunscreen, SPF 30 or higher. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Thin first, thick last. The same order works for other serums, as explained in <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>.</p>
+        <h2>3. Why damp skin and a cream on top matter</h2>
+        <p>Hyaluronic acid holds water. On damp skin, it holds the water from your wash. On bone-dry skin in dry air, it has less to work with, and without a cream on top that water evaporates quickly, so the face can feel tight an hour later. The cream acts as a light lid. In North Indian winters, heater rooms and all-day AC offices, this step matters most.</p>
+        <h2>4. Morning and night routines</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Morning</th><th>Night</th></tr></thead>
+          <tbody>
+            <tr><td>Oily</td><td>Wash, hyaluronic serum, sunscreen</td><td>Wash, serum, thin layer of cream. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Combination</td><td>Wash, serum, sunscreen</td><td>Serum all over, cream (a little more on cheeks)</td></tr>
+            <tr><td>Dry</td><td>Wash, serum, cream, sunscreen</td><td>Serum, cream, plain moisturiser on dry patches. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a></td></tr>
+            <tr><td>Sensitive</td><td>Wash, sunscreen</td><td>Cream alone at first; add the serum after both pass a patch test. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Choosing a hyaluronic acid serum</h2>
+        <ul>
+          <li><b>Keep it simple.</b> A plain hydrating serum is enough. You do not need a second brightening serum if your cream already has brightening actives.</li>
+          <li><b>Check the full ingredient list.</b> Avoid serums with strong fragrance if your skin is sensitive.</li>
+          <li><b>Be careful with mixed acid serums.</b> Some "hyaluronic" serums also contain exfoliating acids. Those are not plain hydrators; use them on separate nights.</li>
+          <li><b>Higher price is not always better.</b> Look at the ingredient list and the amount, not the label.</li>
+        </ul>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Using lots of drops.</b> More serum can feel sticky and make the cream pill. Two or three drops is plenty.</li>
+          <li><b>Skipping the cream on top</b> in dry air.</li>
+          <li><b>Applying the serum after the cream.</b> It will not sink in well.</li>
+          <li><b>Expecting the serum to fade spots.</b> It makes skin look plumper and fresher; tan and spots need steady sunscreen and time. See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
+          <li><b>Starting both on the same day.</b> Introduce one at a time, a week apart, so you know what suits you.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It does not list hyaluronic acid as a key active, so a plain hyaluronic serum underneath is a sensible extra for dry or dehydrated skin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over 8 to 12 weeks with daily sunscreen; it does not change your natural skin colour. It contains fragrance, so patch test first. If you notice stinging or redness, read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply hyaluronic acid before or after glutathione cream?</h3>
+        <p>Before. Apply the serum on slightly damp skin, wait about a minute, then apply the cream on top.</p>
+        <h3>Can I use hyaluronic acid and glutathione cream every day?</h3>
+        <p>Yes, if your skin is comfortable. Many people use the serum morning and night and the cream once or twice a day, with sunscreen every morning.</p>
+        <h3>Can I use hyaluronic acid with niacinamide and alpha arbutin?</h3>
+        <p>Yes. Hyaluronic acid is a gentle hydrator and usually sits well under creams that contain niacinamide and alpha arbutin.</p>
+        <h3>Why does my skin feel tight after hyaluronic acid serum?</h3>
+        <p>Usually because it went on dry skin in dry air with nothing on top. Apply it on damp skin and follow with a cream.</p>
+        <h3>Will hyaluronic acid with glutathione make my skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Together they can help skin look plumper, brighter and more even over time.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-acne-prone-skin': 'Most acne-prone skin can use a light glutathione cream in a thin layer at night, introduced slowly after a jawline patch test, with oil-free sunscreen every morning. It does not treat active pimples, but can help flat dark marks look lighter over 8 to 12 weeks.',
@@ -1433,5 +1570,7 @@ SHORT.update({
  'at-what-age-can-we-use-glutathione-cream': 'Adults of any age can use a cosmetic glutathione cream if their skin tolerates it. Most teenagers do not need one; from about 16, it can be used gently for a specific concern like tan, with a patch test and sunscreen. Children should not use it.',
  'glutathione-cream-for-dry-skin': 'Yes, dry skin can use glutathione cream: apply a pea-sized amount on slightly damp skin after a gentle wash, add a plain moisturiser on top if skin feels tight, and wear sunscreen every morning. It can help skin look brighter and more even over 8 to 12 weeks.',
  'alpha-arbutin-and-kojic-acid-together': 'Yes, alpha arbutin and kojic acid can be used together. Start with one, add the other on alternate nights after a few weeks, layer thinnest first once skin is comfortable, and wear sunscreen every morning. Kojic acid is the more likely of the two to irritate.',
+ 'glutathione-cream-with-vitamin-e-capsule': 'Yes, but do not squeeze the capsule into the jar: apply the glutathione cream first, then press one or two drops of vitamin E oil only on very dry areas at night. Skip the oil on oily or acne-prone faces, and wear sunscreen every morning.',
+ 'glutathione-cream-with-hyaluronic-acid-serum': 'Yes, glutathione cream and hyaluronic acid serum work well together: apply 2 to 3 drops of serum on slightly damp skin, wait a minute, then the cream on top, with sunscreen every morning. The cream holds in the water the serum draws to the skin.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
