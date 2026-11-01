@@ -3,10 +3,10 @@
 # Each tuple: (slug, h1, seo title, meta description, tag, teaser, html)
 MORE_ARTICLES = [
     ('best-night-cream-for-glowing-skin', 'Best night cream for glowing skin: how to choose one in India',
-     'Best Night Cream for Glowing Skin in India: How to Choose (2026)',
-     'How to choose the best night cream for glowing skin in India: the ingredients to look for, the texture for your skin type, price per gram and a simple routine.',
+     'Best Night Cream for Glowing Skin in India: How to Choose',
+     'Best night cream for glowing skin in India: ingredients to look for, the right texture for oily, dry or sensitive skin, red flags, price per gram and routine.',
      'Buying guide', 'The ingredients, texture and price checks that matter.', '''
-        <p>The best night cream for glowing skin is one with proven ingredients such as <b>niacinamide</b>, <b>alpha arbutin</b> or an antioxidant like <b>glutathione</b>, a texture that suits your skin, and a price you can keep paying every month. A cream only works if you use it every night for several weeks.</p>
+        <p>The best night cream for glowing skin is one with well-known ingredients such as <b>niacinamide</b>, <b>alpha arbutin</b> or an antioxidant like <b>glutathione</b>, a texture that suits your skin, and a price you can keep paying every month. A cream only works if you use it every night for several weeks.</p>
         <h2>1. Check the ingredients, not the front of the box</h2>
         <ul>
           <li><b>Niacinamide</b> (vitamin B3): helps skin look smoother and more even, and suits most skin types.</li>
@@ -32,7 +32,37 @@ MORE_ARTICLES = [
           <li>Every morning, use sunscreen. Without it, the sun undoes what the cream does at night.</li>
         </ol>
         <h2>Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines glutathione, niacinamide and alpha arbutin in one light, moisturising cream. It is a 10 g jar for ₹999 (₹899 paid online), with no steroids, mercury, hydroquinone or parabens, and it is used as both a day and <a href="/glutathione-night-cream/">night cream</a>. Results differ from person to person; give any night cream four to eight weeks.</p>'''),
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines glutathione, niacinamide and alpha arbutin in one light, moisturising cream. It is a 10 g jar for ₹999 (₹899 paid online), with no steroids, mercury, hydroquinone or parabens, and it is used as both a day and <a href="/glutathione-night-cream/">night cream</a>. Results differ from person to person; give any night cream four to eight weeks.</p>
+        <h2>Night cream vs day cream</h2>
+        <p>A day cream is usually lighter and is meant to sit under sunscreen. A night cream can be a little richer, because there is no sun, sweat or makeup on top of it. Many creams with niacinamide or glutathione work as both; what matters is that you never skip sunscreen in the morning.</p>
+        <h2>Best night cream for your skin type</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Texture</th><th>How to use it</th></tr></thead>
+          <tbody>
+            <tr><td>Oily or acne-prone</td><td>Light, non-greasy cream or gel-cream</td><td>Thin layer; skip heavy oils on top</td></tr>
+            <tr><td>Dry</td><td>Richer cream</td><td>Apply on slightly damp skin; more in winter and AC rooms</td></tr>
+            <tr><td>Combination</td><td>Light cream</td><td>Thin on the T-zone, a little more on dry cheeks</td></tr>
+            <tr><td>Sensitive</td><td>Few ingredients, ideally fragrance-free</td><td>Patch test for 24 hours, start every other night</td></tr>
+          </tbody>
+        </table>
+        <h2>Red flags when you shop</h2>
+        <ul>
+          <li>"Fairness overnight", "whitening" or "permanent results" on the box. No cream changes your natural skin tone.</li>
+          <li>No full ingredient list, or no company name and address on the pack.</li>
+          <li>Creams that sting hard or make skin peel every night. Glowing skin needs a calm, healthy skin barrier.</li>
+        </ul>
+        <h2>Strong night ingredients to use with care</h2>
+        <p>Retinol and exfoliating acids such as glycolic acid are popular in night creams. They can suit some people, but start slowly, a few nights a week, never pile several on the same night, and ask a doctor before using retinol if you are pregnant or planning a pregnancy. A gentle night cream used every night does more than a strong one you have to stop.</p>
+        <h2>FAQ</h2>
+        <h3>Which night cream is best for glowing skin in India?</h3>
+        <p>There is no single best cream for everyone. Choose one with ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin and a price you can keep paying, then use it every night for at least four to eight weeks.</p>
+        <h3>Can I use a night cream every day?</h3>
+        <p>Yes. A night cream is meant for nightly use. If a cream contains strong actives such as retinol, build up slowly instead.</p>
+        <h3>Can oily skin use a night cream?</h3>
+        <p>Yes. Pick a light texture and use a thin layer. Skipping moisturiser often makes oily skin feel tight and look shinier.</p>
+        <h3>At what age should I start using a night cream?</h3>
+        <p>There is no fixed age. A simple moisturising night cream suits most adults; teenagers should keep the routine simple. See <a href="/journal/at-what-age-can-we-use-glutathione-cream/">at what age you can use glutathione cream</a>.</p>
+        <p>Shopping on a budget? Read what to expect from a <a href="/journal/face-cream-for-glowing-skin-under-1000/">face cream for glowing skin under ₹1,000</a>.</p>'''),
 
     ('best-glutathione-cream-in-india', 'Best glutathione cream in India: what to look for before you buy',
      'Best Glutathione Cream in India: 7 Checks Before You Buy',
@@ -98,7 +128,7 @@ MORE_ARTICLES = [
           <li>Pigmentation during pregnancy or from hormonal medicines</li>
           <li>No change at all after three months of careful use</li>
         </ul>
-        <p>Fair N Pink Advance Radiance Cream contains alpha arbutin, niacinamide and glutathione and can be used as a <a href="/glutathione-night-cream/">night cream</a>. See also <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>'''),
+        <p>Fair N Pink Advance Radiance Cream contains alpha arbutin, niacinamide and glutathione and can be used as a <a href="/glutathione-night-cream/">night cream</a>. See also <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a> and how to choose the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>'''),
 
     ('niacinamide-night-cream', 'Niacinamide night cream: benefits and how to use it',
      'Niacinamide Night Cream: Benefits, How to Use & Who It Suits',
@@ -124,7 +154,7 @@ MORE_ARTICLES = [
         <p>Niacinamide works well with <a href="/journal/niacinamide-and-alpha-arbutin/">alpha arbutin</a> for the look of dark spots, and with glutathione in creams for a brighter-looking complexion. Fair N Pink Advance Radiance Cream has all three in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a>.</p>
         <h2>Side effects</h2>
         <p>Most people have none. A few notice mild tingling or redness in the first days. Patch test first.</p>
-        <p>For a full morning and night plan, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>'''),
+        <p>For a full morning and night plan, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>. Choosing a cream? Read how to pick the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>'''),
 
     ('alpha-arbutin-cream', 'Alpha arbutin cream: what it does and how to use it',
      'Alpha Arbutin Cream: Uses, Benefits & How to Apply',
@@ -168,11 +198,11 @@ MORE_ARTICLES = [
         <h2>The routine</h2>
         <p><b>Night:</b> mild cleanser, then a pea-sized amount of night cream.<br><b>Morning:</b> mild cleanser, a light cream, then sunscreen.</p>
         <p>Drink water, sleep seven to eight hours, and skip harsh scrubs.</p>
-        <p>Fair N Pink Advance Radiance Cream is a <a href="/glutathione-night-cream/">glutathione night cream</a> with niacinamide and alpha arbutin, for glowing-looking skin by morning.</p>'''),
+        <p>Fair N Pink Advance Radiance Cream is a <a href="/glutathione-night-cream/">glutathione night cream</a> with niacinamide and alpha arbutin, for glowing-looking skin by morning. Comparing creams? See how to choose the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin in India</a>.</p>'''),
 
     ('face-cream-for-glowing-skin-under-1000', 'Face cream for glowing skin under ₹1,000: what you can expect',
-     'Face Cream for Glowing Skin Under ₹1,000 in India: What to Expect',
-     'What a face cream for glowing skin under ₹1,000 should contain, how to judge value, and how to use it for the best results.',
+     'Face Cream for Glowing Skin Under ₹1,000: Buyer\'s Guide',
+     'Face cream for glowing skin under ₹1,000 in India: ingredients worth paying for, texture by skin type, red flags, price per gram and day and night use.',
      'Buying guide', 'What a good cream under ₹1,000 should contain.', '''
         <p>Under ₹1,000 you can get a good face cream for glowing-looking skin if it contains proven ingredients such as niacinamide, alpha arbutin or glutathione, lists them clearly and is free from steroids and mercury. Value depends on the ingredients and grams, not on the price alone.</p>
         <h2>What to expect at this price</h2>
@@ -190,7 +220,37 @@ MORE_ARTICLES = [
         <h2>How to get the best results</h2>
         <p>Use the cream morning and night on clean skin, wear sunscreen every morning, and give it four to eight weeks.</p>
         <p>Fair N Pink Advance Radiance Cream costs ₹999 for a 10 g jar, or ₹899 paid online, with glutathione, niacinamide and alpha arbutin, free shipping and Cash on Delivery. <a href="/">See the cream</a>.</p>
-        <p>Before you buy, run through our <a href="/journal/best-glutathione-cream-in-india/">seven checks for choosing a glutathione cream</a>.</p>'''),
+        <p>Before you buy, run through our <a href="/journal/best-glutathione-cream-in-india/">seven checks for choosing a glutathione cream</a>.</p>
+        <h2>Ingredients worth paying for</h2>
+        <ul>
+          <li><b>Niacinamide</b> (vitamin B3): helps skin look smoother and more even; suits most skin types.</li>
+          <li><b>Alpha arbutin</b>: helps dark spots and tan look lighter, gradually, with sunscreen.</li>
+          <li><b>Glutathione</b>: an antioxidant used in creams for a radiant-looking complexion.</li>
+          <li><b>Humectants</b> such as glycerin: keep skin moisturised, which alone makes skin look fresher.</li>
+        </ul>
+        <h2>Texture for your skin type</h2>
+        <ul>
+          <li><b>Oily skin:</b> a light cream in a thin layer, especially in humid weather.</li>
+          <li><b>Dry skin:</b> a richer cream on slightly damp skin, more in winter.</li>
+          <li><b>Sensitive skin:</b> fewer ingredients, and a 24-hour patch test first.</li>
+        </ul>
+        <h2>Red flags at any price</h2>
+        <ul>
+          <li>Promises of fairness, whitening or results in a set number of days.</li>
+          <li>No full ingredient list, or no company name and contact on the pack.</li>
+          <li>Unsealed jars from unknown sellers, or a price far below what the brand charges.</li>
+        </ul>
+        <h2>One cream for day and night, or two?</h2>
+        <p>Under ₹1,000 it usually makes more sense to buy one good cream you can use morning and night, plus a sunscreen, than two cheaper creams. If you want a separate cream for the night, see how to choose the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Which face cream is best for glowing skin under ₹1,000?</h3>
+        <p>The best one for you lists its ingredients clearly, contains at least one useful active such as niacinamide, alpha arbutin or glutathione, suits your skin type and comes from a seller you can contact.</p>
+        <h3>Can a cream under ₹1,000 really help skin glow?</h3>
+        <p>Yes, if it moisturises well and you use it every day with sunscreen. Price matters less than ingredients and regular use.</p>
+        <h3>Can I use the same cream in the day and at night?</h3>
+        <p>Many creams are made for both. In the morning, always add sunscreen on top.</p>
+        <h3>Do I need sunscreen as well?</h3>
+        <p>Yes. Budget for a sunscreen too. Without it, the sun keeps undoing what the cream does.</p>'''),
 
     ('glutathione-cream-with-retinol', 'Can you use glutathione cream with retinol?',
      'Glutathione Cream With Retinol: Can You Use Them Together?',
@@ -428,7 +488,8 @@ MORE_ARTICLES = [
         <h3>Is uneven skin tone the same as pigmentation?</h3>
         <p>They overlap. Uneven tone is a broad description; pigmentation usually means distinct darker spots or patches. Melasma is a specific condition that needs a dermatologist.</p>
         <h3>Can men use a cream for uneven skin tone?</h3>
-        <p>Yes. The same routine works; apply the cream after shaving has settled, not on freshly shaved, stinging skin. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>'''),
+        <p>Yes. The same routine works; apply the cream after shaving has settled, not on freshly shaved, stinging skin. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>
+        <p>On a budget? See what to expect from a <a href="/journal/face-cream-for-glowing-skin-under-1000/">face cream for glowing skin under ₹1,000</a>.</p>'''),
     ('glutathione-cream-for-men', 'Glutathione cream for men: a simple routine for shaving, sweat and sun',
      'Glutathione Cream for Men: Simple Routine for Indian Skin',
      'Can men use glutathione cream? How to fit it around shaving, beard, sweat and bike or commute sun in India, how much to use, and what to expect honestly.',
