@@ -296,7 +296,23 @@ ARTICLES = [
         <p>Use about two finger-lengths for the face and neck. Reapply every two to three hours if you are outdoors, and after sweating or washing your face.</p>
         <h2>Do you need sunscreen indoors?</h2>
         <p>If you sit near a window or go out during the day, yes. At night you do not need it: use the cream alone. See the full <a href="/how-to-use/">morning and night routine</a>.</p>
-        <p>Wondering when to expect a change? See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>'''),
+        <h2>Sunscreen in winter and on hazy days</h2>
+        <p>Cool, foggy or smoggy mornings feel gentle, but UV light still reaches your skin through haze and clouds, and winter is when many people sit in the sun longer on terraces, at outdoor weddings or on hill trips. In winter:</p>
+        <ul>
+          <li>Keep the same morning order: cream, then sunscreen.</li>
+          <li>If your skin feels dry, pick a creamy sunscreen or add a plain moisturiser before it. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a>.</li>
+          <li>Snow and high altitude reflect and strengthen the sun, so reapply more often on mountain trips.</li>
+        </ul>
+        <h2>Festival and wedding days outdoors</h2>
+        <p>Diwali on Sunday 8 November 2026, Chhath Puja from 13 to 16 November with its sunset and sunrise arghya, and outdoor wedding functions all mean long hours outside. Apply sunscreen before you leave and carry a small tube or sunscreen stick to reapply. Under makeup, sunscreen still goes on before foundation; see <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.</p>
+        <p>Wondering when to expect a change? See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Do I need sunscreen with glutathione cream in winter?</h3>
+        <p>Yes. UV still reaches your skin on cool and hazy days, and without sunscreen tan and dark spots keep coming back.</p>
+        <h3>Do I need sunscreen on a cloudy or foggy day?</h3>
+        <p>Yes. Clouds and fog do not block all UV, so apply it every morning whatever the weather.</p>
+        <h3>Can I skip sunscreen if my makeup has SPF?</h3>
+        <p>It is better not to. Most people apply far less foundation or compact than needed for the SPF on the label, so use a separate sunscreen under makeup.</p>'''),
     ('alpha-arbutin-cream-side-effects', 'Alpha arbutin cream side effects: what to know',
      'Alpha Arbutin Cream Side Effects | Who Should Avoid It',
      'Alpha arbutin is generally well tolerated in face creams. Possible side effects, how to patch test, who should ask a doctor first, and how to use it safely.',
@@ -340,11 +356,26 @@ ARTICLES = [
         <p>Paying online saves ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. You can pay by UPI, card or netbanking in a secure Razorpay window, and you see a payment ID as soon as it succeeds. We never ask for your UPI PIN or card details.</p>
         <h2>Delivery</h2>
         <p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and reach most pincodes in 3 to 7 working days. Shipping is free on every order. See the <a href="/shipping-policy/">shipping policy</a>.</p>
+        <h2>Ordering in festival season (November to December 2026)</h2>
+        <p>Because delivery takes 3 to 7 working days, plan ahead for a date that matters to you:</p>
+        <ul>
+          <li><b>Diwali (Sunday 8 November) and Bhai Dooj (Wednesday 11 November):</b> an order placed in the first days of November may reach you only after Diwali, especially in smaller towns, as Sundays are not dispatch days. Order as early as you can.</li>
+          <li><b>Weddings in late November and December:</b> order at least two weeks before the function, so you can patch test and settle into the routine first.</li>
+          <li><b>Christmas (Friday 25 December) and New Year:</b> order by mid-December to leave time for delivery.</li>
+        </ul>
+        <p>A cream helps skin feel smoother and more comfortable within days, but dark spots and tan take eight weeks or more of daily use with sunscreen, so do not expect a change in time for an event next week.</p>
         <h2>Cancellations and damaged parcels</h2>
         <p>You can cancel any time before dispatch. If a jar arrives damaged, message us within 24 hours with an opening video. Details are in the <a href="/refund-policy/">cancellation and refund policy</a>.</p>
         <h2>Why buy from the brand</h2>
         <p>Every order placed here is packed and sent by Fair N Pink, so the jar arrives sealed. See <a href="/original/">what the box, jar and seal look like</a>.</p>
-        <p>Comparing prices first? Read <a href="/journal/glutathione-cream-price-in-india/">glutathione cream price in India: how to compare</a>.</p>'''),
+        <p>Comparing prices first? Read <a href="/journal/glutathione-cream-price-in-india/">glutathione cream price in India: how to compare</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Is Cash on Delivery available on Fair N Pink cream?</h3>
+        <p>Yes, where Delhivery offers it for your pincode. You pay nothing now and pay in cash at delivery, with no extra fee.</p>
+        <h3>How long does delivery take?</h3>
+        <p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and usually arrive in 3 to 7 working days.</p>
+        <h3>How can I check that my jar is original?</h3>
+        <p>Buy from this website or our WhatsApp number, and compare your box, jar and seal with the photos on our <a href="/original/">check your jar</a> page.</p>'''),
     ('fair-n-pink-night-cream', 'Can Fair N Pink be used as a night cream?',
      'Fair N Pink Night Cream: Can You Use It at Night?',
      'Fair N Pink Advance Radiance Cream can be used as a night cream. How to apply it at night, whether night-only use is enough, and what to do in the morning.',

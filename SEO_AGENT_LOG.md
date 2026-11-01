@@ -36,3 +36,15 @@
 | 2026-10-25 | /journal/how-long-does-glutathione-cream-take-to-work/ | how long does glutathione cream take to work | Title shortened to 58 chars, new description; how to track progress, correction of "7 days/permanent" claims, 3 FAQs; linked from glutathione cream with sunscreen and daily-use guides. |
 | 2026-10-27 | glutathione cream for dark circles | /journal/glutathione-cream-for-dark-circles/ | Results were only foreign eye-cream product listings; very common Indian concern; honest guide to dark-circle types (only pigmented ones may change), safe under-eye application, fragrance caution, no removal promise. |
 | 2026-10-27 | glutathione cream for dark neck | /journal/glutathione-cream-for-dark-neck/ | Results were pharmacy/marketplace neck-cream listings only; common Indian concern; separates sun/friction darkening from velvety skin that needs a doctor (acanthosis), no fairness promise. |
+
+## Freshness
+
+Monthly freshness updater. Do not refresh the same page again within 3 months of the date shown.
+
+| date | page | what changed |
+|---|---|---|
+| 2026-11-01 | /journal/glutathione-cream-in-winter/ | New "next few weeks" table for Nov–Dec 2026 (Dhanteras 6 Nov, Diwali 8 Nov, Bhai Dooj 11 Nov, Chhath 13–16 Nov, Guru Nanak Jayanti 24 Nov, Christmas/New Year); 2 FAQs (room heater, after Diwali smoke/smog) |
+| 2026-11-01 | /journal/glutathione-cream-with-sunscreen/ | Oldest thin guide: new sections "sunscreen in winter and on hazy days" and "festival and wedding days outdoors" (Diwali, Chhath dates); new FAQ (winter, cloudy/foggy days, SPF makeup) |
+| 2026-11-01 | /journal/buy-fair-n-pink-cream-online/ | New "ordering in festival season" section (Diwali/Bhai Dooj, weddings, Christmas timing vs 3–7 working-day delivery, no Sunday dispatch); new FAQ (COD, delivery time, original jar) |
+| 2026-11-01 | /journal/face-cream-after-facial-threading-waxing/ | New "planning parlour visits before Diwali, weddings and New Year" table with 2026 dates; FAQ "how many days before a wedding should I get a facial" |
+| 2026-11-01 | /journal/glutathione-cream-before-makeup/ | Wedding/festival section now names the coming dates (Diwali 8 Nov, Bhai Dooj 11 Nov, wedding season, Christmas/New Year); 2 FAQs (night before an event, flashback in flash photos) |

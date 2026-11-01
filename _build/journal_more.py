@@ -272,6 +272,19 @@ MORE_ARTICLES = [
         <h2>Going back to your regular cream</h2>
         <p>Once skin feels calm (no redness, stinging or heat), return to your usual routine: a mild cleanser, a pea-sized amount of cream, and sunscreen every morning. Our <a href="/how-to-use/">morning and night routine</a> shows the steps. If you use a glutathione cream, start with the night after the waiting period; that way any slight warmth settles while you sleep.</p>
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> has glutathione, niacinamide and alpha arbutin and contains fragrance, which is exactly why we suggest keeping it off freshly threaded or waxed skin and using it once your skin has settled. If you are new to the cream, patch test it on your inner arm for 24 hours first.</p>
+        <h2>Planning parlour visits before Diwali, weddings and New Year</h2>
+        <p>November and December 2026 are busy: Diwali is on Sunday 8 November, Bhai Dooj on Wednesday 11 November, wedding functions run through late November and December, and New Year's Eve is Thursday 31 December. Working back from your date gives skin time to settle before makeup.</p>
+        <table>
+          <thead><tr><th>Parlour service</th><th>Book it about</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Facial or clean-up</td><td>A week before the event</td><td>Any redness or small bumps after extraction have time to calm down</td></tr>
+            <tr><td>Face waxing</td><td>Three to five days before</td><td>Skin needs a day or two to settle, and you still have a margin if bumps appear</td></tr>
+            <tr><td>Threading</td><td>Two to three days before</td><td>Brows look neat and any redness has gone</td></tr>
+            <tr><td>Face bleach</td><td>Skip it, or at least a week before and only if you have used it before</td><td>A new reaction close to the day is hard to hide</td></tr>
+            <tr><td>Anything new (peel, new pack, new cream)</td><td>Not in the last two weeks</td><td>You will not know how your skin reacts until it is too late</td></tr>
+          </tbody>
+        </table>
+        <p>Then keep your usual routine until the day; see <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a> for the morning of the event.</p>
         <h2>Signs you should stop and see a doctor</h2>
         <ul>
           <li>Burning, swelling or blisters that last more than a day</li>
@@ -295,6 +308,8 @@ MORE_ARTICLES = [
         <p>Yes, if you are going out. Choose a gentle sunscreen and apply it lightly over the area; it protects skin that is more likely to darken in the sun. Read more on <a href="/journal/glutathione-cream-with-sunscreen/">using sunscreen with a glutathione cream</a>.</p>
         <h3>Can I use the cream on my upper lip after threading?</h3>
         <p>After about 24 hours, once the area no longer stings, yes. Use a very small amount.</p>
+        <h3>How many days before a wedding should I get a facial?</h3>
+        <p>About a week before is a safe gap for a facial you have had before. Avoid a new type of facial, bleach or peel in the last two weeks before the wedding.</p>
         <h3>Does a facial make a cream work faster?</h3>
         <p>No. A facial can make skin look fresh for a day or two, but steady daily use of a cream with sunscreen over four to eight weeks matters more. Results differ from person to person.</p>'''),
 
@@ -527,6 +542,16 @@ MORE_ARTICLES = [
           <li><b>On the day:</b> moisturiser and sunscreen under makeup, and remove makeup gently at night.</li>
         </ul>
         <p>For parlour visits in this season, read <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</p>
+        <h3>The next few weeks at a glance (November to December 2026)</h3>
+        <table>
+          <thead><tr><th>Dates</th><th>What happens</th><th>Skin tip</th></tr></thead>
+          <tbody>
+            <tr><td>Fri 6 to Wed 11 November (Dhanteras, Diwali on Sun 8 November, Bhai Dooj)</td><td>Late nights, makeup, diya and cracker smoke, sweets</td><td>Remove makeup every night, wash off smoke and dust with a mild face wash, then cream and moisturiser</td></tr>
+            <tr><td>Fri 13 to Mon 16 November (Chhath Puja; evening arghya Sun 15, morning arghya Mon 16)</td><td>Hours near water at sunset and sunrise, fasting, cold early mornings</td><td>Sunscreen before the evening ghat visit, a plain moisturiser and lip balm after the early-morning one</td></tr>
+            <tr><td>Late November to December</td><td>Wedding functions, Guru Nanak Jayanti (Tue 24 November), heaters switched on in the north</td><td>Keep the same routine; no new facial, bleach or cream in the week before a function</td></tr>
+            <tr><td>Fri 25 December to Fri 1 January</td><td>Christmas and New Year parties, hill-station trips</td><td>Higher altitude and snow mean stronger sun: reapply sunscreen outdoors and moisturise more</td></tr>
+          </tbody>
+        </table>
         <h2>8. When to see a dermatologist</h2>
         <p>See a dermatologist if you have cracked, bleeding or very itchy patches, eczema that flares in winter, or a rash that does not settle with a plain moisturiser. These need proper care, not just a face cream.</p>
         <h2>FAQ</h2>
@@ -539,7 +564,11 @@ MORE_ARTICLES = [
         <h3>Why does my face sting after the cream in winter?</h3>
         <p>Dry skin feels actives more. Moisturise well, use the cream once a day at night, and stop if stinging or redness lasts.</p>
         <h3>Can I use it after a hot bath?</h3>
-        <p>Yes, but keep baths lukewarm rather than very hot, and apply the cream while your skin is still slightly damp.</p>'''),
+        <p>Yes, but keep baths lukewarm rather than very hot, and apply the cream while your skin is still slightly damp.</p>
+        <h3>Can I use glutathione cream if I sleep with a room heater on?</h3>
+        <p>Yes. Heaters dry the air, so apply the cream on slightly damp skin, add a plain moisturiser on top, and keep a bowl of water in the room or the heater a little away from your bed.</p>
+        <h3>What should I do for my skin after Diwali smoke and smog?</h3>
+        <p>Wash your face gently every evening to remove smoke, dust and makeup, then apply the cream and a moisturiser. Do not scrub hard to "detox"; a gentle, regular routine and sunscreen by day are enough.</p>'''),
     ('glutathione-cream-for-pimple-marks', 'Glutathione cream for pimple marks: what helps, what does not, and how long it takes',
      'Glutathione Cream for Pimple Marks: What Helps and How Long',
      'Can glutathione cream help pimple marks? How to tell dark marks from red marks and scars, a simple routine with sunscreen, and how long they take to fade.',
@@ -885,7 +914,7 @@ MORE_ARTICLES = [
           <li><b>Stinging under makeup:</b> stop using the cream in the morning, keep it for night only, and see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a> if it continues.</li>
         </ul>
         <h2>4. For long days, weddings and functions</h2>
-        <p>Indian weddings and festivals often mean ten or more hours of makeup in heat, crowds and lights. On such days:</p>
+        <p>Indian weddings and festivals often mean ten or more hours of makeup in heat, crowds and lights. The coming weeks are full of them: Diwali on Sunday 8 November 2026 and Bhai Dooj on Wednesday 11 November, wedding functions through late November and December, then Christmas and New Year parties. On such days:</p>
         <ol>
           <li>Keep the same cream you already use; never try a new cream, facial or bleach in the last few days before an event.</li>
           <li>Use the thinnest layer of cream that feels comfortable, or skip it in the morning and rely on moisturiser and sunscreen if your makeup artist prefers a bare base.</li>
@@ -909,7 +938,11 @@ MORE_ARTICLES = [
         <h3>Can I use it as a primer?</h3>
         <p>It works as the moisturising step, not as a primer. If you want a smoother, longer-lasting base, add a primer after sunscreen.</p>
         <h3>Will the cream make my makeup look lighter or fairer?</h3>
-        <p>No. It does not change your skin colour or your foundation shade; choose a foundation that matches your natural skin tone.</p>'''),
+        <p>No. It does not change your skin colour or your foundation shade; choose a foundation that matches your natural skin tone.</p>
+        <h3>Can I use glutathione cream the night before a wedding or party?</h3>
+        <p>Yes, if it is already part of your routine. Use your usual pea-sized amount after removing makeup and cleansing; the night before an event is not the time to start any new product.</p>
+        <h3>Will my face look white in flash photos?</h3>
+        <p>A thin layer of face cream is not usually the cause. A white cast in flash photos (flashback) more often comes from heavy setting powder or some sunscreens; do a quick test with your phone flash before the day.</p>'''),
     ('glutathione-cream-for-dark-circles', 'Can glutathione cream help dark circles under the eyes?',
      'Glutathione Cream for Dark Circles: What It Can and Cannot Do',
      'Can glutathione cream help dark circles? Which types it may help, how to apply it safely near the eyes, and when shadows or puffiness need other care.',
