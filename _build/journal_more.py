@@ -1541,8 +1541,153 @@ MORE_ARTICLES = [
         <p>Usually because it went on dry skin in dry air with nothing on top. Apply it on damp skin and follow with a cream.</p>
         <h3>Will hyaluronic acid with glutathione make my skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Together they can help skin look plumper, brighter and more even over time.</p>'''),
+    ('glutathione-cream-with-ubtan', 'Can you use glutathione cream with ubtan?',
+     'Glutathione Cream with Ubtan: How to Use Both Safely',
+     'Can you use glutathione cream with ubtan? Use ubtan as a gentle wash-off pack first, then the cream. Order, wedding-season plan and mistakes for Indian skin.',
+     'How to use', 'How to use a besan-haldi ubtan with a glutathione cream, the right order, how often, and a calm plan for wedding and haldi season.', '''
+        <p>Yes, you can use glutathione cream with ubtan: use the ubtan as a gentle wash-off pack on clean skin, rinse it off, pat dry and then apply the cream. Keep ubtan to once or twice a week, rub it off softly instead of scrubbing, and never mix it into the cream jar.</p>
+        <p>Ubtan, the classic paste of besan (gram flour), haldi and milk, curd or rose water, is part of many Indian homes and almost every wedding season, from pre-wedding glow plans to the haldi ceremony. Here is how to fit it around a glutathione cream without irritating your skin.</p>
+        <h2>1. Ubtan and glutathione cream do different jobs</h2>
+        <table>
+          <thead><tr><th></th><th>Home ubtan</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Wash-off pack, 10 to 15 minutes</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Cleans, softens, gives a fresh look for the day</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>How often</td><td>Once or twice a week</td><td>Daily or as your routine allows, with sunscreen every morning</td></tr>
+            <tr><td>Main risk</td><td>Rough rubbing, haldi stains, reactions to added lemon or milk</td><td>Mild irritation in some people; patch test first</td></tr>
+          </tbody>
+        </table>
+        <p>An ubtan gives a nice fresh look for an evening. It does not fade tan or dark spots on its own. That slower change needs daily sunscreen and weeks of steady care.</p>
+        <h2>2. The right order on an ubtan night</h2>
+        <ol>
+          <li><b>Wash</b> the face with a gentle face wash and pat dry.</li>
+          <li><b>Apply the ubtan</b> in an even layer, avoiding the eyes and lips. Keep it slightly moist, not dry and cracking.</li>
+          <li><b>Leave it for 10 to 15 minutes.</b></li>
+          <li><b>Wet your fingers and loosen it</b> with soft circles, then rinse with lukewarm water. Do not rub hard like a scrub.</li>
+          <li><b>Pat dry and wait a few minutes</b> so any tingling settles.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream.</b> If the skin feels warm or red, skip the cream that night and use a plain moisturiser.</li>
+          <li><b>Next morning:</b> sunscreen, SPF 30 or higher. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <h2>3. A simple, gentle ubtan</h2>
+        <ul>
+          <li>2 teaspoons besan</li>
+          <li>A small pinch of haldi (more stains the skin yellow for hours)</li>
+          <li>Enough rose water, plain curd or milk to make a smooth paste</li>
+        </ul>
+        <p>Make it fresh each time and throw away what is left. Skip lemon, baking soda, toothpaste and coarse grains: they sting, dry the skin and are a common reason for redness when an active cream goes on afterwards. If you want something even gentler, read <a href="/journal/glutathione-cream-with-aloe-vera-gel/">glutathione cream with aloe vera gel</a>.</p>
+        <h2>4. Wedding and haldi season plan</h2>
+        <table>
+          <thead><tr><th>When</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>8 to 12 weeks before</td><td>Start the glutathione cream if you plan to, with sunscreen every morning. This is the time it needs. See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a></td></tr>
+            <tr><td>Weeks before</td><td>Ubtan once or twice a week, on different nights from any facial or new product</td></tr>
+            <tr><td>Last 7 days</td><td>Nothing new. Keep the routine you already know suits you</td></tr>
+            <tr><td>Haldi ceremony day</td><td>Let the haldi paste be washed off gently; that night use only a plain moisturiser if the skin feels warm or tight</td></tr>
+            <tr><td>After threading, waxing or a facial</td><td>Skip both ubtan and the cream for a day or two. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Which skin types suit ubtan</h2>
+        <ul>
+          <li><b>Oily skin:</b> besan with rose water suits most people; once or twice a week. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</li>
+          <li><b>Dry skin:</b> use curd or milk instead of rose water, keep it short, and moisturise well after. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</li>
+          <li><b>Sensitive skin:</b> patch test the ubtan on the jaw first, and do not use it on the same night as the cream for the first few weeks. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Active pimples:</b> do not rub ubtan over them.</li>
+        </ul>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li>Mixing ubtan powder or haldi into the cream jar.</li>
+          <li>Scrubbing hard to "remove tan".</li>
+          <li>Daily ubtan in the weeks before a wedding.</li>
+          <li>Leaving the pack on until it cracks and pulls the skin.</li>
+          <li>Believing ubtan or any cream will make skin fair. Neither changes your natural skin colour.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over 8 to 12 weeks with daily sunscreen, so an occasional ubtan pack before it is fine once both pass a patch test. It contains fragrance, so patch test first. Daily steps are on our <a href="/how-to-use/">how to use</a> page.</p>
+        <p>See a dermatologist if you get burning, swelling, a rash that spreads, or patchy brown marks such as melasma that keep getting darker.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply ubtan before or after glutathione cream?</h3>
+        <p>Before, and wash it off. Ubtan is a wash-off pack; the cream goes on clean, dry skin after rinsing.</p>
+        <h3>Can I use ubtan and glutathione cream on the same night?</h3>
+        <p>Yes, if your skin is calm after rinsing. If it feels warm, red or tingly, skip the cream that night.</p>
+        <h3>How often can I use ubtan with glutathione cream?</h3>
+        <p>Once or twice a week is enough. Daily packs and scrubbing can dry and irritate the skin.</p>
+        <h3>Will ubtan with glutathione cream make me fair before my wedding?</h3>
+        <p>No. Neither changes your natural skin colour. Ubtan gives a fresh look for the day, and the cream can help skin look brighter and more even over 8 to 12 weeks with sunscreen.</p>
+        <h3>Can I apply haldi with glutathione cream?</h3>
+        <p>Use only a small pinch in a wash-off ubtan, never mixed into the cream. Too much haldi stains the skin yellow for hours.</p>'''),
+    ('kumkumadi-oil-with-glutathione-cream', 'Can you use kumkumadi oil with glutathione cream?',
+     'Kumkumadi Oil with Glutathione Cream: How to Layer',
+     'Can you use kumkumadi oil with glutathione cream? Apply the cream first, then 2 to 3 drops of oil at night. Order, who should skip it and honest expectations.',
+     'How to use', 'Which goes first, how many drops, who should skip the oil, and what an Ayurvedic face oil can and cannot do alongside a glutathione cream.', '''
+        <p>Yes, you can use kumkumadi oil with glutathione cream: apply the cream first, then press 2 to 3 drops of the oil on top, at night only. Oil goes last because it sits on the skin and slows water loss; putting it first stops the cream from spreading and settling well.</p>
+        <p>Kumkumadi tailam is a traditional Ayurvedic face oil, usually made with saffron (kesar) and several herbs in an oil base, and it has become one of the most popular night oils in India. Here is how to pair it sensibly with a glutathione cream, and when to leave it out.</p>
+        <h2>1. What each product does</h2>
+        <table>
+          <thead><tr><th></th><th>Kumkumadi oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Face oil</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Softens dry skin and gives a glowy, nourished finish</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Night, last step</td><td>Night (and morning with sunscreen)</td></tr>
+            <tr><td>Limits</td><td>Heavy for oily or acne-prone skin; some people react to herbal oils</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <p>Kumkumadi oil is often described as good for <i>varna</i> (complexion). In plain terms, it can make skin feel softer and look more radiant. It does not change the skin colour you were born with, and neither does any cream.</p>
+        <h2>2. The right order at night</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> over the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> so it settles.</li>
+          <li><b>Warm 2 to 3 drops of kumkumadi oil</b> between your fingertips and press them gently over dry areas or the whole face if your skin is dry.</li>
+          <li><b>Use an old pillow cover</b>; saffron-based oils can stain.</li>
+          <li><b>Every morning:</b> wash, then sunscreen, SPF 30 or higher. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>This is the same thin-to-thick rule we explain in <a href="/journal/glutathione-cream-with-vitamin-e-capsule/">glutathione cream with vitamin E capsule</a>.</p>
+        <h2>3. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Kumkumadi oil on top?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, North Indian winter, heater or AC rooms</td><td>Yes, 2 to 3 drops most nights. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>A few nights a week, mainly in winter</td></tr>
+            <tr><td>Combination skin</td><td>Only on dry cheeks, not on the T-zone</td></tr>
+            <tr><td>Oily or acne-prone skin</td><td>Usually skip on the face; heavy oils can lead to bumps. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test the oil alone first. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. How to start both safely</h2>
+        <ul>
+          <li><b>One at a time.</b> If both are new, use the cream alone for a week or two, then add the oil a few nights a week. If something reacts, you will know which one.</li>
+          <li><b>Patch test each</b> on the jaw or inner arm for 24 to 48 hours.</li>
+          <li><b>Read the label.</b> Herbal oils vary a lot between makers. Check the full ingredient list, the base oil and the use-before date.</li>
+          <li><b>Keep it away from the eyes.</b></li>
+        </ul>
+        <h2>5. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Oil first, cream second.</b> The cream will not spread well over oil.</li>
+          <li><b>Using lots of drops.</b> More oil does not mean more glow; it means greasy skin and a stained pillow.</li>
+          <li><b>Mixing oil into the cream jar.</b> It changes the texture and can spoil the jar.</li>
+          <li><b>Wearing the oil in the day.</b> It feels heavy in Indian heat and can make sunscreen slide.</li>
+          <li><b>Expecting the oil to fade spots.</b> Dark spots and tan need sunscreen and weeks of steady care. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>6. Winter is the best season for it</h2>
+        <p>From November to February, especially in North India, dry air, heaters and hot baths leave skin tight and flaky. That is when a few drops of oil on top of the cream make the most sense. In humid monsoon months or coastal cities, many people can drop the oil and use the cream alone. Our <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a> guide has a full cold-season routine.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over 8 to 12 weeks with daily sunscreen; it does not change your natural skin colour. A few drops of kumkumadi oil on top on dry nights is fine for most people once both pass a patch test. The cream contains fragrance, so patch test first. If you notice stinging or redness, read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects</a>.</p>
+        <p>See a dermatologist if you get itching, a rash, many small bumps after starting an oil, or patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply kumkumadi oil before or after glutathione cream?</h3>
+        <p>After. Apply the cream first, wait a few minutes, then press 2 to 3 drops of oil on top at night.</p>
+        <h3>Can I use kumkumadi oil and glutathione cream every night?</h3>
+        <p>Dry skin often can in winter. Normal and combination skin may prefer a few nights a week; oily and acne-prone skin can usually skip the oil.</p>
+        <h3>Can I use kumkumadi oil in the morning?</h3>
+        <p>It is better at night. In the day it feels greasy and can make sunscreen and makeup slide.</p>
+        <h3>Will kumkumadi oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Together they can help skin feel softer and look brighter and more even over weeks, with sunscreen.</p>
+        <h3>Is kumkumadi oil good for pimples?</h3>
+        <p>Heavy oils can trigger bumps on acne-prone skin. Skip it on breakout areas, and see a dermatologist for painful or frequent acne.</p>'''),
 ]
 SHORT.update({
+ 'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
+ 'kumkumadi-oil-with-glutathione-cream': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 2 to 3 drops of kumkumadi oil on top at night only, with sunscreen every morning. It suits dry winter skin best; oily and acne-prone skin can usually skip the oil.',
  'glutathione-cream-for-acne-prone-skin': 'Most acne-prone skin can use a light glutathione cream in a thin layer at night, introduced slowly after a jawline patch test, with oil-free sunscreen every morning. It does not treat active pimples, but can help flat dark marks look lighter over 8 to 12 weeks.',
  'glutathione-cream-with-aloe-vera-gel': 'Yes, glutathione cream and aloe vera gel can be used together: apply the thinner aloe gel first, wait a minute or two, then the cream, with sunscreen every morning. Do not mix aloe into the jar, and patch test fresh plant gel first.',
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
