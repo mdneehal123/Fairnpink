@@ -24,6 +24,8 @@
 | 2026-10-31 | glutathione cream with hyaluronic acid serum | /journal/glutathione-cream-with-hyaluronic-acid-serum/ | Results were foreign brand layering blogs and a Gulf body-lotion page with no glutathione answer; hyaluronic serums are very common in India; damp-skin order, why it can feel tight in dry winter/AC air, routines by skin type, says plainly the cream does not list hyaluronic acid. |
 | 2026-11-01 | glutathione cream with ubtan | /journal/glutathione-cream-with-ubtan/ | Results were only foreign glutathione-cream product listings, pharmacy pages and a trends page; besan-haldi ubtan is a very common Indian home pack and wedding/haldi season starts now; wash-off first then cream, wedding-week plan, no tan-removal or fairness promise. |
 | 2026-11-01 | kumkumadi oil with glutathione cream | /journal/kumkumadi-oil-with-glutathione-cream/ | Results were only kumkumadi cream/oil product listings (pharmacy and shop pages) and one old magazine feature, none answering the pairing question; popular Ayurvedic night oil in India, winter dryness season; cream-first/oil-last order, skin-type table, corrects the 'varna'/fairness idea. |
+| 2026-11-02 | glutathione cream for sun tan | /journal/glutathione-cream-for-sun-tan/ | Results were pharmacy product listings (many with 'whitening' names), a de-tan mask shop page and a US supplement blog; no honest guide; sunscreen-first routine, can/cannot table, realistic timelines, no fairness promise |
+| 2026-11-02 | rose water with glutathione cream | /journal/rose-water-with-glutathione-cream/ | Results were foreign shop pages, a pharmacy tablet listing and old rose-water features; gulab jal is a household staple; order (toner first), choosing a plain one, skin-type table |
 
 ## Boosts
 

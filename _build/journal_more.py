@@ -1778,6 +1778,149 @@ MORE_ARTICLES = [
         <p>No. Neither changes your natural skin colour. Together they can help skin feel softer and look brighter and more even over weeks, with sunscreen.</p>
         <h3>Is kumkumadi oil good for pimples?</h3>
         <p>Heavy oils can trigger bumps on acne-prone skin. Skip it on breakout areas, and see a dermatologist for painful or frequent acne.</p>'''),
+    ('glutathione-cream-for-sun-tan', 'Glutathione cream for sun tan: what it can do and a simple routine',
+     'Glutathione Cream for Sun Tan: What Helps and How to Use It',
+     'Glutathione cream for sun tan: it can help tan look lighter over weeks with daily sunscreen. A simple routine, what to expect and mistakes to avoid in India.',
+     'Skin concerns', 'How a glutathione cream fits into tan care, why sunscreen matters more than any cream, a day and night routine, and honest timelines for Indian skin.', '''
+        <p>A glutathione cream can help sun tan look lighter over a few weeks, but only alongside daily sunscreen and less time in strong sun. Tan is your skin's response to sunlight, so stopping new tan every morning matters more than anything you apply at night.</p>
+        <p>In India, tan builds on bike rides, school runs, cricket grounds, beach trips and even through car windows, and it shows most on the face, neck, arms and feet. Here is what a glutathione cream can and cannot do for tan, and a routine that fits real Indian weather.</p>
+        <h2>1. What sun tan is, in plain words</h2>
+        <p>When UV rays reach the skin, it makes more melanin, the pigment that gives skin its colour, as a natural shield. That extra pigment is the tan. Skin slowly sheds and renews its top layers over about a month, so a tan usually fades on its own over weeks once sun exposure drops, as long as you are not tanning again every day.</p>
+        <p>That is the key point: tan is temporary and is different from your natural skin colour. No cream changes the skin colour you were born with, and any product that promises to make you "fair" or "gora" is making a claim you should not trust. Read <a href="/journal/fair-and-pink-cream/">our note on the name</a> for more on this.</p>
+        <h2>2. What a glutathione cream can and cannot do</h2>
+        <table>
+          <thead><tr><th>Can do</th><th>Cannot do</th></tr></thead>
+          <tbody>
+            <tr><td>Help tan look lighter over weeks, with sunscreen</td><td>Remove tan overnight or in a few days</td></tr>
+            <tr><td>Help skin look brighter and more even</td><td>Change your natural skin colour</td></tr>
+            <tr><td>Keep skin moisturised, which helps it look less dull</td><td>Protect you from the sun (it is not a sunscreen)</td></tr>
+            <tr><td>Fit into a simple morning and night routine</td><td>Help sunburn, blisters or peeling skin</td></tr>
+          </tbody>
+        </table>
+        <p>Ingredients that are often used together for tan and uneven-looking tone include glutathione, niacinamide and alpha arbutin. Our <a href="/ingredients/">ingredients page</a> explains each one simply.</p>
+        <h2>3. A simple tan routine</h2>
+        <h3>Morning</h3>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Apply a pea-sized amount of cream</b> on the face and neck.</li>
+          <li><b>Apply sunscreen</b>, SPF 30 or higher, about two finger-lengths for face and neck. This is the most important step.</li>
+          <li><b>Reapply sunscreen</b> every 2 to 3 hours if you are outdoors, after sweating, or after wiping your face.</li>
+        </ol>
+        <h3>Night</h3>
+        <ol>
+          <li><b>Wash off</b> sunscreen, sweat and dust.</li>
+          <li><b>Apply a pea-sized amount of cream</b> and let it settle.</li>
+          <li><b>Add a plain moisturiser</b> on top if your skin feels dry, especially in winter.</li>
+        </ol>
+        <p>More on choosing and layering sunscreen is in <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>4. Simple sun habits that do more than any cream</h2>
+        <ul>
+          <li><b>Cover up:</b> a cap or wide hat, a cotton dupatta or scarf, full sleeves and sunglasses.</li>
+          <li><b>Plan outdoor time:</b> the sun is strongest from late morning to mid-afternoon.</li>
+          <li><b>Bike and scooter riders:</b> a full-face helmet or a scarf across the face, plus sunscreen on the neck and hands.</li>
+          <li><b>Do not forget winter and cloudy days.</b> UV still reaches the skin in winter, on hazy days and at hill stations.</li>
+          <li><b>Beach, pool and hill trips:</b> water, sand and snow reflect sunlight, so reapply often.</li>
+        </ul>
+        <h2>5. What to expect, honestly</h2>
+        <table>
+          <thead><tr><th>Time</th><th>What is realistic</th></tr></thead>
+          <tbody>
+            <tr><td>First 1 to 2 weeks</td><td>Skin feels softer and looks less dull; tan looks about the same</td></tr>
+            <tr><td>3 to 6 weeks</td><td>Light, recent tan often starts looking lighter if you use sunscreen every day</td></tr>
+            <tr><td>8 to 12 weeks</td><td>Skin may look more even overall; older, deeper tan and dark spots take longer</td></tr>
+          </tbody>
+        </table>
+        <p>Results differ for everyone and depend most on how much sun you still get. Our guide on <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a> explains the timelines in more detail.</p>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Lemon, baking soda or bleach on tan.</b> They can irritate the skin and leave it patchier.</li>
+          <li><b>Hard scrubbing.</b> Rough scrubs do not lift tan and can leave dark marks on Indian skin.</li>
+          <li><b>Skipping sunscreen.</b> Without it, you add new tan every day and no cream can keep up.</li>
+          <li><b>Using many new products at once.</b> If skin reacts, you will not know which one caused it.</li>
+          <li><b>Applying cream on sunburnt skin.</b> If skin is red, hot or peeling, use only a plain moisturiser until it settles.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar for ₹999. Used morning and night with sunscreen every morning, it can help tan and dark spots look lighter and skin look more even over 8 to 12 weeks. It does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>, and patch test on the jaw or inner arm for 24 to 48 hours first.</p>
+        <p>For tan on the neck, read <a href="/journal/glutathione-cream-for-dark-neck/">glutathione cream for dark neck</a>; for spots that stay after the tan fades, read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
+        <p>See a dermatologist if you have sunburn with blisters, patches that appear suddenly or keep spreading, brown patches on both cheeks that may be melasma, or any mole that changes in size, shape or colour.</p>
+        <h2>FAQ</h2>
+        <h3>Can glutathione cream remove sun tan?</h3>
+        <p>It can help tan look lighter over weeks, used with sunscreen every morning. It does not take tan away overnight, and it is not a replacement for sunscreen.</p>
+        <h3>How long does sun tan take to fade?</h3>
+        <p>Light tan often looks lighter within a few weeks once you protect your skin from the sun. Deeper tan can take a couple of months, and results differ for everyone.</p>
+        <h3>Should I use glutathione cream in the morning or at night for tan?</h3>
+        <p>Both work. In the morning, always follow it with sunscreen. At night, apply it on clean skin after washing off the day.</p>
+        <h3>Can I use glutathione cream on tanned hands and arms?</h3>
+        <p>A face cream comes in a small jar, so it is not practical for large areas. For hands and arms, sunscreen and covering up help most.</p>
+        <h3>Will glutathione cream make me fair?</h3>
+        <p>No. It can help tan and dark spots look lighter and skin look more even, but it does not change your natural skin colour.</p>'''),
+    ('rose-water-with-glutathione-cream', 'Can you use rose water with glutathione cream?',
+     'Rose Water with Glutathione Cream: How to Use Both',
+     'Can you use rose water with glutathione cream? Yes: rose water first as a toner, then the cream. The right order, who should skip it and mistakes to avoid.',
+     'How to use', 'Which goes first, how to choose a plain rose water, who should skip it, and what gulab jal can and cannot do next to a glutathione cream.', '''
+        <p>Yes, you can use rose water with glutathione cream: splash or pat the rose water on clean skin first, let it dry for a minute, then apply the cream. Rose water is a light toner, so it goes before the cream, never mixed into the jar.</p>
+        <p>Gulab jal is in almost every Indian home, in face packs, ubtan and as a cooling splash in summer. It pairs easily with a glutathione cream if you choose a plain one and keep expectations realistic. Here is how.</p>
+        <h2>1. What each product does</h2>
+        <table>
+          <thead><tr><th></th><th>Rose water</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Watery toner or mist</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Refreshes, cools and lightly hydrates; a pleasant step after washing</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Morning and night, before the cream</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Very light; does not fade spots or tan on its own</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Rose water:</b> pour a little on a clean cotton pad and wipe gently, or splash a few drops with clean hands. A spray bottle works too.</li>
+          <li><b>Wait about a minute</b> until the skin is just slightly damp, not dripping.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Morning only:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Applying the cream on slightly damp skin helps it spread easily, which is useful in dry winter air. It follows the same thin-to-thick order we explain in <a href="/journal/glutathione-cream-with-hyaluronic-acid-serum/">glutathione cream with hyaluronic acid serum</a>.</p>
+        <h2>3. How to choose rose water</h2>
+        <ul>
+          <li><b>Read the label.</b> Look for a short list: rose distillate or rose water, with a preservative. Plain is best.</li>
+          <li><b>Avoid added alcohol and strong perfume</b> if your skin is dry or sensitive; they can leave it tight or itchy.</li>
+          <li><b>Check the use-before date</b> and close the bottle after use. Homemade rose water spoils quickly, so make small amounts and keep them in the fridge for a few days only.</li>
+          <li><b>Keep it clean.</b> Do not dip used cotton back into the bottle.</li>
+        </ul>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or season</th><th>Rose water before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Oily skin, humid summer or monsoon</td><td>Yes, a cool splash feels refreshing. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Normal or combination skin</td><td>Yes, morning and night</td></tr>
+            <tr><td>Dry skin, North Indian winter</td><td>Yes, but apply the cream while skin is still slightly damp. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Sensitive skin or fragrance allergy</td><td>Patch test first, or skip it. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Freshly threaded, waxed or broken skin</td><td>Wait until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Mixing rose water into the cream jar.</b> Adding water can spoil the jar and changes the texture.</li>
+          <li><b>Soaking the face.</b> Applying cream on dripping-wet skin makes it slide around and look patchy.</li>
+          <li><b>Adding lemon or other kitchen items to the rose water.</b> Lemon can irritate the skin, especially in the sun.</li>
+          <li><b>Using rose water instead of washing.</b> It does not take off sunscreen, makeup or sweat; wash first.</li>
+          <li><b>Expecting rose water to fade spots.</b> Dark spots and tan need sunscreen and weeks of steady care. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>6. Rose water in face packs and ubtan</h2>
+        <p>Many people use rose water to mix besan, multani mitti or sandalwood packs. That is fine as a separate wash-off step: use the pack, rinse it off, pat dry, then follow the order above. Our guide to <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a> covers how often and when to skip the cream after a pack.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. A plain rose water before it, morning and night, is fine for most people once both pass a patch test on the jaw or inner arm for 24 to 48 hours. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get itching, a rash or burning after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply rose water before or after glutathione cream?</h3>
+        <p>Before. Rose water is a light toner, so apply it on clean skin, wait about a minute, then apply the cream.</p>
+        <h3>Can I mix rose water with glutathione cream in my palm?</h3>
+        <p>It is better to keep them as separate steps. Mixing thins the cream and makes it harder to spread evenly.</p>
+        <h3>Can I use rose water and glutathione cream every day?</h3>
+        <p>Yes, most people can use both morning and night, with sunscreen every morning, once a patch test is clear.</p>
+        <h3>Does rose water with glutathione cream make skin fair?</h3>
+        <p>No. Rose water refreshes the skin, and the cream can help skin look brighter and more even over weeks. Neither changes your natural skin colour.</p>
+        <h3>Is rose water good for oily skin with glutathione cream?</h3>
+        <p>Yes, a plain rose water feels light and refreshing on oily skin. Follow with a thin layer of cream and sunscreen in the morning.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
@@ -1811,5 +1954,7 @@ SHORT.update({
  'alpha-arbutin-and-kojic-acid-together': 'Yes, alpha arbutin and kojic acid can be used together. Start with one, add the other on alternate nights after a few weeks, layer thinnest first once skin is comfortable, and wear sunscreen every morning. Kojic acid is the more likely of the two to irritate.',
  'glutathione-cream-with-vitamin-e-capsule': 'Yes, but do not squeeze the capsule into the jar: apply the glutathione cream first, then press one or two drops of vitamin E oil only on very dry areas at night. Skip the oil on oily or acne-prone faces, and wear sunscreen every morning.',
  'glutathione-cream-with-hyaluronic-acid-serum': 'Yes, glutathione cream and hyaluronic acid serum work well together: apply 2 to 3 drops of serum on slightly damp skin, wait a minute, then the cream on top, with sunscreen every morning. The cream holds in the water the serum draws to the skin.',
+ 'glutathione-cream-for-sun-tan': 'A glutathione cream can help sun tan look lighter over a few weeks when used with sunscreen every morning and less time in strong sun. It does not take tan away overnight, protect you from the sun or change your natural skin colour.',
+ 'rose-water-with-glutathione-cream': 'Yes. Pat a plain rose water on clean skin first, wait about a minute, then apply the glutathione cream, with sunscreen every morning. Do not mix rose water into the jar, and patch test both if your skin is sensitive.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
