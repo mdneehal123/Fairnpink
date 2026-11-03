@@ -26,6 +26,8 @@
 | 2026-11-01 | kumkumadi oil with glutathione cream | /journal/kumkumadi-oil-with-glutathione-cream/ | Results were only kumkumadi cream/oil product listings (pharmacy and shop pages) and one old magazine feature, none answering the pairing question; popular Ayurvedic night oil in India, winter dryness season; cream-first/oil-last order, skin-type table, corrects the 'varna'/fairness idea. |
 | 2026-11-02 | glutathione cream for sun tan | /journal/glutathione-cream-for-sun-tan/ | Results were pharmacy product listings (many with 'whitening' names), a de-tan mask shop page and a US supplement blog; no honest guide; sunscreen-first routine, can/cannot table, realistic timelines, no fairness promise |
 | 2026-11-02 | rose water with glutathione cream | /journal/rose-water-with-glutathione-cream/ | Results were foreign shop pages, a pharmacy tablet listing and old rose-water features; gulab jal is a household staple; order (toner first), choosing a plain one, skin-type table |
+| 2026-11-03 | glutathione cream with almond oil | /journal/glutathione-cream-with-almond-oil/ | Results were only foreign glutathione-cream listings and ingredient databases with no answer; badam tel is a common Indian winter staple; cream-then-oil order, night only, nut-allergy and oily-skin cautions, no fairness claims |
+| 2026-11-03 | glutathione cream with potato juice | /journal/glutathione-cream-with-potato-juice/ | Results were only foreign product listings and spam pages; aloo ka ras is a widely shared Indian tan/dark-circle tip; honest 'little evidence' answer, wash-off step before the cream, never in the jar, no tan-removal or fairness claims |
 
 ## Boosts
 

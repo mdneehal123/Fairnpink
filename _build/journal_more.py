@@ -1921,6 +1921,142 @@ MORE_ARTICLES = [
         <p>No. Rose water refreshes the skin, and the cream can help skin look brighter and more even over weeks. Neither changes your natural skin colour.</p>
         <h3>Is rose water good for oily skin with glutathione cream?</h3>
         <p>Yes, a plain rose water feels light and refreshing on oily skin. Follow with a thin layer of cream and sunscreen in the morning.</p>'''),
+    ('glutathione-cream-with-almond-oil', 'Can you use almond oil with glutathione cream?',
+     'Almond Oil with Glutathione Cream: How to Use Both',
+     'Can you use almond oil with glutathione cream? Yes: cream first, then a drop or two of almond oil on dry areas at night. The right order and who should skip.',
+     'How to use', 'Which goes first, how many drops, who should skip it, and what badam tel can and cannot do next to a glutathione cream in winter.', '''
+        <p>Yes, you can use almond oil with glutathione cream: apply the cream first, wait a few minutes, then press one or two drops of almond oil only on the dry areas, at night. Oil goes last because it seals in what is underneath; never mix it into the cream jar.</p>
+        <p>Badam tel is a winter staple in many Indian homes, and it can be a useful extra for dry cheeks in a North Indian winter or a room with a heater. It is not needed by every skin type, and a little goes a long way. Here is how to use it well.</p>
+        <h2>1. What each product does</h2>
+        <table>
+          <thead><tr><th></th><th>Sweet almond oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Plant oil</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Softens dry, rough skin and helps stop water loss</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Night only, as the last step</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Can feel heavy on oily or acne-prone skin; does not fade spots or tan</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order at night</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> so the cream settles.</li>
+          <li><b>Warm 1 to 2 drops of almond oil</b> between your fingertips.</li>
+          <li><b>Press the oil gently</b> on dry areas only: cheeks, around the nose, the chin. Do not rub.</li>
+          <li><b>Next morning:</b> wash, apply a thin layer of cream if you like, then sunscreen, SPF 30 or higher. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Keep almond oil for night. In the day, oil under sunscreen can feel greasy, collect dust and make sunscreen slide. The same cream-then-oil order is used in our guide to <a href="/journal/kumkumadi-oil-with-glutathione-cream/">kumkumadi oil with glutathione cream</a>.</p>
+        <h2>3. How to choose almond oil for the face</h2>
+        <ul>
+          <li><b>Pick sweet almond oil</b> sold for skin or hair, with almond as the only ingredient. Bitter almond oil is not for skin.</li>
+          <li><b>Avoid oils with added perfume</b> if your skin is dry or sensitive.</li>
+          <li><b>Check the use-before date.</b> Oils go rancid with time, heat and light; a sharp, bitter smell means it is time to throw it away.</li>
+          <li><b>Use a dropper or pour into your palm.</b> Do not touch the bottle opening with used fingers.</li>
+        </ul>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or season</th><th>Almond oil over the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, North Indian winter, heater rooms</td><td>Yes, 1 to 2 drops at night on dry areas. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Only on dry patches in winter, if you want</td></tr>
+            <tr><td>Combination skin</td><td>Cheeks only; keep it off the T-zone. See <a href="/journal/glutathione-cream-for-combination-skin/">glutathione cream for combination skin</a></td></tr>
+            <tr><td>Oily or acne-prone skin, humid weather</td><td>Usually skip it. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Nut allergy</td><td>Skip it</td></tr>
+            <tr><td>Freshly threaded, waxed or broken skin</td><td>Wait until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Under the eyes and on the lips</h2>
+        <p>Many people use almond oil as an under-eye massage oil. If you do, use a tiny drop on the under-eye bone, pat gently and keep it away from the eyes themselves. It can make the area feel softer, but it does not change hollows or the shadows that make circles look darker. Our guide to <a href="/journal/glutathione-cream-for-dark-circles/">glutathione cream for dark circles</a> explains what a cream can and cannot do there. On dry lips, a drop of almond oil at night is fine; keep the glutathione cream off the lips.</p>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Mixing oil into the cream jar.</b> It changes the texture and can make the jar go off sooner.</li>
+          <li><b>Using too much.</b> More than 2 drops on the face usually just ends up on the pillow.</li>
+          <li><b>Oil before the cream.</b> Oil first makes it harder for the cream to spread evenly.</li>
+          <li><b>Oil in the day without sunscreen.</b> Oil gives no sun protection.</li>
+          <li><b>Expecting almond oil to fade spots or tan.</b> Those need sunscreen and weeks of steady care. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. On dry winter nights, a drop or two of almond oil pressed over it is fine for most people once both pass a patch test on the jaw or inner arm for 24 to 48 hours. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and our <a href="/journal/glutathione-cream-in-winter/">winter routine</a>.</p>
+        <p>See a dermatologist if you get itching, a rash, new bumps or burning after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply almond oil before or after glutathione cream?</h3>
+        <p>After. Apply the cream first, wait a few minutes, then press one or two drops of almond oil on dry areas.</p>
+        <h3>Can I mix almond oil with glutathione cream in my palm?</h3>
+        <p>It is better to keep them as separate steps. Mixing makes the cream greasy and harder to spread in a thin, even layer.</p>
+        <h3>Can I use almond oil with glutathione cream every night?</h3>
+        <p>Dry skin can use it most nights in winter. If you see new bumps or your face feels greasy in the morning, cut back or stop.</p>
+        <h3>Does almond oil with glutathione cream make skin fair?</h3>
+        <p>No. Almond oil softens dry skin, and the cream can help skin look brighter and more even over weeks. Neither changes your natural skin colour.</p>
+        <h3>Is almond oil good for oily skin?</h3>
+        <p>Most oily and acne-prone skin does not need it. A thin layer of cream is usually enough moisture.</p>'''),
+    ('glutathione-cream-with-potato-juice', 'Can you use potato juice with glutathione cream?',
+     'Potato Juice with Glutathione Cream: How to Use Both',
+     'Can you use potato juice with glutathione cream? Yes, as a short wash-off step before the cream. Right order, patch testing and what aloo ka ras cannot do.',
+     'How to use', 'How to use raw potato juice as a short wash-off step before a glutathione cream, why not to mix it into the jar, who should skip it, and honest expectations.', '''
+        <p>Yes, you can use potato juice with glutathione cream, but as two separate steps: dab fresh potato juice on clean skin, rinse it off after 10 to 15 minutes, pat dry, then apply the cream. Do not mix potato juice into the jar, and do not expect it to fade tan or spots on its own.</p>
+        <p>Aloo ka ras is one of the most shared Indian home tips for tan and dark circles. There is little good evidence that it changes either, but as a cool, short wash-off step it is harmless for most skin. Here is how to fit it around your cream sensibly.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Raw potato juice</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Fresh kitchen juice, wash-off</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Feels cool and refreshing; a home ritual many enjoy</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, 10 to 15 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Spoils fast; strength varies; little evidence for tan or spots</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Make fresh juice:</b> wash and peel one small potato, grate it, and squeeze the juice through a clean cloth into a clean bowl.</li>
+          <li><b>Dab it on</b> with a cotton pad, avoiding the eyes and lips.</li>
+          <li><b>Leave it for 10 to 15 minutes</b>, then rinse with plain water and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Two or three times a week is plenty. Throw away any leftover juice; it turns brown and starts to spoil within hours. For other home steps before the cream, see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a> and <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a>.</p>
+        <h2>3. Why not mix it into the cream</h2>
+        <ul>
+          <li><b>It can spoil the jar.</b> Fresh juice brings water, starch and germs into a cream that is meant to stay clean.</li>
+          <li><b>It changes the texture.</b> The cream turns runny and uneven.</li>
+          <li><b>It does not add anything useful.</b> The cream works as made; adding a kitchen juice only makes it less predictable.</li>
+        </ul>
+        <h2>4. Under-eye use</h2>
+        <p>Many people put cold potato slices on their eyes. A cool slice can make the area feel fresher, much like any cold compress, but it does not change hollows, thin skin or shadows. Keep raw juice away from the eyes themselves. Our guide to <a href="/journal/glutathione-cream-for-dark-circles/">glutathione cream for dark circles</a> explains which kinds of circles a cream may help, and which it cannot.</p>
+        <h2>5. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or situation</th><th>Potato juice before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Normal, oily or combination skin</td><td>Fine as an occasional step after a patch test</td></tr>
+            <tr><td>Dry skin, North Indian winter</td><td>Keep it short and follow with the cream at once. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test for 24 to 48 hours first, or skip it. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Active, open pimples</td><td>Skip on broken spots</td></tr>
+            <tr><td>Freshly threaded, waxed or bleached skin</td><td>Wait until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Adding lemon to the potato juice.</b> Lemon can irritate skin, especially before going into the sun.</li>
+          <li><b>Using green or sprouted potatoes.</b> Use a fresh, firm potato and cut away any green parts.</li>
+          <li><b>Leaving it on overnight.</b> It dries, feels tight and can smell.</li>
+          <li><b>Skipping sunscreen because you used a home remedy.</b> Tan comes back without daily sun protection. See <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>.</li>
+          <li><b>Expecting results in a few days.</b> Dark spots and tan fade slowly. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Once both pass a patch test on the jaw or inner arm, a rinsed-off potato juice step before the cream is fine for most people. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get itching, a rash or burning after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply potato juice before or after glutathione cream?</h3>
+        <p>Before, and rinse it off. Use it as a 10 to 15 minute wash-off step, pat dry, then apply the cream.</p>
+        <h3>Can I mix potato juice with glutathione cream?</h3>
+        <p>No. Keep them separate. Mixing can spoil the cream and makes it runny.</p>
+        <h3>Does potato juice remove tan?</h3>
+        <p>There is little good evidence for it. Tan looks lighter over weeks mainly with daily sunscreen and less sun; a cream like ours can help it look more even.</p>
+        <h3>Does potato juice with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. The cream can help skin look brighter and more even over weeks with sunscreen.</p>
+        <h3>How often can I use potato juice on my face?</h3>
+        <p>Two or three times a week is enough. Make it fresh each time and throw away what is left.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
@@ -1956,5 +2092,7 @@ SHORT.update({
  'glutathione-cream-with-hyaluronic-acid-serum': 'Yes, glutathione cream and hyaluronic acid serum work well together: apply 2 to 3 drops of serum on slightly damp skin, wait a minute, then the cream on top, with sunscreen every morning. The cream holds in the water the serum draws to the skin.',
  'glutathione-cream-for-sun-tan': 'A glutathione cream can help sun tan look lighter over a few weeks when used with sunscreen every morning and less time in strong sun. It does not take tan away overnight, protect you from the sun or change your natural skin colour.',
  'rose-water-with-glutathione-cream': 'Yes. Pat a plain rose water on clean skin first, wait about a minute, then apply the glutathione cream, with sunscreen every morning. Do not mix rose water into the jar, and patch test both if your skin is sensitive.',
+ 'glutathione-cream-with-almond-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of sweet almond oil on dry areas at night only, with sunscreen every morning. It suits dry winter skin; oily or acne-prone skin and anyone with a nut allergy can skip it.',
+ 'glutathione-cream-with-potato-juice': 'Yes, as a separate step: dab fresh potato juice on clean skin, rinse after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix it into the jar; potato juice alone has little evidence for fading tan or spots.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
