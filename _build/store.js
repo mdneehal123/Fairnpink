@@ -219,7 +219,7 @@
     .then(function(x){
       var j=x.j||{};
       if(x.status===200&&j.ok){delete sendBtn.dataset.busy;finishOrder({cod:true,ref:j.ref,awb:j.awb||'',total:Number(j.total)||PACKS[qty].price});return;}
-      if(x.status===409||j.codUnavailable){choose('pay-upi');fail('Cash on Delivery is not available for pincode '+F.pin.value.trim()+'. Please pay online instead (you also save '+rupees(UPI_OFF[qty])+'), or order on WhatsApp.');return;}
+      if(x.status===409||j.codUnavailable){setCod(false);fail(NO_COD);return;}
       if(x.status===400){fail('Please check your delivery details and try again.');return;}
       choose('pay-wa');fail('We could not place the Cash on Delivery order just now. Tap the button below to send it to us on WhatsApp instead, and we will confirm it there.');
     })
@@ -247,24 +247,32 @@
   document.getElementById('ny-wa').addEventListener('click',function(){notYet.hidden=true;choose('pay-wa');sendBtn.click();});
   document.getElementById('resume-x').addEventListener('click',clearPending);
   document.getElementById('resume-go').addEventListener('click',function(){strip.hidden=true;panel.hidden=false;render();step('begin_checkout');window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});});
-  /* Pincode: fill in the city and show the courier's estimated delivery date. Fails silently. */
-  var pinNote=document.getElementById('pin-note'), cityAuto='', pinSeen='';
+  /* Pincode: fill in the city and show the courier's estimated delivery date.
+     Cash on Delivery only when Delhivery allows it for this pincode; a failed check also greys it out. Online payment is never affected. */
+  var pinNote=document.getElementById('pin-note'), cityAuto='', pinSeen='', NO_COD='Cash on Delivery is not available for this pincode. Please pay online.';
+  function setCod(ok){
+    var c=document.getElementById('pay-cod'), lab=document.querySelector('label[for="pay-cod"]');
+    c.disabled=!ok;if(lab){lab.style.opacity=ok?'':'.5';lab.style.cursor=ok?'':'not-allowed';}
+    if(!ok&&c.checked){choose('pay-upi');}
+  }
   function pinLookup(){
     var pin=F.pin.value.trim();
-    if(!/^[1-9]\d{5}$/.test(pin)){pinSeen='';pinNote.hidden=true;return;}
+    if(!/^[1-9]\d{5}$/.test(pin)){pinSeen='';pinNote.hidden=true;setCod(true);return;}
     if(pin===pinSeen){return;}
     pinSeen=pin;
-    fetch('/api/pincode?pin='+pin).then(function(r){return r.ok?r.json():null;}).then(function(d){
-      if(!d||!d.ok||F.pin.value.trim()!==pin){return;}
+    fetch('/api/pincode?pin='+pin).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;}).then(function(d){
+      if(F.pin.value.trim()!==pin){return;}
+      if(!d||!d.ok||d.cod!==true){setCod(false);}else{setCod(true);}
+      if(!d||!d.ok){pinNote.textContent=NO_COD;pinNote.hidden=false;return;}
       if(d.city&&(!F.city.value.trim()||F.city.value===cityAuto)){F.city.value=d.city;cityAuto=d.city;}
       var parts=[];
       if(d.city||d.state){parts.push([d.city,d.state].filter(Boolean).join(', '));}
       if(d.days){var by=new Date(addWorkingDays(new Date(),1).getTime());by.setDate(by.getDate()+d.days);if(by.getDay()===0){by.setDate(by.getDate()+1);}
         parts.push('estimated delivery by '+by.toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'}));}
-      if(d.cod===false){parts.push('Cash on Delivery is not available here, please pay online');}
+      if(d.cod!==true){parts.push(NO_COD);}
       if(parts.length){pinNote.textContent=parts.join(' · ');pinNote.hidden=false;}
       if(!err.hidden&&!orderProblem()){err.hidden=true;}
-    }).catch(function(){});
+    });
   }
   F.pin.addEventListener('input',pinLookup);
   sendBtn.addEventListener('click',function(e){
@@ -317,6 +325,7 @@
   document.getElementById('wa-chat').href='https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent('Hello, I have a question about Fair N Pink Advance Radiance Cream.');
   document.getElementById('wa-help').href=document.getElementById('wa-chat').href;
   try{var saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved){Object.keys(F).forEach(function(k){if(typeof saved[k]==='string'){F[k].value=saved[k].slice(0,300);}});savedLine.hidden=false;}}catch(e){}
+  pinLookup(); /* a saved pincode is checked too */
   try{var pend=JSON.parse(localStorage.getItem(PEND)||'null');
     if(pend&&PACKS[pend.qty]&&Date.now()-pend.at<7*86400000&&F.name.value){qty=pend.qty;document.getElementById('resume-text').textContent='Pack of '+qty+' · '+rupees(PACKS[qty].price)+' · your details are saved, so no typing this time.';strip.hidden=false;}
     else if(pend){localStorage.removeItem(PEND);}}catch(e){}
