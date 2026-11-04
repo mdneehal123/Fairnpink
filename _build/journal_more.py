@@ -32,7 +32,7 @@ MORE_ARTICLES = [
           <li>Every morning, use sunscreen. Without it, the sun undoes what the cream does at night.</li>
         </ol>
         <h2>Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines glutathione, niacinamide and alpha arbutin in one light, moisturising cream. It is a 10 g jar for ₹999 (₹899 paid online), with no steroids, mercury, hydroquinone or parabens, and it is used as both a day and <a href="/glutathione-night-cream/">night cream</a>. Results differ from person to person; give any night cream four to eight weeks.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines glutathione, niacinamide and alpha arbutin in one light, moisturising cream. It is a 10 g jar for ₹999 (₹849 paid online), with no steroids, mercury, hydroquinone or parabens, and it is used as both a day and <a href="/glutathione-night-cream/">night cream</a>. Results differ from person to person; give any night cream four to eight weeks.</p>
         <h2>Night cream vs day cream</h2>
         <p>A day cream is usually lighter and is meant to sit under sunscreen. A night cream can be a little richer, because there is no sun, sweat or makeup on top of it. Many creams with niacinamide or glutathione work as both; what matters is that you never skip sunscreen in the morning.</p>
         <h2>Best night cream for your skin type</h2>
@@ -94,7 +94,7 @@ MORE_ARTICLES = [
           <li>A texture you will happily use every day, with sunscreen every morning</li>
         </ol>
         <h2>An example that meets these checks</h2>
-        <p><a href="/glutathione-cream-for-face/">Fair N Pink Advance Radiance Cream</a> has glutathione, niacinamide and alpha arbutin, prints its ingredients on every box, contains no steroids, mercury, hydroquinone or parabens, and is sold by Beauty Mart Pvt Ltd, Bhatkal. A 10 g jar costs ₹999, or ₹899 paid online, with free shipping and Cash on Delivery. See <a href="/journal/glutathione-cream-price-in-india/">how glutathione cream prices compare in India</a>.</p>
+        <p><a href="/glutathione-cream-for-face/">Fair N Pink Advance Radiance Cream</a> has glutathione, niacinamide and alpha arbutin, prints its ingredients on every box, contains no steroids, mercury, hydroquinone or parabens, and is sold by Beauty Mart Pvt Ltd, Bhatkal. A 10 g jar costs ₹999, or ₹849 paid online, with free shipping and Cash on Delivery. See <a href="/journal/glutathione-cream-price-in-india/">how glutathione cream prices compare in India</a>.</p>
         <h2>FAQ</h2>
         <h3>Which is the best glutathione cream for face in India?</h3>
         <p>There is no single best cream for everyone. The best one for you lists all its ingredients, pairs glutathione with ingredients such as niacinamide, is free from steroids and mercury, suits your skin type and is sold by a company you can contact.</p>
@@ -219,7 +219,7 @@ MORE_ARTICLES = [
         </ol>
         <h2>How to get the best results</h2>
         <p>Use the cream morning and night on clean skin, wear sunscreen every morning, and give it four to eight weeks.</p>
-        <p>Fair N Pink Advance Radiance Cream costs ₹999 for a 10 g jar, or ₹899 paid online, with glutathione, niacinamide and alpha arbutin, free shipping and Cash on Delivery. <a href="/">See the cream</a>.</p>
+        <p>Fair N Pink Advance Radiance Cream costs ₹999 for a 10 g jar, or ₹849 paid online, with glutathione, niacinamide and alpha arbutin, free shipping and Cash on Delivery. <a href="/">See the cream</a>.</p>
         <p>Before you buy, run through our <a href="/journal/best-glutathione-cream-in-india/">seven checks for choosing a glutathione cream</a>.</p>
         <h2>Ingredients worth paying for</h2>
         <ul>

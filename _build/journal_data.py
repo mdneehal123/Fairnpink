@@ -2,7 +2,7 @@
 ARTICLES = [
     ('fair-n-pink-cream-price', 'Fair N Pink cream price in India',
      'Fair N Pink Cream Price in India: ₹999, Packs and COD',
-     'Fair N Pink cream price in India: ₹999 for a 10 g jar (₹899 paid online), ₹1,899 for two, ₹2,699 for three. Free shipping, COD and no hidden charges.',
+     'Fair N Pink cream price in India: ₹999 for a 10 g jar (₹849 paid online), ₹1,899 for two, ₹2,699 for three. Free shipping, COD and no hidden charges.',
      'Price', 'What one jar costs, what the packs save you, and how the online price works.', '''
         <p>Fair N Pink Advance Radiance Cream costs <b>₹999 for one %(net)s jar</b> on fairnpink.in. The MRP printed on the box is ₹1,200 a jar. The price includes all taxes, and shipping is free on every order.</p>
         <h2>Price of each pack</h2>
@@ -12,7 +12,7 @@ ARTICLES = [
           <li>Pack of 3: ₹2,699, which is ₹900 per jar</li>
         </ul>
         <h2>The online price</h2>
-        <p>If you pay online by UPI, card or netbanking, the total drops by ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. That makes the online totals ₹899, ₹1,749 and ₹2,449.</p>
+        <p>If you pay online by UPI, card or netbanking, the total drops by ₹150 on one jar, ₹200 on a pack of 2 and ₹300 on a pack of 3. That makes the online totals ₹849, ₹1,699 and ₹2,399.</p>
         <h2>Is Cash on Delivery available?</h2>
         <p>Yes. Cash on Delivery orders are charged at the regular pack price. You pay nothing upfront, and the full amount in cash when the parcel arrives.</p>
         <h2>Why prices differ on other websites</h2>
@@ -24,19 +24,19 @@ ARTICLES = [
         <table>
           <thead><tr><th>Pack</th><th>Cash on Delivery</th><th>Paid online</th><th>Per jar (COD price)</th></tr></thead>
           <tbody>
-            <tr><td>1 jar</td><td>₹999</td><td>₹899</td><td>₹999</td></tr>
-            <tr><td>2 jars</td><td>₹1,899</td><td>₹1,749</td><td>about ₹950</td></tr>
-            <tr><td>3 jars</td><td>₹2,699</td><td>₹2,449</td><td>about ₹900</td></tr>
+            <tr><td>1 jar</td><td>₹999</td><td>₹849</td><td>₹999</td></tr>
+            <tr><td>2 jars</td><td>₹1,899</td><td>₹1,699</td><td>about ₹950</td></tr>
+            <tr><td>3 jars</td><td>₹2,699</td><td>₹2,399</td><td>about ₹900</td></tr>
           </tbody>
         </table>
         <p>Every price includes taxes and free shipping. There is no extra fee for Cash on Delivery.</p>
         <h2>Price per gram</h2>
-        <p>One jar holds %(net)s, so ₹999 works out to about ₹100 a gram, or about ₹90 a gram when you pay online. Only a pea-sized amount is needed for the face and neck, so judge the price by how many weeks a jar lasts you, not by its size alone. If your budget is about ₹1,000, our guide to a <a href="/journal/face-cream-for-glowing-skin-under-1000/">face cream for glowing skin under ₹1,000</a> explains what to expect at this price.</p>
+        <p>One jar holds %(net)s, so ₹999 works out to about ₹100 a gram, or about ₹85 a gram when you pay online. Only a pea-sized amount is needed for the face and neck, so judge the price by how many weeks a jar lasts you, not by its size alone. If your budget is about ₹1,000, our guide to a <a href="/journal/face-cream-for-glowing-skin-under-1000/">face cream for glowing skin under ₹1,000</a> explains what to expect at this price.</p>
         <h2>Same name, different product</h2>
         <p>Creams with similar names, such as "Fair &amp; Pink", are also sold outside India, for example in Pakistan, in different sizes and with different formulas. They are not this product and their prices are not our prices. The cream on this website is Fair N Pink Advance Radiance Cream, a %(net)s jar made by Beauty Mart Pvt Ltd, Bhatkal, Karnataka.</p>
         <h2>FAQ</h2>
         <h3>What is the price of Fair N Pink cream?</h3>
-        <p>₹999 for one %(net)s jar on fairnpink.in, or ₹899 if you pay online. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699.</p>
+        <p>₹999 for one %(net)s jar on fairnpink.in, or ₹849 if you pay online. A pack of 2 is ₹1,899 and a pack of 3 is ₹2,699.</p>
         <h3>Why is the price lower than the MRP on the box?</h3>
         <p>The MRP printed on the box is ₹1,200 a jar. On our own store we sell it for ₹999, because there is no shop or reseller margin in between.</p>
         <h3>Are there any extra charges?</h3>
@@ -404,7 +404,7 @@ ARTICLES = [
         <h2>Cash on Delivery</h2>
         <p>Cash on Delivery is available with nothing paid upfront. On a ₹999 jar you pay ₹999 in cash at delivery, with no extra fee.</p>
         <h2>Paying online</h2>
-        <p>Paying online saves ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3. You can pay by UPI, card or netbanking in a secure Razorpay window, and you see a payment ID as soon as it succeeds. We never ask for your UPI PIN or card details.</p>
+        <p>Paying online saves ₹150 on one jar, ₹200 on a pack of 2 and ₹300 on a pack of 3. You can pay by UPI, card or netbanking in a secure Razorpay window, and you see a payment ID as soon as it succeeds. We never ask for your UPI PIN or card details.</p>
         <h2>Delivery</h2>
         <p>Orders are dispatched within 24 hours, except on Sundays and national holidays, and reach most pincodes in 3 to 7 working days. Shipping is free on every order. See the <a href="/shipping-policy/">shipping policy</a>.</p>
         <h2>Ordering in festival season (November to December 2026)</h2>
@@ -478,16 +478,16 @@ ARTICLES = [
           <li>Be careful with very cheap creams that carry no ingredient list at all.</li>
         </ol>
         <h2>Glutathione creams under ₹1,000</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is ₹999 for a %(net)s jar, or ₹899 when you pay online. It contains glutathione with niacinamide and alpha arbutin. A pea-sized amount is enough for the face and neck, so a small jar goes further than its size suggests.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is ₹999 for a %(net)s jar, or ₹849 when you pay online. It contains glutathione with niacinamide and alpha arbutin. A pea-sized amount is enough for the face and neck, so a small jar goes further than its size suggests.</p>
         <h2>How to work out price per gram</h2>
-        <p>Divide the price by the net weight in grams. For example, Fair N Pink at ₹999 for 10 g works out to about ₹100 a gram, or about ₹90 a gram when you pay online. Do the same sum for any cream you are comparing, and you will often find that a bigger, cheaper-looking jar is not cheaper at all, or that a small jar is good value because only a pea-sized amount is needed.</p>
+        <p>Divide the price by the net weight in grams. For example, Fair N Pink at ₹999 for 10 g works out to about ₹100 a gram, or about ₹85 a gram when you pay online. Do the same sum for any cream you are comparing, and you will often find that a bigger, cheaper-looking jar is not cheaper at all, or that a small jar is good value because only a pea-sized amount is needed.</p>
         <h2>Cream price vs tablets and injections</h2>
         <p>You will also see prices for glutathione tablets, drips and injections. These are not cosmetics and should not be compared with a face cream on price alone. They are taken into the body, and you should speak to a doctor before considering them.</p>
         <h2>Does a higher price mean a better cream?</h2>
         <p>Not on its own. What matters is whether the cream suits your skin and whether you use it regularly with sunscreen. See <a href="/journal/glutathione-cream-for-face/">what a glutathione cream can and cannot do</a> and our <a href="/journal/best-glutathione-cream-in-india/">checklist for choosing a glutathione cream</a>.</p>
         <h2>FAQ</h2>
         <h3>What is the price of glutathione cream in India?</h3>
-        <p>It varies widely with the jar size, the other ingredients and the seller. Fair N Pink Advance Radiance Cream costs ₹999 for a 10 g jar on fairnpink.in, or ₹899 paid online, with packs of 2 and 3 costing less per jar. See the <a href="/journal/fair-n-pink-cream-price/">Fair N Pink price and packs</a>.</p>
+        <p>It varies widely with the jar size, the other ingredients and the seller. Fair N Pink Advance Radiance Cream costs ₹999 for a 10 g jar on fairnpink.in, or ₹849 paid online, with packs of 2 and 3 costing less per jar. See the <a href="/journal/fair-n-pink-cream-price/">Fair N Pink price and packs</a>.</p>
         <h3>Is a cheap glutathione cream safe?</h3>
         <p>Price alone does not tell you. Be careful with any cream, cheap or expensive, that has no ingredient list, no brand owner on the pack, or promises fairness in days.</p>
         <h3>Is there Cash on Delivery?</h3>
@@ -503,7 +503,7 @@ ARTICLES = [
           <li>2 जार का पैक: ₹1,899</li>
           <li>3 जार का पैक: ₹2,699</li>
         </ul>
-        <p>ऑनलाइन भुगतान (UPI, कार्ड या नेटबैंकिंग) करने पर ₹100, ₹150 या ₹250 की बचत होती है। कैश ऑन डिलीवरी भी उपलब्ध है: अभी कुछ नहीं देना, पूरी रकम डिलीवरी पर।</p>
+        <p>ऑनलाइन भुगतान (UPI, कार्ड या नेटबैंकिंग) करने पर ₹150, ₹200 या ₹300 की बचत होती है। कैश ऑन डिलीवरी भी उपलब्ध है: अभी कुछ नहीं देना, पूरी रकम डिलीवरी पर।</p>
         <h2>क्रीम कैसे लगाएं</h2>
         <ol>
           <li>चेहरा धोकर हल्के हाथ से सुखा लें।</li>

@@ -1,7 +1,7 @@
 (function(){
   var WA_NUMBER='919980881230'; /* business WhatsApp number with country code, digits only, e.g. 9198XXXXXXXX */
   var ADS_SEND_TO='AW-18495856180/xokwCNXZgpIdELS8wfNE'; /* Google Ads conversion, e.g. AW-18495856180/AbCdEfGh. Empty = not tracked yet */
-  var UPI_OFF={1:100,2:150,3:250};
+  var UPI_OFF={1:150,2:200,3:300};
   var RZP=true; /* online payment through Razorpay */
   var MRP=1200; /* maximum retail price printed on the box, per jar */
   var PACKS={1:{price:999,was:MRP},2:{price:1899,was:2*MRP},3:{price:2699,was:3*MRP}}, qty=1;
@@ -110,6 +110,9 @@
     if(!sendBtn.dataset.busy){sendBtn.textContent=m==='online'?'Pay '+rupees(p.price-UPI_OFF[qty])+' securely':m==='cod'?'Place order, pay '+rupees(p.price)+' on delivery':'Send order on WhatsApp';}
     if(typeof barSync==='function'){barSync();}
     document.getElementById('cod-terms').hidden=m!=='cod';
+    /* Cash on Delivery chosen: suggest paying online, with the exact saving */
+    var nd=document.getElementById('cod-nudge');nd.hidden=m!=='cod'||!RZP;
+    if(!nd.hidden){document.getElementById('cod-nudge-h').textContent='Save '+rupees(UPI_OFF[qty])+' by paying online.';document.getElementById('cod-nudge-t').textContent='Pay '+rupees(p.price-UPI_OFF[qty])+' instead of '+rupees(p.price)+' by UPI, card or netbanking, with nothing to pay at the door.';}
     summary(m);
   }
   Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){orderLink();F[k].classList.remove('bad');F[k].removeAttribute('aria-invalid');var fe=F[k].nextElementSibling;if(fe&&fe.className==='fielderr'){fe.remove();}if(!err.hidden&&!orderProblem()){err.hidden=true;}});});
@@ -287,6 +290,7 @@
   document.getElementById('pay-wa').addEventListener('change',orderLink);
   document.getElementById('pay-upi').addEventListener('change',orderLink);
   document.getElementById('pay-cod').addEventListener('change',orderLink);
+  document.getElementById('cod-nudge-go').addEventListener('click',function(){choose('pay-upi');});
   document.getElementById('order-form').addEventListener('submit',function(e){e.preventDefault();});
   /* Open the form at its top (name first), not centred: the form is taller than a phone screen. */
   function toForm(){window.scrollTo({top:Math.max(0,panel.getBoundingClientRect().top+window.pageYOffset-80),behavior:'smooth'});}
