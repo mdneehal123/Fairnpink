@@ -89,7 +89,7 @@
           </div>
           <div class="price"><b id="price-now">₹999</b><span id="price-was" class="mrp-plain">MRP ₹1,200</span><span id="price-note">inclusive of all taxes</span></div>
         <a class="rv-chip" href="#reviews" aria-label="Rated 4.6 out of 5 on Flipkart from 21 ratings. See reviews"><b>4.6</b><span class="rv-chip-star" aria-hidden="true">★</span><span class="rv-chip-sep" aria-hidden="true"></span><span>21 ratings on Flipkart</span></a>
-          <p id="upi-line" class="upi">Pay online and save <b id="upi-save">₹100</b></p>
+          <p id="upi-line" class="upi">Pay online and save <b id="upi-save">₹150</b></p>
           <div class="row">
             <button type="button" class="btn" id="buy-main">Buy now</button>
             <a class="btn wa" id="wa-order" href="https://wa.me/919980881230?text=Hello%2C%20I%20want%20to%20order%20Fair%20N%20Pink%20Advance%20Radiance%20Cream." target="_blank" rel="noopener"><img class="wa-glyph" src="/assets/whatsapp-glyph-green.svg" alt="" width="24" height="24">Order on WhatsApp</a>
@@ -106,10 +106,14 @@
               <p class="pinnote" id="pin-note" aria-live="polite" hidden></p>
               <fieldset class="pay">
                 <legend>How would you like to pay?</legend>
-                <label for="pay-upi" class="rec"><em class="rec-tag">★ Recommended</em><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>Pay online: UPI, cards, netbanking<small class="rec-save">You save <b id="pay-save">₹100</b> · nothing to pay at the door</small></span><b id="pay-upi-amt">₹899</b></label>
+                <label for="pay-upi" class="rec"><em class="rec-tag">★ Recommended</em><input type="radio" name="pay" id="pay-upi" value="upi" checked><span>Pay online: UPI, cards, netbanking<small class="rec-save">You save <b id="pay-save">₹150</b> · nothing to pay at the door</small></span><b id="pay-upi-amt">₹849</b></label>
                 <label for="pay-cod"><input type="radio" name="pay" id="pay-cod" value="cod"><span>Cash on Delivery<small id="pay-cod-note">Nothing to pay now, ₹999 in cash on delivery</small></span><b id="pay-cod-amt">₹999</b></label>
                 <label for="pay-wa"><input type="radio" name="pay" id="pay-wa" value="wa"><span>Order on WhatsApp<small>Send your details and we confirm on chat</small></span><b id="pay-wa-amt">₹999</b></label>
               </fieldset>
+              <div class="notyet" id="cod-nudge" hidden>
+                <p><b id="cod-nudge-h">Save ₹150 by paying online.</b> <span id="cod-nudge-t">Pay ₹849 instead of ₹999 by UPI, card or netbanking, with nothing to pay at the door.</span></p>
+                <button type="button" class="btn" id="cod-nudge-go">Pay online instead</button>
+              </div>
               <p id="cod-terms" class="codterms" hidden>Nothing to pay now. Pay the pack price in cash when the parcel arrives. Free shipping and no Cash on Delivery fee.</p>
               <div class="osum" id="order-sum" aria-live="polite"></div>
               <div class="notyet" id="not-yet" role="status" hidden>
@@ -145,7 +149,7 @@
       <span class="eyebrow">A small interruption</span>
       <h2 id="nudge-h">Psst. The jar noticed you looking.</h2>
       <p id="nudge-p"></p>
-      <p class="nudge-facts"><b>₹999</b> · <b>₹899</b> when you pay online · free shipping · Cash on Delivery available</p>
+      <p class="nudge-facts"><b>₹999</b> · <b>₹849</b> when you pay online · free shipping · Cash on Delivery available</p>
       <button type="button" class="btn" id="nudge-go">Okay, show me the packs</button>
       <a class="btn ghost" id="nudge-wa" href="https://wa.me/919980881230" target="_blank" rel="noopener">I have a question first</a>
       <button type="button" class="nudge-no" id="nudge-no">Not now, I am just admiring</button>
@@ -177,7 +181,7 @@
           <li><b>L-Glutathione</b>, an antioxidant used in creams for a radiant-looking complexion</li>
         </ul>
         <p>Use a pea-sized amount morning and night on clean skin, with sunscreen in the morning. The full ingredient list is printed on every box.</p>
-        <p>₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery.</p>
+        <p>₹999 for a 10 g jar, or ₹849 when you pay online, with free shipping and Cash on Delivery.</p>
         <p>Results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
       </div>
     </section>
@@ -203,7 +207,7 @@
     </section>
     <section id="looks">
       <div class="sec-h"><span class="eyebrow">A closer look</span><h2>The cream, up close</h2></div>
-      <div class="looks" tabindex="0" aria-label="Product pictures"><article class="look"><div class="look-pic"><img src="/assets/jar-and-box-m.webp" alt="Fair N Pink jar beside its box on satin" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Your daily</span><span>radiance essential</span></h3></div><div class="look-card"><b>What is inside</b><p>Glutathione, niacinamide and alpha arbutin in one cream.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-1.webp" alt="Fair N Pink jar in front of a swatch of pink cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>A soft</span><span>pink cream</span></h3></div><div class="look-card"><b>How to use</b><p>A pea-sized amount, morning and night. Sunscreen in the morning.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-2.webp" alt="Two jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Better</span><span>in pairs</span></h3></div><div class="look-card"><b>Pack of 2</b><p>₹1,749 when you pay online. ₹875 a jar, with free shipping.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-3.webp" alt="Three jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Stock up</span><span>and save</span></h3></div><div class="look-card"><b>Pack of 3</b><p>₹2,449 when you pay online. ₹816 a jar, our best value.</p></div></article></div>
+      <div class="looks" tabindex="0" aria-label="Product pictures"><article class="look"><div class="look-pic"><img src="/assets/jar-and-box-m.webp" alt="Fair N Pink jar beside its box on satin" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Your daily</span><span>radiance essential</span></h3></div><div class="look-card"><b>What is inside</b><p>Glutathione, niacinamide and alpha arbutin in one cream.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-1.webp" alt="Fair N Pink jar in front of a swatch of pink cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>A soft</span><span>pink cream</span></h3></div><div class="look-card"><b>How to use</b><p>A pea-sized amount, morning and night. Sunscreen in the morning.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-2.webp" alt="Two jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Better</span><span>in pairs</span></h3></div><div class="look-card"><b>Pack of 2</b><p>₹1,699 when you pay online. ₹850 a jar, with free shipping.</p></div></article><article class="look"><div class="look-pic"><img src="/assets/pack-3.webp" alt="Three jars of Fair N Pink Advance Radiance Cream" width="720" height="720" loading="lazy"><h3 class="look-h"><span>Stock up</span><span>and save</span></h3></div><div class="look-card"><b>Pack of 3</b><p>₹2,399 when you pay online. ₹800 a jar, our best value.</p></div></article></div>
     </section>
     <section id="films">
       <div class="sec-h"><span class="eyebrow">On film</span><h2>See it in motion</h2><p>Four short films. They start without sound as you scroll.</p></div>
@@ -251,9 +255,9 @@
       <div class="tbl"><table>
         <thead><tr><th>Pack</th><th>MRP (printed)</th><th>Price</th><th>Per jar</th><th>Paid online</th></tr></thead>
         <tbody>
-          <tr><td>Pack of 1</td><td>₹1,200</td><td>₹999</td><td>₹999</td><td>₹899</td></tr>
-          <tr><td>Pack of 2</td><td>₹2,400</td><td>₹1,899</td><td>₹950</td><td>₹1,749</td></tr>
-          <tr><td>Pack of 3</td><td>₹3,600</td><td>₹2,699</td><td>₹900</td><td>₹2,449</td></tr>
+          <tr><td>Pack of 1</td><td>₹1,200</td><td>₹999</td><td>₹999</td><td>₹849</td></tr>
+          <tr><td>Pack of 2</td><td>₹2,400</td><td>₹1,899</td><td>₹950</td><td>₹1,699</td></tr>
+          <tr><td>Pack of 3</td><td>₹3,600</td><td>₹2,699</td><td>₹900</td><td>₹2,399</td></tr>
         </tbody>
       </table></div>
     </section>
@@ -275,11 +279,11 @@
     </section>
     <section>
       <div class="sec-h"><span class="eyebrow">Questions</span><h2>Before you order</h2></div>
-      <details open><summary>What is the price of Fair N Pink Advance Radiance Cream?</summary><p>The MRP printed on the box is ₹1,200 for one 10 g jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹100, ₹150 or ₹250 when you pay online.</p></details>
+      <details open><summary>What is the price of Fair N Pink Advance Radiance Cream?</summary><p>The MRP printed on the box is ₹1,200 for one 10 g jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹150, ₹200 or ₹300 when you pay online.</p></details>
       <details><summary>What size is the Fair N Pink cream jar?</summary><p>Each jar holds 10 g of cream. The net weight is printed on the box.</p></details>
       <details><summary>How do I use it?</summary><p>Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.</p></details>
       <details><summary>How long does it take to show results?</summary><p>It differs from person to person. Use it for a few weeks before you judge it.</p></details>
-      <details><summary>Can I buy Fair N Pink cream online with Cash on Delivery?</summary><p>Yes. Choose Cash on Delivery, pay nothing now, and pay in cash when the parcel arrives. Or pay in full online and save up to ₹250.</p></details>
+      <details><summary>Can I buy Fair N Pink cream online with Cash on Delivery?</summary><p>Yes. Choose Cash on Delivery, pay nothing now, and pay in cash when the parcel arrives. Or pay in full online and save up to ₹300.</p></details>
       <details><summary>Can I use Fair N Pink as a night cream?</summary><p>Yes. It is a day and night cream. Use it in the morning under sunscreen, and at night as your night cream on clean skin.</p></details>
       <details><summary>Can men use Fair N Pink cream?</summary><p>Yes. It suits women and men, and every skin type. Use a pea-sized amount on the face and neck.</p></details>
       <details><summary>Does it help with dark spots and uneven skin tone?</summary><p>It contains alpha arbutin and niacinamide, which are used in creams to help reduce the look of dark spots, marks and uneven skin tone. Results differ from person to person. For deep or spreading patches, see a dermatologist.</p></details>

@@ -211,9 +211,9 @@ WEEKS = '''      <ol class="weeks">
 PRICE_TBL = '''      <div class="tbl"><table>
         <thead><tr><th>Pack</th><th>MRP (printed)</th><th>Price</th><th>Per jar</th><th>Paid online</th></tr></thead>
         <tbody>
-          <tr><td>Pack of 1</td><td>₹1,200</td><td>₹999</td><td>₹999</td><td>₹899</td></tr>
-          <tr><td>Pack of 2</td><td>₹2,400</td><td>₹1,899</td><td>₹950</td><td>₹1,749</td></tr>
-          <tr><td>Pack of 3</td><td>₹3,600</td><td>₹2,699</td><td>₹900</td><td>₹2,449</td></tr>
+          <tr><td>Pack of 1</td><td>₹1,200</td><td>₹999</td><td>₹999</td><td>₹849</td></tr>
+          <tr><td>Pack of 2</td><td>₹2,400</td><td>₹1,899</td><td>₹950</td><td>₹1,699</td></tr>
+          <tr><td>Pack of 3</td><td>₹3,600</td><td>₹2,699</td><td>₹900</td><td>₹2,399</td></tr>
         </tbody>
       </table></div>'''
 
@@ -246,8 +246,8 @@ REELS_HTML = '''    <section id="videos">
 LOOKS = [
     ('jar-and-box-m.webp', 'Fair N Pink jar beside its box on satin', ['Your daily', 'radiance essential'], 'What is inside', 'Glutathione, niacinamide and alpha arbutin in one cream.'),
     ('pack-1.webp', 'Fair N Pink jar in front of a swatch of pink cream', ['A soft', 'pink cream'], 'How to use', 'A pea-sized amount, morning and night. Sunscreen in the morning.'),
-    ('pack-2.webp', 'Two jars of Fair N Pink Advance Radiance Cream', ['Better', 'in pairs'], 'Pack of 2', '₹1,749 when you pay online. ₹875 a jar, with free shipping.'),
-    ('pack-3.webp', 'Three jars of Fair N Pink Advance Radiance Cream', ['Stock up', 'and save'], 'Pack of 3', '₹2,449 when you pay online. ₹816 a jar, our best value.'),
+    ('pack-2.webp', 'Two jars of Fair N Pink Advance Radiance Cream', ['Better', 'in pairs'], 'Pack of 2', '₹1,699 when you pay online. ₹850 a jar, with free shipping.'),
+    ('pack-3.webp', 'Three jars of Fair N Pink Advance Radiance Cream', ['Stock up', 'and save'], 'Pack of 3', '₹2,399 when you pay online. ₹800 a jar, our best value.'),
 ]
 FILMS = [('film-1', 'The cream on film', 'A short film of the jar, the cream and how it sits on skin.'),
          ('film-2', 'From jar to skin', 'Open the jar, take a little, and smooth it over the face.'),
@@ -379,11 +379,11 @@ hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
 HOME_FAQ = [
-    ('What is the price of Fair N Pink Advance Radiance Cream?', 'The MRP printed on the box is ₹1,200 for one %s jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹100, ₹150 or ₹250 when you pay online.' % NET),
+    ('What is the price of Fair N Pink Advance Radiance Cream?', 'The MRP printed on the box is ₹1,200 for one %s jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹150, ₹200 or ₹300 when you pay online.' % NET),
     ('What size is the Fair N Pink cream jar?', 'Each jar holds %s of cream. The net weight is printed on the box.' % NET),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
     ('How long does it take to show results?', 'It differs from person to person. Use it for a few weeks before you judge it.'),
-    ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Choose Cash on Delivery, pay nothing now, and pay in cash when the parcel arrives. Or pay in full online and save up to ₹250.'),
+    ('Can I buy Fair N Pink cream online with Cash on Delivery?', 'Yes. Choose Cash on Delivery, pay nothing now, and pay in cash when the parcel arrives. Or pay in full online and save up to ₹300.'),
     ('Can I use Fair N Pink as a night cream?', 'Yes. It is a day and night cream. Use it in the morning under sunscreen, and at night as your night cream on clean skin.'),
     ('Can men use Fair N Pink cream?', 'Yes. It suits women and men, and every skin type. Use a pea-sized amount on the face and neck.'),
     ('Does it help with dark spots and uneven skin tone?', 'It contains alpha arbutin and niacinamide, which are used in creams to help reduce the look of dark spots, marks and uneven skin tone. Results differ from person to person. For deep or spreading patches, see a dermatologist.'),
@@ -498,7 +498,7 @@ page(BRIGHT_PATH, 'Brightening Cream for Face with Glutathione | Fair N Pink, �
 AD_LANDINGS = [
     ('/glutathione-night-cream/',
      'Glutathione Night Cream with Niacinamide | Fair N Pink, ₹999',
-     'Glutathione night cream with niacinamide and alpha arbutin for glowing-looking skin by morning. ₹999, ₹899 paid online, free shipping, Cash on Delivery.',
+     'Glutathione night cream with niacinamide and alpha arbutin for glowing-looking skin by morning. ₹999, ₹849 paid online, free shipping, Cash on Delivery.',
      'Glutathione Night Cream', 'Fair N Pink Advance Radiance Cream for glowing-looking skin',
      sec('Night cream', 'A glutathione night cream for glowing-looking skin by morning', '', '''      <div class="prose">
         <p>Fair N Pink Advance Radiance Cream is a glutathione night cream that works while you sleep. Smooth a pea-sized amount over clean skin before bed, and wake up to skin that feels softer and looks fresher. It combines three well-known ingredients in one light, moisturising cream:</p>
@@ -508,12 +508,12 @@ AD_LANDINGS = [
           <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and uneven tone, gradually</li>
         </ul>
         <p>Use it every night as your night cream. You can also use it in the morning under sunscreen.</p>
-        <p>A night cream under ₹1,000: ₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery.</p>
+        <p>A night cream under ₹1,000: ₹999 for a 10 g jar, or ₹849 when you pay online, with free shipping and Cash on Delivery.</p>
         <p>Give it a few weeks of nightly use; results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
       </div>''')),
     ('/glutathione-cream-for-face/',
      'Glutathione Cream for Face with Niacinamide | Fair N Pink, ₹999',
-     'Glutathione face cream with niacinamide and alpha arbutin for glowing, even-looking skin. ₹999, ₹899 paid online, free shipping, Cash on Delivery.',
+     'Glutathione face cream with niacinamide and alpha arbutin for glowing, even-looking skin. ₹999, ₹849 paid online, free shipping, Cash on Delivery.',
      'Glutathione Cream for Face', 'Fair N Pink Advance Radiance Cream with niacinamide &amp; alpha arbutin',
      sec('Glutathione face cream', 'A glutathione cream for face, for glowing, even-looking skin', '', '''      <div class="prose">
         <p>Fair N Pink Advance Radiance Cream is a glutathione cream for face, made for daily use on dull-looking skin and uneven tone. It combines three well-known ingredients in one light, moisturising cream:</p>
@@ -523,7 +523,7 @@ AD_LANDINGS = [
           <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots and marks, gradually</li>
         </ul>
         <p>Use a pea-sized amount morning and night: under sunscreen in the day, and as your night cream before bed.</p>
-        <p>Glutathione cream price: ₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery. Packs of 2 and 3 cost less per jar.</p>
+        <p>Glutathione cream price: ₹999 for a 10 g jar, or ₹849 when you pay online, with free shipping and Cash on Delivery. Packs of 2 and 3 cost less per jar.</p>
         <p>Results differ from person to person, so give it a few weeks of daily use. It contains no steroids, mercury, hydroquinone or parabens.</p>
       </div>''')),
     ('/niacinamide-alpha-arbutin-cream/',
@@ -538,7 +538,7 @@ AD_LANDINGS = [
           <li><b>L-Glutathione</b>, an antioxidant used in creams for a radiant-looking complexion</li>
         </ul>
         <p>Use a pea-sized amount morning and night on clean skin, with sunscreen in the morning. The full ingredient list is printed on every box.</p>
-        <p>₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery.</p>
+        <p>₹999 for a 10 g jar, or ₹849 when you pay online, with free shipping and Cash on Delivery.</p>
         <p>Results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
       </div>''')),
 ]
@@ -641,7 +641,7 @@ page('/original/', 'Fair N Pink Cream Box, Jar and Seal: What to Expect',
 FAQ = [
     ('What is Fair N Pink Advance Radiance Cream?', 'It is a face cream with glutathione, niacinamide and alpha arbutin, made for daily use, morning and night. It comes in a %s silver jar.' % NET),
     ('What is the price of Fair N Pink cream?', 'The MRP printed on the box is ₹1,200 a jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. Prices include all taxes.'),
-    ('Is there a discount for paying online?', 'Yes. You save ₹100 on one jar, ₹150 on a pack of 2 and ₹250 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
+    ('Is there a discount for paying online?', 'Yes. You save ₹150 on one jar, ₹200 on a pack of 2 and ₹300 on a pack of 3 when you pay online by UPI, card or netbanking. Payments are processed securely by Razorpay.'),
     ('Which payment methods do you accept?', 'UPI, debit cards, credit cards and netbanking, all processed securely by Razorpay, and Cash on Delivery. Prices are in Indian rupees.'),
     ('Can I order on WhatsApp?', 'Yes. Fill in the order form, choose Order on WhatsApp and send the message. We reply on chat to confirm the order and how you would like to pay.'),
     ('Is Cash on Delivery available?', 'Yes, at most pincodes. Choose Cash on Delivery in the order form and place the order. Nothing is paid now: you pay the pack price in cash when the parcel arrives, with no extra fee. If Cash on Delivery is not available at your pincode, the form tells you, and you can pay online instead.'),
@@ -857,13 +857,13 @@ open(os.path.join(ROOT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\nDisa
 # llms.txt: a plain summary for AI assistants, with the facts they are most often asked and where to read more.
 LLMS = """# Fair N Pink
 
-> Fair N Pink Advance Radiance Cream is a daily face cream with glutathione, niacinamide and alpha arbutin, sold in a 10 g jar for ₹999 (₹899 paid online) on www.fairnpink.in by Beauty Mart Pvt Ltd, Bhatkal, Karnataka, India. Free shipping across India and Cash on Delivery with nothing paid upfront.
+> Fair N Pink Advance Radiance Cream is a daily face cream with glutathione, niacinamide and alpha arbutin, sold in a 10 g jar for ₹999 (₹849 paid online) on www.fairnpink.in by Beauty Mart Pvt Ltd, Bhatkal, Karnataka, India. Free shipping across India and Cash on Delivery with nothing paid upfront.
 
 ## Key facts
 - Product: Fair N Pink Advance Radiance Cream (also searched as "Fair and Pink cream", "Fairnpink", "Fair n Pink glutathione cream")
 - Key ingredients: L-glutathione, niacinamide (vitamin B3), alpha arbutin
 - Net weight: 10 g per jar; MRP ₹1,200 per jar
-- Price on www.fairnpink.in: ₹999 (1 jar), ₹1,899 (pack of 2), ₹2,699 (pack of 3); ₹100 / ₹150 / ₹250 off when paid online
+- Price on www.fairnpink.in: ₹999 (1 jar), ₹1,899 (pack of 2), ₹2,699 (pack of 3); ₹150 / ₹200 / ₹300 off when paid online
 - Use: a pea-sized amount on clean skin, morning (under sunscreen) and night; suits women and men and all skin types
 - Free from: steroids, mercury, hydroquinone, parabens
 - Results: cosmetic; helps skin look brighter, more even and moisturised over 4 to 8 weeks; does not change natural skin tone

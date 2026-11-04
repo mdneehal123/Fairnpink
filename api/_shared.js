@@ -1,6 +1,6 @@
 // Prices are fixed here, on the server, so the amount charged cannot be changed from the browser.
 // price = pack price (also what Cash on Delivery collects at the door); off = saving when paid in full online.
-const PACKS = { 1: { price: 999, off: 100 }, 2: { price: 1899, off: 150 }, 3: { price: 2699, off: 250 } };
+const PACKS = { 1: { price: 999, off: 150 }, 2: { price: 1899, off: 200 }, 3: { price: 2699, off: 300 } }; // off: saving when paid online
 
 const PRODUCT = 'Fair N Pink Advance Radiance Cream';
 // Order Desk (brand "fn"). One jar is exactly the Order Desk product fn2 (Fair N Pink Advanced Cream 10g, Rs 999).
