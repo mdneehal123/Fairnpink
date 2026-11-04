@@ -3,7 +3,7 @@ const { delhiveryOn, serviceable, createShipment, trackUrl } = require('./_delhi
 const { pushToDesk, deskOn } = require('./_orderdesk');
 
 // POST /api/cod-order — Cash on Delivery, nothing paid upfront.
-// Price from the server table -> Delhivery pincode check (409 if Cash on Delivery is not available there)
+// Price from the server table -> Delhivery pincode check (409 unless Delhivery confirms Cash on Delivery there; a failed check also gives 409)
 // -> Delhivery shipment booked for the pack price -> the order is ALWAYS saved in the Order Desk
 // (booked: with the AWB, label printed from the Delhivery panel; not booked: flagged for manual booking).
 module.exports = async (req, res) => {
@@ -19,15 +19,13 @@ module.exports = async (req, res) => {
   // Neither Delhivery nor the Order Desk switched on: the page sends the order on WhatsApp instead.
   if (!delhiveryOn() && !deskOn()) return res.status(503).json({ error: 'not_configured' });
 
-  let d = { ok: false, error: 'Delhivery is not switched on (DELHIVERY_TOKEN / DELHIVERY_PICKUP missing)' };
-  if (delhiveryOn()) {
-    try {
-      const s = await serviceable(c.pincode);
-      if (s.known && !s.cod) return res.status(409).json({ error: 'cod_unavailable', codUnavailable: true, message: 'Cash on Delivery is not available for pincode ' + c.pincode + '. Please pay online instead.' });
-      if (!c.state && s.state) c.state = s.state;
-    } catch (e) { /* if the check fails, still try to book */ }
-    try { d = await createShipment({ ref, c, q, pay: 'cod' }); } catch (e) { d = { ok: false, error: String((e && e.message) || e) }; }
-  }
+  // COD only when Delhivery confirms this pincode is serviceable and allows COD. Unknown pincode, failed check or no answer: refuse, before saving or booking.
+  let s = null;
+  if (delhiveryOn()) { try { s = await serviceable(c.pincode); } catch (e) { s = null; } }
+  if (!s || !s.known || !s.cod) return res.status(409).json({ error: 'cod_unavailable', codUnavailable: true, message: 'Cash on Delivery is not available for this pincode. Please pay online.' });
+  if (!c.state && s.state) c.state = s.state;
+  let d;
+  try { d = await createShipment({ ref, c, q, pay: 'cod' }); } catch (e) { d = { ok: false, error: String((e && e.message) || e) }; }
 
   const desk = await pushToDesk(d.ok
     ? { ref, c, q, pay: 'cod', paid: false, courier: 'Delhivery', awb: d.awb, note: 'COD booked with Delhivery · AWB ' + d.awb + ' · print the label from the Delhivery panel' }

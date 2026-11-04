@@ -18,9 +18,11 @@ module.exports = async (req, res) => {
   const out = sr && sr.ok ? { ok: true, city: sr.city, state: sr.state, days: sr.days } : { ok: false };
   if (dl && dl.known) {
     if (!out.ok) Object.assign(out, { ok: true, city: nice(dl.city), state: stateFor(pin), days: 0 });
-    out.cod = dl.cod;
   }
-  // The same pincode gives the same answer for everyone, so let the CDN keep it for half a day.
-  res.setHeader('Cache-Control', out.ok ? 'public, s-maxage=43200, max-age=3600' : 'no-store');
+  // Cash on Delivery only when Delhivery answered and allows it; unknown pincode or a failed check: false.
+  if (out.ok) out.cod = !!(dl && dl.known && dl.cod);
+  // The same pincode gives the same answer for everyone, so let the CDN keep it for half a day,
+  // but only when Delhivery answered: a failed check is not kept.
+  res.setHeader('Cache-Control', out.ok && dl ? 'public, s-maxage=43200, max-age=3600' : 'no-store');
   return res.status(200).json(out);
 };
