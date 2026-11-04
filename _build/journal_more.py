@@ -2057,6 +2057,143 @@ MORE_ARTICLES = [
         <p>No. Neither changes your natural skin colour. The cream can help skin look brighter and more even over weeks with sunscreen.</p>
         <h3>How often can I use potato juice on my face?</h3>
         <p>Two or three times a week is enough. Make it fresh each time and throw away what is left.</p>'''),
+    ('glutathione-cream-with-coconut-oil', 'Can you use coconut oil with glutathione cream?',
+     'Coconut Oil with Glutathione Cream: Safe Way to Use Both',
+     'Can you use coconut oil with glutathione cream? Yes for dry skin: cream first, then a drop of coconut oil on dry patches at night. Who should skip it and why.',
+     'How to use', 'Which goes first, how much to use, why oily and acne-prone skin should usually skip it, and what nariyal tel can and cannot do next to a glutathione cream.', '''
+        <p>Yes, you can use coconut oil with glutathione cream if your skin is dry: apply the cream first, wait a few minutes, then press a small drop of coconut oil only on dry patches, at night. If your skin is oily or gets pimples easily, it is usually better to skip coconut oil on the face, because many people find it heavy and prone to causing bumps.</p>
+        <p>Nariyal tel is in almost every Indian home, used on hair, babies, cracked heels and dry winter skin. On the face it is more mixed than other oils: lovely on very dry cheeks for some people, a cause of tiny bumps for others. Here is how to fit it around your cream without trouble.</p>
+        <h2>1. Coconut oil and glutathione cream: what each does</h2>
+        <table>
+          <thead><tr><th></th><th>Coconut oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Plant oil; turns solid in cool weather</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Softens very dry, rough skin and helps hold in moisture</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Night only, as the very last step, on dry areas</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Heavy; can block pores and cause bumps in acne-prone skin; does not fade spots or tan</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order at night</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> so the cream settles.</li>
+          <li><b>Take a very small amount of coconut oil</b>, about a drop, and warm it between your fingertips until it melts.</li>
+          <li><b>Press it gently</b> on the driest areas only: outer cheeks, around the nose, chin, or flaky patches. Do not massage it over the whole face.</li>
+          <li><b>Next morning:</b> wash it off, apply a thin layer of cream if you like, then sunscreen, SPF 30 or higher. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Oil always goes last, because it sits on top and slows down water loss from the layers underneath. If it goes first, the cream spreads unevenly on a greasy surface. The same cream-then-oil order is used in our guides to <a href="/journal/glutathione-cream-with-almond-oil/">almond oil with glutathione cream</a> and <a href="/journal/kumkumadi-oil-with-glutathione-cream/">kumkumadi oil with glutathione cream</a>.</p>
+        <h2>3. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or season</th><th>Coconut oil over the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Very dry skin, North Indian winter, heater rooms</td><td>Yes, a drop at night on dry patches. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Only on flaky spots in winter, if needed</td></tr>
+            <tr><td>Combination skin</td><td>Outer cheeks only; keep it off the forehead, nose and chin</td></tr>
+            <tr><td>Oily or acne-prone skin</td><td>Usually skip it on the face. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Humid coastal weather (Kerala, Mumbai, Chennai, Goa)</td><td>Most faces do not need it; the cream alone is usually enough</td></tr>
+            <tr><td>Freshly threaded, waxed or broken skin</td><td>Wait until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Coconut oil vs almond oil on the face</h2>
+        <p>Both are home favourites, but they feel different. Coconut oil is thicker and turns solid in a cool room, so it sits heavily on the skin. Sweet almond oil stays liquid and spreads more lightly. If you are unsure which suits you, the lighter oil, in a smaller amount, is usually the safer start. Neither is needed if your skin feels comfortable with the cream alone.</p>
+        <h2>5. Choosing and storing coconut oil</h2>
+        <ul>
+          <li><b>Use plain coconut oil</b> with coconut as the only ingredient. Skip hair oils with added perfume, amla, camphor or other extras on the face.</li>
+          <li><b>Keep the bottle clean.</b> Scoop with a clean spoon instead of dipping in fingers, especially if the oil has gone solid.</li>
+          <li><b>Check the smell.</b> A sour or sharp smell means it has gone rancid; throw it away.</li>
+          <li><b>Never mix oil into the cream jar.</b> It changes the texture and can make the jar spoil sooner.</li>
+        </ul>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Using coconut oil as a daytime base.</b> Oil gives no sun protection and can make sunscreen slide and collect dust.</li>
+          <li><b>Using too much.</b> A thick layer usually ends up on the pillow and can cause bumps.</li>
+          <li><b>Rubbing it on active pimples.</b> Keep oil away from breakouts. For flat marks left behind, see <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a>.</li>
+          <li><b>Expecting coconut oil to fade tan or spots.</b> Those fade slowly with daily sunscreen and steady care over weeks. See <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. On dry winter nights, a drop of coconut oil pressed over dry patches is fine for most dry-skinned people once both pass a patch test on the jaw or inner arm for 24 to 48 hours. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and our <a href="/journal/glutathione-cream-in-winter/">winter routine</a>.</p>
+        <p>See a dermatologist if you get itching, a rash, many new bumps or burning after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply coconut oil before or after glutathione cream?</h3>
+        <p>After. Apply the cream first, wait a few minutes, then press a small drop of coconut oil on dry areas only.</p>
+        <h3>Can I mix coconut oil with glutathione cream?</h3>
+        <p>It is better to keep them as separate steps. Mixing makes the cream greasy and harder to spread in a thin, even layer, and oil should never go into the jar.</p>
+        <h3>Is coconut oil good for oily skin with glutathione cream?</h3>
+        <p>Usually not. Oily and acne-prone skin often gets bumps from coconut oil; a thin layer of cream is normally enough moisture.</p>
+        <h3>Can I leave coconut oil on my face overnight?</h3>
+        <p>A small drop on dry patches can stay overnight if your skin likes it. Wash it off in the morning before sunscreen.</p>
+        <h3>Does coconut oil with glutathione cream make skin fair?</h3>
+        <p>No. Coconut oil softens dry skin, and the cream can help skin look brighter and more even over weeks. Neither changes your natural skin colour.</p>'''),
+    ('glutathione-cream-with-multani-mitti', 'Can you use multani mitti with glutathione cream?',
+     'Multani Mitti with Glutathione Cream: How to Use Both',
+     'Can you use multani mitti with glutathione cream? Yes: a short wash-off pack first, rinse, then the cream. Right order, how often, and who should skip it.',
+     'How to use', 'How to use a multani mitti face pack before a glutathione cream, why the pack must never dry out completely, who should skip it, and honest expectations.', '''
+        <p>Yes, you can use multani mitti with glutathione cream as two separate steps: apply a thin multani mitti pack on clean skin, rinse it off after about 10 minutes while it is still slightly damp, pat dry, then apply the cream. Use the pack once or twice a week at most, and never mix the clay into the cream jar.</p>
+        <p>Multani mitti, or fuller's earth, is a clay that soaks up oil. That makes it a favourite for oily skin and hot, sticky weather, but it can also leave skin tight and dry if it is left on too long or used too often. Following it with a cream is the right instinct. Here is how to do it well.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Multani mitti pack</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Clay, wash-off</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Soaks up oil, leaves skin feeling clean and less shiny for a while</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, about 10 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Can dry and tighten skin; does not fade tan or spots on its own</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Mix a little multani mitti</b> with plain water or rose water into a smooth paste. Make only enough for one use.</li>
+          <li><b>Apply a thin layer</b> on the face, avoiding the eyes, lips and any dry patches.</li>
+          <li><b>Leave it for about 10 minutes.</b> Rinse while it is still slightly damp; do not wait for it to crack.</li>
+          <li><b>Rinse with lukewarm water</b>, using your fingertips softly. Do not scrub it off.</li>
+          <li><b>Pat dry and apply a pea-sized amount of glutathione cream</b> on the face and neck within a minute or two.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>If your skin feels warm, tight or stings after the pack, skip the cream that night and use a plain moisturiser or <a href="/journal/glutathione-cream-with-aloe-vera-gel/">aloe vera gel</a> instead. Go back to the cream the next night. For a gentler pack before the cream, see <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a>.</p>
+        <h2>3. How often to use it</h2>
+        <table>
+          <thead><tr><th>Skin type or season</th><th>Multani mitti before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Oily skin, summer or monsoon</td><td>Once or twice a week. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Combination skin</td><td>T-zone only, about once a week. See <a href="/journal/glutathione-cream-for-combination-skin/">glutathione cream for combination skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Once a week or less, if you enjoy it</td></tr>
+            <tr><td>Dry skin, North Indian winter</td><td>Usually skip it; if you use it, keep it short and moisturise at once. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test first, or skip it. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Freshly threaded, waxed or bleached skin</td><td>Wait at least a day or two. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Why not mix multani mitti into the cream</h2>
+        <ul>
+          <li><b>It spoils the jar.</b> Clay and water bring in dirt and germs a leave-on cream is not made to handle.</li>
+          <li><b>It fights the cream.</b> Clay soaks up oil and moisture, so the mix would dry your skin and leave a gritty film.</li>
+          <li><b>It adds nothing useful.</b> The cream works as made; a pack is best as a separate, rinse-off step.</li>
+        </ul>
+        <h2>5. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Letting the pack dry and crack.</b> That pulls too much moisture from the skin and can leave it red and tight.</li>
+          <li><b>Adding lemon, baking soda or bleach powder.</b> These can sting and irritate, especially before the sun.</li>
+          <li><b>Using it every day.</b> Daily clay packs dry most skin out, and dry skin can then make more oil.</li>
+          <li><b>Putting it on active pimples and scrubbing.</b> Be gentle; for flat marks left after pimples, see <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a>.</li>
+          <li><b>Expecting the pack to fade tan or spots.</b> Those fade slowly with daily sunscreen and steady care. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>6. Buying multani mitti</h2>
+        <p>Choose plain multani mitti powder with no added perfume or colour, from a sealed pack. Store it dry with the lid closed, and use a clean, dry spoon. Mix it fresh each time and throw away any leftover paste.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. After a short, rinsed-off multani mitti pack, it can go on as usual once both have passed a patch test on the jaw or inner arm for 24 to 48 hours. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get itching, a rash or burning after any product, if pimples are painful or deep, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply multani mitti before or after glutathione cream?</h3>
+        <p>Before, and rinse it off. Use it as a short wash-off pack, pat dry, then apply the cream.</p>
+        <h3>Can I mix multani mitti with glutathione cream?</h3>
+        <p>No. Keep them separate. Clay can spoil the cream and dries the skin, which works against it.</p>
+        <h3>How many times a week can I use multani mitti?</h3>
+        <p>Once or twice a week for oily skin, less for normal skin, and usually not at all for dry or sensitive skin.</p>
+        <h3>Does multani mitti remove tan?</h3>
+        <p>There is little good evidence that it does. Tan looks lighter over weeks mainly with daily sunscreen and less sun; a cream like ours can help skin look more even.</p>
+        <h3>Does multani mitti with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. The pack leaves skin feeling clean, and the cream can help skin look brighter and more even over weeks with sunscreen.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
@@ -2094,5 +2231,7 @@ SHORT.update({
  'rose-water-with-glutathione-cream': 'Yes. Pat a plain rose water on clean skin first, wait about a minute, then apply the glutathione cream, with sunscreen every morning. Do not mix rose water into the jar, and patch test both if your skin is sensitive.',
  'glutathione-cream-with-almond-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of sweet almond oil on dry areas at night only, with sunscreen every morning. It suits dry winter skin; oily or acne-prone skin and anyone with a nut allergy can skip it.',
  'glutathione-cream-with-potato-juice': 'Yes, as a separate step: dab fresh potato juice on clean skin, rinse after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix it into the jar; potato juice alone has little evidence for fading tan or spots.',
+ 'glutathione-cream-with-coconut-oil': 'Yes, for dry skin. Apply the glutathione cream first, wait a few minutes, then press a small drop of coconut oil on dry patches at night only, with sunscreen every morning. Oily and acne-prone skin should usually skip coconut oil on the face.',
+ 'glutathione-cream-with-multani-mitti': 'Yes, as a separate step: apply a thin multani mitti pack, rinse after about 10 minutes before it cracks, pat dry, then apply the glutathione cream, with sunscreen every morning. Use the pack once or twice a week at most and never mix it into the jar.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
