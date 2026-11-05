@@ -2194,6 +2194,138 @@ MORE_ARTICLES = [
         <p>There is little good evidence that it does. Tan looks lighter over weeks mainly with daily sunscreen and less sun; a cream like ours can help skin look more even.</p>
         <h3>Does multani mitti with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. The pack leaves skin feeling clean, and the cream can help skin look brighter and more even over weeks with sunscreen.</p>'''),
+    ('glutathione-cream-with-glycerin', 'Can you use glycerin with glutathione cream?',
+     'Glycerin with Glutathione Cream: Winter Routine That Works',
+     'Can you use glycerin with glutathione cream? Yes: dilute it, apply on damp skin, then the cream on top. Order, how much, and who should skip it in winter.',
+     'How to use', 'How to use plain glycerin (or glycerin with rose water) under a glutathione cream in dry Indian winters, how much to dilute it, and mistakes that leave skin sticky.', '''
+        <p>Yes, you can use glycerin with glutathione cream: dilute a few drops of plain glycerin with water or rose water, pat it on slightly damp skin, wait a minute, then apply the cream on top. Use it mostly at night in dry winter weather, never mix it into the cream jar, and wear sunscreen every morning.</p>
+        <p>Glycerin is one of the oldest winter tricks in Indian homes. A small bottle from the chemist costs very little, and many families mix it with gulab jal for cracked lips, dry hands and tight cheeks. It is a humectant: it pulls water into the top layer of the skin. A cream then helps hold that water in. Used the right way, the two make a simple, low-cost winter routine.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Plain glycerin</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Clear, thick liquid (humectant)</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Draws water into the skin so it feels softer and less tight</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Night, or a very thin layer in the morning in dry weather</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Sticky if used neat; in very dry air it works best with a cream on top</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and lukewarm (not hot) water.</li>
+          <li><b>Leave the skin slightly damp.</b> Pat with a towel, do not rub it fully dry.</li>
+          <li><b>Dilute the glycerin.</b> Mix 2 to 3 drops of glycerin with about a teaspoon of water or plain rose water in your palm. Neat glycerin feels sticky and can feel tight in dry air.</li>
+          <li><b>Pat it on</b> the face and neck, avoiding the eyes. Wait about a minute until it is no longer wet.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on top to hold the moisture in.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step, even in winter. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>If you already use a hydrating serum, you do not need glycerin as well; one water-drawing step is enough. See <a href="/journal/glutathione-cream-with-hyaluronic-acid-serum/">glutathione cream with hyaluronic acid serum</a>. For using gulab jal on its own, see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a>.</p>
+        <h2>3. Who it suits, season by season</h2>
+        <table>
+          <thead><tr><th>Skin type or weather</th><th>Glycerin under the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, North Indian winter, room heaters</td><td>Yes, most nights, diluted. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin in winter</td><td>A few nights a week, or only on tight areas</td></tr>
+            <tr><td>Combination skin</td><td>Cheeks only; skip the T-zone. See <a href="/journal/glutathione-cream-for-combination-skin/">glutathione cream for combination skin</a></td></tr>
+            <tr><td>Oily or acne-prone skin</td><td>Usually not needed; the cream alone is enough. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Humid coastal cities, summer, monsoon</td><td>Usually skip it; it can feel sticky in humid air</td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test first. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Why not mix glycerin into the jar</h2>
+        <ul>
+          <li><b>It changes the cream.</b> Extra glycerin and water make the texture sticky and runny, and the cream may not spread or sink in the same way.</li>
+          <li><b>It can spoil the jar.</b> Adding water or rose water to a cream brings in germs it was not made to handle.</li>
+          <li><b>You lose control.</b> Kept separate, you can use glycerin only on dry nights or dry areas, and stop easily if it does not suit you.</li>
+        </ul>
+        <h2>5. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Using it neat.</b> Pure glycerin feels heavy and sticky, and in very dry air it can leave skin feeling tighter, not softer.</li>
+          <li><b>Using too much.</b> Two to three drops are enough for the whole face. More just attracts dust and pollution.</li>
+          <li><b>Skipping the cream on top.</b> Glycerin works best when something seals it in, especially in heater-dried rooms.</li>
+          <li><b>Adding lemon.</b> The old glycerin-lemon-rose water mix can sting and irritate, especially before going out in the sun.</li>
+          <li><b>Expecting glycerin to fade tan or spots.</b> It softens skin; tan and dark spots look lighter slowly with daily sunscreen and steady care. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>6. Buying glycerin</h2>
+        <p>Choose plain glycerin, ideally labelled for cosmetic or pharmaceutical use, with no added perfume or colour. Keep the cap closed and the bottle out of the bathroom heat. Mix it fresh in your palm each time; do not store a ready-made mix of glycerin and water for weeks.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. On winter nights it can go on top of a few drops of diluted glycerin, once both have passed a patch test on the jaw or inner arm for 24 to 48 hours. With sunscreen every morning, the cream can help skin look brighter and more even over several weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and our <a href="/journal/glutathione-cream-in-winter/">winter guide</a>.</p>
+        <p>See a dermatologist if your skin cracks, bleeds, itches badly or develops rough red patches; those can be signs of eczema or another skin condition rather than simple winter dryness.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply glycerin before or after glutathione cream?</h3>
+        <p>Before. Pat diluted glycerin on damp skin, wait a minute, then apply the cream to hold the moisture in.</p>
+        <h3>Can I mix glycerin into my glutathione cream?</h3>
+        <p>No. Keep them separate so the cream keeps its texture and the jar stays clean.</p>
+        <h3>Can I use glycerin and rose water with glutathione cream?</h3>
+        <p>Yes. A few drops of glycerin mixed with plain rose water in your palm is a good first step on dry winter nights, followed by the cream.</p>
+        <h3>Can I use glycerin on my face every day?</h3>
+        <p>Diluted, most dry and normal skin can use it daily in winter. Oily skin and humid weather usually do not need it.</p>
+        <h3>Does glycerin with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Glycerin keeps skin softer, and the cream can help skin look brighter and more even over weeks with sunscreen.</p>'''),
+    ('glutathione-cream-with-glycolic-acid', 'Can you use glycolic acid with glutathione cream?',
+     'Glycolic Acid with Glutathione Cream: Safe Way to Combine',
+     'Can you use glycolic acid with glutathione cream? Yes, on separate nights or after a glycolic face wash. Order, how often, winter care and when to stop.',
+     'How to use', 'How to fit a glycolic acid face wash, toner or serum into a routine with a glutathione cream, how often to exfoliate on Indian skin, and signs you are overdoing it.', '''
+        <p>Yes, you can use glycolic acid with glutathione cream: the simplest way is a glycolic face wash followed by the cream, or a leave-on glycolic toner or serum on 1 to 3 nights a week with the cream on the other nights. Start slowly, never stack it with other strong acids or retinol on the same night, and wear sunscreen every morning, because glycolic acid makes skin more sensitive to the sun.</p>
+        <p>Glycolic acid is an AHA (alpha hydroxy acid) found in many face washes, toners, serums and peel pads sold in India. It loosens dull surface cells so skin feels smoother. Used too often, though, it can sting, peel and leave a red, raw barrier, and Indian skin can then develop darker marks from that irritation. Pairing it with a gentle brightening cream works best when the acid is kept light.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Glycolic acid</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Exfoliating acid (AHA)</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Removes dull surface cells; skin feels smoother</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Night only</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Can sting, peel and raise sun sensitivity</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. Three ways to combine them</h2>
+        <table>
+          <thead><tr><th>What you have</th><th>How to use it with the cream</th></tr></thead>
+          <tbody>
+            <tr><td>Glycolic face wash</td><td>Wash at night (not every day if it stings), pat dry, then the cream. The wash is rinsed off, so this is the gentlest option.</td></tr>
+            <tr><td>Glycolic toner or pads</td><td>1 to 3 nights a week: toner, wait 10 to 15 minutes, then a thin layer of cream. On the other nights, cream only.</td></tr>
+            <tr><td>Glycolic serum or peel</td><td>Start once a week, on a night with no cream; use the cream on the other nights. Go up slowly only if skin stays calm.</td></tr>
+          </tbody>
+        </table>
+        <h2>3. A simple start plan</h2>
+        <ol>
+          <li><b>Patch test both</b> on the jaw or inner arm for 24 to 48 hours.</li>
+          <li><b>Weeks 1 to 2:</b> glycolic product one night a week; glutathione cream on the other nights and in the morning.</li>
+          <li><b>Weeks 3 to 4:</b> if there is no stinging, redness or peeling, go up to two nights a week.</li>
+          <li><b>After that:</b> stay at two, or at most three, nights a week. More is not better.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <h2>4. What not to stack on glycolic nights</h2>
+        <ul>
+          <li><b>Retinol.</b> Use retinol and glycolic acid on different nights. See <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a>.</li>
+          <li><b>Salicylic acid leave-ons.</b> A salicylic face wash is usually fine; two leave-on acids on one night are too much for most skin. See <a href="/journal/glutathione-cream-with-salicylic-acid/">glutathione cream with salicylic acid</a>.</li>
+          <li><b>Scrubs, lemon, baking soda or bleach.</b> These add more irritation on top of an acid.</li>
+          <li><b>Freshly threaded, waxed or bleached skin.</b> Wait a few days. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</li>
+        </ul>
+        <h2>5. Winter and summer care</h2>
+        <p>In dry North Indian winters and heater-dried rooms, cut glycolic use to once a week or pause it, and put a plain moisturiser on top of the cream if skin feels tight. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>. In summer and on beach or hill trips, the sun matters even more after an acid: reapply sunscreen when outdoors and skip glycolic the night before long sun exposure.</p>
+        <h2>6. Signs you are overdoing it</h2>
+        <ul>
+          <li>Stinging when you apply a plain moisturiser or even water.</li>
+          <li>Shiny, tight skin that looks polished but feels raw.</li>
+          <li>Flaking, redness or new small bumps.</li>
+          <li>New dark patches where skin was irritated.</li>
+        </ul>
+        <p>If you see these, stop the acid, use only a gentle wash, a plain moisturiser and sunscreen for a week or two, then restart at once a week, or not at all. Sensitive skin may do better without glycolic acid; see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and no glycolic acid. That makes it easy to use on the nights between glycolic nights. With sunscreen every morning, it can help dark spots and tan look lighter and skin look more even over several weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
+        <p>See a dermatologist before using strong glycolic peels, if you are pregnant, or if you have melasma, rosacea, eczema or painful acne. In-clinic chemical peels should be done only by a qualified professional.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after glycolic acid?</h3>
+        <p>After a glycolic face wash, yes. After a leave-on toner, wait 10 to 15 minutes and use a thin layer. After a serum or peel, use the cream on a different night.</p>
+        <h3>How many times a week can I use glycolic acid?</h3>
+        <p>Start once a week and stay at two or three nights at most. Dry winter skin may need less.</p>
+        <h3>Can I use glycolic acid in the morning?</h3>
+        <p>It is better at night. If you use it, sunscreen every morning is a must, because it makes skin more sensitive to the sun.</p>
+        <h3>Is glycolic acid safe for Indian skin?</h3>
+        <p>Mild glycolic products suit many people, but over-use can irritate and leave darker marks. Start slow and stop if skin stings or peels.</p>
+        <h3>Will glycolic acid with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Together, used gently with sunscreen, they can help skin feel smoother and look brighter and more even.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
@@ -2233,5 +2365,7 @@ SHORT.update({
  'glutathione-cream-with-potato-juice': 'Yes, as a separate step: dab fresh potato juice on clean skin, rinse after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix it into the jar; potato juice alone has little evidence for fading tan or spots.',
  'glutathione-cream-with-coconut-oil': 'Yes, for dry skin. Apply the glutathione cream first, wait a few minutes, then press a small drop of coconut oil on dry patches at night only, with sunscreen every morning. Oily and acne-prone skin should usually skip coconut oil on the face.',
  'glutathione-cream-with-multani-mitti': 'Yes, as a separate step: apply a thin multani mitti pack, rinse after about 10 minutes before it cracks, pat dry, then apply the glutathione cream, with sunscreen every morning. Use the pack once or twice a week at most and never mix it into the jar.',
+ 'glutathione-cream-with-glycerin': 'Yes. Dilute 2 to 3 drops of plain glycerin with water or rose water, pat it on slightly damp skin, wait a minute, then apply the glutathione cream on top, with sunscreen every morning. It suits dry winter skin; oily skin and humid weather usually do not need it.',
+ 'glutathione-cream-with-glycolic-acid': 'Yes. Use a glycolic face wash before the cream, or a leave-on glycolic product on 1 to 3 nights a week with the glutathione cream on the other nights. Start slowly, keep retinol on different nights, and wear sunscreen every morning.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES

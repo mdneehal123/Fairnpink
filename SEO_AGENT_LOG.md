@@ -30,6 +30,8 @@
 | 2026-11-03 | glutathione cream with potato juice | /journal/glutathione-cream-with-potato-juice/ | Results were only foreign product listings and spam pages; aloo ka ras is a widely shared Indian tan/dark-circle tip; honest 'little evidence' answer, wash-off step before the cream, never in the jar, no tan-removal or fairness claims |
 | 2026-11-04 | glutathione cream with coconut oil | /journal/glutathione-cream-with-coconut-oil/ | Results were only foreign glutathione cream product listings (iHerb, Walmart, US brands); nariyal tel is in nearly every Indian home; honest cream-then-oil order, warns oily/acne-prone skin to skip, coconut vs almond oil, no fairness promise |
 | 2026-11-04 | glutathione cream with multani mitti | /journal/glutathione-cream-with-multani-mitti/ | Results were pharmacy/marketplace cream listings with no answer; very common Indian clay pack; wash-off-before-cream order, rinse before it cracks, frequency by skin type table, corrects 'removes tan' |
+| 2026-11-05 | glutathione cream with glycerin | /journal/glutathione-cream-with-glycerin/ | Results were only pharmacy/marketplace glutathione-cream listings with no answer; glycerin (often with rose water) is a cheap, very common Indian winter staple; dilute-on-damp-skin then cream order, skin-type/season table, no fairness promise |
+| 2026-11-05 | glutathione cream with glycolic acid | /journal/glutathione-cream-with-glycolic-acid/ | Results were foreign supplement/peptide-shop blogs and spam pages; glycolic washes, toners and serums are widely sold in India; wash/toner/serum combining table, slow start plan, what not to stack, over-exfoliation signs, no fairness promise |
 
 ## Boosts
 
