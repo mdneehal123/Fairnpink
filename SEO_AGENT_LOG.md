@@ -32,6 +32,8 @@
 | 2026-11-04 | glutathione cream with multani mitti | /journal/glutathione-cream-with-multani-mitti/ | Results were pharmacy/marketplace cream listings with no answer; very common Indian clay pack; wash-off-before-cream order, rinse before it cracks, frequency by skin type table, corrects 'removes tan' |
 | 2026-11-05 | glutathione cream with glycerin | /journal/glutathione-cream-with-glycerin/ | Results were only pharmacy/marketplace glutathione-cream listings with no answer; glycerin (often with rose water) is a cheap, very common Indian winter staple; dilute-on-damp-skin then cream order, skin-type/season table, no fairness promise |
 | 2026-11-05 | glutathione cream with glycolic acid | /journal/glutathione-cream-with-glycolic-acid/ | Results were foreign supplement/peptide-shop blogs and spam pages; glycolic washes, toners and serums are widely sold in India; wash/toner/serum combining table, slow start plan, what not to stack, over-exfoliation signs, no fairness promise |
+| 2026-11-06 | glutathione cream with raw milk | /journal/glutathione-cream-with-raw-milk/ | Results were spam pages and foreign glutathione-cream product listings with no answer; kachcha doodh on cotton is a very common Indian home cleanse; wash-off-first order, never in the jar, milk allergy/acne-prone cautions, milk-besan-haldi packs, no fairness promise |
+| 2026-11-06 | lemon with glutathione cream | /journal/lemon-with-glutathione-cream/ | Results were foreign lemon-glutathione serum listings, a whitening-injection listing and a US supplement blog; nimbu on the face is a widely shared Indian tan tip; honest 'better not' answer (acidity, sun reactions), what to do if it stings, gentler options table, no fairness promise |
 
 ## Boosts
 

@@ -2326,6 +2326,136 @@ MORE_ARTICLES = [
         <p>Mild glycolic products suit many people, but over-use can irritate and leave darker marks. Start slow and stop if skin stings or peels.</p>
         <h3>Will glycolic acid with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Together, used gently with sunscreen, they can help skin feel smoother and look brighter and more even.</p>'''),
+    ('glutathione-cream-with-raw-milk', 'Can you use raw milk with glutathione cream?',
+     'Raw Milk with Glutathione Cream: Right Order and Tips',
+     'Can you use raw milk (kachcha doodh) with glutathione cream? Yes, as a short wash-off step before the cream. Right order, who should skip it and the limits.',
+     'How to use', 'How to use kachcha doodh as a short wash-off cleanse before a glutathione cream, why not to mix it into the jar, who should skip it and what milk cannot do.', '''
+        <p>Yes, you can use raw milk with glutathione cream, but as two separate steps: dab cold milk on clean skin with cotton, rinse it off after 5 to 10 minutes, pat dry, then apply the cream. Do not mix milk into the jar, and do not leave it on overnight.</p>
+        <p>Kachcha doodh on cotton is one of the oldest Indian home cleansing habits, often passed down from mothers and grandmothers. Milk naturally contains a little lactic acid and some fat, so it can feel soft and soothing. It is a gentle ritual, not a spot or tan fix. Here is how to fit it around your cream sensibly.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Raw milk (kachcha doodh)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen ingredient, wash-off</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Feels soft and cool; a mild cleansing ritual</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, 5 to 10 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Spoils fast, can smell, strength varies, little evidence for tan or spots</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash, especially if you wore sunscreen or makeup, and pat dry.</li>
+          <li><b>Pour 2 to 3 teaspoons of cold milk</b> into a clean bowl. Most people mean unboiled packet milk straight from the fridge. Never dip into the whole packet.</li>
+          <li><b>Dab it on</b> the face and neck with a fresh cotton pad, avoiding the eyes and lips. Do not rub hard.</li>
+          <li><b>Leave it for 5 to 10 minutes</b>, then rinse well with plain water so no milk is left on the skin, and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Two or three evenings a week is plenty. Throw away the milk left in the bowl. For other home steps before the cream, see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a> and <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a>, which covers milk-based besan packs.</p>
+        <h2>3. Why not mix milk into the cream</h2>
+        <ul>
+          <li><b>It can spoil the jar.</b> Milk is food for germs. Even a few drops can make the cream smell sour within days.</li>
+          <li><b>It changes the texture.</b> The cream turns runny and patchy.</li>
+          <li><b>It adds nothing useful.</b> The cream works as it is made; a kitchen ingredient only makes it less predictable.</li>
+        </ul>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or situation</th><th>Milk step before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Normal or dry skin</td><td>Fine as an occasional evening step. In dry North Indian winters, follow with the cream at once. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Oily or acne-prone skin</td><td>Some people find milk leaves a greasy film or more bumps; rinse well, or skip it. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test on the jaw for 24 to 48 hours first. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Milk allergy</td><td>Skip it completely</td></tr>
+            <tr><td>Open pimples, cuts or cracked skin</td><td>Skip on broken skin</td></tr>
+            <tr><td>Freshly threaded, waxed or bleached skin</td><td>Wait until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Milk with haldi, besan or honey</h2>
+        <p>Milk is often mixed with besan, haldi or honey into a pack. The same rule applies: use the pack on clean skin, rinse it off before it dries hard, pat dry, then apply the cream. Keep haldi to a small pinch, as it can stain and sometimes irritates. Do not add lemon to milk packs; lemon can sting and react badly with sun.</p>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Leaving milk on overnight.</b> It dries, smells sour and can clog pores.</li>
+          <li><b>Using milk that has been sitting out.</b> Use cold, fresh milk and a clean bowl each time.</li>
+          <li><b>Skipping sunscreen because you used a home remedy.</b> Tan comes back without daily sun protection. See <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>.</li>
+          <li><b>Expecting change in a few days.</b> Dark spots and tan fade slowly. See <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Once both pass a patch test, a rinsed-off milk step before the cream is fine for most people. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get itching, a rash or burning after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply raw milk before or after glutathione cream?</h3>
+        <p>Before, and rinse it off. Use it as a 5 to 10 minute wash-off step, pat dry, then apply the cream.</p>
+        <h3>Can I mix milk into glutathione cream?</h3>
+        <p>No. Milk spoils quickly and can make the jar smell and go off. Keep them as separate steps.</p>
+        <h3>Is boiled or raw milk better for the face?</h3>
+        <p>Most home tips use cold, unboiled packet milk. Either way, use it fresh, keep it off broken skin and rinse it off well.</p>
+        <h3>Can I use raw milk on my face every day?</h3>
+        <p>Two or three times a week is enough for most people. Daily use can leave oily skin greasy.</p>
+        <h3>Does raw milk with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
+    ('lemon-with-glutathione-cream', 'Can you use lemon with glutathione cream?',
+     'Lemon with Glutathione Cream: Why to Skip It',
+     'Can you use lemon with glutathione cream? It is better not to. Why raw nimbu juice irritates skin, what to do if you already used it, and gentler options.',
+     'How to use', 'Why raw lemon juice and a glutathione cream are a poor pair, what lemon can do to skin in Indian sun, what to do if it stings, and gentler options for tan and dark spots.', '''
+        <p>No, it is better not to use raw lemon juice with glutathione cream, either on the face before it or mixed into the jar. Lemon juice is strongly acidic and often stings, dries or reddens skin, and lemon on skin followed by sun can leave burn-like dark patches.</p>
+        <p>Nimbu on the face is one of the most shared Indian home tips for tan and dark spots, often with honey, besan or sugar. The risk is real and the benefit is small. Here is why, what to do if you have already tried it, and what to use instead with your cream.</p>
+        <h2>1. Why lemon and skin do not mix well</h2>
+        <table>
+          <thead><tr><th>What lemon juice does</th><th>What you may notice</th></tr></thead>
+          <tbody>
+            <tr><td>It is very acidic, far more than skin</td><td>Stinging, tightness, redness, dry flaky patches</td></tr>
+            <tr><td>Its strength changes from lemon to lemon</td><td>One day it feels fine, the next it burns</td></tr>
+            <tr><td>Lemon on skin plus strong sun can trigger a skin reaction</td><td>Red, burn-like marks that can leave dark patches for weeks</td></tr>
+            <tr><td>It weakens the skin barrier with repeated use</td><td>Other products, including your cream, start to sting</td></tr>
+          </tbody>
+        </table>
+        <p>Indian sun makes the last two points matter more. A lemon pack in the afternoon and a trip outside is exactly how many people end up with new dark marks instead of lighter ones.</p>
+        <h2>2. Why not mix lemon into the cream</h2>
+        <ul>
+          <li><b>It upsets the formula.</b> A cream is made to suit skin; strong acid changes how it feels and behaves.</li>
+          <li><b>It can spoil the jar.</b> Fresh juice brings water and germs into the cream.</li>
+          <li><b>It can make every use sting.</b> You would be putting lemon on your face twice a day.</li>
+        </ul>
+        <h2>3. If you already used lemon and your skin stings</h2>
+        <ol>
+          <li><b>Rinse</b> with plenty of cool, plain water. Do not scrub.</li>
+          <li><b>Stay out of the sun</b> for the rest of the day if you can, and wear sunscreen, SPF 30 or higher, if you must go out.</li>
+          <li><b>Skip the glutathione cream and other actives</b> that night. Use only a plain, fragrance-free moisturiser.</li>
+          <li><b>Restart the cream</b> after 2 to 3 nights, once skin feels calm.</li>
+          <li><b>See a dermatologist</b> if you get blisters, swelling, or burning that does not settle within a day.</li>
+        </ol>
+        <h2>4. Gentler options with your cream</h2>
+        <table>
+          <thead><tr><th>Instead of lemon</th><th>How to use it with the cream</th></tr></thead>
+          <tbody>
+            <tr><td>Daily sunscreen</td><td>The most useful step for tan and spots. Every morning, after the cream. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a></td></tr>
+            <tr><td>A vitamin C serum (made for skin)</td><td>In the morning under sunscreen, with the cream at night. See <a href="/journal/alpha-arbutin-and-vitamin-c/">alpha arbutin and vitamin C</a></td></tr>
+            <tr><td>Rose water</td><td>Pat on first, then the cream. See <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a></td></tr>
+            <tr><td>A gentle wash-off pack</td><td>Rinse, pat dry, then the cream. See <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a></td></tr>
+          </tbody>
+        </table>
+        <p>Products that list lemon extract or vitamin C are made at a strength and acidity meant for skin. That is not the same as squeezing a lemon onto your face.</p>
+        <h2>5. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Lemon with sugar as a scrub.</b> Acid plus scrubbing is hard on the face, especially in dry winter weather.</li>
+          <li><b>Lemon before going out in the day.</b> This is when burn-like dark marks are most likely.</li>
+          <li><b>Lemon on pimples, cuts or after threading.</b> It stings and can leave darker marks. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</li>
+          <li><b>Expecting quick change.</b> Tan and dark spots fade slowly with sunscreen. See <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a> and <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</li>
+        </ul>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, so you do not need to add anything to it. Use a pea-sized amount on clean skin at night, and in the morning under sunscreen. Over 8 to 12 weeks it can help skin look brighter and more even; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and <a href="/journal/fair-n-pink-cream-side-effects/">possible side effects</a>.</p>
+        <p>See a dermatologist if you have patchy brown marks such as melasma, marks that spread, or a reaction that does not settle.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply lemon juice before glutathione cream?</h3>
+        <p>It is better not to. Lemon juice often irritates skin, and with sun it can leave dark marks. Use rose water or just a gentle face wash before the cream.</p>
+        <h3>Can I mix lemon into glutathione cream?</h3>
+        <p>No. It can spoil the jar and make the cream sting every time you use it.</p>
+        <h3>Is drinking lemon water good with glutathione cream?</h3>
+        <p>Drinking nimbu pani is fine as part of your diet, but do not expect it to change tan or spots. Daily sunscreen matters far more.</p>
+        <h3>Is lemon good for tan on the face?</h3>
+        <p>It is a popular tip, but the risk of irritation and sun reactions is high. Sunscreen, less time in strong sun and a gentle cream are safer.</p>
+        <h3>Does lemon with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Lemon is more likely to irritate skin than to help it look brighter.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
@@ -2367,5 +2497,7 @@ SHORT.update({
  'glutathione-cream-with-multani-mitti': 'Yes, as a separate step: apply a thin multani mitti pack, rinse after about 10 minutes before it cracks, pat dry, then apply the glutathione cream, with sunscreen every morning. Use the pack once or twice a week at most and never mix it into the jar.',
  'glutathione-cream-with-glycerin': 'Yes. Dilute 2 to 3 drops of plain glycerin with water or rose water, pat it on slightly damp skin, wait a minute, then apply the glutathione cream on top, with sunscreen every morning. It suits dry winter skin; oily skin and humid weather usually do not need it.',
  'glutathione-cream-with-glycolic-acid': 'Yes. Use a glycolic face wash before the cream, or a leave-on glycolic product on 1 to 3 nights a week with the glutathione cream on the other nights. Start slowly, keep retinol on different nights, and wear sunscreen every morning.',
+ 'glutathione-cream-with-raw-milk': 'Yes, as a separate step: dab cold milk on clean skin with cotton, rinse after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix milk into the jar, skip it with a milk allergy, and use it two or three times a week at most.',
+ 'lemon-with-glutathione-cream': 'It is better not to. Raw lemon juice is strongly acidic, often stings or dries skin, and with sun can leave burn-like dark marks. Never mix it into the jar; use sunscreen every morning and, if you want vitamin C, a serum made for skin instead.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
