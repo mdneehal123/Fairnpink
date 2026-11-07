@@ -2456,6 +2456,146 @@ MORE_ARTICLES = [
         <p>It is a popular tip, but the risk of irritation and sun reactions is high. Sunscreen, less time in strong sun and a gentle cream are safer.</p>
         <h3>Does lemon with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Lemon is more likely to irritate skin than to help it look brighter.</p>'''),
+    ('glutathione-cream-with-honey', 'Can you use honey with glutathione cream?',
+     'Honey with Glutathione Cream: Right Order and Tips',
+     'Can you use honey (shahad) with glutathione cream? Yes, as a short wash-off mask before the cream. Right order, who should skip it and what honey cannot do.',
+     'How to use', 'How to use a plain honey mask before a glutathione cream, why not to mix honey into the jar or leave it on overnight, who should skip it and what to expect.', '''
+        <p>Yes, you can use honey with glutathione cream, but as two separate steps: spread a thin layer of plain honey on clean skin, rinse it off after 10 to 15 minutes, pat dry, then apply the cream. Do not stir honey into the jar, and do not leave it on overnight.</p>
+        <p>Shahad is one of the most loved Indian home masks, especially once the air turns dry in November and December. Honey is a humectant, which means it helps the skin hold on to water, so it can leave the face feeling softer and looking less dull for the evening. It is a comfort step, not a tan or spot fix. Here is how to fit it around your cream.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Plain honey (shahad)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen ingredient, wash-off mask</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps skin feel softer and less tight</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, 10 to 15 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Sticky, attracts dust and ants, can trigger allergy in some people</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash, especially if you wore sunscreen or makeup, and pat dry.</li>
+          <li><b>Take about half a teaspoon of honey</b> into a clean bowl with a dry spoon. Never dip your fingers into the honey jar.</li>
+          <li><b>Spread a thin layer</b> on the face with clean fingers, away from the eyes, eyebrows and hairline. A thick layer only drips.</li>
+          <li><b>Leave it for 10 to 15 minutes</b>, sitting somewhere cool so it does not run.</li>
+          <li><b>Rinse with lukewarm water</b> using soft circles until the skin no longer feels sticky, then pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Once or twice a week is plenty. For other home steps before the cream, see <a href="/journal/glutathione-cream-with-raw-milk/">raw milk with glutathione cream</a> and <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a>.</p>
+        <h2>3. Why not mix honey into the cream</h2>
+        <ul>
+          <li><b>It can spoil the jar.</b> Adding a food product and wet fingers brings in water and germs, and a 10 g jar has little room for that.</li>
+          <li><b>It changes the texture.</b> The cream turns sticky, pulls on the skin and spreads unevenly.</li>
+          <li><b>It adds nothing useful.</b> The cream works as it is made; honey belongs in a mask that you wash off.</li>
+        </ul>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or situation</th><th>Honey mask before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, winter, heater or AC rooms</td><td>Yes, once or twice a week. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a></td></tr>
+            <tr><td>Normal or combination skin</td><td>Occasionally, mostly on dry cheeks. See <a href="/journal/glutathione-cream-for-combination-skin/">glutathione cream for combination skin</a></td></tr>
+            <tr><td>Oily skin in humid weather</td><td>Optional; keep it to 10 minutes and rinse very well</td></tr>
+            <tr><td>Acne-prone skin</td><td>Patch test first and stop if you get new bumps. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Allergy to pollen, bee stings or bee products</td><td>Skip it completely</td></tr>
+            <tr><td>Freshly threaded, waxed or bleached skin, or open pimples</td><td>Wait until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Honey with milk, haldi or besan</h2>
+        <p>Honey is often mixed with a little milk, curd, a pinch of haldi or besan into a pack. The rule stays the same: use the pack on clean skin, rinse it off before it dries hard, pat dry, then apply the cream. Keep haldi to a small pinch, as it can stain and sometimes irritates. Do not add lemon, sugar scrubs or toothpaste; lemon can sting and react badly with sun, and gritty scrubs before an active cream often cause redness. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a> for why lemon is best kept off the face.</p>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Leaving honey on overnight.</b> It sticks to the pillow, collects dust and can attract ants.</li>
+          <li><b>Using flavoured or syrup-type honey.</b> Use plain honey with nothing added.</li>
+          <li><b>Rubbing hard to get it off.</b> Lukewarm water and patience work better than scrubbing.</li>
+          <li><b>Skipping sunscreen because you used a home remedy.</b> Tan and dark spots come back without daily sun protection.</li>
+          <li><b>Expecting change in a few days.</b> Dark spots and tan fade slowly. See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Once both pass a patch test, a rinsed-off honey mask before the cream is fine for most people. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get itching, swelling, a rash or burning after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply honey before or after glutathione cream?</h3>
+        <p>Before, and rinse it off. Use it as a 10 to 15 minute mask, pat dry, then apply the cream.</p>
+        <h3>Can I mix honey into glutathione cream?</h3>
+        <p>No. It makes the cream sticky and can spoil the jar. Keep them as separate steps.</p>
+        <h3>Can I leave honey on my face overnight?</h3>
+        <p>It is better not to. Honey is sticky, transfers to the pillow and collects dust.</p>
+        <h3>How often can I use a honey mask with glutathione cream?</h3>
+        <p>Once or twice a week is enough for most people. The cream itself can be used as usual.</p>
+        <h3>Does honey with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Honey helps skin feel softer; used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-turmeric', 'Can you use turmeric (haldi) with glutathione cream?',
+     'Turmeric (Haldi) with Glutathione Cream: How to Use Both',
+     'Can you use turmeric (haldi) with glutathione cream? Yes, as a short wash-off pack before the cream. Right order, how much haldi and who should skip it.',
+     'How to use', 'How to use a small pinch of haldi in a wash-off pack before a glutathione cream, why not to mix it into the jar, how to avoid yellow stains, who should skip it and what haldi cannot do.', '''
+        <p>Yes, you can use turmeric with glutathione cream, but as two separate steps: a small pinch of haldi in a wash-off pack on clean skin, rinsed off after about 10 minutes, then the cream on dry skin. Do not mix haldi into the jar, and do not leave it on overnight.</p>
+        <p>Haldi is part of Indian skin care from the haldi ceremony before weddings to everyday besan-haldi packs, and wedding season is here now. It can feel like a nice ritual and many people enjoy it, but turmeric stains, can irritate some skin and does not change skin colour. Here is how to use it sensibly around your cream.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Turmeric (haldi) pack</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen spice, wash-off pack</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>A traditional ritual; can leave skin feeling fresh</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, about 10 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Stains skin and cloth yellow, can irritate, strength and purity vary</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Make the pack:</b> one or two teaspoons of besan, curd or milk, with only a small pinch of haldi. More haldi means more yellow, not more benefit.</li>
+          <li><b>Apply a thin layer</b> away from the eyes, lips and eyebrows. Old clothes and a towel you do not mind staining help.</li>
+          <li><b>Rinse after about 10 minutes</b>, before it dries hard and cracks. Use lukewarm water and soft circles, not hard scrubbing.</li>
+          <li><b>Remove any yellow tint</b> with a gentle face wash or a cotton pad with a little milk or plain moisturiser, then rinse and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Once a week is enough for most people. For the besan pack itself and a full pre-wedding ubtan routine, see <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a>.</p>
+        <h2>3. Which haldi to use, and what to avoid</h2>
+        <table>
+          <thead><tr><th>Form</th><th>Use before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Plain haldi powder from a sealed pack, a small pinch</td><td>Yes, in a wash-off pack</td></tr>
+            <tr><td>Kasturi manjal (wild turmeric, traditionally used on skin in the South)</td><td>Yes, same way; it usually stains less</td></tr>
+            <tr><td>Loose powder of unknown quality</td><td>Better not; it may contain added colour</td></tr>
+            <tr><td>Raw turmeric root paste</td><td>Stains strongly; use a very thin layer and rinse well, or skip it</td></tr>
+            <tr><td>Turmeric with lemon, baking soda or toothpaste</td><td>No; these often sting and dry the skin. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Why not mix haldi into the cream</h2>
+        <ul>
+          <li><b>It stains.</b> The cream stays on your face all night and would leave a yellow tint on the skin and the pillow.</li>
+          <li><b>It can spoil the jar.</b> Powders and wet fingers bring in moisture and germs.</li>
+          <li><b>It adds nothing useful.</b> The cream works as it is made; haldi belongs in a pack you wash off.</li>
+        </ul>
+        <h2>5. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or situation</th><th>Haldi pack before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Normal or oily skin</td><td>Fine occasionally. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Dry skin in winter</td><td>Mix with curd or milk, not water, and keep it short. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test on the jaw for 24 to 48 hours first. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Itching or rash after haldi before</td><td>Skip it completely</td></tr>
+            <tr><td>Open pimples, cuts, freshly threaded or waxed skin</td><td>Wait until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>6. Haldi ceremony and wedding days</h2>
+        <p>If you have a haldi ceremony coming up, the paste used there is usually thick and stays on longer. Skip your glutathione cream that night if the skin feels hot, tight or itchy, and use a plain moisturiser instead. Go back to the cream the next night once the skin is calm. Do a haldi pack test on the jaw a week or two before the function, not the day before. For wider planning, see <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Once both pass a patch test, a rinsed-off haldi pack before the cream is fine for most people. Used with sunscreen every morning, the cream can help skin look brighter and dark spots look lighter over 8 to 12 weeks; neither the cream nor haldi changes your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get itching, a rash or burning after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply haldi before or after glutathione cream?</h3>
+        <p>Before, as a wash-off pack. Rinse it after about 10 minutes, pat dry, then apply the cream.</p>
+        <h3>Can I mix turmeric into glutathione cream?</h3>
+        <p>No. It stains the skin and pillow and can spoil the jar. Keep them as separate steps.</p>
+        <h3>How do I remove the yellow tint after a haldi pack?</h3>
+        <p>Wash with a gentle face wash, or wipe with a cotton pad and a little milk or plain moisturiser, then rinse. Using only a small pinch prevents most staining.</p>
+        <h3>How often can I use haldi with glutathione cream?</h3>
+        <p>Once a week is enough for most people. The cream itself can be used as usual.</p>
+        <h3>Does haldi with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
@@ -2499,5 +2639,7 @@ SHORT.update({
  'glutathione-cream-with-glycolic-acid': 'Yes. Use a glycolic face wash before the cream, or a leave-on glycolic product on 1 to 3 nights a week with the glutathione cream on the other nights. Start slowly, keep retinol on different nights, and wear sunscreen every morning.',
  'glutathione-cream-with-raw-milk': 'Yes, as a separate step: dab cold milk on clean skin with cotton, rinse after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix milk into the jar, skip it with a milk allergy, and use it two or three times a week at most.',
  'lemon-with-glutathione-cream': 'It is better not to. Raw lemon juice is strongly acidic, often stings or dries skin, and with sun can leave burn-like dark marks. Never mix it into the jar; use sunscreen every morning and, if you want vitamin C, a serum made for skin instead.',
+ 'glutathione-cream-with-honey': 'Yes, as a separate step: spread a thin layer of plain honey on clean skin, rinse after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix honey into the jar, skip it with a bee-product allergy, and use it once or twice a week.',
+ 'glutathione-cream-with-turmeric': 'Yes, as a separate step: use a small pinch of haldi in a besan, curd or milk pack, rinse after about 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix haldi into the jar; it stains and does not change skin colour.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
