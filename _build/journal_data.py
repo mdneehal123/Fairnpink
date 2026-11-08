@@ -161,7 +161,7 @@ ARTICLES = [
           <li>The seller can be contacted before and after you buy.</li>
           <li>The claims are modest. Be careful with any cream that promises a new skin tone.</li>
         </ul>
-        <p>Comparing creams? Use our <a href="/journal/best-glutathione-cream-in-india/">checklist for the best glutathione cream in India</a>, and see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>. For one glutathione cream in detail, see the <a href="/journal/fair-n-pink-cream-benefits/">Fair N Pink cream benefits</a>.</p>'''),
+        <p>Comparing creams? Use our <a href="/journal/best-glutathione-cream-in-india/">checklist for the best glutathione cream in India</a>, and see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>. To shop one, see our <a href="/glutathione-cream-for-face/">glutathione cream for face</a>. For one glutathione cream in detail, see the <a href="/journal/fair-n-pink-cream-benefits/">Fair N Pink cream benefits</a>.</p>'''),
     ('niacinamide-and-alpha-arbutin', 'Niacinamide and alpha arbutin: can you use them together?',
      'Niacinamide and Alpha Arbutin Together: Benefits and How to Use',
      'Niacinamide and alpha arbutin can be used together. What each one does, why they are often combined in one cream, and how to use them safely.',
@@ -172,7 +172,7 @@ ARTICLES = [
         <h2>What alpha arbutin does</h2>
         <p>Alpha arbutin is used to help reduce the look of dark spots and patches. It works gradually, so it needs weeks of regular use.</p>
         <h2>Why they are paired</h2>
-        <p>They work in different ways, so one does not cancel the other out. Used together they cover both overall evenness and individual dark spots. Fair N Pink Advance Radiance Cream contains both, along with glutathione, so there is no layering to work out. See the <a href="/ingredients/">ingredients page</a>.</p>
+        <p>They work in different ways, so one does not cancel the other out. Used together they cover both overall evenness and individual dark spots. Fair N Pink Advance Radiance Cream contains both, along with glutathione, so there is no layering to work out. See the <a href="/ingredients/">ingredients page</a>, or our <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a> page for cream vs serum.</p>
         <h2>How to use them</h2>
         <ul>
           <li>Apply to clean skin, morning and night.</li>
@@ -230,10 +230,10 @@ ARTICLES = [
         <h3>Is it melasma or a dark spot?</h3>
         <p>Small spots after pimples or sun are common. Wide, patchy brown areas on both cheeks or the forehead may be melasma, which a dermatologist should check.</p>'''),
     ('fair-and-pink-cream', 'Fair and Pink cream: the name, the spellings and the real product',
-     'Fair and Pink Cream (Fair N Pink) | Price, Uses and Where to Buy',
-     'Looking for Fair and Pink cream, Fair & Pink or Fairnpink? The product is Fair N Pink Advance Radiance Cream. Price, pack size, uses and where to order.',
+     'Fair and Pink Cream (Fair N Pink): Price, Uses, Where to Buy',
+     'Fair and Pink cream, Fair & Pink or Fairnpink? It is Fair N Pink Advance Radiance Cream: ₹999 for 10 g, how to use it, same-name creams and where to order.',
      'The brand', 'Fair and Pink, Fair & Pink, Fairnpink: one cream, several spellings.', '''
-        <p>If you searched for <b>Fair and Pink cream</b>, <b>Fair &amp; Pink cream</b>, <b>Fairnpink</b> or <b>Fair n Pink glutathione cream</b>, you are looking for the same product. Its name on the pack is <b>Fair N Pink Advance Radiance Cream</b>. You can order it on this website.</p>
+        <p>If you searched for <b>Fair and Pink cream</b>, <b>Fair &amp; Pink cream</b>, <b>Fairnpink</b> or <b>Fair n Pink glutathione cream</b>, you are looking for the same product: <b>Fair N Pink Advance Radiance Cream</b>, a %(net)s glutathione face cream for ₹999. You can order it on this website, with Cash on Delivery where available.</p>
         <h2>Why there are so many spellings</h2>
         <p>The brand name is written Fair N Pink, with a capital N standing in for "and". People say it aloud as "fair and pink", so that is how many type it. Whatever the spelling, there is one cream.</p>
         <h2>The product at a glance</h2>
@@ -249,12 +249,43 @@ ARTICLES = [
         <h2>Where to order</h2>
         <p>You can order on this website with online payment or Cash on Delivery. Orders are packed and sent by the brand within 24 hours. See the <a href="/journal/fair-n-pink-cream-price/">price of each pack</a>, read <a href="/journal/buy-fair-n-pink-cream-online/">how to buy Fair N Pink cream online</a>, or go straight to the <a href="/">store</a>.</p>
         <h2>Make sure it is the real one</h2>
-        <p>Check that the pack says Fair N Pink Advance Radiance Cream and shows a net weight of %(net)s. Our guide to <a href="/original/">what a Fair N Pink jar looks like</a> has a photo of the box and jar.</p>'''),
+        <p>Check that the pack says Fair N Pink Advance Radiance Cream and shows a net weight of %(net)s. Our guide to <a href="/original/">what a Fair N Pink jar looks like</a> has a photo of the box and jar.</p>
+        <h2>Same name, different product</h2>
+        <p>Many search results for "Fair and Pink cream" are shop listings from outside India, often from Pakistan, for creams with similar names sold in other sizes and with other formulas. They are not this product, and their prices and ingredients are not ours. Fair N Pink Advance Radiance Cream is made by Beauty Mart Pvt Ltd, Bhatkal, Karnataka, and sold on this website and on our WhatsApp number.</p>
+        <h2>Fair and Pink cream price</h2>
+        <table>
+          <thead><tr><th>Pack</th><th>Price</th><th>Paid online</th></tr></thead>
+          <tbody>
+            <tr><td>1 jar (%(net)s)</td><td>₹999</td><td>₹899</td></tr>
+            <tr><td>2 jars</td><td>₹1,899</td><td>₹1,749</td></tr>
+            <tr><td>3 jars</td><td>₹2,699</td><td>₹2,449</td></tr>
+          </tbody>
+        </table>
+        <p>The MRP printed on the box is ₹1,200 a jar, and shipping is free.</p>
+        <h2>How to use it</h2>
+        <ol>
+          <li>Patch test a little on your inner arm for 24 hours. The cream contains fragrance.</li>
+          <li>Wash your face and pat it dry.</li>
+          <li>Apply a pea-sized amount to the face and neck, morning and night.</li>
+          <li>Finish with sunscreen every morning.</li>
+        </ol>
+        <p>The full routine is on <a href="/how-to-use/">how to use Fair N Pink cream</a>.</p>
+        <h2>Is it a fairness cream?</h2>
+        <p>No. Despite the word "Fair" in the brand name, it is a cosmetic face cream that helps skin look brighter, more even and moisturised, and helps tan and dark spots look lighter over weeks with sunscreen. It does not change the skin colour you were born with.</p>
+        <h2>FAQ</h2>
+        <h3>Is Fair and Pink cream the same as Fair N Pink?</h3>
+        <p>Yes. Fair and Pink, Fair &amp; Pink and Fairnpink are spellings people use for Fair N Pink Advance Radiance Cream, the %(net)s jar sold on this website.</p>
+        <h3>Is the Fair &amp; Pink cream sold in Pakistan the same product?</h3>
+        <p>No. Creams with similar names sold abroad are different products with different sizes and formulas. Check for the name Fair N Pink Advance Radiance Cream and a net weight of %(net)s.</p>
+        <h3>What is the price of Fair and Pink cream in India?</h3>
+        <p>₹999 for one %(net)s jar on this website, or ₹899 when you pay online, with free shipping. See the <a href="/journal/fair-n-pink-cream-price/">Fair N Pink cream price</a> for every pack.</p>
+        <h3>Can men use Fair and Pink cream?</h3>
+        <p>Yes. It suits men and women and every skin type. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>'''),
     ('who-can-use-fair-n-pink-cream', 'Who can use Fair N Pink cream? Men, oily skin, dry skin and sensitive skin',
      'Fair N Pink Cream for Men, Oily and Dry Skin | Who Can Use It',
      'Can men use Fair N Pink cream? Is it suitable for oily, dry or sensitive skin? How to adjust the routine for your skin type, and who should ask a doctor first.',
      'Skin type', 'How to adjust the routine for your skin, and who should check with a doctor.', '''
-        <p>Fair N Pink Advance Radiance Cream is made for all skin types, and it is not a product for women only. What changes from person to person is how much to apply and when.</p>
+        <p>Fair N Pink Advance Radiance Cream is made for all skin types, and it is not a product for women only. What changes from person to person is how much to apply and when. (If you know it as <a href="/journal/fair-and-pink-cream/">Fair and Pink cream</a>, it is the same jar.)</p>
         <h2>Can men use it?</h2>
         <p>Yes. Skin is skin. Use the same pea-sized amount, morning and night. If you shave, wait a few minutes after shaving before you apply it, because freshly shaved skin stings more easily.</p>
         <h2>Oily skin</h2>
@@ -327,7 +358,7 @@ ARTICLES = [
         <p>If your skin feels tight, warm or looks red, drop to once a day at night for a week. If that does not settle it, stop and read <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>
         <h2>Can you use it for months?</h2>
         <p>A cosmetic cream can be used as part of your routine for as long as it suits your skin. If you are using any prescription cream, ask your doctor how to combine them.</p>
-        <p>Daily use is what makes an honest test possible; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work, week by week</a>.</p>'''),
+        <p>Daily use is what makes an honest test possible; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work, week by week</a>, or read how to apply a <a href="/glutathione-cream-for-face/">glutathione cream for face</a> step by step.</p>'''),
     ('glutathione-cream-with-sunscreen', 'Can I use glutathione cream with sunscreen?',
      'Glutathione Cream With Sunscreen: Which Goes First and Why',
      'You should use sunscreen with a glutathione cream. Which one goes first, how long to wait between them, and what SPF to look for.',
@@ -457,7 +488,7 @@ ARTICLES = [
         <p>Use sunscreen every morning, whether or not you apply the cream. Sun exposure during the day undoes what any brightening cream does at night.</p>
         <h2>Can you layer it with other night products?</h2>
         <p>Keep it simple. Use the cream as your last step. Avoid strong peels or scrubs on the same night, and if you use a prescription cream, ask your doctor how to combine them.</p>
-        <p>For the complete routine, see <a href="/how-to-use/">how to use Fair N Pink cream</a>. Ready to start? Check the <a href="/journal/fair-n-pink-cream-price/">Fair N Pink cream price</a> for each pack, or see <a href="/journal/buy-fair-n-pink-cream-online/">how to buy Fair N Pink cream online</a> with Cash on Delivery.</p>'''),
+        <p>For the complete routine, see <a href="/how-to-use/">how to use Fair N Pink cream</a>, and for pairing it with retinol, acids or oils, see our <a href="/glutathione-night-cream/">glutathione night cream</a> page. Know it as <a href="/journal/fair-and-pink-cream/">Fair and Pink cream</a>? It is the same product. Ready to start? Check the <a href="/journal/fair-n-pink-cream-price/">Fair N Pink cream price</a> for each pack, or see <a href="/journal/buy-fair-n-pink-cream-online/">how to buy Fair N Pink cream online</a> with Cash on Delivery.</p>'''),
     ('glutathione-cream-price-in-india', 'Glutathione cream price in India: what you are paying for',
      'Glutathione Cream Price in India (2026): How to Compare',
      'Glutathione cream price in India: why it varies, how to work out price per gram, what to check before you pay, and where Fair N Pink at ₹999 for 10 g fits.',

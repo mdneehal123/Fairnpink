@@ -151,7 +151,7 @@ MORE_ARTICLES = [
           <li>Leave it on overnight. Use sunscreen the next morning.</li>
         </ol>
         <h2>Good partners</h2>
-        <p>Niacinamide works well with <a href="/journal/niacinamide-and-alpha-arbutin/">alpha arbutin</a> for the look of dark spots, and with glutathione in creams for a brighter-looking complexion. Fair N Pink Advance Radiance Cream has all three in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a>.</p>
+        <p>Niacinamide works well with <a href="/journal/niacinamide-and-alpha-arbutin/">alpha arbutin</a> for the look of dark spots, and with glutathione in creams for a brighter-looking complexion. Fair N Pink Advance Radiance Cream has all three in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a> that also works as a <a href="/glutathione-night-cream/">glutathione night cream</a>.</p>
         <h2>Side effects</h2>
         <p>Most people have none. A few notice mild tingling or redness in the first days. Patch test first.</p>
         <p>For a full morning and night plan, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>. Choosing a cream? Read how to pick the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>'''),
@@ -453,7 +453,7 @@ MORE_ARTICLES = [
             <tr><td>Sunscreen (separate product)</td><td>Stops new tan and darkening</td><td>Everyone, every morning</td></tr>
           </tbody>
         </table>
-        <p>A cream that combines a few gentle ingredients is easier to stick with than a shelf of separate products. <a href="/">Fair N Pink Advance Radiance Cream</a>, for example, combines L-glutathione, niacinamide and alpha arbutin in one 10 g jar. More on each ingredient: <a href="/ingredients/">ingredients explained</a>.</p>
+        <p>A cream that combines a few gentle ingredients is easier to stick with than a shelf of separate products. <a href="/">Fair N Pink Advance Radiance Cream</a>, for example, combines L-glutathione, niacinamide and alpha arbutin in one 10 g jar. More on each ingredient: <a href="/ingredients/">ingredients explained</a>, or see how to choose a <a href="/brightening-cream-for-face/">brightening cream for face</a> by skin type.</p>
         <h2>Red flags to avoid</h2>
         <ul>
           <li>Creams that promise to change your skin colour, make you "gora" or work in a fixed number of days.</li>
@@ -533,7 +533,7 @@ MORE_ARTICLES = [
           <li><b>Expecting change in a week.</b> Give it four to eight weeks; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
         </ul>
         <h2>5. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is a 10 g face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is made for all skin types, men included. A pea-sized amount is enough for the face. It contains fragrance, so patch test it on your inner arm for 24 hours first. It is ₹999 for one jar, with Cash on Delivery where available; see <a href="/journal/fair-n-pink-cream-price/">price and packs</a>. For skin type tips, read <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> is a 10 g face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is made for all skin types, men included; see how to apply this <a href="/glutathione-cream-for-face/">glutathione cream for face</a>. A pea-sized amount is enough for the face. It contains fragrance, so patch test it on your inner arm for 24 hours first. It is ₹999 for one jar, with Cash on Delivery where available; see <a href="/journal/fair-n-pink-cream-price/">price and packs</a>. For skin type tips, read <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>
         <h2>6. Realistic results</h2>
         <p>With steady use and daily sunscreen, many men notice skin that feels smoother and looks fresher in a few weeks. Tan on the forehead and nose usually responds better than old acne marks. Results differ from person to person, and the cream does not change your natural skin colour. For dark spots, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>
         <h2>7. When to see a dermatologist</h2>
@@ -677,7 +677,7 @@ MORE_ARTICLES = [
         </ul>
         <p>For the full timeline, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin in a 10 g jar, used twice a day on clean skin. It is a cosmetic cream for helping dark marks and uneven tone look lighter over weeks. It does not change your natural skin colour, it is not an acne treatment, and it contains fragrance, so patch test on the jawline for two days first, especially if your skin breaks out easily.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin in a 10 g jar, used twice a day on clean skin; more on this <a href="/brightening-cream-for-face/">brightening face cream</a>. It is a cosmetic cream for helping dark marks and uneven tone look lighter over weeks. It does not change your natural skin colour, it is not an acne treatment, and it contains fragrance, so patch test on the jawline for two days first, especially if your skin breaks out easily.</p>
         <h2>7. Mistakes that keep marks dark</h2>
         <ul>
           <li>Skipping sunscreen on cloudy days or at home near windows.</li>
@@ -873,7 +873,7 @@ MORE_ARTICLES = [
           <li><b>Strong exfoliating acids and scrubs:</b> do not use them on the same night as several actives; once or twice a week is enough for most skin.</li>
         </ul>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines L-glutathione, niacinamide and alpha arbutin in one cream, so a pea-sized amount morning and night covers both ingredients without extra serums. It helps skin look brighter and more even, and tan or dark spots look lighter over weeks with daily sunscreen; it is not a treatment for any skin condition. It contains fragrance, so patch test first. Ingredient details are on the <a href="/ingredients/">ingredients</a> page, and use steps on <a href="/how-to-use/">how to use</a>.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines L-glutathione, niacinamide and alpha arbutin in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a>, so a pea-sized amount morning and night covers both ingredients without extra serums. It helps skin look brighter and more even, and tan or dark spots look lighter over weeks with daily sunscreen; it is not a treatment for any skin condition. It contains fragrance, so patch test first. Ingredient details are on the <a href="/ingredients/">ingredients</a> page, and use steps on <a href="/how-to-use/">how to use</a>.</p>
         <h2>7. Safety tips</h2>
         <ul>
           <li>Patch test any new product on the inner arm or jawline for a day or two.</li>
@@ -1093,7 +1093,7 @@ MORE_ARTICLES = [
           <li><b>Do not skip sunscreen on the neck.</b> Most people stop at the jawline.</li>
         </ul>
         <h2>5. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, ingredients widely used to help dark areas and tan look lighter and tone look more even over time. On the neck, use it as part of the routine above, with daily sunscreen. Expect a gradual, modest change after 8 to 12 weeks, not a new skin colour. Read <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a> for how these ingredients work, and patch test first because the cream contains fragrance.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, ingredients widely used to help dark areas and tan look lighter and tone look more even over time. On the neck, use it as part of the routine above, with daily sunscreen; see what a <a href="/brightening-cream-for-face/">brightening cream for face and neck</a> can and cannot do. Expect a gradual, modest change after 8 to 12 weeks, not a new skin colour. Read <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a> for how these ingredients work, and patch test first because the cream contains fragrance.</p>
         <h2>6. When a dark neck needs a doctor</h2>
         <p>See a doctor or dermatologist if the darkening is thick, velvety or spreading, appears quickly, is also in the underarms or groin, or comes with weight gain, irregular periods or tiredness. This can be a sign called acanthosis nigricans, which is linked to insulin resistance, PCOS, some medicines and other conditions. The skin often improves when the cause is managed, which is why the doctor comes first and the cream second. For uneven tone elsewhere, see <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a>.</p>
         <h2>FAQ</h2>
@@ -1273,7 +1273,7 @@ MORE_ARTICLES = [
           <li><b>Skipping sunscreen in winter.</b> Winter sun still darkens tan and spots, which undoes your effort.</li>
         </ul>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over weeks, with daily sunscreen; it does not change your natural skin colour and it is not a replacement for a moisturiser on very dry skin. Use a pea-sized amount on damp skin and add a plain moisturiser on top when needed. Patch test first, because the cream contains fragrance. For what to expect over time, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and works as a <a href="/glutathione-night-cream/">glutathione night cream</a> on damp skin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over weeks, with daily sunscreen; it does not change your natural skin colour and it is not a replacement for a moisturiser on very dry skin. Use a pea-sized amount on damp skin and add a plain moisturiser on top when needed. Patch test first, because the cream contains fragrance. For what to expect over time, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
         <h2>7. When to see a dermatologist</h2>
         <p>See a dermatologist if dry patches itch a lot, crack or bleed, look red and scaly, or keep coming back in the same places. These can be eczema, psoriasis or another condition that needs a proper diagnosis, and a cosmetic cream is not a treatment for them.</p>
         <h2>FAQ</h2>
@@ -1340,7 +1340,7 @@ MORE_ARTICLES = [
           <li><b>Pregnancy, breastfeeding, melasma or patches that spread:</b> ask a dermatologist or doctor before starting.</li>
         </ul>
         <h2>7. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has alpha arbutin with L-glutathione and niacinamide (vitamin B3); it does not contain kojic acid. If you want to add a kojic acid product, use it on separate nights at first as described above. For how alpha arbutin and niacinamide work together, read <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>. It is a cosmetic cream: expect dark spots and tan to look lighter slowly with daily sunscreen, not a change in your natural skin colour. Patch test first, because the cream contains fragrance.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has alpha arbutin with L-glutathione and niacinamide (vitamin B3); it does not contain kojic acid. More on this <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin face cream</a>. If you want to add a kojic acid product, use it on separate nights at first as described above. For how alpha arbutin and niacinamide work together, read <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>. It is a cosmetic cream: expect dark spots and tan to look lighter slowly with daily sunscreen, not a change in your natural skin colour. Patch test first, because the cream contains fragrance.</p>
         <h2>FAQ</h2>
         <h3>Can I apply alpha arbutin and kojic acid at the same time?</h3>
         <p>Yes, once your skin is used to each one separately. Start on alternate nights, then layer thinnest first if there is no irritation.</p>

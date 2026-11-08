@@ -489,19 +489,84 @@ _h1 = '<h1>Advance Radiance Cream <span class="h1-sub">Brightening face cream wi
 assert _h1 in HOME_BODY
 BRIGHT_BODY = HOME_BODY.replace(_h1, '<h1>Brightening Cream for Face <span class="h1-sub">Fair N Pink Advance Radiance Cream with glutathione</span></h1>')
 assert BRIGHT_INTRO in BRIGHT_BODY
-page(BRIGHT_PATH, 'Brightening Cream for Face with Glutathione | Fair N Pink, ₹999',
-     'Brightening cream for face with glutathione, niacinamide and alpha arbutin. For dull-looking skin and the look of dark spots. ₹999, free shipping and COD.',
-     BRIGHT_BODY, home=True, schema=product_schema(SITE + BRIGHT_PATH))
+
+
+def faq_schema(items):
+    return {'@type': 'FAQPage', 'mainEntity': [
+        {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': strip_tags(a)}} for q, a in items]}
+
+
+# Landing-page copy (weekly SEO booster, 2026-11-08): a direct answer first, then the questions
+# people search around each keyword. Cosmetic wording only; product facts as in the block at the top.
+BRIGHT_FAQ = [
+    ('Which brightening cream is good for the face?', 'One with ingredients you can read on the box, such as niacinamide and alpha arbutin, a texture that suits your skin, and modest claims. A cream you use twice a day with sunscreen will do more than a stronger one you use now and then.'),
+    ('Is a brightening cream the same as a fairness cream?', 'No. A brightening cream is meant to help dullness, tan and dark spots look lighter and more even. It does not change the skin colour you were born with, so be wary of any cream that promises that.'),
+    ('Can I use a brightening cream every day?', 'Yes, a gentle brightening face cream like this one is made for daily use, morning and night. Patch test first, and if skin feels warm or tight, use it once a day at night for a week.'),
+    ('Can men use a brightening cream for face?', 'Yes. Fair N Pink Advance Radiance Cream suits men and women. Apply it a few minutes after shaving, not on freshly shaved, stinging skin. See <a href="/journal/glutathione-cream-for-men/">a simple routine for men</a>.'),
+]
+BRIGHT_LANDING = sec('Brightening cream for face', 'A brightening cream for face, with glutathione', '', '''      <div class="prose">
+        <p>A brightening cream for face is a daily moisturiser with ingredients that help dull skin, tan and dark spots look lighter and more even over a few weeks, used with sunscreen every morning. It does not change your natural skin colour. Fair N Pink Advance Radiance Cream is a brightening glutathione face cream for dull skin, uneven skin tone, dark spots and marks, with three well-known ingredients in one light, moisturising cream:</p>
+        <ul>
+          <li><b>L-Glutathione</b>, an antioxidant used in brightening creams for a radiant-looking, glowing complexion</li>
+          <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
+          <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots, dark patches and uneven tone</li>
+        </ul>
+        <p>Use it as a day and night cream: in the morning under sunscreen, and at night as your night cream, while skin rests.</p>
+        <p>It suits women and men, and every skin type. At ₹999 for a 10 g jar it is a face cream under ₹1,000, with free shipping and Cash on Delivery.</p>
+        <p>Most people judge a brightening cream after a few weeks of daily use, and results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
+      </div>''') + sec('How to choose', 'How to choose a brightening cream for your face', '', '''      <div class="prose">
+        <ol>
+          <li><b>Read the ingredients.</b> Look for named ingredients such as niacinamide, alpha arbutin or glutathione, and a full list printed on the box.</li>
+          <li><b>Check what it is free from.</b> Avoid creams that hide steroids, mercury or hydroquinone. This one contains none of them, and no parabens.</li>
+          <li><b>Match the texture to your skin.</b> Oily skin needs a thin layer; dry skin does better when the cream goes on slightly damp skin.</li>
+          <li><b>Compare by grams.</b> Divide the price by the net weight, and check who sells it and how to contact them.</li>
+          <li><b>Be wary of big promises.</b> Day counts, "permanent" results or a new skin tone are marketing, not skincare.</li>
+        </ol>
+        <p>For a longer checklist, read <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a> and <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
+      </div>''') + sec('Skin type', 'Using it on your skin type', '', '''      <div class="tbl"><table>
+        <thead><tr><th>Skin type</th><th>How to use the cream</th></tr></thead>
+        <tbody>
+          <tr><td>Oily</td><td>A very thin layer. If it feels heavy by midday, use it at night and only sunscreen in the morning.</td></tr>
+          <tr><td>Dry</td><td>Apply on slightly damp skin after washing; add a plain moisturiser on top at night in winter.</td></tr>
+          <tr><td>Combination</td><td>A normal amount on the cheeks, a lighter touch on the forehead and nose.</td></tr>
+          <tr><td>Sensitive</td><td>The cream contains fragrance. Patch test on your inner arm for 24 hours and start once a day at night.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="more"><a href="/journal/who-can-use-fair-n-pink-cream/">Who can use Fair N Pink cream</a></p>''') + sec('Questions', 'Brightening cream for face: common questions', '', faq_html(BRIGHT_FAQ))
+BRIGHT_BODY = BRIGHT_BODY.replace(BRIGHT_INTRO, BRIGHT_LANDING)
+assert BRIGHT_LANDING in BRIGHT_BODY
+page(BRIGHT_PATH, 'Brightening Cream for Face | Glutathione, Fair N Pink ₹999',
+     'Brightening cream for face with glutathione, niacinamide and alpha arbutin. How to choose one and use it for your skin type. ₹999, free shipping, COD.',
+     BRIGHT_BODY, home=True, schema=product_schema(SITE + BRIGHT_PATH) + [faq_schema(BRIGHT_FAQ)])
 
 # More Google Ads landing pages, one per ad group, built the same way: the store page with the
 # title, headline and intro matching the searches that ad group buys. Cosmetic wording only.
+NIGHT_FAQ = [
+    ('Can I use glutathione cream at night only?', 'Yes. Night-only use is a sensible start for oily, sensitive or new users. If skin is comfortable after a week, you can add a morning layer under sunscreen.'),
+    ('Should I wash the night cream off in the morning?', 'Wash your face as usual in the morning with a mild cleanser, then apply sunscreen, with or without another layer of cream under it.'),
+    ('Can I use a glutathione night cream every night?', 'Yes, it is made for nightly use. If skin feels warm, tight or looks red, skip a night or two and let it settle; if it does not, stop and see a doctor.'),
+    ('Can I apply it under the eyes?', 'Keep it away from the eyes and the thin skin of the lids. The cream contains fragrance. Read <a href="/journal/glutathione-cream-for-dark-circles/">glutathione cream for dark circles</a> before using it near the under-eye area.'),
+]
+FACE_FAQ = [
+    ('Is glutathione cream good for the face?', 'It can help dull skin look brighter and more even as part of a simple routine with daily sunscreen. It is a cosmetic, so results are gradual and differ from person to person.'),
+    ('How long does glutathione cream take to work on the face?', 'Give it 4 to 8 weeks of twice-daily use with sunscreen before you judge it. Skin usually feels softer first; dark spots take the longest. See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">week by week</a>.'),
+    ('Does glutathione cream make skin fair?', 'No. A face cream cannot change your natural skin tone, so be wary of creams that promise that. It can help tan, dullness and dark spots look lighter over time.'),
+    ('Can I apply glutathione cream on my neck too?', 'Yes, the same pea-sized amount covers the face and neck. For darker skin on the neck, read <a href="/journal/glutathione-cream-for-dark-neck/">glutathione cream for dark neck</a>.'),
+]
+NIA_FAQ = [
+    ('Can niacinamide and alpha arbutin be used together?', 'Yes. They work in different ways and are often combined in one cream, as in Fair N Pink Advance Radiance Cream, so there is no layering to work out.'),
+    ('What percentage of niacinamide and alpha arbutin is in the cream?', 'This site does not list percentages. The full ingredient list is printed on every box, and we can send you a photo of it on WhatsApp before you order.'),
+    ('Is a niacinamide and alpha arbutin cream safe for sensitive skin?', 'Many people with sensitive skin use these ingredients, but the cream contains fragrance. Patch test for 24 hours and start once a day at night. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.'),
+    ('Does it remove dark spots?', 'No cream can promise that. Alpha arbutin and niacinamide help dark spots look lighter over weeks, with daily sunscreen, and some marks may not change. See a dermatologist for patches that spread.'),
+]
+LANDING_FAQ = {'/glutathione-night-cream/': NIGHT_FAQ, '/glutathione-cream-for-face/': FACE_FAQ, '/niacinamide-alpha-arbutin-cream/': NIA_FAQ}
 AD_LANDINGS = [
     ('/glutathione-night-cream/',
-     'Glutathione Night Cream with Niacinamide | Fair N Pink, ₹999',
-     'Glutathione night cream with niacinamide and alpha arbutin for glowing-looking skin by morning. ₹999, ₹899 paid online, free shipping, Cash on Delivery.',
+     'Glutathione Night Cream with Niacinamide | Fair N Pink ₹999',
+     'Glutathione night cream with niacinamide and alpha arbutin: how to apply it at night, what to pair it with and what to expect. ₹999, free shipping and COD.',
      'Glutathione Night Cream', 'Fair N Pink Advance Radiance Cream for glowing-looking skin',
      sec('Night cream', 'A glutathione night cream for glowing-looking skin by morning', '', '''      <div class="prose">
-        <p>Fair N Pink Advance Radiance Cream is a glutathione night cream that works while you sleep. Smooth a pea-sized amount over clean skin before bed, and wake up to skin that feels softer and looks fresher. It combines three well-known ingredients in one light, moisturising cream:</p>
+        <p>A glutathione night cream is applied to clean skin before bed and left on overnight, so it can moisturise and help skin look fresher and more even by morning. Fair N Pink Advance Radiance Cream works as one: a pea-sized amount at night, and sunscreen the next morning. Smooth it over clean skin before bed, and wake up to skin that feels softer and looks fresher. It combines three well-known ingredients in one light, moisturising cream:</p>
         <ul>
           <li><b>L-Glutathione</b>, an antioxidant used in creams for a radiant-looking, glowing complexion</li>
           <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
@@ -510,13 +575,30 @@ AD_LANDINGS = [
         <p>Use it every night as your night cream. You can also use it in the morning under sunscreen.</p>
         <p>A night cream under ₹1,000: ₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery.</p>
         <p>Give it a few weeks of nightly use; results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
-      </div>''')),
+      </div>''') + sec('At night', 'How to use a glutathione night cream', '', '''      <div class="prose">
+        <ol>
+          <li>Wash off the day's dirt, sweat, makeup and sunscreen with a mild cleanser.</li>
+          <li>Pat your face dry. Dry skin can apply the cream while the face is still slightly damp.</li>
+          <li>Take a pea-sized amount, dot it on the forehead, cheeks, chin and neck, and spread a thin layer.</li>
+          <li>Keep it away from the eyes and the inner corners of the lids.</li>
+          <li>Leave it on overnight, and wear sunscreen every morning.</li>
+        </ol>
+        <p>Night cream or day cream? This cream is both. If you use it only once a day, night is the better time: your skin is clean and there is no sun, sweat or makeup on top. More in <a href="/journal/fair-n-pink-night-cream/">Fair N Pink night cream</a> and <a href="/journal/best-night-cream-for-glowing-skin/">how to choose a night cream for glowing skin</a>.</p>
+      </div>''') + sec('With other products', 'Using it with other night products', '', '''      <div class="tbl"><table>
+        <thead><tr><th>If you also use</th><th>What to do</th></tr></thead>
+        <tbody>
+          <tr><td>Retinol</td><td>Use them on different nights at first. See <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a>.</td></tr>
+          <tr><td>Exfoliating acids (glycolic, salicylic)</td><td>Separate nights to begin with, and never with a scrub. See <a href="/journal/glutathione-cream-with-glycolic-acid/">glycolic acid with glutathione cream</a>.</td></tr>
+          <tr><td>A face oil</td><td>Cream first, then one or two drops of oil on top, and only on dry skin.</td></tr>
+          <tr><td>A prescription cream</td><td>Ask your doctor how to combine them before you add anything.</td></tr>
+        </tbody>
+      </table></div>''') + sec('Questions', 'Glutathione night cream: common questions', '', faq_html(NIGHT_FAQ))),
     ('/glutathione-cream-for-face/',
-     'Glutathione Cream for Face with Niacinamide | Fair N Pink, ₹999',
-     'Glutathione face cream with niacinamide and alpha arbutin for glowing, even-looking skin. ₹999, ₹899 paid online, free shipping, Cash on Delivery.',
+     'Glutathione Cream for Face, 10 g | Fair N Pink ₹999',
+     'Glutathione cream for face with niacinamide and alpha arbutin: how to apply it, what it can and cannot do, and who it suits. ₹999, free shipping and COD.',
      'Glutathione Cream for Face', 'Fair N Pink Advance Radiance Cream with niacinamide &amp; alpha arbutin',
      sec('Glutathione face cream', 'A glutathione cream for face, for glowing, even-looking skin', '', '''      <div class="prose">
-        <p>Fair N Pink Advance Radiance Cream is a glutathione cream for face, made for daily use on dull-looking skin and uneven tone. It combines three well-known ingredients in one light, moisturising cream:</p>
+        <p>A glutathione cream for face is a daily cream used to help dull, tired-looking skin look brighter and more even over a few weeks, with sunscreen every morning. It works on the surface of the skin and does not change your natural skin tone. Fair N Pink Advance Radiance Cream is a glutathione cream for face, made for daily use on dull-looking skin and uneven tone. It combines three well-known ingredients in one light, moisturising cream:</p>
         <ul>
           <li><b>L-Glutathione</b>, an antioxidant made of three amino acids, used in creams for a radiant-looking complexion</li>
           <li><b>Niacinamide</b> (vitamin B3), which helps skin look smoother and more even</li>
@@ -525,13 +607,32 @@ AD_LANDINGS = [
         <p>Use a pea-sized amount morning and night: under sunscreen in the day, and as your night cream before bed.</p>
         <p>Glutathione cream price: ₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery. Packs of 2 and 3 cost less per jar.</p>
         <p>Results differ from person to person, so give it a few weeks of daily use. It contains no steroids, mercury, hydroquinone or parabens.</p>
-      </div>''')),
+      </div>''') + sec('How to apply', 'How to use glutathione cream on face', '', '''      <div class="prose">
+        <ol>
+          <li>Patch test first: a little on your inner arm for 24 hours.</li>
+          <li>Wash your face with a mild cleanser and pat it dry.</li>
+          <li>Take a pea-sized amount, dot it on the forehead, cheeks and chin, and spread a thin layer over the face and neck.</li>
+          <li>In the morning, wait a minute or two, then apply sunscreen on top. See <a href="/journal/glutathione-cream-with-sunscreen/">which goes first</a>.</li>
+          <li>At night, apply it after washing and leave it on.</li>
+        </ol>
+        <p>Using it once a day? Choose night. Read <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a>.</p>
+      </div>''') + sec('Honest answer', 'What a glutathione face cream can and cannot do', '', '''      <div class="tbl"><table>
+        <thead><tr><th>It can</th><th>It cannot</th></tr></thead>
+        <tbody>
+          <tr><td>Help dull skin look brighter and fresher</td><td>Change the skin colour you were born with</td></tr>
+          <tr><td>Help dark spots and tan look lighter over weeks, with daily sunscreen</td><td>Remove spots for good, or keep working if you skip sunscreen</td></tr>
+          <tr><td>Moisturise and leave skin feeling soft</td><td>Treat acne, melasma or any skin condition</td></tr>
+        </tbody>
+      </table></div>
+      <div class="prose">
+        <p><b>Cream, tablets or injections?</b> A cream is a cosmetic that works on the surface of the skin. Glutathione tablets and injections are not cosmetics; speak to a doctor before you consider them. For the full picture, read <a href="/journal/glutathione-cream-for-face/">glutathione cream for face: uses and results</a>.</p>
+      </div>''') + sec('Questions', 'Glutathione cream for face: common questions', '', faq_html(FACE_FAQ))),
     ('/niacinamide-alpha-arbutin-cream/',
-     'Niacinamide &amp; Alpha Arbutin Cream for Face | Fair N Pink, ₹999',
-     'Face cream with niacinamide, alpha arbutin and glutathione for the look of dark spots and uneven tone. ₹999, free shipping, Cash on Delivery.',
+     'Niacinamide &amp; Alpha Arbutin Face Cream | Fair N Pink ₹999',
+     'Niacinamide and alpha arbutin cream for face, with glutathione: cream vs serum, how to use it and what to pair it with. ₹999, free shipping, Cash on Delivery.',
      'Niacinamide &amp; Alpha Arbutin Cream', 'Fair N Pink Advance Radiance Cream, with glutathione',
      sec('Ingredients', 'Niacinamide and alpha arbutin cream, with glutathione', '', '''      <div class="prose">
-        <p>Fair N Pink Advance Radiance Cream brings niacinamide and alpha arbutin together with glutathione in one light, moisturising face cream:</p>
+        <p>A niacinamide and alpha arbutin cream combines vitamin B3, which helps skin look smoother and more even, with alpha arbutin, which helps the look of dark spots fade gradually. Yes, the two can be used together, and Fair N Pink Advance Radiance Cream has both, plus L-glutathione, in one light, moisturising face cream:</p>
         <ul>
           <li><b>Niacinamide</b> (vitamin B3), one of the most widely used skincare ingredients, helps skin look smoother and more even</li>
           <li><b>Alpha arbutin</b>, used to help reduce the look of dark spots, marks and uneven tone, gradually</li>
@@ -540,12 +641,30 @@ AD_LANDINGS = [
         <p>Use a pea-sized amount morning and night on clean skin, with sunscreen in the morning. The full ingredient list is printed on every box.</p>
         <p>₹999 for a 10 g jar, or ₹899 when you pay online, with free shipping and Cash on Delivery.</p>
         <p>Results differ from person to person. It contains no steroids, mercury, hydroquinone or parabens.</p>
-      </div>''')),
+      </div>''') + sec('Cream or serum', 'Niacinamide and alpha arbutin: cream or serum?', '', '''      <div class="tbl"><table>
+        <thead><tr><th></th><th>Cream</th><th>Serum</th></tr></thead>
+        <tbody>
+          <tr><td>Texture</td><td>Moisturising; can be the only step after washing</td><td>Thin and watery; needs a moisturiser on top</td></tr>
+          <tr><td>Routine</td><td>One step, morning and night</td><td>An extra step and an extra product</td></tr>
+          <tr><td>Suits</td><td>People who want a simple routine</td><td>People who already like layering</td></tr>
+        </tbody>
+      </table></div>
+      <div class="prose">
+        <p>Already using a niacinamide or alpha arbutin serum? You do not need both. Using the same ingredient twice adds little and can make skin feel warm or tingly, so pick one, or use the serum in the morning and the cream at night and watch how your skin feels.</p>
+      </div>''') + sec('How to use', 'How to use a niacinamide and alpha arbutin cream', '', '''      <div class="prose">
+        <ol>
+          <li>Patch test on your inner arm for 24 hours. The cream contains fragrance.</li>
+          <li>Apply a pea-sized amount to clean, dry skin, morning and night.</li>
+          <li>Finish with sunscreen every morning. Sun brings dark spots back faster than any cream can fade them.</li>
+          <li>Give it weeks, not days, and compare photos in the same daylight.</li>
+        </ol>
+        <p>Pairing it with other actives: vitamin C works well in the morning (<a href="/journal/alpha-arbutin-and-vitamin-c/">alpha arbutin and vitamin C</a>); kojic acid is best kept to separate nights at first (<a href="/journal/alpha-arbutin-and-kojic-acid-together/">alpha arbutin and kojic acid</a>). Why the two are paired is explained in <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin together</a>.</p>
+      </div>''') + sec('Questions', 'Niacinamide and alpha arbutin cream: common questions', '', faq_html(NIA_FAQ))),
 ]
 for _path, _title, _desc, _h, _sub, _intro in AD_LANDINGS:
     _body = HOME_BODY.replace(_h1, '<h1>%s <span class="h1-sub">%s</span></h1>' % (_h, _sub)).replace(BRIGHT_INTRO, _intro)
     assert _intro in _body and _h in _body
-    page(_path, _title, _desc, _body, home=True, schema=product_schema(SITE + _path))
+    page(_path, _title, _desc, _body, home=True, schema=product_schema(SITE + _path) + [faq_schema(LANDING_FAQ[_path])])
 
 # ---------------- Ingredients ----------------
 body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance Cream is built around three ingredients: glutathione, niacinamide and alpha arbutin. Here is what each one is and why it is in the jar.') + '''    <section>
