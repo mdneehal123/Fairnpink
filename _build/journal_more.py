@@ -2596,6 +2596,141 @@ MORE_ARTICLES = [
         <p>Once a week is enough for most people. The cream itself can be used as usual.</p>
         <h3>Does haldi with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-mustard-oil', 'Can you use mustard oil with glutathione cream?',
+     'Mustard Oil with Glutathione Cream: Safe Use and Order',
+     'Can you use mustard oil (sarson ka tel) with glutathione cream? Only a drop on very dry spots after the cream, or skip it. Order, risks, who should skip it.',
+     'How to use', 'Why sarson ka tel is best kept to the body in winter, how to use a drop after a glutathione cream if you still want to, who should skip it on the face and what it cannot do.', '''
+        <p>You can use mustard oil with glutathione cream only in a very small way: a single drop pressed onto a very dry spot after the cream has settled, never as a full-face layer. For most faces it is better to skip it, because sarson ka tel is heavy, has a strong smell and is known to irritate sensitive skin in some people.</p>
+        <p>In many North Indian homes, a winter massage with warm mustard oil before a bath is a habit from childhood, and some people rub the same oil on the face once the cold, dry air arrives. On the body it is a familiar comfort step. On the face, especially with an active cream, it needs more care. Here is how to think about it.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Mustard oil (sarson ka tel)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen oil, rich and pungent</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Softens very dry, rough skin, mainly on the body</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Body massage before a bath; on the face, a drop at night at most</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Heavy, strong smell, can sting or redden some skin, may clog pores</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. If you want to use both: the right order</h2>
+        <ol>
+          <li><b>Patch test the oil first</b> on the side of the jaw for 24 to 48 hours. Any stinging, redness or itching means it is not for your face.</li>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck and let it settle for a few minutes.</li>
+          <li><b>Warm one drop of oil</b> between your fingertips and press it only on a dry patch, such as the outer cheeks or around the mouth. Keep it away from the eyes.</li>
+          <li><b>Do not use it in the morning.</b> Oil under sunscreen makes the face greasy and the sunscreen slide.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Never put the oil first. A layer of oil underneath stops the cream from spreading and reaching the skin evenly. For gentler oils people use the same way, see <a href="/journal/glutathione-cream-with-almond-oil/">glutathione cream with almond oil</a> and <a href="/journal/glutathione-cream-with-coconut-oil/">glutathione cream with coconut oil</a>.</p>
+        <h2>3. Why mustard oil needs more care on the face</h2>
+        <ul>
+          <li><b>It can irritate.</b> Mustard oil is naturally pungent, which is part of why it feels warming. Some people get stinging or redness, especially on thin facial skin.</li>
+          <li><b>It is heavy.</b> On oily or acne-prone skin, a rich oil left on all night often leads to bumps.</li>
+          <li><b>The smell lingers.</b> On the pillow, hair and dupatta.</li>
+          <li><b>It does not help the cream work.</b> The cream works as it is made; oil only adds softness on dry spots.</li>
+        </ul>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or situation</th><th>Mustard oil with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Very dry skin in a North Indian winter</td><td>A drop on dry patches only, after a patch test. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a></td></tr>
+            <tr><td>Normal or combination skin</td><td>Usually not needed. See <a href="/journal/glutathione-cream-for-combination-skin/">glutathione cream for combination skin</a></td></tr>
+            <tr><td>Oily or acne-prone skin</td><td>Skip it on the face. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Sensitive or easily red skin</td><td>Skip it. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Freshly threaded, waxed or bleached skin, or open pimples</td><td>No oil and no active cream until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. A better place for sarson ka tel: the body</h2>
+        <p>If you love the winter oil ritual, keep it where it works well: a warm-oil massage on the arms, legs and feet before a bath, then a lukewarm (not very hot) bath. Pat dry and use a plain body moisturiser on very dry shins and elbows. Use your face cream separately on the face. For the face itself, a plain moisturiser after the glutathione cream is usually kinder than any kitchen oil; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</p>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Mixing the oil into the jar.</b> It makes the cream greasy and can spoil a small 10 g jar.</li>
+          <li><b>Heating the oil until very hot.</b> Lukewarm is enough; hot oil can burn skin.</li>
+          <li><b>Using it with haldi or besan as a "tan pack" and leaving it on.</b> Rinse any pack off. See <a href="/journal/glutathione-cream-with-turmeric/">glutathione cream with turmeric</a>.</li>
+          <li><b>Sitting in the sun with oil on the face.</b> Oil gives no sun protection.</li>
+          <li><b>Expecting tan to fade faster.</b> Tan and dark spots fade slowly. See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It does not need an oil on top to work. Used with sunscreen every morning, it can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get burning, swelling, a rash or peeling after any product, or if dry patches crack, itch a lot or keep coming back.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply mustard oil before or after glutathione cream?</h3>
+        <p>After, and only one drop on a dry spot. Oil underneath stops the cream from spreading evenly.</p>
+        <h3>Can I mix mustard oil into glutathione cream?</h3>
+        <p>No. It makes the cream greasy and can spoil the jar. Keep them as separate steps.</p>
+        <h3>Is mustard oil good for the face in winter?</h3>
+        <p>For most people it is better on the body. On the face it can irritate some skin and clog pores, so patch test first or choose a plain moisturiser.</p>
+        <h3>Can I leave mustard oil on my face overnight?</h3>
+        <p>Only a single drop on a very dry patch, and only if it passed a patch test. Skip it if you are oily or acne-prone.</p>
+        <h3>Does mustard oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Oil only softens dry skin; used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-tomato', 'Can you use tomato with glutathione cream?',
+     'Tomato with Glutathione Cream: Right Order and Tips',
+     'Can you use tomato (tamatar) with glutathione cream? Yes, as a short wash-off step before the cream, after a patch test. Right order, risks, honest results.',
+     'How to use', 'How to use tomato pulp or juice as a short wash-off step before a glutathione cream, why not to mix it into the jar or rub it hard, who should skip it and what tomato cannot do.', '''
+        <p>Yes, you can use tomato with glutathione cream, but as two separate steps: dab a little fresh tomato pulp or juice on clean skin, rinse it off after 5 to 10 minutes, pat dry, then apply the cream. Do not mix tomato into the jar, do not rub tomato slices hard on your face, and patch test first, because tomato is acidic and can sting.</p>
+        <p>Rubbing half a tamatar on the face is one of the most shared Indian "tan removal" tips, and many people try it after a sunny trip or before a function. It can leave skin feeling fresh, but there is no reliable evidence that it removes tan, and it does not change skin colour. Here is how to use it sensibly around your cream.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Fresh tomato pulp or juice</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen ingredient, short wash-off step</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>A refreshing, slightly tingly feel; skin may look less oily for a while</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, 5 to 10 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Acidic, can sting or redden skin, especially if broken or freshly threaded</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Patch test</b> a little tomato juice on the side of the jaw for 10 minutes, rinse, and watch for 24 hours. Burning or redness means skip it.</li>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Blend or mash a small ripe tomato</b> and take a spoon of the pulp or strained juice into a clean bowl. Use it fresh; throw away what is left.</li>
+          <li><b>Dab it on</b> with clean fingers or a cotton pad, away from the eyes, lips and any open pimples. Do not rub a cut tomato on the face; the seeds and edges scratch.</li>
+          <li><b>Rinse after 5 to 10 minutes</b> with lukewarm water, or at once if it stings, and pat dry.</li>
+          <li><b>Wait a few minutes, then apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Once a week is enough. For other kitchen steps people use the same way, see <a href="/journal/glutathione-cream-with-potato-juice/">glutathione cream with potato juice</a> and <a href="/journal/glutathione-cream-with-raw-milk/">raw milk with glutathione cream</a>.</p>
+        <h2>3. Tomato mixes: which are fine and which to skip</h2>
+        <table>
+          <thead><tr><th>Mix</th><th>Use before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Plain tomato juice or pulp</td><td>Yes, 5 to 10 minutes, after a patch test</td></tr>
+            <tr><td>Tomato with curd or honey</td><td>Yes; the curd or honey makes it a little milder. See <a href="/journal/glutathione-cream-with-honey/">glutathione cream with honey</a></td></tr>
+            <tr><td>Tomato with besan or multani mitti</td><td>Fine as a wash-off pack; rinse before it cracks. See <a href="/journal/glutathione-cream-with-multani-mitti/">glutathione cream with multani mitti</a></td></tr>
+            <tr><td>Tomato with sugar as a scrub</td><td>No; scrubbing acidic juice into skin often causes redness</td></tr>
+            <tr><td>Tomato with lemon or baking soda</td><td>No; these sting and dry the skin. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Why not mix tomato into the cream</h2>
+        <ul>
+          <li><b>It can spoil the jar.</b> Fresh juice brings in water and germs, and a 10 g jar has little room for that.</li>
+          <li><b>It would sit on your skin all night.</b> An acidic food left on for hours is far more likely to irritate than a short rinse-off step.</li>
+          <li><b>It adds nothing useful.</b> The cream works as it is made.</li>
+        </ul>
+        <h2>5. Who should skip it</h2>
+        <ul>
+          <li>Sensitive or easily red skin. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li>Skin that was just threaded, waxed, bleached or exfoliated, or that has open pimples or sunburn. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a>.</li>
+          <li>Very dry winter skin that already feels tight; acid on dry skin often stings.</li>
+          <li>Anyone with a known tomato allergy.</li>
+        </ul>
+        <h2>6. Honest expectations about tan</h2>
+        <p>Tan on the face and arms fades as skin renews itself and when you stop adding new sun. Tomato does not speed this up in any reliable way. What helps most is daily sunscreen, covering up in strong sun and steady use of a cream over weeks. See <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a> and <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Once both pass a patch test, a rinsed-off tomato step before the cream is fine for most people. Used with sunscreen every morning, the cream can help skin look brighter and tan look lighter over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get burning, swelling, a rash or peeling after any product, or if you have patchy brown marks such as melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply tomato before or after glutathione cream?</h3>
+        <p>Before, and rinse it off. Use it for 5 to 10 minutes on clean skin, pat dry, then apply the cream.</p>
+        <h3>Can I mix tomato juice into glutathione cream?</h3>
+        <p>No. It can spoil the jar and would leave acidic juice on your skin all night. Keep them as separate steps.</p>
+        <h3>Can I rub tomato on my face every day?</h3>
+        <p>It is better not to. Once a week is enough; daily acidic juice often leaves skin dry or irritated.</p>
+        <h3>Does tomato remove tan?</h3>
+        <p>There is no reliable evidence that it does. Sunscreen every day and patience do more for tan than any kitchen remedy.</p>
+        <h3>Does tomato with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
@@ -2641,5 +2776,7 @@ SHORT.update({
  'lemon-with-glutathione-cream': 'It is better not to. Raw lemon juice is strongly acidic, often stings or dries skin, and with sun can leave burn-like dark marks. Never mix it into the jar; use sunscreen every morning and, if you want vitamin C, a serum made for skin instead.',
  'glutathione-cream-with-honey': 'Yes, as a separate step: spread a thin layer of plain honey on clean skin, rinse after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix honey into the jar, skip it with a bee-product allergy, and use it once or twice a week.',
  'glutathione-cream-with-turmeric': 'Yes, as a separate step: use a small pinch of haldi in a besan, curd or milk pack, rinse after about 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix haldi into the jar; it stains and does not change skin colour.',
+ 'glutathione-cream-with-mustard-oil': 'Only in a small way: apply the glutathione cream first, let it settle, then press a single drop of mustard oil on a very dry patch at night, after a patch test. Skip it on oily, acne-prone or sensitive skin; sarson ka tel is better kept for body massage.',
+ 'glutathione-cream-with-tomato': 'Yes, as a separate step: dab fresh tomato juice or pulp on clean skin, rinse after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Patch test first, never mix it into the jar, and do not expect it to remove tan.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
