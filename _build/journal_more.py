@@ -2731,8 +2731,129 @@ MORE_ARTICLES = [
         <p>There is no reliable evidence that it does. Sunscreen every day and patience do more for tan than any kitchen remedy.</p>
         <h3>Does tomato with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
+    ('glutathione-cream-for-freckles', 'Glutathione cream for freckles: what it can and cannot do',
+     'Glutathione Cream for Freckles: Honest Guide and Routine',
+     'Can glutathione cream help freckles? Freckles come from sun, so sunscreen matters most. What a cream can do, a simple routine, when to see a dermatologist.',
+     'Skin concerns', 'Why freckles darken in the sun, what a glutathione cream can and cannot do for them, a simple routine and which spots need a dermatologist.', '''
+        <p>A glutathione cream may help freckles look a little lighter and less noticeable over 8 to 12 weeks, but only if you wear sunscreen every single morning, because freckles darken whenever skin gets sun. It will not make freckles disappear, and they usually come back with new sun, so the cream is a support step and sunscreen is the main one.</p>
+        <p>Freckles are small, flat, light-brown dots, usually on the cheeks and nose, that get darker in summer and fade a little in winter. In India they often show up after beach trips, outdoor jobs, long two-wheeler rides or simply years of daily sun. This guide explains what actually helps, and how to tell freckles from spots that need a doctor.</p>
+        <h2>1. Freckles, sun spots and melasma: how to tell them apart</h2>
+        <table>
+          <thead><tr><th></th><th>Freckles</th><th>Sun spots</th><th>Melasma</th></tr></thead>
+          <tbody>
+            <tr><td>Look</td><td>Many small, light-brown dots</td><td>Fewer, larger, flat brown patches</td><td>Larger brown or grey-brown patches, often on both cheeks, forehead or upper lip</td></tr>
+            <tr><td>When they appear</td><td>Often from childhood or youth; darker after sun</td><td>Usually after years of sun, from the 30s onward</td><td>Often linked to hormones, pregnancy and heat, as well as sun</td></tr>
+            <tr><td>Change with seasons</td><td>Darker in summer, lighter in winter</td><td>Stay through the year</td><td>Can flare with sun and heat</td></tr>
+            <tr><td>Can a cosmetic cream help?</td><td>A little, with strict sunscreen</td><td>A little, slowly, with strict sunscreen</td><td>See a dermatologist first</td></tr>
+          </tbody>
+        </table>
+        <p>If you are not sure which you have, a dermatologist can tell in one visit. For general dark marks, read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
+        <h2>2. Why sunscreen matters more than any cream</h2>
+        <p>Freckles are spots where skin makes more pigment when sunlight reaches it. Every unprotected day can darken them again, so a cream used at night cannot keep up if mornings are skipped.</p>
+        <ul>
+          <li>Use a broad-spectrum SPF 30 or higher every morning, about two finger-lengths for the face and neck, including the nose and the tops of the cheeks.</li>
+          <li>Reapply before going out again after lunch, and after sweating or wiping your face.</li>
+          <li>Wear it on cloudy days and in winter too; UV still reaches the skin.</li>
+          <li>Add a cap, a dupatta or a scarf on long outdoor days and rides.</li>
+        </ul>
+        <p>For layering, see <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>3. What a glutathione cream can do for freckles</h2>
+        <p>Glutathione, niacinamide and alpha arbutin are cosmetic ingredients used in creams to help dark spots and uneven tone look lighter and more even over weeks. On freckles, that usually means the dots may look softer and blend in a little better with the skin around them. They will not vanish, and they will not stay lighter without sun protection. It does not change your natural skin colour.</p>
+        <h2>4. A simple routine for freckles</h2>
+        <ol>
+          <li><b>Patch test</b> the cream on the side of the jaw for 2 to 3 days first.</li>
+          <li><b>Morning:</b> wash with a gentle face wash, pat dry, apply a thin layer of the cream, wait a few minutes, then sunscreen as the last step.</li>
+          <li><b>During the day:</b> reapply sunscreen when you go out again.</li>
+          <li><b>Night:</b> wash off sunscreen and dust, pat dry, and apply a pea-sized amount of the cream on the face and neck.</li>
+          <li><b>Be patient:</b> judge progress after 8 to 12 weeks, with photos in the same light, not every day in the mirror.</li>
+        </ol>
+        <p>For how much to use and how often, see <a href="/journal/can-we-use-glutathione-cream-daily/">can we use glutathione cream daily</a>.</p>
+        <h2>5. Things that make freckles look worse</h2>
+        <ul>
+          <li><b>Lemon, baking soda or toothpaste</b> on the face. They irritate skin, and irritated skin can darken more. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Hard scrubbing</b> to "rub off" the dots. Freckles are in the skin, not on top of it.</li>
+          <li><b>Bleach creams or unknown "freckle removal" creams</b> with no full ingredient list; some contain steroids or other harsh ingredients.</li>
+          <li><b>Skipping sunscreen on holidays</b>, at the beach or on hill trips, where sun is strongest.</li>
+        </ul>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar. Used morning and night with sunscreen every day, it can help freckles and tan look a little lighter and skin look more even over 8 to 12 weeks. It does not remove freckles or change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and <a href="/ingredients/">what is inside</a>.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if a spot is new after the age of about 30, grows, changes shape or colour, has uneven edges, is raised, itches or bleeds, or looks different from your other spots. Also see one for large patches that may be melasma, or if you are pregnant or breastfeeding before starting any new cream. These need a proper check, not a cosmetic cream.</p>
+        <h2>FAQ</h2>
+        <h3>Can glutathione cream remove freckles?</h3>
+        <p>No. It may help freckles look a little lighter and less noticeable over weeks, with daily sunscreen, but they usually come back with new sun.</p>
+        <h3>How long does it take for freckles to look lighter?</h3>
+        <p>Give it at least 8 to 12 weeks of steady use with sunscreen every morning. Freckles also fade a little on their own in winter.</p>
+        <h3>Can I use glutathione cream on freckles in the morning?</h3>
+        <p>Yes, a thin layer under sunscreen is fine for Fair N Pink, which has no retinol. Always finish with sunscreen.</p>
+        <h3>Are freckles a skin problem?</h3>
+        <p>Usually not. Ordinary freckles are harmless. Only spots that change, grow, bleed or look different need a dermatologist.</p>
+        <h3>Does glutathione cream make skin fair?</h3>
+        <p>No. It does not change your natural skin colour. Used with sunscreen, it can help spots and tan look lighter and skin look more even over weeks.</p>'''),
+    ('glutathione-cream-for-dark-upper-lip', 'Glutathione cream for dark upper lip area: causes and a gentle routine',
+     'Glutathione Cream for Dark Upper Lip: Causes and Routine',
+     'Can glutathione cream help a dark upper lip? Common causes like threading, waxing and sun, a gentle routine, what to avoid, and when to see a dermatologist.',
+     'Skin concerns', 'Why the skin above the lip gets darker, how to use a glutathione cream gently there, what to avoid after threading or bleach, and when to see a dermatologist.', '''
+        <p>A glutathione cream can help a dark upper lip area look a little lighter and more even over 8 to 12 weeks, if you use a small amount gently, stop rubbing and irritating the area, and wear sunscreen there every morning. Keep the cream on the skin above the lip, not on the lips themselves, and see a dermatologist if the darkness looks like a patch that may be melasma.</p>
+        <p>A darker shadow above the lip is very common in India. It usually comes from small, repeated irritation (threading, waxing, bleach, hair removal creams), sun and sometimes hormones. Because the skin here is thin and moves a lot, it needs a gentler routine than the cheeks.</p>
+        <h2>1. Common causes of a dark upper lip</h2>
+        <table>
+          <thead><tr><th>Cause</th><th>What it looks like</th><th>What helps</th></tr></thead>
+          <tbody>
+            <tr><td>Threading, waxing, bleach or hair removal creams</td><td>Darker after each session, sometimes with redness or bumps</td><td>Gentler hair removal, longer gaps, soothing care for 1 to 2 days after</td></tr>
+            <tr><td>Sun</td><td>Darker in summer, after rides or outdoor days</td><td>Sunscreen on the upper lip every morning, reapplied</td></tr>
+            <tr><td>Licking or rubbing the lips</td><td>Dry, rough, darker skin around the lip line</td><td>Lip balm, stop licking, gentle care</td></tr>
+            <tr><td>Melasma or hormonal changes</td><td>A broad, even brown band, often with patches on cheeks or forehead</td><td>See a dermatologist first</td></tr>
+          </tbody>
+        </table>
+        <p>For other areas that darken from friction and sun, see <a href="/journal/glutathione-cream-for-dark-neck/">glutathione cream for dark neck</a>.</p>
+        <h2>2. A gentle routine for the upper lip</h2>
+        <ol>
+          <li><b>Patch test</b> the cream on the side of the jaw for 2 to 3 days first; the upper lip is more sensitive.</li>
+          <li><b>Night:</b> wash with a gentle face wash, pat dry, and wait a few minutes so the skin is fully dry.</li>
+          <li><b>Apply a rice-grain amount</b> of cream with one fingertip, pressing it softly onto the skin above the lip. Stay a few millimetres away from the lip line.</li>
+          <li><b>Put lip balm on the lips</b> afterwards so they stay soft and the cream does not spread onto them.</li>
+          <li><b>Morning:</b> a thin layer of cream if you like, then sunscreen on the upper lip as well as the rest of the face.</li>
+          <li><b>Judge after 8 to 12 weeks</b>, with photos in the same light.</li>
+        </ol>
+        <p>Start every other night if your skin is sensitive. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</p>
+        <h2>3. Threading, waxing and bleach: plan around them</h2>
+        <p>Each session slightly irritates the skin, and repeated irritation is one of the most common reasons the upper lip looks darker.</p>
+        <ul>
+          <li>Skip the cream for about 24 hours after threading or waxing, and for 2 to 3 days after bleach. Use a plain moisturiser and cool water instead.</li>
+          <li>Do not bleach the upper lip often; bleach on thin skin can leave it red and irritated.</li>
+          <li>Leave longer gaps between sessions if you can, and go to someone who works hygienically.</li>
+          <li>If you get bumps or burning after hair removal, let the skin settle fully before using any cream there.</li>
+        </ul>
+        <p>Read <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a> for exact timings.</p>
+        <h2>4. Sunscreen on the upper lip</h2>
+        <p>The upper lip is often missed when applying sunscreen, and sweat wipes it off quickly. Dab a little extra above the lip every morning, reapply after lunch or after wiping your face, and cover your face on long rides. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>5. What to avoid</h2>
+        <ul>
+          <li><b>Lemon, baking soda, toothpaste or potato scrubs</b> on the upper lip. Irritation here often makes it darker. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Rubbing or scrubbing</b> the area, or wiping it hard with a towel.</li>
+          <li><b>Thick layers of cream</b>; more product means more chance of stinging, not faster results.</li>
+          <li><b>Unknown creams with no full ingredient list</b>, especially those promising fast results.</li>
+        </ul>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so a rice-grain amount can be used gently above the lip, morning and night, with sunscreen every day. Over 8 to 12 weeks it can help the area look a little lighter and more even. It does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if the darkness is a broad patch that also appears on the cheeks or forehead (possible melasma), appeared during pregnancy or after starting a medicine, keeps getting darker despite sunscreen, or comes with itching, burning, peeling or rash. Melasma and irritation need a proper diagnosis, and a cosmetic cream alone is not the answer.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream on my upper lip?</h3>
+        <p>Yes, on the skin above the lip, in a rice-grain amount, after a patch test. Keep it off the lips themselves and skip it right after threading, waxing or bleach.</p>
+        <h3>Why is my upper lip darker than the rest of my face?</h3>
+        <p>Usually from repeated threading, waxing or bleach, sun, and lip licking. Hormonal patches such as melasma can also show up there.</p>
+        <h3>How long does it take to see a difference?</h3>
+        <p>Give it 8 to 12 weeks of gentle, steady use with sunscreen every morning, and less irritation from hair removal.</p>
+        <h3>Can I use the cream on my lips?</h3>
+        <p>No. Lips are very thin and need a plain lip balm, not an active face cream.</p>
+        <h3>Does glutathione cream make the upper lip fair?</h3>
+        <p>No. It does not change your natural skin colour. It can help darkness from sun and irritation look a little lighter and more even over weeks.</p>'''),
 ]
 SHORT.update({
+ 'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
+ 'glutathione-cream-for-dark-upper-lip': 'A glutathione cream can help a dark upper lip area look a little lighter over 8 to 12 weeks: use a rice-grain amount above the lip, not on the lips, skip it after threading, waxing or bleach, and wear sunscreen every morning. A broad patch may be melasma; see a dermatologist.',
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
  'kumkumadi-oil-with-glutathione-cream': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 2 to 3 drops of kumkumadi oil on top at night only, with sunscreen every morning. It suits dry winter skin best; oily and acne-prone skin can usually skip the oil.',
  'glutathione-cream-for-acne-prone-skin': 'Most acne-prone skin can use a light glutathione cream in a thin layer at night, introduced slowly after a jawline patch test, with oil-free sunscreen every morning. It does not treat active pimples, but can help flat dark marks look lighter over 8 to 12 weeks.',
