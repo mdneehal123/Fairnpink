@@ -2850,6 +2850,146 @@ MORE_ARTICLES = [
         <p>No. Lips are very thin and need a plain lip balm, not an active face cream.</p>
         <h3>Does glutathione cream make the upper lip fair?</h3>
         <p>No. It does not change your natural skin colour. It can help darkness from sun and irritation look a little lighter and more even over weeks.</p>'''),
+    ('glutathione-cream-with-sandalwood', 'Can you use sandalwood (chandan) with glutathione cream?',
+     'Sandalwood with Glutathione Cream: Right Order and Tips',
+     'Can you use sandalwood (chandan) with glutathione cream? Yes, as a short wash-off pack before the cream. Right order, oil warning, honest results.',
+     'How to use', 'How to use a chandan powder pack as a short wash-off step before a glutathione cream, why sandalwood oil is a different story, who should skip it and what chandan cannot do.', '''
+        <p>You can use sandalwood with glutathione cream as a short wash-off pack before the cream: mix a little chandan powder with rose water or milk, leave it for about 10 minutes, rinse it off, pat dry and then apply the cream. Do not mix chandan into the jar, and do not put sandalwood essential oil straight on your face.</p>
+        <p>Chandan packs are one of the oldest Indian beauty habits, loved for the cool feel and the scent, and haldi-chandan ubtan is everywhere in wedding season. A pack like this can leave skin feeling fresh and smooth. Here is how to fit it around a glutathione cream without irritating your skin.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Chandan pack (powder + rose water or milk)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Wash-off face pack</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Cooling feel, leaves skin feeling clean and smooth</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>How long on skin</td><td>About 10 minutes, rinsed before it dries hard</td><td>Stays on; morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Can dry or irritate some skin; powders vary a lot in quality</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order on a pack day</h2>
+        <ol>
+          <li><b>Patch test the pack first</b> on the side of the jaw. Any stinging, redness or itching means it is not for your face.</li>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Mix</b> about 1 teaspoon of chandan powder with enough rose water or cold milk to make a smooth paste. Make it fresh each time.</li>
+          <li><b>Apply a thin layer</b>, avoiding the eyes and lips, and leave it for about 10 minutes. Rinse while it is still slightly damp; a pack that dries and cracks pulls at the skin.</li>
+          <li><b>Rinse with plain water</b>, using your fingers gently. Do not scrub the paste off.</li>
+          <li><b>Pat dry, wait a minute, then apply a pea-sized amount of glutathione cream</b> on the face and neck.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher, as the last step. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Once or twice a week is plenty. If you use other packs, see <a href="/journal/glutathione-cream-with-multani-mitti/">glutathione cream with multani mitti</a> and <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a>; they follow the same rinse-first rule.</p>
+        <h2>3. Chandan powder vs sandalwood oil</h2>
+        <p>These are not the same thing on the face.</p>
+        <ul>
+          <li><b>Chandan powder</b> is used in small amounts in a wash-off pack, so it touches skin for only a few minutes.</li>
+          <li><b>Sandalwood essential oil</b> is a strong, concentrated fragrance oil. Put straight on the face, it can sting or cause a rash in some people. Do not dab it neat on skin, and do not add it to your cream.</li>
+          <li><b>"Sandal" creams and soaps</b> often contain added perfume. If your skin is sensitive, a fragrance-heavy product is a common reason for redness.</li>
+        </ul>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or situation</th><th>Chandan pack before the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Oily or combination skin</td><td>Usually fine once or twice a week, mixed with rose water</td></tr>
+            <tr><td>Dry skin in winter</td><td>Mix with milk instead of water, keep it short, and moisturise well after. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a></td></tr>
+            <tr><td>Sensitive or easily red skin</td><td>Patch test for 2 to 3 days first, or skip it. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Active, painful pimples</td><td>Skip packs on broken skin. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Freshly threaded, waxed or bleached skin</td><td>No pack and no active cream until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Chandan in wedding season</h2>
+        <p>Haldi-chandan ubtan is part of many pre-wedding rituals. If you are using a glutathione cream in the weeks before a wedding, keep any ubtan or chandan pack gentle, rinse it off, and do not try a new pack in the last week before the day. For the full method, see <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a> and <a href="/journal/glutathione-cream-with-turmeric/">glutathione cream with turmeric</a>. On the function day itself, see <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.</p>
+        <h2>6. Mistakes to avoid</h2>
+        <ul>
+          <li><b>Mixing chandan powder into the jar.</b> It makes the cream gritty and can spoil a small 10 g jar.</li>
+          <li><b>Adding lemon to "boost" the pack.</b> Raw lemon often stings and can leave dark marks in the sun.</li>
+          <li><b>Leaving the pack on until it cracks</b>, or sleeping in it.</li>
+          <li><b>Buying very cheap "pure sandal" powder with no label.</b> Choose a packed powder with an ingredient list and a date.</li>
+          <li><b>Expecting tan to go after one pack.</b> Tan and dark spots fade slowly. See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It does not need a pack to work; a chandan pack is just an optional fresh-feeling step before it. Used with sunscreen every morning, the cream can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get burning, swelling, a rash or peeling after any pack or cream, or if you have patches that keep spreading.</p>
+        <h2>FAQ</h2>
+        <h3>Should I use the chandan pack before or after glutathione cream?</h3>
+        <p>Before. Rinse the pack off, pat dry, then apply the cream. A pack on top of the cream would wipe it away.</p>
+        <h3>Can I mix chandan powder into glutathione cream?</h3>
+        <p>No. It makes the cream gritty and can spoil the jar. Keep the pack as a separate wash-off step.</p>
+        <h3>How often can I use a chandan pack with glutathione cream?</h3>
+        <p>Once or twice a week is enough for most skin. Daily packs can leave skin dry and tight.</p>
+        <h3>Can I apply sandalwood oil with glutathione cream?</h3>
+        <p>Not neat on the face. Sandalwood essential oil is a strong fragrance oil that can irritate. Stick to a powder pack that you rinse off.</p>
+        <h3>Does chandan with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. A chandan pack leaves skin feeling fresh; used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-ghee', 'Can you use ghee with glutathione cream?',
+     'Ghee with Glutathione Cream: Safe Use and Right Order',
+     'Can you use desi ghee with glutathione cream? Only a tiny dab on very dry patches or lips after the cream. Right order, who should skip it.',
+     'How to use', 'How to use a tiny dab of desi ghee after a glutathione cream on very dry winter patches and lips, why not to coat the face or mix it into the jar, and who should skip it.', '''
+        <p>You can use ghee with glutathione cream only in a small way: apply the cream first, let it settle, then press a rice-grain amount of plain desi ghee onto a very dry patch or the lips at night. Do not coat your whole face with ghee, and never mix it into the cream jar.</p>
+        <p>Rubbing a little ghee on dry lips, cracked heels or rough cheeks is a winter habit in many Indian homes, and "ghee on face overnight" is shared widely every winter. Ghee is a rich fat that can make very dry skin feel soft, but it is heavy, it can clog pores on oily skin, and it does nothing for tan or dark spots. Here is how to use it sensibly.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Desi ghee</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen fat, rich and greasy</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Forms a soft layer on very dry, flaky spots</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best place</td><td>Lips, dry patches, heels and cuticles</td><td>Face and neck, morning (under sunscreen) and night</td></tr>
+            <tr><td>Limits</td><td>Heavy, can clog pores, smells, goes stale</td><td>Works slowly; needs sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <h2>2. If you want to use both: the right order</h2>
+        <ol>
+          <li><b>Patch test</b> a tiny dab of ghee on the jaw for 2 nights if you plan to use it on the face.</li>
+          <li><b>Wash</b> with a gentle face wash and pat dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> on the face and neck and let it settle for a few minutes.</li>
+          <li><b>Take a rice-grain amount of ghee</b> with a clean fingertip, warm it between two fingers and press it only onto a very dry spot, such as flaky skin beside the nose or the outer cheeks.</li>
+          <li><b>Use a little on the lips</b> instead of the cream; the cream should stay off the lips.</li>
+          <li><b>Night only.</b> Ghee under sunscreen makes the face greasy and the sunscreen slide.</li>
+          <li><b>Every morning:</b> sunscreen, SPF 30 or higher. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ol>
+        <p>Never put ghee first. A layer of fat underneath stops the cream from spreading evenly. For lighter options people use the same way, see <a href="/journal/glutathione-cream-with-almond-oil/">glutathione cream with almond oil</a> and <a href="/journal/glutathione-cream-with-coconut-oil/">glutathione cream with coconut oil</a>.</p>
+        <h2>3. Why a full-face ghee layer is a bad idea</h2>
+        <ul>
+          <li><b>It is very heavy.</b> On oily, combination or acne-prone skin, ghee left on all night often leads to bumps and whiteheads.</li>
+          <li><b>It traps sweat and dust.</b> In a warm room or a humid city, a greasy layer is uncomfortable and can feel sticky by morning.</li>
+          <li><b>It smells and stains.</b> On pillows, hair and dupattas, and old ghee smells sour.</li>
+          <li><b>It does not help the cream work.</b> The cream works as it is made; ghee only softens dry spots.</li>
+        </ul>
+        <h2>4. Who should use it, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin type or situation</th><th>Ghee with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Very dry skin in a cold North Indian winter</td><td>A rice-grain dab on dry patches only. See <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a></td></tr>
+            <tr><td>Dry, cracked lips</td><td>Yes, a thin layer on the lips at night, instead of the cream</td></tr>
+            <tr><td>Normal or combination skin</td><td>Usually not needed on the face. A plain moisturiser is lighter. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Oily or acne-prone skin</td><td>Skip it on the face. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Dairy allergy, or skin that itches after ghee</td><td>Do not use it</td></tr>
+            <tr><td>Freshly threaded, waxed or bleached skin</td><td>No active cream until skin is calm. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. A better place for ghee: lips, heels and hands</h2>
+        <p>Ghee does its best work where skin is thick or very dry: lips, cracked heels, rough knuckles and cuticles. A thin layer at night, with cotton socks over the heels, is a comfortable winter step. Keep your face routine separate: cream on the face, ghee on the lips and feet. For the area just above the lip, see <a href="/journal/glutathione-cream-for-dark-upper-lip/">glutathione cream for dark upper lip</a>.</p>
+        <h2>6. Using ghee cleanly</h2>
+        <ul>
+          <li><b>Keep a small separate bowl</b> of plain ghee for skin, so kitchen spoons and fingers do not go into it.</li>
+          <li><b>Use plain ghee only</b>, with no salt, spices or added flavour.</li>
+          <li><b>Throw it away</b> if it smells sour or stale.</li>
+          <li><b>Never mix ghee into the jar.</b> It makes the cream greasy and can spoil a small 10 g jar.</li>
+          <li><b>Do not sit in the sun with ghee on your face.</b> It gives no sun protection.</li>
+          <li><b>Do not expect tan to fade faster.</b> Tan and dark spots fade slowly. See <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It does not need ghee on top to work. Used with sunscreen every morning, it can help skin look brighter and more even over 8 to 12 weeks; it does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <p>See a dermatologist if you get a rash, itching or many new bumps after any product, or if dry patches crack, bleed or keep coming back.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply ghee before or after glutathione cream?</h3>
+        <p>After, and only a tiny dab on very dry spots. Ghee underneath stops the cream from spreading evenly.</p>
+        <h3>Can I mix ghee into glutathione cream?</h3>
+        <p>No. It makes the cream greasy and can spoil the jar. Keep them as separate steps.</p>
+        <h3>Can I leave ghee on my face overnight?</h3>
+        <p>Only a rice-grain amount on a very dry patch. A full-face layer often clogs pores, especially on oily or acne-prone skin.</p>
+        <h3>Is ghee good for dry lips in winter?</h3>
+        <p>Many people find a thin layer of plain ghee on the lips at night comforting. Keep the glutathione cream off the lips.</p>
+        <h3>Does ghee with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Ghee only softens dry skin; used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -2899,5 +3039,7 @@ SHORT.update({
  'glutathione-cream-with-turmeric': 'Yes, as a separate step: use a small pinch of haldi in a besan, curd or milk pack, rinse after about 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix haldi into the jar; it stains and does not change skin colour.',
  'glutathione-cream-with-mustard-oil': 'Only in a small way: apply the glutathione cream first, let it settle, then press a single drop of mustard oil on a very dry patch at night, after a patch test. Skip it on oily, acne-prone or sensitive skin; sarson ka tel is better kept for body massage.',
  'glutathione-cream-with-tomato': 'Yes, as a separate step: dab fresh tomato juice or pulp on clean skin, rinse after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Patch test first, never mix it into the jar, and do not expect it to remove tan.',
+ 'glutathione-cream-with-sandalwood': 'Yes, as a separate step: mix chandan powder with rose water or milk, leave the pack on for about 10 minutes, rinse, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix chandan into the jar, and do not put sandalwood essential oil straight on the face.',
+ 'glutathione-cream-with-ghee': 'Only in a small way: apply the glutathione cream first, let it settle, then press a rice-grain amount of plain ghee on a very dry patch or the lips at night. Never mix it into the jar, and skip ghee on oily or acne-prone faces; it suits lips and heels best.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
