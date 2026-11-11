@@ -2990,6 +2990,125 @@ MORE_ARTICLES = [
         <p>Many people find a thin layer of plain ghee on the lips at night comforting. Keep the glutathione cream off the lips.</p>
         <h3>Does ghee with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Ghee only softens dry skin; used with sunscreen, the cream can help skin look brighter and tan look lighter over weeks.</p>'''),
+    ('glutathione-cream-for-dark-forehead', 'Glutathione cream for dark forehead: causes and a gentle routine',
+     'Glutathione Cream for Dark Forehead: Causes and Routine',
+     'Can glutathione cream help a dark forehead? Causes like sun, caps, helmets and hair oil, a gentle routine, what to avoid, and when to see a dermatologist.',
+     'Skin concerns', 'Why the forehead often looks darker than the rest of the face, how to use a glutathione cream there, what to avoid, and when to see a dermatologist.', '''
+        <p>A glutathione cream can help a dark forehead look a little lighter and more even over 8 to 12 weeks, if you use a thin layer every day, wear sunscreen right up to the hairline every morning, and cut down the rubbing and sun that caused it. It will not change your natural skin colour, and a broad patch that also shows on the cheeks may be melasma, which needs a dermatologist.</p>
+        <p>The forehead is the part of the face that catches the most direct sun, and it is often the first place sunscreen is missed. Sweat bands from helmets and caps, hair oil running down at night and rubbing with a dupatta or towel all add up. That is why many people in India notice their forehead looks a shade darker than their cheeks.</p>
+        <h2>1. Common causes of a dark forehead</h2>
+        <table>
+          <thead><tr><th>Cause</th><th>What it looks like</th><th>What helps</th></tr></thead>
+          <tbody>
+            <tr><td>Sun and tan</td><td>Darker after summer, rides or outdoor work; a line where a cap ends</td><td>Sunscreen up to the hairline every morning, reapplied; a cap or umbrella outdoors</td></tr>
+            <tr><td>Helmet, cap or headband rubbing</td><td>A darker band across the forehead, sometimes with small bumps</td><td>A clean cotton liner, washing the face after rides, a light cream</td></tr>
+            <tr><td>Hair oil and heavy hair products</td><td>Dull, rough skin along the hairline, small pimples</td><td>Oil only on the scalp, washed off before long, a clean pillowcase</td></tr>
+            <tr><td>Marks after pimples</td><td>Flat brown spots where pimples used to be</td><td>No picking, sunscreen, patience</td></tr>
+            <tr><td>Melasma or hormonal patches</td><td>A broad, even brown patch, often on both cheeks too</td><td>See a dermatologist first</td></tr>
+          </tbody>
+        </table>
+        <p>For tan on other areas, read <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>.</p>
+        <h2>2. A simple daily routine for the forehead</h2>
+        <ol>
+          <li><b>Patch test</b> the cream on the side of the jaw for 2 to 3 days first.</li>
+          <li><b>Night:</b> wash your face gently, especially along the hairline where sweat, oil and sunscreen collect, and pat dry.</li>
+          <li><b>Apply a thin layer</b>, about half a pea-sized amount for the forehead, spreading it from the brows up to the hairline and out to the temples.</li>
+          <li><b>Morning:</b> a thin layer of cream if you like, then sunscreen, SPF 30 or higher, up to the hairline and on the temples.</li>
+          <li><b>Reapply sunscreen</b> after lunch, and after wiping a sweaty forehead.</li>
+          <li><b>Judge after 8 to 12 weeks</b>, with photos in the same light, not every few days in the mirror.</li>
+        </ol>
+        <p>If your forehead is oily, keep the layer very thin; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</p>
+        <h2>3. Helmets, caps and hair oil</h2>
+        <ul>
+          <li><b>Helmets:</b> wear a thin cotton cap or cloth under the helmet and wash it often. Wash or rinse your face after long rides.</li>
+          <li><b>Caps and headbands:</b> keep them clean; a sweaty band rubbing all day is a common cause of a darker strip.</li>
+          <li><b>Hair oil:</b> apply it on the scalp, not the forehead, and wash it out the next morning. Overnight oil that runs down can clog pores along the hairline.</li>
+          <li><b>Towels and dupattas:</b> pat your forehead dry instead of rubbing.</li>
+        </ul>
+        <h2>4. Sunscreen: the step most people skip</h2>
+        <p>The forehead faces the sun directly, so it tans faster than the rest of the face. Spread sunscreen right up into the hairline and onto the temples, not just the middle. Sweat wipes it off quickly, so reapply after lunch or after wiping your face. Without this step, any cream will struggle. See <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>5. What to avoid</h2>
+        <ul>
+          <li><b>Lemon, baking soda or toothpaste</b> on the forehead. Irritation often makes darkness look worse. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Harsh scrubs every day.</b> Rubbing is one of the causes, not the answer.</li>
+          <li><b>Picking pimples</b> on the forehead; it leaves longer-lasting marks. See <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a>.</li>
+          <li><b>Unknown creams</b> with no full ingredient list, or that promise fast or big changes.</li>
+        </ul>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so a thin layer can be used on the forehead morning and night, with sunscreen every day. Over 8 to 12 weeks it can help a sun-darkened forehead look brighter and more even. It does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and <a href="/ingredients/">what is inside</a>.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if the darkness is a broad patch that also appears on the cheeks or above the lip (possible melasma), appeared during pregnancy or after starting a medicine, keeps getting darker despite sunscreen, or comes with itching, scaling, burning or a rash along the hairline. These need a proper diagnosis, and a cosmetic cream alone is not the answer.</p>
+        <h2>FAQ</h2>
+        <h3>Why is my forehead darker than the rest of my face?</h3>
+        <p>Usually because it gets the most direct sun and is often missed with sunscreen. Helmets, caps, hair oil and rubbing can add to it. A broad patch that also shows on the cheeks can be melasma.</p>
+        <h3>Can I apply glutathione cream on my forehead every day?</h3>
+        <p>Yes, a thin layer once or twice a day suits most skin after a patch test, with sunscreen every morning. Use less if your forehead is oily.</p>
+        <h3>How long does it take to see a difference?</h3>
+        <p>Give it 8 to 12 weeks of steady use with daily sunscreen. Read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h3>Can I use the cream along the hairline?</h3>
+        <p>Yes, up to the hairline, but keep it out of the eyes and wash your hands after applying.</p>
+        <h3>Does glutathione cream make the forehead fair?</h3>
+        <p>No. It does not change your natural skin colour. It can help darkness from sun and rubbing look a little lighter and more even over weeks.</p>'''),
+    ('glutathione-cream-after-shaving', 'Can you use glutathione cream after shaving?',
+     'Glutathione Cream After Shaving: When and How to Apply',
+     'Can you use glutathione cream after shaving? Wait time, how to apply it on the beard area, what to do with cuts or razor bumps, and a simple routine for men.',
+     'Ingredients and routines', 'When to apply a glutathione cream after shaving, how to look after the beard area, what to do with nicks and razor bumps, and a simple routine for men.', '''
+        <p>Yes, you can use a glutathione cream after shaving, but give your skin some time first: shave, rinse with cool water, use a plain moisturiser, and apply the glutathione cream that night rather than straight after the razor. Skip it on any cuts, burning or red razor bumps until they settle, and wear sunscreen on the beard area every morning.</p>
+        <p>Many men in India notice the beard and moustache area looks darker or uneven, especially with daily shaving, sun on bike rides and razor bumps. Freshly shaved skin is a little raw, so the order and timing matter more than the cream itself.</p>
+        <h2>1. When to apply the cream after shaving</h2>
+        <table>
+          <thead><tr><th>How your skin feels after shaving</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Calm, no stinging</td><td>Plain moisturiser now; glutathione cream that night or a few hours later</td></tr>
+            <tr><td>Slight warmth or redness</td><td>Cool water and a plain moisturiser; cream the next night</td></tr>
+            <tr><td>Nicks or small cuts</td><td>Keep the cream off the cuts until they close up</td></tr>
+            <tr><td>Red, sore razor bumps</td><td>Skip the cream on those spots for a few days; see section 4</td></tr>
+            <tr><td>Burning or rash</td><td>Stop all active creams and see a dermatologist if it does not settle</td></tr>
+          </tbody>
+        </table>
+        <p>The simplest plan for most men: shave in the morning, cream at night.</p>
+        <h2>2. A simple daily routine for men who shave</h2>
+        <ol>
+          <li><b>Patch test</b> the cream on the side of the neck below the jaw for 2 to 3 days first.</li>
+          <li><b>Shave</b> after a warm wash or shower, with a fresh blade and a shaving foam or gel, in the direction the hair grows.</li>
+          <li><b>Rinse with cool water</b> and pat dry; do not rub with a towel.</li>
+          <li><b>Plain moisturiser</b>, then <b>sunscreen</b>, SPF 30 or higher, on the beard and moustache area too.</li>
+          <li><b>Night:</b> wash with a gentle face wash, pat dry, and apply a thin layer of glutathione cream on the face, including the beard area if the skin is calm.</li>
+          <li><b>Judge after 8 to 12 weeks</b>, with photos in the same light.</li>
+        </ol>
+        <p>For a full men's routine, read <a href="/journal/glutathione-cream-for-men/">glutathione cream for men</a>.</p>
+        <h2>3. Aftershave, alum and other habits</h2>
+        <ul>
+          <li><b>Alcohol-based aftershave</b> can sting and dry skin. If you use one, keep the glutathione cream for night, and choose a soothing, alcohol-free balm if your skin gets red.</li>
+          <li><b>Alum (phitkari)</b> is common at barbers for small cuts. It can feel drying; follow it with a plain moisturiser, not an active cream.</li>
+          <li><b>Old or blunt blades</b> scrape the skin and cause more irritation. Change blades often and never share razors.</li>
+          <li><b>Shaving every day</b> is harder on the skin than shaving every other day, if your work allows it.</li>
+        </ul>
+        <h2>4. Razor bumps and dark spots in the beard area</h2>
+        <p>Razor bumps happen when short, curly hairs grow back into the skin, and they can leave dark marks after they settle. A cream cannot stop bumps forming; better shaving can.</p>
+        <ul>
+          <li>Shave in the direction of hair growth and do not pull the skin tight.</li>
+          <li>Do not pick or squeeze bumps or ingrown hairs.</li>
+          <li>Once the bumps are flat and calm, a thin layer of glutathione cream at night, plus daily sunscreen, may help the leftover marks look lighter over weeks. See <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a>.</li>
+          <li>If bumps are painful, filled with pus or keep coming back, see a dermatologist.</li>
+        </ul>
+        <h2>5. Which skin types should take extra care</h2>
+        <p>Sensitive skin should start every other night and keep the cream away from freshly shaved areas for a full day; see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>. Oily skin only needs a very thin layer; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>. Trimming instead of a close shave is gentler for anyone who gets bumps easily.</p>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so men can use a thin layer at night on calm, shaved skin, with sunscreen every morning. Over 8 to 12 weeks it can help the beard area look brighter and more even. It does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>, and <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading or waxing</a> for similar timing rules.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if shaving leaves painful or pus-filled bumps that keep coming back, if the beard area itches, scales or develops a rash, if dark patches keep spreading, or if a cut does not close up. Repeated infections and scarring need a proper diagnosis, not more creams.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream right after shaving?</h3>
+        <p>It is better to wait. Use cool water and a plain moisturiser right after shaving, and apply the glutathione cream that night or a few hours later, once the skin is calm.</p>
+        <h3>Can I use glutathione cream as an aftershave?</h3>
+        <p>No. An aftershave or balm is meant to soothe freshly shaved skin. A glutathione cream works best as a separate step, later in the day.</p>
+        <h3>Can I put it on razor cuts?</h3>
+        <p>No. Keep any active cream off cuts and broken skin until they close up.</p>
+        <h3>Will it help dark skin in the beard area?</h3>
+        <p>With daily sunscreen and gentler shaving, it may help darkness and marks there look a little lighter and more even over 8 to 12 weeks.</p>
+        <h3>Does glutathione cream make men fair?</h3>
+        <p>No. It does not change your natural skin colour. It can help tan and marks look lighter and skin look brighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -3041,5 +3160,7 @@ SHORT.update({
  'glutathione-cream-with-tomato': 'Yes, as a separate step: dab fresh tomato juice or pulp on clean skin, rinse after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Patch test first, never mix it into the jar, and do not expect it to remove tan.',
  'glutathione-cream-with-sandalwood': 'Yes, as a separate step: mix chandan powder with rose water or milk, leave the pack on for about 10 minutes, rinse, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix chandan into the jar, and do not put sandalwood essential oil straight on the face.',
  'glutathione-cream-with-ghee': 'Only in a small way: apply the glutathione cream first, let it settle, then press a rice-grain amount of plain ghee on a very dry patch or the lips at night. Never mix it into the jar, and skip ghee on oily or acne-prone faces; it suits lips and heels best.',
+ 'glutathione-cream-for-dark-forehead': 'A glutathione cream can help a dark forehead look a little lighter and more even over 8 to 12 weeks with a thin daily layer, sunscreen up to the hairline every morning and less rubbing from helmets, caps and hair oil. A broad patch also on the cheeks may be melasma; see a dermatologist.',
+ 'glutathione-cream-after-shaving': 'Yes, but not straight after the razor: rinse with cool water, use a plain moisturiser, and apply the glutathione cream that night on calm skin, with sunscreen every morning. Keep it off cuts, burning skin and red razor bumps until they settle.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
