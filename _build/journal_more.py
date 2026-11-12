@@ -3109,6 +3109,124 @@ MORE_ARTICLES = [
         <p>With daily sunscreen and gentler shaving, it may help darkness and marks there look a little lighter and more even over 8 to 12 weeks.</p>
         <h3>Does glutathione cream make men fair?</h3>
         <p>No. It does not change your natural skin colour. It can help tan and marks look lighter and skin look brighter over weeks.</p>'''),
+    ('glutathione-cream-for-dark-chin', 'Glutathione cream for dark chin: causes and a gentle routine',
+     'Glutathione Cream for Dark Chin: Causes and Routine',
+     'Can glutathione cream help a dark chin? Common causes like rubbing, hair removal and pimple marks, a gentle routine, what to avoid, and when to see a doctor.',
+     'Skin concerns', 'Why the chin and the area around it often look darker, how to use a glutathione cream there, what to avoid, and when a dark chin needs a doctor.', '''
+        <p>A glutathione cream can help a dark chin look a little lighter and more even over 8 to 12 weeks, if you use a thin layer every day, wear sunscreen on the chin every morning, and stop the rubbing, picking and harsh hair removal that often cause it. It will not change your natural skin colour, and a dark chin that comes with new thick hair, irregular periods or velvety skin on the neck needs a doctor first.</p>
+        <p>The chin is a small area that goes through a lot: hands resting on it while you study or scroll, pimples that keep coming back along the jaw, threading or waxing for chin hair, and sunscreen that often stops at the cheeks. Over months, all of that can leave the chin looking a shade darker than the rest of the face.</p>
+        <h2>1. Common causes of a dark chin</h2>
+        <table>
+          <thead><tr><th>Cause</th><th>What it looks like</th><th>What helps</th></tr></thead>
+          <tbody>
+            <tr><td>Rubbing and resting your chin on your hand</td><td>A slightly rough, darker patch in the middle of the chin</td><td>Notice the habit and keep hands off the face; a light moisturiser</td></tr>
+            <tr><td>Marks after pimples</td><td>Flat brown spots along the chin and jaw where pimples used to be</td><td>No picking, sunscreen, patience</td></tr>
+            <tr><td>Threading, waxing, bleach or shaving</td><td>Darker skin with small bumps or redness after hair removal</td><td>Gentler hair removal, a gap before active creams</td></tr>
+            <tr><td>Sun and tan</td><td>Darker after outdoor days, often with the nose and forehead</td><td>Sunscreen right down to the jawline every morning</td></tr>
+            <tr><td>Hormonal changes or skin conditions</td><td>Darkness with new coarse hair, deep painful pimples, or velvety skin on the neck</td><td>See a doctor or dermatologist first</td></tr>
+          </tbody>
+        </table>
+        <p>For marks left by pimples, read <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a>.</p>
+        <h2>2. A simple daily routine for the chin</h2>
+        <ol>
+          <li><b>Patch test</b> the cream on the side of the jaw for 2 to 3 days first.</li>
+          <li><b>Night:</b> wash your face gently and pay attention to the chin and jawline, where sunscreen, oil and makeup collect. Pat dry.</li>
+          <li><b>Apply a thin layer</b>, about half a pea-sized amount for the chin and jawline, spreading it out evenly rather than rubbing in one spot.</li>
+          <li><b>Morning:</b> a thin layer of cream if you like, then sunscreen, SPF 30 or higher, all the way down to the jawline and under the chin.</li>
+          <li><b>Hands off:</b> try not to rest your chin on your hand or pick at bumps during the day.</li>
+          <li><b>Judge after 8 to 12 weeks</b>, with photos in the same light, not every few days in the mirror.</li>
+        </ol>
+        <p>If you get pimples on the chin often, read <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a> before you start.</p>
+        <h2>3. Chin hair removal without making it darker</h2>
+        <ul>
+          <li><b>Threading or waxing:</b> wait about 24 hours before putting any active cream on the chin; use only a plain moisturiser that day. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading and waxing</a>.</li>
+          <li><b>Bleach:</b> leave a gap of 2 to 3 days before active creams, and do not bleach often. Bleach on the chin can sting and irritate.</li>
+          <li><b>Shaving or trimming:</b> a clean, sharp razor or trimmer, in the direction the hair grows, causes less rubbing than plucking every day.</li>
+          <li><b>Do not pluck</b> hairs one by one with tweezers every few days; repeated pulling can leave bumps and marks.</li>
+        </ul>
+        <p>If chin hair is new, thick or growing fast, mention it to a doctor; it can be linked to hormones.</p>
+        <h2>4. What to avoid</h2>
+        <ul>
+          <li><b>Lemon, baking soda or toothpaste</b> on the chin. Irritation often makes darkness look worse. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Scrubbing hard</b> to "clean" a dark chin. Rubbing is one of the causes, not the answer.</li>
+          <li><b>Squeezing pimples</b> on the chin; it leaves longer-lasting marks.</li>
+          <li><b>Unknown creams</b> with no full ingredient list, or that promise fast or big changes. Some can contain steroids.</li>
+        </ul>
+        <h2>5. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so a thin layer can be used on the chin morning and night, with sunscreen every day. Over 8 to 12 weeks it can help darkness from sun, rubbing and old pimple marks look lighter and more even. It does not change your natural skin colour, and it is not a treatment for hormonal problems. See <a href="/how-to-use/">how to use it</a> and <a href="/ingredients/">what is inside</a>.</p>
+        <h2>6. When to see a doctor or dermatologist</h2>
+        <p>See a doctor or dermatologist if your chin darkness comes with new coarse hair on the chin or upper lip, irregular periods or deep, painful pimples along the jaw (these can be linked to hormones, such as PCOS), if you also have thick, velvety dark skin on the neck or underarms, if it appeared during pregnancy or after a new medicine, or if it itches, scales or keeps getting darker despite sunscreen. These need a proper check-up, and a cosmetic cream alone is not the answer.</p>
+        <h2>FAQ</h2>
+        <h3>Why is my chin darker than the rest of my face?</h3>
+        <p>Common reasons are rubbing or resting the chin on your hand, marks from repeated pimples, hair removal and missed sunscreen. If it comes with new thick hair or irregular periods, see a doctor.</p>
+        <h3>Can I apply glutathione cream on my chin every day?</h3>
+        <p>Yes, a thin layer once or twice a day suits most skin after a patch test, with sunscreen every morning. Skip it on freshly threaded, waxed or broken skin.</p>
+        <h3>How long does it take to see a difference on the chin?</h3>
+        <p>Give it 8 to 12 weeks of steady use with daily sunscreen. Read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h3>Can I use it right after threading my chin?</h3>
+        <p>Wait about 24 hours. Use a plain moisturiser that day and start the cream again the next night if the skin is calm.</p>
+        <h3>Does glutathione cream make the chin fair?</h3>
+        <p>No. It does not change your natural skin colour. It can help darkness from sun, rubbing and marks look a little lighter and more even over weeks.</p>'''),
+    ('glutathione-cream-with-besan', 'Can you use besan with glutathione cream?',
+     'Besan with Glutathione Cream: Right Order and Tips',
+     'Can you use besan (gram flour) with glutathione cream? Yes, as a short wash-off pack before the cream. Order, safe mixes, who should skip, honest results.',
+     'How to use', 'How to use a besan pack as a short wash-off step before a glutathione cream, which mixes are gentle, why not to scrub hard, who should skip it and what besan cannot do.', '''
+        <p>Yes, you can use besan with glutathione cream, but as two separate steps: apply a thin besan pack on clean skin, rinse it off gently after about 10 minutes, before it dries hard, pat dry, then apply the cream. Do not mix besan into the jar, do not scrub with it, and wear sunscreen every morning, because that is what does most of the work on tan.</p>
+        <p>Besan (gram flour) is the base of most Indian home ubtans and face packs, used before weddings, festivals and after sunny trips. A gentle besan pack can leave skin feeling clean and soft. It does not remove tan or change skin colour, but it fits well as a weekly step next to a cream.</p>
+        <h2>1. The right order</h2>
+        <ol>
+          <li><b>Patch test</b> the besan mix on your inner arm or jawline for 15 minutes first, and the cream on the jaw for 2 to 3 days.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Mix 1 to 2 teaspoons of besan</b> with a liquid from the table below into a smooth, soft paste. No lumps.</li>
+          <li><b>Apply a thin layer</b> on the face, away from the eyes and lips, and leave it for about 10 minutes. Rinse before it cracks.</li>
+          <li><b>Rinse with plain water</b> using soft, circular fingertips. Do not rub it off like a scrub.</li>
+          <li><b>Pat dry and apply the glutathione cream</b> as a thin layer.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher.</li>
+        </ol>
+        <p>Once or twice a week is enough. For a full ubtan routine, read <a href="/journal/glutathione-cream-with-ubtan/">glutathione cream with ubtan</a>.</p>
+        <h2>2. Gentle besan mixes</h2>
+        <table>
+          <thead><tr><th>Mix with besan</th><th>Suits</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Plain water or rose water</td><td>Oily and combination skin</td><td>Simplest mix; see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a></td></tr>
+            <tr><td>Curd (dahi)</td><td>Normal skin</td><td>A softer, creamier paste</td></tr>
+            <tr><td>Raw milk</td><td>Dry skin, winter</td><td>Less drying than water; see <a href="/journal/glutathione-cream-with-raw-milk/">glutathione cream with raw milk</a></td></tr>
+            <tr><td>A drop of honey</td><td>Dry or dull-feeling skin</td><td>Keep it to a drop; see <a href="/journal/glutathione-cream-with-honey/">glutathione cream with honey</a></td></tr>
+            <tr><td>A small pinch of haldi</td><td>Most skin</td><td>Too much can stain yellow; see <a href="/journal/glutathione-cream-with-turmeric/">glutathione cream with turmeric</a></td></tr>
+          </tbody>
+        </table>
+        <h2>3. Mixes to skip</h2>
+        <ul>
+          <li><b>Besan with lemon:</b> too acidic and drying on the face. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Besan with baking soda or toothpaste:</b> these can burn and irritate.</li>
+          <li><b>Besan with sugar or coarse powder as a daily scrub:</b> rubbing often makes darkness look worse, not better.</li>
+          <li><b>Besan mixed into the cream jar:</b> never. Powder and water let germs grow and change the cream.</li>
+        </ul>
+        <h2>4. Who should skip besan packs</h2>
+        <ul>
+          <li><b>Very dry or flaky skin</b>, common in north Indian winters. Besan absorbs oil and can leave dry skin tighter. If you do use it, mix it with milk and keep it short. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</li>
+          <li><b>Sensitive skin</b> that reddens easily. Patch test first, or skip packs; see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Active, inflamed pimples.</b> Spreading and rinsing a pack over them can irritate them.</li>
+          <li><b>Right after threading, waxing, bleach or a facial.</b> Give the skin a day or two.</li>
+          <li><b>Anyone allergic to chickpeas or gram</b>.</li>
+        </ul>
+        <h2>5. Besan for tan: an honest view</h2>
+        <p>Besan packs are popular after summer trips, and skin often feels smoother afterwards. That comes mostly from washing and a little gentle cleansing. There is no reliable evidence that besan removes tan. What helps tan look lighter over weeks is shade, covering up, sunscreen every morning and steady care; read <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>.</p>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so you can apply a thin layer straight after rinsing off a gentle besan pack, once your skin is dry and calm. If your skin feels tight after the pack, add a plain moisturiser on top at night. Over 8 to 12 weeks, with daily sunscreen, it can help tan and dark marks look lighter and skin look more even. It does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin burns, swells, itches or breaks into a rash after a besan pack, if dark patches on the cheeks keep spreading (this can be melasma), or if pimples get worse. A home pack is not the answer for these.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after a besan face pack?</h3>
+        <p>Yes. Rinse the pack off fully, pat your skin dry, and apply a thin layer of the cream. Skip it that night if your skin stings or feels tight.</p>
+        <h3>Can I mix besan into my glutathione cream?</h3>
+        <p>No. Powder and water in the jar let germs grow and change the texture. Use besan only as a separate wash-off pack.</p>
+        <h3>How often can I use a besan pack?</h3>
+        <p>Once or twice a week is enough for most skin. Dry or sensitive skin may do better with once a week or less.</p>
+        <h3>Is besan good for oily skin?</h3>
+        <p>Many people with oily skin like how clean it feels, because besan soaks up oil. It does not control oil for long, so a gentle face wash and a thin cream matter more.</p>
+        <h3>Does besan with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -3162,5 +3280,7 @@ SHORT.update({
  'glutathione-cream-with-ghee': 'Only in a small way: apply the glutathione cream first, let it settle, then press a rice-grain amount of plain ghee on a very dry patch or the lips at night. Never mix it into the jar, and skip ghee on oily or acne-prone faces; it suits lips and heels best.',
  'glutathione-cream-for-dark-forehead': 'A glutathione cream can help a dark forehead look a little lighter and more even over 8 to 12 weeks with a thin daily layer, sunscreen up to the hairline every morning and less rubbing from helmets, caps and hair oil. A broad patch also on the cheeks may be melasma; see a dermatologist.',
  'glutathione-cream-after-shaving': 'Yes, but not straight after the razor: rinse with cool water, use a plain moisturiser, and apply the glutathione cream that night on calm skin, with sunscreen every morning. Keep it off cuts, burning skin and red razor bumps until they settle.',
+ 'glutathione-cream-for-dark-chin': 'A glutathione cream can help a dark chin look a little lighter and more even over 8 to 12 weeks with a thin daily layer, sunscreen down to the jawline every morning and less rubbing, picking and harsh hair removal. Darkness with new thick hair or irregular periods needs a doctor.',
+ 'glutathione-cream-with-besan': 'Yes, as a separate step: apply a thin besan pack on clean skin, rinse it off gently after about 10 minutes before it dries hard, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix besan into the jar, and do not expect it to remove tan.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
