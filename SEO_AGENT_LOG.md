@@ -46,6 +46,8 @@
 | 2026-11-11 | glutathione cream after shaving | /journal/glutathione-cream-after-shaving/ | Results were a shave-brand product page, a foreign men's 'lightening' listing and US shaving-cream blogs, no guide; men who shave daily ask about timing; wait-time table, razor bumps and cuts, alum/aftershave habits, beard-area sunscreen, no fairness promise |
 | 2026-11-12 | glutathione cream for dark chin | /journal/glutathione-cream-for-dark-chin/ | Results were a US review article, Apollo 247 Q&A threads and foreign product/compare pages, no guide; completes the face-area series (forehead, upper lip); causes table (rubbing, pimple marks, hair removal, sun, hormones), threading/bleach gaps, PCOS and velvety-skin signs sent to a doctor |
 | 2026-11-12 | glutathione cream with besan | /journal/glutathione-cream-with-besan/ | Results were only 1mg/Flipkart/pharmacy 'whitening' listings and an old 'besan for skin whitening' listicle; besan is the base of most Indian packs; wash-off order, gentle-mix table (rose water, curd, milk, honey, haldi), mixes to skip, honest tan section; distinct from the ubtan guide |
+| 2026-11-13 | glutathione cream with curd (dahi) | /journal/glutathione-cream-with-curd/ | Page 1 was only pharmacy and marketplace product listings; dahi is a very common Indian home pack; covers order, gentle mixes, what to skip, no tan-removal claims. |
+| 2026-11-13 | glutathione cream with orange peel powder | /journal/glutathione-cream-with-orange-peel-powder/ | Page 1 was foreign product listings and ingredient databases; santre ke chilke ka powder is a popular home pack; warns against scrubbing and citrus irritation, corrects the vitamin C tan-removal myth. |
 
 ## Boosts
 

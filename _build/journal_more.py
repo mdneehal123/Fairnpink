@@ -3227,6 +3227,149 @@ MORE_ARTICLES = [
         <p>Many people with oily skin like how clean it feels, because besan soaks up oil. It does not control oil for long, so a gentle face wash and a thin cream matter more.</p>
         <h3>Does besan with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-curd', 'Can you use curd (dahi) with glutathione cream?',
+     'Curd with Glutathione Cream: Right Order and Tips',
+     'Can you use curd (dahi) with glutathione cream? Yes, as a short wash-off pack before the cream, never mixed into the jar. Order, safe mixes, honest results.',
+     'How to use', 'How to use a plain curd pack as a short wash-off step before a glutathione cream, which mixes are gentle, why not to mix it into the jar, who should skip it and what curd cannot do.', '''
+        <p>Yes, you can use curd with glutathione cream, but as two separate steps: spread a thin layer of plain, fresh dahi on clean skin, rinse it off after 10 to 15 minutes, pat dry, then apply the cream. Do not mix curd into the jar, keep it to once or twice a week, and wear sunscreen every morning, because that is what does most of the work on tan.</p>
+        <p>Dahi is one of the most common Indian home face packs, on its own or with besan or a pinch of haldi, and many people reach for it before a function or after a sunny trip. A curd pack can leave skin feeling soft and calm. It does not remove tan or change skin colour, but it sits comfortably next to a cream.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Plain curd (dahi)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen ingredient, short wash-off pack</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>A cool, soft, comfortable feel</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, 10 to 15 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Main downside</td><td>Sour or old curd can sting; dairy smell; spoils fast</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Remove tan or dark spots</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Patch test</b> the curd on your inner arm or jawline for 15 minutes first, and the cream on the jaw for 2 to 3 days.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Take 1 to 2 teaspoons of plain curd</b> from a fresh batch, at room temperature or slightly cool. No sugar, no flavour, and not very sour.</li>
+          <li><b>Apply a thin layer</b> on the face, away from the eyes and lips, and leave it for 10 to 15 minutes.</li>
+          <li><b>Rinse with plain or lukewarm water</b> using soft fingertips. Do not scrub.</li>
+          <li><b>Pat dry and apply the glutathione cream</b> as a thin layer.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher.</li>
+        </ol>
+        <p>Once or twice a week is enough. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Gentle curd mixes</h2>
+        <table>
+          <thead><tr><th>Mix with curd</th><th>Suits</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Curd on its own</td><td>Normal and dry skin</td><td>The simplest pack</td></tr>
+            <tr><td>Curd + besan</td><td>Normal to oily skin</td><td>A thicker paste; rinse before it dries hard; see <a href="/journal/glutathione-cream-with-besan/">glutathione cream with besan</a></td></tr>
+            <tr><td>Curd + a drop of honey</td><td>Dry or dull-feeling skin</td><td>Keep it to a drop; see <a href="/journal/glutathione-cream-with-honey/">glutathione cream with honey</a></td></tr>
+            <tr><td>Curd + a small pinch of haldi</td><td>Most skin</td><td>Too much can stain yellow; see <a href="/journal/glutathione-cream-with-turmeric/">glutathione cream with turmeric</a></td></tr>
+            <tr><td>Curd + aloe vera gel</td><td>Skin that feels warm after sun</td><td>A cooling mix; see <a href="/journal/glutathione-cream-with-aloe-vera-gel/">glutathione cream with aloe vera gel</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Mixes and habits to skip</h2>
+        <ul>
+          <li><b>Curd with lemon:</b> two acidic things together often sting and dry the face. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Curd with baking soda, toothpaste or sugar scrubs:</b> these can burn or scratch.</li>
+          <li><b>Very sour curd kept out for days:</b> it is more likely to sting and smells strongly.</li>
+          <li><b>Curd mixed into the cream jar:</b> never. Dairy and water let germs grow and spoil the cream.</li>
+          <li><b>Leaving curd on overnight:</b> there is no benefit, and it can irritate.</li>
+        </ul>
+        <h2>5. Who should skip curd packs</h2>
+        <ul>
+          <li><b>Anyone allergic to milk</b> or who reacts to dairy on the skin.</li>
+          <li><b>Very oily, acne-prone skin</b> that breaks out easily with rich packs. Try a thin layer once and watch for new bumps; see <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne prone skin</a>.</li>
+          <li><b>Sensitive skin</b> that reddens easily; patch test first, see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Right after threading, waxing, bleach or a facial.</b> Give the skin a day or two.</li>
+        </ul>
+        <h2>6. Curd for tan: an honest view</h2>
+        <p>Curd packs are popular after summer trips, and skin often feels softer and calmer afterwards. There is no reliable evidence that curd removes tan. What helps tan look lighter over weeks is shade, covering up, sunscreen every morning and steady care; read <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>. If your skin is dry in winter, a curd pack followed by a cream and a plain moisturiser can feel comfortable; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so you can apply a thin layer straight after rinsing off a curd pack, once your skin is dry and calm. Over 8 to 12 weeks, with daily sunscreen, it can help tan and dark marks look lighter and skin look more even. It does not change your natural skin colour. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin burns, swells, itches or breaks into a rash after a curd pack, if dark patches on the cheeks keep spreading (this can be melasma), or if pimples get worse. A home pack is not the answer for these.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after a curd face pack?</h3>
+        <p>Yes. Rinse the pack off fully, pat your skin dry, and apply a thin layer of the cream. Skip it that night if your skin stings.</p>
+        <h3>Can I mix curd into my glutathione cream?</h3>
+        <p>No. Dairy and water in the jar let germs grow and change the cream. Use curd only as a separate wash-off pack.</p>
+        <h3>How often can I use a curd pack?</h3>
+        <p>Once or twice a week is enough for most skin.</p>
+        <h3>Can I use a curd pack in the morning?</h3>
+        <p>Yes, if you rinse it off fully. Then apply the cream and sunscreen as usual.</p>
+        <h3>Does curd with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+
+    ('glutathione-cream-with-orange-peel-powder', 'Can you use orange peel powder with glutathione cream?',
+     'Orange Peel Powder with Glutathione Cream: Safe Tips',
+     'Can you use orange peel powder with glutathione cream? Yes, as a gentle wash-off pack before the cream, not a scrub. Order, mixes, who should skip it.',
+     'How to use', 'How to use santre ke chilke ka powder as a short wash-off pack before a glutathione cream, why not to scrub with it, which mixes are gentle, who should skip it and what it cannot do.', '''
+        <p>Yes, you can use orange peel powder with glutathione cream, but as two separate steps: mix a little powder into a smooth paste, apply it on clean skin, rinse it off gently after about 10 minutes, pat dry, then apply the cream. Do not scrub with it, do not mix it into the jar, and wear sunscreen every morning.</p>
+        <p>Santre ke chilke ka powder, made from dried orange peel, is a favourite Indian home pack, often mixed with besan, curd or rose water. It can leave skin feeling fresh and clean. It does not remove tan or change skin colour, and because the powder is a little gritty and the peel has natural oils, it can irritate some skin, so it needs a gentle hand.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Orange peel powder</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Dried kitchen ingredient, short wash-off pack</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>A fresh, clean feel; skin may look less oily for a while</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening, about 10 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Main downside</td><td>Gritty; peel oils can sting sensitive skin</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Remove tan, dark spots or pimple marks</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Patch test</b> the paste on your inner arm or jawline for 15 minutes first, and the cream on the jaw for 2 to 3 days.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Mix half to 1 teaspoon of fine orange peel powder</b> with a liquid from the table below into a smooth, soft paste. Sieve out coarse bits.</li>
+          <li><b>Apply a thin layer</b> on the face with fingertips, away from the eyes and lips, and leave it for about 10 minutes. Rinse before it dries hard.</li>
+          <li><b>Rinse with plain water</b>, pressing gently. Do not rub it off like a scrub.</li>
+          <li><b>Pat dry and apply the glutathione cream</b> as a thin layer.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher.</li>
+        </ol>
+        <p>Once a week is enough for most skin. Daily cream steps are on <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Gentle orange peel mixes</h2>
+        <table>
+          <thead><tr><th>Mix with orange peel powder</th><th>Suits</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Rose water</td><td>Oily and combination skin</td><td>A light paste; see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a></td></tr>
+            <tr><td>Curd (dahi)</td><td>Normal skin</td><td>Softer and creamier; see <a href="/journal/glutathione-cream-with-curd/">glutathione cream with curd</a></td></tr>
+            <tr><td>Raw milk</td><td>Dry skin, winter</td><td>Less drying; see <a href="/journal/glutathione-cream-with-raw-milk/">glutathione cream with raw milk</a></td></tr>
+            <tr><td>Besan + rose water</td><td>Oily skin in humid weather</td><td>Rinse before it cracks; see <a href="/journal/glutathione-cream-with-besan/">glutathione cream with besan</a></td></tr>
+            <tr><td>Multani mitti + rose water</td><td>Very oily skin only</td><td>Can dry the skin; see <a href="/journal/glutathione-cream-with-multani-mitti/">glutathione cream with multani mitti</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Mixes and habits to skip</h2>
+        <ul>
+          <li><b>Scrubbing with orange peel powder:</b> rubbing a gritty powder often leaves tiny scratches and redness, and on brown skin irritation can leave darker patches, not lighter ones.</li>
+          <li><b>Orange peel with lemon:</b> too harsh together. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Fresh orange peel rubbed on the face, or orange peel oil:</b> these are stronger than the dried powder and more likely to sting.</li>
+          <li><b>Going in the sun with the pack on, or with citrus left on the skin:</b> rinse fully before any sun.</li>
+          <li><b>Powder mixed into the cream jar:</b> never. Powder and water let germs grow and change the cream.</li>
+        </ul>
+        <h2>5. Who should skip orange peel packs</h2>
+        <ul>
+          <li><b>Sensitive skin</b> that reddens easily, or anyone who reacts to citrus; see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Very dry or flaky skin</b>, common in north Indian winters. If you use it, mix it with milk and keep it short.</li>
+          <li><b>Active, inflamed pimples.</b> Spreading a gritty pack over them can irritate them; see <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a> for the marks left afterwards.</li>
+          <li><b>Right after threading, waxing, bleach or a facial.</b> Give the skin a day or two.</li>
+        </ul>
+        <h2>6. Orange peel for tan: an honest view</h2>
+        <p>Orange peel is often shared as a "tan removal" or glow pack because oranges are linked with vitamin C. Dried peel powder in a 10 minute pack is not the same as a skincare product made to deliver vitamin C, and there is no reliable evidence that it removes tan. What helps tan look lighter over weeks is shade, covering up, sunscreen every morning and steady care; read <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a> and <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so a thin layer can go on after a gentle orange peel pack, once your skin is dry and calm. If your skin feels warm or tight after the pack, skip the cream that night and use a plain moisturiser. Over 8 to 12 weeks, with daily sunscreen, the cream can help tan and dark marks look lighter and skin look more even. It does not change your natural skin colour.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin burns, swells, itches or breaks into a rash after an orange peel pack, if dark patches on the cheeks keep spreading (this can be melasma), or if pimples get worse. A home pack is not the answer for these.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after an orange peel face pack?</h3>
+        <p>Yes. Rinse the pack off fully, pat your skin dry and apply a thin layer of the cream. Skip it that night if your skin stings or looks red.</p>
+        <h3>Can I use orange peel powder as a daily scrub?</h3>
+        <p>It is better not to. Daily scrubbing with a gritty powder irritates skin. Use it as a gentle wash-off pack once a week.</p>
+        <h3>Can I mix orange peel powder into my glutathione cream?</h3>
+        <p>No. Powder in the jar changes the cream and lets germs grow. Keep it as a separate step.</p>
+        <h3>Is orange peel powder good for oily skin?</h3>
+        <p>Many people with oily skin like how fresh it feels. The effect is short; a gentle face wash and a thin cream matter more.</p>
+        <h3>Does orange peel powder with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -3282,5 +3425,7 @@ SHORT.update({
  'glutathione-cream-after-shaving': 'Yes, but not straight after the razor: rinse with cool water, use a plain moisturiser, and apply the glutathione cream that night on calm skin, with sunscreen every morning. Keep it off cuts, burning skin and red razor bumps until they settle.',
  'glutathione-cream-for-dark-chin': 'A glutathione cream can help a dark chin look a little lighter and more even over 8 to 12 weeks with a thin daily layer, sunscreen down to the jawline every morning and less rubbing, picking and harsh hair removal. Darkness with new thick hair or irregular periods needs a doctor.',
  'glutathione-cream-with-besan': 'Yes, as a separate step: apply a thin besan pack on clean skin, rinse it off gently after about 10 minutes before it dries hard, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix besan into the jar, and do not expect it to remove tan.',
+ 'glutathione-cream-with-curd': 'Yes, as a separate step: spread a thin layer of plain, fresh curd on clean skin, rinse after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix curd into the jar, and keep the pack to once or twice a week.',
+ 'glutathione-cream-with-orange-peel-powder': 'Yes, as a separate step: apply a smooth orange peel powder paste on clean skin, rinse it off gently after about 10 minutes without scrubbing, pat dry, then apply the glutathione cream, with sunscreen every morning. Patch test first and never mix it into the jar.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
