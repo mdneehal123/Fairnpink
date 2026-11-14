@@ -3370,6 +3370,150 @@ MORE_ARTICLES = [
         <p>Many people with oily skin like how fresh it feels. The effect is short; a gentle face wash and a thin cream matter more.</p>
         <h3>Does orange peel powder with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-cucumber', 'Can you use cucumber (kheera) with glutathione cream?',
+     'Cucumber with Glutathione Cream: Right Order and Tips',
+     'Can you use cucumber (kheera) with glutathione cream? Yes, as a short cooling step before the cream, never mixed in the jar. Order, eye tips, who should skip.',
+     'How to use', 'How to use fresh cucumber as a short, cooling rinse-off step before a glutathione cream, what it does for puffy eyes, which mixes are gentle, who should skip it and what cucumber cannot do.', '''
+        <p>Yes, you can use cucumber with glutathione cream, as two separate steps: dab fresh cucumber juice or lay thin slices on clean skin for about 10 minutes, rinse with plain water, pat dry, then apply a thin layer of the cream. Never mix cucumber juice into the jar, and wear sunscreen every morning.</p>
+        <p>Kheera slices on tired eyes and grated cucumber on a hot face are some of the oldest Indian home habits, especially in summer and after a long, sunny commute. Cucumber is one of the gentlest kitchen items for the face. It can make skin feel cool and fresh, but its effect is short, and it does not remove tan or change skin colour.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Fresh cucumber (kheera)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Kitchen ingredient, short rinse-off step</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>A cool, fresh, soothing feel</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Evening or after coming home, about 10 minutes, then rinse</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Main downside</td><td>Effect fades quickly; fresh juice spoils within hours</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Remove tan, dark spots or dark circles</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Patch test</b> a little cucumber juice on your inner arm or jawline for 15 minutes first. Cucumber allergy is uncommon but possible.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Grate a small piece</b> of washed cucumber and squeeze the juice through a clean cloth, or cut thin slices and chill them for a few minutes.</li>
+          <li><b>Dab the juice on with cotton</b> or lay the slices on your face and closed eyes. Leave for about 10 minutes.</li>
+          <li><b>Rinse with plain water</b> and pat dry. Wait until the skin is fully dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face, away from the eyes and lips.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher.</li>
+        </ol>
+        <p>Make the juice fresh each time and throw away what is left. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Cucumber for puffy eyes and dark circles</h2>
+        <p>Chilled cucumber slices on closed eyes for 10 minutes are a pleasant way to make tired, puffy eyes feel fresher. Most of that comes from the cold, so a cool, damp cloth or a chilled spoon does much the same. Cucumber does not lighten dark circles, which come from many things, including genes, thin under-eye skin, rubbing, allergies and sleep. Keep the juice out of the eyes themselves, and read <a href="/journal/glutathione-cream-for-dark-circles/">glutathione cream for dark circles</a> for an honest view of what a cream can do there.</p>
+        <h2>4. Gentle cucumber mixes</h2>
+        <table>
+          <thead><tr><th>Mix with cucumber</th><th>Suits</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Cucumber on its own</td><td>Most skin</td><td>The simplest and gentlest option</td></tr>
+            <tr><td>Cucumber + aloe vera gel</td><td>Skin that feels hot after sun</td><td>A cooling rinse-off mix; see <a href="/journal/glutathione-cream-with-aloe-vera-gel/">glutathione cream with aloe vera gel</a></td></tr>
+            <tr><td>Cucumber + curd</td><td>Normal and dry skin</td><td>Softer and creamier; see <a href="/journal/glutathione-cream-with-curd/">glutathione cream with curd</a></td></tr>
+            <tr><td>Cucumber + rose water</td><td>Most skin</td><td>A fresh, light toner if made daily; see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Mixes and habits to skip</h2>
+        <ul>
+          <li><b>Cucumber with lemon:</b> lemon is acidic and often stings and dries the face. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Cucumber juice mixed into the cream jar:</b> never. Water and food juice let germs grow and spoil the cream.</li>
+          <li><b>A home-made cucumber toner kept for a week:</b> without preservatives it spoils within a day or so, even in the fridge.</li>
+          <li><b>Leaving juice on overnight under the cream:</b> there is no benefit, and the cream spreads better on dry skin.</li>
+          <li><b>Rubbing cucumber over the cream:</b> it only wipes the cream away.</li>
+        </ul>
+        <h2>6. Who should take care</h2>
+        <ul>
+          <li><b>Anyone allergic to cucumber or melons</b> when eating them. Skip it on the face too.</li>
+          <li><b>Very dry winter skin.</b> Cucumber is mostly water and can leave skin feeling tighter once it dries. Follow with the cream or a moisturiser; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</li>
+          <li><b>Sensitive skin</b> that reacts to almost everything; patch test, and see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Open cuts, picked pimples, or skin right after threading, waxing or bleach.</b> Give it a day or two.</li>
+        </ul>
+        <h2>7. Cucumber for tan and oily skin: an honest view</h2>
+        <p>Cucumber feels wonderful after a sunny day, and that comfort is real. It does not remove tan or control oil for long. What helps tan look lighter over weeks is shade, covering up, sunscreen every morning and steady care; read <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>. For shine in humid weather, a gentle face wash and a thin cream matter more; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</p>
+        <h2>8. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so you can apply a thin layer straight after rinsing off cucumber, once your skin is dry. Over 8 to 12 weeks, with daily sunscreen, it can help tan and dark marks look lighter and skin look more even. It does not change your natural skin colour. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>9. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin itches, swells or breaks into a rash after cucumber, if swelling around the eyes stays for days, or if dark patches on the cheeks keep spreading (this can be melasma, which needs a doctor).</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after cucumber?</h3>
+        <p>Yes. Rinse the cucumber off, pat your skin fully dry, and apply a thin layer of the cream.</p>
+        <h3>Can I mix cucumber juice into my glutathione cream?</h3>
+        <p>No. Food juice in the jar lets germs grow and changes the cream. Use cucumber only as a separate rinse-off step.</p>
+        <h3>How often can I use cucumber on my face?</h3>
+        <p>Most skin is fine with it several times a week because it is mild. Patch test first and stop if it itches.</p>
+        <h3>Can I use cucumber in the morning?</h3>
+        <p>Yes. Rinse it off, pat dry, then apply the cream and sunscreen as usual.</p>
+        <h3>Does cucumber with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+
+    ('glutathione-cream-with-castor-oil', 'Can you use castor oil (arandi ka tel) with glutathione cream?',
+     'Castor Oil with Glutathione Cream: Safe Way to Use Both',
+     'Can you use castor oil with glutathione cream? Yes: cream first, then one drop of castor oil on dry spots at night. Order, who should skip it, honest results.',
+     'How to use', 'How to use castor oil (arandi ka tel) next to a glutathione cream: cream first, a drop of oil only on dry areas at night, why it is too heavy for oily skin, eyebrow and lash use, and what castor oil cannot do.', '''
+        <p>Yes, you can use castor oil with glutathione cream, but sparingly: apply the cream first on clean, dry skin, wait a few minutes, then press one drop of castor oil only on dry areas, and only at night. Castor oil is very thick and sticky, so most faces need little or none of it, and it should never be mixed into the jar.</p>
+        <p>Arandi ka tel is found in many Indian homes for hair, eyebrows and cracked heels. It is a heavy oil that can help very dry patches feel softer in winter. It does not remove dark spots or tan, and on oily or acne-prone skin it often feels greasy and can lead to bumps.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Castor oil (arandi ka tel)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>A very thick plant oil</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Seals in moisture on dry patches</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Night only, one drop on dry areas</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Main downside</td><td>Sticky and heavy; can feel greasy and clog oily skin</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Remove dark spots, tan or pigmentation</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order at night</h2>
+        <ol>
+          <li><b>Patch test</b> a drop of castor oil on your jawline for 2 to 3 nights first. Some people react to it.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face, away from the eyes and lips.</li>
+          <li><b>Wait 3 to 5 minutes</b> so the cream settles.</li>
+          <li><b>Warm one drop of castor oil</b> between your fingertips. If it feels too thick, mix it with a drop of a lighter oil such as almond or coconut oil.</li>
+          <li><b>Press it only on dry areas</b>, such as flaky cheeks or the sides of the nose. Do not rub it over the whole face.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher. Wash the oil off in the morning before your day cream and sunscreen.</li>
+        </ol>
+        <p>Putting the oil first can stop the cream from spreading evenly, which is why the cream goes on first. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Castor oil vs lighter oils</h2>
+        <table>
+          <thead><tr><th>Oil</th><th>Feel</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Castor oil</td><td>Very thick and sticky</td><td>Best only as a drop on very dry patches, or mixed with a lighter oil</td></tr>
+            <tr><td>Almond oil</td><td>Light to medium</td><td>Spreads more easily; see <a href="/journal/glutathione-cream-with-almond-oil/">glutathione cream with almond oil</a></td></tr>
+            <tr><td>Coconut oil</td><td>Medium, sets in cold weather</td><td>Can clog some skin; see <a href="/journal/glutathione-cream-with-coconut-oil/">glutathione cream with coconut oil</a></td></tr>
+            <tr><td>Kumkumadi oil</td><td>Light to medium</td><td>A traditional blend; see <a href="/journal/kumkumadi-oil-with-glutathione-cream/">kumkumadi oil with glutathione cream</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Eyebrows, lashes and lips</h2>
+        <p>Many people use castor oil on eyebrows and lashes. A tiny amount on clean brows with a cotton bud is fine for most people. On lashes, keep it out of the eyes, use very little, and stop if your eyes get red or itchy. There is little good evidence that castor oil makes brows or lashes grow; it mainly makes them look glossier. Keep the glutathione cream away from the lash line and the lips, and do not mix the two near the eyes.</p>
+        <h2>5. Habits to skip</h2>
+        <ul>
+          <li><b>Castor oil mixed into the cream jar:</b> never. It changes the cream and spreads a heavy oil all over your face.</li>
+          <li><b>A thick layer of castor oil all over the face:</b> it often leads to greasiness and bumps, especially in humid weather.</li>
+          <li><b>Castor oil under makeup or sunscreen in the day:</b> it can make sunscreen slide and makeup patchy.</li>
+          <li><b>Castor oil with lemon or baking soda "packs":</b> these can sting and irritate. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+        </ul>
+        <h2>6. Who should skip castor oil on the face</h2>
+        <ul>
+          <li><b>Oily or acne-prone skin.</b> It is usually too heavy; see <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne prone skin</a>.</li>
+          <li><b>Sensitive skin</b> that reacts easily; patch test, and see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Anyone who has had a rash from castor oil</b> or from lip products that contain it.</li>
+          <li><b>Broken skin</b>, or skin right after threading, waxing or bleach.</li>
+        </ul>
+        <h2>7. Castor oil for dark spots: an honest view</h2>
+        <p>Castor oil is often shared online as a remedy for dark spots and pigmentation. There is no reliable evidence that it fades them. Where it can help is comfort: a drop can make a very dry patch feel softer in winter, and calm, well-moisturised skin is easier to care for. Dark spots and tan look lighter slowly, over weeks, with sunscreen every morning and steady care; read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a> and <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a>.</p>
+        <h2>8. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no castor oil or retinol. Apply it first as a thin layer, and add a drop of castor oil on top only where your skin is dry. Over 8 to 12 weeks, with daily sunscreen, the cream can help tan and dark marks look lighter and skin look more even. It does not change your natural skin colour. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>9. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin itches, burns or breaks into a rash after castor oil, if your eyes get red or swollen after using it on lashes, if new bumps keep appearing, or if dark patches on the cheeks keep spreading (this can be melasma).</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply castor oil after glutathione cream?</h3>
+        <p>Yes, at night. Wait a few minutes after the cream, then press one drop only on dry areas.</p>
+        <h3>Can I mix castor oil into my glutathione cream?</h3>
+        <p>No. Keep them separate so the cream stays as it was made and you control how much oil goes on.</p>
+        <h3>Is castor oil good for oily skin?</h3>
+        <p>Usually not. It is very heavy and can feel greasy and lead to bumps. A thin layer of cream is enough.</p>
+        <h3>Can I use castor oil on my face every night?</h3>
+        <p>Only on very dry patches, and only if it does not cause bumps. Many people need it only in winter.</p>
+        <h3>Does castor oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -3427,5 +3571,7 @@ SHORT.update({
  'glutathione-cream-with-besan': 'Yes, as a separate step: apply a thin besan pack on clean skin, rinse it off gently after about 10 minutes before it dries hard, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix besan into the jar, and do not expect it to remove tan.',
  'glutathione-cream-with-curd': 'Yes, as a separate step: spread a thin layer of plain, fresh curd on clean skin, rinse after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix curd into the jar, and keep the pack to once or twice a week.',
  'glutathione-cream-with-orange-peel-powder': 'Yes, as a separate step: apply a smooth orange peel powder paste on clean skin, rinse it off gently after about 10 minutes without scrubbing, pat dry, then apply the glutathione cream, with sunscreen every morning. Patch test first and never mix it into the jar.',
+ 'glutathione-cream-with-cucumber': 'Yes, as a separate step: dab fresh cucumber juice or lay thin slices on clean skin for about 10 minutes, rinse with plain water, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix cucumber juice into the jar.',
+ 'glutathione-cream-with-castor-oil': 'Yes, sparingly: apply the glutathione cream first, wait a few minutes, then press one drop of castor oil only on dry areas at night, with sunscreen every morning. Castor oil is very thick, so oily or acne-prone skin should usually skip it, and never mix it into the jar.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES

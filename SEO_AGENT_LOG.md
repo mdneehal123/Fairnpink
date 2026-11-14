@@ -48,6 +48,8 @@
 | 2026-11-12 | glutathione cream with besan | /journal/glutathione-cream-with-besan/ | Results were only 1mg/Flipkart/pharmacy 'whitening' listings and an old 'besan for skin whitening' listicle; besan is the base of most Indian packs; wash-off order, gentle-mix table (rose water, curd, milk, honey, haldi), mixes to skip, honest tan section; distinct from the ubtan guide |
 | 2026-11-13 | glutathione cream with curd (dahi) | /journal/glutathione-cream-with-curd/ | Page 1 was only pharmacy and marketplace product listings; dahi is a very common Indian home pack; covers order, gentle mixes, what to skip, no tan-removal claims. |
 | 2026-11-13 | glutathione cream with orange peel powder | /journal/glutathione-cream-with-orange-peel-powder/ | Page 1 was foreign product listings and ingredient databases; santre ke chilke ka powder is a popular home pack; warns against scrubbing and citrus irritation, corrects the vitamin C tan-removal myth. |
+| 2026-11-14 | glutathione cream with cucumber (kheera) | /journal/glutathione-cream-with-cucumber/ | Page 1 was only pharmacy listings of 'whitening' glutathione creams and a cucumber cream listing, no how-to; gentle summer home habit; rinse-off before the cream, puffy-eye tips, mixes table, no tan-removal or fairness promise |
+| 2026-11-14 | glutathione cream with castor oil (arandi ka tel) | /journal/glutathione-cream-with-castor-oil/ | Page 1 was foreign glutathione cream shops, spam pages and one review paper, nothing on using both; cream first then one drop on dry patches at night, oil comparison table, brows/lashes note, honest that it does not fade dark spots |
 
 ## Boosts
 
