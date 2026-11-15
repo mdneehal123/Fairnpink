@@ -688,10 +688,36 @@ page('/ingredients/', 'Fair N Pink Ingredients: Glutathione, Niacinamide, Alpha 
      body, crumbs='Ingredients')
 
 # ---------------- How to use ----------------
+HOWTO_FAQ = [
+    ('How many times a day should I apply Fair N Pink cream?', 'Twice a day, morning and night, on clean skin. If you have sensitive or very oily skin, start once a day at night for the first week.'),
+    ('Should I wash off Fair N Pink cream?', 'No. It is a leave-on cream. Leave the night layer on until morning, then wash your face and apply a fresh thin layer under sunscreen.'),
+    ('Can I apply Fair N Pink cream under makeup?', 'Yes. Use a thin layer, let it absorb for a few minutes, apply sunscreen, then makeup. See <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.'),
+    ('Can I use it on my neck and hands?', 'Yes, on the neck as part of the routine, and on small areas such as hands or knees after a patch test. A %s jar is sized for the face and neck.' % NET),
+    ('How long does one jar last?', 'It depends on how much you use and how many areas you cover. A pea-sized amount twice a day on the face and neck is enough; a thin layer makes the jar last longer.'),
+    ('Does Fair N Pink cream make skin fair?', 'No. It helps skin look brighter and more even, and tan and dark spots look lighter over weeks with daily sunscreen. It does not change your natural skin colour.'),
+]
 body = top('The ritual', 'How to use Fair N Pink cream', 'Twice a day, a pea-sized amount, on clean skin. The whole routine takes under a minute.') + '''    <section>
+      <div class="prose">
+        <p class="answer">Use Fair N Pink Advance Radiance Cream twice a day: wash your face, pat it dry, and spread a pea-sized amount over the face and neck in a thin layer. In the morning finish with sunscreen; at night leave it on. Patch test on your inner arm for 24 hours before the first use.</p>
+      </div>
 ''' + RITUAL + '''
     </section>
-''' + sec('What to expect', 'How long does it take to work?', 'Skin renews itself slowly. This is a general guide, and results differ from person to person.', WEEKS) + '''    <section>
+''' + sec('Your skin, your routine', 'Adjusting it for your skin type', '', '''      <div class="prose">
+        <ul>
+          <li><b>Oily skin:</b> a very thin layer; if it feels heavy in the day, use it at night only and a gel sunscreen in the morning.</li>
+          <li><b>Dry skin:</b> apply on slightly damp skin, and add a plain moisturiser on top at night in winter.</li>
+          <li><b>Sensitive skin:</b> it contains fragrance, so patch test first and start once a day at night for a week.</li>
+          <li><b>Men:</b> the same routine; apply a few minutes after shaving, not straight after.</li>
+        </ul>
+        <p>More detail in <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>
+        <h3>Mistakes to avoid</h3>
+        <ul>
+          <li>Using a thick layer: more cream does not work faster.</li>
+          <li>Skipping sunscreen: daily sun darkens spots faster than any cream can help them fade.</li>
+          <li>Layering strong products (retinol, peels, scrubs) on the same night when you are starting.</li>
+          <li>Judging after a few days: give it at least four weeks, and eight for dark spots.</li>
+        </ul>
+      </div>''') + sec('What to expect', 'How long does it take to work?', 'Skin renews itself slowly. This is a general guide, and results differ from person to person.', WEEKS) + '''    <section>
 ''' + NOTE + '''
     </section>
 ''' + sec('Good to know', 'Getting the most from one jar', '', '''      <div class="prose">
@@ -701,10 +727,10 @@ body = top('The ritual', 'How to use Fair N Pink cream', 'Twice a day, a pea-siz
         <p>Use it after washing your face and before sunscreen in the morning. At night it goes on last. If you use a prescription cream, ask your doctor before adding a new product.</p>
         <h3>Precautions</h3>
         <p>Keep the cream away from your eyes and from broken skin. If your skin turns red, itches or burns, wash it off and stop using it. If the reaction does not settle, see a dermatologist. Store the jar closed, in a cool, dry place.</p>
-      </div>''' % NET) + CTA
-page('/how-to-use/', 'How to Use Fair N Pink Cream | Morning and Night Routine',
-     'How to use Fair N Pink Advance Radiance Cream: the morning and night routine, how much to apply, what to expect week by week, and precautions.',
-     body, crumbs='How to use', schema=[{
+      </div>''' % NET) + sec('Questions', 'How to use Fair N Pink cream: common questions', '', faq_html(HOWTO_FAQ)) + CTA
+page('/how-to-use/', 'How to Use Fair N Pink Cream: Morning and Night Steps',
+     'How to use Fair N Pink cream: a pea-sized amount morning and night, steps for oily, dry and sensitive skin, mistakes to avoid and what to expect week by week.',
+     body, crumbs='How to use', schema=[faq_schema(HOWTO_FAQ), {
          '@type': 'HowTo', 'name': 'How to use Fair N Pink Advance Radiance Cream',
          'step': [{'@type': 'HowToStep', 'text': t} for t in [
              'Wash your face and pat it dry.', 'Take a pea-sized amount of cream.',

@@ -106,8 +106,8 @@ MORE_ARTICLES = [
         <p>A cream from a named brand, with a full ingredient list and no steroids or mercury, is generally suitable for daily cosmetic use. Patch test first, and see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>'''),
 
     ('night-cream-for-pigmentation', 'Night cream for pigmentation and dark spots: what actually helps',
-     'Night Cream for Pigmentation & Dark Spots: What Actually Helps',
-     'Which ingredients in a night cream help with the look of pigmentation and dark spots, how long they take, and when to see a dermatologist instead.',
+     'Night Cream for Pigmentation: What Helps and How to Use It',
+     'Night cream for pigmentation and dark spots: ingredients to look for, types of pigmentation, how to apply, what not to mix, how long it takes and red flags.',
      'Dark spots', 'Ingredients that help, how long it takes, and when to see a doctor.', '''
         <p>For the look of pigmentation and dark spots, choose a night cream with <b>alpha arbutin</b> and <b>niacinamide</b>, use it every night for at least eight weeks, and wear sunscreen every morning. Deep, spreading or sudden patches, including melasma, need a dermatologist, not just a cream.</p>
         <h2>Ingredients to look for</h2>
@@ -116,23 +116,58 @@ MORE_ARTICLES = [
           <li><b>Niacinamide:</b> helps uneven tone look more even and supports the skin barrier.</li>
           <li><b>Glutathione:</b> an antioxidant used in creams for a brighter-looking complexion.</li>
         </ul>
+        <h2>Which kind of pigmentation is it?</h2>
+        <table>
+          <thead><tr><th>Type</th><th>Looks like</th><th>Can a night cream help?</th></tr></thead>
+          <tbody>
+            <tr><td>Tan</td><td>Even darkening on face, neck and arms</td><td>Yes, with daily sunscreen; often the quickest to change</td></tr>
+            <tr><td>Pimple marks</td><td>Flat brown spots where pimples were</td><td>Often, slowly, over two to three months</td></tr>
+            <tr><td>Sun spots and freckles</td><td>Small brown spots on cheeks and nose</td><td>Partly; they can look lighter, not disappear</td></tr>
+            <tr><td>Melasma</td><td>Patchy brown areas on both cheeks, forehead or upper lip</td><td>Needs a dermatologist</td></tr>
+          </tbody>
+        </table>
         <h2>Why night?</h2>
         <p>At night the cream stays on clean skin for hours, with no sun, sweat or makeup. That makes night the easiest time to be consistent.</p>
+        <h2>How to apply it at night</h2>
+        <ol>
+          <li>Wash off the day's sunscreen, dust and makeup with a gentle face wash, and pat dry.</li>
+          <li>Take a pea-sized amount and dot it on forehead, cheeks, chin and neck.</li>
+          <li>Spread it in a thin layer, including over the darker areas; there is no need to pile it on spots.</li>
+          <li>Leave it on overnight, and use sunscreen the next morning.</li>
+        </ol>
+        <h2>What not to mix on the same night</h2>
+        <p>Retinol, glycolic or salicylic acid, peels and scrubs can all be useful, but stacking them on one night is the quickest way to irritate skin, and irritated skin can darken. Use them on different nights at first, and follow a dermatologist's plan if you use a prescription cream. See <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a>.</p>
         <h2>Why sunscreen still decides everything</h2>
         <p>Sunlight darkens existing spots and makes new ones. A night cream without daily sunscreen rarely shows results.</p>
         <h2>How long it takes</h2>
         <p>Expect softer skin in a week, a fresher look in a few weeks, and slow fading of spots over two months or more. Some old marks may not change.</p>
+        <h2>Red flags when you shop</h2>
+        <ul>
+          <li>Promises of results in a set number of days, or of "permanent" or "whitening" results</li>
+          <li>No full ingredient list on the box</li>
+          <li>Unlabelled creams, or creams sold as a mix of a steroid and other ingredients without a prescription</li>
+          <li>No seller name, address or contact number</li>
+        </ul>
         <h2>When to see a dermatologist</h2>
         <ul>
           <li>Patches that are spreading, very dark or appeared suddenly</li>
           <li>Pigmentation during pregnancy or from hormonal medicines</li>
           <li>No change at all after three months of careful use</li>
         </ul>
-        <p>Fair N Pink Advance Radiance Cream contains alpha arbutin, niacinamide and glutathione and can be used as a <a href="/glutathione-night-cream/">night cream</a>. See also <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a> and how to choose the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>'''),
+        <p>Fair N Pink Advance Radiance Cream contains alpha arbutin, niacinamide and glutathione and can be used as a <a href="/glutathione-night-cream/">night cream</a>. See also <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>, what an <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream</a> does, and how to choose the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Which night cream is best for pigmentation?</h3>
+        <p>One with ingredients such as alpha arbutin and niacinamide, a full ingredient list, modest claims and a texture you will use every night. No single cream suits everyone, and sunscreen matters as much as the cream.</p>
+        <h3>Can a night cream remove pigmentation permanently?</h3>
+        <p>No. A night cream can help spots look lighter over weeks, but sun, pimples and hormones can bring new pigmentation, so daily sunscreen keeps the results going.</p>
+        <h3>Should I use a night cream for pigmentation every night?</h3>
+        <p>Yes, if your skin is comfortable after a patch test. Regular use is what gives a cream a proper chance; skipping nights slows any change.</p>
+        <h3>Can I use a pigmentation night cream for melasma?</h3>
+        <p>Melasma needs a dermatologist. A gentle cosmetic cream can be part of the routine they suggest, but it is not a treatment for melasma.</p>'''),
 
     ('niacinamide-night-cream', 'Niacinamide night cream: benefits and how to use it',
-     'Niacinamide Night Cream: Benefits, How to Use & Who It Suits',
-     'What a niacinamide night cream does, who it suits, how to use it at night, and what to pair it with.',
+     'Niacinamide Night Cream: Benefits and How to Use It at Night',
+     'Niacinamide night cream: what it does overnight, who it suits, how to use it, mixing it with vitamin C or retinol, how long it takes and side effects.',
      'Ingredients', 'What niacinamide does overnight and how to use it.', '''
         <p>A niacinamide night cream helps skin look smoother and more even and supports its moisture barrier while you sleep. It suits most skin types, including oily and sensitive skin, and works best used every night for several weeks with sunscreen in the morning.</p>
         <h2>What niacinamide is</h2>
@@ -144,25 +179,61 @@ MORE_ARTICLES = [
           <li>Support for the skin's own moisture barrier</li>
           <li>Less visible shine on oily skin</li>
         </ul>
+        <h2>Who it suits</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Why people choose it</th><th>Tip</th></tr></thead>
+          <tbody>
+            <tr><td>Oily</td><td>Helps shine and pores look less visible</td><td>A thin layer is enough</td></tr>
+            <tr><td>Dry</td><td>Supports the moisture barrier</td><td>Apply on damp skin; add a moisturiser in winter</td></tr>
+            <tr><td>Combination</td><td>Gentle on both zones</td><td>Less on the T-zone</td></tr>
+            <tr><td>Sensitive</td><td>Usually well tolerated</td><td>Patch test; start every other night</td></tr>
+          </tbody>
+        </table>
         <h2>How to use it at night</h2>
         <ol>
           <li>Cleanse and pat your face dry.</li>
           <li>Apply a pea-sized amount to face and neck.</li>
           <li>Leave it on overnight. Use sunscreen the next morning.</li>
         </ol>
+        <h2>Night or day?</h2>
+        <p>Niacinamide works at any time of day, so a niacinamide cream does not have to be night-only. Night is simply when most people are most consistent, and there is no sweat or makeup on top. If your cream feels comfortable under sunscreen, morning use is fine too; Fair N Pink is used morning and night.</p>
+        <h2>Can you use it with vitamin C or retinol?</h2>
+        <p>Yes. The old idea that niacinamide and vitamin C cancel each other out does not hold up for modern products; if your skin flushes with both, use vitamin C in the morning and niacinamide at night. With retinol, niacinamide is often used to keep skin comfortable; start the retinol slowly, on alternate nights.</p>
+        <h2>How long it takes</h2>
+        <p>Skin often feels smoother within a couple of weeks. Changes in how even the tone looks take longer, usually eight weeks or more with daily sunscreen.</p>
         <h2>Good partners</h2>
         <p>Niacinamide works well with <a href="/journal/niacinamide-and-alpha-arbutin/">alpha arbutin</a> for the look of dark spots, and with glutathione in creams for a brighter-looking complexion. Fair N Pink Advance Radiance Cream has all three in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a> that also works as a <a href="/glutathione-night-cream/">glutathione night cream</a>.</p>
         <h2>Side effects</h2>
         <p>Most people have none. A few notice mild tingling or redness in the first days. Patch test first.</p>
-        <p>For a full morning and night plan, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>. Choosing a cream? Read how to pick the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>'''),
+        <p>For a full morning and night plan, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>. Choosing a cream? Read how to pick the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Is niacinamide good in a night cream?</h3>
+        <p>Yes. It is gentle, suits most skin types and supports the skin barrier overnight. It can also be used in the morning.</p>
+        <h3>Can I use a niacinamide night cream every night?</h3>
+        <p>Yes, once a patch test shows your skin is comfortable. Daily use is how it is meant to be used.</p>
+        <h3>Does niacinamide make skin fair?</h3>
+        <p>No. It can help skin look more even and dark marks look lighter over weeks, with sunscreen. It does not change your natural skin colour.</p>
+        <h3>Why does niacinamide make my face feel warm?</h3>
+        <p>Some people feel brief warmth or tingling in the first days. If it settles, carry on; if redness or itching lasts, stop and see a doctor.</p>'''),
 
     ('alpha-arbutin-cream', 'Alpha arbutin cream: what it does and how to use it',
-     'Alpha Arbutin Cream: Uses, Benefits & How to Apply',
-     'What alpha arbutin cream is used for, how it differs from harsh products, how to apply it, how long it takes and who should be careful.',
+     'Alpha Arbutin Cream: Uses, How to Apply, How Long It Takes',
+     'Alpha arbutin cream: what it is used for, cream vs serum, how to apply it morning or night, what to pair it with, how long it takes and who should be careful.',
      'Ingredients', 'Uses, how to apply and how long it takes.', '''
         <p>Alpha arbutin cream is used to help reduce the look of dark spots, marks and uneven tone. It works gradually, is generally well tolerated, and needs eight weeks or more of daily use with sunscreen.</p>
         <h2>What alpha arbutin is</h2>
-        <p>Alpha arbutin is a skincare ingredient used in products for more even-looking skin. It is considered gentler than harsh options such as hydroquinone, which should only be used under a doctor's care.</p>
+        <p>Alpha arbutin is a skincare ingredient used in products for more even-looking skin. It is considered gentler than harsh options such as hydroquinone, which should only be used under a doctor's care. On labels you may also see plain "arbutin" or "beta arbutin": related ingredients, but alpha arbutin is the form most often chosen for face creams and serums.</p>
+        <h2>Alpha arbutin cream or serum?</h2>
+        <table>
+          <thead><tr><th></th><th>Cream</th><th>Serum</th></tr></thead>
+          <tbody>
+            <tr><td>Texture</td><td>Moisturising, one step</td><td>Light, watery, needs a moisturiser on top</td></tr>
+            <tr><td>Suits</td><td>Normal, dry and combination skin; simple routines</td><td>Oily skin, or people who already layer products</td></tr>
+            <tr><td>Label</td><td>Often combined with other ingredients</td><td>Often prints a single percentage</td></tr>
+            <tr><td>Best habit</td><td>Pea-sized amount on clean skin</td><td>A few drops, then moisturiser</td></tr>
+          </tbody>
+        </table>
+        <p>A higher percentage on a serum does not mean faster results; daily use and sunscreen matter more. Using a cream and a serum with the same ingredient on the same night adds irritation, not speed.</p>
         <h2>How to apply it</h2>
         <ol>
           <li>Patch test on your inner arm for 24 hours.</li>
@@ -171,11 +242,29 @@ MORE_ARTICLES = [
         </ol>
         <h2>How long it takes</h2>
         <p>Four weeks for a first check, eight weeks or more for dark spots. Some marks fade, some do not.</p>
+        <h2>Morning or night?</h2>
+        <p>Both work. Alpha arbutin does not make skin more sensitive to the sun the way some acids do, so it can be used in the morning under sunscreen. Night is the easiest time to be consistent, because the cream stays on clean skin for hours. Fair N Pink is used morning and night.</p>
         <h2>What it pairs well with</h2>
-        <p>Niacinamide and glutathione. <a href="/niacinamide-alpha-arbutin-cream/">Fair N Pink Advance Radiance Cream</a> contains all three in one cream.</p>
+        <p>Niacinamide and glutathione. <a href="/niacinamide-alpha-arbutin-cream/">Fair N Pink Advance Radiance Cream</a> contains all three in one cream. Alpha arbutin can also be used with <a href="/journal/alpha-arbutin-and-vitamin-c/">vitamin C</a> and <a href="/journal/alpha-arbutin-and-kojic-acid-together/">kojic acid</a>; with retinol or exfoliating acids, use them on different nights at first.</p>
+        <h2>Mistakes that slow it down</h2>
+        <ul>
+          <li>Skipping sunscreen: daily sun darkens marks faster than any cream fades them.</li>
+          <li>Picking pimples, which leaves new marks.</li>
+          <li>Rubbing in lemon, baking soda or harsh scrubs.</li>
+          <li>Switching products every two weeks before any can show a change.</li>
+        </ul>
         <h2>Who should be careful</h2>
         <p>Anyone pregnant or breastfeeding, anyone under treatment for a skin condition, and anyone with very sensitive or fragrance-allergic skin should ask a doctor first. See <a href="/journal/alpha-arbutin-cream-side-effects/">alpha arbutin side effects</a>.</p>
-        <p>Alpha arbutin works best inside a simple routine; see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>'''),
+        <p>Alpha arbutin works best inside a simple routine; see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a> and our guide to the <a href="/journal/night-cream-for-pigmentation/">night cream for pigmentation</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Can I use alpha arbutin cream every day?</h3>
+        <p>Yes, once a patch test shows your skin is comfortable. It is generally well tolerated and is meant for daily use, with sunscreen every morning.</p>
+        <h3>Does alpha arbutin remove dark spots permanently?</h3>
+        <p>No cream removes spots permanently. Alpha arbutin can help them look lighter over weeks, and new spots can form with sun, pimples or friction, so sunscreen and gentle care keep the results going.</p>
+        <h3>Can I use alpha arbutin cream on underarms or knees?</h3>
+        <p>A face cream can be used on small areas like knees and elbows after a patch test. Underarm skin is thin and easily irritated by shaving and deodorant, so patch test there separately, and see a doctor for velvety, thick dark skin.</p>
+        <h3>Is alpha arbutin safe in pregnancy?</h3>
+        <p>Ask your doctor before using any brightening cream during pregnancy or breastfeeding.</p>'''),
 
     ('night-cream-for-dull-skin', 'Night cream for dull skin: a simple routine that works',
      'Night Cream for Dull Skin: Simple Routine for a Fresher Look',
@@ -677,7 +766,7 @@ MORE_ARTICLES = [
         </ul>
         <p>For the full timeline, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin in a 10 g jar, used twice a day on clean skin; more on this <a href="/brightening-cream-for-face/">brightening face cream</a>. It is a cosmetic cream for helping dark marks and uneven tone look lighter over weeks. It does not change your natural skin colour, it is not an acne treatment, and it contains fragrance, so patch test on the jawline for two days first, especially if your skin breaks out easily.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin in a 10 g jar, used twice a day on clean skin; more on this <a href="/brightening-cream-for-face/">brightening face cream</a>, and on choosing a <a href="/journal/night-cream-for-pigmentation/">night cream for pigmentation</a>. It is a cosmetic cream for helping dark marks and uneven tone look lighter over weeks. It does not change your natural skin colour, it is not an acne treatment, and it contains fragrance, so patch test on the jawline for two days first, especially if your skin breaks out easily.</p>
         <h2>7. Mistakes that keep marks dark</h2>
         <ul>
           <li>Skipping sunscreen on cloudy days or at home near windows.</li>
@@ -819,7 +908,7 @@ MORE_ARTICLES = [
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide and alpha arbutin, and is meant to be used in a thin layer, so a 10 g jar suits oily skin that needs only a little product. Niacinamide is a common pick for oily skin because it helps skin look smoother and more even. The cream helps skin look brighter and tan or dark spots look lighter over weeks with sunscreen; it does not change your natural skin colour or stop oil production. It contains fragrance, so patch test first. More on all skin types in <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>, and the full ingredient notes are on the <a href="/ingredients/">ingredients</a> page.</p>
         <h2>8. When to see a dermatologist</h2>
         <p>See a dermatologist if you have many painful or deep pimples, pimples that leave pitted scars, sudden heavy oiliness with other changes such as hair growth or irregular periods, or if your skin reacts to every product you try. These need proper diagnosis, not a cosmetic cream.</p>
-        <p>New to the cream? Read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects</a> and do a patch test first.</p>
+        <p>New to the cream? Read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects</a> and do a patch test first. Why niacinamide suits oily skin is explained in <a href="/journal/niacinamide-night-cream/">niacinamide night cream</a>.</p>
         <h2>FAQ</h2>
         <h3>Will glutathione cream make oily skin more oily?</h3>
         <p>A thin layer should not. If your face looks greasy, reduce the amount, use it only at night, and keep the morning to sunscreen.</p>
@@ -873,7 +962,7 @@ MORE_ARTICLES = [
           <li><b>Strong exfoliating acids and scrubs:</b> do not use them on the same night as several actives; once or twice a week is enough for most skin.</li>
         </ul>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines L-glutathione, niacinamide and alpha arbutin in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a>, so a pea-sized amount morning and night covers both ingredients without extra serums. It helps skin look brighter and more even, and tan or dark spots look lighter over weeks with daily sunscreen; it is not a treatment for any skin condition. It contains fragrance, so patch test first. Ingredient details are on the <a href="/ingredients/">ingredients</a> page, and use steps on <a href="/how-to-use/">how to use</a>.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> combines L-glutathione, niacinamide and alpha arbutin in one <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a>, so a pea-sized amount morning and night covers both ingredients without extra serums (more on a <a href="/journal/niacinamide-night-cream/">niacinamide night cream</a>). It helps skin look brighter and more even, and tan or dark spots look lighter over weeks with daily sunscreen; it is not a treatment for any skin condition. It contains fragrance, so patch test first. Ingredient details are on the <a href="/ingredients/">ingredients</a> page, and use steps on <a href="/how-to-use/">how to use</a>.</p>
         <h2>7. Safety tips</h2>
         <ul>
           <li>Patch test any new product on the inner arm or jawline for a day or two.</li>
@@ -1154,7 +1243,7 @@ MORE_ARTICLES = [
           <li><b>Adding many actives at once.</b> If you also use a salicylic acid face wash or serum, read <a href="/journal/glutathione-cream-with-salicylic-acid/">glutathione cream with salicylic acid</a> before layering.</li>
         </ul>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Niacinamide is often chosen by people with combination skin because it is gentle and is commonly used to help skin look smoother and more balanced, and the cream comes in a small 10 g jar that suits thin-layer use. Read <a href="/journal/glutathione-and-niacinamide-together/">glutathione and niacinamide together</a> for how these ingredients work. It is a cosmetic cream: expect brighter-looking skin and a more even-looking tone slowly, with daily sunscreen, not a change in your natural skin colour. Patch test first, because the cream contains fragrance.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Niacinamide is often chosen by people with combination skin because it is gentle and is commonly used to help skin look smoother and more balanced, and the cream comes in a small 10 g jar that suits thin-layer use. Read <a href="/journal/glutathione-and-niacinamide-together/">glutathione and niacinamide together</a> for how these ingredients work, and <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a> for every skin type. It is a cosmetic cream: expect brighter-looking skin and a more even-looking tone slowly, with daily sunscreen, not a change in your natural skin colour. Patch test first, because the cream contains fragrance.</p>
         <h2>7. When to see a dermatologist</h2>
         <p>See a dermatologist if you have painful or frequent breakouts on the chin or jawline, redness that does not settle, flaking with itching around the nose and eyebrows, or dark patches that spread. These need a proper diagnosis, and a cosmetic cream is not a treatment for them.</p>
         <h2>FAQ</h2>
@@ -1273,7 +1362,7 @@ MORE_ARTICLES = [
           <li><b>Skipping sunscreen in winter.</b> Winter sun still darkens tan and spots, which undoes your effort.</li>
         </ul>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and works as a <a href="/glutathione-night-cream/">glutathione night cream</a> on damp skin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over weeks, with daily sunscreen; it does not change your natural skin colour and it is not a replacement for a moisturiser on very dry skin. Use a pea-sized amount on damp skin and add a plain moisturiser on top when needed. Patch test first, because the cream contains fragrance. For what to expect over time, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and works as a <a href="/glutathione-night-cream/">glutathione night cream</a> on damp skin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over weeks, with daily sunscreen; it does not change your natural skin colour and it is not a replacement for a moisturiser on very dry skin. Not sure it suits your skin? See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>. Use a pea-sized amount on damp skin and add a plain moisturiser on top when needed. Patch test first, because the cream contains fragrance. For what to expect over time, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
         <h2>7. When to see a dermatologist</h2>
         <p>See a dermatologist if dry patches itch a lot, crack or bleed, look red and scaly, or keep coming back in the same places. These can be eczema, psoriasis or another condition that needs a proper diagnosis, and a cosmetic cream is not a treatment for them.</p>
         <h2>FAQ</h2>
@@ -2776,7 +2865,7 @@ MORE_ARTICLES = [
           <li><b>Skipping sunscreen on holidays</b>, at the beach or on hill trips, where sun is strongest.</li>
         </ul>
         <h2>6. Where Fair N Pink fits</h2>
-        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar. Used morning and night with sunscreen every day, it can help freckles and tan look a little lighter and skin look more even over 8 to 12 weeks. It does not remove freckles or change your natural skin colour. See <a href="/how-to-use/">how to use it</a> and <a href="/ingredients/">what is inside</a>.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar. Used morning and night with sunscreen every day, it can help freckles and tan look a little lighter and skin look more even over 8 to 12 weeks. It does not remove freckles or change your natural skin colour. See <a href="/how-to-use/">how to use it</a>, <a href="/ingredients/">what is inside</a>, and how to pick a <a href="/journal/night-cream-for-pigmentation/">night cream for pigmentation</a>.</p>
         <h2>7. When to see a dermatologist</h2>
         <p>See a dermatologist if a spot is new after the age of about 30, grows, changes shape or colour, has uneven edges, is raised, itches or bleeds, or looks different from your other spots. Also see one for large patches that may be melasma, or if you are pregnant or breastfeeding before starting any new cream. These need a proper check, not a cosmetic cream.</p>
         <h2>FAQ</h2>
@@ -3673,9 +3762,9 @@ SHORT.update({
  'glutathione-cream-with-aloe-vera-gel': 'Yes, glutathione cream and aloe vera gel can be used together: apply the thinner aloe gel first, wait a minute or two, then the cream, with sunscreen every morning. Do not mix aloe into the jar, and patch test fresh plant gel first.',
  'best-night-cream-for-glowing-skin': 'The best night cream for glowing skin has proven ingredients such as niacinamide, alpha arbutin or glutathione, a texture that suits your skin, and a price you can keep paying; use it every night for 4 to 8 weeks with sunscreen each morning.',
  'best-glutathione-cream-in-india': 'A good glutathione cream pairs glutathione with niacinamide and alpha arbutin, prints its full ingredient list, is free from steroids and mercury, and is sold by a company you can contact. It helps skin look brighter over weeks; it does not change natural skin tone.',
- 'night-cream-for-pigmentation': 'For the look of pigmentation and dark spots, use a night cream with alpha arbutin and niacinamide every night for at least 8 weeks, with sunscreen every morning. See a dermatologist for melasma or patches that spread.',
- 'niacinamide-night-cream': 'A niacinamide night cream helps skin look smoother and more even and supports its moisture barrier overnight. It suits most skin types; use a pea-sized amount nightly and sunscreen each morning.',
- 'alpha-arbutin-cream': 'Alpha arbutin cream is used to help reduce the look of dark spots and uneven tone. It is generally well tolerated and works gradually, so use it daily with sunscreen for 8 weeks or more.',
+ 'night-cream-for-pigmentation': 'For pigmentation and dark spots, use a night cream with alpha arbutin and niacinamide every night for at least 8 weeks, with sunscreen every morning, and keep strong acids or retinol to other nights. See a dermatologist for melasma.',
+ 'niacinamide-night-cream': 'A niacinamide night cream helps skin look smoother and more even and supports its moisture barrier overnight. It suits most skin types, can be used with vitamin C, and needs about 8 weeks with daily sunscreen.',
+ 'alpha-arbutin-cream': 'Alpha arbutin cream is used to help dark spots and uneven tone look lighter. It is generally well tolerated and can be used morning or night; use it daily with sunscreen for 8 weeks or more before judging.',
  'night-cream-for-dull-skin': 'For dull skin, use a moisturising night cream with niacinamide and an antioxidant such as glutathione, cleanse gently, sleep well and wear sunscreen daily. Most people see fresher-looking skin in 2 to 4 weeks.',
  'face-cream-for-glowing-skin-under-1000': 'Under ₹1,000 you can get a good cream for glowing-looking skin if it lists proven ingredients like niacinamide, alpha arbutin or glutathione and is free from steroids and mercury. Judge value by ingredients and grams, not price alone.',
  'glutathione-cream-with-retinol': 'Yes, glutathione cream and retinol can share one routine: use retinol at night (start twice a week) and the glutathione cream in the morning under sunscreen or on non-retinol nights. Skip retinol if pregnant or breastfeeding.',

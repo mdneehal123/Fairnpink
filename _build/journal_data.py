@@ -42,7 +42,7 @@ ARTICLES = [
         <h3>Are there any extra charges?</h3>
         <p>No. Shipping is free, taxes are included and Cash on Delivery has no extra fee. You pay exactly the pack price shown at checkout.</p>
         <h3>Where can I buy it at this price?</h3>
-        <p>On this website, or on WhatsApp at +91 99808 81230. See <a href="/journal/buy-fair-n-pink-cream-online/">how to buy Fair N Pink cream online</a> step by step.</p>'''),
+        <p>On this website, or on WhatsApp at +91 99808 81230. See <a href="/journal/buy-fair-n-pink-cream-online/">how to buy Fair N Pink cream online</a> step by step, and once it arrives, <a href="/how-to-use/">how to use Fair N Pink cream</a>.</p>'''),
     ('fair-n-pink-cream-benefits', 'Fair N Pink cream benefits: what it does and what it does not',
      'Fair N Pink Cream Benefits and Uses: An Honest Guide',
      'Fair N Pink cream benefits and uses: what glutathione, niacinamide and alpha arbutin do, how to use it, who it suits and what no face cream can promise.',
@@ -172,7 +172,7 @@ ARTICLES = [
         <h2>What alpha arbutin does</h2>
         <p>Alpha arbutin is used to help reduce the look of dark spots and patches. It works gradually, so it needs weeks of regular use.</p>
         <h2>Why they are paired</h2>
-        <p>They work in different ways, so one does not cancel the other out. Used together they cover both overall evenness and individual dark spots. Fair N Pink Advance Radiance Cream contains both, along with glutathione, so there is no layering to work out. See the <a href="/ingredients/">ingredients page</a>, or our <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a> page for cream vs serum.</p>
+        <p>They work in different ways, so one does not cancel the other out. Used together they cover both overall evenness and individual dark spots. Fair N Pink Advance Radiance Cream contains both, along with glutathione, so there is no layering to work out. See the <a href="/ingredients/">ingredients page</a>, or our <a href="/niacinamide-alpha-arbutin-cream/">niacinamide and alpha arbutin cream</a> page for cream vs serum. For each one on its own, read about <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream</a> and the <a href="/journal/niacinamide-night-cream/">niacinamide night cream</a>.</p>
         <h2>How to use them</h2>
         <ul>
           <li>Apply to clean skin, morning and night.</li>
@@ -226,7 +226,7 @@ ARTICLES = [
         <h3>Are home remedies like lemon or toothpaste safe for dark spots?</h3>
         <p>No. Lemon juice, toothpaste and baking soda can irritate skin, and irritated skin can get darker. Aloe vera gel is gentle but is a moisturiser, not a spot treatment.</p>
         <h3>Which cream is good for dark spots on the face?</h3>
-        <p>Look for a cream that lists ingredients such as niacinamide and alpha arbutin and that you will use twice a day with sunscreen. See <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a>.</p>
+        <p>Look for a cream that lists ingredients such as niacinamide and alpha arbutin and that you will use twice a day with sunscreen. See <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a> and our guide to the <a href="/journal/night-cream-for-pigmentation/">night cream for pigmentation</a>.</p>
         <h3>Is it melasma or a dark spot?</h3>
         <p>Small spots after pimples or sun are common. Wide, patchy brown areas on both cheeks or the forehead may be melasma, which a dermatologist should check.</p>'''),
     ('fair-and-pink-cream', 'Fair and Pink cream: the name, the spellings and the real product',
@@ -282,12 +282,23 @@ ARTICLES = [
         <h3>Can men use Fair and Pink cream?</h3>
         <p>Yes. It suits men and women and every skin type. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>'''),
     ('who-can-use-fair-n-pink-cream', 'Who can use Fair N Pink cream? Men, oily skin, dry skin and sensitive skin',
-     'Fair N Pink Cream for Men, Oily and Dry Skin | Who Can Use It',
-     'Can men use Fair N Pink cream? Is it suitable for oily, dry or sensitive skin? How to adjust the routine for your skin type, and who should ask a doctor first.',
+     'Who Can Use Fair N Pink Cream? Men and Every Skin Type',
+     'Who can use Fair N Pink cream: men and women over 18 with oily, dry, combination or sensitive skin. How to adjust the routine, and who should ask a doctor.',
      'Skin type', 'How to adjust the routine for your skin, and who should check with a doctor.', '''
-        <p>Fair N Pink Advance Radiance Cream is made for all skin types, and it is not a product for women only. What changes from person to person is how much to apply and when. (If you know it as <a href="/journal/fair-and-pink-cream/">Fair and Pink cream</a>, it is the same jar.)</p>
+        <p>Men and women over 18 with oily, dry, combination or sensitive skin can use Fair N Pink Advance Radiance Cream, after a 24-hour patch test. What changes from person to person is how much to apply and when; anyone pregnant, breastfeeding, under 18 or under treatment for a skin condition should ask a doctor first. (If you know it as <a href="/journal/fair-and-pink-cream/">Fair and Pink cream</a>, it is the same jar.)</p>
+        <h2>Your skin type at a glance</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>How much</th><th>When</th><th>One tip</th></tr></thead>
+          <tbody>
+            <tr><td>Oily</td><td>Very thin layer</td><td>Night, or morning and night if it does not feel heavy</td><td>Sunscreen gel in the morning</td></tr>
+            <tr><td>Dry</td><td>Pea-sized amount</td><td>Morning and night</td><td>Apply on slightly damp skin</td></tr>
+            <tr><td>Combination</td><td>Normal on cheeks, less on the T-zone</td><td>Morning and night</td><td>Blot the nose, do not add more cream</td></tr>
+            <tr><td>Sensitive</td><td>Pea-sized amount</td><td>Night only for the first week</td><td>Patch test first: it contains fragrance</td></tr>
+            <tr><td>Men</td><td>Pea-sized amount</td><td>Morning and night</td><td>Wait a few minutes after shaving</td></tr>
+          </tbody>
+        </table>
         <h2>Can men use it?</h2>
-        <p>Yes. Skin is skin. Use the same pea-sized amount, morning and night. If you shave, wait a few minutes after shaving before you apply it, because freshly shaved skin stings more easily.</p>
+        <p>Yes. Skin is skin. Use the same pea-sized amount, morning and night. If you shave, wait a few minutes after shaving before you apply it, because freshly shaved skin stings more easily. On the beard area, spread a thin layer and work it in against the hair so it reaches the skin. Men who ride a bike or work outdoors get the most out of the morning sunscreen step. More in <a href="/journal/glutathione-cream-for-men/">glutathione cream for men</a> and <a href="/journal/glutathione-cream-after-shaving/">glutathione cream after shaving</a>.</p>
         <h2>Oily skin</h2>
         <p>Use a very thin layer. If your face feels heavy or shiny by midday, keep the cream for night and use only sunscreen in the morning. Wash your face with a mild cleanser first so the cream goes on clean skin.</p>
         <h2>Dry skin</h2>
@@ -302,7 +313,22 @@ ARTICLES = [
           <li>Anyone under 18</li>
           <li>Anyone with active acne, eczema, melasma or another skin condition under treatment</li>
         </ul>
-        <p>For reactions and precautions, see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>. For what the cream can and cannot do on any skin type, read the <a href="/journal/fair-n-pink-cream-benefits/">Fair N Pink cream benefits</a> guide.</p>'''),
+        <h2>Summer, winter and the weather in between</h2>
+        <p>The same skin can need a different routine through the year. In humid summer and the monsoon, oily and combination skin often feels better with a thinner layer, or with the cream at night only. In dry North Indian winters or long hours in air conditioning, even oily skin may welcome a plain moisturiser on top at night. Sunscreen stays every morning in every season, including cloudy days.</p>
+        <h2>What it will not do on any skin type</h2>
+        <p>Despite the word "Fair" in the name, it is a cosmetic cream that helps skin look brighter and more even, and tan and dark spots look lighter over weeks with daily sunscreen. It does not change the skin colour you were born with, on anyone.</p>
+        <p>For reactions and precautions, see <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>. For what the cream can and cannot do on any skin type, read the <a href="/journal/fair-n-pink-cream-benefits/">Fair N Pink cream benefits</a> guide, and for the full routine see <a href="/how-to-use/">how to use Fair N Pink cream</a>.</p>
+        <h2>FAQ</h2>
+        <h3>Can men use Fair N Pink cream?</h3>
+        <p>Yes. It is not a cream for women only. Men use the same pea-sized amount morning and night, applied a few minutes after shaving, with sunscreen every morning.</p>
+        <h3>Can teenagers use Fair N Pink cream?</h3>
+        <p>We suggest it for adults. Under 18, a gentle face wash, a plain moisturiser and sunscreen are usually enough; ask a doctor before adding a brightening cream. See <a href="/journal/at-what-age-can-we-use-glutathione-cream/">at what age can we use glutathione cream</a>.</p>
+        <h3>Is Fair N Pink cream good for sensitive skin?</h3>
+        <p>Many people with sensitive skin can use it, but it contains fragrance, so patch test on your inner arm for 24 hours and start once a day at night. Stop if redness, itching or burning lasts.</p>
+        <h3>Can I use it during pregnancy or breastfeeding?</h3>
+        <p>Ask your doctor first. We do not suggest starting any new brightening cream during pregnancy or breastfeeding without medical advice.</p>
+        <h3>Will it suit very dark or very light skin?</h3>
+        <p>Yes. It is made for every skin tone. On any tone, the aim is a brighter, more even look, not a lighter skin colour.</p>'''),
     ('how-long-does-glutathione-cream-take-to-work', 'How long does glutathione cream take to work?',
      'How Long Does Glutathione Cream Take to Work? Week by Week',
      'How long glutathione cream takes to work on the face: what to expect in weeks 1, 4 and 8, how to track it honestly, what slows it and when to see a doctor.',
@@ -358,7 +384,7 @@ ARTICLES = [
         <p>If your skin feels tight, warm or looks red, drop to once a day at night for a week. If that does not settle it, stop and read <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>
         <h2>Can you use it for months?</h2>
         <p>A cosmetic cream can be used as part of your routine for as long as it suits your skin. If you are using any prescription cream, ask your doctor how to combine them.</p>
-        <p>Daily use is what makes an honest test possible; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work, week by week</a>, or read how to apply a <a href="/glutathione-cream-for-face/">glutathione cream for face</a> step by step.</p>'''),
+        <p>Daily use is what makes an honest test possible; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work, week by week</a>, or read how to apply a <a href="/glutathione-cream-for-face/">glutathione cream for face</a> step by step. For this cream, see <a href="/how-to-use/">how to use Fair N Pink cream</a> morning and night.</p>'''),
     ('glutathione-cream-with-sunscreen', 'Can I use glutathione cream with sunscreen?',
      'Glutathione Cream With Sunscreen: Which Goes First and Why',
      'You should use sunscreen with a glutathione cream. Which one goes first, how long to wait between them, and what SPF to look for.',
@@ -419,7 +445,7 @@ ARTICLES = [
         <h2>If your skin reacts</h2>
         <p>Wash it off, stop using it and let your skin rest. If it does not settle in a day or two, see a dermatologist.</p>
         <p>Fair N Pink Advance Radiance Cream contains alpha arbutin with niacinamide and glutathione. Read about <a href="/journal/niacinamide-and-alpha-arbutin/">using niacinamide and alpha arbutin together</a>.</p>
-        <p>For the cream itself, read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects and safety</a>.</p>'''),
+        <p>For the cream itself, read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects and safety</a>. For uses and how to apply it, see our guide to <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream</a>.</p>'''),
     ('buy-fair-n-pink-cream-online', 'How to buy Fair N Pink cream online',
      'Buy Fair N Pink Cream Online: COD, UPI and Free Delivery',
      'Buy Fair N Pink cream online from the brand: order steps, Cash on Delivery, the saving when you pay online, WhatsApp orders, delivery, tracking and returns.',
