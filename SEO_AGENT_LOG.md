@@ -50,6 +50,8 @@
 | 2026-11-13 | glutathione cream with orange peel powder | /journal/glutathione-cream-with-orange-peel-powder/ | Page 1 was foreign product listings and ingredient databases; santre ke chilke ka powder is a popular home pack; warns against scrubbing and citrus irritation, corrects the vitamin C tan-removal myth. |
 | 2026-11-14 | glutathione cream with cucumber (kheera) | /journal/glutathione-cream-with-cucumber/ | Page 1 was only pharmacy listings of 'whitening' glutathione creams and a cucumber cream listing, no how-to; gentle summer home habit; rinse-off before the cream, puffy-eye tips, mixes table, no tan-removal or fairness promise |
 | 2026-11-14 | glutathione cream with castor oil (arandi ka tel) | /journal/glutathione-cream-with-castor-oil/ | Page 1 was foreign glutathione cream shops, spam pages and one review paper, nothing on using both; cream first then one drop on dry patches at night, oil comparison table, brows/lashes note, honest that it does not fade dark spots |
+| 2026-11-15 | glutathione cream with rice water (chawal ka pani) | /journal/glutathione-cream-with-rice-water/ | Page 1 was a single Indian product page, foreign marketplace and K-beauty listings; no practical guide. Covers making and storing fresh rice water, order (rinse/toner first, cream after), fermented rice water caution, mixes table, honest view of glow claims. |
+| 2026-11-15 | glutathione cream with petroleum jelly (vaseline) | /journal/glutathione-cream-with-petroleum-jelly/ | Page 1 was only one brand lotion range, comparison sites and foreign shops; no guide on layering. Winter-relevant: order (cream first, jelly last on dry areas), slugging caution, lips/heels table, who should skip (oily, humid cities); no brand names used. |
 
 ## Boosts
 

@@ -3514,6 +3514,155 @@ MORE_ARTICLES = [
         <p>Only on very dry patches, and only if it does not cause bumps. Many people need it only in winter.</p>
         <h3>Does castor oil with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-rice-water', 'Can you use rice water with glutathione cream?',
+     'Rice Water with Glutathione Cream: Right Way to Use Both',
+     'Can you use rice water with glutathione cream? Yes: fresh rice water as a rinse or toner first, cream after. How to make it, what to skip, honest results.',
+     'How to use', 'How to use rice water (chawal ka pani) next to a glutathione cream: a fresh rinse or toner first and the cream after, how to make and store it safely, why fermented rice water needs care, and what rice water cannot do.', '''
+        <p>Yes, you can use rice water with glutathione cream: splash or pat fresh, cooled rice water on clean skin, let it dry, then apply the cream as usual. Keep it as a simple watery step before the cream, make a fresh batch every day or two, and never mix it into the jar.</p>
+        <p>Chawal ka pani has been used in Indian homes for hair and skin for a long time, and Korean-style skincare has made it popular again. It can leave skin feeling soft and fresh. It does not remove dark spots or tan, and it does not change your natural skin colour.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Rice water (chawal ka pani)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>The starchy water left after soaking or boiling rice</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>A soft, fresh feel; a light rinse or toner</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>How long it keeps</td><td>A day or two in the fridge</td><td>Until the date on the pack, lid closed</td></tr>
+            <tr><td>Main downside</td><td>Spoils quickly; can feel tight on dry skin</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Remove dark spots, tan or pigmentation</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. How to make rice water at home</h2>
+        <ol>
+          <li><b>Rinse half a cup of plain rice</b> once in clean water and throw that water away. It carries dust.</li>
+          <li><b>Soak the rice in about a cup of clean water</b> for 20 to 30 minutes and swirl it now and then. The water turns cloudy.</li>
+          <li><b>Strain the water</b> into a clean glass bottle or bowl. Cook the rice as usual.</li>
+          <li><b>Use it the same day</b>, or keep it in the fridge with a closed lid and throw it away after a day or two.</li>
+          <li><b>Throw it away earlier</b> if it smells sour, turns slimy or looks different.</li>
+        </ol>
+        <p>Boiled rice water (the starch you drain after cooking) also works if you dilute it with an equal amount of clean water and let it cool completely.</p>
+        <h2>3. The right order with the cream</h2>
+        <ol>
+          <li><b>Patch test</b> the rice water on your inner arm or behind the ear and check the next day.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Splash or pat on rice water</b> with clean palms or a fresh cotton pad. Keep it out of the eyes.</li>
+          <li><b>Let it dry</b> for a minute or two. You can rinse it off with plain water if it feels tight.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b>, away from the eyes and lips.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher, if you use the routine in the day.</li>
+        </ol>
+        <p>Watery steps go first and creams after, so the cream can sit on top and keep skin comfortable. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>4. Fermented rice water: go slow</h2>
+        <p>Many online recipes leave rice water out for a day or two to ferment. Fermented rice water is more sour, smells strong and can sting, and in warm Indian weather it can grow the wrong kind of germs quickly. If you want to try it, keep it in the fridge, use it diluted, never past two days, and stop at the first sign of itching or bumps. For most people, fresh rice water is the simpler and safer choice.</p>
+        <h2>5. Rice water mixes: what is fine and what to skip</h2>
+        <table>
+          <thead><tr><th>Use</th><th>Our view</th></tr></thead>
+          <tbody>
+            <tr><td>Rice water stirred into the cream jar</td><td>Never. Water in the jar invites germs and spoils the cream</td></tr>
+            <tr><td>Fresh rice water as a splash or toner before the cream</td><td>Fine for most skin</td></tr>
+            <tr><td>Rice water + rose water</td><td>Fine as a mild toner; see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a></td></tr>
+            <tr><td>Rice flour + curd as a wash-off pack</td><td>Fine once a week if rinsed gently; see <a href="/journal/glutathione-cream-with-curd/">glutathione cream with curd</a></td></tr>
+            <tr><td>Rice water + lemon</td><td>Skip. Lemon can sting and irritate; see <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a></td></tr>
+            <tr><td>Rice water as a sheet mask left on for an hour</td><td>Skip. Ten minutes is plenty</td></tr>
+          </tbody>
+        </table>
+        <h2>6. Who should be careful</h2>
+        <ul>
+          <li><b>Dry skin.</b> Rice water can leave a tight feeling, especially in winter. Follow with the cream straight away; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</li>
+          <li><b>Acne-prone skin.</b> A starchy layer left on all day can feel sticky; rinse it off after a few minutes. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne prone skin</a>.</li>
+          <li><b>Sensitive skin</b> that reacts easily; patch test first and see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Broken skin</b>, or skin right after threading, waxing or bleach.</li>
+        </ul>
+        <h2>7. Rice water for glow: an honest view</h2>
+        <p>Rice water is often shared online as a "glass skin" or glow secret. It can make skin feel soft and look fresher for a while, which is a fine reason to enjoy it. There is no reliable evidence that it fades dark spots or tan. Those look lighter slowly, over weeks, with sunscreen every morning and steady care; read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a> and <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>8. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Rice water stays a separate step: pat it on rice water first, let it dry, then apply a thin layer of the cream. Over 8 to 12 weeks, with daily sunscreen, the cream can help tan and dark marks look lighter and skin look more even. It does not change your natural skin colour. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>9. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin itches, burns or breaks into bumps after rice water, if a rash spreads, or if dark patches on the cheeks keep spreading (this can be melasma, which needs a doctor).</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after rice water?</h3>
+        <p>Yes. Let the rice water dry for a minute or two, then apply a thin layer of the cream.</p>
+        <h3>Can I mix rice water into my glutathione cream?</h3>
+        <p>No. Water in the jar invites germs and spoils the cream. Keep rice water as a separate step.</p>
+        <h3>Can I use rice water on my face every day?</h3>
+        <p>Most people can use fresh rice water daily as a splash. Make a new batch every day or two and stop if your skin feels dry or itchy.</p>
+        <h3>Is fermented rice water better than fresh?</h3>
+        <p>Not necessarily. Fermented rice water spoils and stings more easily, especially in warm weather. Fresh rice water is the safer choice.</p>
+        <h3>Does rice water with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-petroleum-jelly', 'Can you use petroleum jelly with glutathione cream?',
+     'Petroleum Jelly with Glutathione Cream: Right Order',
+     'Can you use petroleum jelly with glutathione cream? Yes: cream first, then a thin layer of jelly on dry areas at night. Order, winter tips, who should skip.',
+     'How to use', 'How to use petroleum jelly next to a glutathione cream: cream first and a thin layer of jelly on top at night, using it on lips and heels, why oily skin can skip it, and what petroleum jelly cannot do.', '''
+        <p>Yes, you can use petroleum jelly with glutathione cream: apply the cream first on clean skin, wait a few minutes, then press a thin layer of plain petroleum jelly over dry areas, at night only. The jelly goes on top, never under the cream and never mixed into the jar.</p>
+        <p>Plain petroleum jelly is a common winter staple in Indian homes for chapped lips, cracked heels and dry hands. It works as a seal on top of the skin, so it can help dry patches feel more comfortable. It has no brightening ingredients of its own, and it does not remove dark spots or tan.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Petroleum jelly</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>A thick, greasy seal (occlusive)</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Slows water loss so dry skin feels softer</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best time</td><td>Night, as the last step on dry areas</td><td>Morning (under sunscreen) and night</td></tr>
+            <tr><td>Main downside</td><td>Greasy; stains pillows; can trap sweat and dirt</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Remove dark spots, tan or pigmentation</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order at night</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b>, away from the eyes and lips.</li>
+          <li><b>Wait 5 to 10 minutes</b> so the cream settles.</li>
+          <li><b>Take a rice-grain amount of plain petroleum jelly</b>, warm it between your fingertips and press it only on dry areas: flaky cheeks, the sides of the nose, the chin.</li>
+          <li><b>Use a separate, clean fingertip for your lips.</b> The jelly is fine on lips; the cream is not.</li>
+          <li><b>In the morning</b>, wash your face, then use a light moisturiser and sunscreen, SPF 30 or higher.</li>
+        </ol>
+        <p>Putting the jelly first would block the cream from reaching the skin, which is why it always goes last. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Is "slugging" a good idea?</h2>
+        <p>"Slugging" means covering the whole face with a layer of petroleum jelly overnight. It can help very dry, flaky skin in a cold, dry winter. But a sealed layer can also make any active cream underneath feel stronger, and it can trap sweat in humid weather. If you want to try it, start with dry areas only, two or three nights a week, and stop if you notice stinging, redness or new bumps. Most people in warm Indian cities do not need it at all.</p>
+        <h2>4. Where else it helps</h2>
+        <table>
+          <thead><tr><th>Area</th><th>Our view</th></tr></thead>
+          <tbody>
+            <tr><td>Chapped lips</td><td>Fine. Use jelly on the lips and keep the cream off them; see <a href="/journal/glutathione-cream-for-dark-upper-lip/">glutathione cream for dark upper lip</a></td></tr>
+            <tr><td>Cracked heels and dry elbows</td><td>Fine. Apply at night and wear cotton socks</td></tr>
+            <tr><td>Dry hands in winter</td><td>Fine after washing up at night</td></tr>
+            <tr><td>Freshly threaded or waxed areas</td><td>Wait until the skin calms; see <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after threading or waxing</a></td></tr>
+            <tr><td>Under makeup or sunscreen in the day</td><td>Skip. It can make sunscreen slide and makeup patchy</td></tr>
+            <tr><td>Mixed into the cream jar</td><td>Never. It changes the cream and spreads a heavy layer everywhere</td></tr>
+          </tbody>
+        </table>
+        <h2>5. Who should skip it on the face</h2>
+        <ul>
+          <li><b>Oily or acne-prone skin.</b> A heavy seal can trap oil and sweat; a thin layer of cream is enough. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</li>
+          <li><b>Humid weather.</b> In coastal cities or the monsoon, it usually feels sticky. Keep it for dry winter nights.</li>
+          <li><b>Skin with active pimples</b>, or skin that is red and irritated.</li>
+          <li><b>Anyone sleeping on a pillow they do not want stained.</b> Use a thin layer or an old pillowcase.</li>
+        </ul>
+        <h2>6. Petroleum jelly vs other winter layers</h2>
+        <table>
+          <thead><tr><th>Layer</th><th>Feel</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td>Petroleum jelly</td><td>Very thick and greasy</td><td>Strongest seal; best on very dry patches, lips and heels</td></tr>
+            <tr><td>Glycerin</td><td>Sticky, watery</td><td>Draws in water; see <a href="/journal/glutathione-cream-with-glycerin/">glutathione cream with glycerin</a></td></tr>
+            <tr><td>Coconut oil</td><td>Medium, sets in cold weather</td><td>Can clog some skin; see <a href="/journal/glutathione-cream-with-coconut-oil/">glutathione cream with coconut oil</a></td></tr>
+            <tr><td>Hyaluronic acid serum</td><td>Light, watery</td><td>Goes under the cream; see <a href="/journal/glutathione-cream-with-hyaluronic-acid-serum/">glutathione cream with hyaluronic acid serum</a></td></tr>
+          </tbody>
+        </table>
+        <h2>7. Petroleum jelly for dark spots: an honest view</h2>
+        <p>Petroleum jelly is sometimes shared online as an overnight trick for glowing skin or lighter spots. It can make very dry skin look smoother and less dull in the morning, which is useful in winter. It does not fade dark spots or tan. Those look lighter slowly, over weeks, with sunscreen every morning and steady care; read <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a> and <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
+        <h2>8. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Apply it first as a thin layer at night, and add petroleum jelly on top only where your skin is dry. Over 8 to 12 weeks, with daily sunscreen, the cream can help tan and dark marks look lighter and skin look more even. It does not change your natural skin colour. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>9. When to see a dermatologist</h2>
+        <p>See a dermatologist if dryness cracks, bleeds or itches badly, if new bumps keep appearing after using jelly, if your skin burns after the cream, or if dark patches on the cheeks keep spreading (this can be melasma, which needs a doctor).</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply petroleum jelly after glutathione cream?</h3>
+        <p>Yes, at night. Wait a few minutes after the cream, then press a thin layer only on dry areas.</p>
+        <h3>Can I apply petroleum jelly before glutathione cream?</h3>
+        <p>No. The jelly forms a seal, so the cream on top would not reach your skin. Cream first, jelly last.</p>
+        <h3>Can I mix petroleum jelly into my glutathione cream?</h3>
+        <p>No. Keep them separate so the cream stays as it was made and you control where the jelly goes.</p>
+        <h3>Is petroleum jelly good for oily skin?</h3>
+        <p>Usually not on the face. It can trap oil and sweat. Oily skin is fine with just a thin layer of cream.</p>
+        <h3>Does petroleum jelly with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -3573,5 +3722,7 @@ SHORT.update({
  'glutathione-cream-with-orange-peel-powder': 'Yes, as a separate step: apply a smooth orange peel powder paste on clean skin, rinse it off gently after about 10 minutes without scrubbing, pat dry, then apply the glutathione cream, with sunscreen every morning. Patch test first and never mix it into the jar.',
  'glutathione-cream-with-cucumber': 'Yes, as a separate step: dab fresh cucumber juice or lay thin slices on clean skin for about 10 minutes, rinse with plain water, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix cucumber juice into the jar.',
  'glutathione-cream-with-castor-oil': 'Yes, sparingly: apply the glutathione cream first, wait a few minutes, then press one drop of castor oil only on dry areas at night, with sunscreen every morning. Castor oil is very thick, so oily or acne-prone skin should usually skip it, and never mix it into the jar.',
+ 'glutathione-cream-with-rice-water': 'Yes. Splash or pat fresh, cooled rice water on clean skin, let it dry, then apply a thin layer of the glutathione cream, with sunscreen every morning. Make a fresh batch every day or two, never mix it into the jar, and remember rice water does not fade dark spots.',
+ 'glutathione-cream-with-petroleum-jelly': 'Yes, at night: apply the glutathione cream first, wait a few minutes, then press a thin layer of plain petroleum jelly only on dry areas and lips. Never put the jelly under the cream or mix it into the jar, and oily or acne-prone skin can usually skip it.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
