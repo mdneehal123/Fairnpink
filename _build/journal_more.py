@@ -3900,6 +3900,145 @@ MORE_ARTICLES = [
         <p>No. Papaya enzymes can irritate skin if left on for hours. Rinse it off after about 10 minutes.</p>
         <h3>Does papaya with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-green-tea', 'Can you use green tea with glutathione cream?',
+     'Green Tea with Glutathione Cream: Toner, Pack and Right Order',
+     'Can you use green tea with glutathione cream? Yes: cooled green tea as a toner or compress first, let it dry, then the cream. How to make it and what to skip.',
+     'How to use', 'How to use green tea next to a glutathione cream: a cooled tea toner or compress first and the cream after, tea bags for puffy eyes, mixes to skip, and an honest view of what home green tea can do.', '''
+        <p>Yes, you can use green tea with glutathione cream: pat cooled, plain green tea on clean skin as a toner or compress, let it dry for a minute, then apply a thin layer of the cream. Make the tea fresh, never mix it into the jar, and wear sunscreen every morning.</p>
+        <p>Green tea is in many face washes and creams, and a cup of cooled green tea is a common home toner in India. Green tea contains antioxidants called polyphenols, which are why skincare brands use it. A home brew is much weaker and less stable than a made-for-skin product, so treat it as a gentle, refreshing step rather than a spot or tan remover.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Cooled green tea</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Watery toner or compress</td><td>Leave-on cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Feels cool and fresh; may calm a warm, oily face for a while</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>How long it lasts</td><td>Make fresh; use within a day</td><td>Use daily, as the label says</td></tr>
+            <tr><td>Main downside</td><td>Goes off quickly; flavoured teas can sting</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Remove tan, dark spots or pigmentation</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. How to make a green tea toner</h2>
+        <ol>
+          <li><b>Use plain green tea</b>: one tea bag or one teaspoon of leaves, with no lemon, honey, mint or added flavour.</li>
+          <li><b>Steep it in a cup of hot water</b> for 2 to 3 minutes, then remove the bag or strain the leaves.</li>
+          <li><b>Let it cool fully</b> to room temperature, or chill it in the fridge for a cooler feel.</li>
+          <li><b>Pour it into a clean, dry bottle</b> or bowl with a lid.</li>
+          <li><b>Keep it in the fridge and use it within 24 hours.</b> Throw it away if it smells sour or looks cloudy.</li>
+        </ol>
+        <h2>3. The right order with the cream</h2>
+        <ol>
+          <li><b>Patch test</b> the tea on your jawline for a day if your skin is sensitive.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Pat the cooled tea on with clean cotton</b>, or lay a soaked cotton pad or soft cloth on the face for 5 minutes as a compress.</li>
+          <li><b>Let it dry for a minute.</b> Do not rinse; it is only tea.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher. This matters more than any toner.</li>
+        </ol>
+        <p>For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>. If you prefer a toner with fewer steps, see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a>.</p>
+        <h2>4. Green tea bags and ice cubes for puffy eyes</h2>
+        <p>Used, cooled green tea bags laid on closed eyes for 5 to 10 minutes are a popular trick for puffy mornings. The cool, damp bag can make puffiness look less for a while. It does not change dark circles caused by thin skin, shadows or genes. Squeeze out extra liquid so it does not drip into the eyes, and keep the cream away from the eyelids; read <a href="/journal/glutathione-cream-for-dark-circles/">glutathione cream for dark circles</a>. You can also freeze cooled tea in an ice tray and wrap a cube in a thin cloth for a quick cool press in summer.</p>
+        <h2>5. Mixes with green tea: what is fine and what to skip</h2>
+        <table>
+          <thead><tr><th>Mix</th><th>Our view</th></tr></thead>
+          <tbody>
+            <tr><td>Green tea + aloe vera gel</td><td>Fine as a light gel toner; see <a href="/journal/glutathione-cream-with-aloe-vera-gel/">glutathione cream with aloe vera gel</a></td></tr>
+            <tr><td>Green tea + rice water</td><td>Fine, both made fresh; see <a href="/journal/glutathione-cream-with-rice-water/">glutathione cream with rice water</a></td></tr>
+            <tr><td>Green tea + honey as a pack</td><td>Fine, rinse after 10 minutes; see <a href="/journal/glutathione-cream-with-honey/">glutathione cream with honey</a></td></tr>
+            <tr><td>Green tea + lemon</td><td>Skip. Lemon stings and can leave dark marks with sun</td></tr>
+            <tr><td>Wet tea leaves rubbed as a scrub</td><td>Skip. Rough and uneven on the face</td></tr>
+            <tr><td>Green tea stirred into the cream jar</td><td>Never. Water-based liquids in the jar invite germs and spoil the cream</td></tr>
+          </tbody>
+        </table>
+        <h2>6. Green tea for oily skin and pimples: an honest view</h2>
+        <p>A cool green tea toner can feel refreshing on an oily face in humid weather. It does not stop oil or clear pimples, and a weak home brew is not a substitute for proper acne care. Keep your routine light; read <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a> and <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a>. Painful, deep or frequent pimples need a dermatologist.</p>
+        <p>Drinking green tea is a food choice. It does not replace sunscreen or a skincare routine, and it has caffeine, so do not overdo it.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no green tea, so a cooled tea toner can go on first and the cream after, once the face is dry. Over 8 to 12 weeks, with daily sunscreen, the cream can help tan and dark marks look lighter and skin look more even. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin burns, itches or breaks into a rash after any new step, if redness lasts more than a day, or if dark patches on the cheeks keep spreading, which can be melasma.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after green tea toner?</h3>
+        <p>Yes. Let the tea dry on your face for a minute, then apply a thin layer of the cream.</p>
+        <h3>Can I mix green tea into my glutathione cream?</h3>
+        <p>No. Liquid in the jar can spoil the cream. Keep green tea as a separate step.</p>
+        <h3>How long can I keep homemade green tea toner?</h3>
+        <p>About a day in the fridge, in a clean closed bottle. Make a fresh batch after that.</p>
+        <h3>Can I use green tea on my face every day?</h3>
+        <p>Yes, a plain, fresh, cooled toner is gentle enough for daily use on most skin. Stop if it stings.</p>
+        <h3>Does green tea with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-tea-tree-oil', 'Can you use tea tree oil with glutathione cream?',
+     'Tea Tree Oil with Glutathione Cream: Safe Way to Use Both',
+     'Can you use tea tree oil with glutathione cream? Yes: cream on the face, a diluted dab of tea tree oil only on a pimple. How to dilute it, who should skip.',
+     'How to use', 'How to use tea tree oil next to a glutathione cream: cream on the face, a diluted dab of tea tree oil only on a pimple, how to dilute it, what not to mix, and who should skip it.', '''
+        <p>Yes, you can use tea tree oil with glutathione cream, but only as a diluted spot step: apply the cream on your face, then dab a little diluted tea tree oil only on a pimple. Never put neat tea tree oil on your skin, never mix it into the jar, and wear sunscreen every morning.</p>
+        <p>Tea tree oil is an essential oil that many people in India keep for pimples, often after seeing it in face washes and spot gels. It is strong, and it is one of the essential oils most often linked with skin irritation and allergy, especially when used undiluted or when the bottle is old. Used carefully, it can sit next to a gentle glutathione cream without trouble.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Tea tree oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Essential oil; must be diluted</td><td>Leave-on face cream</td></tr>
+            <tr><td>Where it goes</td><td>Only on a single pimple</td><td>The whole face and neck</td></tr>
+            <tr><td>Cosmetic job</td><td>Used as a home spot step for pimples</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Main downside</td><td>Stinging, dryness, allergic rash</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Fade old dark marks or treat deep, painful acne</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. How to dilute tea tree oil</h2>
+        <ol>
+          <li><b>Buy pure tea tree oil</b> in a small dark glass bottle with a dropper, and check the expiry date.</li>
+          <li><b>Mix 1 drop of tea tree oil</b> with about a teaspoon of plain aloe vera gel or a light carrier oil, in a clean small bowl or the cap of a bottle.</li>
+          <li><b>Patch test</b> a little of the mix behind your ear or on your jawline once a day for 2 days.</li>
+          <li><b>Make a tiny fresh batch</b> each time, or keep a pre-mixed bottle tightly capped and away from light.</li>
+        </ol>
+        <p>Tea tree oil that is old or left open to air and sunlight is more likely to irritate. If it smells different from when you bought it, throw it away.</p>
+        <h2>3. The right order with the cream</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck, going around the pimple rather than over it.</li>
+          <li><b>Wait a few minutes</b> for the cream to settle.</li>
+          <li><b>Dab the diluted tea tree mix only on the pimple</b> with a clean cotton bud, once a day at night.</li>
+          <li><b>Do not cover the whole face</b> with tea tree oil, and keep it away from the eyes, lips and nostrils.</li>
+          <li><b>Sunscreen every morning</b>, SPF 30 or higher, so the mark left behind does not darken in the sun.</li>
+        </ol>
+        <p>For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>4. What not to stack with tea tree oil</h2>
+        <table>
+          <thead><tr><th>If you also use</th><th>Our view</th></tr></thead>
+          <tbody>
+            <tr><td>Salicylic acid or benzoyl peroxide spot products</td><td>Pick one spot product at a time; see <a href="/journal/glutathione-cream-with-salicylic-acid/">glutathione cream with salicylic acid</a></td></tr>
+            <tr><td>Retinol</td><td>Not on the same spot the same night; see <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a></td></tr>
+            <tr><td>Lemon, toothpaste or baking soda on pimples</td><td>Skip. All irritate and can leave darker marks</td></tr>
+            <tr><td>Prescription acne creams</td><td>Ask your dermatologist before adding tea tree oil</td></tr>
+            <tr><td>Tea tree oil stirred into the cream jar</td><td>Never. It changes the cream and makes the whole face sting</td></tr>
+            <tr><td>Aloe vera gel as the base</td><td>Fine; see <a href="/journal/glutathione-cream-with-aloe-vera-gel/">glutathione cream with aloe vera gel</a></td></tr>
+          </tbody>
+        </table>
+        <h2>5. Who should skip tea tree oil</h2>
+        <ul>
+          <li><b>Sensitive, dry or eczema-prone skin</b>; see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Anyone who has had a rash</b> from tea tree oil, other essential oils or fragranced products.</li>
+          <li><b>Skin that is broken, peeling or freshly threaded, waxed or bleached.</b></li>
+          <li><b>Pregnancy and breastfeeding</b>: ask your doctor before using essential oils on the skin.</li>
+          <li><b>Children</b>: keep the bottle out of reach. Tea tree oil is harmful if swallowed.</li>
+        </ul>
+        <h2>6. Pimple marks: an honest view</h2>
+        <p>Tea tree oil is a spot step for a pimple, not a fix for the flat brown or dark marks pimples leave behind on Indian skin. Those marks fade slowly, over weeks, with sunscreen every morning, no picking, and steady care. A cream with niacinamide and alpha arbutin can help them look lighter over 8 to 12 weeks; read <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a> and <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a>.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no tea tree oil, so you can use it on the face and keep a diluted tea tree dab for the pimple itself. With daily sunscreen, the cream can help marks look lighter and skin look more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist for painful, deep or frequent pimples, pimples that leave pits or scars, or acne that keeps coming back along the jaw with irregular periods. Stop tea tree oil and get help if your skin turns red, swollen, itchy or blistered.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after tea tree oil?</h3>
+        <p>Apply the cream first on the face, then dab diluted tea tree oil only on the pimple. That way the oil stays on the spot.</p>
+        <h3>Can I mix tea tree oil into my glutathione cream?</h3>
+        <p>No. It changes the cream and makes the whole face more likely to sting. Keep it as a separate spot step.</p>
+        <h3>Can I put tea tree oil directly on a pimple?</h3>
+        <p>Not neat. Always dilute it first, about 1 drop in a teaspoon of aloe gel or a light oil, and patch test.</p>
+        <h3>How long does tea tree oil take on a pimple?</h3>
+        <p>It varies, and some pimples settle on their own in a few days anyway. If a pimple is painful or lasts more than a couple of weeks, see a dermatologist.</p>
+        <h3>Does tea tree oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -3963,5 +4102,7 @@ SHORT.update({
  'glutathione-cream-with-petroleum-jelly': 'Yes, at night: apply the glutathione cream first, wait a few minutes, then press a thin layer of plain petroleum jelly only on dry areas and lips. Never put the jelly under the cream or mix it into the jar, and oily or acne-prone skin can usually skip it.',
  'glutathione-cream-with-saffron': 'Yes, as a separate step: soak 3 to 4 kesar strands in milk or rose water, dab it on clean skin for 10 to 15 minutes, rinse, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix kesar into the jar; it does not change skin colour.',
  'glutathione-cream-with-papaya': 'Yes, as a separate step: spread mashed ripe papaya on clean skin, rinse after about 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Use it once a week, never with another exfoliant the same night, and skip it with a latex allergy.',
+ 'glutathione-cream-with-green-tea': 'Yes, as a separate step: pat cooled, plain green tea on clean skin as a toner or compress, let it dry for a minute, then apply the glutathione cream, with sunscreen every morning. Make the tea fresh, keep it in the fridge for a day at most, and never mix it into the jar.',
+ 'glutathione-cream-with-tea-tree-oil': 'Yes, as a spot step: apply the glutathione cream on the face, then dab tea tree oil diluted in aloe gel or a light oil only on a pimple, with sunscreen every morning. Never use it neat, never mix it into the jar, and skip it on sensitive skin.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
