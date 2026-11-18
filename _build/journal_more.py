@@ -4039,6 +4039,148 @@ MORE_ARTICLES = [
         <p>It varies, and some pimples settle on their own in a few days anyway. If a pimple is painful or lasts more than a couple of weeks, see a dermatologist.</p>
         <h3>Does tea tree oil with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-for-dark-knuckles', 'Glutathione cream for dark knuckles: causes and a gentle routine',
+     'Glutathione Cream for Dark Knuckles: Causes and Routine',
+     'Can glutathione cream help dark knuckles? Common causes like dryness, sun and rubbing, a simple night routine, what to avoid, and when to see a doctor.',
+     'Skin concerns', 'Why knuckles often look darker than the rest of the hand, how to use a glutathione cream there, what to avoid, and when dark knuckles need a doctor.', '''
+        <p>A glutathione cream can help dark knuckles look a little lighter and more even over 8 to 12 weeks, if you use a thin layer at night, keep the hands moisturised, and protect them from sun and harsh soaps during the day. It will not change your natural skin colour, and dark knuckles that come with dark, velvety skin on the neck or underarms, or with tiredness and other changes, need a doctor first.</p>
+        <p>Knuckle skin is thicker, folds every time you make a fist, and gets washed, scrubbed and dried many times a day. In India, hand-washing clothes and utensils, detergent, hard water and daily sun on a scooter add up. Over months, the skin over the joints can look a shade darker, rough and dry compared with the rest of the hand.</p>
+        <h2>1. Why knuckles look darker</h2>
+        <table>
+          <thead><tr><th>Common cause</th><th>What you may notice</th><th>What helps</th></tr></thead>
+          <tbody>
+            <tr><td>Dryness and thick skin</td><td>Rough, wrinkled, slightly grey or ashy look</td><td>Moisturiser after every wash, a richer layer at night</td></tr>
+            <tr><td>Friction and folding</td><td>Darker skin right over the joints</td><td>Gentle care, no scrubbing with stones or brushes</td></tr>
+            <tr><td>Sun on the back of the hands</td><td>Hands darker than the arms, worse after summer</td><td>Sunscreen on the back of the hands, gloves on a two-wheeler</td></tr>
+            <tr><td>Detergent, dishwashing bar and hard water</td><td>Dry, tight, sometimes cracked skin</td><td>Rubber gloves for washing, moisturiser straight after</td></tr>
+            <tr><td>Eczema or dermatitis</td><td>Itch, flaking, cracks that come and go</td><td>See a dermatologist; a cream for looks is not enough</td></tr>
+            <tr><td>Medical causes</td><td>Dark knuckles with velvety neck or underarms, or with tiredness</td><td>See a doctor; these can be linked to things like insulin resistance or low vitamin B12</td></tr>
+          </tbody>
+        </table>
+        <h2>2. A simple night routine for knuckles</h2>
+        <ol>
+          <li><b>Wash your hands</b> with a mild soap or hand wash and lukewarm water. Pat dry, do not rub.</li>
+          <li><b>Take a very small amount</b> of the glutathione cream, about the size of a grain of rice for both hands, and press it onto the knuckles only.</li>
+          <li><b>Spread it in gentle circles</b> over each joint and let it settle for a few minutes.</li>
+          <li><b>Seal with a plain moisturiser</b> or a thin layer of petroleum jelly over the whole hand if your skin is dry; see <a href="/journal/glutathione-cream-with-petroleum-jelly/">glutathione cream with petroleum jelly</a>.</li>
+          <li><b>Do this at bedtime</b>, when your hands will not be washed again for hours.</li>
+          <li><b>In the morning</b>, moisturiser and broad-spectrum sunscreen on the back of the hands before you go out.</li>
+        </ol>
+        <p>For the face and neck routine, read <a href="/how-to-use/">how to use the cream</a>. The cream is made for the face, so a small amount on the knuckles is fine, but the 10 g jar is not meant for the whole hands or body.</p>
+        <h2>3. Daytime habits that matter more than any cream</h2>
+        <ul>
+          <li><b>Sunscreen on the back of the hands</b> every morning and again after washing. Hands are the most-missed spot. Read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+          <li><b>Gloves</b> on a scooter or bike, and rubber gloves when washing clothes or utensils with detergent.</li>
+          <li><b>A small tube of hand cream</b> in your bag or at the kitchen sink, used after each wash.</li>
+          <li><b>Rinse off detergent fully</b>; leftover soap dries the skin more.</li>
+          <li><b>No scrubbing</b> with pumice stones, sugar scrubs or brushes on the knuckles. Friction is often what keeps them dark.</li>
+        </ul>
+        <h2>4. What to avoid</h2>
+        <table>
+          <thead><tr><th>Home tip</th><th>Our view</th></tr></thead>
+          <tbody>
+            <tr><td>Lemon juice or lemon with sugar</td><td>Skip. Acidic, stings cracked skin and can darken with sun; see <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a></td></tr>
+            <tr><td>Baking soda or toothpaste</td><td>Skip. Too harsh and drying</td></tr>
+            <tr><td>Bleach creams on the hands</td><td>Skip. They irritate and do not fix the cause</td></tr>
+            <tr><td>Daily hard scrubs</td><td>Skip. Rubbing keeps the skin thick and dark</td></tr>
+            <tr><td>"Knuckle whitening" creams with no full ingredient list</td><td>Avoid. Unlisted strong ingredients can harm skin</td></tr>
+            <tr><td>Plain coconut oil or petroleum jelly at night</td><td>Fine for dry knuckles, over the cream</td></tr>
+          </tbody>
+        </table>
+        <h2>5. How long it takes</h2>
+        <p>Skin on the hands renews slowly and is washed many times a day, so changes are gradual. With steady nightly use, moisturising and sunscreen, most people notice softer, less ashy knuckles within a few weeks, while any change in darkness takes 8 to 12 weeks or more. If you stop sun protection, the darkness tends to return. Read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a> for an honest timeline.</p>
+        <h2>6. Winter, men and other areas</h2>
+        <ul>
+          <li><b>Winter</b>: knuckles crack more in dry air and with hot water. Use lukewarm water and a thicker night layer; see <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a>.</li>
+          <li><b>Men</b>: the same routine works. Gloves for riding and gym help with friction.</li>
+          <li><b>Dark neck</b> often goes along with dark knuckles; read <a href="/journal/glutathione-cream-for-dark-neck/">glutathione cream for dark neck</a>, and see a doctor if the neck skin feels thick or velvety.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. A rice-grain amount at night can sit on the knuckles as part of the routine above, with sunscreen on the hands every morning. It can help the area look more even over weeks; it does not lighten your natural skin colour. See <a href="/ingredients/">what is inside</a>, and patch test on one knuckle for 2 to 3 nights first.</p>
+        <h2>8. When to see a doctor</h2>
+        <p>See a doctor or dermatologist if dark knuckles appear quickly, come with dark, thick or velvety skin on the neck, underarms or groin, come with tiredness, weight change or numbness, or if the skin is itchy, cracked and bleeding. Also ask your doctor before using any cream with active ingredients if you are pregnant or breastfeeding.</p>
+        <h2>FAQ</h2>
+        <h3>Can I use glutathione face cream on my knuckles?</h3>
+        <p>Yes, a small amount at night is fine. Patch test first, and keep using sunscreen on the back of your hands in the day.</p>
+        <h3>Why are my knuckles darker than my hands?</h3>
+        <p>Usually because the skin there is thicker, folds a lot, gets dry and sees sun and friction. Some medical causes also show on the knuckles, so see a doctor if it comes with other changes.</p>
+        <h3>Can I remove dark knuckles at home?</h3>
+        <p>You can help them look lighter and softer over weeks with moisture, sunscreen and gentle care. No home remedy or cream removes them for good.</p>
+        <h3>Should I scrub my knuckles?</h3>
+        <p>No. Hard scrubbing adds friction and often makes the skin thicker and darker. Gentle washing and moisturising work better.</p>
+        <h3>Does glutathione cream make knuckles fair?</h3>
+        <p>No. It does not change your natural skin colour. With sunscreen and moisture, it can help the area look more even over weeks.</p>'''),
+    ('glutathione-cream-with-jojoba-oil', 'Can you use jojoba oil with glutathione cream?',
+     'Jojoba Oil with Glutathione Cream: Right Order and How Much',
+     'Can you use jojoba oil with glutathione cream? Yes: cream first, then 1 to 2 drops of jojoba oil on dry areas at night. Who it suits and what to skip.',
+     'How to use', 'How to use jojoba oil next to a glutathione cream: the right order, how many drops, who it suits in Indian weather, oily and acne-prone skin, and what not to mix.', '''
+        <p>Yes, you can use jojoba oil with glutathione cream: apply the cream first, wait a few minutes, then press 1 to 2 drops of jojoba oil on dry areas at night. Never mix the oil into the jar, and wear sunscreen every morning.</p>
+        <p>Jojoba oil comes from the seed of the jojoba plant. It is technically a liquid wax rather than a true oil, and it feels lighter and less greasy than coconut or castor oil. That makes it a popular choice in India for people who want a little extra softness in winter without a heavy, shiny layer.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Jojoba oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Plant liquid wax, used like a face oil</td><td>Leave-on face cream</td></tr>
+            <tr><td>Texture</td><td>Light, absorbs fairly quickly</td><td>Cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps dry skin feel soft and less tight</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Main downside</td><td>Can still feel too much on oily skin in humid weather</td><td>Works slowly; needs sunscreen every morning</td></tr>
+            <tr><td>What it cannot do</td><td>Fade dark spots or tan</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> for the cream to settle.</li>
+          <li><b>Warm 1 to 2 drops of jojoba oil</b> between your fingertips.</li>
+          <li><b>Press it gently</b> onto dry areas only: cheeks, around the nose, the chin or the jawline. Do not rub hard.</li>
+          <li><b>Use it at night</b>. In the morning, a light moisturiser and sunscreen are enough.</li>
+        </ol>
+        <p>Putting the cream on first lets it sit directly on the skin; the oil on top then helps slow water loss. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Who it suits</h2>
+        <table>
+          <thead><tr><th>Skin or weather</th><th>Jojoba oil with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, winter, AC rooms, room heaters</td><td>Yes, 1 to 2 drops at night on dry areas; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Optional; only on nights skin feels tight</td></tr>
+            <tr><td>Combination skin</td><td>Only on dry cheeks, never on the T-zone</td></tr>
+            <tr><td>Oily skin, humid summer or monsoon</td><td>Usually skip; the cream is enough. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Acne-prone skin</td><td>Patch test first, and stop if new bumps appear; see <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+          </tbody>
+        </table>
+        <h2>4. Jojoba vs other oils</h2>
+        <p>Compared with coconut oil and castor oil, jojoba oil feels lighter and less sticky, so it is easier to use on the face in Indian weather. Almond oil is similar for dry skin but should be skipped with a nut allergy. Kumkumadi oil is a blend with several herbs and a stronger smell, which some sensitive skins do not like. Read <a href="/journal/glutathione-cream-with-almond-oil/">glutathione cream with almond oil</a>, <a href="/journal/glutathione-cream-with-coconut-oil/">glutathione cream with coconut oil</a> and <a href="/journal/kumkumadi-oil-with-glutathione-cream/">kumkumadi oil with glutathione cream</a> to compare.</p>
+        <h2>5. How to buy and store jojoba oil</h2>
+        <ul>
+          <li><b>Check the label</b> for 100% jojoba seed oil (Simmondsia chinensis seed oil), not a "jojoba-scented" blend with mineral oil or fragrance.</li>
+          <li><b>Cold-pressed jojoba</b> is golden; refined jojoba is clear. Both work as a face oil.</li>
+          <li><b>Pick a small bottle</b> with a dropper; you only need a few drops a night.</li>
+          <li><b>Keep it capped</b>, away from sunlight and the bathroom heater, and check the expiry date.</li>
+          <li><b>Throw it away</b> if the smell changes.</li>
+        </ul>
+        <h2>6. What not to do</h2>
+        <ul>
+          <li><b>Do not mix jojoba oil into the cream jar.</b> It changes the cream and can spoil it.</li>
+          <li><b>Do not use it under the cream</b>; the oil layer can keep the cream from sitting on the skin.</li>
+          <li><b>Do not add essential oils</b> like tea tree or lemon oil to it for the whole face; see <a href="/journal/glutathione-cream-with-tea-tree-oil/">glutathione cream with tea tree oil</a>.</li>
+          <li><b>Do not use it before makeup</b> on oily skin; it can make foundation slide. See <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.</li>
+          <li><b>Do not expect it to fade spots or tan.</b> Sunscreen every morning does far more.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no jojoba oil, so if your skin is dry you can press a drop or two of jojoba on top at night. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop the oil and see a dermatologist if your skin turns red, itchy or swollen, if you get many new bumps, or if dryness comes with cracks, scaling or itching that does not settle with a simple moisturiser. Patch test any new oil on the jawline for 2 to 3 nights first, and read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> if you react easily.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply jojoba oil after glutathione cream?</h3>
+        <p>Yes. Apply the cream first, wait a few minutes, then press 1 to 2 drops of jojoba oil on dry areas at night.</p>
+        <h3>Can I mix jojoba oil with glutathione cream in my palm?</h3>
+        <p>It is better to layer them: cream first, oil on top. Never mix oil into the jar itself.</p>
+        <h3>Is jojoba oil good for oily skin?</h3>
+        <p>It is lighter than most oils, but oily skin usually does not need extra oil, especially in humid weather. Skip it or use a single drop only on dry patches.</p>
+        <h3>Can I use jojoba oil every night?</h3>
+        <p>Yes, if your skin is dry and you have no reaction. On nights your skin does not feel tight, you can skip it.</p>
+        <h3>Does jojoba oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -4104,5 +4246,7 @@ SHORT.update({
  'glutathione-cream-with-papaya': 'Yes, as a separate step: spread mashed ripe papaya on clean skin, rinse after about 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Use it once a week, never with another exfoliant the same night, and skip it with a latex allergy.',
  'glutathione-cream-with-green-tea': 'Yes, as a separate step: pat cooled, plain green tea on clean skin as a toner or compress, let it dry for a minute, then apply the glutathione cream, with sunscreen every morning. Make the tea fresh, keep it in the fridge for a day at most, and never mix it into the jar.',
  'glutathione-cream-with-tea-tree-oil': 'Yes, as a spot step: apply the glutathione cream on the face, then dab tea tree oil diluted in aloe gel or a light oil only on a pimple, with sunscreen every morning. Never use it neat, never mix it into the jar, and skip it on sensitive skin.',
+ 'glutathione-cream-for-dark-knuckles': 'A glutathione cream can help dark knuckles look a little lighter and more even over 8 to 12 weeks with a rice-grain amount at night, moisturiser after every wash and sunscreen on the back of the hands. Skip hard scrubs and lemon; dark knuckles with velvety neck skin need a doctor.',
+ 'glutathione-cream-with-jojoba-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of jojoba oil on dry areas at night, with sunscreen every morning. It suits dry winter skin; oily skin in humid weather can usually skip it, and never mix it into the jar.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
