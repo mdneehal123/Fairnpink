@@ -4181,6 +4181,152 @@ MORE_ARTICLES = [
         <p>Yes, if your skin is dry and you have no reaction. On nights your skin does not feel tight, you can skip it.</p>
         <h3>Does jojoba oil with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-olive-oil', 'Can you use olive oil with glutathione cream?',
+     'Olive Oil with Glutathione Cream: Right Order and Who It Suits',
+     'Can you use olive oil with glutathione cream? Yes, on dry skin: cream first, then 1 to 2 drops of olive oil on dry areas at night. Who should skip it.',
+     'How to use', 'How to use olive oil next to a glutathione cream: the right order, how much, which olive oil to buy, who should skip it in Indian weather, and what not to mix.', '''
+        <p>Yes, you can use olive oil with glutathione cream if your skin is dry: apply the cream first, wait a few minutes, then press 1 to 2 drops of olive oil only on dry areas at night. Oily and acne-prone skin usually does better without it, and the oil should never be mixed into the jar.</p>
+        <p>Olive oil (jaitoon ka tel) is a common home remedy in India, often warmed for hair or used for baby massage. On the face it is richer and heavier than lighter oils such as jojoba, so it helps very dry winter skin but can feel greasy in humid weather.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Olive oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Plant oil, rich and slow to absorb</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps very dry, rough skin feel soft and less tight</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best weather</td><td>Dry winter nights, heater and AC rooms</td><td>All year, with sunscreen every morning</td></tr>
+            <tr><td>Main downside</td><td>Heavy and shiny; may not suit oily or acne-prone skin</td><td>Works slowly</td></tr>
+            <tr><td>What it cannot do</td><td>Fade dark spots or tan</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> for the cream to settle.</li>
+          <li><b>Warm 1 to 2 drops of olive oil</b> between your fingertips. One drop is often enough.</li>
+          <li><b>Press it gently</b> onto dry areas only: cheeks, the sides of the nose, the jawline. Keep it off the forehead and nose if they get oily.</li>
+          <li><b>Use it at night only</b>. In the morning, wash your face, then a light moisturiser and sunscreen.</li>
+        </ol>
+        <p>Cream first lets it sit directly on the skin; the oil on top helps slow water loss overnight. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Who it suits, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin or weather</th><th>Olive oil with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Very dry skin, winter, room heaters</td><td>Yes, 1 to 2 drops at night on dry areas; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Only on nights skin feels tight</td></tr>
+            <tr><td>Combination skin</td><td>Cheeks only, never on the T-zone; see <a href="/journal/glutathione-cream-for-combination-skin/">glutathione cream for combination skin</a></td></tr>
+            <tr><td>Oily skin, humid summer or monsoon</td><td>Skip it; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Acne-prone skin</td><td>Usually skip; a heavy oil can feel clogging for some people</td></tr>
+            <tr><td>Sensitive skin or eczema</td><td>Patch test first, or choose a plain fragrance-free moisturiser instead</td></tr>
+          </tbody>
+        </table>
+        <h2>4. Which olive oil to buy</h2>
+        <ul>
+          <li><b>Plain olive oil</b> with one ingredient on the label. Extra virgin or "pure" olive oil from the kitchen shelf is fine for a drop on the face.</li>
+          <li><b>Avoid pomace oil and blends</b> mixed with other cooking oils or fragrance.</li>
+          <li><b>Skip "whitening" or "fairness" olive oil products</b>: no oil changes skin colour, and such claims are a red flag.</li>
+          <li><b>Pour a little into a small dropper bottle</b> for your face, so you do not dip fingers into the big bottle.</li>
+          <li><b>Throw it out</b> if it smells sharp or stale.</li>
+        </ul>
+        <h2>5. Olive oil vs lighter oils</h2>
+        <p>Olive oil is richer than jojoba and almond oil, and less sticky than castor oil. If olive oil feels too heavy on your face, try a lighter oil instead: read <a href="/journal/glutathione-cream-with-jojoba-oil/">glutathione cream with jojoba oil</a>, <a href="/journal/glutathione-cream-with-almond-oil/">glutathione cream with almond oil</a> and <a href="/journal/glutathione-cream-with-coconut-oil/">glutathione cream with coconut oil</a>. Many people keep olive oil for rough elbows, heels and hands, where heavier oils feel fine.</p>
+        <h2>6. What not to do</h2>
+        <ul>
+          <li><b>Do not mix olive oil into the cream jar.</b> It changes the texture and can make the cream spoil faster.</li>
+          <li><b>Do not apply it under the cream</b>; the oil layer stops the cream spreading evenly.</li>
+          <li><b>Do not use it as a day oil before going out</b>; it makes skin shiny and does not protect from sun.</li>
+          <li><b>Do not mix in lemon juice or sugar</b> for a scrub; lemon stings and sugar scratches. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Do not expect it to fade spots or tan.</b> Sunscreen every morning does far more.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and no olive oil. If your skin is very dry, you can press a drop of olive oil on top at night. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop the oil and see a dermatologist if your skin turns red, itchy or swollen, if you get many new bumps or pimples, or if dryness comes with cracks, scaling or itching that does not settle with a simple moisturiser. Patch test any new oil on the jawline for 2 to 3 nights first, and read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> if you react easily.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply olive oil after glutathione cream?</h3>
+        <p>Yes, on dry skin. Apply the cream first, wait a few minutes, then press 1 to 2 drops of olive oil on dry areas at night.</p>
+        <h3>Is olive oil good for oily skin?</h3>
+        <p>Usually not. It is a rich oil, and oily skin in Indian weather often feels greasier with it. A thin layer of the cream is enough.</p>
+        <h3>Can olive oil make skin fair?</h3>
+        <p>No. Olive oil softens dry skin but does not change your natural skin colour or remove tan.</p>
+        <h3>Can I leave olive oil on my face overnight?</h3>
+        <p>Yes, a drop or two over the cream at night is fine for dry skin. Wash your face in the morning before sunscreen.</p>
+        <h3>Olive oil or jojoba oil: which is better with the cream?</h3>
+        <p>Jojoba feels lighter and suits more skin types. Olive oil suits very dry skin in winter. Neither is needed if the cream keeps your skin comfortable.</p>'''),
+    ('ice-cube-with-glutathione-cream', 'Can you use ice cubes with glutathione cream?',
+     'Ice Cube with Glutathione Cream: Before or After, and How Long',
+     'Can you use an ice cube with glutathione cream? Yes, briefly: wrapped ice for about a minute, pat dry, then the cream. The right order and who should skip it.',
+     'How to use', 'How to use ice cubes with a glutathione cream: before or after, how long, wrapped not bare, summer puffiness, and who should skip icing.', '''
+        <p>Yes, you can use an ice cube with glutathione cream: wrap the ice in a thin cotton cloth, glide it over the face for about a minute, pat the skin dry, then apply the cream. Ice comes first, on clean skin, and never directly after the cream.</p>
+        <p>Face icing is popular in India, especially in summer and before events. Cold briefly tightens the look of the skin and can make a puffy morning face look fresher for a while. It is a quick comfort step, not a brightening treatment, and it does not change what your cream does.</p>
+        <h2>1. What icing can and cannot do</h2>
+        <table>
+          <thead><tr><th></th><th>What it can do</th><th>What it cannot do</th></tr></thead>
+          <tbody>
+            <tr><td>Puffiness</td><td>Make a puffy morning face look calmer for a short time</td><td>Fix puffiness from poor sleep or salty food for the whole day</td></tr>
+            <tr><td>Heat</td><td>Cool the face after sun, cooking or a hot commute</td><td>Repair sunburn; see a doctor for blisters</td></tr>
+            <tr><td>Pores and oil</td><td>Make pores look a little tighter for a short while</td><td>Shrink pores or stop oil for good</td></tr>
+            <tr><td>Spots and tan</td><td>Nothing directly</td><td>Fade dark spots or tan, or change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash.</li>
+          <li><b>Wrap one ice cube</b> in a thin, clean cotton cloth or handkerchief. Never put bare ice on the skin.</li>
+          <li><b>Glide it gently</b> over the forehead, cheeks, chin and under-eye area for 30 seconds to 1 minute in total. Keep it moving; do not hold it in one spot.</li>
+          <li><b>Pat the face dry</b> with a soft towel and wait 2 to 3 minutes for the skin to return to normal temperature.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>In the morning, finish with sunscreen</b>; if you ice before going out, sunscreen goes on after the cream.</li>
+        </ol>
+        <p>For the daily cream steps, see <a href="/how-to-use/">how to use the cream</a>, and for sunscreen layering read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>3. Why not ice after the cream?</h2>
+        <ul>
+          <li>Rubbing ice over the cream wipes much of it off and leaves water on the face.</li>
+          <li>Melted water dilutes the cream, so it spreads unevenly.</li>
+          <li>Cold, wet skin with a cream on top can feel uncomfortable, especially on sensitive skin.</li>
+        </ul>
+        <p>If you want a cooling feel after the cream, keep the jar closed in a cool cupboard, not the freezer, and apply as usual.</p>
+        <h2>4. When icing is useful in Indian weather</h2>
+        <table>
+          <thead><tr><th>Situation</th><th>Tip</th></tr></thead>
+          <tbody>
+            <tr><td>Hot summer mornings, puffy face</td><td>A minute of wrapped ice, then cream at night or a light moisturiser and sunscreen by day</td></tr>
+            <tr><td>After a sunny commute or kitchen heat</td><td>Cool the face with wrapped ice or cool (not ice-cold) water; read <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a></td></tr>
+            <tr><td>Before makeup for a function</td><td>Ice briefly, pat dry fully, then cream and makeup; see <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a></td></tr>
+            <tr><td>Winter, dry skin</td><td>Usually skip; cold can make dry skin feel tighter</td></tr>
+          </tbody>
+        </table>
+        <h2>5. Ice cube add-ins: what is fine and what to skip</h2>
+        <ul>
+          <li><b>Plain water</b>: the safest choice.</li>
+          <li><b>Cucumber juice or plain rose water</b>: fine for most skin if patch tested; see <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a> and <a href="/journal/glutathione-cream-with-cucumber/">glutathione cream with cucumber</a>.</li>
+          <li><b>Green tea</b>: fine once cooled and strained; see <a href="/journal/glutathione-cream-with-green-tea/">glutathione cream with green tea</a>.</li>
+          <li><b>Lemon or tomato juice</b>: skip; acids sting and can irritate, more so on cold, freshly rubbed skin.</li>
+          <li><b>Coffee or turmeric cubes</b>: can stain and add little.</li>
+        </ul>
+        <h2>6. Who should skip icing</h2>
+        <ul>
+          <li><b>Sensitive or easily red skin</b>, rosacea or broken veins on the cheeks: cold can make redness worse.</li>
+          <li><b>Very dry winter skin</b> or skin that is peeling.</li>
+          <li><b>Freshly waxed, threaded or shaved skin</b>, or skin that is broken.</li>
+          <li><b>Active, painful acne</b>: brief cold can feel soothing, but rubbing spreads irritation; ask a dermatologist about painful pimples.</li>
+          <li><b>Anyone whose skin goes white, numb or very red</b> with cold: stop at once.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Ice first if you like, pat dry, then a thin layer of the cream. With daily sunscreen, the cream can help skin look brighter and more even over weeks; icing only adds a short-lived fresh look. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop icing and see a dermatologist if your skin stays red, blotchy, numb or itchy after cold, if you get a rash, or if puffiness under the eyes is there every day or comes with swelling elsewhere. Patch test the cream first, and read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> if you react easily.</p>
+        <h2>FAQ</h2>
+        <h3>Should I use ice before or after glutathione cream?</h3>
+        <p>Before. Ice on clean skin, pat dry, wait a couple of minutes, then apply the cream.</p>
+        <h3>How long should I keep ice on my face?</h3>
+        <p>About 30 seconds to 1 minute in total, wrapped in a cloth and kept moving. Longer is not better.</p>
+        <h3>Can I rub ice on my face every day?</h3>
+        <p>A short, wrapped icing once a day is fine for most oily or normal skin in summer. Skip it on dry, sensitive or broken skin.</p>
+        <h3>Does ice make skin fair?</h3>
+        <p>No. Ice does not change your natural skin colour or remove tan. It gives a short-lived fresh, less puffy look.</p>
+        <h3>Can I put glutathione cream in ice cubes?</h3>
+        <p>No. Freezing and melting changes the cream, and you lose control of how much you apply. Use plain ice first and the cream after.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -4248,5 +4394,7 @@ SHORT.update({
  'glutathione-cream-with-tea-tree-oil': 'Yes, as a spot step: apply the glutathione cream on the face, then dab tea tree oil diluted in aloe gel or a light oil only on a pimple, with sunscreen every morning. Never use it neat, never mix it into the jar, and skip it on sensitive skin.',
  'glutathione-cream-for-dark-knuckles': 'A glutathione cream can help dark knuckles look a little lighter and more even over 8 to 12 weeks with a rice-grain amount at night, moisturiser after every wash and sunscreen on the back of the hands. Skip hard scrubs and lemon; dark knuckles with velvety neck skin need a doctor.',
  'glutathione-cream-with-jojoba-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of jojoba oil on dry areas at night, with sunscreen every morning. It suits dry winter skin; oily skin in humid weather can usually skip it, and never mix it into the jar.',
+ 'glutathione-cream-with-olive-oil': 'Yes, on dry skin. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of olive oil on dry areas at night, with sunscreen every morning. Oily and acne-prone skin can usually skip it, and never mix it into the jar.',
+ 'ice-cube-with-glutathione-cream': 'Yes, briefly. Wrap an ice cube in a cotton cloth, glide it over clean skin for about a minute, pat dry, wait a couple of minutes, then apply the cream. Ice goes first, never over the cream, and sensitive or very dry skin should skip it.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
