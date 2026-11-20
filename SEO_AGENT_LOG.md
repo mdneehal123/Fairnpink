@@ -60,6 +60,8 @@
 | 2026-11-18 | glutathione cream with jojoba oil | /journal/glutathione-cream-with-jojoba-oil/ | Page 1 was only foreign glutathione cream product listings and ingredient-database pages, no how-to; jojoba is a common lighter face oil for Indian winter dryness; cream-first then 1–2 drops on dry areas, skin type and weather table, vs coconut/almond/kumkumadi, label and storage tips, what not to do |
 | 2026-11-19 | glutathione cream with olive oil (jaitoon ka tel) | /journal/glutathione-cream-with-olive-oil/ | Page 1 was only Indian pharmacy listings of 'whitening' glutathione creams; cream first then 1–2 drops on dry areas at night, who should skip it (oily, acne-prone, humid weather), which olive oil to buy, olive vs jojoba/almond/coconut; links those guides |
 | 2026-11-19 | ice cube with glutathione cream | /journal/ice-cube-with-glutathione-cream/ | Page 1 was generic ice-facial listicles (pharmacy blog, Stylecraze, foreign magazines), none about using ice with a cream; ice first wrapped for about a minute, never over the cream, Indian-weather table, add-ins to skip, who should not ice; no brightening claims |
+| 2026-11-20 | glutathione cream with oats (face pack) | /journal/glutathione-cream-with-oats/ | Page 1 was only pharmacy product listings (1mg, PharmEasy, HealthKart), no article on using an oats pack with the cream; rinse-off recipe, order on pack nights, skin-type table, winter and after-sun use, honest limits |
+| 2026-11-20 | glutathione cream with tulsi | /journal/glutathione-cream-with-tulsi/ | Page 1 was foreign product pages and Indian pharmacy listings, nothing on tulsi with the cream; short rinse-off pack, patch test first (fresh paste can sting), who should skip, no essential oil on skin |
 
 ## Boosts
 

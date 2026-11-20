@@ -4327,6 +4327,156 @@ MORE_ARTICLES = [
         <p>No. Ice does not change your natural skin colour or remove tan. It gives a short-lived fresh, less puffy look.</p>
         <h3>Can I put glutathione cream in ice cubes?</h3>
         <p>No. Freezing and melting changes the cream, and you lose control of how much you apply. Use plain ice first and the cream after.</p>'''),
+    ('glutathione-cream-with-oats', 'Can you use oats with glutathione cream?',
+     'Oats Face Pack with Glutathione Cream: Order and Simple Recipe',
+     'Can you use an oats face pack with glutathione cream? Yes: a gentle rinse-off oats pack first, pat dry, then the cream. A simple recipe and who it suits.',
+     'How to use', 'How to use an oats (jai) face pack with a glutathione cream: the right order, a simple pack, how often, who it suits in Indian weather, and what not to add.', '''
+        <p>Yes, you can use oats with glutathione cream: make a soft, rinse-off oats pack, leave it on for about 10 minutes, rinse, pat dry and then apply the cream. The pack goes first and is washed off; never mix oats into the cream jar.</p>
+        <p>Oats (jai) have long been used in home packs and baths for dry, itchy or tight skin, because finely ground oats turn soft and creamy with water and feel soothing. An oats pack is a comfort step, especially in winter. It does not fade dark spots or tan by itself, and it does not change your natural skin colour.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Oats pack</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Rinse-off home pack</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps dry, tight skin feel soft and calm</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>How often</td><td>1 to 2 times a week</td><td>Daily, as the label says, with sunscreen every morning</td></tr>
+            <tr><td>Best weather</td><td>Dry winter, heater and AC rooms, after a day in the sun</td><td>All year</td></tr>
+            <tr><td>What it cannot do</td><td>Remove tan, spots or marks</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. A simple oats face pack</h2>
+        <ol>
+          <li><b>Grind 1 to 2 teaspoons of plain rolled oats</b> into a fine powder in a dry mixer jar. Plain oats only: not masala, flavoured or sugary instant oats.</li>
+          <li><b>Mix with enough liquid</b> to make a soft paste: plain curd or milk for dry skin, rose water or plain water for oily skin. A few drops of honey are optional for dry skin.</li>
+          <li><b>Let it sit for 2 to 3 minutes</b> so the oats soften.</li>
+          <li><b>Wash your face</b> with a mild face wash.</li>
+          <li><b>Apply a thin layer</b>, avoiding the eyes and lips.</li>
+          <li><b>Leave it on for about 10 minutes</b>; rinse before it dries hard.</li>
+          <li><b>Rinse with lukewarm water</b> using soft circles of the fingertips. Do not scrub.</li>
+        </ol>
+        <p>Make a fresh pack each time and throw away leftovers; a paste made with curd or milk spoils quickly. For other kitchen packs that sit well with the cream, read <a href="/journal/glutathione-cream-with-curd/">glutathione cream with curd</a>, <a href="/journal/glutathione-cream-with-honey/">glutathione cream with honey</a> and <a href="/journal/glutathione-cream-with-besan/">glutathione cream with besan</a>.</p>
+        <h2>3. The right order on pack nights</h2>
+        <ol>
+          <li><b>Oats pack</b>, rinsed off.</li>
+          <li><b>Pat the face dry</b> with a clean towel and wait 2 to 3 minutes.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>Add a plain moisturiser</b> on top if your skin still feels dry.</li>
+          <li><b>Next morning: sunscreen</b>, SPF 30 or higher, every day.</li>
+        </ol>
+        <p>For the daily steps, see <a href="/how-to-use/">how to use the cream</a> and <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>4. Who it suits</h2>
+        <table>
+          <thead><tr><th>Skin or weather</th><th>Oats pack with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, winter, room heaters</td><td>Yes, once or twice a week with curd or milk; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Often well liked; patch test first; see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Oily skin, humid summer</td><td>Yes, with rose water or plain water, once a week; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Acne-prone skin</td><td>Gently, with plain water; skip on painful pimples</td></tr>
+            <tr><td>Oats or gluten allergy</td><td>Skip it, or ask your doctor first</td></tr>
+          </tbody>
+        </table>
+        <h2>5. Oats in winter and after sun</h2>
+        <p>From November to February, cold air, hot baths and heaters leave many faces tight and flaky, especially around the nose and on the cheeks. An oats and curd pack on a Sunday night, followed by the cream and a moisturiser, is a simple way to make winter skin feel comfortable. In summer, after a day outdoors, a cool oats and rose water pack can feel soothing on warm, tanned skin. Tan still fades slowly over weeks with sunscreen and shade; read <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a> for an honest plan.</p>
+        <h2>6. What not to do</h2>
+        <ul>
+          <li><b>Do not mix oats into the cream jar.</b> It spoils the cream and you cannot rinse it off.</li>
+          <li><b>Do not use oats as a hard scrub.</b> Coarse pieces rubbed hard can leave skin red. Grind them fine and use soft circles.</li>
+          <li><b>Do not add lemon, baking soda or toothpaste.</b> They sting and dry the skin; see <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Do not use the pack every day.</b> Once or twice a week is enough.</li>
+          <li><b>Do not skip sunscreen</b> and expect the pack to fade tan.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and no oats. On pack nights, apply it after the oats pack is rinsed off and your skin is dry. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop and see a dermatologist if your skin turns red, itchy or swollen after the pack or the cream, if dryness comes with cracks or scaling that does not settle, or if dark patches keep spreading. Patch test the pack on the jawline for 10 minutes first and watch for 24 hours.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after an oats face pack?</h3>
+        <p>Yes. Rinse the pack off, pat the face dry, wait a couple of minutes and then apply a thin layer of the cream.</p>
+        <h3>Can I mix oats powder into glutathione cream?</h3>
+        <p>No. Keep the cream jar clean. Use oats only as a rinse-off pack and apply the cream separately.</p>
+        <h3>How often can I use an oats pack?</h3>
+        <p>Once or twice a week is plenty for most skin types.</p>
+        <h3>Which oats should I use on the face?</h3>
+        <p>Plain rolled oats ground to a fine powder. Avoid flavoured, masala or sugary instant oats.</p>
+        <h3>Can an oats pack make skin fair?</h3>
+        <p>No. It helps skin feel soft and calm but does not change your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-tulsi', 'Can you use tulsi with glutathione cream?',
+     'Tulsi with Glutathione Cream: Face Pack and Who Should Skip',
+     'Can you use tulsi with glutathione cream? Yes, carefully: a short rinse-off tulsi pack first, pat dry, then the cream. Patch test and who should skip it.',
+     'How to use', 'How to use tulsi (holy basil) next to a glutathione cream: a simple rinse-off pack, the right order, why fresh leaf paste can sting, and who should skip it.', '''
+        <p>Yes, you can use tulsi with glutathione cream, carefully: use tulsi only as a short, rinse-off face pack, wash it off, pat dry and then apply the cream. Never mix tulsi into the cream jar, and always patch test first, because crushed tulsi leaves can sting some skin.</p>
+        <p>Tulsi (holy basil) grows in many Indian homes and is often added to home packs, especially with neem for oily skin. The leaves have a strong, warm smell from natural aromatic oils. Those same oils are why fresh paste can tingle or irritate. A tulsi pack is a refreshing extra; it does not fade dark spots or tan, and it does not change your natural skin colour.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Tulsi pack</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Rinse-off home pack</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Leaves oily skin feeling fresh and clean</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>How often</td><td>Once a week, briefly</td><td>Daily, as the label says, with sunscreen every morning</td></tr>
+            <tr><td>Main downside</td><td>Can sting or irritate sensitive or dry skin</td><td>Works slowly</td></tr>
+            <tr><td>What it cannot do</td><td>Remove tan, spots or acne marks</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. Patch test first</h2>
+        <ol>
+          <li>Put a little of the pack on the jawline or behind the ear.</li>
+          <li>Leave it for 10 minutes, then rinse.</li>
+          <li>Watch the spot for 24 hours. If it turns red, itchy or burning, do not use tulsi on your face.</li>
+        </ol>
+        <p>Read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> if you react easily to new products.</p>
+        <h2>3. A simple tulsi pack</h2>
+        <ol>
+          <li><b>Wash 8 to 10 fresh tulsi leaves</b> well, or use 1 teaspoon of plain tulsi powder from a sealed pack.</li>
+          <li><b>Grind the leaves smooth</b> with a little water, then mix with a base to soften it: plain curd for normal skin, rose water or multani mitti for oily skin.</li>
+          <li><b>Wash your face</b> with a mild face wash.</li>
+          <li><b>Apply a thin layer</b>, away from the eyes and lips.</li>
+          <li><b>Leave it on for 5 to 10 minutes only.</b> Rinse sooner if it tingles.</li>
+          <li><b>Rinse with lukewarm water</b> and pat dry. Do not scrub.</li>
+        </ol>
+        <p>Do not put pure tulsi leaf paste or tulsi essential oil straight on the face; mixing with a soft base and keeping the time short makes it gentler. For packs that pair well, see <a href="/journal/glutathione-cream-with-multani-mitti/">glutathione cream with multani mitti</a>, <a href="/journal/glutathione-cream-with-curd/">glutathione cream with curd</a> and <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a>.</p>
+        <h2>4. The right order on pack nights</h2>
+        <ol>
+          <li><b>Tulsi pack</b>, rinsed off.</li>
+          <li><b>Pat dry and wait 5 minutes</b>, a little longer than usual, so any tingle settles.</li>
+          <li><b>Apply a thin layer of the glutathione cream.</b> If your face still feels warm or stings, use a plain moisturiser that night instead.</li>
+          <li><b>Next morning: sunscreen</b>, SPF 30 or higher.</li>
+        </ol>
+        <p>For the daily steps, see <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>5. Who it suits, and who should skip it</h2>
+        <table>
+          <thead><tr><th>Skin or situation</th><th>Tulsi pack with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Oily skin, humid summer or monsoon</td><td>Yes, once a week with rose water or multani mitti; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Combination skin</td><td>On the T-zone only</td></tr>
+            <tr><td>Acne-prone skin</td><td>Gently, never on open or painful pimples; see <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a></td></tr>
+            <tr><td>Dry skin or winter</td><td>Usually skip; a <a href="/journal/glutathione-cream-with-honey/">honey</a> or curd pack is kinder</td></tr>
+            <tr><td>Sensitive skin, eczema, freshly waxed or threaded skin</td><td>Skip it</td></tr>
+            <tr><td>Pregnancy or a skin condition</td><td>Ask your doctor before trying new herbal packs</td></tr>
+          </tbody>
+        </table>
+        <h2>6. What not to do</h2>
+        <ul>
+          <li><b>Do not mix tulsi paste or powder into the cream jar.</b></li>
+          <li><b>Do not use tulsi essential oil undiluted</b> on the face.</li>
+          <li><b>Do not leave the pack on until it dries and cracks.</b></li>
+          <li><b>Do not add lemon or toothpaste</b> to "boost" it; see <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Do not expect it to fade marks</b>. Sunscreen every morning and steady skincare over weeks matter far more.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and no tulsi. On pack nights, apply it only once your skin is calm and dry. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop and see a dermatologist if a pack or cream leaves your skin red, burning, swollen or itchy, if pimples are painful or leave deep marks, or if dark patches keep spreading.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after a tulsi pack?</h3>
+        <p>Yes, once the pack is rinsed off and your skin feels calm and dry. If it still tingles, use a plain moisturiser that night.</p>
+        <h3>Can I mix tulsi into glutathione cream?</h3>
+        <p>No. Keep the jar clean and use tulsi only as a rinse-off pack.</p>
+        <h3>Is tulsi good for oily skin?</h3>
+        <p>Many people with oily skin like how a short tulsi pack leaves the skin feeling fresh. Keep it to once a week and patch test first.</p>
+        <h3>Can I use tulsi and neem together?</h3>
+        <p>Yes, in a small rinse-off pack for oily skin, but both can be strong, so keep it short and skip it on dry or sensitive skin.</p>
+        <h3>Can tulsi make skin fair?</h3>
+        <p>No. It does not change your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -4396,5 +4546,7 @@ SHORT.update({
  'glutathione-cream-with-jojoba-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of jojoba oil on dry areas at night, with sunscreen every morning. It suits dry winter skin; oily skin in humid weather can usually skip it, and never mix it into the jar.',
  'glutathione-cream-with-olive-oil': 'Yes, on dry skin. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of olive oil on dry areas at night, with sunscreen every morning. Oily and acne-prone skin can usually skip it, and never mix it into the jar.',
  'ice-cube-with-glutathione-cream': 'Yes, briefly. Wrap an ice cube in a cotton cloth, glide it over clean skin for about a minute, pat dry, wait a couple of minutes, then apply the cream. Ice goes first, never over the cream, and sensitive or very dry skin should skip it.',
+ 'glutathione-cream-with-oats': 'Yes. Make a soft, rinse-off pack with finely ground plain oats and curd, milk or rose water, leave it on for about 10 minutes, rinse, pat dry and then apply the cream. Use the pack once or twice a week and never mix oats into the jar.',
+ 'glutathione-cream-with-tulsi': 'Yes, carefully. Use tulsi only as a short rinse-off pack mixed with curd, rose water or multani mitti, leave it on 5 to 10 minutes, rinse, pat dry and then apply the cream. Patch test first, and skip it on dry or sensitive skin.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
