@@ -62,6 +62,8 @@
 | 2026-11-19 | ice cube with glutathione cream | /journal/ice-cube-with-glutathione-cream/ | Page 1 was generic ice-facial listicles (pharmacy blog, Stylecraze, foreign magazines), none about using ice with a cream; ice first wrapped for about a minute, never over the cream, Indian-weather table, add-ins to skip, who should not ice; no brightening claims |
 | 2026-11-20 | glutathione cream with oats (face pack) | /journal/glutathione-cream-with-oats/ | Page 1 was only pharmacy product listings (1mg, PharmEasy, HealthKart), no article on using an oats pack with the cream; rinse-off recipe, order on pack nights, skin-type table, winter and after-sun use, honest limits |
 | 2026-11-20 | glutathione cream with tulsi | /journal/glutathione-cream-with-tulsi/ | Page 1 was foreign product pages and Indian pharmacy listings, nothing on tulsi with the cream; short rinse-off pack, patch test first (fresh paste can sting), who should skip, no essential oil on skin |
+| 2026-11-21 | glutathione cream after bleach (face bleach) | /journal/glutathione-cream-after-bleach/ | Page 1 was foreign glutathione product pages, US skin-bleaching health guides and a PMC table, nothing on using a cream after Indian parlour face bleach; wait 24–48 h, bleach-day order, restart steps, when not to bleach, myths (bleach lightens hair, not skin) |
+| 2026-11-21 | glutathione cream for dark nose (sides of nose) | /journal/glutathione-cream-for-dark-nose/ | Page 1 was only 1mg/Flipkart/Purplle glutathione cream listings; causes table (sun, spectacle pads, rubbing, squeezing, dryness), how to apply around nostrils, what to stop, oily tip vs dry sides, weekly plan, melasma/seb-derm red flags |
 
 ## Boosts
 

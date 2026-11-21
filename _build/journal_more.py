@@ -4477,6 +4477,141 @@ MORE_ARTICLES = [
         <p>Yes, in a small rinse-off pack for oily skin, but both can be strong, so keep it short and skip it on dry or sensitive skin.</p>
         <h3>Can tulsi make skin fair?</h3>
         <p>No. It does not change your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-after-bleach', 'Can you use glutathione cream after face bleach?',
+     'Glutathione Cream After Face Bleach: How Long to Wait',
+     'Can you use glutathione cream after face bleach? Wait 24 to 48 hours. Why bleached skin stings, what to use that night, and how to bleach more gently.',
+     'How to use', 'Face bleach and glutathione cream: why to wait 24 to 48 hours, what to put on that night, how to restart the cream and when bleach is a bad idea.', '''
+        <p>Yes, you can use glutathione cream after face bleach, but not the same day: wait about 24 to 48 hours, until your skin no longer stings, feels hot or looks pink. On the bleach night, rinse well, use only a plain, fragrance-free moisturiser, and go back to the cream once the skin is calm.</p>
+        <p>Face bleach is very common in India before weddings, festivals and parlour visits. It is worth knowing what it really does: a face bleach lightens the colour of fine facial hair so it shows less. It does not lighten your skin, fade dark spots or remove tan, and it often leaves the skin more sensitive for a day or two. That is why the order and the wait matter.</p>
+        <h2>1. What bleach does to your skin</h2>
+        <table>
+          <thead><tr><th></th><th>Face bleach</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Two-part paste (cream plus activator powder), left on for a short time, then removed</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Makes fine facial hair lighter in colour so it shows less</td><td>Helps skin look brighter and more even over weeks, with sunscreen</td></tr>
+            <tr><td>How often</td><td>Occasionally, as the pack says</td><td>Daily, as the label says</td></tr>
+            <tr><td>Common side effects</td><td>Tingling, stinging, redness, dryness for a day or two</td><td>Usually mild; works slowly</td></tr>
+            <tr><td>What it cannot do</td><td>Change skin colour, remove tan or spots</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. Why you should wait 24 to 48 hours</h2>
+        <p>Bleach can leave the top layer of skin a little irritated and dry, even when it looks fine in the mirror. Putting any active cream on that skin, including one with glutathione, niacinamide and alpha arbutin, can make it sting more and may leave red or darker patches on Indian skin. Giving the skin a day or two to settle is the gentle choice. If you still feel burning, tightness or see redness after 48 hours, wait longer.</p>
+        <h2>3. The right order on bleach day</h2>
+        <ol>
+          <li><b>Patch test the bleach</b> on the jawline or behind the ear 24 hours before, as most packs say, even if you have used it before.</li>
+          <li><b>Bleach on clean, dry, unbroken skin.</b> Follow the time on the pack; do not leave it on longer for "more effect".</li>
+          <li><b>Remove it and rinse well</b> with cool or lukewarm water. No soap scrubbing.</li>
+          <li><b>Pat dry gently</b> with a soft, clean towel.</li>
+          <li><b>Apply a plain, fragrance-free moisturiser</b> or a little pure aloe gel if skin feels warm.</li>
+          <li><b>Stay out of strong sun</b> for the rest of the day, and use sunscreen the next morning.</li>
+          <li><b>Skip the glutathione cream, scrubs, peels and face packs</b> that night and the next.</li>
+        </ol>
+        <h2>4. Restarting the cream</h2>
+        <ol>
+          <li><b>Check your skin after 24 to 48 hours.</b> No stinging when you wash, no redness, no tight patches? You are ready.</li>
+          <li><b>Start with a thin layer at night</b>, a pea-sized amount for face and neck.</li>
+          <li><b>If it tingles more than usual</b>, wash it off and wait another night or two.</li>
+          <li><b>Back to your normal routine</b> after that, with sunscreen every morning.</li>
+        </ol>
+        <p>For the daily steps, see <a href="/how-to-use/">how to use the cream</a>. The same waiting rule is explained for other parlour services in <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading and waxing</a>.</p>
+        <h2>5. When not to bleach at all</h2>
+        <table>
+          <thead><tr><th>Situation</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Freshly waxed, threaded or shaved skin</td><td>Do not bleach the same day; leave a gap of a day or two</td></tr>
+            <tr><td>Open pimples, cuts, sunburn or peeling skin</td><td>Skip bleach until healed</td></tr>
+            <tr><td>Sensitive skin, eczema or rosacea</td><td>Skip it, or ask a dermatologist first; see <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a></td></tr>
+            <tr><td>Just used a peel, retinol or exfoliating acid</td><td>Wait several days before bleaching</td></tr>
+            <tr><td>Pregnancy or a skin condition</td><td>Ask your doctor first</td></tr>
+            <tr><td>Bleach stung badly last time</td><td>Do not repeat it; try another hair removal method</td></tr>
+          </tbody>
+        </table>
+        <h2>6. Bleach myths to drop</h2>
+        <ul>
+          <li><b>"Bleach makes skin fair."</b> No. It lightens hair colour. Any "glow" is mostly hair showing less and a fresh, just-washed look.</li>
+          <li><b>"Bleach removes tan."</b> No. Tan fades slowly over weeks with sunscreen and shade; see <a href="/journal/glutathione-cream-for-sun-tan/">glutathione cream for sun tan</a>.</li>
+          <li><b>"Mixing cream into bleach makes it gentler."</b> Never mix anything into bleach, and never mix bleach into your cream jar.</li>
+          <li><b>"Stinging means it is working."</b> Strong burning means remove it at once and rinse.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is a daily cream for a brighter-looking, more even tone over weeks, with sunscreen every morning; it is not a bleach and does not lighten facial hair. Use it before and after a bleach day, but give the skin its 24 to 48 hour break in between. See <a href="/ingredients/">what is inside</a>, and if your real concern is spots or uneven tone, read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Rinse off immediately and see a dermatologist if bleach causes strong burning, blisters, swelling, oozing or a rash, or if you notice darker patches where you bleached. A doctor can also help if facial hair growth is new, thick or comes with irregular periods.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream right after bleach?</h3>
+        <p>It is better not to. Use a plain moisturiser that night and wait about 24 to 48 hours, until the skin feels calm, before using the cream.</p>
+        <h3>Can I apply glutathione cream before bleach?</h3>
+        <p>Not on the same day. Skip the cream the night before and the morning of your bleach, and start on clean, bare skin.</p>
+        <h3>What should I apply after face bleach?</h3>
+        <p>Cool water rinse, then a plain, fragrance-free moisturiser or a little pure aloe gel, and sunscreen the next morning.</p>
+        <h3>Is bleach or glutathione cream better for glowing skin?</h3>
+        <p>They do different jobs. Bleach only lightens facial hair. A glutathione cream with daily sunscreen can help skin look brighter and more even over weeks. Neither changes your natural skin colour.</p>
+        <h3>How often can I bleach my face?</h3>
+        <p>Follow the gap the pack gives and do not bleach often. If your skin reacts each time, stop and choose another method.</p>'''),
+    ('glutathione-cream-for-dark-nose', 'Glutathione cream for a dark nose and dark sides of the nose',
+     'Glutathione Cream for Dark Nose: Causes and How to Use It',
+     'Can glutathione cream help a dark nose? It can help the sides and bridge look more even over 8 to 12 weeks, with sunscreen and less rubbing. Causes and steps.',
+     'Concerns', 'Why the nose, its sides and the bridge turn darker, how to use a glutathione cream there safely, what to stop doing and when to see a dermatologist.', '''
+        <p>A glutathione cream can help a dark nose, dark sides of the nose or a dark bridge look a little lighter and more even over 8 to 12 weeks, if you use a thin layer daily, wear sunscreen on the nose every morning and stop the rubbing and picking that cause most of the darkness. It will not change your natural skin colour, and the nose is often naturally a shade deeper than the cheeks.</p>
+        <p>The nose sticks out, so it gets the most sun on the face. It is also where spectacles sit, where we wipe and blow during colds, and where many people squeeze blackheads. All of these can leave darker, rougher skin over time. Fix the cause first and any cream has a much better chance.</p>
+        <h2>1. Why the nose turns darker</h2>
+        <table>
+          <thead><tr><th>Cause</th><th>What it looks like</th><th>What helps</th></tr></thead>
+          <tbody>
+            <tr><td>Sun</td><td>Tip and bridge darker than cheeks, worse after summer or travel</td><td>Sunscreen on the nose every morning, reapply outdoors, cap or umbrella</td></tr>
+            <tr><td>Spectacle pads</td><td>Dark marks on both sides of the bridge</td><td>Well-fitted frames, soft pads, clean them daily</td></tr>
+            <tr><td>Rubbing and blowing</td><td>Dark, dry patches on the nose sides after colds or allergies</td><td>Soft tissues, pat instead of rubbing, moisturise</td></tr>
+            <tr><td>Squeezing blackheads, scrubs, pore strips</td><td>Dark spots and rough skin on the tip and sides</td><td>Hands off; gentle cleansing; skip harsh scrubs</td></tr>
+            <tr><td>Dryness and flaking</td><td>Dull, grey-looking patches around the nostrils in winter</td><td>Moisturiser on slightly damp skin, lukewarm water</td></tr>
+            <tr><td>Pimple marks</td><td>Brown spots where pimples were</td><td>Do not pick; see <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a></td></tr>
+          </tbody>
+        </table>
+        <p>If you wear glasses, your marks may come mainly from the nose pads. Better-fitting frames and less pressure matter more than any cream.</p>
+        <h2>2. How to use the cream on the nose</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and lukewarm water. Pat dry gently.</li>
+          <li><b>Take a pea-sized amount</b> for the whole face and neck, as usual. Put a light dot on the nose, its sides and the bridge.</li>
+          <li><b>Spread a thin layer</b> with your fingertip. Do not rub hard; the skin beside the nostrils is thin.</li>
+          <li><b>Keep it out of the nostrils and off the inner corner of the eyes.</b></li>
+          <li><b>Morning: sunscreen</b>, SPF 30 or higher, with an extra dab on the nose. The nose is the first place sunscreen wears off.</li>
+          <li><b>Be patient.</b> Look for change over 8 to 12 weeks, not days.</li>
+        </ol>
+        <p>Full steps are on <a href="/how-to-use/">how to use the cream</a>. Read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a> for the right morning order.</p>
+        <h2>3. What to stop doing</h2>
+        <ul>
+          <li><b>Squeezing blackheads</b> with nails or tools; it leaves dark marks and enlarged pores.</li>
+          <li><b>Daily scrubs, pore strips or lemon</b> on the nose; see <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Toothpaste, baking soda or bleach</b> on dark patches; they irritate and can make them darker.</li>
+          <li><b>Rubbing the nose</b> with rough towels or handkerchiefs.</li>
+          <li><b>Skipping sunscreen</b> because the nose "is small". It is the most sun-exposed spot on the face.</li>
+        </ul>
+        <h2>4. Oily nose vs dry nose sides</h2>
+        <p>Many people have an oily nose tip with dry, flaky skin right beside the nostrils. For the oily tip, a very thin layer of cream and a gel sunscreen work well; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>. For dry sides, apply the cream on slightly damp skin and add a plain moisturiser on top at night in winter; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</p>
+        <h2>5. A simple weekly plan</h2>
+        <table>
+          <thead><tr><th>When</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Every morning</td><td>Gentle wash, thin layer of cream, sunscreen with an extra dab on the nose</td></tr>
+            <tr><td>Every night</td><td>Wash off sunscreen and oil, thin layer of cream, moisturiser on dry sides if needed</td></tr>
+            <tr><td>Once a week</td><td>A gentle rinse-off pack if you like one, never a harsh scrub; see <a href="/journal/glutathione-cream-with-multani-mitti/">multani mitti with glutathione cream</a></td></tr>
+            <tr><td>Every 4 weeks</td><td>Check in daylight; small, slow change is normal</td></tr>
+          </tbody>
+        </table>
+        <h2>6. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Niacinamide and alpha arbutin are both commonly used to help dark spots and uneven tone look lighter over weeks; read <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a> to see how they work together. Patch test on the jawline first, and use sunscreen every morning. For similar areas, see <a href="/journal/glutathione-cream-for-dark-upper-lip/">dark upper lip</a> and <a href="/journal/glutathione-cream-for-dark-forehead/">dark forehead</a>.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if the darkness spreads across the cheeks and nose in a butterfly or patchy shape (this can be melasma), if the sides of the nose are red, greasy and flaky for weeks, if a spot on the nose changes in size or colour, bleeds or does not heal, or if a cream leaves your skin red, burning or itchy.</p>
+        <h2>FAQ</h2>
+        <h3>How can I lighten the dark sides of my nose?</h3>
+        <p>Use sunscreen on the nose daily, stop squeezing and rubbing, moisturise dry patches and use a brightening cream in a thin layer. With steady care the area can look more even over 8 to 12 weeks.</p>
+        <h3>Can I apply glutathione cream on my nose daily?</h3>
+        <p>Yes, a thin layer as part of your normal face routine, kept out of the nostrils. Stop if it stings or turns red.</p>
+        <h3>Why is my nose darker than my face?</h3>
+        <p>Most often sun, because the nose sticks out, plus friction from glasses, rubbing or squeezing. A slightly deeper shade on the nose is also normal for many people.</p>
+        <h3>Do spectacle marks on the nose go away?</h3>
+        <p>They usually fade slowly once pressure from the pads drops. Check the fit of your frames, use soft pads and moisturise the area.</p>
+        <h3>Can glutathione cream make my nose fair?</h3>
+        <p>No. It does not change your natural skin colour. With sunscreen, it can help darker patches from sun and rubbing look lighter and more even over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -4548,5 +4683,7 @@ SHORT.update({
  'ice-cube-with-glutathione-cream': 'Yes, briefly. Wrap an ice cube in a cotton cloth, glide it over clean skin for about a minute, pat dry, wait a couple of minutes, then apply the cream. Ice goes first, never over the cream, and sensitive or very dry skin should skip it.',
  'glutathione-cream-with-oats': 'Yes. Make a soft, rinse-off pack with finely ground plain oats and curd, milk or rose water, leave it on for about 10 minutes, rinse, pat dry and then apply the cream. Use the pack once or twice a week and never mix oats into the jar.',
  'glutathione-cream-with-tulsi': 'Yes, carefully. Use tulsi only as a short rinse-off pack mixed with curd, rose water or multani mitti, leave it on 5 to 10 minutes, rinse, pat dry and then apply the cream. Patch test first, and skip it on dry or sensitive skin.',
+ 'glutathione-cream-after-bleach': 'Yes, but not the same day. After face bleach, rinse well, use a plain fragrance-free moisturiser, avoid sun and wait about 24 to 48 hours, until the skin no longer stings or looks pink, before using the glutathione cream again. Bleach lightens facial hair, not skin.',
+ 'glutathione-cream-for-dark-nose': 'A glutathione cream can help a dark nose, its sides or the bridge look a little lighter and more even over 8 to 12 weeks with a thin daily layer, sunscreen on the nose every morning and no squeezing, scrubbing or rubbing. A spreading patch across the cheeks needs a dermatologist.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
