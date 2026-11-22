@@ -384,7 +384,8 @@ ARTICLES = [
         <p>If your skin feels tight, warm or looks red, drop to once a day at night for a week. If that does not settle it, stop and read <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>
         <h2>Can you use it for months?</h2>
         <p>A cosmetic cream can be used as part of your routine for as long as it suits your skin. If you are using any prescription cream, ask your doctor how to combine them.</p>
-        <p>Daily use is what makes an honest test possible; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work, week by week</a>, or read how to apply a <a href="/glutathione-cream-for-face/">glutathione cream for face</a> step by step. For this cream, see <a href="/how-to-use/">how to use Fair N Pink cream</a> morning and night.</p>'''),
+        <p>Daily use is what makes an honest test possible; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work, week by week</a>, or read how to apply a <a href="/glutathione-cream-for-face/">glutathione cream for face</a> step by step. For this cream, see <a href="/how-to-use/">how to use Fair N Pink cream</a> morning and night.</p>
+        <p>Want to use it only once a day? See <a href="/journal/fair-n-pink-night-cream/">how to use Fair N Pink as a night cream</a>.</p>'''),
     ('glutathione-cream-with-sunscreen', 'Can I use glutathione cream with sunscreen?',
      'Glutathione Cream With Sunscreen: Which Goes First and Why',
      'You should use sunscreen with a glutathione cream. Which one goes first, how long to wait between them, and what SPF to look for.',
@@ -445,7 +446,8 @@ ARTICLES = [
         <h2>If your skin reacts</h2>
         <p>Wash it off, stop using it and let your skin rest. If it does not settle in a day or two, see a dermatologist.</p>
         <p>Fair N Pink Advance Radiance Cream contains alpha arbutin with niacinamide and glutathione. Read about <a href="/journal/niacinamide-and-alpha-arbutin/">using niacinamide and alpha arbutin together</a>.</p>
-        <p>For the cream itself, read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects and safety</a>. For uses and how to apply it, see our guide to <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream</a>.</p>'''),
+        <p>For the cream itself, read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects and safety</a>. For uses and how to apply it, see our guide to <a href="/journal/alpha-arbutin-cream/">alpha arbutin cream</a>.</p>
+        <p>Want to check what else is in the jar before you start? See the <a href="/ingredients/">Fair N Pink cream ingredients</a>.</p>'''),
     ('buy-fair-n-pink-cream-online', 'How to buy Fair N Pink cream online',
      'Buy Fair N Pink Cream Online: COD, UPI and Free Delivery',
      'Buy Fair N Pink cream online from the brand: order steps, Cash on Delivery, the saving when you pay online, WhatsApp orders, delivery, tracking and returns.',
@@ -497,8 +499,8 @@ ARTICLES = [
         <h3>Is it safe to pay online?</h3>
         <p>Payments go through a secure Razorpay window, and you see a payment ID as soon as the payment succeeds. Never share your UPI PIN or OTP with anyone.</p>'''),
     ('fair-n-pink-night-cream', 'Can Fair N Pink be used as a night cream?',
-     'Fair N Pink Night Cream: Can You Use It at Night?',
-     'Fair N Pink Advance Radiance Cream can be used as a night cream. How to apply it at night, whether night-only use is enough, and what to do in the morning.',
+     'Fair N Pink Night Cream: How to Use It at Night',
+     'Yes, Fair N Pink cream works as a night cream. How to apply it before bed, night routine by skin type, night-only use, mixing with other products, plus FAQs.',
      'How to use', 'Yes. How to use it at night, and whether night alone is enough.', '''
         <p>Yes. Fair N Pink Advance Radiance Cream is a day and night cream, and many people use it mainly as a night cream. Night is a good time for it: your skin is clean, and the cream stays on for hours without sun, sweat or makeup.</p>
         <h2>How to use it at night</h2>
@@ -508,13 +510,37 @@ ARTICLES = [
           <li>Take a pea-sized amount and massage it gently over face and neck.</li>
           <li>Leave it on overnight. Wash your face as usual in the morning.</li>
         </ol>
+        <h2>Day cream or night cream: why one cream can do both</h2>
+        <p>Night creams are often richer, and day creams often add sunscreen. Fair N Pink has no sunscreen in it, so it works the same way at either time: in the morning you add a separate sunscreen on top, and at night you simply leave it on. You do not need to buy a separate night cream to go with it.</p>
+        <h2>When to apply it before bed</h2>
+        <p>Apply it 15 to 20 minutes before you lie down, so a thin layer has time to settle and less of it ends up on your pillow. A thin layer is enough; a thick one does not work faster and can feel heavy by morning. Change your pillow cover often if you have acne-prone skin.</p>
+        <h2>A night routine for your skin type</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>At night</th></tr></thead>
+          <tbody>
+            <tr><td>Oily</td><td>Very thin layer; night-only use is a good start in humid weather</td></tr>
+            <tr><td>Dry</td><td>Apply on slightly damp skin; add a plain moisturiser on top in winter</td></tr>
+            <tr><td>Combination</td><td>Thin layer on the T-zone, a little more on dry cheeks</td></tr>
+            <tr><td>Sensitive</td><td>Patch test first (it contains fragrance), then every other night for a week</td></tr>
+          </tbody>
+        </table>
+        <p>More detail for dry skin in <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>, and for oily skin in <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</p>
         <h2>Is night-only use enough?</h2>
         <p>It can be. If your skin is oily, sensitive or new to the cream, using it only at night is a sensible way to start. If your skin is comfortable after a week, you can add a morning application under sunscreen.</p>
         <h2>What to do in the morning</h2>
         <p>Use sunscreen every morning, whether or not you apply the cream. Sun exposure during the day undoes what any brightening cream does at night.</p>
         <h2>Can you layer it with other night products?</h2>
         <p>Keep it simple. Use the cream as your last step. Avoid strong peels or scrubs on the same night, and if you use a prescription cream, ask your doctor how to combine them.</p>
-        <p>For the complete routine, see <a href="/how-to-use/">how to use Fair N Pink cream</a>, and for pairing it with retinol, acids or oils, see our <a href="/glutathione-night-cream/">glutathione night cream</a> page. Know it as <a href="/journal/fair-and-pink-cream/">Fair and Pink cream</a>? It is the same product. Ready to start? Check the <a href="/journal/fair-n-pink-cream-price/">Fair N Pink cream price</a> for each pack, or see <a href="/journal/buy-fair-n-pink-cream-online/">how to buy Fair N Pink cream online</a> with Cash on Delivery.</p>'''),
+        <p>For the complete routine, see <a href="/how-to-use/">how to use Fair N Pink cream</a>, and for pairing it with retinol, acids or oils, see our <a href="/glutathione-night-cream/">glutathione night cream</a> page. Know it as <a href="/journal/fair-and-pink-cream/">Fair and Pink cream</a>? It is the same product. Ready to start? Check the <a href="/journal/fair-n-pink-cream-price/">Fair N Pink cream price</a> for each pack, or see <a href="/journal/buy-fair-n-pink-cream-online/">how to buy Fair N Pink cream online</a> with Cash on Delivery.</p>
+        <h2>FAQ</h2>
+        <h3>Can I use Fair N Pink cream every night?</h3>
+        <p>Yes. It is made for daily use. If your skin is sensitive, start every other night for the first week, then every night if it feels comfortable.</p>
+        <h3>Should I wash it off in the morning?</h3>
+        <p>Yes, wash your face as usual in the morning, then apply a fresh thin layer under sunscreen if you use it in the day too.</p>
+        <h3>Can I apply rose water before it at night?</h3>
+        <p>Yes. Let the rose water dry for a minute, then apply the cream. See <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a>.</p>
+        <h3>Can I use it with another night cream?</h3>
+        <p>You usually do not need two. If very dry skin wants more, a plain, fragrance-free moisturiser on top is enough; avoid adding another brightening cream on the same night.</p>'''),
     ('glutathione-cream-price-in-india', 'Glutathione cream price in India: what you are paying for',
      'Glutathione Cream Price in India (2026): How to Compare',
      'Glutathione cream price in India: why it varies, how to work out price per gram, what to check before you pay, and where Fair N Pink at ₹999 for 10 g fits.',

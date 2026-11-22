@@ -379,6 +379,7 @@ hero = swap(hero, 'href="#policies"', 'href="/privacy-policy/"')
 hero = swap(hero, '<img id="media-photo" src="/assets/pack-1.webp"', '<img id="media-photo" src="/assets/pack-1.webp" fetchpriority="high"')
 
 HOME_FAQ = [
+    ('What is Fair N Pink cream?', 'Fair N Pink Advance Radiance Cream is a %s face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin, used morning and night for brighter, more even-looking skin. It is made by Beauty Mart Pvt Ltd in Bhatkal, Karnataka. See <a href="/ingredients/">what is inside</a>.' % NET),
     ('What is the price of Fair N Pink Advance Radiance Cream?', 'The MRP printed on the box is ₹1,200 for one %s jar. On this store one jar is ₹999, a pack of 2 is ₹1,899 and a pack of 3 is ₹2,699. You save a further ₹100, ₹150 or ₹250 when you pay online.' % NET),
     ('What size is the Fair N Pink cream jar?', 'Each jar holds %s of cream. The net weight is printed on the box.' % NET),
     ('How do I use it?', 'Apply a pea-sized amount to clean skin, morning and night, with sunscreen in the morning.'),
@@ -387,6 +388,9 @@ HOME_FAQ = [
     ('Can I use Fair N Pink as a night cream?', 'Yes. It is a day and night cream. Use it in the morning under sunscreen, and at night as your night cream on clean skin.'),
     ('Can men use Fair N Pink cream?', 'Yes. It suits women and men, and every skin type. Use a pea-sized amount on the face and neck.'),
     ('Does it help with dark spots and uneven skin tone?', 'It contains alpha arbutin and niacinamide, which are used in creams to help reduce the look of dark spots, marks and uneven skin tone. Results differ from person to person. For deep or spreading patches, see a dermatologist.'),
+    ('Does Fair N Pink cream contain steroids or mercury?', 'No. It contains no steroids, mercury, hydroquinone or parabens. It does contain fragrance, so patch test on your inner arm for 24 hours before the first use.'),
+    ('Does Fair N Pink cream make skin fair?', 'No. Despite the name, it is a cosmetic cream that helps skin look brighter and more even, and helps tan and dark spots look lighter over weeks with daily sunscreen. It does not change your natural skin colour.'),
+    ('Is Fair N Pink the same as the Fair &amp; Pink cream sold in Pakistan?', 'No. Creams with similar names sold outside India are different products, with other sizes, formulas and prices. Fair N Pink Advance Radiance Cream is the %s jar sold on this website. See <a href="/journal/fair-and-pink-cream/">Fair and Pink cream: the name explained</a>.' % NET),
     ('When will my order arrive?', 'Orders are dispatched within 24 hours, except on Sundays and national holidays, and delivered in 3 to 7 working days.'),
 ]
 
@@ -448,8 +452,8 @@ def product_schema(url, n=1):
                         'returnMethod': 'https://schema.org/ReturnByMail', 'returnFees': 'https://schema.org/ReturnFeesCustomerResponsibility',
                         'itemCondition': 'https://schema.org/NewCondition', 'merchantReturnLink': SITE + '/refund-policy/'},
                     'seller': {'@id': SITE + '/#org'}}}]
-page('/', 'Fair N Pink Advance Radiance Cream | Brightening Face Cream ₹999',
-     'Fair N Pink Advance Radiance Cream, a brightening cream for face with glutathione, niacinamide and alpha arbutin. 10 g jar, ₹999, free shipping and COD.',
+page('/', 'Fair N Pink Cream | Glutathione Face Cream, 10 g, ₹999',
+     'Fair N Pink cream (Advance Radiance Cream): glutathione, niacinamide and alpha arbutin for brighter-looking skin. 10 g jar, ₹999, free shipping and COD.',
      HOME_BODY, home=True, schema=product_schema(SITE + '/') + [{'@type': 'FAQPage', 'mainEntity': [
          {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': strip_tags(a)}} for q, a in HOME_FAQ]}])
 # The same store on a product address, for Instagram product tags and other places that need a product page link.
@@ -667,25 +671,52 @@ for _path, _title, _desc, _h, _sub, _intro in AD_LANDINGS:
     page(_path, _title, _desc, _body, home=True, schema=product_schema(SITE + _path) + [faq_schema(LANDING_FAQ[_path])])
 
 # ---------------- Ingredients ----------------
+ING_FAQ = [
+    ('Does Fair N Pink cream contain steroids?', 'No. It contains no steroids, mercury, hydroquinone or parabens. Be careful with any face cream that does not print its full ingredient list and maker\'s address.'),
+    ('How much glutathione is in Fair N Pink cream?', 'We do not publish percentages for the ingredients. The full ingredient list is printed on the box, and we can send you a photo of it on WhatsApp before you order.'),
+    ('Is glutathione in a cream the same as glutathione tablets or injections?', 'No. A cream is a cosmetic that works on the surface of the skin. Tablets and injections are a different matter; ask a doctor before taking any of them.'),
+    ('Is Fair N Pink cream safe for sensitive skin?', 'Many people with sensitive skin can use it, but it contains fragrance and niacinamide can tingle for the first few days. Patch test for 24 hours and start once a day at night.'),
+]
 body = top('What is inside', 'Fair N Pink cream ingredients', 'Advance Radiance Cream is built around three ingredients: glutathione, niacinamide and alpha arbutin. Here is what each one is and why it is in the jar.') + '''    <section>
       <div class="prose">
+        <p class="answer">Fair N Pink Advance Radiance Cream is built around three key ingredients: L-glutathione, niacinamide (vitamin B3) and alpha arbutin, in a moisturising cream base with fragrance. It contains no steroids, mercury, hydroquinone or parabens, and the full ingredient list is printed on every box.</p>
         <h2>L-Glutathione</h2>
         <p>Glutathione is an antioxidant made of three amino acids, and it is found naturally in the body. In skincare it is used in creams made for brighter-looking skin. It is the ingredient the cream is named for: the French line on the jar, <i>crème éclat glutathione</i>, means glutathione radiance cream.</p>
         <h2>Niacinamide (vitamin B3)</h2>
         <p>Niacinamide is a form of vitamin B3 and one of the most widely used ingredients in modern skincare. It helps skin look smoother and more even, and it suits most skin types. On some skin it causes a brief warm or tingling feeling in the first few days of use.</p>
         <h2>Alpha arbutin</h2>
         <p>Alpha arbutin is used in creams that help reduce the look of dark spots and uneven tone. It works slowly, which is why we suggest judging the cream over weeks, not days, and always with sunscreen in the morning.</p>
+        <h2>How the three work together</h2>
+        <p>Each ingredient has a different job, which is why they are often paired. Niacinamide helps the skin look smoother and supports its moisture barrier, alpha arbutin is used for the look of dark spots and patchy areas, and glutathione is an antioxidant used in creams for brighter-looking skin. None of them works fast, and none of them can keep up with daily sun on its own, so sunscreen every morning is part of the routine. More on the pairing: <a href="/journal/glutathione-and-niacinamide-together/">glutathione and niacinamide together</a> and <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin</a>.</p>
+        <h2>What it does not contain</h2>
+        <ul>
+          <li><b>No steroids:</b> steroid creams should only be used on the face when a doctor prescribes them.</li>
+          <li><b>No mercury</b> and <b>no hydroquinone</b>.</li>
+          <li><b>No parabens.</b></li>
+        </ul>
+        <p>It does contain fragrance, which is the main reason we ask everyone to patch test first.</p>
+        <h2>Using it with other skincare ingredients</h2>
+        <table>
+          <thead><tr><th>If you also use</th><th>What to do</th></tr></thead>
+          <tbody>
+            <tr><td>Vitamin C serum</td><td>Usually fine; vitamin C in the morning, the cream on top. See <a href="/journal/alpha-arbutin-and-vitamin-c/">alpha arbutin and vitamin C</a>.</td></tr>
+            <tr><td>Retinol</td><td>Use on different nights at first. See <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a>.</td></tr>
+            <tr><td>Salicylic or glycolic acid</td><td>Keep to separate times and watch for stinging. See <a href="/journal/glutathione-cream-with-salicylic-acid/">with salicylic acid</a>.</td></tr>
+            <tr><td>Another niacinamide or arbutin serum</td><td>You do not need both; pick one, or use them at different times of day.</td></tr>
+            <tr><td>A prescription cream</td><td>Ask your doctor before adding any new product.</td></tr>
+          </tbody>
+        </table>
         <h2>The full ingredient list</h2>
         <p>The complete ingredient list is printed on the box of every jar, in the order required for cosmetics. If you would like to read it before you buy, <a href="%s">message us on WhatsApp</a> and we will send you a photo of the box.</p>
         <h2>Who should be careful</h2>
         <p>The cream contains fragrance, so do not use it if you are allergic to perfumed products. Do a patch test on your inner arm for 24 hours before your first use. If you are pregnant, breastfeeding or under treatment for a skin condition, ask your doctor before using any new cream.</p>
-        <p>This cream is a cosmetic. It is not a medicine and is not meant to treat any skin disease.</p>
+        <p>This cream is a cosmetic. It is not a medicine and is not meant to treat any skin disease. For what to expect on your skin, see <a href="/journal/fair-n-pink-cream-benefits/">Fair N Pink cream benefits</a> and <a href="/journal/fair-n-pink-cream-side-effects/">side effects and safety</a>.</p>
       </div>
     </section>
-''' % wa_link('Hello, please send me the full ingredient list of Fair N Pink Advance Radiance Cream.') + sec('At a glance', 'The three ingredients', '', ACT_GRID) + CTA
-page('/ingredients/', 'Fair N Pink Ingredients: Glutathione, Niacinamide, Alpha Arbutin',
-     'What is in Fair N Pink Advance Radiance Cream: glutathione, niacinamide and alpha arbutin, what each one does, and who should patch test first.',
-     body, crumbs='Ingredients')
+''' % wa_link('Hello, please send me the full ingredient list of Fair N Pink Advance Radiance Cream.') + sec('At a glance', 'The three ingredients', '', ACT_GRID) + sec('Questions', 'Fair N Pink cream ingredients: common questions', '', faq_html(ING_FAQ)) + CTA
+page('/ingredients/', 'Fair N Pink Cream Ingredients: What Is Inside the Jar',
+     'Fair N Pink cream ingredients: glutathione, niacinamide and alpha arbutin, what each does, what it is free from, and how to use it with other actives.',
+     body, crumbs='Ingredients', schema=[faq_schema(ING_FAQ)])
 
 # ---------------- How to use ----------------
 HOWTO_FAQ = [

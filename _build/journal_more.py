@@ -287,7 +287,8 @@ MORE_ARTICLES = [
         <h2>The routine</h2>
         <p><b>Night:</b> mild cleanser, then a pea-sized amount of night cream.<br><b>Morning:</b> mild cleanser, a light cream, then sunscreen.</p>
         <p>Drink water, sleep seven to eight hours, and skip harsh scrubs.</p>
-        <p>Fair N Pink Advance Radiance Cream is a <a href="/glutathione-night-cream/">glutathione night cream</a> with niacinamide and alpha arbutin, for glowing-looking skin by morning. Comparing creams? See how to choose the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin in India</a>.</p>'''),
+        <p>Fair N Pink Advance Radiance Cream is a <a href="/glutathione-night-cream/">glutathione night cream</a> with niacinamide and alpha arbutin, for glowing-looking skin by morning. Comparing creams? See how to choose the <a href="/journal/best-night-cream-for-glowing-skin/">best night cream for glowing skin in India</a>.</p>
+        <p>If dullness comes with patches or tan, read <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a>. Using Fair N Pink only at night? See <a href="/journal/fair-n-pink-night-cream/">Fair N Pink night cream</a>.</p>'''),
 
     ('face-cream-for-glowing-skin-under-1000', 'Face cream for glowing skin under ₹1,000: what you can expect',
      'Face Cream for Glowing Skin Under ₹1,000: Buyer\'s Guide',
@@ -518,8 +519,8 @@ MORE_ARTICLES = [
         <p>Yes. Niacinamide, alpha arbutin and vitamin C are commonly used in the same routine. See <a href="/journal/niacinamide-and-alpha-arbutin/">niacinamide and alpha arbutin together</a>.</p>'''),
 
     ('face-cream-for-uneven-skin-tone', 'Face cream for uneven skin tone: what helps and how to choose',
-     'Face Cream for Uneven Skin Tone: What Helps and How to Choose',
-     'Which face cream helps uneven skin tone? Common causes in Indian skin, ingredients to look for, a simple routine, red flags to avoid and when to see a doctor.',
+     'Face Cream for Uneven Skin Tone: What Helps, How to Choose',
+     'Which face cream helps uneven skin tone in India? Causes, ingredients to look for, picking by skin type, a simple routine, red flags and when to see a doctor.',
      'Skin concerns', 'Causes, ingredients to look for and a simple routine.', '''
         <p>A good face cream for uneven skin tone contains ingredients such as niacinamide, alpha arbutin or glutathione, is free from steroids and mercury, and is used every day with sunscreen for at least eight weeks. It can help patchy, tanned or marked areas look more even; it does not change your natural skin colour.</p>
         <h2>What uneven skin tone usually means</h2>
@@ -543,6 +544,17 @@ MORE_ARTICLES = [
           </tbody>
         </table>
         <p>A cream that combines a few gentle ingredients is easier to stick with than a shelf of separate products. <a href="/">Fair N Pink Advance Radiance Cream</a>, for example, combines L-glutathione, niacinamide and alpha arbutin in one 10 g jar. More on each ingredient: <a href="/ingredients/">ingredients explained</a>, or see how to choose a <a href="/brightening-cream-for-face/">brightening cream for face</a> by skin type.</p>
+        <h2>Choosing by skin type</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>Texture to pick</th><th>Tip</th></tr></thead>
+          <tbody>
+            <tr><td>Oily or acne-prone</td><td>Light cream or gel, used in a thin layer</td><td>Night-only use is fine in humid months</td></tr>
+            <tr><td>Dry</td><td>Richer cream</td><td>Apply on slightly damp skin; dryness makes tone look patchier</td></tr>
+            <tr><td>Combination</td><td>Light cream</td><td>Less on the T-zone, more on the cheeks</td></tr>
+            <tr><td>Sensitive</td><td>Few ingredients, ideally fragrance-free</td><td>Patch test and start every other night</td></tr>
+          </tbody>
+        </table>
+        <p>Skin-type guides: <a href="/journal/glutathione-cream-for-oily-skin/">oily</a>, <a href="/journal/glutathione-cream-for-dry-skin/">dry</a>, <a href="/journal/glutathione-cream-for-combination-skin/">combination</a> and <a href="/journal/glutathione-cream-for-sensitive-skin/">sensitive skin</a>.</p>
         <h2>Red flags to avoid</h2>
         <ul>
           <li>Creams that promise to change your skin colour, make you "gora" or work in a fixed number of days.</li>
@@ -567,6 +579,8 @@ MORE_ARTICLES = [
           <li><b>Skip harsh home remedies:</b> lemon, baking soda and toothpaste can irritate and darken skin.</li>
           <li><b>Gentle hair removal:</b> keep active creams off freshly waxed or threaded skin. See <a href="/journal/face-cream-after-facial-threading-waxing/">when to apply face cream after threading or waxing</a>.</li>
         </ul>
+        <h2>When a cream is not enough</h2>
+        <p>A cosmetic cream works slowly and on the surface. If your uneven tone is from melasma, deep or old marks, or patches that keep spreading, a dermatologist can look at the cause and discuss options such as prescription creams or in-clinic procedures. Do not try peels or strong acids at home on darker skin without advice; irritation can leave new dark marks.</p>
         <h2>What to expect, honestly</h2>
         <p>With steady use and sunscreen, many people see skin that looks fresher and a little more even over two to three months. Tan usually responds better than old, deep marks, and results differ from person to person. A cream will not make naturally darker areas, such as around the eyes, match the rest of your face. For spot-specific tips, read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a> and <a href="/journal/night-cream-for-pigmentation/">night cream for pigmentation</a>.</p>
         <h2>FAQ</h2>
@@ -578,10 +592,16 @@ MORE_ARTICLES = [
         <p>They overlap. Uneven tone is a broad description; pigmentation usually means distinct darker spots or patches. Melasma is a specific condition that needs a dermatologist.</p>
         <h3>Can men use a cream for uneven skin tone?</h3>
         <p>Yes. The same routine works; apply the cream after shaving has settled, not on freshly shaved, stinging skin. See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>
+        <h3>How long does it take for uneven skin tone to look more even?</h3>
+        <p>Usually weeks, not days. Fresher-looking skin may show in a few weeks; tan and marks often take eight weeks or more of daily use with sunscreen, and results differ from person to person.</p>
+        <h3>Can I use vitamin C with a cream for uneven skin tone?</h3>
+        <p>Usually yes: vitamin C serum in the morning, then the cream, then sunscreen. Start one new product at a time. See <a href="/journal/alpha-arbutin-and-vitamin-c/">alpha arbutin and vitamin C</a>.</p>
+        <h3>Do home remedies like lemon or toothpaste even out skin tone?</h3>
+        <p>No. They irritate the skin and can leave it darker and patchier. Gentle cleansing, moisturiser and daily sunscreen do far more.</p>
         <p>On a budget? See what to expect from a <a href="/journal/face-cream-for-glowing-skin-under-1000/">face cream for glowing skin under ₹1,000</a>.</p>'''),
     ('glutathione-cream-for-men', 'Glutathione cream for men: a simple routine for shaving, sweat and sun',
      'Glutathione Cream for Men: Simple Routine for Indian Skin',
-     'Can men use glutathione cream? How to fit it around shaving, beard, sweat and bike or commute sun in India, how much to use, and what to expect honestly.',
+     'Glutathione cream for men in India: how to choose one, use it around shaving, beard, sweat and commute sun, how much to apply and what to expect, honestly.',
      'Skin type', 'How to fit it around shaving, beard, sweat and daily sun.', '''
         <p>Yes, men can use a glutathione face cream; skin does not care about gender, and the cream works the same way. What changes for most men is the routine around it: apply it after shaving has settled, use a thin layer if your skin is oily, and wear sunscreen every morning, because daily sun on a bike or commute is what darkens most men's skin.</p>
         <p>One thing to clear up first: searches for "fairness cream for men" promise a change in skin colour. No cream can do that safely. A glutathione cream with niacinamide and alpha arbutin is used for brighter-looking, more even-looking skin and to help tan and dark spots look lighter over weeks, alongside sunscreen.</p>
@@ -621,11 +641,21 @@ MORE_ARTICLES = [
           <li><b>Mixing many new products.</b> Start one new product at a time, so you know what suits you.</li>
           <li><b>Expecting change in a week.</b> Give it four to eight weeks; see <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</li>
         </ul>
-        <h2>5. Where Fair N Pink fits</h2>
+        <h2>5. How to choose a glutathione cream for men</h2>
+        <p>Most listings for "glutathione cream for men" in India promise whitening. Skip those claims and check the label instead:</p>
+        <ul>
+          <li><b>Full ingredient list, maker's name and address</b> printed on the box.</li>
+          <li><b>No steroids or mercury.</b> A steroid cream on the face is only for when a doctor prescribes it.</li>
+          <li><b>A light texture</b> if your skin is oily or you ride in the heat; a richer one if your skin is dry.</li>
+          <li><b>Supporting ingredients</b> such as niacinamide or alpha arbutin, which are used for a more even look.</li>
+          <li><b>No promises</b> of a lighter skin colour, permanent change or results in a fixed number of days.</li>
+        </ul>
+        <p>For a wider comparison, read our <a href="/journal/best-glutathione-cream-in-india/">best glutathione cream in India</a> checklist.</p>
+        <h2>6. Where Fair N Pink fits</h2>
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> is a 10 g face cream with L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It is made for all skin types, men included; see how to apply this <a href="/glutathione-cream-for-face/">glutathione cream for face</a>. A pea-sized amount is enough for the face. It contains fragrance, so patch test it on your inner arm for 24 hours first. It is ₹999 for one jar, with Cash on Delivery where available; see <a href="/journal/fair-n-pink-cream-price/">price and packs</a>. For skin type tips, read <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>.</p>
-        <h2>6. Realistic results</h2>
+        <h2>7. Realistic results</h2>
         <p>With steady use and daily sunscreen, many men notice skin that feels smoother and looks fresher in a few weeks. Tan on the forehead and nose usually responds better than old acne marks. Results differ from person to person, and the cream does not change your natural skin colour. For dark spots, see <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a>.</p>
-        <h2>7. When to see a dermatologist</h2>
+        <h2>8. When to see a dermatologist</h2>
         <p>See a dermatologist for painful or cystic acne, razor bumps that keep getting infected, patches that spread, or any rash. They can suggest options a cosmetic cream cannot give.</p>
         <h2>FAQ</h2>
         <h3>Is glutathione cream only for women?</h3>
@@ -636,6 +666,10 @@ MORE_ARTICLES = [
         <p>You can on short stubble if you rub it in well. With a full beard, use it on the cheeks above the beard, forehead and nose.</p>
         <h3>Does glutathione cream help with tan for men?</h3>
         <p>It can help tan look lighter over weeks, together with daily sunscreen. It will not change your natural skin colour, and sunscreen does most of the work.</p>
+        <h3>Glutathione cream or tablets: which is better for men?</h3>
+        <p>They are different things. A cream is a cosmetic for the surface of the skin. Tablets and injections are not cosmetics; ask a doctor before taking any of them, and never take them based on an advert.</p>
+        <h3>Can I use it with aftershave or beard oil?</h3>
+        <p>Yes, with a gap. Let an alcohol-based aftershave dry and any sting settle before the cream, and keep beard oil on the beard itself, not on the areas where you apply the cream.</p>
         <h3>Will it make my oily skin greasy?</h3>
         <p>Use a thin layer and keep it for night if your skin gets shiny by midday. A gel sunscreen in the morning helps too.</p>'''),
     ('glutathione-cream-in-winter', 'Glutathione cream in winter: how to use it without dry, tight skin',
@@ -777,6 +811,7 @@ MORE_ARTICLES = [
         </ul>
         <h2>8. When to see a dermatologist</h2>
         <p>See a dermatologist if your acne is painful, cystic or leaves new marks every month, if you have pitted or raised scars, or if marks do not change at all after three months of sunscreen and gentle care. Dermatologists can treat active acne and scars in ways a face cream cannot.</p>
+        <p>Marks and patchy areas together? See how to choose a <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a>.</p>
         <h2>FAQ</h2>
         <h3>Does glutathione cream remove pimple marks?</h3>
         <p>No cream removes marks overnight. A cream with glutathione, niacinamide and alpha arbutin can help dark pimple marks look lighter over eight weeks or more, with daily sunscreen.</p>
@@ -909,6 +944,7 @@ MORE_ARTICLES = [
         <h2>8. When to see a dermatologist</h2>
         <p>See a dermatologist if you have many painful or deep pimples, pimples that leave pitted scars, sudden heavy oiliness with other changes such as hair growth or irregular periods, or if your skin reacts to every product you try. These need proper diagnosis, not a cosmetic cream.</p>
         <p>New to the cream? Read <a href="/journal/fair-n-pink-cream-side-effects/">Fair N Pink cream side effects</a> and do a patch test first. Why niacinamide suits oily skin is explained in <a href="/journal/niacinamide-night-cream/">niacinamide night cream</a>.</p>
+        <p>Men with oily skin who shave daily can follow the routine in <a href="/journal/glutathione-cream-for-men/">glutathione cream for men</a>.</p>
         <h2>FAQ</h2>
         <h3>Will glutathione cream make oily skin more oily?</h3>
         <p>A thin layer should not. If your face looks greasy, reduce the amount, use it only at night, and keep the morning to sunscreen.</p>
@@ -1365,6 +1401,7 @@ MORE_ARTICLES = [
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and works as a <a href="/glutathione-night-cream/">glutathione night cream</a> on damp skin. It is a cosmetic cream for brighter-looking skin and a more even-looking tone over weeks, with daily sunscreen; it does not change your natural skin colour and it is not a replacement for a moisturiser on very dry skin. Not sure it suits your skin? See <a href="/journal/who-can-use-fair-n-pink-cream/">who can use Fair N Pink cream</a>. Use a pea-sized amount on damp skin and add a plain moisturiser on top when needed. Patch test first, because the cream contains fragrance. For what to expect over time, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
         <h2>7. When to see a dermatologist</h2>
         <p>See a dermatologist if dry patches itch a lot, crack or bleed, look red and scaly, or keep coming back in the same places. These can be eczema, psoriasis or another condition that needs a proper diagnosis, and a cosmetic cream is not a treatment for them.</p>
+        <p>Prefer to use it only before bed? See <a href="/journal/fair-n-pink-night-cream/">Fair N Pink night cream</a> for the night steps.</p>
         <h2>FAQ</h2>
         <h3>Is glutathione cream good for dry skin?</h3>
         <p>It can be used on dry skin when applied on damp skin with a plain moisturiser on top if needed. Its job is a more even-looking tone, not deep moisture.</p>
@@ -1504,6 +1541,7 @@ MORE_ARTICLES = [
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. On acne-prone skin, use it as a thin layer at night, mainly for the look of dark marks and uneven tone, with sunscreen every morning. It is a cosmetic cream, not an acne treatment, and it does not change your natural skin colour. It contains fragrance, so patch test first. For the full method, see <a href="/how-to-use/">how to use</a>.</p>
         <h2>8. When to see a dermatologist</h2>
         <p>See a dermatologist if your acne is painful, deep or cystic, leaves scars, keeps coming back along the jaw with irregular periods, or does not improve after a few months of a gentle routine. These need proper treatment, and a cosmetic cream should not delay it.</p>
+        <p>Checking labels for acne-prone skin? See the full <a href="/ingredients/">Fair N Pink cream ingredients</a> page.</p>
         <h2>FAQ</h2>
         <h3>Can glutathione cream cause pimples?</h3>
         <p>Any cream can cause breakouts in some people, usually because of a heavy texture or using too much. Use a thin layer, patch test on the jawline and stop if new bumps keep appearing.</p>
@@ -1932,6 +1970,7 @@ MORE_ARTICLES = [
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a 10 g jar for ₹999. Used morning and night with sunscreen every morning, it can help tan and dark spots look lighter and skin look more even over 8 to 12 weeks. It does not change your natural skin colour. See <a href="/how-to-use/">how to use it</a>, and patch test on the jaw or inner arm for 24 to 48 hours first.</p>
         <p>For tan on the neck, read <a href="/journal/glutathione-cream-for-dark-neck/">glutathione cream for dark neck</a>; for spots that stay after the tan fades, read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a>.</p>
         <p>See a dermatologist if you have sunburn with blisters, patches that appear suddenly or keep spreading, brown patches on both cheeks that may be melasma, or any mole that changes in size, shape or colour.</p>
+        <p>If tan is only part of the problem and your face looks patchy overall, read <a href="/journal/face-cream-for-uneven-skin-tone/">face cream for uneven skin tone</a>.</p>
         <h2>FAQ</h2>
         <h3>Can glutathione cream remove sun tan?</h3>
         <p>It can help tan look lighter over weeks, used with sunscreen every morning. It does not take tan away overnight, and it is not a replacement for sunscreen.</p>
@@ -3245,6 +3284,7 @@ MORE_ARTICLES = [
         <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin and no retinol, so a thin layer can be used on the chin morning and night, with sunscreen every day. Over 8 to 12 weeks it can help darkness from sun, rubbing and old pimple marks look lighter and more even. It does not change your natural skin colour, and it is not a treatment for hormonal problems. See <a href="/how-to-use/">how to use it</a> and <a href="/ingredients/">what is inside</a>.</p>
         <h2>6. When to see a doctor or dermatologist</h2>
         <p>See a doctor or dermatologist if your chin darkness comes with new coarse hair on the chin or upper lip, irregular periods or deep, painful pimples along the jaw (these can be linked to hormones, such as PCOS), if you also have thick, velvety dark skin on the neck or underarms, if it appeared during pregnancy or after a new medicine, or if it itches, scales or keeps getting darker despite sunscreen. These need a proper check-up, and a cosmetic cream alone is not the answer.</p>
+        <p>For men, the shaving and beard-area routine is in <a href="/journal/glutathione-cream-for-men/">glutathione cream for men</a>.</p>
         <h2>FAQ</h2>
         <h3>Why is my chin darker than the rest of my face?</h3>
         <p>Common reasons are rubbing or resting the chin on your hand, marks from repeated pimples, hair removal and missed sunscreen. If it comes with new thick hair or irregular periods, see a doctor.</p>
