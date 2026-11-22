@@ -4612,6 +4612,149 @@ MORE_ARTICLES = [
         <p>They usually fade slowly once pressure from the pads drops. Check the fit of your frames, use soft pads and moisturise the area.</p>
         <h3>Can glutathione cream make my nose fair?</h3>
         <p>No. It does not change your natural skin colour. With sunscreen, it can help darker patches from sun and rubbing look lighter and more even over weeks.</p>'''),
+    ('glutathione-cream-with-argan-oil', 'Can you use argan oil with glutathione cream?',
+     'Argan Oil with Glutathione Cream: Right Order and How Much',
+     'Can you use argan oil with glutathione cream? Yes: cream first, then 1 to 2 drops of argan oil on dry areas at night. Who it suits and which oil to buy.',
+     'How to use', 'How to use argan oil next to a glutathione cream: the right order, how many drops, who it suits in Indian weather, how to spot real argan oil, and what not to mix.', '''
+        <p>Yes, you can use argan oil with glutathione cream: apply the cream first, wait a few minutes, then press 1 to 2 drops of pure argan oil only on dry areas at night. Never mix the oil into the jar, and wear sunscreen every morning.</p>
+        <p>Argan oil comes from the kernels of the argan tree, which grows in Morocco. In India it is sold mostly as a hair oil and in hair serums, so many people already have a bottle at home and wonder whether it can go on the face too. Pure argan oil is a medium-weight oil: lighter than coconut, castor or olive oil, a little richer than jojoba. It suits dry winter skin well; oily skin in humid weather usually does not need it.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Argan oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Plant oil, medium weight</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps dry, tight skin feel soft and smooth</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best weather</td><td>Dry winter nights, AC rooms, room heaters, hill trips</td><td>All year, with sunscreen every morning</td></tr>
+            <tr><td>Main downside</td><td>Can feel heavy on oily skin; "argan" hair serums are not face oils</td><td>Works slowly</td></tr>
+            <tr><td>What it cannot do</td><td>Fade dark spots or tan</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> so the cream settles into the skin.</li>
+          <li><b>Warm 1 to 2 drops of argan oil</b> between your fingertips. For the whole face, 2 drops is plenty.</li>
+          <li><b>Press it gently</b> onto dry areas: cheeks, around the nose, chin and jawline. Do not drag or rub hard.</li>
+          <li><b>Use it at night</b>. In the morning, a light moisturiser and sunscreen are enough; oil under sunscreen can make it slide off in heat.</li>
+        </ol>
+        <p>Cream first, oil second: the cream sits directly on the skin, and the thin oil layer on top helps slow water loss overnight. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Who it suits</h2>
+        <table>
+          <thead><tr><th>Skin or weather</th><th>Argan oil with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, north Indian winter, heaters</td><td>Yes, 1 to 2 drops at night on dry areas; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Optional; only on nights skin feels tight</td></tr>
+            <tr><td>Combination skin</td><td>Only on dry cheeks, never on the forehead or nose; see <a href="/journal/glutathione-cream-for-combination-skin/">combination skin</a></td></tr>
+            <tr><td>Oily skin, humid coastal cities, monsoon</td><td>Usually skip; the cream is enough. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Acne-prone skin</td><td>Patch test first, and stop if new bumps appear</td></tr>
+            <tr><td>Nut allergy</td><td>Argan is a kernel oil; ask your doctor before using it</td></tr>
+          </tbody>
+        </table>
+        <h2>4. Pure argan oil vs "argan" hair serums</h2>
+        <p>This is the most common mistake. Many bottles sold in India with "argan" on the front are hair serums made mostly of silicones, mineral oil and fragrance, with only a little argan oil. They are fine for hair, but they are not meant for the face and can clog pores or irritate.</p>
+        <ul>
+          <li><b>Read the ingredient list:</b> it should say only argan kernel oil (Argania spinosa kernel oil).</li>
+          <li><b>Skip bottles with fragrance</b>, "parfum", mineral oil or long silicone names (ending in -cone or -siloxane) if you want it for the face.</li>
+          <li><b>Cold-pressed cosmetic argan</b> is pale gold with a light, nutty smell. A strong roasted smell means culinary argan, which is not meant for skin.</li>
+          <li><b>Buy a small dropper bottle</b>; you only need a couple of drops a night, and oil goes stale once opened.</li>
+          <li><b>Store it capped</b>, away from sun and the bathroom geyser, and throw it away if the smell turns sharp or rancid.</li>
+        </ul>
+        <h2>5. Argan vs other oils</h2>
+        <p>If you already have another oil at home, you do not need to buy argan. Jojoba is lighter and suits normal-to-combination skin; coconut and castor oil are heavier and better kept to lips, heels and very dry patches; almond and olive oil are richer and suit very dry winter skin. Compare them in <a href="/journal/glutathione-cream-with-jojoba-oil/">jojoba oil with glutathione cream</a>, <a href="/journal/glutathione-cream-with-almond-oil/">almond oil with glutathione cream</a> and <a href="/journal/glutathione-cream-with-coconut-oil/">coconut oil with glutathione cream</a>.</p>
+        <h2>6. What not to do</h2>
+        <ul>
+          <li><b>Do not mix argan oil into the cream jar.</b> It changes the cream and can spoil it.</li>
+          <li><b>Do not apply the oil under the cream.</b> The oil layer can stop the cream from sitting on the skin.</li>
+          <li><b>Do not add lemon or essential oils</b> to it for the face.</li>
+          <li><b>Do not use it before makeup</b> on oily skin; read <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.</li>
+          <li><b>Do not expect it to fade spots or tan.</b> Sunscreen every morning does far more; see <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no argan oil, so if your skin feels dry at night you can press a drop or two of pure argan oil on top. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop the oil and see a dermatologist if your skin turns red, itchy or swollen, if you get many new bumps or whiteheads, or if dryness comes with cracking, scaling or patches that do not settle with a simple moisturiser. Patch test any new oil on the jawline for 2 to 3 nights first, and read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> if you react easily.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply argan oil after glutathione cream?</h3>
+        <p>Yes. Apply the cream first, wait a few minutes, then press 1 to 2 drops of pure argan oil on dry areas at night.</p>
+        <h3>Can I use my argan hair serum on my face?</h3>
+        <p>Better not. Most hair serums are mostly silicones and fragrance, made for hair. Use only pure argan kernel oil on the face.</p>
+        <h3>Is argan oil good for oily skin?</h3>
+        <p>It is lighter than many oils, but oily skin usually does not need extra oil, especially in humid weather. Skip it or use one drop only on dry patches.</p>
+        <h3>Can I use argan oil in the morning?</h3>
+        <p>It is better at night. In the day, oil under sunscreen can make it slide off with sweat; use a light moisturiser and sunscreen instead.</p>
+        <h3>Does argan oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-neem', 'Can you use neem with glutathione cream?',
+     'Neem with Glutathione Cream: Packs, Neem Water and Safe Order',
+     'Can you use neem with glutathione cream? Yes, as a separate rinse-off step: neem pack or neem water first, then the cream. What to skip and who should avoid it.',
+     'How to use', 'How to use neem next to a glutathione cream: neem paste packs, neem water, neem face wash and neem oil, the right order, who should skip it, and what not to mix.', '''
+        <p>Yes, you can use neem with glutathione cream, as a separate step: use a neem face wash, a short neem pack or cooled neem water first, rinse or let it dry, then apply the cream. Never mix neem paste or neem oil into the jar, and wear sunscreen every morning.</p>
+        <p>Neem (Azadirachta indica) is one of the most familiar home remedies in India, used for generations on pimple-prone skin as fresh leaf paste, neem water or neem powder packs. It is a cleansing, soothing-feeling step for many people, but fresh leaves and neem oil can also irritate, so how you use it matters more than whether you use it.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Neem (pack, water or wash)</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Rinse-off step or toner</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps oily, pimple-prone skin feel clean and fresh</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best for</td><td>Oily and acne-prone skin, humid summer and monsoon</td><td>Most skin types, all year, with sunscreen</td></tr>
+            <tr><td>Main downside</td><td>Can dry or sting sensitive skin; neem oil smells strong and can irritate</td><td>Works slowly</td></tr>
+            <tr><td>What it cannot do</td><td>Fade dark spots or tan, or replace acne care from a doctor</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. Which form of neem to use</h2>
+        <table>
+          <thead><tr><th>Form</th><th>How to use it with the cream</th><th>Who it suits</th></tr></thead>
+          <tbody>
+            <tr><td>Neem face wash</td><td>Wash, pat dry, then apply the cream</td><td>Oily and combination skin; easiest option</td></tr>
+            <tr><td>Neem water (boiled leaves, cooled)</td><td>Pat on clean skin with cotton, let it dry 1 to 2 minutes, then the cream</td><td>Oily skin; make it fresh, keep in the fridge a day at most</td></tr>
+            <tr><td>Neem powder or leaf paste pack</td><td>Mix with curd, rose water or multani mitti; leave 5 to 10 minutes; rinse; pat dry; then the cream</td><td>Oily skin, once or twice a week</td></tr>
+            <tr><td>Neem oil</td><td>Not for the whole face. If used at all, diluted in a light oil and only on a single spot</td><td>Most people can skip it</td></tr>
+          </tbody>
+        </table>
+        <h2>3. Step by step: neem pack and cream at night</h2>
+        <ol>
+          <li><b>Patch test</b> the neem pack on the jawline once and wait a day.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Mix 1 teaspoon neem powder</b> with enough curd, rose water or a little multani mitti and water to make a smooth paste. See <a href="/journal/glutathione-cream-with-multani-mitti/">multani mitti with glutathione cream</a> and <a href="/journal/rose-water-with-glutathione-cream/">rose water with glutathione cream</a>.</li>
+          <li><b>Apply a thin layer</b>, avoiding the eyes and lips.</li>
+          <li><b>Rinse after 5 to 10 minutes</b>, before it dries hard and cracks. Do not scrub it off.</li>
+          <li><b>Pat dry, wait a few minutes</b>, then apply a thin layer of the glutathione cream.</li>
+          <li><b>Sunscreen every morning.</b></li>
+        </ol>
+        <p>Keep the pack to once or twice a week. On other nights, just wash and apply the cream as usual; read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>4. Neem for pimples and pimple marks</h2>
+        <p>Many people reach for neem when they have pimples, and a brightening cream for the marks left behind. They are two different jobs. Neem steps help oily skin feel clean; the cream can help old brown marks look lighter over weeks with sunscreen. Do not put a neem pack on broken, picked or very inflamed pimples, and do not expect neem to clear painful or cystic acne, which needs a dermatologist. Read <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a> and <a href="/journal/glutathione-cream-for-acne-prone-skin/">glutathione cream for acne-prone skin</a>.</p>
+        <h2>5. Who should skip neem</h2>
+        <ul>
+          <li><b>Dry or sensitive skin:</b> neem packs can leave skin tight and stinging, especially in winter. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Anyone who reacts in the patch test:</b> redness, itching or burning means stop.</li>
+          <li><b>Freshly waxed, threaded or bleached skin:</b> wait a couple of days.</li>
+          <li><b>Pregnancy and breastfeeding:</b> ask your doctor before using neem oil or any new herbal product.</li>
+        </ul>
+        <h2>6. What not to do</h2>
+        <ul>
+          <li><b>Do not mix neem paste or oil into the cream jar.</b> It can spoil the cream.</li>
+          <li><b>Do not use neat neem oil on the face.</b> It is strong and can irritate.</li>
+          <li><b>Do not leave a neem pack on until it cracks</b>, or use it every day.</li>
+          <li><b>Do not combine neem, lemon and turmeric</b> in one strong pack; it is too much for most faces. See <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Do not skip sunscreen.</b> No pack fades tan while the sun keeps adding to it.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no neem, so a neem wash or pack fits in as a separate step before it. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if pimples are painful, deep or leaving scars, if they do not settle after a few weeks of gentle care, or if a neem product leaves your skin red, swollen or itchy. Stop the neem step straight away if it burns.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after a neem face pack?</h3>
+        <p>Yes. Rinse the pack off after 5 to 10 minutes, pat dry, wait a few minutes, then apply a thin layer of the cream.</p>
+        <h3>Can I use neem water as a toner before the cream?</h3>
+        <p>Yes, if it suits your skin. Pat fresh, cooled neem water on clean skin, let it dry, then apply the cream. Make a new batch every day or two.</p>
+        <h3>Can I mix neem powder with glutathione cream?</h3>
+        <p>No. Keep them as separate steps. Mixing powder into the cream changes it and can spoil the jar.</p>
+        <h3>Is neem good for oily skin in summer?</h3>
+        <p>A neem face wash or a short weekly pack suits many oily skins in humid weather. Stop if your skin feels tight or stings.</p>
+        <h3>Does neem with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -4685,5 +4828,7 @@ SHORT.update({
  'glutathione-cream-with-tulsi': 'Yes, carefully. Use tulsi only as a short rinse-off pack mixed with curd, rose water or multani mitti, leave it on 5 to 10 minutes, rinse, pat dry and then apply the cream. Patch test first, and skip it on dry or sensitive skin.',
  'glutathione-cream-after-bleach': 'Yes, but not the same day. After face bleach, rinse well, use a plain fragrance-free moisturiser, avoid sun and wait about 24 to 48 hours, until the skin no longer stings or looks pink, before using the glutathione cream again. Bleach lightens facial hair, not skin.',
  'glutathione-cream-for-dark-nose': 'A glutathione cream can help a dark nose, its sides or the bridge look a little lighter and more even over 8 to 12 weeks with a thin daily layer, sunscreen on the nose every morning and no squeezing, scrubbing or rubbing. A spreading patch across the cheeks needs a dermatologist.',
+ 'glutathione-cream-with-argan-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of pure argan oil on dry areas at night, with sunscreen every morning. Use pure argan kernel oil, not an argan hair serum, and oily skin in humid weather can usually skip it.',
+ 'glutathione-cream-with-neem': 'Yes, as a separate step: use a neem face wash, cooled neem water or a 5 to 10 minute neem pack first, rinse or let it dry, then apply the glutathione cream, with sunscreen every morning. Never mix neem into the jar, and dry or sensitive skin can skip it.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES

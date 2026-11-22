@@ -64,6 +64,8 @@
 | 2026-11-20 | glutathione cream with tulsi | /journal/glutathione-cream-with-tulsi/ | Page 1 was foreign product pages and Indian pharmacy listings, nothing on tulsi with the cream; short rinse-off pack, patch test first (fresh paste can sting), who should skip, no essential oil on skin |
 | 2026-11-21 | glutathione cream after bleach (face bleach) | /journal/glutathione-cream-after-bleach/ | Page 1 was foreign glutathione product pages, US skin-bleaching health guides and a PMC table, nothing on using a cream after Indian parlour face bleach; wait 24–48 h, bleach-day order, restart steps, when not to bleach, myths (bleach lightens hair, not skin) |
 | 2026-11-21 | glutathione cream for dark nose (sides of nose) | /journal/glutathione-cream-for-dark-nose/ | Page 1 was only 1mg/Flipkart/Purplle glutathione cream listings; causes table (sun, spectacle pads, rubbing, squeezing, dryness), how to apply around nostrils, what to stop, oily tip vs dry sides, weekly plan, melasma/seb-derm red flags |
+| 2026-11-22 | glutathione cream with argan oil | /journal/glutathione-cream-with-argan-oil/ | Page 1 was only 1mg/IndiaMART/Flipkart glutathione cream listings, no article on layering argan oil with the cream; right-order steps, who-it-suits table for Indian weather, pure argan vs 'argan' hair serum label check, other oils compared, patch test and dermatologist note |
+| 2026-11-22 | glutathione cream with neem | /journal/glutathione-cream-with-neem/ | Page 1 was only 1mg/Flipkart/HealthKart cream listings (several with 'whitening' names), nothing on using neem with the cream; which-form table (wash, neem water, pack, oil), pack steps, pimples vs pimple marks, who should skip, see a dermatologist for painful acne |
 
 ## Boosts
 
