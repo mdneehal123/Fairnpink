@@ -18,7 +18,7 @@ WA_SHOW = '+91 99808 81230'
 IG = 'https://www.instagram.com/fairnpinkprofessional/'
 NET = '10 g'
 OWNER = 'Beauty Mart Pvt Ltd'
-ADDR = 'Azad Nagar 4th Cross, near Anfa Park, Bhatkal, Uttara Kannada, Karnataka 581320, India'
+ADDR = 'Bhatkal, Karnataka, India'
 ACTIVES = [
     ('L-Glutathione', 'An antioxidant used in creams made for brighter-looking skin.'),
     ('Niacinamide', 'Vitamin B3. Helps skin look smoother and more even.'),
@@ -49,7 +49,7 @@ def page(path, title, desc, body, schema=None, home=False, crumbs=None, index=Tr
     graph = [{
         '@type': 'Organization', '@id': SITE + '/#org', 'name': 'Fair N Pink', 'url': SITE + '/',
         'logo': SITE + '/assets/icon.svg', 'sameAs': [IG], 'legalName': OWNER,
-        'address': {'@type': 'PostalAddress', 'streetAddress': 'Azad Nagar 4th Cross, near Anfa Park', 'addressLocality': 'Bhatkal', 'addressRegion': 'Karnataka', 'postalCode': '581320', 'addressCountry': 'IN'},
+        'address': {'@type': 'PostalAddress', 'addressLocality': 'Bhatkal', 'addressRegion': 'Karnataka', 'addressCountry': 'IN'},
         'contactPoint': {'@type': 'ContactPoint', 'telephone': '+' + WA, 'contactType': 'customer service', 'areaServed': 'IN'}
     }, {
         '@type': 'WebSite', '@id': SITE + '/#site', 'url': SITE + '/', 'name': 'Fair N Pink', 'publisher': {'@id': SITE + '/#org'}
@@ -1046,7 +1046,7 @@ LLMS = """# Fair N Pink
 - Delivery: dispatched within 24 hours (except Sundays and holidays), delivered in 3 to 7 working days across India
 - Payment: UPI, cards, netbanking (Razorpay) or Cash on Delivery with nothing paid upfront
 - Rating: 4.6 out of 5 on Flipkart (21 ratings)
-- Seller: Beauty Mart Pvt Ltd, Azad Nagar 4th Cross, near Anfa Park, Bhatkal, Uttara Kannada, Karnataka 581320
+- Seller: Beauty Mart Pvt Ltd, Bhatkal, Karnataka
 - WhatsApp: +91 99808 81230 · Instagram: @fairnpinkprofessional
 
 ## Main pages
