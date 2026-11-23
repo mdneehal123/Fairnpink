@@ -4795,6 +4795,156 @@ MORE_ARTICLES = [
         <p>A neem face wash or a short weekly pack suits many oily skins in humid weather. Stop if your skin feels tight or stings.</p>
         <h3>Does neem with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-rosehip-oil', 'Can you use rosehip oil with glutathione cream?',
+     'Rosehip Oil with Glutathione Cream: Right Order and How Much',
+     'Can you use rosehip oil with glutathione cream? Yes: cream first, then 1 to 2 drops of rosehip oil at night. Who it suits, how to store it and what to avoid.',
+     'How to use', 'How to use rosehip oil next to a glutathione cream: the right order, how many drops, who it suits in Indian weather, why it goes off quickly, and what not to mix.', '''
+        <p>Yes, you can use rosehip oil with glutathione cream: apply the cream first, wait a few minutes, then press 1 to 2 drops of pure rosehip oil onto dry or rough areas at night. Do not mix the oil into the jar, and wear sunscreen every morning.</p>
+        <p>Rosehip oil is pressed from the seeds of wild rose plants and is sold in India mostly in small dropper bottles as a face oil. It is a light, "dry-feeling" oil that sinks in faster than coconut, castor or olive oil, which is why people with normal and combination skin often like it. It is also one of the quickest oils to go stale once opened, so how you buy and store it matters.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Rosehip oil</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Plant oil, light weight</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps dry or rough skin feel softer and smoother</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best weather</td><td>Dry winter nights, AC rooms, room heaters</td><td>All year, with sunscreen every morning</td></tr>
+            <tr><td>Main downside</td><td>Goes rancid quickly after opening; can trigger bumps on some acne-prone skin</td><td>Works slowly</td></tr>
+            <tr><td>What it cannot do</td><td>Fade dark spots or tan by itself, or replace a retinol product</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> so the cream settles.</li>
+          <li><b>Put 1 to 2 drops of rosehip oil</b> on your fingertips and warm them between your fingers.</li>
+          <li><b>Press gently</b> onto dry or rough areas: cheeks, around the nose, chin and jawline. Avoid the eyelids.</li>
+          <li><b>Use it at night only.</b> In the morning, a light moisturiser and sunscreen are enough.</li>
+        </ol>
+        <p>Cream first, oil second: the cream sits directly on clean skin, and the thin oil layer on top helps slow water loss overnight. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Who it suits</h2>
+        <table>
+          <thead><tr><th>Skin or weather</th><th>Rosehip oil with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Dry skin, north Indian winter, heaters</td><td>Yes, 1 to 2 drops at night; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Optional; only on nights skin feels tight or rough</td></tr>
+            <tr><td>Combination skin</td><td>Only on dry cheeks, not the forehead or nose; see <a href="/journal/glutathione-cream-for-combination-skin/">combination skin</a></td></tr>
+            <tr><td>Oily skin, humid coastal cities, monsoon</td><td>Usually skip; the cream is enough. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Acne-prone skin</td><td>Patch test for 3 nights; stop if new bumps appear</td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test first; stop if it stings or itches</td></tr>
+          </tbody>
+        </table>
+        <h2>4. Rosehip oil is not "natural retinol"</h2>
+        <p>You will often see rosehip oil sold as a natural alternative to retinol. That claim goes too far. Rosehip oil is rich in fatty acids such as linoleic acid and also contains small amounts of carotenoids, which give it its orange colour, but a face oil is not the same as a measured retinol product. Use it for comfort and softness, not as a way to fade marks. If you are thinking about retinol, read <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a> first.</p>
+        <h2>5. How to buy and store rosehip oil</h2>
+        <ul>
+          <li><b>Read the ingredient list:</b> it should say rosehip seed oil (often written as Rosa canina or Rosa rubiginosa seed oil) and little else.</li>
+          <li><b>Skip bottles with fragrance</b>, "parfum" or added essential oils if you want it for the face.</li>
+          <li><b>Buy a small, dark glass bottle.</b> You only need a couple of drops a night, and a big bottle may go stale before you finish it.</li>
+          <li><b>Store it capped, away from sun and heat.</b> In a hot Indian summer, a cool cupboard is better than a sunny dressing table or a bathroom shelf near the geyser.</li>
+          <li><b>Smell it before each use.</b> Fresh oil smells mild and slightly earthy. A sharp, crayon-like or fishy smell means it has gone rancid; throw it away.</li>
+          <li><b>Note the date you opened it</b> and follow the use-by advice on the bottle.</li>
+        </ul>
+        <h2>6. Rosehip vs other oils</h2>
+        <p>If you already have an oil at home, you do not need to buy rosehip. Jojoba is similar in weight and keeps better; argan is a little richer; almond and olive oil are richer still and suit very dry winter skin; coconut and castor oil are heavy and better kept to lips, heels and very dry patches. Compare them in <a href="/journal/glutathione-cream-with-jojoba-oil/">jojoba oil with glutathione cream</a>, <a href="/journal/glutathione-cream-with-argan-oil/">argan oil with glutathione cream</a> and <a href="/journal/glutathione-cream-with-almond-oil/">almond oil with glutathione cream</a>.</p>
+        <h2>7. What not to do</h2>
+        <ul>
+          <li><b>Do not mix rosehip oil into the cream jar.</b> It changes the cream and can spoil it.</li>
+          <li><b>Do not apply it under the cream.</b> The oil layer can stop the cream from sitting on the skin.</li>
+          <li><b>Do not use it on freshly waxed, threaded or bleached skin</b> for a day or two; see <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading and waxing</a>.</li>
+          <li><b>Do not use it in the morning under sunscreen</b> on oily skin; it can make sunscreen slide off with sweat.</li>
+          <li><b>Do not expect it to fade spots or tan.</b> Daily sunscreen does far more; see <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ul>
+        <h2>8. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no rosehip oil, so if your skin feels dry or rough at night you can press a drop or two of pure rosehip oil on top. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>9. When to see a dermatologist</h2>
+        <p>Stop the oil and see a dermatologist if your skin turns red, itchy or swollen, if you get many new bumps or whiteheads, or if dryness comes with cracking, scaling or patches that do not settle with a simple moisturiser. Patch test any new oil on the jawline for 2 to 3 nights first, and read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> if you react easily. If you are pregnant or breastfeeding, ask your doctor before starting new skincare products.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply rosehip oil after glutathione cream?</h3>
+        <p>Yes. Apply the cream first, wait a few minutes, then press 1 to 2 drops of pure rosehip oil on dry areas at night.</p>
+        <h3>Is rosehip oil good for oily skin?</h3>
+        <p>It is a light oil, but oily skin usually does not need extra oil, especially in humid weather. Skip it, or use one drop only on dry patches.</p>
+        <h3>Can rosehip oil replace my glutathione cream?</h3>
+        <p>No. Rosehip oil helps skin feel soft; the cream is the step meant to help skin look brighter and more even over weeks with sunscreen.</p>
+        <h3>How do I know if my rosehip oil has gone bad?</h3>
+        <p>A sharp, crayon-like or fishy smell, or a darker colour than when you bought it, means it has gone rancid. Throw it away and do not use it on the face.</p>
+        <h3>Does rosehip oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-shea-butter', 'Can you use shea butter with glutathione cream?',
+     'Shea Butter with Glutathione Cream: Order, Amount, Skin Type',
+     'Can you use shea butter with glutathione cream? Yes, on dry skin: cream first, then a tiny layer of shea butter on dry patches at night. Who should skip it.',
+     'How to use', 'How to use shea butter next to a glutathione cream: the right order, how much, which skin types and seasons it suits in India, raw vs refined shea, and what not to mix.', '''
+        <p>Yes, you can use shea butter with glutathione cream if your skin is dry: apply the cream first, wait a few minutes, then warm a tiny amount of shea butter between your fingers and press it only onto dry patches at night. Oily and acne-prone skin usually does better without it, and sunscreen every morning still matters most.</p>
+        <p>Shea butter comes from the nuts of the shea tree, which grows in West Africa. In India it is sold as raw or refined shea butter, and it is also a common ingredient in body butters, lip balms and winter creams. It is thick and rich, much heavier than a face oil, so a little goes a long way. It suits north Indian winters, room heaters and very dry cheeks; it is usually too heavy for humid coastal weather.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Shea butter</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Plant butter, very rich, solid at room temperature in winter</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Forms a soft layer that helps very dry skin feel comfortable overnight</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Best weather</td><td>Cold, dry winter nights, heaters, hill trips</td><td>All year, with sunscreen every morning</td></tr>
+            <tr><td>Main downside</td><td>Heavy; can feel greasy and trigger bumps on oily or acne-prone skin</td><td>Works slowly</td></tr>
+            <tr><td>What it cannot do</td><td>Fade dark spots or tan</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a thin layer of the glutathione cream</b> on the face and neck.</li>
+          <li><b>Wait 3 to 5 minutes</b> so the cream settles.</li>
+          <li><b>Scrape a rice-grain-sized amount</b> of shea butter with a clean spatula or the back of a clean spoon, not your fingers, so the tub stays clean.</li>
+          <li><b>Warm it between your fingertips</b> until it melts into a thin film.</li>
+          <li><b>Press it onto dry patches only</b>: cheeks, around the nose, chin and jawline. Skip the forehead and nose if they get oily.</li>
+          <li><b>Use it at night.</b> In the morning, a light moisturiser and sunscreen are enough.</li>
+        </ol>
+        <p>Cream first, butter last: a rich butter seals in what is under it, so putting it first would stop the cream from sitting on your skin. For the daily cream steps, read <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Who it suits</h2>
+        <table>
+          <thead><tr><th>Skin or weather</th><th>Shea butter with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Very dry skin, north Indian winter, heaters</td><td>Yes, a tiny amount on dry patches at night; see <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Only on very cold, dry nights or after a hill trip</td></tr>
+            <tr><td>Combination skin</td><td>Only on dry cheeks; see <a href="/journal/glutathione-cream-for-combination-skin/">combination skin</a></td></tr>
+            <tr><td>Oily skin, humid weather, monsoon</td><td>Skip on the face; the cream is enough. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Acne-prone skin</td><td>Best skipped on the face; use it on lips, elbows and heels instead</td></tr>
+            <tr><td>Nut allergy</td><td>Shea comes from a nut; ask your doctor before using it</td></tr>
+          </tbody>
+        </table>
+        <h2>4. Raw vs refined shea butter</h2>
+        <ul>
+          <li><b>Raw (unrefined) shea</b> is ivory to yellowish, has a nutty, smoky smell and can feel slightly grainy. Some people like it; others find the smell strong on the face.</li>
+          <li><b>Refined shea</b> is white, smooth and nearly odourless. It is easier to use on the face.</li>
+          <li><b>Read the label:</b> for the face, pick a tub that says only shea butter (Butyrospermum parkii butter), without fragrance, colour or added essential oils.</li>
+          <li><b>Grainy texture</b> happens when shea melts in summer heat and sets again. It is usually still usable; warm it between your fingers before applying.</li>
+          <li><b>Store it with the lid closed</b>, away from sun and heat, and throw it away if it smells sharp or sour.</li>
+        </ul>
+        <h2>5. Shea butter for lips, hands and heels</h2>
+        <p>Even if your face is too oily for shea butter, it is very useful elsewhere in winter. A thin layer on lips before sleep, on dry knuckles after washing utensils, and on cracked heels under socks helps those areas feel softer. The glutathione cream is a face cream; keep it on the face and neck, and use shea butter for the rest. For dark knuckles, see <a href="/journal/glutathione-cream-for-dark-knuckles/">glutathione cream for dark knuckles</a>.</p>
+        <h2>6. Shea butter vs other rich options</h2>
+        <p>Shea butter is in the same family as ghee, petroleum jelly and castor oil: all heavy, sealing layers best kept for very dry skin and cold nights. If you already have one of those at home, you do not need to buy shea. Compare them in <a href="/journal/glutathione-cream-with-petroleum-jelly/">petroleum jelly with glutathione cream</a>, <a href="/journal/glutathione-cream-with-ghee/">ghee with glutathione cream</a> and <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a>.</p>
+        <h2>7. What not to do</h2>
+        <ul>
+          <li><b>Do not mix shea butter into the cream jar.</b> It changes the cream and can spoil it.</li>
+          <li><b>Do not apply it under the cream.</b> It would block the cream from reaching your skin.</li>
+          <li><b>Do not use a thick layer.</b> A rice-grain amount is enough for both cheeks.</li>
+          <li><b>Do not use it before makeup or in the day</b> on the face; read <a href="/journal/glutathione-cream-before-makeup/">glutathione cream before makeup</a>.</li>
+          <li><b>Do not expect it to fade spots or tan.</b> Daily sunscreen does far more; see <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ul>
+        <h2>8. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no shea butter, so on very dry winter nights you can press a tiny amount of shea butter on dry patches after it. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>9. When to see a dermatologist</h2>
+        <p>Stop the shea butter and see a dermatologist if you get many new bumps or whiteheads, if your skin turns red, itchy or swollen, or if dryness comes with cracking, scaling or patches that do not settle with a simple moisturiser. Patch test on the jawline for 2 to 3 nights first, and read <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a> if you react easily.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply shea butter after glutathione cream?</h3>
+        <p>Yes, on dry skin. Apply the cream first, wait a few minutes, then press a rice-grain amount of shea butter on dry patches at night.</p>
+        <h3>Is shea butter good for oily skin on the face?</h3>
+        <p>Usually not. It is rich and heavy and can feel greasy or cause bumps on oily skin. Use it on lips, hands and heels instead.</p>
+        <h3>Can I use shea butter in summer?</h3>
+        <p>Most people do not need it on the face in an Indian summer. Keep it for dry winter nights, AC rooms or very dry patches.</p>
+        <h3>Raw or refined shea butter: which is better for the face?</h3>
+        <p>Refined shea is smoother and almost odourless, so many people find it easier on the face. Raw shea is fine too if the smell does not bother you and you patch test first.</p>
+        <h3>Does shea butter with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
@@ -4870,5 +5020,7 @@ SHORT.update({
  'glutathione-cream-for-dark-nose': 'A glutathione cream can help a dark nose, its sides or the bridge look a little lighter and more even over 8 to 12 weeks with a thin daily layer, sunscreen on the nose every morning and no squeezing, scrubbing or rubbing. A spreading patch across the cheeks needs a dermatologist.',
  'glutathione-cream-with-argan-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of pure argan oil on dry areas at night, with sunscreen every morning. Use pure argan kernel oil, not an argan hair serum, and oily skin in humid weather can usually skip it.',
  'glutathione-cream-with-neem': 'Yes, as a separate step: use a neem face wash, cooled neem water or a 5 to 10 minute neem pack first, rinse or let it dry, then apply the glutathione cream, with sunscreen every morning. Never mix neem into the jar, and dry or sensitive skin can skip it.',
+ 'glutathione-cream-with-rosehip-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of pure rosehip oil on dry or rough areas at night, with sunscreen every morning. Store the oil away from heat and throw it away if it smells sharp. Oily skin in humid weather usually does not need it.',
+ 'glutathione-cream-with-shea-butter': 'Yes, on dry skin. Apply the glutathione cream first, wait a few minutes, then press a rice-grain amount of shea butter on dry patches at night, with sunscreen every morning. Oily and acne-prone skin usually does better without it; use shea on lips, hands and heels instead.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
