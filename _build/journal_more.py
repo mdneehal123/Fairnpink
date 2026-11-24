@@ -4945,8 +4945,143 @@ MORE_ARTICLES = [
         <p>Refined shea is smoother and almost odourless, so many people find it easier on the face. Raw shea is fine too if the smell does not bother you and you patch test first.</p>
         <h3>Does shea butter with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-and-moisturiser', 'Glutathione cream and moisturiser: which first, and do you need both?',
+     'Glutathione Cream and Moisturiser: Which First? | Fair N Pink',
+     'Glutathione cream and moisturiser: which goes first? Usually the glutathione cream first, then moisturiser if skin still feels dry. Who needs both, and when.',
+     'How to use', 'Which goes first, glutathione cream or moisturiser? The simple order, who needs a separate moisturiser in Indian weather, and how to use both without pilling or breakouts.', '''
+        <p>Apply the glutathione cream first and the moisturiser second: the cream goes on clean skin so it sits closest to it, and a plain moisturiser on top seals in water if your skin still feels dry. Many people with normal, oily or combination skin do not need a separate moisturiser at all, because a glutathione cream is already a moisturising cream.</p>
+        <p>The exception is a very thin, watery moisturiser such as a gel or lotion: thin layers usually go before thicker ones. The rule of thumb is thinnest to thickest, and actives close to the skin.</p>
+        <h2>1. Do you need a moisturiser with glutathione cream?</h2>
+        <table>
+          <thead><tr><th>Your skin and weather</th><th>Separate moisturiser?</th></tr></thead>
+          <tbody>
+            <tr><td>Oily skin, humid weather, monsoon</td><td>Usually no; the cream alone is enough. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a></td></tr>
+            <tr><td>Normal skin</td><td>Usually no; add a little on cold, dry nights</td></tr>
+            <tr><td>Combination skin</td><td>Only on dry cheeks, not on the T-zone. See <a href="/journal/glutathione-cream-for-combination-skin/">combination skin</a></td></tr>
+            <tr><td>Dry skin, north Indian winter, room heaters, AC</td><td>Yes, at night, on top of the cream. See <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Often helps; use a plain, fragrance-free one. See <a href="/journal/glutathione-cream-for-sensitive-skin/">sensitive skin</a></td></tr>
+            <tr><td>Using retinol or acids on other nights</td><td>Yes, on those nights the skin can feel tight</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order, step by step</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry, leaving it very slightly damp if your skin is dry.</li>
+          <li><b>Thin serum or gel first</b> (for example a hyaluronic acid serum or aloe gel), if you use one.</li>
+          <li><b>Glutathione cream next:</b> a pea-sized amount spread thinly over the face and neck.</li>
+          <li><b>Wait 2 to 3 minutes</b> so the cream settles.</li>
+          <li><b>Moisturiser on top</b>, only where skin feels dry: cheeks, around the nose, chin.</li>
+          <li><b>Morning only: sunscreen last,</b> after both have set. Sunscreen always goes on top of everything else.</li>
+        </ol>
+        <p>For the full daily routine, read <a href="/how-to-use/">how to use the cream</a>. If you also use a serum, see <a href="/journal/glutathione-cream-with-hyaluronic-acid-serum/">glutathione cream with hyaluronic acid serum</a> and <a href="/journal/glutathione-cream-with-aloe-vera-gel/">with aloe vera gel</a>.</p>
+        <h2>3. Why cream first, moisturiser second</h2>
+        <p>A glutathione cream carries the ingredients you are using for a brighter, more even look, so it makes sense to put it directly on clean skin. A moisturiser is mainly there to help skin hold on to water. Put on top, it adds comfort without blocking the cream. If you reverse the order and put a thick moisturiser underneath, the cream sits on a greasy layer and spreads unevenly.</p>
+        <p>That said, there is no harm if you sometimes use them the other way round. Order matters less than using both gently, every day, with sunscreen.</p>
+        <h2>4. Choosing a moisturiser to pair with it</h2>
+        <ul>
+          <li><b>Plain is better:</b> pick one without added fragrance, essential oils or more brightening actives. You already have those in the glutathione cream.</li>
+          <li><b>Match it to the weather:</b> a light gel or lotion in summer and monsoon, a richer cream in winter.</li>
+          <li><b>Helpful ingredients:</b> glycerin, hyaluronic acid and ceramides help skin hold moisture. Petroleum jelly or shea butter are heavy sealing layers best kept to very dry patches; see <a href="/journal/glutathione-cream-with-petroleum-jelly/">petroleum jelly with glutathione cream</a>.</li>
+          <li><b>Skip doubling up:</b> a second "brightening" or "glow" cream on top adds cost and irritation risk, not faster results.</li>
+        </ul>
+        <h2>5. Morning vs night</h2>
+        <table>
+          <thead><tr><th></th><th>Morning</th><th>Night</th></tr></thead>
+          <tbody>
+            <tr><td>Glutathione cream</td><td>Thin layer</td><td>Pea-sized layer</td></tr>
+            <tr><td>Moisturiser</td><td>Usually skip, or a light gel only if skin feels tight</td><td>On dry areas, if needed</td></tr>
+            <tr><td>Sunscreen</td><td>Always, last step</td><td>No</td></tr>
+          </tbody>
+        </table>
+        <p>In the morning, fewer layers mean less pilling under sunscreen and makeup. Read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a> and <a href="/journal/glutathione-cream-before-makeup/">before makeup</a> for those steps.</p>
+        <h2>6. If products pill or roll off</h2>
+        <p>Pilling (little rolls of product on the skin) usually means too much product, too many layers, or not waiting between steps. Use less of each, wait 2 to 3 minutes between layers, and press rather than rub the top layer. Silicone-heavy primers and some sunscreens pill more over rich creams, so keep mornings light.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin in a cream base, so for most normal, oily and combination skin it can be your only cream. On dry winter nights, add a plain moisturiser on top. With daily sunscreen, it can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if your skin stays very dry, cracked or scaly even with a moisturiser, if you get many new bumps or an itchy rash after adding a product, or if you have eczema or another skin condition. Patch test any new moisturiser first, and add one new product at a time so you know what suits you.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply moisturiser after glutathione cream?</h3>
+        <p>Yes. Apply the glutathione cream first, wait 2 to 3 minutes, then a plain moisturiser on dry areas.</p>
+        <h3>Can glutathione cream replace my moisturiser?</h3>
+        <p>For many people with normal, oily or combination skin, yes. Dry skin may still need a moisturiser on top at night, especially in winter.</p>
+        <h3>Should I use moisturiser in the morning with glutathione cream?</h3>
+        <p>Usually not needed. A thin layer of the cream and sunscreen is enough for most skin; add a light gel only if your skin feels tight.</p>
+        <h3>Can I mix moisturiser and glutathione cream in my palm?</h3>
+        <p>It is better not to. Mixing dilutes the cream and makes it hard to know how much you are using. Layer them instead.</p>
+        <h3>Does using a moisturiser with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. With daily sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-snail-mucin', 'Can you use snail mucin with glutathione cream?',
+     'Snail Mucin with Glutathione Cream: Order and Tips | Fair N Pink',
+     'Can you use snail mucin with glutathione cream? Yes: snail mucin essence first, then the cream. The right order, who it suits in Indian weather and what to avoid.',
+     'How to use', 'How to use a snail mucin essence or serum with a glutathione cream: the right order, who it suits in Indian weather, what it can and cannot do, and how to buy it.', '''
+        <p>Yes, you can use snail mucin with glutathione cream: apply a few drops of snail mucin essence on clean skin first, let it sink in for a minute, then apply the glutathione cream on top. Snail mucin is a light, hydrating layer, and the two do not clash.</p>
+        <p>Snail mucin (on labels, "snail secretion filtrate") became popular in India through Korean skincare. It is a watery, slightly stretchy essence that helps skin feel hydrated and smooth. It is not a brightening ingredient, so think of it as a comfort step under your cream, not a replacement for it or for sunscreen.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Snail mucin essence</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Watery, slightly sticky essence or serum</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps skin feel hydrated, soft and smooth</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Texture</td><td>Very light; suits humid weather</td><td>Cream</td></tr>
+            <tr><td>What it cannot do</td><td>Fade dark spots or tan by itself</td><td>Change your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Press 2 to 3 drops of snail mucin</b> onto the face and neck. Pat, do not rub.</li>
+          <li><b>Wait about a minute</b> until it feels only slightly tacky.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> in a thin layer.</li>
+          <li><b>Morning: sunscreen last,</b> after the cream has set. At night, stop after the cream.</li>
+        </ol>
+        <p>Thinnest to thickest: the watery essence goes first, the cream second. For the daily cream steps, see <a href="/how-to-use/">how to use the cream</a>. If you use a hyaluronic acid serum instead, the order is the same; read <a href="/journal/glutathione-cream-with-hyaluronic-acid-serum/">glutathione cream with hyaluronic acid serum</a>.</p>
+        <h2>3. Who it suits</h2>
+        <table>
+          <thead><tr><th>Skin or weather</th><th>Snail mucin with the cream?</th></tr></thead>
+          <tbody>
+            <tr><td>Oily or combination skin, humid weather</td><td>Optional; a light essence can replace a heavier moisturiser. See <a href="/journal/glutathione-cream-for-oily-skin/">oily skin</a></td></tr>
+            <tr><td>Dry skin, winter, AC rooms</td><td>Yes, under the cream, and add a moisturiser on top if still dry. See <a href="/journal/glutathione-cream-for-dry-skin/">dry skin</a></td></tr>
+            <tr><td>Acne-prone skin</td><td>Many people tolerate it; patch test for 3 nights. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">acne-prone skin</a></td></tr>
+            <tr><td>Sensitive skin</td><td>Patch test first; stop if it itches or stings</td></tr>
+            <tr><td>Shellfish or snail allergy, or vegetarian/vegan preference</td><td>Skip it; use a hyaluronic acid serum or aloe gel instead</td></tr>
+          </tbody>
+        </table>
+        <h2>4. What snail mucin can and cannot do</h2>
+        <p>Snail mucin contains natural sugars, proteins and other moisture-holding compounds, which is why it feels hydrating. It is often marketed with big claims, such as healing scars or acne marks. See those as marketing: on the face, snail mucin is best described as a hydrating, soothing-feeling step. For dark spots and tan, daily sunscreen and steady use of a cream with ingredients such as niacinamide and alpha arbutin matter far more. Read <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on face</a> and <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a>.</p>
+        <h2>5. How to buy snail mucin in India</h2>
+        <ul>
+          <li><b>Read the ingredient list:</b> "snail secretion filtrate" should be listed near the top.</li>
+          <li><b>Skip fragrance-heavy versions</b> if your skin is sensitive.</li>
+          <li><b>Avoid "whitening" snail products.</b> Labels that promise to whiten or change skin colour are a red flag; read <a href="/journal/best-glutathione-cream-in-india/">how to judge a glutathione cream</a> for the same checks.</li>
+          <li><b>Buy from a seller you can contact,</b> with a sealed bottle and a clear use-by date.</li>
+          <li><b>Store it capped, away from heat and sun.</b></li>
+        </ul>
+        <h2>6. What not to do</h2>
+        <ul>
+          <li><b>Do not mix snail mucin into the cream jar.</b> It can spoil the cream.</li>
+          <li><b>Do not stack many layers.</b> Essence, cream and sunscreen in the morning is plenty; extra layers pill under makeup.</li>
+          <li><b>Do not use it on broken skin, cuts or right after waxing or threading;</b> see <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after threading and waxing</a>.</li>
+          <li><b>Do not skip sunscreen</b> because your skin feels plumper; see <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no snail mucin, so you can use a few drops of snail essence before it if you like the feel. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop the snail mucin and see a dermatologist if you get itching, swelling, hives or a rash, especially if you have a shellfish allergy, or if many new bumps appear. Patch test on the jawline for 2 to 3 nights first, and add one new product at a time.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply snail mucin before or after glutathione cream?</h3>
+        <p>Before. Snail mucin is a thin, watery layer, so it goes on clean skin first, then the cream on top.</p>
+        <h3>Can I use snail mucin and glutathione cream every day?</h3>
+        <p>Yes, if your skin is comfortable. Use the essence once or twice a day, always with sunscreen in the morning.</p>
+        <h3>Is snail mucin good for oily skin in summer?</h3>
+        <p>Many people with oily skin like it because it is light. You can use it with a thin layer of cream instead of a separate moisturiser.</p>
+        <h3>Can snail mucin remove dark spots?</h3>
+        <p>No. It helps skin feel hydrated. Dark spots look lighter slowly with sunscreen and steady use of a suitable cream.</p>
+        <h3>Does snail mucin with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
+ 'glutathione-cream-and-moisturiser': 'Apply the glutathione cream first and a plain moisturiser on top, only where skin still feels dry. Oily, normal and combination skin often need no separate moisturiser; dry skin may need one at night in winter. Sunscreen always goes last in the morning.',
+ 'glutathione-cream-with-snail-mucin': 'Yes. Pat 2 to 3 drops of snail mucin essence onto clean skin first, wait about a minute, then apply the glutathione cream, with sunscreen every morning. Snail mucin is a hydrating step, not a brightening one; skip it if you have a shellfish or snail allergy.',
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
  'glutathione-cream-for-dark-upper-lip': 'A glutathione cream can help a dark upper lip area look a little lighter over 8 to 12 weeks: use a rice-grain amount above the lip, not on the lips, skip it after threading, waxing or bleach, and wear sunscreen every morning. A broad patch may be melasma; see a dermatologist.',
  'glutathione-cream-with-ubtan': 'Yes. Use ubtan as a gentle 10 to 15 minute wash-off pack on clean skin, rinse it off softly, then apply the glutathione cream, with sunscreen every morning. Keep ubtan to once or twice a week and skip the cream that night if your skin feels warm or red.',
