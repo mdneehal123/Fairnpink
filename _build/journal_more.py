@@ -5078,8 +5078,138 @@ MORE_ARTICLES = [
         <p>No. It helps skin feel hydrated. Dark spots look lighter slowly with sunscreen and steady use of a suitable cream.</p>
         <h3>Does snail mucin with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. Used with sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-tranexamic-acid', 'Can you use tranexamic acid with glutathione cream?',
+     'Tranexamic Acid with Glutathione Cream | Fair N Pink',
+     'Can you use tranexamic acid with glutathione cream? Yes: serum first, then the cream, with daily sunscreen. The order, who it suits and when to see a doctor.',
+     'How to use', 'How to use a tranexamic acid serum with a glutathione cream: the right order, how often, who should skip it, and why melasma needs a dermatologist, not just a serum.', '''
+        <p>Yes, you can use a tranexamic acid serum with glutathione cream: apply a few drops of the serum on clean, dry skin first, wait a minute or two, then apply a thin layer of the glutathione cream, and finish with sunscreen in the morning. The two are commonly used in the same routine for dark spots and uneven-looking tone, and they are not known to clash.</p>
+        <p>Tranexamic acid (often shortened to TXA on labels) has become a popular ingredient in Indian serums for dark spots and tan. On the skin, it is used as a cosmetic ingredient to help spots and patches look lighter over time. It is not a quick fix, and it does not change your natural skin colour.</p>
+        <h2>1. What each one does</h2>
+        <table>
+          <thead><tr><th></th><th>Tranexamic acid serum</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>Type</td><td>Watery or gel serum</td><td>Leave-on face cream</td></tr>
+            <tr><td>Cosmetic job</td><td>Helps dark spots and patchy areas look lighter over weeks</td><td>Helps skin look brighter and more even over weeks</td></tr>
+            <tr><td>Feel</td><td>Light, usually non-greasy</td><td>Cream</td></tr>
+            <tr><td>What it cannot do</td><td>Work without sunscreen, or change skin colour</td><td>Change your natural skin colour or work overnight</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order</h2>
+        <ol>
+          <li><b>Wash your face</b> with a mild face wash and pat it fully dry.</li>
+          <li><b>Apply 2 to 3 drops of tranexamic acid serum</b> on the face, or only on the darker areas if the label suggests spot use.</li>
+          <li><b>Wait 1 to 2 minutes</b> until the serum has sunk in.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> in a thin layer over the face.</li>
+          <li><b>Morning: sunscreen last,</b> after the cream has set. At night, stop after the cream.</li>
+        </ol>
+        <p>The rule is thinnest to thickest: watery serum first, cream next, sunscreen last. For the daily steps with the cream, see <a href="/how-to-use/">how to use the cream</a>, and for sunscreen tips read <a href="/journal/glutathione-cream-with-sunscreen/">glutathione cream with sunscreen</a>.</p>
+        <h2>3. Morning, night or both?</h2>
+        <p>Many tranexamic acid serums are gentle enough for morning and night, but check the label. A simple plan that suits most people:</p>
+        <table>
+          <thead><tr><th>Time</th><th>What to use</th></tr></thead>
+          <tbody>
+            <tr><td>Morning</td><td>Face wash, tranexamic acid serum (if your label allows daytime use), thin layer of cream, sunscreen</td></tr>
+            <tr><td>Night</td><td>Face wash, tranexamic acid serum, glutathione cream</td></tr>
+            <tr><td>If your skin feels dry or tingly</td><td>Use the serum once a day only, at night</td></tr>
+          </tbody>
+        </table>
+        <p>Start with the serum once a day for the first week and see how your skin feels before going to twice a day.</p>
+        <h2>4. Who it suits, and who should skip it</h2>
+        <ul>
+          <li><b>Oily or combination skin:</b> a watery serum plus a thin layer of cream is usually enough; skip extra moisturisers in humid weather. See <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</li>
+          <li><b>Dry skin:</b> add a plain moisturiser on top at night if your face feels tight; see <a href="/journal/glutathione-cream-and-moisturiser/">glutathione cream and moisturiser</a>.</li>
+          <li><b>Sensitive skin:</b> patch test the serum on the jawline for 3 nights before using it on the whole face. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Pregnant or breastfeeding:</b> ask your doctor before starting any new active serum or cream.</li>
+          <li><b>Anyone taking tranexamic acid tablets:</b> tablets are a prescription medicine and a separate matter from a cosmetic serum. Do not start, stop or change any tablets without your doctor.</li>
+        </ul>
+        <h2>5. Do not stack too many brighteners</h2>
+        <p>Tranexamic acid, glutathione, niacinamide, alpha arbutin, vitamin C and kojic acid are all popular for uneven-looking tone. More actives do not mean faster results; they mainly raise the chance of dryness and irritation. A serum plus a cream is plenty. If you also use a vitamin C serum, use it in the morning and tranexamic acid at night, rather than layering three products. Read <a href="/journal/alpha-arbutin-and-vitamin-c/">alpha arbutin and vitamin C</a> and <a href="/journal/glutathione-and-niacinamide-together/">glutathione and niacinamide together</a> for how the other pairs work.</p>
+        <h2>6. Realistic expectations</h2>
+        <p>Skin renews slowly, so spots and tan usually take about 8 to 12 weeks of steady use, with sunscreen every single morning, before they look lighter. Results vary from person to person, and dark spots can come back with new sun. Read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a> and <a href="/journal/how-to-reduce-dark-spots-on-face/">how to reduce dark spots on the face</a> for a full plan.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It has no tranexamic acid, so you can use a tranexamic acid serum before it if you want an extra step. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Brown or grey-brown patches on both cheeks, the forehead or the upper lip may be melasma, which often needs a dermatologist's plan rather than a serum alone. Also see a dermatologist if a spot grows, changes colour or bleeds, or if the serum causes burning, rash or swelling. Patch test any new product first.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply tranexamic acid before or after glutathione cream?</h3>
+        <p>Before. The serum is thinner, so it goes on clean skin first, then the cream on top.</p>
+        <h3>Can I use tranexamic acid and glutathione cream every day?</h3>
+        <p>Many people can, once their skin is used to both. Start the serum once a day and always wear sunscreen in the morning.</p>
+        <h3>Can I use tranexamic acid with niacinamide?</h3>
+        <p>Yes, they are commonly used together. Fair N Pink already contains niacinamide, so you do not need a separate niacinamide serum.</p>
+        <h3>Will tranexamic acid remove tan in a week?</h3>
+        <p>No. Tan and dark spots fade slowly over weeks, and only with daily sunscreen and shade.</p>
+        <h3>Does tranexamic acid with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. With sunscreen, they can help spots and tan look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-beetroot', 'Can you use beetroot with glutathione cream?',
+     'Beetroot with Glutathione Cream: How to Use | Fair N Pink',
+     'Can you use beetroot with glutathione cream? Yes, as a separate rinse-off step: juice or pack first, then the cream. How to do it and what it cannot do.',
+     'How to use', 'How to use a beetroot (chukandar) juice or face pack with a glutathione cream: the right order, how often, staining and patch tests, and what beetroot can and cannot do for your skin.', '''
+        <p>Yes, you can use beetroot with glutathione cream, but only as a separate step: apply beetroot juice or a beetroot pack on clean skin, rinse it off after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix beetroot into the cream jar.</p>
+        <p>Beetroot (chukandar) is a popular home remedy in India for a "rosy glow". The pink-red colour you see after a pack mostly comes from the beet's own pigment staining the top layer of skin, and it washes off within a day. It is a fun, cheap pack, not a brightening treatment, and it does not change your natural skin colour.</p>
+        <h2>1. What beetroot can and cannot do</h2>
+        <table>
+          <thead><tr><th>Claim you may read</th><th>What is realistic</th></tr></thead>
+          <tbody>
+            <tr><td>Gives pink cheeks</td><td>A temporary tint from the beet colour, which fades with washing</td></tr>
+            <tr><td>Hydrates skin</td><td>A juice pack may feel refreshing for a while; a moisturiser does this better</td></tr>
+            <tr><td>Removes tan or dark spots</td><td>No. Tan and spots fade slowly with sunscreen and steady use of a suitable cream</td></tr>
+            <tr><td>Makes skin fair</td><td>No. Nothing in beetroot changes your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. How to use beetroot with the cream</h2>
+        <ol>
+          <li><b>Patch test first:</b> dab a little beetroot juice on your jawline for 10 minutes, rinse, and wait a day.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply fresh beetroot juice</b> with cotton, or a simple pack of grated or blended beetroot mixed with a spoon of curd or aloe gel, avoiding the eyes and lips.</li>
+          <li><b>Leave it on 5 to 10 minutes</b> only. Longer means more staining, not better results.</li>
+          <li><b>Rinse with plain water</b> and pat dry gently.</li>
+          <li><b>Wait a few minutes,</b> then apply a pea-sized amount of glutathione cream.</li>
+          <li><b>Next morning:</b> sunscreen as usual.</li>
+        </ol>
+        <p>Do this once or twice a week at most. For the cream steps on other days, see <a href="/how-to-use/">how to use the cream</a>. If you like kitchen packs, our guides on <a href="/journal/glutathione-cream-with-curd/">curd</a> and <a href="/journal/glutathione-cream-with-multani-mitti/">multani mitti</a> follow the same rules.</p>
+        <h2>3. Staining: what to expect</h2>
+        <ul>
+          <li>Beetroot can leave a pink tint on the skin, nails, towels and pillow covers. Use an old towel.</li>
+          <li>The tint on skin usually fades after one or two face washes.</li>
+          <li>If you want to avoid a tint before work or college, do the pack at night.</li>
+          <li>Do not scrub hard to remove the colour; it will fade on its own, and scrubbing can irritate skin.</li>
+        </ul>
+        <h2>4. Who should skip it</h2>
+        <ul>
+          <li><b>Sensitive or reactive skin:</b> any food pack can sting or redden. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Freshly waxed, threaded or bleached skin:</b> wait a day or two; read <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading and waxing</a>.</li>
+          <li><b>Active pimples, cuts or rashes:</b> keep packs away from these areas.</li>
+          <li><b>Very oily or acne-prone skin in humid weather:</b> a juice dab is lighter than a thick pack; skip curd or oils in the mix.</li>
+        </ul>
+        <h2>5. Common mistakes</h2>
+        <ul>
+          <li><b>Mixing beetroot into the cream jar.</b> Fresh juice can spoil the cream and grow germs. Always keep them separate.</li>
+          <li><b>Adding lemon or baking soda</b> to "boost" the pack. These can irritate skin; see <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Using stored juice.</b> Make it fresh each time and throw away leftovers.</li>
+          <li><b>Skipping sunscreen</b> because the face looks rosy. Sun is the main reason tan and spots return.</li>
+        </ul>
+        <h2>6. Eating beetroot vs putting it on your face</h2>
+        <p>Beetroot is a healthy vegetable to eat as part of a balanced diet, and a good diet, sleep and water support how your skin looks overall. But eating beetroot will not lighten spots or change skin colour either. For dull-looking skin, a steady routine matters more than any single food; see <a href="/journal/night-cream-for-dull-skin/">night cream for dull skin</a>.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It contains no beetroot, so a beetroot pack is an optional extra, not a needed step. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Stop and see a dermatologist if a pack causes burning, itching, swelling or a rash, or if you have patches of darkness that keep spreading. Patch test every new home remedy first.</p>
+        <h2>FAQ</h2>
+        <h3>Can I mix beetroot juice with glutathione cream?</h3>
+        <p>No. Use beetroot as a rinse-off step first, then apply the cream on clean, dry skin.</p>
+        <h3>How often can I use a beetroot face pack?</h3>
+        <p>Once or twice a week is enough. Daily packs are not needed and can irritate sensitive skin.</p>
+        <h3>How long does the pink tint from beetroot last?</h3>
+        <p>Usually only until your next one or two face washes. It is a temporary stain, not a change in your skin.</p>
+        <h3>Can I use beetroot on my lips?</h3>
+        <p>A little beetroot juice can tint lips for a while, but keep the glutathione cream off the lips.</p>
+        <h3>Does beetroot with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. With sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
+ 'glutathione-cream-with-tranexamic-acid': 'Yes. Apply 2 to 3 drops of tranexamic acid serum on clean, dry skin first, wait a minute or two, then a thin layer of glutathione cream, with sunscreen every morning. Start the serum once a day; patches on both cheeks may be melasma and need a dermatologist.',
+ 'glutathione-cream-with-beetroot': 'Yes, as a separate step: dab fresh beetroot juice or a simple pack on clean skin, rinse after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix beetroot into the jar; its pink tint is temporary.',
  'glutathione-cream-and-moisturiser': 'Apply the glutathione cream first and a plain moisturiser on top, only where skin still feels dry. Oily, normal and combination skin often need no separate moisturiser; dry skin may need one at night in winter. Sunscreen always goes last in the morning.',
  'glutathione-cream-with-snail-mucin': 'Yes. Pat 2 to 3 drops of snail mucin essence onto clean skin first, wait about a minute, then apply the glutathione cream, with sunscreen every morning. Snail mucin is a hydrating step, not a brightening one; skip it if you have a shellfish or snail allergy.',
  'glutathione-cream-for-freckles': 'A glutathione cream may help freckles look a little lighter over 8 to 12 weeks, but only with sunscreen every morning, because freckles darken with any sun. It will not remove them, and they usually return with new sun. Spots that grow, change or bleed need a dermatologist.',
