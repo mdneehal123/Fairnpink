@@ -5012,7 +5012,7 @@ MORE_ARTICLES = [
         <p>No. Neither changes your natural skin colour. With daily sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
     ('glutathione-cream-with-snail-mucin', 'Can you use snail mucin with glutathione cream?',
      'Snail Mucin with Glutathione Cream: Order and Tips | Fair N Pink',
-     'Can you use snail mucin with glutathione cream? Yes: snail mucin essence first, then the cream. The right order, who it suits in Indian weather and what to avoid.',
+     'Can you use snail mucin with glutathione cream? Yes: snail mucin essence first, then the cream. The right order, who it suits in Indian weather, what to avoid.',
      'How to use', 'How to use a snail mucin essence or serum with a glutathione cream: the right order, who it suits in Indian weather, what it can and cannot do, and how to buy it.', '''
         <p>Yes, you can use snail mucin with glutathione cream: apply a few drops of snail mucin essence on clean skin first, let it sink in for a minute, then apply the glutathione cream on top. Snail mucin is a light, hydrating layer, and the two do not clash.</p>
         <p>Snail mucin (on labels, "snail secretion filtrate") became popular in India through Korean skincare. It is a watery, slightly stretchy essence that helps skin feel hydrated and smooth. It is not a brightening ingredient, so think of it as a comfort step under your cream, not a replacement for it or for sunscreen.</p>
