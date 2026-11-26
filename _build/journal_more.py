@@ -5206,8 +5206,142 @@ MORE_ARTICLES = [
         <p>A little beetroot juice can tint lips for a while, but keep the glutathione cream off the lips.</p>
         <h3>Does beetroot with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. With sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-mulethi', 'Can you use mulethi (licorice) with glutathione cream?',
+     'Mulethi with Glutathione Cream: How to Use | Fair N Pink',
+     'Can you use mulethi (licorice) with glutathione cream? Yes, as a wash-off pack first, then the cream. The right order, how often and what mulethi cannot do.',
+     'How to use', 'How to use a mulethi (licorice root) powder pack with a glutathione cream: the right order, how often, kitchen powder vs cosmetic licorice extract, and what mulethi can and cannot do.', '''
+        <p>Yes, you can use mulethi with glutathione cream, but as a separate step: apply a simple mulethi powder pack on clean skin, rinse it off after 10 to 15 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never stir mulethi powder into the cream jar.</p>
+        <p>Mulethi is the Hindi name for licorice root, a common Ayurvedic ingredient sold as a fine brown powder. Licorice root extract is also used in many cosmetic creams for an even-looking tone. But the powder from a kitchen or Ayurvedic store is not the same as a purified cosmetic extract, so a home pack is a gentle extra, not a brightening treatment, and it does not change your natural skin colour.</p>
+        <h2>1. What mulethi can and cannot do</h2>
+        <table>
+          <thead><tr><th>Claim you may read</th><th>What is realistic</th></tr></thead>
+          <tbody>
+            <tr><td>Gives a glow</td><td>A soothing pack can leave skin feeling fresh and looking a little smoother for a while</td></tr>
+            <tr><td>Calms redness</td><td>Many people find it gentle, but it can still irritate sensitive skin; patch test first</td></tr>
+            <tr><td>Removes tan or dark spots</td><td>No. Tan and spots fade slowly over weeks with sunscreen and steady use of a suitable cream</td></tr>
+            <tr><td>Makes skin fair</td><td>No. Nothing in mulethi changes your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. How to use mulethi with the cream</h2>
+        <ol>
+          <li><b>Patch test first:</b> apply a little of the pack on your jawline for 10 minutes, rinse, and wait a day.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Mix the pack:</b> about half a teaspoon of mulethi powder with enough rose water, plain curd or aloe gel to make a smooth paste.</li>
+          <li><b>Apply a thin layer</b>, avoiding the eyes and lips.</li>
+          <li><b>Rinse off after 10 to 15 minutes</b>, before it dries hard and starts pulling at the skin. Do not scrub it off.</li>
+          <li><b>Pat dry, wait a few minutes,</b> then apply a pea-sized amount of glutathione cream.</li>
+          <li><b>Next morning:</b> sunscreen as usual.</li>
+        </ol>
+        <p>Once or twice a week is plenty. For the cream steps on other days, see <a href="/how-to-use/">how to use the cream</a>. Our guides on <a href="/journal/rose-water-with-glutathione-cream/">rose water</a> and <a href="/journal/glutathione-cream-with-curd/">curd</a> explain those mixers on their own.</p>
+        <h2>3. Kitchen powder vs cosmetic licorice extract</h2>
+        <ul>
+          <li><b>Mulethi powder</b> is the whole dried root, ground. How much of the useful parts it contains varies from pack to pack, and it can be gritty.</li>
+          <li><b>Licorice root extract in a cream</b> is purified and made for skin, so it is more consistent and easier to use every day.</li>
+          <li>If you like the idea of licorice for an even-looking tone, a cream or serum that lists licorice extract is more reliable than a home pack.</li>
+          <li>Buy powder in a sealed pack with a date, and keep it dry. Throw it away if it smells musty or gets damp.</li>
+        </ul>
+        <h2>4. Who should skip it</h2>
+        <ul>
+          <li><b>Sensitive or reactive skin:</b> any herbal pack can sting. See <a href="/journal/glutathione-cream-for-sensitive-skin/">glutathione cream for sensitive skin</a>.</li>
+          <li><b>Freshly waxed, threaded or bleached skin:</b> wait a day or two; read <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading and waxing</a>.</li>
+          <li><b>Active pimples, cuts or rashes:</b> keep the pack away from these areas.</li>
+          <li><b>Anyone allergic to licorice:</b> skip it entirely.</li>
+        </ul>
+        <h2>5. Common mistakes</h2>
+        <ul>
+          <li><b>Mixing mulethi into the cream jar.</b> Powder and water from the paste can spoil the cream. Keep them separate.</li>
+          <li><b>Adding lemon or baking soda</b> to make it "stronger". These can irritate skin; see <a href="/journal/lemon-with-glutathione-cream/">lemon with glutathione cream</a>.</li>
+          <li><b>Leaving the pack on until it cracks.</b> A dry, tight pack can leave skin rough. Rinse while it is still slightly damp.</li>
+          <li><b>Layering many brightening packs.</b> Mulethi, haldi, potato juice and besan on the same night can dry skin out. Pick one pack per week; see <a href="/journal/glutathione-cream-with-turmeric/">turmeric with glutathione cream</a>.</li>
+          <li><b>Skipping sunscreen.</b> Sun is the main reason tan and spots come back.</li>
+        </ul>
+        <h2>6. Mulethi tea and supplements are a different matter</h2>
+        <p>Mulethi is also taken as tea, churna or tablets for other reasons. Eating or drinking it does not lighten spots, and licorice taken by mouth is not suitable for everyone, for example people with high blood pressure or during pregnancy. Ask your doctor before taking mulethi by mouth; this guide is only about a wash-off face pack.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It contains no mulethi, so a mulethi pack is an optional extra, not a needed step. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a> and <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long it takes to work</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>Brown patches on both cheeks, the forehead or upper lip may be melasma and need a dermatologist's plan. Also stop and see a dermatologist if a pack causes burning, itching, swelling or a rash.</p>
+        <h2>FAQ</h2>
+        <h3>Can I mix mulethi powder with glutathione cream?</h3>
+        <p>No. Use mulethi as a wash-off pack first, then apply the cream on clean, dry skin.</p>
+        <h3>How often can I use a mulethi face pack?</h3>
+        <p>Once or twice a week is enough. Daily packs are not needed and can dry out sensitive skin.</p>
+        <h3>Can I leave mulethi on my face overnight?</h3>
+        <p>No. Rinse it off after 10 to 15 minutes, then use the cream as your overnight step.</p>
+        <h3>Is mulethi good for dark spots?</h3>
+        <p>A home pack will not remove dark spots. Spots fade slowly over weeks with sunscreen and a steady routine.</p>
+        <h3>Does mulethi with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. With sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-sesame-oil', 'Can you use sesame oil (til ka tel) with glutathione cream?',
+     'Sesame Oil with Glutathione Cream: How to Use | Fair N Pink',
+     'Can you use sesame oil (til ka tel) with glutathione cream? Yes, on dry skin: cream first, a drop or two of oil on top at night. Who should skip it and why.',
+     'How to use', 'How to use sesame oil (til ka tel) with a glutathione cream: cream first and oil last, winter massage and abhyanga, cold-pressed vs cooking oil, and who should skip it.', '''
+        <p>Yes, you can use sesame oil with glutathione cream if your skin is dry: apply the cream first on clean skin, wait a few minutes, then press one or two drops of plain sesame oil over dry areas at night, with sunscreen every morning. Oily and acne-prone faces usually do better without it, and the oil should never be mixed into the jar.</p>
+        <p>Sesame oil, or til ka tel, is used in many Indian homes for winter body massage and in Ayurvedic abhyanga. It is a rich oil that helps seal moisture into dry skin. It does not brighten skin or change your natural skin colour; any glow after a massage is from moisture and warmth, and it fades.</p>
+        <h2>1. What sesame oil can and cannot do</h2>
+        <table>
+          <thead><tr><th>Claim you may read</th><th>What is realistic</th></tr></thead>
+          <tbody>
+            <tr><td>Softens dry skin</td><td>Yes, it helps seal in moisture on dry winter skin, especially on the body</td></tr>
+            <tr><td>Gives a glow</td><td>Skin can look smoother and dewy after oiling, for a while</td></tr>
+            <tr><td>Removes tan or dark spots</td><td>No. Tan and spots fade slowly with sunscreen and steady use of a suitable cream</td></tr>
+            <tr><td>Makes skin fair</td><td>No. No oil changes your natural skin colour</td></tr>
+          </tbody>
+        </table>
+        <h2>2. How to use sesame oil with the cream on your face</h2>
+        <ol>
+          <li><b>Patch test first:</b> a drop of oil on your jawline for 2 to 3 nights.</li>
+          <li><b>Wash your face</b> with a mild face wash and pat it dry.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> in a thin layer.</li>
+          <li><b>Wait 5 to 10 minutes</b> for it to settle.</li>
+          <li><b>Warm one or two drops of sesame oil</b> between your fingertips and press them over dry areas such as the cheeks and jawline. Skip an oily forehead and nose.</li>
+          <li><b>Next morning:</b> face wash, then sunscreen. Keep oil off your face in the day; it can make sunscreen slide and feel greasy.</li>
+        </ol>
+        <p>Oil goes last because it seals in what is underneath. For the cream steps, see <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Winter body massage and abhyanga</h2>
+        <p>Many people use til ka tel for a warm oil massage before a bath in winter. That works well alongside the cream:</p>
+        <ul>
+          <li><b>Body:</b> massage warm (not hot) oil into arms, legs, elbows and knees before your bath, then wash with a mild soap and lukewarm water.</li>
+          <li><b>Face:</b> if you oil your face too, wash it off in the bath, pat dry and apply the cream afterwards on clean skin.</li>
+          <li><b>Do not heat the oil too much.</b> Test it on your wrist first; hot oil can burn.</li>
+          <li><b>Hair oiling:</b> keep heavy hair oil away from the forehead overnight, as it can lead to bumps along the hairline.</li>
+        </ul>
+        <p>For dry winter routines, read <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a> and <a href="/journal/glutathione-cream-for-dry-skin/">glutathione cream for dry skin</a>.</p>
+        <h2>4. Cold-pressed oil vs cooking oil</h2>
+        <ul>
+          <li><b>Choose plain, cold-pressed sesame oil</b> (often sold as kachi ghani or wood-pressed) with no added fragrance.</li>
+          <li><b>Do not use toasted sesame oil</b>, the dark brown, strong-smelling kind used for cooking; it is not meant for skin.</li>
+          <li><b>Do not reuse frying oil.</b> Old, heated oil can irritate skin.</li>
+          <li><b>Smell it before use.</b> A sour or sharp smell means it has gone rancid. Keep the bottle closed and away from heat.</li>
+        </ul>
+        <h2>5. Who should skip it</h2>
+        <ul>
+          <li><b>Oily or acne-prone skin:</b> sesame is a heavy oil for the face, especially in humid weather. A thin layer of cream is enough; see <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a> and <a href="/journal/glutathione-cream-for-acne-prone-skin/">acne-prone skin</a>.</li>
+          <li><b>Sesame allergy:</b> sesame is a common food allergen. If you react to sesame in food, do not put it on your skin.</li>
+          <li><b>Freshly waxed, threaded or bleached skin:</b> wait a day or two; see <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading and waxing</a>.</li>
+          <li><b>Summer and monsoon:</b> most faces do not need any oil on top in hot, sticky months.</li>
+        </ul>
+        <h2>6. Sesame vs other oils</h2>
+        <p>Sesame is richer than jojoba and lighter-smelling than mustard oil. You only need one oil, not several. Compare <a href="/journal/glutathione-cream-with-coconut-oil/">coconut oil</a>, <a href="/journal/glutathione-cream-with-almond-oil/">almond oil</a> and <a href="/journal/glutathione-cream-with-mustard-oil/">mustard oil</a> with glutathione cream if you are choosing one for winter.</p>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It contains no sesame oil, so the oil is an optional extra for dry skin, not a needed step. With daily sunscreen, the cream can help skin look brighter and more even over weeks. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if oil leads to new bumps or pimples that do not settle, if you get itching, rash or swelling, or if you have patches of darkness that keep spreading. Patch test any new oil first.</p>
+        <h2>FAQ</h2>
+        <h3>Should I apply sesame oil before or after glutathione cream?</h3>
+        <p>After. Apply the cream on clean, dry skin first, then a drop or two of oil on top at night.</p>
+        <h3>Can I use sesame oil on my face every night?</h3>
+        <p>Only very dry skin usually needs it, and mostly in winter. Many people need it just a few nights a week, on the cheeks.</p>
+        <h3>Can I mix til ka tel into the cream jar?</h3>
+        <p>No. It changes the texture and can spoil the cream sooner. Layer it on top instead.</p>
+        <h3>Is sesame oil good for oily skin?</h3>
+        <p>Usually not on the face. It is a rich oil; oily skin does better with a thin layer of cream alone.</p>
+        <h3>Does sesame oil with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. With sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
+ 'glutathione-cream-with-mulethi': 'Yes, as a separate step: apply a simple mulethi powder pack on clean skin, rinse after 10 to 15 minutes, pat dry, then the glutathione cream, with sunscreen every morning. Never mix powder into the jar; a home pack will not remove spots or change skin colour.',
+ 'glutathione-cream-with-sesame-oil': 'Yes, on dry skin: apply the glutathione cream first, wait a few minutes, then press one or two drops of plain cold-pressed sesame oil on dry areas at night, with sunscreen every morning. Oily and acne-prone faces usually skip it; avoid it if you are allergic to sesame.',
  'glutathione-cream-with-tranexamic-acid': 'Yes. Apply 2 to 3 drops of tranexamic acid serum on clean, dry skin first, wait a minute or two, then a thin layer of glutathione cream, with sunscreen every morning. Start the serum once a day; patches on both cheeks may be melasma and need a dermatologist.',
  'glutathione-cream-with-beetroot': 'Yes, as a separate step: dab fresh beetroot juice or a simple pack on clean skin, rinse after 5 to 10 minutes, pat dry, then apply the glutathione cream, with sunscreen every morning. Never mix beetroot into the jar; its pink tint is temporary.',
  'glutathione-cream-and-moisturiser': 'Apply the glutathione cream first and a plain moisturiser on top, only where skin still feels dry. Oily, normal and combination skin often need no separate moisturiser; dry skin may need one at night in winter. Sunscreen always goes last in the morning.',
