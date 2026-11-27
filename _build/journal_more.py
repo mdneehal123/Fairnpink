@@ -5338,6 +5338,141 @@ MORE_ARTICLES = [
         <p>Usually not on the face. It is a rich oil; oily skin does better with a thin layer of cream alone.</p>
         <h3>Does sesame oil with glutathione cream make skin fair?</h3>
         <p>No. Neither changes your natural skin colour. With sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('gua-sha-with-glutathione-cream', 'How to use gua sha with glutathione cream',
+     'Gua Sha with Glutathione Cream: Right Order | Fair N Pink',
+     'How to use gua sha with glutathione cream: an oil or slippery layer for the stone, light strokes, the cream on clean skin after, and who should skip gua sha.',
+     'How to use', 'How to use a gua sha stone with a glutathione cream: what to glide on, light upward strokes, when to apply the cream, cleaning the stone and who should skip it.', '''
+        <p>To use gua sha with glutathione cream, glide the stone over a slippery layer such as a few drops of face oil or a thick moisturiser, then rinse or wipe off the excess and apply a thin layer of the glutathione cream on clean skin afterwards. Do not scrape over a thin cream that is still soaking in; the stone drags, and you rub most of the cream off.</p>
+        <p>Gua sha is a flat stone tool, often jade or rose quartz, used with light strokes along the face. Many people like it as a calming, few-minute ritual and find their face looks less puffy in the morning for a while. It does not brighten skin, remove tan or dark spots, or change your natural skin colour, and any "sculpted" look is short-lived.</p>
+        <h2>1. What gua sha can and cannot do</h2>
+        <table>
+          <thead><tr><th>Claim you may read</th><th>What is realistic</th></tr></thead>
+          <tbody>
+            <tr><td>Reduces puffiness</td><td>A short-term less-puffy look in the morning, which wears off during the day</td></tr>
+            <tr><td>Relaxes the face</td><td>Many people find it soothing; it is a nice way to slow down at night</td></tr>
+            <tr><td>Helps creams "absorb better"</td><td>Not really. Scraping over cream mostly moves it around or wipes it off</td></tr>
+            <tr><td>Removes dark spots, tan or makes skin fair</td><td>No. Spots and tan fade slowly with sunscreen and steady use of a suitable cream</td></tr>
+          </tbody>
+        </table>
+        <h2>2. The right order with glutathione cream</h2>
+        <ol>
+          <li><b>Wash your face and hands</b>, and make sure the stone is clean.</li>
+          <li><b>Apply a slip layer:</b> two or three drops of a plain face oil, or a thicker moisturiser. The stone should glide, never tug.</li>
+          <li><b>Do 3 to 5 minutes of light strokes</b> (see the steps below).</li>
+          <li><b>Wipe off the extra oil</b> with a soft tissue, or rinse with lukewarm water if your skin is oily.</li>
+          <li><b>Apply a pea-sized amount of glutathione cream</b> in a thin layer over the face and neck.</li>
+          <li><b>Morning:</b> if you do gua sha in the morning, finish with sunscreen. At night, leave the cream on.</li>
+        </ol>
+        <p>Can you use the cream itself as the slip layer? Only if it is thick enough for the stone to glide, and you use a little more than usual. If the stone drags or the cream pills, switch to oil first and cream after. For the cream steps, see <a href="/how-to-use/">how to use the cream</a>.</p>
+        <h2>3. Simple gua sha strokes (3 to 5 minutes)</h2>
+        <ol>
+          <li><b>Neck:</b> from just under the jaw down towards the collarbone, 3 to 5 strokes each side, very light.</li>
+          <li><b>Jawline:</b> from the chin out towards the ear, the curved edge of the stone along the jaw.</li>
+          <li><b>Cheeks:</b> from beside the nose out towards the ear, holding the stone almost flat.</li>
+          <li><b>Under the eyes:</b> only the lightest touch, from the inner corner outwards, or skip this area.</li>
+          <li><b>Forehead:</b> from the eyebrows up towards the hairline.</li>
+        </ol>
+        <p>Keep the pressure light: you should not see red streaks or feel pain. Hard scraping can leave redness and small broken capillaries, and on Indian skin any irritation can leave darker marks behind.</p>
+        <h2>4. Which slip layer suits your skin</h2>
+        <table>
+          <thead><tr><th>Skin type</th><th>What to glide on</th><th>Tip</th></tr></thead>
+          <tbody>
+            <tr><td>Dry</td><td>A few drops of jojoba or almond oil</td><td>Leave a little oil on and apply the cream over it; see <a href="/journal/glutathione-cream-for-dry-skin/">dry skin</a></td></tr>
+            <tr><td>Normal or combination</td><td>Two drops of a light oil, or a thick moisturiser</td><td>Wipe the T-zone after</td></tr>
+            <tr><td>Oily or acne-prone</td><td>A gel moisturiser or very little oil</td><td>Rinse after, then a thin layer of cream; see <a href="/journal/glutathione-cream-for-oily-skin/">oily skin</a></td></tr>
+            <tr><td>Sensitive</td><td>A plain, fragrance-free moisturiser</td><td>Once or twice a week, lightest pressure; see <a href="/journal/glutathione-cream-for-sensitive-skin/">sensitive skin</a></td></tr>
+          </tbody>
+        </table>
+        <p>Choosing an oil? See <a href="/journal/glutathione-cream-with-jojoba-oil/">jojoba oil</a> and <a href="/journal/glutathione-cream-with-almond-oil/">almond oil</a> with glutathione cream. In hot, humid months, skip heavy oils.</p>
+        <h2>5. Cool stone, clean stone</h2>
+        <ul>
+          <li><b>Keep it cool, not frozen:</b> a few minutes in the fridge feels nice on a warm Indian night. A frozen stone straight from the freezer can be too harsh; see <a href="/journal/ice-cube-with-glutathione-cream/">ice cube with glutathione cream</a> for the same idea.</li>
+          <li><b>Wash after every use</b> with mild soap and water, dry it and store it in its pouch.</li>
+          <li><b>Do not share it</b>, and stop using it if it chips; a sharp edge can scratch skin.</li>
+        </ul>
+        <h2>6. Who should skip gua sha</h2>
+        <ul>
+          <li>Active, swollen or painful pimples: the stone can spread bacteria and worsen redness. See <a href="/journal/glutathione-cream-for-acne-prone-skin/">acne-prone skin</a>.</li>
+          <li>Sunburn, rashes, cuts, or skin that was just waxed, threaded or bleached; wait a day or two. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after facial, threading and waxing</a>.</li>
+          <li>Visible broken veins, rosacea or very easily flushed skin.</li>
+          <li>After fillers, Botox or other clinic procedures: ask the doctor who did it first.</li>
+        </ul>
+        <h2>7. Where Fair N Pink fits</h2>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. Apply it after your gua sha on clean skin, in a thin layer. With daily sunscreen and steady use, it can help skin look brighter and more even over weeks; the gua sha is an optional, relaxing extra, not a needed step. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>8. When to see a dermatologist</h2>
+        <p>See a dermatologist if gua sha leaves bruises or redness that lasts, if you get itching or a rash after a new oil or cream, or if you have patches of darkness that keep spreading. Patch test any new product on your inner arm or jawline first.</p>
+        <h2>FAQ</h2>
+        <h3>Should I use gua sha before or after glutathione cream?</h3>
+        <p>Before. Do gua sha over a slippery layer of oil or moisturiser, wipe off the extra, then apply the cream on clean skin.</p>
+        <h3>Can I use glutathione cream as a gua sha oil?</h3>
+        <p>Only if it lets the stone glide without dragging. Most creams soak in too fast, so an oil or thick moisturiser works better.</p>
+        <h3>How often should I do gua sha?</h3>
+        <p>A few minutes, three to five times a week, is plenty. Sensitive skin should start once or twice a week.</p>
+        <h3>Can gua sha remove dark circles?</h3>
+        <p>It may make under-eyes look less puffy for a while, but it does not remove dark circles. See <a href="/journal/glutathione-cream-for-dark-circles/">glutathione cream for dark circles</a>.</p>
+        <h3>Does gua sha with glutathione cream make skin fair?</h3>
+        <p>No. Neither changes your natural skin colour. With sunscreen, the cream can help tan and marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-for-blackheads', 'Does glutathione cream help with blackheads?',
+     'Glutathione Cream for Blackheads: What Helps | Fair N Pink',
+     'Does glutathione cream help with blackheads? Not directly: it is for uneven tone. What actually clears blackheads, a weekly plan and how to fit the cream in.',
+     'Skin concerns', 'Does a glutathione cream clear blackheads? An honest answer, what blackheads are, what actually helps (salicylic acid, gentle cleansing), what to avoid, and a simple weekly plan.', '''
+        <p>No, glutathione cream does not clear blackheads by itself: it is meant to help dark spots and uneven tone look lighter over weeks, while blackheads are pores clogged with oil and dead skin. What helps blackheads is gentle twice-daily cleansing, a salicylic acid (BHA) product a few times a week, a light non-greasy moisturiser and patience; a glutathione cream can be part of that routine, but it is not the step that unclogs pores.</p>
+        <p>Blackheads are open clogged pores. The plug looks dark because it is exposed to air, not because it is dirt, so scrubbing harder does not wash them away. They are common on the nose, chin and forehead, especially in humid Indian summers and the monsoon, when skin makes more oil and sweat sits on the face.</p>
+        <h2>1. What helps blackheads and what does not</h2>
+        <table>
+          <thead><tr><th>Step or product</th><th>Helps blackheads?</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Salicylic acid (BHA) face wash or toner</td><td>Yes, over weeks</td><td>It is oil-soluble and works inside the pore to loosen the plug</td></tr>
+            <tr><td>Gentle face wash twice a day</td><td>Yes</td><td>Removes surface oil, sweat and sunscreen before they build up</td></tr>
+            <tr><td>Light, non-comedogenic moisturiser</td><td>Indirectly</td><td>Stripped, tight skin often makes more oil</td></tr>
+            <tr><td>Niacinamide</td><td>Can help skin look less oily</td><td>It does not unclog existing blackheads on its own</td></tr>
+            <tr><td>Glutathione cream</td><td>No, not directly</td><td>Meant for dark spots and uneven tone; can help a dark-looking nose area look more even over weeks</td></tr>
+            <tr><td>Harsh scrubs, toothpaste, lemon, baking soda</td><td>No</td><td>Irritate skin and can leave darker marks</td></tr>
+            <tr><td>Squeezing with nails</td><td>No</td><td>Pushes the plug deeper, can cause pimples and marks</td></tr>
+          </tbody>
+        </table>
+        <h2>2. A simple weekly plan for blackheads</h2>
+        <ol>
+          <li><b>Morning, every day:</b> gentle face wash, a thin layer of cream or light moisturiser, then broad-spectrum sunscreen of SPF 30 or more.</li>
+          <li><b>Night, every day:</b> wash off sunscreen and sweat. If you wore heavy sunscreen or makeup, wash twice gently.</li>
+          <li><b>Two or three nights a week:</b> a salicylic acid face wash or toner on the nose, chin and forehead. Start slowly; if your skin gets dry or red, use it less often.</li>
+          <li><b>Then:</b> a thin layer of moisturiser or your glutathione cream.</li>
+          <li><b>Once a week, optional:</b> a 10-minute clay pack on the T-zone; see <a href="/journal/glutathione-cream-with-multani-mitti/">multani mitti with glutathione cream</a>.</li>
+          <li><b>Be patient.</b> Pores clear slowly over weeks, and blackheads can come back if you stop.</li>
+        </ol>
+        <p>How to combine the two: see <a href="/journal/glutathione-cream-with-salicylic-acid/">glutathione cream with salicylic acid</a>.</p>
+        <h2>3. Where a glutathione cream fits</h2>
+        <p>Many people with blackheads also have a darker-looking nose, chin or upper lip, and old pimple marks. That part is where a glutathione cream can help over weeks, with sunscreen. Use a thin layer, not a thick one, on oily areas. Read <a href="/journal/glutathione-cream-for-dark-nose/">glutathione cream for dark nose</a> and <a href="/journal/glutathione-cream-for-pimple-marks/">glutathione cream for pimple marks</a> for those concerns.</p>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin. It does not contain salicylic acid, so it is not a blackhead treatment; it can sit in the same routine as a salicylic acid wash. See <a href="/ingredients/">what is inside</a>.</p>
+        <h2>4. Pore strips, steaming and parlour extraction</h2>
+        <ul>
+          <li><b>Pore strips</b> pull out the top of some plugs, but blackheads usually return within days, and strips can irritate thin or sensitive skin. Use rarely, if at all.</li>
+          <li><b>Steaming</b> softens skin for a short time; it does not open pores like a door. Keep it short and not too hot.</li>
+          <li><b>Extraction</b> at a parlour or clinic should be done with clean tools by a trained person. Skip actives like salicylic acid and glycolic acid for a day or two afterwards. See <a href="/journal/face-cream-after-facial-threading-waxing/">face cream after a facial</a>.</li>
+        </ul>
+        <h2>5. Habits that keep blackheads coming back</h2>
+        <ul>
+          <li>Sleeping in sunscreen or makeup.</li>
+          <li>Heavy oils or thick creams on an oily nose; read <a href="/journal/glutathione-cream-for-oily-skin/">glutathione cream for oily skin</a>.</li>
+          <li>Hair oil left on overnight that runs onto the forehead.</li>
+          <li>Pillow covers and face towels that are not washed often, especially in the monsoon.</li>
+          <li>Touching and picking at the nose through the day.</li>
+        </ul>
+        <h2>6. Blackheads vs whiteheads vs "strawberry nose"</h2>
+        <p>Whiteheads are closed clogged pores with a skin-coloured or white bump. Sebaceous filaments are small, even grey dots on the nose that are a normal part of skin and come back after any strip; they cannot be removed for good. Both respond to the same gentle plan above. If your nose skin itself looks darker, that is a tone concern, not blackheads.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist if blackheads come with painful red pimples or cysts, if you have many on the cheeks, back or chest, or if they do not improve after two to three months of a steady routine. A doctor can suggest prescription options. Patch test any new product first.</p>
+        <h2>FAQ</h2>
+        <h3>Does glutathione cream remove blackheads?</h3>
+        <p>No. It is not designed to unclog pores. A gentle face wash and a salicylic acid product a few times a week help blackheads; the cream helps uneven tone.</p>
+        <h3>Can I use glutathione cream on my nose if I have blackheads?</h3>
+        <p>Yes, in a thin layer. Use a light amount on oily areas and wash your face well every night.</p>
+        <h3>Can I use glutathione cream with a salicylic acid face wash?</h3>
+        <p>Yes for most skin. Use the wash, pat dry, then apply the cream. If skin gets dry or stings, use the wash less often.</p>
+        <h3>Why do my blackheads come back?</h3>
+        <p>Skin keeps making oil, so pores refill. Steady cleansing and salicylic acid keep them in check; no product removes them for good.</p>
+        <h3>Does glutathione cream make skin fair?</h3>
+        <p>No. It does not change your natural skin colour. With sunscreen, it can help tan and dark marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-mulethi': 'Yes, as a separate step: apply a simple mulethi powder pack on clean skin, rinse after 10 to 15 minutes, pat dry, then the glutathione cream, with sunscreen every morning. Never mix powder into the jar; a home pack will not remove spots or change skin colour.',
@@ -5421,5 +5556,7 @@ SHORT.update({
  'glutathione-cream-with-neem': 'Yes, as a separate step: use a neem face wash, cooled neem water or a 5 to 10 minute neem pack first, rinse or let it dry, then apply the glutathione cream, with sunscreen every morning. Never mix neem into the jar, and dry or sensitive skin can skip it.',
  'glutathione-cream-with-rosehip-oil': 'Yes. Apply the glutathione cream first, wait a few minutes, then press 1 to 2 drops of pure rosehip oil on dry or rough areas at night, with sunscreen every morning. Store the oil away from heat and throw it away if it smells sharp. Oily skin in humid weather usually does not need it.',
  'glutathione-cream-with-shea-butter': 'Yes, on dry skin. Apply the glutathione cream first, wait a few minutes, then press a rice-grain amount of shea butter on dry patches at night, with sunscreen every morning. Oily and acne-prone skin usually does better without it; use shea on lips, hands and heels instead.',
+ 'gua-sha-with-glutathione-cream': 'Glide the gua sha over a few drops of face oil or a thick moisturiser with light strokes, wipe off the extra, then apply a thin layer of glutathione cream on clean skin. Gua sha may reduce puffiness for a while; it does not brighten skin or remove spots.',
+ 'glutathione-cream-for-blackheads': 'Not directly. Glutathione cream is for dark spots and uneven tone; blackheads are clogged pores. A gentle face wash twice a day and a salicylic acid product two or three times a week help blackheads, and the cream can sit in the same routine.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
