@@ -5473,6 +5473,132 @@ MORE_ARTICLES = [
         <p>Skin keeps making oil, so pores refill. Steady cleansing and salicylic acid keep them in check; no product removes them for good.</p>
         <h3>Does glutathione cream make skin fair?</h3>
         <p>No. It does not change your natural skin colour. With sunscreen, it can help tan and dark marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-fitkari', 'Can you use fitkari (alum) with glutathione cream?',
+     'Glutathione Cream with Fitkari (Alum): Safe? | Fair N Pink',
+     'Can you use fitkari (alum) with glutathione cream? Keep alum off the face as a routine step. Safer use after shaving, the right order and what alum cannot do.',
+     'Ingredients', 'Fitkari (alum) and glutathione cream: why alum is not a face-care step, the one time it is commonly used (after shaving), the right order if you do, and gentler swaps.', '''
+        <p>It is better not to use fitkari (alum) on your face as part of a glutathione cream routine: alum is a strong astringent that can leave skin dry, tight and stinging, and it does nothing for dark spots or tan. If you already use an alum block after shaving, rinse it off, let skin calm down, moisturise, and apply your glutathione cream later, never on freshly alum-rubbed skin.</p>
+        <p>Fitkari is the clear crystal block sold in kirana and pooja shops, and many Indian homes use it after shaving, to "tighten" pores, or in home packs for pimples and dark spots. It does tighten the feel of skin for a while, which is why it seems to work. That tight feel is mostly a drying, drawing effect, not a change in pores or skin tone.</p>
+        <h2>1. What fitkari can and cannot do</h2>
+        <table>
+          <thead><tr><th>Claim you may hear</th><th>What is true</th></tr></thead>
+          <tbody>
+            <tr><td>"Closes pores"</td><td>It gives a temporary tight feel; pores do not open and close like doors</td></tr>
+            <tr><td>"Stops bleeding from shaving nicks"</td><td>It can help small nicks stop bleeding, which is why barbers use it</td></tr>
+            <tr><td>"Removes dark spots and tan"</td><td>No. Alum does not fade marks or tan</td></tr>
+            <tr><td>"Makes skin fair"</td><td>No. Nothing you rub on skin changes natural skin colour</td></tr>
+            <tr><td>"Clears pimples"</td><td>No. It can dry the surface but also irritate; see a dermatologist for painful acne</td></tr>
+          </tbody>
+        </table>
+        <h2>2. Why alum and a face cream routine do not mix well</h2>
+        <ul>
+          <li><b>Dryness and tightness:</b> alum draws moisture from the surface. Dry, irritated skin often looks duller and can feel itchy.</li>
+          <li><b>Stinging:</b> on freshly shaved, scrubbed or broken skin, alum stings, and any cream on top can sting more.</li>
+          <li><b>Hidden irritation:</b> daily rubbing can leave skin red or flaky, and irritation can make dark marks on brown skin look darker over time.</li>
+          <li><b>Hygiene:</b> one wet block passed from face to face or left damp on the sink is not clean.</li>
+        </ul>
+        <h2>3. If you use fitkari after shaving: the safer order</h2>
+        <ol>
+          <li><b>Shave</b> with a sharp, clean blade along the direction of hair growth.</li>
+          <li><b>Rinse with cool water.</b> Only if you have small nicks, touch a wet alum block lightly to those spots, not the whole face.</li>
+          <li><b>Rinse again after a minute</b> so no alum stays on skin, and pat dry.</li>
+          <li><b>Apply a plain, fragrance-free moisturiser</b> or aloe vera gel; see <a href="/journal/glutathione-cream-with-aloe-vera-gel/">glutathione cream with aloe vera gel</a>.</li>
+          <li><b>Apply your glutathione cream at night</b>, or at least a few hours later, once skin has stopped stinging. If skin still stings, skip the cream that day.</li>
+          <li><b>Every morning:</b> broad-spectrum sunscreen of SPF 30 or more.</li>
+        </ol>
+        <p>Full shaving routine: <a href="/journal/glutathione-cream-after-shaving/">glutathione cream after shaving</a>.</p>
+        <h2>4. Fitkari in home face packs</h2>
+        <p>Recipes that mix fitkari powder with rose water, lemon or besan for spots are best skipped. Lemon and alum together are especially harsh. Never add alum, or any kitchen or pooja ingredient, into your cream jar. If you want a gentle home pack, compare <a href="/journal/rose-water-with-glutathione-cream/">rose water</a> or <a href="/journal/glutathione-cream-with-multani-mitti/">multani mitti</a> with glutathione cream instead, and read why <a href="/journal/lemon-with-glutathione-cream/">lemon is a bad idea</a>.</p>
+        <h2>5. Gentler swaps for what people want from alum</h2>
+        <table>
+          <thead><tr><th>What you want</th><th>Gentler choice</th></tr></thead>
+          <tbody>
+            <tr><td>Less oily look</td><td>Gentle face wash twice a day and a thin, light cream; see <a href="/journal/glutathione-cream-for-oily-skin/">oily skin</a></td></tr>
+            <tr><td>Smaller-looking pores and blackheads</td><td>A salicylic acid wash a few times a week; see <a href="/journal/glutathione-cream-for-blackheads/">blackheads</a></td></tr>
+            <tr><td>Calm skin after shaving</td><td>Cool water, aloe vera gel or a plain moisturiser</td></tr>
+            <tr><td>Dark spots and tan looking lighter</td><td>Daily sunscreen and a cream with ingredients like niacinamide and alpha arbutin, used for weeks</td></tr>
+          </tbody>
+        </table>
+        <p><a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and no alum. Used on calm skin with sunscreen every morning, it can help dark spots and uneven tone look lighter over weeks. See <a href="/how-to-use/">how to use it</a>.</p>
+        <h2>6. Using fitkari on underarms or feet</h2>
+        <p>Some people use alum as a simple deodorant or on sweaty feet. That is a separate use from face care. Do not apply it on freshly shaved or waxed underarms, and stop if it stings or itches.</p>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist for razor bumps that keep coming back, painful or pus-filled pimples, a rash after using alum, or dark patches that keep spreading. Patch test any new product on the jawline first.</p>
+        <h2>FAQ</h2>
+        <h3>Can I apply glutathione cream after fitkari?</h3>
+        <p>Not straight away. Rinse the alum off, moisturise, and apply the cream later once skin has stopped stinging, ideally at night.</p>
+        <h3>Can I mix fitkari powder into my glutathione cream?</h3>
+        <p>No. It can irritate skin and spoil the cream. Keep the jar clean and use only the cream from it.</p>
+        <h3>Does fitkari remove dark spots?</h3>
+        <p>No. Alum does not fade dark spots or tan. Daily sunscreen and a steady routine for weeks help marks look lighter.</p>
+        <h3>Is fitkari good for oily skin?</h3>
+        <p>It dries the surface for a while, but stripped skin can feel worse. A gentle face wash and a light cream are kinder for oily skin.</p>
+        <h3>Does glutathione cream make skin fair?</h3>
+        <p>No. It does not change your natural skin colour. With sunscreen, it can help tan and dark marks look lighter over weeks.</p>'''),
+    ('glutathione-cream-with-bakuchiol', 'Can you use bakuchiol with glutathione cream?',
+     'Glutathione Cream with Bakuchiol: How to Layer | Fair N Pink',
+     'Can you use bakuchiol with glutathione cream? Yes: serum first, cream on top, at night. Order, who it suits, and how it differs from retinol and raw babchi.',
+     'Ingredients', 'Bakuchiol and glutathione cream together: the right order, who it suits, how bakuchiol differs from retinol and from raw babchi oil, and a simple weekly plan.', '''
+        <p>Yes, you can use bakuchiol with glutathione cream. Apply a thin bakuchiol serum first on clean, dry skin at night, wait a minute, then a thin layer of glutathione cream on top, and wear sunscreen every morning.</p>
+        <p>Bakuchiol is a plant compound taken from the seeds of the babchi plant (Psoralea corylifolia). In skincare it is sold as a gentler "plant alternative to retinol" for smoother-looking, more even-looking skin. It is a separate product: <a href="/">Fair N Pink Advance Radiance Cream</a> has L-glutathione, niacinamide (vitamin B3) and alpha arbutin, and no bakuchiol or retinol.</p>
+        <h2>1. Bakuchiol, retinol and raw babchi oil are not the same</h2>
+        <table>
+          <thead><tr><th></th><th>Bakuchiol serum</th><th>Retinol</th><th>Raw babchi seed oil</th></tr></thead>
+          <tbody>
+            <tr><td>What it is</td><td>One purified compound from babchi seeds, in a cosmetic serum or cream</td><td>A form of vitamin A</td><td>Crude oil from the whole seed</td></tr>
+            <tr><td>Feel on skin</td><td>Usually gentle; some people still get dryness or redness</td><td>Often dryness and peeling in the first weeks</td><td>Can irritate and make skin more sensitive to sun</td></tr>
+            <tr><td>On the face?</td><td>Yes, after a patch test</td><td>Yes, slowly, at night</td><td>No, not without a doctor's advice</td></tr>
+            <tr><td>In pregnancy</td><td>Ask your doctor</td><td>Usually avoided; ask your doctor</td><td>Avoid</td></tr>
+          </tbody>
+        </table>
+        <p>If a bottle says "babchi oil" rather than bakuchiol, it is not the same thing. Do not put raw babchi oil on your face. For retinol specifically, read <a href="/journal/glutathione-cream-with-retinol/">glutathione cream with retinol</a>.</p>
+        <h2>2. The right order at night</h2>
+        <ol>
+          <li><b>Wash your face</b> with a gentle face wash and pat dry fully.</li>
+          <li><b>Bakuchiol serum:</b> two or three drops for the whole face, pressed in.</li>
+          <li><b>Wait about a minute</b> so it settles.</li>
+          <li><b>Glutathione cream:</b> a thin layer over the face and neck. If your skin is dry, add a plain moisturiser on top; see <a href="/journal/glutathione-cream-and-moisturiser/">glutathione cream and moisturiser</a>.</li>
+          <li><b>Every morning:</b> gentle wash, a thin layer of cream or moisturiser, then broad-spectrum sunscreen of SPF 30 or more.</li>
+        </ol>
+        <p>If your bakuchiol comes as a thick cream, use it on alternate nights instead of layering two creams on top of each other.</p>
+        <h2>3. A simple first-month plan</h2>
+        <table>
+          <thead><tr><th>Weeks</th><th>Bakuchiol</th><th>Glutathione cream</th></tr></thead>
+          <tbody>
+            <tr><td>1 to 2</td><td>2 or 3 nights a week, after a patch test</td><td>As usual on its own on the other days</td></tr>
+            <tr><td>3 to 4</td><td>Every other night if skin is comfortable</td><td>Layered on top on bakuchiol nights</td></tr>
+            <tr><td>After that</td><td>Nightly if your skin is happy</td><td>Daily, with sunscreen every morning</td></tr>
+          </tbody>
+        </table>
+        <p>Patch test the bakuchiol on the jawline for three nights before the whole face; here is <a href="/journal/glutathione-cream-for-sensitive-skin/">how to start on sensitive skin</a>.</p>
+        <h2>4. Who it suits, and who should skip it</h2>
+        <ul>
+          <li><b>Normal, combination and oily skin:</b> a light bakuchiol serum under a thin cream usually sits well, even in humid weather. See <a href="/journal/glutathione-cream-for-combination-skin/">combination skin</a>.</li>
+          <li><b>Dry skin:</b> add a moisturiser on top, especially in winter; read <a href="/journal/glutathione-cream-in-winter/">glutathione cream in winter</a>.</li>
+          <li><b>Already using retinol, glycolic or salicylic acid:</b> you do not need bakuchiol too. Too many active steps at once is a common cause of redness.</li>
+          <li><b>Pregnant or breastfeeding:</b> ask your doctor before starting any new active product.</li>
+        </ul>
+        <h2>5. What to expect, honestly</h2>
+        <p>Bakuchiol is used for smoother-looking skin and a more even look over many weeks. It does not change your natural skin colour, and it does not remove tan or dark spots on its own. With glutathione, niacinamide and alpha arbutin at night and sunscreen every morning, marks can look lighter slowly, over weeks to months. For the timeline of the cream, read <a href="/journal/how-long-does-glutathione-cream-take-to-work/">how long glutathione cream takes to work</a>.</p>
+        <h2>6. Signs to slow down</h2>
+        <ul>
+          <li>Stinging that lasts more than a few minutes, redness or itching: stop the bakuchiol for a few nights, then try fewer nights a week.</li>
+          <li>New small bumps: the serum or the layering may be too heavy for you; try alternate nights.</li>
+          <li>Rash or swelling: stop both products and see a dermatologist.</li>
+        </ul>
+        <h2>7. When to see a dermatologist</h2>
+        <p>See a dermatologist for painful or cystic acne, patches on both cheeks that may be melasma, a rash after any product, or before starting actives in pregnancy. Patch test any new product first.</p>
+        <h2>FAQ</h2>
+        <h3>Can I use bakuchiol and glutathione cream together every night?</h3>
+        <p>Many people can after a few weeks of building up. Start with 2 or 3 nights a week and increase only if your skin stays comfortable.</p>
+        <h3>Which goes first, bakuchiol or glutathione cream?</h3>
+        <p>A thin bakuchiol serum goes first, then the cream. If both are creams, use them on alternate nights.</p>
+        <h3>Can I use bakuchiol in the morning?</h3>
+        <p>Night is simpler. If you use it in the morning, always follow with sunscreen.</p>
+        <h3>Is babchi oil the same as bakuchiol?</h3>
+        <p>No. Raw babchi seed oil can irritate and make skin more sensitive to sun. Do not apply it to your face without a doctor's advice.</p>
+        <h3>Does glutathione cream make skin fair?</h3>
+        <p>No. It does not change your natural skin colour. With sunscreen, it can help tan and dark marks look lighter over weeks.</p>'''),
 ]
 SHORT.update({
  'glutathione-cream-with-mulethi': 'Yes, as a separate step: apply a simple mulethi powder pack on clean skin, rinse after 10 to 15 minutes, pat dry, then the glutathione cream, with sunscreen every morning. Never mix powder into the jar; a home pack will not remove spots or change skin colour.',
@@ -5558,5 +5684,7 @@ SHORT.update({
  'glutathione-cream-with-shea-butter': 'Yes, on dry skin. Apply the glutathione cream first, wait a few minutes, then press a rice-grain amount of shea butter on dry patches at night, with sunscreen every morning. Oily and acne-prone skin usually does better without it; use shea on lips, hands and heels instead.',
  'gua-sha-with-glutathione-cream': 'Glide the gua sha over a few drops of face oil or a thick moisturiser with light strokes, wipe off the extra, then apply a thin layer of glutathione cream on clean skin. Gua sha may reduce puffiness for a while; it does not brighten skin or remove spots.',
  'glutathione-cream-for-blackheads': 'Not directly. Glutathione cream is for dark spots and uneven tone; blackheads are clogged pores. A gentle face wash twice a day and a salicylic acid product two or three times a week help blackheads, and the cream can sit in the same routine.',
+ 'glutathione-cream-with-fitkari': 'Better not as a face routine step. Fitkari (alum) dries and can sting skin and does not fade dark spots or tan. If you use it on shaving nicks, rinse it off, moisturise, and apply glutathione cream later, once skin has stopped stinging.',
+ 'glutathione-cream-with-bakuchiol': 'Yes. At night, apply a thin bakuchiol serum on clean, dry skin, wait a minute, then a thin layer of glutathione cream. Start 2 or 3 nights a week after a patch test, and wear sunscreen every morning. Raw babchi oil is not the same; keep it off your face.',
 })
 ARTICLES = ARTICLES + MORE_ARTICLES
